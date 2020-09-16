@@ -1,0 +1,124 @@
+#app-mount {
+    .container-ZRw2kD {
+        width:274px;
+        border-radius:var(--border-radius);
+        box-shadow:var(--elevation-1);
+        background:var(--background);
+        border:1px solid var(--base-border);
+        .loadingBackground-1p5N1j {
+            height:84px;
+            width:100%;
+            margin:0;
+            background:var(--text-normal);
+            -webkit-mask:url($icon_spinner) center/12px no-repeat;
+            animation:rotate 1s linear infinite;
+            .loading-1lSwpg {
+                display:none;
+            }
+        }
+        .emojiSection-3Fb9ix {
+            padding:var(--spacing);
+            background:transparent;
+            .primaryEmoji-3LinDq {
+                width:var(--avatar-size-lg);
+                height:var(--avatar-size-lg);
+                min-width:unset;
+                min-height:unset;
+                margin:0;
+                border-radius:var(--border-radius);
+            }
+            .colorStandard-2KCXvj {
+                color:var(--text-muted);
+                font-size:var(--font-size);
+                font-weight:var(--font-weight);
+                line-height:normal;
+                &.emojiName-27Bjxw {
+                    color:var(--text-normal);
+                    font-weight:var(--font-weight-semibold);
+                }
+            }
+            button {
+                margin:0;
+                width:auto;
+                margin-top:var(--spacing);
+            }
+            .truncatingText-18osv_ {
+                margin-left:var(--spacing);
+            }
+        }
+        .guildSection-1EoFKd {
+            padding:var(--spacing);
+            background:var(--background-light);
+            border-top:1px solid var(--base-border);
+            .flex-1xMQg5 {
+                svg {
+                    width:var(--avatar-size-lg);
+                    height:var(--avatar-size-lg);
+                    foreignObject {
+                        mask:none;
+                        .guildIcon-1zxZMV {
+                            border-radius:var(--border-radius);
+                        }
+                    }
+                }
+            }
+            .guildName-nBoMcU {
+                line-height:normal;
+            }
+            .guildTitle-2IliYu {
+                margin-bottom:var(--spacing-half);
+                font-size:var(--font-size);
+            }
+            .overflow-WK9Ogt {
+                color:var(--text-normal);
+                font-size:var(--font-size);
+            }
+            .dotSeparator-2SMscJ {
+                background-color:var(--text-muted);
+            }
+            .showMoreEmojis-1Xd5A3 {
+                min-height: var(--input-height);
+                height: var(--input-height);
+                line-height: normal;
+                transition: none;
+                box-sizing:border-box;
+                display:flex;
+                align-items:center;
+                width:fit-content;
+                cursor: default;
+                padding: 0 var(--spacing);
+                margin-top:var(--spacing);
+                border-radius: var(--button-border-radius);
+                background: var(--background-light);
+                border: 1px solid var(--base-border);
+                font-size: var(--font-size);
+                font-weight: var(--font-weight-normal);
+                color: var(--text-normal);
+                .flex-1xMQg5 {
+                    flex-grow:0 !important;
+                }
+                .showMoreEmojisArrow-PK64BO {
+                    display:none;
+                }
+                &:hover {
+                    border: 1px solid currentColor;
+                  }
+                  &:focus {
+                    box-shadow: 0 0 0 1px currentColor !important;
+                    border: 1px solid currentColor !important;
+                  }
+            }
+        }
+    }
+}
+
+html.theme-light #app-mount .container-ZRw2kD .guildSection-1EoFKd .showMoreEmojis-1Xd5A3 {
+    &:hover {
+        background: var(--background);
+        border: 1px solid var(--secondary-border-color);
+    }
+    &:focus {
+        box-shadow: 0 0 0 2px rgba(0,0,0,0.05) !important;
+        border: 1px solid var(--secondary-border-color) !important;
+    }
+}

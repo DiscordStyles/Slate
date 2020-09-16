@@ -1,0 +1,112 @@
+// Windows Titlebar
+
+#app-mount .typeWindows-1za-n7 {
+  height: calc(var(--titlebar-height) - 2px);
+  border-bottom: 1px solid var(--toolbar-border);
+  margin-top: 2px;
+  position: relative;
+  width: 100vw;
+  .wordmarkWindows-1v0lYD {
+    padding: 0 var(--spacing-half);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: var(--titlebar-height);
+    margin-top: -3px;
+    svg {
+      display: none;
+    }
+    &:before {
+      content: '';
+      width: var(--titlebar-height);
+      height: var(--titlebar-height);
+      position: relative;
+      mask: url($icon_discord) center/18px no-repeat;
+      top: 2px;
+      background: var(--toolbar-text-muted);
+      -webkit-app-region: drag;
+    }
+    &:after {
+      content: '';
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: var(--titlebar-height);
+      background: var(--toolbar-background-alt);
+      z-index: -1;
+    }
+  }
+  .winButton-iRh8-Z {
+    height: var(--titlebar-height);
+    width: 45px;
+    color: var(--toolbar-text-muted);
+    top: -2px;
+    cursor: default;
+    &:hover {
+      background:var(--toolbar-background-hover);
+      color:var(--white);
+    }
+    &:active {
+      background:var(--toolbar-background-active);
+      color:var(--white);
+    }
+  }
+  .winButtonMinMax-PBQ2gm:nth-child(3) {
+    svg {
+      display:none;
+    }
+    &:after {
+      content:'';
+      width:10px;
+      height:10px;
+      -webkit-mask:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" version="1.1" width="10" height="10"><path d="M 0,0 0,10 10,10 10,0 Z M 1,1 9,1 9,9 1,9 Z"/></svg>') center/cover no-repeat;
+      background:var(--toolbar-text-muted);
+    }
+    &:active:after,
+    &:hover:after {
+      background:var(--white);
+    }
+  }
+  .winButtonClose-1HsbF- {
+    path {
+      d:path('M 0,0 0,0.7 4.3,5 0,9.3 0,10 0.7,10 5,5.7 9.3,10 10,10 10,9.3 5.7,5 10,0.7 10,0 9.3,0 5,4.3 0.7,0 Z');
+    }
+    &:hover {
+      background:var(--win32-close-background-hover);
+    }
+    &:active {
+      background:var(--win32-close-background-active);
+    }
+  }
+}
+
+// Mac Titlebar
+
+.typeMacOS-3EmCyP {
+  position:relative;
+  z-index:3001;
+  width:100%;
+  height:var(--titlebar-height);
+  padding:0 var(--spacing-half);
+  background:var(--toolbar-background-alt);
+  border-bottom:1px solid var(--toolbar-border);
+  display:flex;
+  justify-content:center;
+  .macButtons-2MuSAC {
+    padding:0 var(--spacing-half);
+    height:100%;
+    position:absolute;
+    left:var(--spacing-half);
+  }
+  &:after {
+    content: '';
+    width: var(--titlebar-height);
+    height: var(--titlebar-height);
+    position: relative;
+    display:block;
+    mask: url($icon_discord) center/18px no-repeat;
+    opacity: .5;
+    background: var(--white);
+  }
+}

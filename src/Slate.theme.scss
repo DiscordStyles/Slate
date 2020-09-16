@@ -1,0 +1,39 @@
+/**
+ * @name Slate
+ * @author Gibbu#1211 & Tropical#8908
+ * @version Dev
+ * @invite TeRQEPb
+ * @description An optimized, consistent, and functional theme for Discord based on GitHub's design language.
+ * @source https://github.com/Gibbu/BetterDiscord-Themes/tree/master/Slate
+ * @website https://gibbu.github.io/BetterDiscord-Themes/Slate/
+*/
+@import url("https://gibbu.github.io/BetterDiscord-Themes/AdjustableServerWidth/base.css");
+:root {
+  --accent: 3, 102, 214;
+  --link-colour: 48, 144, 255;
+  --server-icon-size: 35px;
+  --server-icon-spacing: 8px;
+  --server-container-padding: 10px;
+}
+
+@import 'root';
+@import 'dark';
+@import 'light';
+
+@import 'assets/import';
+@import 'app/import';
+@import 'channels/import';
+@import 'guilds/guilds';
+@import 'chat/import';
+@import 'members/import';
+@import 'pages/import';
+@import 'popouts/import';
+@import 'settings/import';
+@import 'bd/import';
+@import 'modals/import';
+@import 'inputs/import';
+
+@import 'os/import';
+@import 'plugins/import';
+
+@import 'keyframes';

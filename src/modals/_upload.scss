@@ -1,0 +1,90 @@
+#app-mount .uploadModal-2ifh8j {
+  background-color: var(--background-dark);
+  border-radius: var(--border-radius);
+  box-shadow: none;
+  position: relative;
+  padding-top: 32px;
+  min-height: unset;
+  .inner-3nWsbo {
+    margin: 0;
+  }
+  .file-34mY5K {
+    position: unset;
+    height: auto;
+  }
+  .icon-kyxXVr {
+    &:not(.image-2yrs5j) {
+      display: none;
+    }
+    &.image-2yrs5j {
+      margin: 0;
+      width: 100%;
+      background-size: cover;
+      border-radius: 0;
+      box-shadow: none;
+      height: 298.13px;
+      border-bottom: 1px solid var(--base-border);
+      background-color: var(--background);
+      &:active {
+        background-size: 100%;
+      }
+    }
+  }
+  .description-2ug5H_ {
+    height: auto;
+    padding-top: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    padding: 0 var(--spacing);
+    border-bottom: 1px solid var(--base-border);
+    background: var(--background);
+    width: 100%;
+    border-radius: var(--border-radius) var(--border-radius) 0 0;
+    div {
+      font-size: var(--font-size);
+      line-height: normal;
+      height: auto;
+    }
+  }
+  .label-3aiqT2 {
+    display: none;
+  }
+  .comment-4IWttf {
+    margin: 0;
+    padding: var(--spacing-double);
+  }
+  .channelTextArea-2VhZ6z {
+    margin: 0 0 5px;
+  }
+  .scrollableContainer-2NUZem {
+    border-radius: var(--border-radius);
+  }
+  .charcounter {
+    font-size: var(--font-size);
+    opacity: .5;
+  }
+  .footer-3mqk7D {
+    background: var(--background);
+    box-shadow: none;
+    border-top: 1px solid var(--base-border);
+    padding: var(--spacing);
+  }
+  .checkboxWrapper-SkhIWG {
+    flex: none;
+  }
+  .checkbox-1ix_J3 {
+    border: none;
+    background: var(--background-dark);
+    &.checked-3_4uQ9 {
+      background: var(--accent-solid);
+      polyline {
+        stroke: #fff;
+      }
+    }
+  }
+}

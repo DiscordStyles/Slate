@@ -1,0 +1,52 @@
+@keyframes growIn {
+  from {
+    transform: scale(0) !important;
+    opacity: 0 !important;
+  }
+  to {
+    transform: scale(1) !important;
+    opacity: 1 !important;
+  }
+}
+
+@keyframes modal {
+  0% {
+    transform:scale(.75);
+  }
+  100% {
+    transform:scale(1);
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@keyframes addJoinMenu {
+  0% {
+    transform:translateX(-10%);
+  }
+  100% {
+    transform:none;
+  }
+}
+
+@keyframes rotate {
+  0% {
+    transform:rotate(0);
+  }
+  100% {
+    transform:rotate(360deg);
+  }
+}
+
+@keyframes progress-indeterminate {
+  100% {
+    background-position: 100px 0px;
+  } 
+}

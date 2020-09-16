@@ -1,0 +1,43 @@
+.theme-dark,
+html.theme-dark #app-mount .theme-light .root-1gCeng,
+html.theme-dark .force-theme.theme-light {
+  // Text and Borders
+  --base-border: #141414;
+  --text-normal: #d1d5da;
+  --text-muted: #959da5;
+  --text-focus: #ffffff;
+  --text-link: rgb(var(--link-colour));
+
+  // Background
+  --background-light: #2f363d;
+  --background: #24292e;
+  --background-alt: #2a3036;
+  --background-dark: #1d2125;
+
+  // Guilds
+  --guilds-background:var(--background);
+
+  // White
+  --white:#ffffff; // Only use to contrast a primary background.
+
+  // Input
+  --input-height: 25px;
+  
+  // Scrollbars
+  --scrollbar-background: rgb(255 255 255 / 0.1);
+  --scrollbar-background-hover: rgb(255 255 255 / 0.2);
+  --scrollbar-background-active: rgb(255 255 255 / 0.3);
+
+  // Discord variables
+  --background-modifier-hover: var(--background-light);
+  --background-modifier-active: #444d56;
+  --background-modifier-selected: var(--accent-solid);
+
+  // Syntax
+  --syntax-blue:#79b8ff;
+  --syntax-purple:#b392f0;
+  --syntax-grey:#959da5;
+  --syntax-grey-alt:#d1d5da;
+  --syntax-orange:#ffab70;
+  --syntax-green:#56b6c2;
+}

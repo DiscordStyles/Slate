@@ -1,0 +1,167 @@
+.app-2rEoOp:active + .container-16j22k {
+  display:none;
+}
+#app-mount .container-16j22k {
+  background:var(--background-alt);
+  flex-direction:column;
+  justify-content:flex-start;
+  top:0;
+  padding:0;
+  .content-1-zrf2 {
+    flex-grow:1;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    video {
+      display:none;
+    }
+    &:before {
+      content:'Connecting';
+      font-size:var(--font-size-xxl);
+      font-weight:var(--font-weight-light);
+      color:var(--text-normal);
+      margin-bottom:var(--spacing-double);
+    }
+    .keybindShortcut-1BD6Z1 span {
+      line-height: var(--line-height);
+      border-radius:var(--border-radius);
+      padding:var(--spacing-third) var(--spacing-half);
+      color:var(--text-normal);
+      background:var(--background-modifier-active);
+      font-size:var(--font-size-sm);
+      font-weight:var(--font-weight-normal);
+      text-transform:capitalize;
+      flex-grow:0;
+      display:inline-flex;
+      align-items:center;
+      box-shadow:none;
+      border:none;
+      margin-right:var(--spacing-half);
+      user-select:none;
+      height:23px;
+    }
+    .text-3c9Zq1 {
+      top:0;
+      display:flex;
+      justify-content:center;
+      flex-direction:row;
+      flex-wrap:wrap;
+      max-width:80vw;
+      &:before {
+        content:'';
+        width:100%;
+        height:9px;
+        margin-bottom:var(--spacing);
+        display:block;
+        animation:progress-indeterminate 5s linear infinite;
+        background-image:linear-gradient(-45deg, transparent 33%, var(--text-normal) 33%, var(--text-normal) 66%, transparent 66%);
+        background-size:25px 10px, 100% 100%, 100% 100%;
+        background-color:var(--background);
+      }
+      .tipTitle-GL9qAt {
+        max-width:100%;
+        width:fit-content;
+        margin:0;
+        margin-right:var(--spacing-half);
+        color:var(--text-normal);
+        font-size:var(--font-size);
+        font-weight:var(--font-weight-semibold);
+        text-transform:none;
+        display:flex;
+        align-items:center;
+        &:after {
+          content:':';
+        }
+      }
+      .tip-2cgoli {
+        color:var(--text-muted);
+        font-size:var(--font-size);
+        font-weight:var(--font-weight-normal);
+        line-height:normal;
+        max-width:100%;
+        width:fit-content;
+        display:inline-block;
+      }
+    }
+  }
+  .problems-3mgf6w {
+    width:fit-content;
+    border-radius:var(--border-radius);
+    padding:0;
+    left:50%;
+    transform:translateY(200%) translateX(-50%);
+    margin:0 var(--spacing);
+    margin-bottom:var(--spacing-double);
+    transition:none;
+    &.slideIn-sCvzGz {
+      transform:translateX(-50%);
+    }
+    .problemsText-1Yx-Kl {
+      font-size:var(--font-size);
+      color:var(--text-normal);
+      font-weight:var(--font-weight-normal);
+      margin-bottom:var(--spacing);
+    }
+    a {
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      font-size: var(--font-size);
+      font-weight: var(--font-weight-normal);
+      cursor: default;
+      min-height: var(--input-height);
+      height: var(--input-height);
+      line-height: normal;
+      box-sizing:border-box;
+      padding: 0 var(--spacing);
+      border-radius: var(--button-border-radius);
+      opacity:1;
+      text-decoration:none;
+      margin:0;
+      svg {
+        display:none;
+      }
+      &.twitterLink-3NsWMp {
+        margin-right:var(--spacing);
+        color: var(--white);
+        background-color: rgb(var(--accent));
+        &:hover {
+          box-shadow: inset 0 0 0 100vmax rgba(255,255,255,0.1);
+        }
+        &:focus {
+          box-shadow: 0 0 0 2px rgba(var(--accent), 0.25), inset 0 0 0 100vmax rgba(255,255,255,0.1);
+        }
+      }
+      &.statusLink-gFXhrL {
+        color: var(--text-normal);
+        background: var(--background-light);
+        border: 1px solid var(--base-border);
+        box-shadow: none !important;
+        &:hover {
+          border: 1px solid currentColor;
+        }
+        &:focus {
+          box-shadow: 0 0 0 1px currentColor !important;
+          border: 1px solid currentColor !important;
+        }
+      }
+      &:before {
+        content:none;
+      }
+    }
+  }
+}
+
+// Light Mode
+
+html.theme-light #app-mount .container-16j22k .problems-3mgf6w a.statusLink-gFXhrL {
+  &:hover {
+    background: var(--background);
+    border: 1px solid var(--secondary-border-color);
+  }
+  &:focus {
+    box-shadow: 0 0 0 2px rgba(0,0,0,0.05) !important;
+    border: 1px solid var(--secondary-border-color) !important;
+  }
+}

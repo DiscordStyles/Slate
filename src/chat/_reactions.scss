@@ -1,0 +1,82 @@
+#app-mount {
+    .reactions-12N0jA {
+        margin:0;
+        padding:0;
+        .reactionBtn-3N03Zj {
+            color:var(--text-muted);
+            cursor:default;
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            &:hover,
+            &[aria-expanded="true"] {
+                color:var(--accent-solid) !important;
+            }
+            svg {
+                width:12px;
+                height:12px;
+                color:inherit;
+                path {
+                    d:path($path_add);
+                    transform:scale(1.6) translateX(1px) translateY(-1px);
+                }
+            }
+        }
+        .reaction-1hd86g {
+            background: var(--background-light);
+            border:1px solid var(--base-border);
+            margin-bottom:var(--spacing-half);
+            margin-right:var(--spacing-half);
+            border-radius:var(--button-border-radius);
+            cursor:default;
+            box-sizing:border-box;
+            padding:var(--spacing-third) var(--spacing-half);
+            color:var(--text-normal);
+            &:hover {
+                border: 1px solid currentColor;
+            }
+            &:active {
+                box-shadow: 0 0 0 1px currentColor;
+                border: 1px solid currentColor;
+            }
+            .reactionInner-15NvIl {
+                padding:0;
+                .reactionCount-2mvXRV {
+                    margin:0;
+                    margin-left:var(--spacing-third);
+                    font-size:var(--font-size-sm);
+                    color:var(--text-normal);
+                    font-weight:var(--font-weight-normal);
+                }
+                .emoji {
+                    margin:0;
+                    width:var(--font-size-md);
+                    height:var(--font-size-md);
+                }
+            }
+            &.reactionMe-wv5HKu {
+                background: rgba(var(--accent), 0.25);
+                border-color:var(--accent-solid);
+                .reactionCount-2mvXRV {
+                    color: var(--text-focus);
+                }
+                &:active {
+                    box-shadow:0 0 0 2px rgba(var(--accent), 0.25);
+                }
+            }
+        }
+    }
+}
+
+// Light Mode
+
+html.theme-light #app-mount .reactions-12N0jA .reaction-1hd86g:not(.reactionMe-wv5HKu) {
+    &:hover {
+        background: var(--background);
+        border: 1px solid var(--secondary-border-color);
+    }
+    &:active {
+        box-shadow: 0 0 0 2px rgba(0,0,0,0.05) !important;
+        border: 1px solid var(--secondary-border-color) !important;
+    }
+}

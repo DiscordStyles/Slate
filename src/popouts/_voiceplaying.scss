@@ -1,0 +1,10 @@
+#app-mount .container-3JTnYm {
+  background: var(--background);
+  border: 1px solid var(--base-border);
+  border-radius: var(--border-radius);
+  box-shadow: none;
+  padding: var(--spacing);
+  & > div[style*="height: 16px"] {
+    display: none;
+  }
+}

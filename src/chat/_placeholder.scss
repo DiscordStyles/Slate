@@ -1,0 +1,37 @@
+#app-mount .chat-3bRxxu {
+  .wrapper-3vR61M {
+    background: var(--background-alt);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+  .wrapper-1F5TKx {
+    background: transparent;
+    padding-top: var(--spacing);
+    padding-bottom: var(--spacing);
+    padding-left: calc(var(--avatar-size) + var(--spacing) * 2);
+    & + :not([style*="margin-top"]) {
+      margin-top: calc(var(--spacing) / -1);
+    }
+    &[style*="margin-top"] {
+      border-top: 1px solid var(--base-border);
+      margin-top: 0 !important;
+    }
+  }
+  .avatar-2daVqv {
+    border-radius: var(--border-radius);
+    width: var(--avatar-size);
+    height: var(--avatar-size);
+    border: 1px solid var(--base-border);
+    background: var(--background-dark);
+    top: var(--spacing);
+    left: var(--spacing);
+    opacity: 1 !important;
+  }
+  .attachment-2p5mHK, 
+  .blob-2w7iIK {
+    border-radius:var(--border-radius);
+    background:var(--text-muted);
+    height:4px;
+  }
+}

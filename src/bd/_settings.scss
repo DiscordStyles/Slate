@@ -1,0 +1,55 @@
+#bd-settingspane-container {
+  // Buttons
+  .bd-addon-button, .bd-button, .bda-link {
+    font-size: var(--font-size);
+    font-weight: var(--font-weight-normal);
+    cursor: default;
+    min-height: 25px;
+    height: 25px;
+    line-height: normal;
+    transition: none;
+    padding: 0 var(--spacing);
+    border-radius: var(--button-border-radius);
+    display: inline-flex;
+    align-items: center;
+    border: none !important;
+    text-decoration: none;
+    user-select: none;
+  }
+  .bd-button {
+    &:hover {
+      box-shadow: inset 0 0 0 100vmax rgba(255, 255, 255, 0.1);
+      background: rgb(var(--accent));
+    }
+    &:focus {
+      box-shadow: 0 0 0 2px rgba(var(--accent), 0.25), inset 0 0 0 100vmax rgba(255, 255, 255, 0.1);
+    }
+  }
+  .ui-switch-item {
+    margin: var(--spacing) var(--spacing-double);
+    h3 {
+      font-size: var(--font-size-md);
+      color: var(--text-normal);
+    }
+    .style-description {
+      border-color: var(--base-border);
+      color: var(--text-muted) !important;
+      font-size: var(--font-size);
+    }
+    &:first-of-type {
+      margin-top: var(--spacing-double);
+    }
+    &:last-of-type {
+      margin-bottom: var(--spacing-double);
+      .style-description {
+        border-color: transparent;
+      }
+    }
+  }
+  .bd-pfbtn {
+    margin: var(--spacing-double) 0 var(--spacing-double) var(--spacing-double);
+  }
+  .bd-controls {
+    padding: 0 var(--spacing-double);
+  }
+}

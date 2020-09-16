@@ -1,0 +1,133 @@
+#app-mount {
+  #status-picker {
+    background: var(--background);
+    width: var(--sidebar-width);
+    padding: 0;
+    border: 1px solid var(--base-border);
+    border-radius: var(--border-radius);
+    box-shadow: var(--elevation-1);
+    box-sizing: border-box;
+    max-width: 200px;
+    position: relative;
+    top: 3px;
+    z-index: 1;
+    .scroller-3BxosC {
+      padding: 0;
+      overflow: visible !important;
+      max-height: unset;
+      max-width:100%;
+
+      // Decroative Arrow
+      &:after { 
+        content: '';
+        width: 10px;
+        height: 10px;
+        background: var(--background);
+        box-sizing: border-box;
+        position: absolute;
+        bottom: -5px;
+        left: 8px;
+        transform: rotate(45deg);
+        border-bottom: 1px solid var(--base-border);
+        border-right: 1px solid var(--base-border);
+        clip-path: polygon(0 100%, 100% 100%, 100% 0);
+        box-shadow: var(--elevation-1);
+      }
+      .description-2L932D, .separator-2I32lJ {
+        display: none;
+      }
+
+      // Status Items
+      .item-1tOPte {
+        margin: 0;
+        padding: var(--spacing);
+        border-radius: 0;
+        color: var(--text-normal);
+        font-size: var(--font-size);
+        cursor: default;
+        height: 32px;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        overflow:hidden;
+        position:relative;
+        .statusItem-33LqPf {
+          padding: 0;
+          max-height: unset;
+          display: flex;  
+          .status-1AY8sU[style="background-color: rgb(67, 181, 129);"] {
+            background:rgb(var(--status-green)) !important;
+          }
+          .status-1AY8sU[style="background-color: rgb(250, 166, 26);"] {
+            background:rgb(var(--status-yellow)) !important;
+          }
+          .status-1AY8sU[style="background-color: rgb(240, 71, 71);"] {
+            background:rgb(var(--status-red)) !important;
+          }
+          .status-1AY8sU[style="background-color: rgb(116, 127, 141);"] {
+            background:rgb(var(--status-grey)) !important;
+          }
+        }
+        .statusIconText-3b4TkH {
+          height: auto;
+          font-size: var(--font-size);
+        }
+        .status-1fhblQ {
+          margin-left: var(--spacing);
+        }
+        &:first-child {
+          border-radius: var(--border-radius) var(--border-radius) 0 0;
+        }
+        &:nth-last-child(2) {
+          z-index:10;
+          border-radius: 0 0 var(--border-radius) var(--border-radius) !important;
+        }
+        &.focused-3afm-j {
+          background: var(--accent-solid) !important;
+          color: #fff !important;
+          .customEmojiPlaceholder-37iZ_j {
+            background: #fff !important;
+          }
+        }
+        &:active, &:hover {
+          background: transparent;
+        }
+        &#status-picker-custom-status {
+          > div {
+            max-width:100%;
+          }
+          .customEmoji-2_2FwB {
+            margin:0;
+            margin-right:var(--spacing-half);
+          }
+          .customEmojiPlaceholder-37iZ_j, .status-3Kz6VS {
+            width: 10px;
+            height: 10px;
+          }
+          .customEmojiPlaceholder-37iZ_j {
+            background: var(--text-normal);
+            mask: url($icon_add) center/cover no-repeat;
+            margin: 0;
+          }
+          .clearStatusButton-1Mxs1q {
+            order: -1;
+            margin-right: var(--spacing);
+            color:currentColor;
+            cursor:default;
+          }
+          .clearStatusIcon-3-MDNF {
+            width: 10px;
+            height: 10px;
+            margin-left: 0;
+            path {
+              d: path($path_close);
+            }
+          }
+          .customStatusContentIcon-2sionu {
+            margin-left: 0;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+.applicationStore-1pNvnv, .container-1D34oG {
+  .scroller-2FKFPG {
+    margin-bottom: 49px;
+  }
+  &:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    height: 49px;
+    border-top: 1px solid var(--base-border);
+    background: var(--background-light);
+    width: 100%;
+    z-index: 1;
+  }
+}

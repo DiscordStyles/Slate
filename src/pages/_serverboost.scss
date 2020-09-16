@@ -1,0 +1,68 @@
+#app-mount .perksModal-fSYqOq {
+  background: var(--background);
+  top: var(--titlebar-height);
+
+  // Header
+  [class*="header"] {
+    display: none;
+  }
+
+  // Boost server
+  .ctaBar-2UsjF2 {
+    background: var(--background-dark);
+    border: 1px solid var(--base-border);
+    padding: var(--spacing);
+  }
+  .guildIcon-3raYf3 {
+    width: 32px;
+    height: 32px;
+  }
+  .guildName-39nwo0 {
+    margin: 0 10px 0 0;
+    font-size: var(--font-size-md);
+    line-height: normal;
+  }
+  .guildDetails-oP2_kA {
+    display: flex;
+    align-items: center;
+  }
+  .actions-2fUYl0 {
+    display: flex;
+    flex-direction: row;
+    button {
+      margin: 0 0 0 var(--spacing);
+    }
+  }
+
+  // Progress bar
+  .barBackground-2EEiLw {
+    background: var(--background-dark);
+    border: 1px solid var(--base-border);
+  }
+  .tierMarkerBackground-3q29am {
+    background: transparent;
+  }
+  .tierMarker-5HkGJ_ {
+    box-shadow: none;
+    border-radius: var(--border-radius);
+    box-shadow: inset 0 0 0 1px var(--base-border);
+  }
+
+  // Tiers
+  .tierWrapper-W9ajqp {
+    box-shadow: none !important;
+    border: 1px solid var(--base-border);
+  }
+  .tierHeaderLocked-1s2JJz {
+    background: var(--background-dark);
+    border-bottom: 1px solid var(--base-border);
+  }
+  .tierBody-16Chc9 {
+    background: var(--background-dark);
+  }
+  
+  // Perks
+  .perks-3OsGy8, .subscriberPerksHeader-2a50UC {
+    display: none;
+  }
+}

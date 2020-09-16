@@ -1,0 +1,12 @@
+#app-mount {
+    .spinner-2enMB9 {
+        background:var(--text-normal);
+        -webkit-mask:url($icon_spinner) center/12px no-repeat;
+        animation:rotate 1s linear infinite;
+        .wanderingCubesItem-WPXqao,
+        .chasingDotsItem-2DVNUn,
+        .pulsingEllipsis-3YiXRF {
+            display:none;
+        }
+    }
+}

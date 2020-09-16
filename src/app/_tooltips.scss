@@ -1,0 +1,84 @@
+#app-mount {
+  .tooltip-2QfLtc,
+  .subscribeTooltipWrapper-32-Ce8 {
+    padding: var(--spacing-third) var(--spacing);
+    border-radius: var(--border-radius);
+    background: var(--background);
+    color: var(--text-normal);
+    box-shadow: var(--elevation-1);
+    font-size: var(--font-size);
+    border: 1px solid var(--base-border);
+    position: relative;
+    font-weight: var(--font-weight-semibold);
+    transform: none !important; 
+    &.subscribeTooltipWrapper-32-Ce8 {
+      padding:var(--spacing);
+      &:after {
+        margin:0;
+      }
+      .subscribeTooltipHeader-2etyUq {
+        margin-bottom:var(--spacing-half);
+        color:var(--text-normal);
+        font-weight:var(--font-weight-semibold);
+        font-size:var(--font-size-md);
+      }
+      .subscribeTooltipText-w-pylu {
+        margin:0;
+        color:var(--text-muted);
+        font-weight:var(--font-weight-normal);
+        font-size:var(--font-size);
+      }
+      .subscribeTooltipButton-r9C2rU {
+        margin-top:var(--spacing);
+      }
+    }
+    .tooltipContent-bqVLWK {
+      padding: 0;
+    }
+    .tooltipPointer-3ZfirK,
+    &.subscribeTooltipWrapper-32-Ce8:after {
+      background: var(--background);
+      border: 1px solid var(--base-border);
+      width: 8px;
+      height: 8px;
+      clip-path: polygon(100% 0, 0% 100%, 0 0);
+    }
+    &.tooltipRight-2JM5PQ .tooltipPointer-3ZfirK {
+      transform: rotate(-45deg);
+      margin-right: -5px;
+    }
+    &.tooltipLeft-3EDOk1 .tooltipPointer-3ZfirK {
+      transform: rotate(135deg);
+      margin-left: -5px;
+    }
+    &.tooltipBottom-3ARrEK .tooltipPointer-3ZfirK,
+    &.subscribeTooltipWrapper-32-Ce8:after {
+      transform: rotate(45deg);
+      margin-bottom: -5px;
+    }
+    &.tooltipTop-XDDSxx .tooltipPointer-3ZfirK {
+      transform: rotate(-135deg);
+      margin-top: -5px;
+    }
+    .size14-e6ZScH {
+      color:var(--text-normal);
+      font-size:var(--font-size);
+      line-height:normal;
+      &.clickCTA-kIMiUd {
+        color:var(--text-muted);
+        font-size:var(--font-size-sm);
+      }
+    }
+    .userTooltip-7qZaHD {
+      font-size:var(--font-size);
+      color:var(--text-normal);
+      .avatar-i5C_qp {
+        margin-right:var(--spacing-half);
+      }
+      .discriminator-17tNDS {
+        opacity:1;
+        color:var(--text-muted);
+      }
+    }
+  }
+}

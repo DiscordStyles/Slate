@@ -1,0 +1,19 @@
+#app-mount {
+    .badge-1Skb69[style*="rgb(240, 71, 71)"],
+    .numberBadge-2s8kKX {
+        border-radius:var(--button-border-radius) !important;
+        font-size:var(--font-size-sm);
+        font-weight:var(--font-weight-normal);
+        background:rgb(var(--status-red)) !important;
+        color:var(--white);
+        line-height:normal;
+        height:fit-content;
+        width:fit-content !important;
+        padding:0 calc(var(--spacing) / 2.5) !important;
+        min-height:unset;
+        min-width:unset;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+    }
+}

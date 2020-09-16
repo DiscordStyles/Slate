@@ -1,0 +1,73 @@
+#app-mount .layer-3QrUeG[aria-label*="SETTINGS"] .sidebarRegion-VFTUkN {
+	flex: unset;
+	z-index:10;	
+	.sidebarRegionScroller-3MXcoP {
+		flex: auto;
+	}
+	.sidebar-CFHs9e {
+		padding: var(--spacing) 0;
+		width: auto;
+	}
+	
+	// Header (User settings/App settings)
+	.header-2RyJ0Y {
+		display: none;
+	}
+	.separator-gCa7yv {
+		margin: var(--spacing) 0;
+		border-bottom:1px solid var(--base-border);
+		height:1px;
+		background:transparent;
+	}
+
+	// Tab button
+	.item-PXvHYJ {
+		margin: calc(var(--spacing) / 3) var(--spacing-double);
+		font-weight: var(--font-weight-normal);
+		font-size: var(--font-size);
+		padding: var(--spacing);
+		border-radius: var(--border-radius);
+		color: var(--text-normal);
+		line-height: normal;
+		min-width: 165px;
+		cursor: default;
+		&:hover,
+		&:active {
+			background-color: transparent;
+		}
+		&.selected-3s45Ha {
+			color: var(--white);
+			background: rgb(var(--accent));
+		}
+		&[style] {
+			&:active,
+			&:hover {
+				background:transparent !important;
+				color:rgb(var(--discord-blurple)) !important;
+			}
+		}
+		&[style*="background-color: rgb(114, 137, 218)"] {
+			background: rgb(var(--discord-blurple)) !important;
+			&:active,
+			&:hover {
+				background:rgb(var(--discord-blurple)) !important;
+				color:var(--white) !important;
+			}
+		}
+	}
+
+	// Socials
+	.socialLinks-3jqNFy {
+		padding: calc(var(--spacing) / 3) var(--spacing-double);
+		margin-bottom: calc(var(--spacing) / 3);
+	}
+
+	// Info
+	.info-1VyQPT {
+		padding: calc(var(--spacing) / 3) var(--spacing-double);
+		.colorMuted-HdFt4q:first-of-type:before {
+			content: var(--slate-version);
+			display: block;
+		}
+	}
+}

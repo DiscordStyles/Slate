@@ -1,0 +1,110 @@
+#app-mount {
+    .main-3auUui {
+        padding:var(--spacing-double);
+        justify-content: center ;
+        .close-hZ94c6 {
+            background:var(--text-muted);
+            width:16px;
+            height:16px;
+            top:var(--spacing-double);
+            right:var(--spacing-double);
+            -webkit-mask:url($icon_close) center/contain no-repeat;
+            transition:none;
+            opacity:1;
+            &:hover {
+                background:var(--text-normal);
+            }
+            svg {
+                display:none;
+            }
+        }
+        .guildIcon-1F8t_p {
+            margin:var(--spacing-double) 0;
+            foreignObject {
+                mask:none;
+                .iconActiveLarger-1L4Joi {
+                    width:var(--avatar-size-xl);
+                    height:var(--avatar-size-xl);
+                    border-radius:var(--border-radius);
+                }
+            }
+        }
+        .header-QjU-Vz {
+            color:var(--text-normal);
+            font-size:var(--font-size-xl);
+            font-weight:var(--font-weight-light);
+            margin-bottom:var(--spacing);
+            strong {
+                font-weight:inherit;
+            }
+            .headerGuildBadge-1qhaRY {
+                position:absolute;
+                margin:0;
+                margin-top:-11px;
+                margin-left:-11px;
+                top:calc(var(--spacing) * 4 + var(--avatar-size-xl));
+                left:calc(50% + 32px);
+                transform:scale(1.25);
+            }
+        }
+        .guildDescription-GPbJqa {
+            margin:0;
+            padding:0;
+        }
+        .choiceHeader-3g-iq5 {
+            margin-top:0;
+            width:100%;
+            text-align:center;
+            color:var(--text-muted);
+        }
+        .options-1VK2u9 {
+            margin:0;
+            .optionContainer-15srkc {
+                margin-top:var(--spacing);
+                font-size: var(--font-size);
+                font-weight: var(--font-weight-normal);
+                cursor: default;
+                box-sizing:border-box;
+                line-height: normal;
+                transition: none;
+                padding: var(--spacing);
+                border-radius: var(--button-border-radius);
+                color: var(--text-normal);
+                background: var(--background-light);
+                border: 1px solid var(--base-border);
+                box-shadow: none !important;
+                &:hover {
+                  border: 1px solid currentColor;
+                }
+                &:focus {
+                  box-shadow: 0 0 0 1px currentColor !important;
+                  border: 1px solid currentColor !important;
+                }
+                .channelDescription-1Vw6Lv {
+                    line-height:normal;
+                }
+                .optionTextContainer-1WT7xh {
+                    margin:0 var(--spacing);
+                }
+                .optionArrow-2L2fza {
+                    color:var(--text-normal);
+                }
+            }
+        }
+        .skip-1vOolA {
+            margin-top:var(--spacing-double);
+        }
+    }
+}
+
+// Light Mode
+html.theme-light #app-mount .main-3auUui .options-1VK2u9 .optionContainer-15srkc {
+    &:hover {
+        background: var(--background);
+        border: 1px solid var(--secondary-border-color);
+    }
+    &:focus {
+        box-shadow: 0 0 0 2px rgba(0,0,0,0.05) !important;
+        border: 1px solid var(--secondary-border-color) !important;
+    }
+}

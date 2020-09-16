@@ -1,0 +1,9 @@
+{
+    "name": "Slate",
+    "description": "An optimized, consistent, and functional theme for Discord based on GitHub's design language.",
+    "version": "1.0.0",
+    "author": "Gibbu#1211 & Tropical#8908",
+    "theme": "Slate.theme.css",
+    "consent": "false",
+    "license": "unknown"
+}

@@ -1,0 +1,32 @@
+#app-mount #bd-settingspane-container .ui-switch-wrapper {
+  width: 13px;
+  height: 13px;
+  .ui-switch {
+    width: 13px;
+    height: 13px;
+    border-radius: var(--border-radius);
+    background-color: var(--checkbox-background);
+    border: 1px solid var(--checkbox-border);
+    margin-left: 0;
+    &:before {
+      content: "";
+      width: 8px !important;
+      height: 3px !important;
+      background: transparent !important;
+      border-bottom: 2px solid var(--checkbox-tick) !important;
+      border-left: 2px solid var(--checkbox-tick) !important;
+      display: block !important;
+      opacity: 0 !important;
+      top: 2px !important;
+      box-shadow: none !important;
+      left: 1px !important;
+      transform: rotate(-45deg) translate(0) !important;
+    }
+    &.checked {
+      background-color: var(--checkbox-background) !important;
+      &:before {
+        opacity: 1 !important;
+      }
+    }
+  }
+}

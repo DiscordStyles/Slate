@@ -1,0 +1,57 @@
+#app-mount {
+  .messagesPopoutWrap-1MQ1bW {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    border: none;
+    box-shadow: none;
+    border: 1px solid var(--base-border);
+    border-radius: var(--border-radius);
+    background: var(--background);
+  }
+  .header-ykumBX {
+    background: var(--background-dark);
+    padding: var(--spacing);
+    border-bottom: 1px solid var(--base-border);
+    box-shadow: none;
+    h3 {
+      font-size: var(--font-size-md);
+    }
+  }
+  .messagesPopout-24nkyi {
+    padding: 0;
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+  .messageGroupWrapper-o-Zw7G {
+    border-radius: 0;
+    border: none;
+    border-bottom: 1px solid var(--base-border);
+    background: transparent;
+    &:hover .jumpButton-3DTcS_ {
+      opacity: 1;
+    }
+  }
+  .jumpButton-3DTcS_ {
+    font-size: var(--font-size);
+    font-weight: var(--font-weight-normal);
+    cursor: default;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    opacity: 0;
+    line-height: normal;
+    transition: none;
+    padding: 0 var(--spacing);
+    border-radius: var(--button-border-radius);
+    color: var(--white);
+    background-color: var(--accent-solid);
+    &:hover {
+      box-shadow: inset 0 0 0 100vmax rgba(255,255,255,0.1);
+    }
+    &:focus {
+      box-shadow: 0 0 0 2px rgba(var(--accent), 0.25), inset 0 0 0 100vmax rgba(255,255,255,0.1);
+    }
+  }
+}

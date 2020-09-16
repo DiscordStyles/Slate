@@ -1,0 +1,134 @@
+#app-mount .pageWrapper-1PgVDX {
+  background: var(--background-alt);
+  .scroller-2FKFPG {
+    margin-top: var(--toolbar-height);
+    padding-top: 50px;
+  }
+  .bg-AYqtMd {
+    display: none;
+  }
+  .pageHeader-3615mp {
+    height: 0;
+  }
+  .mainHeader-1i17pL {
+    display: none;
+  }
+  .body-2lagau:before {
+    content: "";
+    height: var(--toolbar-height);
+    background: var(--toolbar-background);
+    width: 100%;
+    position: fixed;
+    top: 21px;
+    left: var(--base-left);
+    border-bottom: 1px solid var(--toolbar-border);
+    z-index: 10;
+  }
+  .searchHelpText-19imBp {
+    display: none;
+  }
+  .search-JQJ-3r {
+    position: fixed;
+    top: 21px;
+    left: var(--base-left);
+    z-index: 11;
+    margin-bottom: 0;
+    align-items: center;
+    justify-content: flex-start;
+    height: var(--toolbar-height);
+  }
+  .searchBox-26HYGw {
+    flex: none;
+    width: calc(100% - 196px);
+    border-right: 1px solid var(--toolbar-border);
+  }
+  .searchBox-3Y2Vi7 {
+    background-color: transparent;
+    box-shadow: none;
+    border: none;
+    border-radius: 0;
+    box-sizing: border-box;
+  }
+  .css-zrb2ns-singleValue {
+    color: var(--toolbar-text-muted);
+  }
+  .languageSelector-1R8fPE {
+    margin-left: 0;
+  }
+  .css-bacguy-container {
+    border-radius: 0;
+    box-shadow: none;
+    background: transparent;
+  }
+  .css-1wqqa50-container {
+    border-radius: 0;
+    box-shadow: none;
+    background: transparent;
+  }
+  .css-1hwfws3 {
+    position: relative;
+    top: 5px;
+  }
+  .css-1wy0on6 {
+    height: auto;
+  }
+  .container-RHl2Ju {
+    border-radius: var(--border-radius);
+    background: var(--background-dark);
+    border: 1px solid var(--base-border);
+  }
+  .card-3DjzTQ {
+    background-color: var(--background-dark);
+    border: 1px solid var(--base-border);
+    box-shadow: none;
+    height: auto;
+  }
+  .cardHeader-Int16m {
+    margin-bottom: 0;
+  }
+  .description-2QALGo {
+    display: none;
+  }
+  .guildInfo-2wGKIg {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    box-sizing: border-box;
+    padding: var(--spacing);
+    background: linear-gradient(transparent 10%, rgba(0,0,0,0.9));
+    .colorHeaderSecondary-3Sp3Ft {
+      color: #fff;
+      opacity: .7;
+    }
+  }
+  .guildIcon-3W0pfo {
+    bottom: unset;
+    top: var(--spacing);
+    left: var(--spacing);
+  }
+  .iconMask-3b8GzQ {
+    background: rgba(0,0,0,0.5);
+  }
+  .roundButton-2CW1Hh {
+    border-radius: var(--border-radius);
+    &:hover {
+      background: var(--background-dark);
+    }
+  }
+  .activeButton-1BJAiN {
+    background: var(--accent-solid);
+    &:hover {
+      background: var(--accent-solid);
+    }
+  }
+  .lookFilled-1Gx00P.colorTransparent-1ewNp9 {
+    padding: var(--spacing);
+    min-height: unset;
+    height: auto;
+    background: var(--background-dark);
+    border: 1px solid var(--base-border);
+  }
+  .colorHeaderPrimary-26Jzh- {
+    color: #fff;
+  }
+}

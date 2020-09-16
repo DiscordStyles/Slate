@@ -1,0 +1,55 @@
+.flexChild-faoVW3[style*="padding: 60px 15px 80px 20px;"],
+.content-1rPSz4[style*="padding: 60px 0px 80px 20px;"] {
+  padding: var(--spacing-double) !important;
+}
+
+// Server region
+.flag-16iIBd {
+  width: 28px;
+  height: 16px;
+}
+.button-cqiy5p.button-3tQuzi.button-38aScr {
+  margin: 0;
+  padding: 0 var(--spacing);
+  background: transparent;
+}
+
+// Emojis
+.emojiRow-zIc7ZX {
+  box-shadow: 0 1px 0 0 var(--base-border);
+}
+.emojiRemove-1k6MlJ {
+  right: 0;
+  background-color: var(--background-dark);
+  border: 1px solid var(--base-border);
+  border-radius: var(--border-radius);
+  box-shadow: none;
+}
+
+// Audit log
+.customHeader-f9DEJ_ {
+  padding-top: 0;
+  h2 {
+    margin-bottom: 0;
+  }
+}
+.customScroller-26gWhv > div {
+  margin: 0;
+  max-width: unset;
+  padding: var(--spacing-double);
+}
+.auditLog-3jNbM6 {
+  border-color: var(--base-border);
+}
+.headerClickable-2IVFo9, .headerDefault-1wrJcN {
+  background: var(--background-dark);
+}
+.divider-1pnAR2 {
+  border-color: var(--base-border);
+}
+.changeDetails-bk98pu {
+  background: var(--background-dark);
+}
+.customColumn-Rb6toI + .toolsContainer-1edPuj {
+  margin-right: -10px;
+}

@@ -1,0 +1,148 @@
+#app-mount {
+  .scale-3iLZhb {
+    transform: none !important;
+    transition: none !important;
+  }
+  #guild-header-popout {
+    position: fixed;
+    top: calc(var(--titlebar-height) + var(--toolbar-height));
+    left: 0;
+    top: calc(var(--toolbar-height) + var(--titlebar-height) + 1px);
+    padding: 0;
+    border-radius: 0;
+    box-shadow: none;
+    height: calc(100vh - var(--toolbar-height) - var(--titlebar-height));
+    width: calc(var(--sidebar-width) + var(--container));
+    background: var(--background);
+    border-right: 1px solid var(--base-border);
+    .scroller-3BxosC {
+      padding: var(--spacing-half) 0 0;
+      &::-webkit-scrollbar {
+        display: none;
+      }
+    }
+    .labelContainer-1BLJti {
+      justify-content: flex-start;
+    }
+    .item-1tOPte {
+      margin: 0;
+      padding: 0 var(--spacing);
+      color: var(--text-normal);
+      border-radius: 0;
+      font-size: var(--font-size);
+      font-weight: var(--font-weight-normal);
+      cursor: default;
+      box-sizing: border-box;
+      .label-22pbtT {
+        flex: unset;
+      }
+      .icon-LYJorE, .iconContainer-2-XQPY {
+        width: 14px;
+        height: 14px;
+      }
+      .iconContainer-2-XQPY {
+        order: -1;
+        margin: 0 var(--spacing) 0 0;
+      }
+      &:hover {
+        color: var(--text-focus);
+      }
+      &#guild-header-popout-premium-subscribe {
+        color: rgb(var(--discord-pink));
+        .icon-LYJorE {
+          color: rgb(var(--discord-pink));
+          path[d="M4 0L0 4V8L4 12L8 8V4L4 0ZM7 7.59L4 10.59L1 7.59V4.41L4 1.41L7 4.41V7.59Z"] {
+            d: path($path_flame);
+            transform: scale(.7);
+            & ~ path {
+              display: none;
+            }
+          }
+        }
+        &:hover {
+          color: rgb(var(--discord-pink));
+        }
+      }
+      &#guild-header-popout-invite-people {
+        color: rgb(var(--discord-blurple));
+        &:hover {
+          color: rgb(var(--discord-blurple));
+        }
+        path {
+          d: path($path_person_add);
+          transform: scale(1.4);
+        }
+      }
+      &#guild-header-popout-leave {
+        color: rgb(var(--status-red));
+        &:hover {
+          color: rgb(var(--status-red));
+        }
+      }
+      &#guild-header-popout-notifications path {
+        d: path($path_bell);
+        transform: scale(1.4) translateX(1px) translateY(1px);
+      }
+      &#guild-header-popout-settings path {
+        d: path($path_gear);
+        transform: scale(1.4) translateX(2px);
+      }
+      &#guild-header-popout-create-channel path {
+        d: path($path_add);
+        transform: scale(1.4) translateX(2px);
+      }
+      &#guild-header-popout-create-category path {
+        d: path($path_repo);
+        transform: scale(1.2) translateX(4px) translateY(2px);
+      }
+      &#guild-header-popout-privacy path {
+        d: path($path_shield);
+        transform: scale(1.2) translateX(2px) translateY(2px);
+        fill-rule: evenodd;
+      }
+      &#guild-header-popout-change-nickname path {
+        d: path($path_pencil);
+        transform: scale(1.3) translateX(2px) translateY(1px);
+        fill-rule: evenodd;
+      }
+      &#guild-header-popout-leave path {
+        d: path($path_link);
+        transform: scale(1.4) translateX(2px) translateY(1px);
+        fill-rule: evenodd;
+      }
+      &.focused-3afm-j {
+        background: unset;
+      }
+      &:hover {
+        background-color: var(--background-modifier-hover);
+      }
+      &:active {
+        background-color: var(--background-modifier-active);
+      }
+    }
+    .separator-2I32lJ {
+      display: none;
+    }
+    &:before {
+      content: "";
+      position: fixed;
+      top: calc(var(--toolbar-height) + var(--titlebar-height) - 1);
+      left: calc(var(--sidebar-width) + var(--container));
+      width: 100vw;
+      height: 100vh;
+      background: var(--backdrop);
+      z-index: -1;
+      pointer-events: none;
+    }
+    &:after {
+      content: var(--slate-version);
+      position: absolute;
+      font-size: var(--font-size-xsm);
+      font-weight: var(--font-weight-normal);
+      color: var(--text-normal);
+      bottom: 0;
+      left: 0;
+      margin: var(--spacing);
+    }
+  }
+}

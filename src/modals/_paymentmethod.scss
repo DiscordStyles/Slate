@@ -1,0 +1,37 @@
+#app-mount {
+    .form-77IDep {
+        .content-sp-7A3 {
+            .transitionGroup-aR7y1d {
+                div[style*="transform: translate"] {
+                    transform:none !important;
+                }
+                button {
+                    .cardIconSmall-2gJ6xX {
+                        width:24px;
+                        height:16.5px;
+                        box-shadow:none;
+                        &:before,
+                        &:after {
+                            border-radius:0;
+                        }
+                    }
+                    &:first-child {
+                        margin:0;
+                    }
+                }
+                .inputWrapper-2YCfto,
+                .cardNumberWrapper-3YhV1H {
+                    .cardIconSmall-2gJ6xX {
+                        display:none;
+                    }
+                }
+                .row-2grg9k {
+                    padding-top:var(--spacing);
+                    &:first-child {
+                        padding-top:0;
+                    }
+                }
+            }
+        }
+    }
+}

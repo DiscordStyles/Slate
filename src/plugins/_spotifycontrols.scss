@@ -1,0 +1,64 @@
+// Spotify Controls by DevilBro
+
+#app-mount .container-6sXIoE.withTimeline-824fT_  {
+  position: relative;
+  margin-bottom: 0;
+  padding: var(--spacing) var(--spacing) var(--spacing-triple);
+  border-bottom-color: var(--base-border);
+  background: rgba(var(--status-green), 0.2);
+  min-height: unset;
+  button {
+    color: var(--text-focus);
+    border-radius: var(--border-radius);
+    &:hover {
+      background: rgb(255 255 255 / 0.1) !important;
+      cursor: pointer;
+    }
+  }
+  .inner-WRV6k5 {
+    position: relative;
+    z-index: 1;
+  }
+  .coverWrapper-YAplwJ {
+    border: 1px solid var(--base-border);
+  }
+  .timeline-UWmgAx {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .bar-g2ZMIm {
+    height: 100%;
+    border-radius: 0;
+    margin-bottom: 0;
+    cursor: pointer;
+  }
+  .barFill-Dhkah7 {
+    background: rgba(var(--status-green), 0.5);
+    border-radius: 0;
+  }
+  .grabber-7sd5f5 {
+    display: none;
+  }
+  .song-tIdBpF {
+    color: var(--text-focus);
+  }
+  .barText-lmqc5O {
+    margin-top: calc(var(--spacing-double) / -1);
+    padding: 0 var(--spacing);
+    position: relative;
+    z-index: 1;
+    pointer-events: none;
+  }
+
+  &.maximized-vv2Wr0 {
+    padding: 0 8px var(--spacing-triple);
+    .coverWrapper-YAplwJ {
+      border: none;
+      border-bottom: 1px solid var(--base-border);
+    }
+  }
+}

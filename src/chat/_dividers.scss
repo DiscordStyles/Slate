@@ -1,0 +1,32 @@
+#app-mount .chatContent-a9vAAp .divider-JfaTT5 {
+  height: auto;
+  margin: 0;
+  padding: var(--spacing-half) 0;
+  border-top: 1px solid var(--base-border);
+  background: var(--background);
+  top: 0;
+  .content-1o0f9g {
+    background: transparent;
+    font-size: var(--font-size-xsm);
+    padding: 0 var(--spacing) 0 0;
+  }
+  & + .groupStart-23k01U {
+    margin-top: 0;
+  }
+  &.isUnread-3Ef-o9 {
+    border-bottom: 1px solid var(--base-border);
+    .unreadPill-2HyYtt {
+      position: unset;
+      background: transparent;
+      font-size: var(--font-size-xsm);
+      color: rgba(var(--status-red), 1);
+      padding: 0;
+      svg {
+        display: none;
+      }
+    }
+    & + .groupStart-23k01U {
+      margin-top: calc(var(--spacing) - 12px);
+    }
+  }
+}

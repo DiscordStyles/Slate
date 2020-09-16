@@ -1,0 +1,197 @@
+#app-mount .privateChannels-1nO12o {
+  overflow: visible;
+  width: var(--sidebar-width);
+
+  // Search Header
+  .searchBar-6Kv8R2 {
+    background: var(--toolbar-background);
+    border-bottom: 1px solid var(--toolbar-border);
+    border-right: 1px solid var(--toolbar-border);
+    height: var(--toolbar-height);
+    box-shadow: none;
+    position: absolute;
+    left: calc(var(--container) * -1);
+    top: calc(var(--toolbar-height) * -1);
+    width: calc(var(--sidebar-width) + var(--noasw-channel-header));
+    box-sizing: border-box;
+    padding: 0 var(--spacing);
+    button {
+      box-sizing: border-box;
+      background-color: var(--toolbar-search-background);
+      border: 1px solid var(--toolbar-border);
+      border-radius: var(--border-radius);
+      height: var(--input-height);
+      transform: translateZ(0);
+      font-size: 0;
+      box-shadow: none;
+      position: relative;
+      cursor: text;
+      width: 100%;
+      font-weight: var(--font-weight-normal);
+      color: var(--toolbar-text-muted);
+      padding: 0 var(--spacing-half);
+      line-height: normal;
+      &:before {
+        content: "Where would you like to go?";
+        font-size: var(--font-size);
+      }
+    }
+  }
+
+  // Direct messages header
+  .privateChannelsHeaderContainer-3NB1K1 {
+    padding: var(--spacing);
+    height: auto;
+    color: var(--text-normal);
+    font-size: 12px;
+    text-transform: none;
+  }
+  .scroller-1JbKMe {
+    background: var(--background);
+    div[style*="height: 8px"] {
+      display: none;
+    }
+  }
+
+  // Main channel entries
+  .channel-2QD9_O {
+    margin: 0;
+    max-width: 100%;
+    padding: 0;
+    .children-gzQq2t {
+      margin-left:var(--spacing-half);
+    }
+    .layout-2DM8Md {
+      border-radius: 0;
+      padding: 0 var(--spacing);
+      cursor: default;
+    }
+    .name-uJV0GL {
+      font-size: var(--font-size);
+      font-weight: var(--font-weight-normal);
+      color: var(--text-normal);
+      line-height:normal;
+    }
+    .avatar-3uk_u9 {
+      margin-right: var(--spacing);
+    }
+    .activityText-OW8WYb,
+    .subtext-1RtU34 {
+      font-size: var(--font-size-sm);
+      font-weight: var(--font-weight-bold);
+      color: var(--text-muted);
+    }
+    &[href="/library"],
+    &[href="/store"] {
+      border-left: 1px solid var(--base-border);
+      .children-gzQq2t {
+        display:none; // Hides Download Indicator
+      }
+    }
+    &[href="/channels/@me"],
+    &[href="/library"],
+    &[href="/store"] {
+      width: 50%;
+      display: inline-block;
+      border-radius: 0;
+      cursor: default;
+      .layout-2DM8Md {
+        justify-content: center;
+        height: 30px;
+        box-sizing:border-box;
+        border-bottom: 1px solid var(--base-border);
+        .avatar-3uk_u9 {
+          display: none;
+        }
+        .content-3QAtGj {
+          flex-grow: 0;
+        }
+        &:active {
+          background: var(--background-modifier-hover);
+        }
+      }
+      &[href="/store"] {
+        display: none;
+      } 
+      &[href="/channels/@me"] + [href="/store"] {
+        display:inline-block;
+      }
+      &.selected-aXhQR6 .layout-2DM8Md {
+        background: transparent;
+        box-shadow: inset 0 -3px 0px var(--accent-solid);
+        .name-uJV0GL {
+          color: var(--text-normal) !important;
+        }
+      }
+    }
+    &.selected-aXhQR6 {
+      color: var(--white);
+      .closeButton-2GCmT5 {
+        display: block;
+        background:var(--white);
+      }
+      .activityText-OW8WYb,
+      .name-uJV0GL,
+      .subtext-1RtU34 {
+        color: var(--white) !important;
+      }
+      .wrapper-3t9DeA {
+        box-shadow: 0 0 0 0.5px var(--accent-solid);
+        rect:not([fill="transparent"]) {
+          stroke: var(--accent-solid);
+        }
+      }
+    }
+  }
+  .closeButton-2GCmT5 {
+    z-index: 10;
+    opacity:1;
+    background:var(--text-muted);
+    -webkit-mask:url($icon_close) center/11px no-repeat;
+    path {
+      display:none;
+    }
+    &:hover {
+      background:var(--text-normal);
+    }
+  }
+  .wrapper-3t9DeA {
+    width: 26px !important;
+    height: 26px !important;
+    &:before {
+      right: -190px;
+    }
+    &:after {
+      right: -190px;
+    }
+  }
+  &:hover .wrapper-3t9DeA:before {
+    background: linear-gradient(
+      90deg,
+      transparent,
+      var(--background-modifier-hover) 50%
+    );
+  }
+  &:active .wrapper-3t9DeA:before {
+    background: linear-gradient(
+      90deg,
+      transparent,
+      var(--background-modifier-active) 50%
+    );
+  }
+
+  // Empty DMs List
+  .empty-388osJ {
+    display:none;
+  }
+}
+
+// Light mode optimization
+.theme-light #app-mount .privateChannels-1nO12o  .channel-2QD9_O.selected-aXhQR6 {
+  color: #fff;
+  .activityText-OW8WYb,
+  .name-uJV0GL,
+  .subtext-1RtU34 {
+    color: #fff !important;
+  }
+}

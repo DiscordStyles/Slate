@@ -1,0 +1,41 @@
+#app-mount .sidebar-2K8pFh {
+  // Unread messages above
+  .unreadTop-73gZ2_ .bar-30k2ka {
+    border-bottom: 1px solid var(--base-border);
+  }
+  // Unread messages below
+  .unreadBottom-3hWQ7c .bar-30k2ka {
+    border-top: 1px solid var(--base-border);
+  }
+  .unread-1s3J68 {
+    padding: 0;
+    height: auto;
+  }
+  .bar-30k2ka {
+    border-radius: 0;
+    background: var(--background-light);
+    opacity: 1;
+    height: auto;
+    box-shadow: none;
+    line-height: normal;
+    padding: var(--spacing-half) 0;
+    transform: none !important;
+    font-size: var(--font-size);
+    font-weight: var(--font-weight-normal);
+    text-transform: none;
+    position: relative;
+    width: 100%;
+    color: rgba(var(--status-red));
+    border-right: 1px solid var(--base-border);
+    box-sizing: border-box;
+    &.unread-1xRYoj {
+      color: var(--text-normal);
+    }
+    &[aria-hidden="true"] {
+      display: none;
+    }
+    &:before {
+      content: none;
+    }
+  }
+}

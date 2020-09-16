@@ -1,0 +1,84 @@
+#app-mount {
+  .searchResultsWrap-3-pOjs {
+    background-color: var(--background);
+    border-left: 1px solid var(--base-border);
+    box-sizing:border-box;
+    width:calc(var(--sidebar-width) * 1.5);
+    .scroller-3GIiMh {
+      padding-left: 0;
+      &::-webkit-scrollbar {
+        display: none;
+      }
+      & > .pagination-eQpqgk:first-child {
+        margin: 0;
+        padding: var(--spacing) 0;
+        border-bottom: 1px solid var(--base-border);
+      }
+    }
+  }
+  .channelName-1JRO3C {
+    background: var(--background);
+    padding: var(--spacing);
+    line-height: var(--line-height);
+  }
+  .searchHeader-2XoQg7 {
+    box-shadow: none;
+    border-bottom: 1px solid var(--base-border);
+    padding: 0 var(--spacing);
+  }
+  .tab-2j5AEF,
+  .totalResults--dyAxF {
+    padding: var(--spacing) 0;
+    font-size: var(--font-size);
+  }
+  .channelSeparator-1DOiGt:before {
+    content: none;
+  }
+  .searchResult-9tQ1uo {
+    &:after,
+    &:before {
+      content: none;
+    }
+    &.expanded-w_LCGl {
+      border: none;
+      border-top: 1px solid var(--base-border);
+      border-bottom: 1px solid var(--base-border);
+      border-radius: 0;
+      background: var(--background-dark);
+    }
+  }
+  .searchResultMessage-1fxgXh {
+    border-radius: 0;
+    &.hit-1fVM9e {
+      border-left: none;
+      border-right: none;
+      border-color: var(--base-border);
+      box-shadow: none;
+      background: var(--background-alt);
+    }
+    &:hover .jumpButton-JkYoYK {
+      opacity: 1;
+    }
+  }
+  .jumpButton-JkYoYK {
+    font-size: var(--font-size);
+    font-weight: var(--font-weight-normal);
+    cursor: default;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    opacity: 0;
+    line-height: normal;
+    transition: none;
+    padding: 0 var(--spacing);
+    border-radius: var(--button-border-radius);
+    color: var(--white);
+    background-color: var(--accent-solid);
+    &:hover {
+      box-shadow: inset 0 0 0 100vmax rgba(255,255,255,0.1);
+    }
+    &:focus {
+      box-shadow: 0 0 0 2px rgba(var(--accent), 0.25), inset 0 0 0 100vmax rgba(255,255,255,0.1);
+    }
+  }
+}

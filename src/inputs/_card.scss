@@ -1,0 +1,49 @@
+#app-mount {
+    .card-3Qj_Yx {
+        border-radius:var(--border-radius);
+        padding:var(--spacing);
+
+        // Status Cards
+        &.cardWarning-2yPNAa {
+            background-color:rgba(var(--status-yellow), .25);
+            border-color:rgba(var(--status-yellow), .5);
+        }
+        &.cardDanger-ZurOv3 {
+            background-color:rgba(var(--status-red), .25);
+            border-color:rgba(var(--status-red), .5);
+        }
+        &.cardSuccess-3uEYjj {
+            background-color:rgba(var(--status-green), .25);
+            border-color:rgba(var(--status-green), .5);
+        }
+        &.cardBrand-39zmMQ {
+            background-color:rgba(var(--accent), .25);
+            border-color:rgba(var(--accent), .5);
+        }
+
+        // Primary Cards
+        &.cardPrimary-1Hv-to, 
+        &.cardPrimaryOutline-29Ujqw,
+        &.cardPrimaryEditable-3KtE4g {
+            background-color: var(--background-alt);
+            border-color: var(--base-border);
+        }
+    }
+    // Close Button
+    .button-2CgfFz {
+        width:16px;
+        height:16px;
+        top:0;
+        right:0;
+        box-shadow:none;
+        border-radius:0;
+        transition:none;
+        background:var(--text-muted);
+        -webkit-mask:url($icon_close) center/12px no-repeat;
+        transform:none;
+        &:hover,
+        &:active {
+            background:var(--text-normal);
+        }
+    }
+}

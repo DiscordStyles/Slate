@@ -1,0 +1,135 @@
+#app-mount {
+  .recentMentionsPopout-3rCiI6 {
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    background: var(--background);
+    box-shadow: none;
+    border: 1px solid var(--base-border);
+    border-radius: var(--border-radius);
+    .header-2-Imhb {
+      padding: 0 var(--spacing);
+      height: unset;
+      min-height: unset;
+      display: flex;
+      align-items: center;
+    }
+    .tabBar-1kuXvJ {
+      display: flex;
+      align-items: center;
+    }
+    .tab-ck0077 {
+      margin: 0 var(--spacing) 0 0;
+      padding: var(--spacing) 0;
+      height: unset;
+      border-radius: 0;
+      background: transparent;
+      font-size: var(--font-size);
+      color: var(--text-normal);
+      &.active-1MbGPa {
+        color: var(--text-focus);
+        box-shadow: inset 0 -2px 0 var(--text-focus);
+      }
+    }
+    .secondary-dIudih {
+      padding: var(--spacing) 0;
+      height: auto;
+      min-height: unset;
+      background: transparent;
+      width: auto;
+      min-width: unset;
+      border-radius: 0;
+    }
+  }
+  .container-3iAQ-0 {
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid var(--base-border);
+    &:hover .jumpButton-2F6EMx {
+      opacity: 1;
+    }
+  }
+  .channelHeader-3Gd2xq {
+    background: var(--background);
+    padding: var(--spacing);
+    height: auto;
+  }
+  .guildIcon-3Co6k- {
+    border-radius: var(--border-radius);
+  }
+  .channelNameHeader-F4hU_R {
+    font-size: var(--font-size-md);
+  }
+  .colorHeaderSecondary-3Sp3Ft {
+    font-size: var(--font-size);
+    color: var(--text-muted);
+  }
+  .guildIcon-3Co6k- {
+    margin-right: var(--spacing);
+    width: var(--avatar-size);
+    height: var(--avatar-size);
+    background: var(--background-light);
+  }
+  .acronym-1e2Mdt {
+    font-size: var(--font-size);
+    width: var(--avatar-size);
+    height: var(--avatar-size);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .messageContainer-gbhlwo {
+    background: var(--background);
+    border-radius: 0;
+    padding: 0 var(--spacing) var(--spacing) 0;
+  }
+  .messages-3G3erD {
+    padding: 0;
+    border-radius: 0;
+    background: transparent;
+    .message-2g38UB {
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+  }
+  .closeButton-1152MI,
+  .tertiary-aMXF0g {
+    background: var(--background-light);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 24px;
+    min-height: unset;
+    width: 24px;
+    min-width: unset;
+    padding: 0;
+    svg {
+      width: 14px;
+      height: 14px;
+    }
+  }
+  .jumpButton-2F6EMx {
+    font-size: var(--font-size);
+    font-weight: var(--font-weight-normal);
+    cursor: default;
+    height: 20px;
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    line-height: normal;
+    transition: none;
+    padding: 0 var(--spacing);
+    border-radius: var(--button-border-radius);
+    color: var(--white);
+    background-color: var(--accent-solid);
+    .text-3KVtey {
+      color: var(--white);
+    }
+    &:hover {
+      box-shadow: inset 0 0 0 100vmax rgba(255,255,255,0.1);
+    }
+    &:focus {
+      box-shadow: 0 0 0 2px rgba(var(--accent), 0.25), inset 0 0 0 100vmax rgba(255,255,255,0.1);
+    }
+  }
+}

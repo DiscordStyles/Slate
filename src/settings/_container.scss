@@ -1,0 +1,37 @@
+#app-mount .layer-3QrUeG[aria-label*="SETTINGS"] {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--spacing-triple);
+  background: var(--backdrop);
+  transform: none !important;
+  [class*="scroller-" i]:not([class*="bd-"]) {
+    background: var(--background);
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+  .standardSidebarView-3F1I7i {
+    animation: modal 150ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    border-radius: var(--border-radius);
+    background: var(--background);
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 10px 1px rgba(0,0,0,0.4);
+    width: 100%;
+    min-width: 960px;
+    max-width: 960px;
+    height: 65vh;
+    max-height: 650px;
+    min-height: 400px;
+    padding-top: 50px;
+  }
+}
+
+@media only screen and (max-height: 650px) {
+  #app-mount .layer-3QrUeG[aria-label*="SETTINGS"] {
+    .standardSidebarView-3F1I7i {
+      min-height: 500px;
+    }
+  }
+}

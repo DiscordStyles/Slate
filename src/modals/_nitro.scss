@@ -1,0 +1,197 @@
+#app-mount {
+    .shaker-1QVc6p {
+        flex-grow:0;
+
+        // Breadcrumb shenanigans
+        .modalHeader-1a6oWz {
+            display:none;
+        }
+        .breadcrumbsWrapper-3avBWN {
+            position:relative;
+            left:calc(var(--spacing-double) * -1);
+            padding:0 var(--spacing-double);
+            height:50px;
+            box-sizing:border-box;
+            width:calc(100% + var(--spacing) * 4);
+            border-bottom:1px solid var(--base-border);
+            display:flex;
+            align-items:center;
+            .breadcrumbWrapper-WmDjgG {
+                color:var(--text-normal); 
+                font-weight:var(--font-weight-semibold);  
+                .breadcrumb-OALf_a {
+                    font-size:var(--font-size-md);
+                    font-weight:var(--font-weight-semibold);
+                    opacity:.5;
+                    line-height:18px;
+                    &.activeBreadcrumb-p6aw-F {
+                        opacity:1;
+                        color:var(--text-normal);
+                    }
+                }
+            }
+        }
+        .content-1LAB8Z {
+            padding-top:0;
+        }
+        .transitionGroup-aR7y1d {
+            div[style*="transform: translate"] {
+                transform:none !important;
+            }
+
+            // Plan Select
+            .stepBody-1cR8n4 {
+                padding-top:var(--spacing-double);
+                .selectPlanChooseTitle-2ClZSL {
+                    font-size:var(--font-size-md);
+                    font-weight:var(--font-weight-semibold);
+                    color:var(--text-normal);
+                }
+                .selectPlanDivider-1mx_6q {
+                    display:none;
+                }
+                .selectPlanTotalRow-Coq3OB {
+                    margin-top:var(--spacing);
+                    border-radius:var(--border-radius);
+                    background:var(--background-alt);
+                    border:1px solid var(--base-border);
+                    padding:var(--spacing);
+                    height:auto;
+                    .totalLabel-kW8CA9 {
+                        color:var(--text-normal);
+                        font-size:var(--font-size);
+                        font-weight:var(--font-weight-normal);
+                        line-height:normal;
+                    }
+                    .totalAmount-QMwGZT {
+                        font-weight:var(--font-weight-normal);
+                        color:var(--text-normal);
+                        .pricePerInterval-WZc5oR {
+                            font-size:var(--font-size);
+                            color:var(--text-muted);
+                            font-weight:var(--font-weight-normal);
+                            line-height:normal;
+                            strong {
+                                color:var(--text-normal);
+                                font-size:var(--font-size-md);
+                                font-weight:var(--font-weight-semibold);
+                                line-height:normal;
+                            }
+                        }
+                    }
+                }
+                .planOption-3m2svN {
+                    color:var(--text-normal);
+                    font-size:var(--font-size);
+                    font-weight:var(--font-weight-normal);
+                    padding:0;
+                    margin-bottom:var(--spacing-half);
+                    .planOptionClickable-2m4lfF {
+                        cursor:default;
+                    }
+                    .optionSelected-1d91jC {
+                        color:var(--text-normal);
+                    }
+                    .planOptionDiscount-cS8uaO {
+                        color:var(--white);
+                        background:rgb(var(--status-green));
+                        border-radius:var(--border-radius);
+                        text-transform:capitalize;
+                        font-size:var(--font-size);
+                        margin-left:var(--spacing-half);
+                        padding:calc(var(--spacing) / 5) var(--spacing-half);
+                    }
+                    .planOptionCheckbox-3ik8cg {
+                        margin-right:var(--spacing-half);
+                        .inputReadonly-rYU97L {
+                            z-index:1;
+                            opacity:1;
+                            position:relative;
+                            appearance:checkbox;
+                            width:14px !important;
+                            height:14px !important;
+                        }
+                        .checkbox-1ix_J3 {
+                            display:none;
+                        }
+                    }
+                }
+            }
+
+            // Payment Options (_paymentmethod.scss)
+            .paymentTypeSelectStep-q07Z2s {
+                padding:0;
+                margin-top:var(--spacing);
+            }
+            .inputWrapper-2YCfto,
+            .cardNumberWrapper-3YhV1H {
+                .cardIconSmall-2gJ6xX {
+                    display:none;
+                }
+            }
+            .row-2grg9k {
+                padding-top:var(--spacing);
+                &:first-child {
+                    padding-top:0;
+                }
+            }
+            button {
+                .cardIconSmall-2gJ6xX {
+                    width:24px;
+                    height:16.5px;
+                    box-shadow:none;
+                    &:before,
+                    &:after {
+                        border-radius:0;
+                    }
+                }
+                &:first-child {
+                    margin:0;
+                }
+            }
+        }
+        // Back Button
+        .link-3dHnkW {
+            font-size: var(--font-size);
+            font-weight: var(--font-weight-normal);
+            cursor: default;
+            min-height: var(--input-height);
+            height: var(--input-height);
+            line-height: normal;
+            transition: none;
+            box-sizing: border-box;
+            padding: 0 var(--spacing);
+            border-radius: var(--button-border-radius);
+            display: flex;
+            align-items: center;
+            color: var(--text-normal);
+            background: var(--background-light);
+            border: 1px solid var(--base-border);
+            cursor: default;
+            text-decoration: none;
+            &:hover {
+                border: 1px solid currentColor;
+                .contents-18-Yxp {
+                    background-image: none;
+                }
+            }
+            &:focus {
+                box-shadow: 0 0 0 1px currentColor !important;
+                border: 1px solid currentColor !important;
+            }
+        }
+    }
+}
+
+// Light Mode
+
+#app-mount .shaker-1QVc6p .link-3dHnkW {
+    &:hover {
+        background: var(--background);
+        border: 1px solid var(--secondary-border-color);
+    }
+    &:focus {
+        box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.05) !important;
+        border: 1px solid var(--secondary-border-color) !important;
+    }    
+}

@@ -1,0 +1,100 @@
+:root {
+  --slate-version: "Slate 1.1.6";
+
+  // Roundness
+  --border-radius: 3px;
+  --button-border-radius: 2px;
+
+  // Primary Coloring
+  --accent-solid: rgba(var(--accent), 1);
+  --bd-blue: var(--accent-solid);
+  --bd-blue-hover: var(--accent-solid);
+
+  // ASW Fallbacks
+  --noasw-padding: calc(var(--container, 0) - 4px);
+  --noasw-base: var(--container, 72px);
+  --noasw-channel-header: var(--container, 0px);
+
+  // Spacing
+  --spacing-third: calc(var(--spacing) / 3);
+  --spacing-half: calc(var(--spacing) / 2);
+  --spacing: 10px;
+  --spacing-double: calc(var(--spacing) * 2);
+  --spacing-triple: calc(var(--spacing) * 3);
+
+  // Fonts
+  --font-family-sans-serif: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', Arial, sans-serif;
+  --font-family-monospace: Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
+
+  // Text Scaling
+  --font-size-xsm:9px;
+  --font-size-sm: 11px;
+  --font-size: 12px;
+  --font-size-md: 14px;
+  --font-size-lg: 28px;
+  --font-size-xl: 32px;
+  --font-size-xxl: 42px;
+  --line-height-sm: 1;
+  --line-height: 1.5;
+
+  // Font weights
+  --font-weight-light: 300;
+  --font-weight-normal: 400;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+
+  // Titlebar
+  --titlebar-height: 28px;
+  --win32-close-background-hover:#e81123;
+  --win32-close-background-active:#bf0f1d;
+
+  // Toolbar
+  --toolbar-height: 50px;
+  --toolbar-text-normal: #d1d5da;
+  --toolbar-text-muted: #959da5;
+  --toolbar-text-focus: #ffffff;
+  --toolbar-search-background: #161a1d;
+  --toolbar-search-border: var(--toolbar-border);
+  --toolbar-background: #1d2125;
+  --toolbar-background-hover: #2f363d;
+  --toolbar-background-active:#444d56;
+  --toolbar-background-alt: #24292e;
+  --toolbar-border: #141414;
+
+  // List Items
+  --item-height: 34px;
+
+  // Sidebars
+  --sidebar-width: 260px;
+  --member-height: 42px;
+  --channel-height: 32px;
+
+  // Avatars
+  --avatar-size-xsm:18px;
+  --avatar-size-sm: 24px;
+  --avatar-size: 28px;
+  --avatar-size-lg: 45px;
+  --avatar-size-xl: 64px;
+
+  // Modals
+  --backdrop: rgb(0 0 0 / 0.4);
+
+  // Elevation
+  --elevation-1: 0 8px 24px rgba(0,0,0,0.15);
+  --elevation-2: 0 2px 7px rgba(12, 7, 7, 0.7);
+
+  // Status Colors
+  --status-green: 40, 167, 69;
+  --status-yellow: 219, 171, 9;
+  --status-red: 215, 58, 73;
+  --status-purple: 89, 54, 149;
+  --status-grey: 117, 128, 142;
+  --discord-pink: 255, 115, 250;
+  --discord-blurple: 114, 137, 218;
+
+  // RadialStatus
+  --rs-small-spacing: 0px;
+  --rs-large-spacing: 0px;
+  --rs-width: 2px;
+  --rs-avatar-shape: 5%;
+}

@@ -1,0 +1,43 @@
+::-webkit-input-placeholder {
+  user-select: none;
+}
+
+html {
+  line-height: var(--line-height);
+}
+
+.app-2rEoOp,
+.bg-h5JY_x {
+  background:var(--background);
+  transform:none !important;
+}
+
+#app-mount {
+  background: var(--toolbar-background);
+  .base-3dtUhz {
+    border-radius: 0;
+    left: var(--noasw-base);
+    overflow: visible !important;
+  }
+  .layer-3QrUeG.baseLayer-35bLyl {
+    opacity: 1 !important;
+    transform: scale(1) !important;
+  }
+
+  // Mentions/Channel jump
+  .mention {
+    background: rgba(var(--accent), 0.15);
+    border-radius: var(--border-radius);
+    color: var(--accent-solid);
+    cursor:default;
+    &:hover {
+      background: var(--accent-solid);
+      color: var(--white);
+    }
+  }
+
+  // Remove box-shadow from chat
+  .content-yTz4x3:before {
+    content: none;
+  }
+}

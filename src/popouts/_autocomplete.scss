@@ -1,0 +1,37 @@
+#app-mount .autocomplete-1vrmpx {
+  background: var(--background);
+  border-radius: 0;
+  border-top: 1px solid var(--base-border);
+  left: -45px;
+  right: -13px;
+  bottom: calc(100% + 10px);
+  box-shadow: none;
+  .autocompleteInner-zh20B_ {
+    padding-bottom: 0;
+  }
+  .autocompleteRow-2OthDa {
+    padding: 0;
+    border-radius: 0;
+  }
+  .selector-2IcQBU {
+    border-radius: 0;
+    padding: 0 var(--spacing);
+    display: flex;
+    align-items: center;
+    height: var(--item-height);
+    &.selectorSelected-1_M1WV {
+      background: var(--background-modifier-hover);
+    }
+  }
+  .contentTitle-2tG_sM {
+    color: var(--text-normal);
+  }
+  .marginLeft4-3VaXdt {
+    font-size: var(--font-size-md);
+    color: var(--text-focus);
+  }
+  .description-11DmNu {
+    font-size: var(--font-size);
+    color: var(--text-muted);
+  }
+}

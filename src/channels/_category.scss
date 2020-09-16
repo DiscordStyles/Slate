@@ -1,0 +1,43 @@
+#app-mount .sidebar-2K8pFh {
+  .containerDefault-3GGEv_,
+  .containerDragAfter-3TEhpe, 
+  .containerDragBefore-3Dzc5x, 
+  .containerUserOver-1Tcb7l {
+    padding: var(--spacing-half) 0;
+    .wrapper-CU3qI5 {
+      color: var(--text-normal);
+      height:26px;
+      padding-right:var(--spacing);
+      padding-left:20px;
+      cursor:default;
+      svg, .name-IbjUBS, .container-2ax-kl {
+        color: var(--text-normal);
+        font-size:var(--font-size-sm);
+        font-weight:var(--font-weight-semibold);
+        line-height:normal;
+      }
+      .arrow-gKvcEx {
+        left:4px;
+        top:7px;
+      }
+      .name-IbjUBS,
+      .container-2ax-kl {
+        text-transform: none;
+      }
+      &.muted-1NRuDm {
+        color: var(--text-muted);
+        svg, .name-IbjUBS {
+          color: var(--text-muted);
+        }
+      }
+      .addButton-1BORro {
+        height:14px;
+        width:14px;
+        svg {
+          height:14px;
+          width:14px;
+        }
+      }
+    }
+  }
+}

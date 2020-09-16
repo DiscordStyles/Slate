@@ -1,0 +1,268 @@
+// Codeblock Lang Database
+
+&[class~="hljs"]:before {
+  content: 'Plain Text';
+}
+&[class~="diff" i]:before {
+  content: "Diff";
+}
+&[class~="cs" i]:before,
+&[class~="csharp" i]:before {
+  content: "C#";
+}
+&[class~="ini" i]:before {
+  content: "Initialization File";
+}
+&[class~="autohotkey" i]:before {
+  content: "AutoHotkey";
+}
+&[class~="asciidoc" i]:before {
+  content: "Ascii";
+}
+&[class~="TOML" i]:before {
+  content: "TOML";
+}
+&[class~="nginx" i]:before {
+  content: "NGINX";
+}
+&[class~="perl" i]:before {
+  content: "Perl";
+}
+&[class~="d" i]:before {
+  content: "d";
+}
+&[class~="javascript" i]:before,
+&[class~="js" i]:before {
+  content: "Javascript";
+}
+&[class~="css" i]:before {
+  content: "Cascading Style Sheet";
+}
+&[class~="bash" i]:before {
+  content: "Bash";
+}
+&[class~="markdown" i]:before,
+&[class~="md" i]:before {
+  content: "Markdown";
+}
+&[class~="html" i]:before {
+  content: "HTML";
+}
+&[class~="xl" i]:before {
+  content: "eXtensible Language";
+}
+&[class~="coffee" i]:before {
+  content: "CoffeeScript";
+}
+&[class~="ruby" i]:before {
+  content: "Ruby";
+}
+&[class~="sql" i]:before {
+  content: "SQL";
+}
+&[class~="java" i]:before {
+  content: "Java";
+}
+&[class~="py" i]:before,
+&[class~="python" i]:before {
+  content: "Python";
+}
+&[class~="vb" i]:before,
+&[class~="visualbasic" i]:before,
+&[class~="vbs" i]:before {
+  content: "Visual Basic";
+}
+&[class~="lua" i]:before {
+  content: "Lua";
+}
+&[class~="php" i]:before {
+  content: "Php";
+}
+&[class~="swift" i]:before {
+  content: "Swift";
+}
+&[class~="makefile" i]:before {
+  content: "Makefile";
+}
+&[class~="go" i]:before {
+  content: "Go";
+}
+&[class~="rust" i]:before {
+  content: "Rust";
+}
+&[class~="prolog" i]:before {
+  content: "Prolog";
+}
+&[class~="ts" i]:before,
+&[class~="typescript" i]:before {
+  content: "TypeScript";
+}
+&[class~="http" i]:before {
+  content: "HyperText Transfer Protocol";
+}
+&[class~="json" i]:before {
+  content: "JSON";
+}
+&[class~="xml" i]:before {
+  content: "XML";
+}
+&[class~="less" i]:before {
+  content: "Less";
+}
+&[class~="sass" i]:before,
+&[class~="scss" i]:before {
+  content: "SCSS";
+}
+&[class~="elm" i]:before {
+  content: "Elm";
+}
+&[class~="cpp" i]:before {
+  content: "C++";
+}
+&[class~="hbs" i]:before {
+  content: "Handlebars";
+}
+&[class~="1c" i]:before {
+  content: "1c";
+}
+&[class~="abnf" i]:before {
+  content: "ABNF";
+}
+&[class~="clojure" i]:before {
+  content: "Clojure";
+}
+&[class~="objc" i]:before {
+  content: "Objective-C";
+}
+&[class~="yaml" i]:before {
+  content: "YAML";
+}
+&[class~="shell" i]:before,
+&[class~="sh" i]:before {
+  content: "Shell";
+}
+&[class~="kotlin" i]:before {
+  content: "Kotlin";
+}
+&[class~="apache" i]:before {
+  content: "Apache";
+}
+&[class~="stylus" i]:before {
+  content: "Stylus";
+}
+&[class~="avrasm" i]:before {
+  content: "AVR Assembler";
+}
+&[class~="llvm" i]:before {
+  content: "LLVM iR";
+}
+&[class~="mipsasm" i]:before {
+  content: "MIPS Assembly";
+}
+&[class~="x86asm" i]:before {
+  content: "Intel x86 Assembly";
+}
+&[class~="crmsh" i]:before {
+  content: "crmsh";
+}
+&[class~="dns" i]:before {
+  content: "DNS Zone File";
+}
+&[class~="dockerfile" i]:before {
+  content: "Dockerfile";
+}
+&[class~="dsconfig" i]:before {
+  content: "dsconfig";
+}
+&[class~="jboss-cli" i]:before {
+  content: "jboss-cli";
+}
+&[class~="ldif" i]:before {
+  content: "LDIF";
+}
+&[class~="pf.conf" i]:before {
+  content: "pf.conf";
+}
+&[class~="puppet" i]:before {
+  content: "Puppet";
+}
+&[class~="roboconf" i]:before {
+  content: "Roboconf";
+}
+&[class~="axapta" i]:before {
+  content: "Microsoft Dynamics AX";
+}
+&[class~="cos" i]:before {
+  content: "Cache Object Script";
+}
+&[class~="isbl" i]:before {
+  content: "ISBL";
+}
+&[class~="livecodeserver" i]:before {
+  content: "LiveCode";
+}
+&[class~="ldif" i]:before {
+  content: "LDIF";
+}
+&[class~="ruleslanguage" i]:before {
+  content: "Oracle Rules Language";
+}
+&[class~="clean" i]:before {
+  content: "Clean";
+}
+&[class~="coq" i]:before {
+  content: "Coq";
+}
+&[class~="elixir" i]:before {
+  content: "Elixir";
+}
+&[class~="erlang-repl" i]:before {
+  content: "Erlang REPL";
+}
+&[class~="erlang" i]:before {
+  content: "Erlang";
+}
+&[class~="flix" i]:before {
+  content: "Flix";
+}
+&[class~="fsharp" i]:before,
+&[class~="fs" i]:before {
+  content: "F#";
+}
+&[class~="haskell" i]:before {
+  content: "Haskell";
+}
+&[class~="ocaml" i]:before {
+  content: "OCaml";
+}
+&[class~="scala" i]:before {
+  content: "Scala";
+}
+&[class~="sml" i]:before {
+  content: "SML (Standard ML)";
+}
+&[class~="xquery" i]:before {
+  content: "XQuery";
+}
+&[class~="glsl" i]:before {
+  content: "GLSL";
+}
+&[class~="mel" i]:before {
+  content: "MEL";
+}
+&[class~="processing" i]:before {
+  content: "Processing";
+}
+&[class~="rib" i]:before {
+  content: "RenderMan RIB";
+}
+&[class~="rsl" i]:before {
+  content: "RenderMan RSL";
+}
+&[class~="armasm" i]:before {
+  content: "Arm Assembly";
+}
+&[class~="asm" i]:before,
+&[class~="assembly" i]:before {
+  content: "Assembly";
+}

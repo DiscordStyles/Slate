@@ -1,0 +1,40 @@
+#app-mount {
+  .noiseCancellationPopout-iRK2A0 {
+    position: fixed;
+    top: var(--titlebar-height);
+    left: 0;
+    z-index: 1;
+    height: calc(100vh - var(--titlebar-height));
+    border-radius: 0;
+    box-shadow: none;
+    border-right: 1px solid var(--base-border);
+    width: calc(var(--noasw-base) + var(--sidebar-width));
+    box-sizing: border-box;
+    background: var(--background);
+    .flex-1xMQg5 {
+      margin-bottom: var(--spacing);
+      &:first-child > div:first-child {
+        align-items: center;
+      }
+      & > .flexChild-faoVW3 {
+        &:first-child {
+          margin-left: 0;
+        }
+        &:last-child {
+          margin-right: 0;
+        }
+      }
+    }
+    .h5-18_1nd {
+      font-size: var(--font-size);
+      padding: var(--spacing) 0;
+      margin: 0;
+    }
+  }
+  .micTest-2C-tpt {
+    margin: 0 !important;
+  }
+  .note-1V3kyJ {
+    margin-top: 0;
+  }
+}

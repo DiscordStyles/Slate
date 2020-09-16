@@ -1,0 +1,61 @@
+#app-mount #bd-settings-sidebar {
+  padding-bottom: calc(var(--spacing) - 5px);
+  .ui-tab-bar-separator {
+    background-color: var(--base-border);
+    margin: var(--spacing) 0 calc(var(--spacing) + 5px);
+  }
+  .ui-tab-bar-header {
+    display: none;
+  }
+  .ui-tab-bar-item {
+    margin: calc(var(--spacing) / 3) var(--spacing-double);
+    font-weight: var(--font-weight-normal);
+    font-size: var(--font-size);
+    padding: var(--spacing);
+    border-radius: var(--border-radius);
+    color: var(--text-normal);
+    display: flex;
+    align-items: center;
+    line-height:normal;
+    cursor:default;
+    min-width:165px;
+    &:before {
+      content: "";
+      width: 16px;
+      height: 16px;
+      background: var(--text-muted);
+      display: block;
+      margin-right: var(--spacing);
+    }
+    // Settings
+    &:nth-child(3):before {
+      mask: url($icon_cog) center/cover no-repeat;
+    }
+    // Emotes
+    &:nth-child(4):before {
+      mask: url($icon_smiley) center/cover no-repeat;
+    }
+    // Plugins
+    &:nth-child(5):before {
+      mask: url($icon_plug) center/12px no-repeat;
+    }
+    // Themes
+    &:nth-child(6):before {
+      mask: url($icon_paint-roller) center/cover no-repeat;
+    }
+    // Custom CSS
+    &:nth-child(7):before {
+      mask: url($icon_code) center/cover no-repeat;
+    }
+    &:hover {
+      background: transparent;
+    }
+    &.selected {
+      color: #fff;
+      background: var(--accent-solid);
+      &:before {
+        background-color: #fff;
+      }
+    }
+  }
+}

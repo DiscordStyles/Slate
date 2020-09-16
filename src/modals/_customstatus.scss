@@ -1,0 +1,46 @@
+#app-mount {
+  .modalRoot-1Kx4Hb {
+    .formGroup-2hEDrJ {
+      margin-bottom:var(--spacing-double);
+      &:nth-last-child(2) {
+        margin:0;
+      }
+      .emojiButtonContainer-3d6DFV {
+        margin-right:var(--spacing-half);
+        .emojiButton-3uL3Aw {
+          cursor: default;
+          .sprite-2iCowe {
+            height:22px;
+            width:22px;
+            transform:none !important;
+            background:var(--text-muted);
+            -webkit-mask:url($icon_smiley_alt) center/20px no-repeat;
+          }
+          &:hover .sprite-2iCowe,
+          .sprite-2iCowe[style*="grayscale(0%)"] {
+            background:var(--text-normal);
+          }
+        }
+      }
+    }
+    .art-347BZj {
+      display: none;
+    }
+    .header-3C6qT5 {
+      padding-top: 0;
+      align-items: flex-start;
+      width:auto;
+      position:relative;
+      .headerText-2uyvpY {
+        font-size:var(--font-size-md);
+        font-weight:var(--font-weight-semibold);
+        color:var(--text-normal);
+        line-height:normal;
+      }
+    }
+    .modalCloseButton-3ztS-g {
+      top:unset;
+      right:calc(var(--spacing-double) - 6px) !important;
+    }
+  }
+}

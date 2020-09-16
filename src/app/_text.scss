@@ -1,0 +1,38 @@
+::selection {
+  background: var(--accent-solid);
+  color: #fff;
+}
+::-webkit-input-placeholder, body, button, input, select, textarea {
+  font-family:var(--font-family-sans-serif);
+}
+h1, h2, h3, h4, h5, h6, p {
+  user-select: text;
+}
+.h5-18_1nd {
+  color: var(--text-normal);
+  text-transform: none;
+  font-weight: var(--font-weight-normal);
+  cursor: text;
+  font-size: var(--font-size);
+}
+.errorMessage-3Guw2R {
+  color: rgb(var(--status-red));
+  font-size: var(--font-size);
+  font-weight: var(--font-weight-normal);
+}
+.colorStatusRed-1YV2rj {
+  color:rgb(var(--status-red));
+}
+.colorStandard-2KCXvj {
+  color:var(--text-normal);
+}
+strong {
+  font-weight:var(--font-weight-bold);
+}
+.size12-3cLvbJ {
+  font-size:var(--font-size);
+}
+a {
+  cursor:default;
+  color:var(--text-link);
+}

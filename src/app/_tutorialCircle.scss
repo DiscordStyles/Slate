@@ -1,0 +1,24 @@
+#app-mount {
+    .indicator-1afSc8[data-tutorial-id="direct-messages"] {
+        margin-top:44px;
+        margin-left:13px;
+    }
+    .indicator-1afSc8[data-tutorial-id="create-first-server"] {
+        margin-top:-6px;
+        margin-left:-22px;
+    }
+    .outerCircle-2K0c82,
+    [data-tutorial-id="organize-by-topic"],
+    [data-tutorial-id="voice-conversations"],
+    [data-tutorial-id="instant-invite"] {
+        display:none;
+    }
+    .innerCircle-2Tsscg {
+        background:var(--accent-solid);
+        -webkit-mask:url(/assets/5d7b0c4b2a82d63d829b6ea591853c22.svg) 50% no-repeat;
+    }
+    .bottom-UE1eOv,
+    .top-3fo3zT {
+        display:none;
+    }
+}

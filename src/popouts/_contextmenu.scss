@@ -1,0 +1,104 @@
+#app-mount {
+  // Native context menus
+  .styleFlexible-wGDiIL,
+  .submenu-2-ysNh {
+    background: var(--background);
+    box-shadow: var(--elevation-1);
+    border: 1px solid var(--base-border);
+    [role="group"] {
+      &:first-child .item-1tOPte {
+        border-radius: var(--border-radius) var(--border-radius) 0 0;
+      }
+      &:last-child .item-1tOPte {
+        border-radius: 0 0 var(--border-radius) var(--border-radius);
+      }
+    }
+    .scroller-3BxosC {
+      padding: 0;
+      &::-webkit-scrollbar {
+        width: 0;
+      }
+    }
+    .separator-2I32lJ {
+      margin: 0;
+      border-color: var(--base-border);
+    }
+    .item-1tOPte {
+      font-size: var(--font-size);
+      color: var(--text-normal);
+      margin: 0;
+      padding: var(--spacing-half) var(--spacing);
+      box-sizing: border-box;
+      border-radius: 0;
+      height: 32px;
+      cursor: default;
+      &.focused-3afm-j {
+        background: var(--background-modifier-hover);
+      }
+      &:active:not(.hideInteraction-1iHO1O) {
+        background: var(--background-modifier-active);
+      }
+      &.colorDanger-2qLCe1 {
+        color: rgb(var(--status-red));
+      }
+      &.colorBrand-ROmMP1 {
+        color: rgb(var(--discord-blurple));
+      }
+      &.hideInteraction-1iHO1O {
+        height: auto;
+        padding: 0;
+      }
+    }
+  }
+
+  // Instant reactions
+  .wrapper-3_530D {
+    padding: 0;
+    border-bottom: 1px solid var(--base-border);
+    overflow: hidden;
+    border-radius: var(--border-radius) var(--border-radius) 0 0;
+  }
+  .button-F9qN4n {
+    padding: 0;
+    width: 47px;
+    border-radius: 0;
+    background: transparent;
+    cursor: default;
+    &:hover {
+      background:var(--background-modifier-hover);
+    }
+    &:active {
+      background:var(--background-modifier-active);
+    }
+  }
+
+  // User settings (reeeee why didn't they change this)
+  #user-settings-cog div {
+    &:first-child {
+      border-radius: var(--border-radius) var(--border-radius) 0 0;
+    }
+    &:last-child {
+      border-radius: 0 0 var(--border-radius) var(--border-radius);
+    }
+  }
+
+  // Sub menus
+  .submenuContainer-2gbm7M {
+    .scroller-3BxosC .item-1tOPte {
+      &:first-child {
+        border-radius: var(--border-radius) var(--border-radius) 0 0;
+      }
+      &:last-child {
+        border-radius: 0 0 var(--border-radius) var(--border-radius);
+      }
+    }
+    .layer-v9HyYc {
+      &[style*="right"] {
+        margin-right: -4px;
+      }
+      &[style*="left"] {
+        margin-left: -4px;
+      }
+    }
+  }
+}

@@ -1,0 +1,37 @@
+#app-mount {
+    .container-2Uhd6d {
+        background:var(--background);
+        border-radius:var(--border-radius);
+        border:1px solid var(--base-border);
+        margin-left:-40px;
+        padding:var(--spacing);
+        box-shadow:none;
+        max-width:320px;
+        &::before {
+            content:'';
+            height:72px;
+            width:72px;
+            position:relative;
+            display:block;
+            background:var(--text-muted);
+            -webkit-mask:url($illustration_1) center/50px no-repeat;
+        }
+        .content-3MbD2f {
+            margin-left:var(--spacing);
+            .base-1x0h_U {
+                font-size:var(--font-size-md);
+                font-weight:var(--font-weight-semibold);
+                color:var(--text-normal);
+            }
+            .buttonContainer-3CyfSO {
+                margin-top:var(--spacing);
+                .lookFilled-1Gx00P {
+                    margin:0;
+                }
+            }
+        }
+        .image-3OQMFm {
+            display:none;
+        }
+    }
+}

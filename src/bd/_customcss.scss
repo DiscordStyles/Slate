@@ -1,0 +1,67 @@
+#app-mount {
+  #bd-settingspane-container .contentColumn-2hrIYH {
+    padding: 0 !important;
+    h2.ui-form-title.margin-bottom-20 {
+      display: none;
+    }
+  }
+  .checkbox {
+    color: var(--text-normal);
+    font-weight: var(--font-weight-normal);
+  }
+  #bd-customcss-attach-controls {
+    box-shadow: none;
+    height: auto;
+    border-top: 1px solid var(--base-border);
+    background: var(--background);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--spacing);
+    .checkbox-group li {
+      margin-top: 0;
+      .checkbox-inner + span {
+        font-size:var(--font-size);
+        margin-left:var(--spacing); 
+        line-height:normal;
+      }
+    }
+  }
+  #bd-customcss-detach-controls-button {
+    button {
+      margin:0;
+      margin-left:var(--spacing);
+      font-size: var(--font-size);
+      font-weight: var(--font-weight-normal);
+      cursor: default;
+      min-height: var(--input-height);
+      height: var(--input-height);
+      line-height: normal;
+      padding: 0 var(--spacing);
+      border-radius: var(--button-border-radius) !important;
+      color: var(--text-normal);
+      background: var(--background-light);
+      border: 1px solid var(--base-border) !important;
+      &:hover {
+        border: 1px solid currentColor !important;
+      }
+      &:focus {
+        box-shadow: 0 0 0 1px currentColor !important;
+        border: 1px solid currentColor !important;
+      }
+    }
+    & > div, & > span {
+      display: none;
+    }
+  }
+}
+#app-mount [aria-label*="SETTINGS"] .ace_editor {
+  height: calc(65vh - 96px);
+  min-height: 400px;
+}
+#app-mount #bd-customcss-detach-container {
+  border-left: 1px solid var(--base-border);
+  #bd-customcss-detach-editor {
+    height: calc(100vh - var(--titlebar-height) - 50px);
+  }
+}

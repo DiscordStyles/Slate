@@ -1,0 +1,175 @@
+#app-mount .wrapper-3Q5DdO {
+  position: fixed;
+  background: var(--background-dark);
+  .canvas-3XuBXe,
+  .colorHeaderSecondary-3Sp3Ft,
+  .fallbackImage-31Sk4m,
+  .image-2jyRAK,
+  .needAccount-23l_Wh,
+  .verticalSeparator-3huAjp {
+    display: none;
+  }
+
+  //Background
+  .rightSplit-2US0xy {
+    background: url($illustration_2) center/50%;
+    box-shadow: inset 0 0 0 100vmax rgba(0,0,0,0.4);
+  }
+
+  // Authbox
+  .authBox-hW6HRx {
+    padding: 0;
+    max-width: 400px;
+    background: var(--background);
+    box-shadow: var(--elevation-2);
+    border-radius: var(--border-radius);
+    border: 1px solid var(--border-color);
+    position: relative;
+    left: -100px;
+    .defaultMarginh3-2iptLs,
+    .defaultMarginh5-2mL-bP {
+      margin-bottom: var(--spacing-third);
+    }
+    .block-egJnc0 {
+      margin: 0;
+      padding: var(--spacing-double);
+      box-sizing: border-box;
+      .lookLink-9FtZy- {
+        margin: var(--spacing) 0;
+      }
+      .smallRegisterLink-2LCrMe {
+        margin-bottom: 0;
+      }
+      .lookFilled-1Gx00P,
+      .marginTop4-2BNfKC:last-child {
+        margin: 0;
+      }
+      .title-3sZWYQ {
+        font-size:var(--font-size);
+      }
+      .subText-1XkjIB {
+        color:var(--text-muted);
+      }
+      .inputs-14Hc7m {
+        margin-bottom:0;
+        width:auto;
+        justify-content:flex-start;
+        div[tabindex] {
+          flex-grow:1;
+        }
+        .inputMonth-IGgn-0,
+        .inputDay-18OXiE,
+        .inputYear-2J502p {
+          width:auto;
+          margin-right:var(--spacing-half);
+        }
+      }
+      a {
+        color:var(--text-link);
+      }
+    }
+    .marginBottom20-32qID7 {
+      margin-bottom: var(--spacing);
+    }
+  }
+  .wrapper-6URcxg {
+    transform: none !important;
+    width: 100vw !important;
+    height: 100vh !important;
+    min-width: unset;
+    min-height: unset;
+  }
+  .title-jXR8lp {
+    width: 100%;
+    height: 50px;
+    padding: var(--spacing-double);
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    font-weight: var(--font-weight-normal);
+    font-size: var(--font-size-md);
+    border-bottom: 1px solid var(--base-border);
+    margin: 0;
+    color: var(--text-normal);
+  }
+
+  // QR
+  .qrLogin-1AOZMt {
+    position: absolute;
+    left: 100%;
+    background: var(--background);
+    box-shadow: var(--elevation-2);
+    border-radius: var(--border-radius);
+    border: 1px solid var(--border-color);
+    margin-left: var(--spacing);
+    height: auto;
+    width: auto;
+    top: 0;
+    padding: 0;
+    .qrLoginInner-c_7ePj {
+      justify-content: flex-start;
+      .qrCodeContainer-3sXarj {
+        padding: var(--spacing-double);
+        margin:0;
+      }
+    }
+    .qrAvatar-8_WYAf {
+      padding:var(--spacing-double);
+      margin-bottom:var(--spacing);
+    }
+    .startOverButton-3q0wUV {
+      font-size: var(--font-size);
+      font-weight: var(--font-weight-normal);
+      cursor: default;
+      min-height: var(--input-height);
+      height: var(--input-height);
+      line-height: normal;
+      transition: none;
+      box-sizing:border-box;
+      padding: 0 var(--spacing);
+      border-radius: var(--button-border-radius);
+      color: var(--text-normal);
+      background: var(--background-light);
+      border: 1px solid var(--base-border);
+      box-shadow: none !important;
+      &:hover {
+        border: 1px solid currentColor;
+      }
+      &:focus {
+        box-shadow: 0 0 0 1px currentColor !important;
+        border: 1px solid currentColor !important;
+      }
+    }
+    .qrCodeOverlay-qgtlTP {
+      height:176px;
+      width:176px;
+    }
+    .title-jXR8lp {
+      order: -1;
+    }
+    .qrCodeContainer-3sXarj {
+      margin: 0;
+    }
+  }
+
+  // Capcha
+  img[src="/assets/0f4d1ff76624bb45a3fee4189279ee92.svg"] {
+    display:none;
+  }
+  .g-recaptcha {
+    margin:var(--spacing-double) 0;
+  }
+}
+
+// Light Mode
+
+html.theme-light #app-mount .wrapper-3Q5DdO .qrLogin-1AOZMt .startOverButton-3q0wUV {
+  &:hover {
+    background: var(--background);
+    border: 1px solid var(--secondary-border-color);
+  }
+  &:focus {
+    box-shadow: 0 0 0 2px rgba(0,0,0,0.05) !important;
+    border: 1px solid var(--secondary-border-color) !important;
+  }
+}
