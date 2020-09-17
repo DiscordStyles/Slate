@@ -249,10 +249,10 @@
 html.theme-light #app-mount .layer-3QrUeG[aria-label*=SETTINGS] .contentRegion-3nDuYy .streamerModeEnabled-2q0Gft .streamerModeEnabledBtn-2ZJ2eq {
 	&:hover {
         background: var(--background);
-        border: 1px solid var(--secondary-border-color);
+        border: 1px solid var(--secondary-border);
     }
     &:focus {
     	box-shadow: 0 0 0 2px rgba(0,0,0,0.05) !important;
-    	border: 1px solid var(--secondary-border-color) !important;
+    	border: 1px solid var(--secondary-border) !important;
     }
 }

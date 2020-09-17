@@ -8,7 +8,7 @@ html.theme-dark .force-theme.theme-light {
   --text-focus: #ffffff;
   --text-link: rgb(var(--link-colour));
 
-  // Background
+  // Backgrounds
   --background-light: #2f363d;
   --background: #24292e;
   --background-alt: #2a3036;
@@ -20,20 +20,17 @@ html.theme-dark .force-theme.theme-light {
   // White
   --white:#ffffff; // Only use to contrast a primary background.
 
-  // Input
-  --input-height: 25px;
-  
   // Scrollbars
   --scrollbar-background: rgb(255 255 255 / 0.1);
   --scrollbar-background-hover: rgb(255 255 255 / 0.2);
   --scrollbar-background-active: rgb(255 255 255 / 0.3);
 
-  // Discord variables
+  // Interaction
   --background-modifier-hover: var(--background-light);
   --background-modifier-active: #444d56;
   --background-modifier-selected: var(--accent-solid);
 
-  // Syntax
+  // Syntax Highlighting
   --syntax-blue:#79b8ff;
   --syntax-purple:#b392f0;
   --syntax-grey:#959da5;

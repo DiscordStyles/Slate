@@ -100,7 +100,7 @@ html.theme-dark .force-theme.theme-light {
 html.theme-light #app-mount .theme-light .root-1gCeng,
 html.theme-light .force-theme.theme-light {
   --base-border: #e1e4e8;
-  --secondary-border-color:#d1d5da;
+  --secondary-border:#d1d5da;
   --text-default: #24292e;
   --text-muted: #6a737d;
   --text-focus: #000000;
@@ -3217,11 +3217,11 @@ body #app-mount .container-1r6BKw.themed-ANHk51.title-3qD0b- .children-19S4PO:ho
 
 .theme-light #app-mount .message-2qnXI6 .operations-36ENbA a:first-child:hover {
   background: var(--background);
-  border: 1px solid var(--secondary-border-color);
+  border: 1px solid var(--secondary-border);
 }
 .theme-light #app-mount .message-2qnXI6 .operations-36ENbA a:first-child:focus {
   box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.05) !important;
-  border: 1px solid var(--secondary-border-color) !important;
+  border: 1px solid var(--secondary-border) !important;
 }
 
 #app-mount .form-2fGMdU {
@@ -3923,11 +3923,11 @@ body #app-mount .container-1r6BKw.themed-ANHk51.title-3qD0b- .children-19S4PO:ho
 
 html.theme-light #app-mount .reactions-12N0jA .reaction-1hd86g:not(.reactionMe-wv5HKu):hover {
   background: var(--background);
-  border: 1px solid var(--secondary-border-color);
+  border: 1px solid var(--secondary-border);
 }
 html.theme-light #app-mount .reactions-12N0jA .reaction-1hd86g:not(.reactionMe-wv5HKu):active {
   box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.05) !important;
-  border: 1px solid var(--secondary-border-color) !important;
+  border: 1px solid var(--secondary-border) !important;
 }
 
 #app-mount .members-1998pB {
@@ -4725,11 +4725,11 @@ html.theme-light #app-mount .reactions-12N0jA .reaction-1hd86g:not(.reactionMe-w
 
 html.theme-light #app-mount .container-16j22k .problems-3mgf6w a.statusLink-gFXhrL:hover {
   background: var(--background);
-  border: 1px solid var(--secondary-border-color);
+  border: 1px solid var(--secondary-border);
 }
 html.theme-light #app-mount .container-16j22k .problems-3mgf6w a.statusLink-gFXhrL:focus {
   box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.05) !important;
-  border: 1px solid var(--secondary-border-color) !important;
+  border: 1px solid var(--secondary-border) !important;
 }
 
 #app-mount .perksModal-fSYqOq {
@@ -4948,11 +4948,11 @@ html.theme-light #app-mount .container-16j22k .problems-3mgf6w a.statusLink-gFXh
 
 html.theme-light #app-mount .wrapper-3Q5DdO .qrLogin-1AOZMt .startOverButton-3q0wUV:hover {
   background: var(--background);
-  border: 1px solid var(--secondary-border-color);
+  border: 1px solid var(--secondary-border);
 }
 html.theme-light #app-mount .wrapper-3Q5DdO .qrLogin-1AOZMt .startOverButton-3q0wUV:focus {
   box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.05) !important;
-  border: 1px solid var(--secondary-border-color) !important;
+  border: 1px solid var(--secondary-border) !important;
 }
 
 .applicationStore-1pNvnv .scroller-2FKFPG, .container-1D34oG .scroller-2FKFPG {
@@ -7095,11 +7095,11 @@ html.theme-light #app-mount .userPopout-3XzG_A .note-3HfJZ5 textarea {
 
 html.theme-light #app-mount .container-ZRw2kD .guildSection-1EoFKd .showMoreEmojis-1Xd5A3:hover {
   background: var(--background);
-  border: 1px solid var(--secondary-border-color);
+  border: 1px solid var(--secondary-border);
 }
 html.theme-light #app-mount .container-ZRw2kD .guildSection-1EoFKd .showMoreEmojis-1Xd5A3:focus {
   box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.05) !important;
-  border: 1px solid var(--secondary-border-color) !important;
+  border: 1px solid var(--secondary-border) !important;
 }
 
 #app-mount .container-VSDcQc {
@@ -7339,12 +7339,12 @@ html.theme-light #app-mount .container-ZRw2kD .guildSection-1EoFKd .showMoreEmoj
 html.theme-light #app-mount .popout-2iWAc-.force-theme.content-1nP7fx .buttonContainer-lZQm0q .buttonSkipCenterAlign-2kUfCH:hover,
 html.theme-light #app-mount .popout-2iWAc-.force-theme.content-1nP7fx .buttonContainer-lZQm0q .buttonSkipLeftAlign-2Oe1kC:hover {
   background: var(--background);
-  border: 1px solid var(--secondary-border-color);
+  border: 1px solid var(--secondary-border);
 }
 html.theme-light #app-mount .popout-2iWAc-.force-theme.content-1nP7fx .buttonContainer-lZQm0q .buttonSkipCenterAlign-2kUfCH:focus,
 html.theme-light #app-mount .popout-2iWAc-.force-theme.content-1nP7fx .buttonContainer-lZQm0q .buttonSkipLeftAlign-2Oe1kC:focus {
   box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.05) !important;
-  border: 1px solid var(--secondary-border-color) !important;
+  border: 1px solid var(--secondary-border) !important;
 }
 
 #app-mount .layer-3QrUeG[aria-label*=SETTINGS] {
@@ -8396,11 +8396,11 @@ html.theme-light #app-mount .popout-2iWAc-.force-theme.content-1nP7fx .buttonCon
 
 html.theme-light #app-mount .layer-3QrUeG[aria-label*=SETTINGS] .contentRegion-3nDuYy .streamerModeEnabled-2q0Gft .streamerModeEnabledBtn-2ZJ2eq:hover {
   background: var(--background);
-  border: 1px solid var(--secondary-border-color);
+  border: 1px solid var(--secondary-border);
 }
 html.theme-light #app-mount .layer-3QrUeG[aria-label*=SETTINGS] .contentRegion-3nDuYy .streamerModeEnabled-2q0Gft .streamerModeEnabledBtn-2ZJ2eq:focus {
   box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.05) !important;
-  border: 1px solid var(--secondary-border-color) !important;
+  border: 1px solid var(--secondary-border) !important;
 }
 
 #app-mount .layer-3QrUeG[aria-label=USER_SETTINGS] .item-PXvHYJ {
@@ -8750,11 +8750,11 @@ html.platform-linux #app-mount .layer-3QrUeG[aria-label*=SETTINGS] .item-PXvHYJ:
 
 .theme-light #bd-settingspane-container .bd-addon-card .bd-addon-button:hover {
   background: var(--background) !important;
-  border: 1px solid var(--secondary-border-color) !important;
+  border: 1px solid var(--secondary-border) !important;
 }
 .theme-light #bd-settingspane-container .bd-addon-card .bd-addon-button:active {
   box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.05) !important;
-  border: 1px solid var(--secondary-border-color) !important;
+  border: 1px solid var(--secondary-border) !important;
 }
 
 #app-mount #bd-settingspane-container .ui-switch-wrapper {
@@ -9252,12 +9252,12 @@ html.platform-linux #app-mount .layer-3QrUeG[aria-label*=SETTINGS] .item-PXvHYJ:
 html.theme-light #app-mount .footer-2gL1pp .lookLink-9FtZy-:hover,
 html.theme-light #app-mount .footer-2gL1pp .cancelButton-2O3h8t:hover {
   background: var(--background);
-  border: 1px solid var(--secondary-border-color);
+  border: 1px solid var(--secondary-border);
 }
 html.theme-light #app-mount .footer-2gL1pp .lookLink-9FtZy-:focus,
 html.theme-light #app-mount .footer-2gL1pp .cancelButton-2O3h8t:focus {
   box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.05) !important;
-  border: 1px solid var(--secondary-border-color) !important;
+  border: 1px solid var(--secondary-border) !important;
 }
 
 #app-mount .root-SR8cQa {
@@ -9846,12 +9846,12 @@ html.theme-light #app-mount .footer-2gL1pp .cancelButton-2O3h8t:focus {
 html.theme-light #app-mount .theme-light .root-1gCeng .container-1CE3eW > div[style*=width] > div[style*=width] .templatesList-2E6rTe .itemContainer-1LSFks:not(:first-child):hover,
 html.theme-light #app-mount .theme-light .root-1gCeng .container-1CE3eW > div[style*=width] > div[style*=width] .footer-2gL1pp button.lookBlank-3eh9lL:hover {
   background: var(--background);
-  border: 1px solid var(--secondary-border-color);
+  border: 1px solid var(--secondary-border);
 }
 html.theme-light #app-mount .theme-light .root-1gCeng .container-1CE3eW > div[style*=width] > div[style*=width] .templatesList-2E6rTe .itemContainer-1LSFks:not(:first-child):focus,
 html.theme-light #app-mount .theme-light .root-1gCeng .container-1CE3eW > div[style*=width] > div[style*=width] .footer-2gL1pp button.lookBlank-3eh9lL:focus {
   box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.05) !important;
-  border: 1px solid var(--secondary-border-color) !important;
+  border: 1px solid var(--secondary-border) !important;
 }
 
 #app-mount .modal-1sor29 {
@@ -10402,11 +10402,11 @@ html.theme-light #app-mount .theme-light .root-1gCeng .container-1CE3eW > div[st
 
 #app-mount .shaker-1QVc6p .link-3dHnkW:hover {
   background: var(--background);
-  border: 1px solid var(--secondary-border-color);
+  border: 1px solid var(--secondary-border);
 }
 #app-mount .shaker-1QVc6p .link-3dHnkW:focus {
   box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.05) !important;
-  border: 1px solid var(--secondary-border-color) !important;
+  border: 1px solid var(--secondary-border) !important;
 }
 
 #app-mount .main-3auUui {
@@ -10509,11 +10509,11 @@ html.theme-light #app-mount .theme-light .root-1gCeng .container-1CE3eW > div[st
 
 html.theme-light #app-mount .main-3auUui .options-1VK2u9 .optionContainer-15srkc:hover {
   background: var(--background);
-  border: 1px solid var(--secondary-border-color);
+  border: 1px solid var(--secondary-border);
 }
 html.theme-light #app-mount .main-3auUui .options-1VK2u9 .optionContainer-15srkc:focus {
   box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.05) !important;
-  border: 1px solid var(--secondary-border-color) !important;
+  border: 1px solid var(--secondary-border) !important;
 }
 
 #app-mount .lookFilled-1Gx00P,
@@ -10613,7 +10613,7 @@ html.theme-light #app-mount .main-3auUui .options-1VK2u9 .optionContainer-15srkc
 .theme-light #app-mount .secondaryButton-BIo-2g:hover,
 .theme-light #app-mount .actionButton-uPB8Fs:hover {
   background: var(--background);
-  border: 1px solid var(--secondary-border-color);
+  border: 1px solid var(--secondary-border);
 }
 .theme-light #app-mount .colorPrimary-3b3xI6.lookLink-9FtZy-:focus,
 .theme-light #app-mount .colorPrimary-3b3xI6.lookFilled-1Gx00P:focus,
@@ -10622,7 +10622,7 @@ html.theme-light #app-mount .main-3auUui .options-1VK2u9 .optionContainer-15srkc
 .theme-light #app-mount .secondaryButton-BIo-2g:focus,
 .theme-light #app-mount .actionButton-uPB8Fs:focus {
   box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.05) !important;
-  border: 1px solid var(--secondary-border-color) !important;
+  border: 1px solid var(--secondary-border) !important;
 }
 
 #app-mount .switch-3wwwcV {

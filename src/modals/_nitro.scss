@@ -188,10 +188,10 @@
 #app-mount .shaker-1QVc6p .link-3dHnkW {
     &:hover {
         background: var(--background);
-        border: 1px solid var(--secondary-border-color);
+        border: 1px solid var(--secondary-border);
     }
     &:focus {
         box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.05) !important;
-        border: 1px solid var(--secondary-border-color) !important;
+        border: 1px solid var(--secondary-border) !important;
     }    
 }
