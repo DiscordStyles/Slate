@@ -126,10 +126,6 @@ html.theme-light .force-theme.theme-light {
   --syntax-green:#56b6c2;
 }
 
-[class*=baseLayer]::before {
-  display:none;
-}
-
 ::-webkit-input-placeholder {
   -webkit-user-select: none;
           user-select: none;
