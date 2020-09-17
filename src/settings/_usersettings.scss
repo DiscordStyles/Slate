@@ -674,14 +674,14 @@
 	}
 	.ghostPill-2-KUPM {
 		color:var(--text-normal);
-		border:1px solid var(--base-border);
-		background:var(--background-alt);
 		border-radius:var(--border-radius);
 		padding:var(--spacing);
 		font-size:var(--font-size);
 		font-weight:var(--font-weight-noraml);
 		line-height:normal;
 		margin:0;
+		background-color:rgba(var(--status-yellow), .25);
+		border:1px solid rgba(var(--status-yellow), .5);
 		+ .flexChild-faoVW3 {
 			display:flex;
 			align-items:center;

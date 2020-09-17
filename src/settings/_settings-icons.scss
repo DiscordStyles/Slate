@@ -109,7 +109,7 @@ html.platform-win #app-mount .layer-3QrUeG[aria-label*="SETTINGS"] .item-PXvHYJ 
   	
   // Streamer Mode
   &:nth-child(21):before {
-    mask: url($icon_camera) center/cover no-repeat;
+    mask: url($icon_video) center/cover no-repeat;
   }
   	
   // Language
@@ -163,7 +163,7 @@ html.platform-osx #app-mount .layer-3QrUeG[aria-label*="SETTINGS"] .item-PXvHYJ 
   	
   // Streamer Mode
   &:nth-child(20):before {
-    mask: url($icon_camera) center/cover no-repeat;
+    mask: url($icon_video) center/cover no-repeat;
   }
   	
   // Language
@@ -212,7 +212,7 @@ html.platform-linux #app-mount .layer-3QrUeG[aria-label*="SETTINGS"] .item-PXvHY
   	
   // Streamer Mode
   &:nth-child(20):before {
-    mask: url($icon_camera) center/cover no-repeat;
+    mask: url($icon_video) center/cover no-repeat;
   }
   	
   // Language

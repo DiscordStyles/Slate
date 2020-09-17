@@ -134,8 +134,24 @@
       height: calc(var(--avatar-size-lg) - var(--rs-large-spacing) - var(--rs-width));
       margin-top: calc(var(--rs-width) - 1px);
       margin-left: calc(var(--rs-width) - 1px);
+      font-size:0;
       white-space: normal;
       text-align: center;
+      box-shadow:none;
+      background:rgba(0, 0, 0, 0.5);
+      cursor:default;
+      transitionn:none;
+      &::after {
+        content:'';
+        position:absolute;
+        top:0;
+        left:0;
+        width:100%;
+        height:100%;
+        position:relative;
+        background:var(--white);
+        -webkit-mask:url($icon_person) center/18px no-repeat;
+      }
     }
   }
   .message-1PNnaP .mask-1l8v16 img {

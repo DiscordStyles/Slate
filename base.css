@@ -1,3 +1,4 @@
+@import url("https://discord-custom-covers.github.io/usrbg/dist/usrbg.css");
 :root {
   --slate-version: "Slate 1.1.6";
   --border-radius: 3px;
@@ -42,6 +43,7 @@
   --toolbar-background-active:#444d56;
   --toolbar-background-alt: #24292e;
   --toolbar-border: #141414;
+  --input-height: 25px;
   --item-height: 34px;
   --sidebar-width: 260px;
   --member-height: 42px;
@@ -81,7 +83,6 @@ html.theme-dark .force-theme.theme-light {
   --background-dark: #1d2125;
   --guilds-background:var(--background);
   --white:#ffffff;
-  --input-height: 25px;
   --scrollbar-background: rgb(255 255 255 / 0.1);
   --scrollbar-background-hover: rgb(255 255 255 / 0.2);
   --scrollbar-background-active: rgb(255 255 255 / 0.3);
@@ -101,7 +102,7 @@ html.theme-light #app-mount .theme-light .root-1gCeng,
 html.theme-light .force-theme.theme-light {
   --base-border: #e1e4e8;
   --secondary-border:#d1d5da;
-  --text-default: #24292e;
+  --text-normal: #24292e;
   --text-muted: #6a737d;
   --text-focus: #000000;
   --text-link: rgb(var(--link-colour));
@@ -111,7 +112,6 @@ html.theme-light .force-theme.theme-light {
   --background-dark: #ebeef1;
   --guilds-background:var(--background);
   --white: #ffffff;
-  --input-height: 25px;
   --scrollbar-background: rgb(0 0 0 / 0.3);
   --scrollbar-background-hover: rgb(0 0 0 / 0.4);
   --scrollbar-background-active: rgb(0 0 0 / 0.5);
@@ -540,7 +540,7 @@ body #app-mount .container-1r6BKw.themed-ANHk51 .search-36MZv- {
   right: 0;
   margin: 0;
   padding: 0 var(--spacing);
-  height: var(--toolbar-height);
+  height: calc(var(--toolbar-height) - 1px);
   display: flex;
   align-items: center;
   background: var(--toolbar-background);
@@ -735,46 +735,46 @@ body #app-mount .container-1r6BKw.themed-ANHk51.title-3qD0b- .children-19S4PO:ho
 }
 
 .userPopout-3XzG_A .wrapper-3t9DeA,
-.modal-3c3bKg .wrapper-3t9DeA {
+.inner-1ilYF7 .wrapper-3t9DeA {
   z-index: 1;
 }
 .userPopout-3XzG_A .wrapper-3t9DeA svg:not(:root),
-.modal-3c3bKg .wrapper-3t9DeA svg:not(:root) {
+.inner-1ilYF7 .wrapper-3t9DeA svg:not(:root) {
   overflow: visible;
 }
 .userPopout-3XzG_A .wrapper-3t9DeA foreignObject,
-.modal-3c3bKg .wrapper-3t9DeA foreignObject {
+.inner-1ilYF7 .wrapper-3t9DeA foreignObject {
   -webkit-mask: none;
           mask: none;
   overflow: visible;
 }
 .userPopout-3XzG_A .wrapper-3t9DeA .dots-3Bkt3k circle:nth-child(1),
-.modal-3c3bKg .wrapper-3t9DeA .dots-3Bkt3k circle:nth-child(1) {
+.inner-1ilYF7 .wrapper-3t9DeA .dots-3Bkt3k circle:nth-child(1) {
   cy: -8 !important;
   cx: -8.5 !important;
 }
 .userPopout-3XzG_A .wrapper-3t9DeA .dots-3Bkt3k circle:nth-child(2),
-.modal-3c3bKg .wrapper-3t9DeA .dots-3Bkt3k circle:nth-child(2) {
+.inner-1ilYF7 .wrapper-3t9DeA .dots-3Bkt3k circle:nth-child(2) {
   cy: -8 !important;
   cx: -2.25 !important;
 }
 .userPopout-3XzG_A .wrapper-3t9DeA .dots-3Bkt3k circle:nth-child(3),
-.modal-3c3bKg .wrapper-3t9DeA .dots-3Bkt3k circle:nth-child(3) {
+.inner-1ilYF7 .wrapper-3t9DeA .dots-3Bkt3k circle:nth-child(3) {
   cy: -8 !important;
   cx: 4 !important;
 }
 .userPopout-3XzG_A .wrapper-3t9DeA .mask-1l8v16 > rect[x="22"],
-.modal-3c3bKg .wrapper-3t9DeA .mask-1l8v16 > rect[x="22"] {
+.inner-1ilYF7 .wrapper-3t9DeA .mask-1l8v16 > rect[x="22"] {
   x: 0;
   y: 0;
 }
 .userPopout-3XzG_A .wrapper-3t9DeA .cursorDefault-dsQJ1n rect,
-.modal-3c3bKg .wrapper-3t9DeA .cursorDefault-dsQJ1n rect {
+.inner-1ilYF7 .wrapper-3t9DeA .cursorDefault-dsQJ1n rect {
   x: -49;
   y: -53;
 }
 .userPopout-3XzG_A .wrapper-3t9DeA .pointerEvents-2zdfdO[x="14.5"],
-.modal-3c3bKg .wrapper-3t9DeA .pointerEvents-2zdfdO[x="14.5"] {
+.inner-1ilYF7 .wrapper-3t9DeA .pointerEvents-2zdfdO[x="14.5"] {
   fill: rgba(0, 0, 0, 0.5) !important;
   width: 30px;
   height: 30px;
@@ -782,18 +782,18 @@ body #app-mount .container-1r6BKw.themed-ANHk51.title-3qD0b- .children-19S4PO:ho
   y: 1;
 }
 .userPopout-3XzG_A .wrapper-3t9DeA img,
-.modal-3c3bKg .wrapper-3t9DeA img {
+.inner-1ilYF7 .wrapper-3t9DeA img {
   border-radius: var(--rs-avatar-shape);
   -webkit-clip-path: inset(calc(var(--rs-small-spacing) + 1px) calc(var(--rs-small-spacing) + 1px) round var(--rs-avatar-shape));
           clip-path: inset(calc(var(--rs-small-spacing) + 1px) calc(var(--rs-small-spacing) + 1px) round var(--rs-avatar-shape));
 }
 .userPopout-3XzG_A .wrapper-3t9DeA svg[width="25"][height="15"] > rect,
-.modal-3c3bKg .wrapper-3t9DeA svg[width="25"][height="15"] > rect {
+.inner-1ilYF7 .wrapper-3t9DeA svg[width="25"][height="15"] > rect {
   rx: calc(var(--rs-avatar-shape) * 2) !important;
   ry: calc(var(--rs-avatar-shape) * 2) !important;
 }
 .userPopout-3XzG_A .wrapper-3t9DeA rect,
-.modal-3c3bKg .wrapper-3t9DeA rect {
+.inner-1ilYF7 .wrapper-3t9DeA rect {
   x: 0;
   y: 0;
   width: 100%;
@@ -807,68 +807,68 @@ body #app-mount .container-1r6BKw.themed-ANHk51.title-3qD0b- .children-19S4PO:ho
   stroke-width: var(--rs-width);
 }
 .userPopout-3XzG_A .wrapper-3t9DeA rect[fill="#43b581"], .userPopout-3XzG_A .wrapper-3t9DeA rect[fill="rgba(67, 181, 129, 1)"], .userPopout-3XzG_A .wrapper-3t9DeA rect[mask*=online],
-.modal-3c3bKg .wrapper-3t9DeA rect[fill="#43b581"],
-.modal-3c3bKg .wrapper-3t9DeA rect[fill="rgba(67, 181, 129, 1)"],
-.modal-3c3bKg .wrapper-3t9DeA rect[mask*=online] {
+.inner-1ilYF7 .wrapper-3t9DeA rect[fill="#43b581"],
+.inner-1ilYF7 .wrapper-3t9DeA rect[fill="rgba(67, 181, 129, 1)"],
+.inner-1ilYF7 .wrapper-3t9DeA rect[mask*=online] {
   stroke: rgb(var(--status-green));
 }
 .userPopout-3XzG_A .wrapper-3t9DeA rect[fill="#faa61a"], .userPopout-3XzG_A .wrapper-3t9DeA rect[fill="rgba(250, 166, 26, 1)"], .userPopout-3XzG_A .wrapper-3t9DeA rect[mask*=idle],
-.modal-3c3bKg .wrapper-3t9DeA rect[fill="#faa61a"],
-.modal-3c3bKg .wrapper-3t9DeA rect[fill="rgba(250, 166, 26, 1)"],
-.modal-3c3bKg .wrapper-3t9DeA rect[mask*=idle] {
+.inner-1ilYF7 .wrapper-3t9DeA rect[fill="#faa61a"],
+.inner-1ilYF7 .wrapper-3t9DeA rect[fill="rgba(250, 166, 26, 1)"],
+.inner-1ilYF7 .wrapper-3t9DeA rect[mask*=idle] {
   stroke: rgb(var(--status-yellow));
 }
 .userPopout-3XzG_A .wrapper-3t9DeA rect[fill="#f04747"], .userPopout-3XzG_A .wrapper-3t9DeA rect[fill="rgba(240, 71, 71, 1)"], .userPopout-3XzG_A .wrapper-3t9DeA rect[mask*=dnd],
-.modal-3c3bKg .wrapper-3t9DeA rect[fill="#f04747"],
-.modal-3c3bKg .wrapper-3t9DeA rect[fill="rgba(240, 71, 71, 1)"],
-.modal-3c3bKg .wrapper-3t9DeA rect[mask*=dnd] {
+.inner-1ilYF7 .wrapper-3t9DeA rect[fill="#f04747"],
+.inner-1ilYF7 .wrapper-3t9DeA rect[fill="rgba(240, 71, 71, 1)"],
+.inner-1ilYF7 .wrapper-3t9DeA rect[mask*=dnd] {
   stroke: rgb(var(--status-red));
 }
 .userPopout-3XzG_A .wrapper-3t9DeA rect[fill="#593695"], .userPopout-3XzG_A .wrapper-3t9DeA rect[mask*=streaming],
-.modal-3c3bKg .wrapper-3t9DeA rect[fill="#593695"],
-.modal-3c3bKg .wrapper-3t9DeA rect[mask*=streaming] {
+.inner-1ilYF7 .wrapper-3t9DeA rect[fill="#593695"],
+.inner-1ilYF7 .wrapper-3t9DeA rect[mask*=streaming] {
   stroke: rgb(var(--status-purple));
 }
 .userPopout-3XzG_A .wrapper-3t9DeA rect[fill="#747f8d"], .userPopout-3XzG_A .wrapper-3t9DeA rect[mask*=offline], .userPopout-3XzG_A .wrapper-3t9DeA rect[fill=NaN],
-.modal-3c3bKg .wrapper-3t9DeA rect[fill="#747f8d"],
-.modal-3c3bKg .wrapper-3t9DeA rect[mask*=offline],
-.modal-3c3bKg .wrapper-3t9DeA rect[fill=NaN] {
+.inner-1ilYF7 .wrapper-3t9DeA rect[fill="#747f8d"],
+.inner-1ilYF7 .wrapper-3t9DeA rect[mask*=offline],
+.inner-1ilYF7 .wrapper-3t9DeA rect[fill=NaN] {
   stroke: rgb(var(--status-grey));
 }
 .userPopout-3XzG_A .wrapper-3t9DeA rect[mask*=invisible], .userPopout-3XzG_A .wrapper-3t9DeA rect[fill="rgba(116, 127, 141, 1)"],
-.modal-3c3bKg .wrapper-3t9DeA rect[mask*=invisible],
-.modal-3c3bKg .wrapper-3t9DeA rect[fill="rgba(116, 127, 141, 1)"] {
+.inner-1ilYF7 .wrapper-3t9DeA rect[mask*=invisible],
+.inner-1ilYF7 .wrapper-3t9DeA rect[fill="rgba(116, 127, 141, 1)"] {
   stroke: rgb(var(--status-grey));
 }
 .userPopout-3XzG_A .wrapper-3t9DeA rect[x="16"],
-.modal-3c3bKg .wrapper-3t9DeA rect[x="16"] {
+.inner-1ilYF7 .wrapper-3t9DeA rect[x="16"] {
   width: 24px;
   height: 24px;
 }
 .userPopout-3XzG_A .wrapper-3t9DeA rect[x="28"],
-.modal-3c3bKg .wrapper-3t9DeA rect[x="28"] {
+.inner-1ilYF7 .wrapper-3t9DeA rect[x="28"] {
   width: 40px;
   height: 40px;
   overflow: visible;
 }
 .userPopout-3XzG_A .wrapper-3t9DeA[style*="width: 80px;"],
-.modal-3c3bKg .wrapper-3t9DeA[style*="width: 80px;"] {
+.inner-1ilYF7 .wrapper-3t9DeA[style*="width: 80px;"] {
   position: relative;
   margin-right: 0 !important;
 }
 .userPopout-3XzG_A .wrapper-3t9DeA[style*="width: 80px;"] rect,
-.modal-3c3bKg .wrapper-3t9DeA[style*="width: 80px;"] rect {
+.inner-1ilYF7 .wrapper-3t9DeA[style*="width: 80px;"] rect {
   width: 80px;
   height: 80px;
   pointer-events: none;
 }
 .userPopout-3XzG_A .wrapper-3t9DeA[style*="width: 80px;"] img,
-.modal-3c3bKg .wrapper-3t9DeA[style*="width: 80px;"] img {
+.inner-1ilYF7 .wrapper-3t9DeA[style*="width: 80px;"] img {
   -webkit-clip-path: inset(calc(var(--rs-large-spacing) + 1px) calc(var(--rs-large-spacing) + 1px) round var(--rs-avatar-shape));
           clip-path: inset(calc(var(--rs-large-spacing) + 1px) calc(var(--rs-large-spacing) + 1px) round var(--rs-avatar-shape));
 }
 .userPopout-3XzG_A .wrapper-3t9DeA[style*="width: 80px;"][style*="width:80px;"]:after,
-.modal-3c3bKg .wrapper-3t9DeA[style*="width: 80px;"][style*="width:80px;"]:after {
+.inner-1ilYF7 .wrapper-3t9DeA[style*="width: 80px;"][style*="width:80px;"]:after {
   left: unset;
   right: -2px;
   top: unset;
@@ -876,7 +876,7 @@ body #app-mount .container-1r6BKw.themed-ANHk51.title-3qD0b- .children-19S4PO:ho
   transform: none;
 }
 .userPopout-3XzG_A .wrapper-3t9DeA[style*="width: 32px;"] rect,
-.modal-3c3bKg .wrapper-3t9DeA[style*="width: 32px;"] rect {
+.inner-1ilYF7 .wrapper-3t9DeA[style*="width: 32px;"] rect {
   width: 32px;
   height: 32px;
   x: -14.5;
@@ -885,58 +885,75 @@ body #app-mount .container-1r6BKw.themed-ANHk51.title-3qD0b- .children-19S4PO:ho
   z-index: 0;
 }
 .userPopout-3XzG_A .avatarHint-1qgaV3 foreignObject,
-.modal-3c3bKg .avatarHint-1qgaV3 foreignObject {
+.inner-1ilYF7 .avatarHint-1qgaV3 foreignObject {
   -webkit-mask: none;
           mask: none;
 }
 .userPopout-3XzG_A .avatarHint-1qgaV3 .avatarHintInner-Dco91E,
-.modal-3c3bKg .avatarHint-1qgaV3 .avatarHintInner-Dco91E {
+.inner-1ilYF7 .avatarHint-1qgaV3 .avatarHintInner-Dco91E {
   border-radius: var(--rs-avatar-shape) !important;
   padding-top: 0;
   width: calc(var(--avatar-size-lg) - var(--rs-large-spacing) - var(--rs-width));
   height: calc(var(--avatar-size-lg) - var(--rs-large-spacing) - var(--rs-width));
   margin-top: calc(var(--rs-width) - 1px);
   margin-left: calc(var(--rs-width) - 1px);
+  font-size: 0;
   white-space: normal;
   text-align: center;
+  box-shadow: none;
+  background: rgba(0, 0, 0, 0.5);
+  cursor: default;
+  transitionn: none;
+}
+.userPopout-3XzG_A .avatarHint-1qgaV3 .avatarHintInner-Dco91E::after,
+.inner-1ilYF7 .avatarHint-1qgaV3 .avatarHintInner-Dco91E::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background: var(--white);
+  -webkit-mask: url('data:image/svg+xml; utf-8,<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" class="octicon" height="64" role="img" viewBox="0 0 12 16" width="48" style="display:inline-block;fill:currentColor;user-select:none;vertical-align:middle"><path fill-rule="evenodd" d="M12 14.002a.998.998 0 0 1-.998.998H1.001A1 1 0 0 1 0 13.999V13c0-2.633 4-4 4-4s.229-.409 0-1c-.841-.62-.944-1.59-1-4 .173-2.413 1.867-3 3-3s2.827.586 3 3c-.056 2.41-.159 3.38-1 4-.229.59 0 1 0 1s4 1.367 4 4v1.002z"/></svg>') center/18px no-repeat;
 }
 .userPopout-3XzG_A .message-1PNnaP .mask-1l8v16 img,
-.modal-3c3bKg .message-1PNnaP .mask-1l8v16 img {
+.inner-1ilYF7 .message-1PNnaP .mask-1l8v16 img {
   -webkit-clip-path: circle(calc(19px - var(--rs-small-spacing)));
           clip-path: circle(calc(19px - var(--rs-small-spacing)));
 }
 .userPopout-3XzG_A .memberOffline-2lN7gt img,
-.modal-3c3bKg .memberOffline-2lN7gt img {
+.inner-1ilYF7 .memberOffline-2lN7gt img {
   -webkit-clip-path: none !important;
           clip-path: none !important;
 }
 .userPopout-3XzG_A .header-QKLPzZ .wrapper-3t9DeA,
-.modal-3c3bKg .header-QKLPzZ .wrapper-3t9DeA {
+.inner-1ilYF7 .header-QKLPzZ .wrapper-3t9DeA {
   margin-right: 20px !important;
 }
 .userPopout-3XzG_A .offline-3nJYBR img,
-.modal-3c3bKg .offline-3nJYBR img {
+.inner-1ilYF7 .offline-3nJYBR img {
   -webkit-clip-path: none !important;
           clip-path: none !important;
 }
 .userPopout-3XzG_A foreignObject[mask*=mobile],
-.modal-3c3bKg foreignObject[mask*=mobile] {
+.inner-1ilYF7 foreignObject[mask*=mobile] {
   width: calc(100% + 252px);
 }
 .userPopout-3XzG_A foreignObject[mask*=mobile][width="32"],
-.modal-3c3bKg foreignObject[mask*=mobile][width="32"] {
+.inner-1ilYF7 foreignObject[mask*=mobile][width="32"] {
   width: calc(100% + var(--sidebar-width) + var(--spacing-half));
 }
 .userPopout-3XzG_A foreignObject[mask*=mobile][width="32"] img,
-.modal-3c3bKg foreignObject[mask*=mobile][width="32"] img {
+.inner-1ilYF7 foreignObject[mask*=mobile][width="32"] img {
   width: 32px;
 }
 .userPopout-3XzG_A foreignObject[mask*=mobile][width="80"] img,
-.modal-3c3bKg foreignObject[mask*=mobile][width="80"] img {
+.inner-1ilYF7 foreignObject[mask*=mobile][width="80"] img {
   width: 80px;
 }
 .userPopout-3XzG_A foreignObject[mask*=mobile]:after,
-.modal-3c3bKg foreignObject[mask*=mobile]:after {
+.inner-1ilYF7 foreignObject[mask*=mobile]:after {
   content: "";
   -webkit-mask: url('data:image/svg+xml; utf-8,<svg aria-hidden="true" focusable="false" data-prefix="fas" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M272 0H48C21.5 0 0 21.5 0 48v416c0 26.5 21.5 48 48 48h224c26.5 0 48-21.5 48-48V48c0-26.5-21.5-48-48-48zM160 480c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm112-108c0 6.6-5.4 12-12 12H60c-6.6 0-12-5.4-12-12V60c0-6.6 5.4-12 12-12h200c6.6 0 12 5.4 12 12v312z"></path></svg>') center/12px no-repeat;
           mask: url('data:image/svg+xml; utf-8,<svg aria-hidden="true" focusable="false" data-prefix="fas" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M272 0H48C21.5 0 0 21.5 0 48v416c0 26.5 21.5 48 48 48h224c26.5 0 48-21.5 48-48V48c0-26.5-21.5-48-48-48zM160 480c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm112-108c0 6.6-5.4 12-12 12H60c-6.6 0-12-5.4-12-12V60c0-6.6 5.4-12 12-12h200c6.6 0 12 5.4 12 12v312z"></path></svg>') center/12px no-repeat;
@@ -1045,7 +1062,8 @@ body #app-mount .container-1r6BKw.themed-ANHk51.title-3qD0b- .children-19S4PO:ho
 #app-mount .scroller-2LSbBU::-webkit-scrollbar,
 #app-mount .rolesList-22qj2L::-webkit-scrollbar,
 #app-mount .templatesList-2E6rTe::-webkit-scrollbar,
-#app-mount .autocompleteScroller-iInVqR::-webkit-scrollbar {
+#app-mount .autocompleteScroller-iInVqR::-webkit-scrollbar,
+#app-mount .keybindGroup--6Qp-w::-webkit-scrollbar {
   width: 4px;
   display: none;
   background: transparent !important;
@@ -1060,7 +1078,8 @@ body #app-mount .container-1r6BKw.themed-ANHk51.title-3qD0b- .children-19S4PO:ho
 #app-mount .scroller-2LSbBU::-webkit-scrollbar-track,
 #app-mount .rolesList-22qj2L::-webkit-scrollbar-track,
 #app-mount .templatesList-2E6rTe::-webkit-scrollbar-track,
-#app-mount .autocompleteScroller-iInVqR::-webkit-scrollbar-track {
+#app-mount .autocompleteScroller-iInVqR::-webkit-scrollbar-track,
+#app-mount .keybindGroup--6Qp-w::-webkit-scrollbar-track {
   margin: 0;
 }
 #app-mount .messagesPopout-24nkyi::-webkit-scrollbar-track-piece,
@@ -1073,7 +1092,8 @@ body #app-mount .container-1r6BKw.themed-ANHk51.title-3qD0b- .children-19S4PO:ho
 #app-mount .scroller-2LSbBU::-webkit-scrollbar-track-piece,
 #app-mount .rolesList-22qj2L::-webkit-scrollbar-track-piece,
 #app-mount .templatesList-2E6rTe::-webkit-scrollbar-track-piece,
-#app-mount .autocompleteScroller-iInVqR::-webkit-scrollbar-track-piece {
+#app-mount .autocompleteScroller-iInVqR::-webkit-scrollbar-track-piece,
+#app-mount .keybindGroup--6Qp-w::-webkit-scrollbar-track-piece {
   background: transparent;
   border-color: transparent;
 }
@@ -1087,7 +1107,8 @@ body #app-mount .container-1r6BKw.themed-ANHk51.title-3qD0b- .children-19S4PO:ho
 #app-mount .scroller-2LSbBU::-webkit-scrollbar-thumb,
 #app-mount .rolesList-22qj2L::-webkit-scrollbar-thumb,
 #app-mount .templatesList-2E6rTe::-webkit-scrollbar-thumb,
-#app-mount .autocompleteScroller-iInVqR::-webkit-scrollbar-thumb {
+#app-mount .autocompleteScroller-iInVqR::-webkit-scrollbar-thumb,
+#app-mount .keybindGroup--6Qp-w::-webkit-scrollbar-thumb {
   background-color: var(--scrollbar-background);
   border-radius: 0;
   border-radius: var(--border-radius);
@@ -1103,7 +1124,8 @@ body #app-mount .container-1r6BKw.themed-ANHk51.title-3qD0b- .children-19S4PO:ho
 #app-mount .scroller-2LSbBU::-webkit-scrollbar-thumb:hover,
 #app-mount .rolesList-22qj2L::-webkit-scrollbar-thumb:hover,
 #app-mount .templatesList-2E6rTe::-webkit-scrollbar-thumb:hover,
-#app-mount .autocompleteScroller-iInVqR::-webkit-scrollbar-thumb:hover {
+#app-mount .autocompleteScroller-iInVqR::-webkit-scrollbar-thumb:hover,
+#app-mount .keybindGroup--6Qp-w::-webkit-scrollbar-thumb:hover {
   background-color: var(--scrollbar-background-hover);
 }
 #app-mount .messagesPopout-24nkyi::-webkit-scrollbar-thumb:active,
@@ -1116,7 +1138,8 @@ body #app-mount .container-1r6BKw.themed-ANHk51.title-3qD0b- .children-19S4PO:ho
 #app-mount .scroller-2LSbBU::-webkit-scrollbar-thumb:active,
 #app-mount .rolesList-22qj2L::-webkit-scrollbar-thumb:active,
 #app-mount .templatesList-2E6rTe::-webkit-scrollbar-thumb:active,
-#app-mount .autocompleteScroller-iInVqR::-webkit-scrollbar-thumb:active {
+#app-mount .autocompleteScroller-iInVqR::-webkit-scrollbar-thumb:active,
+#app-mount .keybindGroup--6Qp-w::-webkit-scrollbar-thumb:active {
   background-color: var(--scrollbar-background-active);
 }
 #app-mount .messagesPopout-24nkyi::-webkit-scrollbar-button, #app-mount .messagesPopout-24nkyi::-webkit-scrollbar-corner,
@@ -1139,7 +1162,9 @@ body #app-mount .container-1r6BKw.themed-ANHk51.title-3qD0b- .children-19S4PO:ho
 #app-mount .templatesList-2E6rTe::-webkit-scrollbar-button,
 #app-mount .templatesList-2E6rTe::-webkit-scrollbar-corner,
 #app-mount .autocompleteScroller-iInVqR::-webkit-scrollbar-button,
-#app-mount .autocompleteScroller-iInVqR::-webkit-scrollbar-corner {
+#app-mount .autocompleteScroller-iInVqR::-webkit-scrollbar-corner,
+#app-mount .keybindGroup--6Qp-w::-webkit-scrollbar-button,
+#app-mount .keybindGroup--6Qp-w::-webkit-scrollbar-corner {
   display: none !important;
 }
 #app-mount .messagesPopout-24nkyi:hover,
@@ -1152,7 +1177,8 @@ body #app-mount .container-1r6BKw.themed-ANHk51.title-3qD0b- .children-19S4PO:ho
 #app-mount .scroller-2LSbBU:hover,
 #app-mount .rolesList-22qj2L:hover,
 #app-mount .templatesList-2E6rTe:hover,
-#app-mount .autocompleteScroller-iInVqR:hover {
+#app-mount .autocompleteScroller-iInVqR:hover,
+#app-mount .keybindGroup--6Qp-w:hover {
   overflow: overlay !important;
 }
 #app-mount .messagesPopout-24nkyi:hover::-webkit-scrollbar,
@@ -1165,7 +1191,8 @@ body #app-mount .container-1r6BKw.themed-ANHk51.title-3qD0b- .children-19S4PO:ho
 #app-mount .scroller-2LSbBU:hover::-webkit-scrollbar,
 #app-mount .rolesList-22qj2L:hover::-webkit-scrollbar,
 #app-mount .templatesList-2E6rTe:hover::-webkit-scrollbar,
-#app-mount .autocompleteScroller-iInVqR:hover::-webkit-scrollbar {
+#app-mount .autocompleteScroller-iInVqR:hover::-webkit-scrollbar,
+#app-mount .keybindGroup--6Qp-w:hover::-webkit-scrollbar {
   display: block;
 }
 
@@ -1350,6 +1377,19 @@ body #app-mount .container-1r6BKw.themed-ANHk51.title-3qD0b- .children-19S4PO:ho
   background: var(--text-normal);
   -webkit-mask: url('data:image/svg+xml; utf-8,<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" class="octicon" height="64" role="img" viewBox="0 0 12 16" width="48" style="display:inline-block;fill:currentColor;user-select:none;vertical-align:middle"><path fill-rule="evenodd" d="M4 13H3v-1h1v1zm8-6v7c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V7c0-.55.45-1 1-1h1V4c0-2.2 1.8-4 4-4s4 1.8 4 4v2h1c.55 0 1 .45 1 1zM3.8 6h4.41V4c0-1.22-.98-2.2-2.2-2.2-1.22 0-2.2.98-2.2 2.2v2H3.8zM11 7H2v7h9V7zM4 8H3v1h1V8zm0 2H3v1h1v-1z"/></svg>') center/cover no-repeat;
 }
+#app-mount .sidebar-2K8pFh .channelNotice-1-XFjC.quickswitcher-35bYg4 {
+  padding-top: var(--spacing);
+}
+#app-mount .sidebar-2K8pFh .channelNotice-1-XFjC.quickswitcher-35bYg4:before {
+  content: "";
+  position: relative;
+  display: block;
+  width: 48px;
+  height: 48px;
+  margin: var(--spacing);
+  background: var(--text-normal);
+  -webkit-mask: url('data:image/svg+xml; utf-8,<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" class="octicon" height="64" role="img" viewBox="0 0 14 16" width="56" style="display:inline-block;fill:currentColor;user-select:none;vertical-align:middle"><path fill-rule="evenodd" d="M7 1C3.14 1 0 4.14 0 8s3.14 7 7 7c.48 0 .94-.05 1.38-.14-.17-.08-.2-.73-.02-1.09.19-.41.81-1.45.2-1.8-.61-.35-.44-.5-.81-.91-.37-.41-.22-.47-.25-.58-.08-.34.36-.89.39-.94.02-.06.02-.27 0-.33 0-.08-.27-.22-.34-.23-.06 0-.11.11-.2.13-.09.02-.5-.25-.59-.33-.09-.08-.14-.23-.27-.34-.13-.13-.14-.03-.33-.11s-.8-.31-1.28-.48c-.48-.19-.52-.47-.52-.66-.02-.2-.3-.47-.42-.67-.14-.2-.16-.47-.2-.41-.04.06.25.78.2.81-.05.02-.16-.2-.3-.38-.14-.19.14-.09-.3-.95s.14-1.3.17-1.75c.03-.45.38.17.19-.13-.19-.3 0-.89-.14-1.11-.13-.22-.88.25-.88.25.02-.22.69-.58 1.16-.92.47-.34.78-.06 1.16.05.39.13.41.09.28-.05-.13-.13.06-.17.36-.13.28.05.38.41.83.36.47-.03.05.09.11.22s-.06.11-.38.3c-.3.2.02.22.55.61s.38-.25.31-.55c-.07-.3.39-.06.39-.06.33.22.27.02.5.08.23.06.91.64.91.64-.83.44-.31.48-.17.59.14.11-.28.3-.28.3-.17-.17-.19.02-.3.08-.11.06-.02.22-.02.22-.56.09-.44.69-.42.83 0 .14-.38.36-.47.58-.09.2.25.64.06.66-.19.03-.34-.66-1.31-.41-.3.08-.94.41-.59 1.08.36.69.92-.19 1.11-.09.19.1-.06.53-.02.55.04.02.53.02.56.61.03.59.77.53.92.55.17 0 .7-.44.77-.45.06-.03.38-.28 1.03.09.66.36.98.31 1.2.47.22.16.08.47.28.58.2.11 1.06-.03 1.28.31.22.34-.88 2.09-1.22 2.28-.34.19-.48.64-.84.92s-.81.64-1.27.91c-.41.23-.47.66-.66.8 3.14-.7 5.48-3.5 5.48-6.84 0-3.86-3.14-7-7-7L7 1zm1.64 6.56c-.09.03-.28.22-.78-.08-.48-.3-.81-.23-.86-.28 0 0-.05-.11.17-.14.44-.05.98.41 1.11.41.13 0 .19-.13.41-.05.22.08.05.13-.05.14zM6.34 1.7c-.05-.03.03-.08.09-.14.03-.03.02-.11.05-.14.11-.11.61-.25.52.03-.11.27-.58.3-.66.25zm1.23.89c-.19-.02-.58-.05-.52-.14.3-.28-.09-.38-.34-.38-.25-.02-.34-.16-.22-.19.12-.03.61.02.7.08.08.06.52.25.55.38.02.13 0 .25-.17.25zm1.47-.05c-.14.09-.83-.41-.95-.52-.56-.48-.89-.31-1-.41-.11-.1-.08-.19.11-.34.19-.15.69.06 1 .09.3.03.66.27.66.55.02.25.33.5.19.63h-.01z"/></svg>') center/cover no-repeat;
+}
 #app-mount .sidebar-2K8pFh .channelNotice-1-XFjC .message-3SOT5P {
   display: flex;
   flex-direction: column;
@@ -1388,7 +1428,7 @@ body #app-mount .container-1r6BKw.themed-ANHk51.title-3qD0b- .children-19S4PO:ho
   height: 80px;
   margin: var(--spacing);
   background: var(--text-normal);
-  -webkit-mask: url("https://gibbu.github.io/BetterDiscord-Themes/Slate/assets/illustrations/1.svg") center/cover no-repeat;
+  -webkit-mask: url("https://discordstyles.github.io/Slate/assets/illustrations/1.svg") center/cover no-repeat;
 }
 
 #app-mount .sidebar-2K8pFh .wrapper-1ucjTd {
@@ -2101,15 +2141,16 @@ body #app-mount .container-1r6BKw.themed-ANHk51.title-3qD0b- .children-19S4PO:ho
   color: var(--text-normal) !important;
 }
 #app-mount .privateChannels-1nO12o .channel-2QD9_O.selected-aXhQR6 {
-  color: var(--text-focus);
+  color: var(--white);
 }
 #app-mount .privateChannels-1nO12o .channel-2QD9_O.selected-aXhQR6 .closeButton-2GCmT5 {
   display: block;
+  background: var(--white);
 }
 #app-mount .privateChannels-1nO12o .channel-2QD9_O.selected-aXhQR6 .activityText-OW8WYb,
 #app-mount .privateChannels-1nO12o .channel-2QD9_O.selected-aXhQR6 .name-uJV0GL,
 #app-mount .privateChannels-1nO12o .channel-2QD9_O.selected-aXhQR6 .subtext-1RtU34 {
-  color: var(--text-focus) !important;
+  color: var(--white) !important;
 }
 #app-mount .privateChannels-1nO12o .channel-2QD9_O.selected-aXhQR6 .wrapper-3t9DeA {
   box-shadow: 0 0 0 0.5px var(--accent-solid);
@@ -2119,6 +2160,15 @@ body #app-mount .container-1r6BKw.themed-ANHk51.title-3qD0b- .children-19S4PO:ho
 }
 #app-mount .privateChannels-1nO12o .closeButton-2GCmT5 {
   z-index: 10;
+  opacity: 1;
+  background: var(--text-muted);
+  -webkit-mask: url("data:image/svg+xml; utf-8,<svg xmlns='http://www.w3.org/2000/svg' aria-hidden='true' class='octicon' version='1.1' viewBox='0 0 12 16'><path d='M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z'></path></svg>") center/11px no-repeat;
+}
+#app-mount .privateChannels-1nO12o .closeButton-2GCmT5 path {
+  display: none;
+}
+#app-mount .privateChannels-1nO12o .closeButton-2GCmT5:hover {
+  background: var(--text-normal);
 }
 #app-mount .privateChannels-1nO12o .wrapper-3t9DeA {
   width: 26px !important;
@@ -2485,7 +2535,7 @@ body #app-mount .container-1r6BKw.themed-ANHk51.title-3qD0b- .children-19S4PO:ho
   width: 100px;
   height: 100px;
   background: var(--text-muted);
-  -webkit-mask: url("https://gibbu.github.io/BetterDiscord-Themes/Slate/assets/illustrations/1.svg") center/contain no-repeat;
+  -webkit-mask: url("https://discordstyles.github.io/Slate/assets/illustrations/1.svg") center/contain no-repeat;
   margin-bottom: var(--spacing);
 }
 #app-mount .chat-3bRxxu .messagesErrorBar-nyJGU7:after {
@@ -2565,7 +2615,7 @@ body #app-mount .container-1r6BKw.themed-ANHk51.title-3qD0b- .children-19S4PO:ho
   right: var(--spacing-double);
 }
 #app-mount .messagesWrapper-1sRNjr .container-3RCQyg .emptyChannelIcon-cc932w {
-  background: url("https://gibbu.github.io/BetterDiscord-Themes/Slate/assets/illustrations/8.svg") center/cover no-repeat;
+  background: url("https://discordstyles.github.io/Slate/assets/illustrations/8.svg") center/cover no-repeat;
   border-radius: 0;
   position: absolute;
   margin: 0;
@@ -2613,8 +2663,8 @@ body #app-mount .container-1r6BKw.themed-ANHk51.title-3qD0b- .children-19S4PO:ho
   width: 90%;
   height: 200px;
   background: var(--text-muted);
-  -webkit-mask: url("https://gibbu.github.io/BetterDiscord-Themes/Slate/assets/illustrations/3.svg") center/contain no-repeat;
-          mask: url("https://gibbu.github.io/BetterDiscord-Themes/Slate/assets/illustrations/3.svg") center/contain no-repeat;
+  -webkit-mask: url("https://discordstyles.github.io/Slate/assets/illustrations/3.svg") center/contain no-repeat;
+          mask: url("https://discordstyles.github.io/Slate/assets/illustrations/3.svg") center/contain no-repeat;
   margin-bottom: var(--spacing);
 }
 #app-mount .messagesWrapper-1sRNjr .container-3zqIcM .inner-3GZ54g .titleName-3-Lp3Z {
@@ -3503,9 +3553,9 @@ body #app-mount .container-1r6BKw.themed-ANHk51.title-3qD0b- .children-19S4PO:ho
   left: 0;
   top: 1px;
   text-align: right;
-  padding-top: 30px;
+  padding-top: 25px;
   line-height: var(--line-height);
-  height: calc(100% - 30px);
+  height: calc(100% - 25px);
   overflow: hidden;
   color: var(--text-muted);
   background: var(--background-dark);
@@ -3514,7 +3564,7 @@ body #app-mount .container-1r6BKw.themed-ANHk51.title-3qD0b- .children-19S4PO:ho
 #app-mount pre code {
   position: relative;
   box-sizing: border-box;
-  padding: 30px 0.25em 0.15em 34px !important;
+  padding: 25px 0.25em 0.15em 34px !important;
   background: transparent !important;
   border: 1px solid var(--base-border);
   font-size: var(--font-size-sm);
@@ -3529,6 +3579,7 @@ body #app-mount .container-1r6BKw.themed-ANHk51.title-3qD0b- .children-19S4PO:ho
   top: 0;
   left: 0;
   color: var(--text-normal);
+  border-bottom: 1px solid var(--base-border);
   font-size: 1em;
   font-weight: var(--font-weight-normal);
   padding: 0 calc(var(--spacing) + 24px);
@@ -4375,7 +4426,7 @@ html.theme-light #app-mount .reactions-12N0jA .reaction-1hd86g:not(.reactionMe-w
   display: block;
   background: var(--text-muted);
   margin-bottom: var(--spacing-double);
-  -webkit-mask: url("https://gibbu.github.io/BetterDiscord-Themes/Slate/assets/illustrations/8.svg") center/contain no-repeat;
+  -webkit-mask: url("https://discordstyles.github.io/Slate/assets/illustrations/8.svg") center/contain no-repeat;
 }
 #app-mount .container-1D34oG .header-13Cw0- {
   display: flex;
@@ -4804,7 +4855,7 @@ html.theme-light #app-mount .container-16j22k .problems-3mgf6w a.statusLink-gFXh
   display: none;
 }
 #app-mount .wrapper-3Q5DdO .rightSplit-2US0xy {
-  background: url("https://gibbu.github.io/BetterDiscord-Themes/Slate/assets/illustrations/2.svg") center/50%;
+  background: url("https://discordstyles.github.io/Slate/assets/illustrations/2.svg") center/50%;
   box-shadow: inset 0 0 0 100vmax rgba(0, 0, 0, 0.4);
 }
 #app-mount .wrapper-3Q5DdO .authBox-hW6HRx {
@@ -5000,7 +5051,7 @@ html.theme-light #app-mount .wrapper-3Q5DdO .qrLogin-1AOZMt .startOverButton-3q0
   margin: 0;
   max-width: unset;
   background: var(--text-muted);
-  -webkit-mask: url("https://gibbu.github.io/BetterDiscord-Themes/Slate/assets/illustrations/4.svg") center/50% no-repeat;
+  -webkit-mask: url("https://discordstyles.github.io/Slate/assets/illustrations/4.svg") center/50% no-repeat;
 }
 #app-mount .noChannel-Z1DQK7 .wrapper-r-6rrt .image-1GzsFd,
 #app-mount .noChannel-Z1DQK7 .wrapper-r-6rrt .flexChild-faoVW3 {
@@ -5313,9 +5364,6 @@ html.theme-light #app-mount .wrapper-3Q5DdO .qrLogin-1AOZMt .startOverButton-3q0
 #app-mount .userPopout-3XzG_A .discriminator {
   font-size: var(--font-size-sm);
 }
-#app-mount .userPopout-3XzG_A .nameTag-m8r81H {
-  line-height: inherit;
-}
 #app-mount .userPopout-3XzG_A .activityName-1IaRLn,
 #app-mount .userPopout-3XzG_A .nameNormal-2lqVQK,
 #app-mount .userPopout-3XzG_A .nameWrap-3Z4G_9 {
@@ -5443,14 +5491,16 @@ html.theme-light #app-mount .wrapper-3Q5DdO .qrLogin-1AOZMt .startOverButton-3q0
   transform: translateZ(0);
 }
 #app-mount .userPopout-3XzG_A .headerTag-2pZJzA {
-  font-weight: 500;
+  font-weight: var(--font-weight-semibold);
   color: var(--text-muted);
   font-size: var(--font-size-sm);
-  justify-content: flex-start;
+  justify-content: center;
 }
 #app-mount .userPopout-3XzG_A .headerTag-2pZJzA.headerTagNoNickname-ENx6no {
   font-size: var(--font-size-md);
-  justify-content: flex-start;
+}
+#app-mount .userPopout-3XzG_A .headerTag-2pZJzA.headerTagNoNickname-ENx6no span:not(.bot-2Fta1w):not(.headerTagUsernameNoNickname-2_H881) {
+  font-size: var(--font-size);
 }
 #app-mount .userPopout-3XzG_A .headerNormal-T_seeN,
 #app-mount .userPopout-3XzG_A .headerSpotify-zpWxgT {
@@ -5480,6 +5530,7 @@ html.theme-light #app-mount .wrapper-3Q5DdO .qrLogin-1AOZMt .startOverButton-3q0
 #app-mount .userPopout-3XzG_A .avatarWrapper-3H_478 {
   -ms-grid-row: 1;
   -ms-grid-column: 1;
+  cursor: default;
   grid-area: avatar;
   margin-bottom: 0;
 }
@@ -5495,6 +5546,7 @@ html.theme-light #app-mount .wrapper-3Q5DdO .qrLogin-1AOZMt .startOverButton-3q0
   width: 100%;
   text-align: left;
   line-height: normal;
+  align-items: center;
 }
 #app-mount .userPopout-3XzG_A .headerNameWrapper-3res2c {
   overflow: hidden;
@@ -5507,7 +5559,8 @@ html.theme-light #app-mount .wrapper-3Q5DdO .qrLogin-1AOZMt .startOverButton-3q0
   font-weight: var(--font-weight-semibold);
 }
 #app-mount .userPopout-3XzG_A .headerTagUsernameNoNickname-2_H881 {
-  color: var(--text-focus);
+  color: var(--text-normal);
+  font-weight: var(--font-weight-semibold);
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
@@ -5861,7 +5914,7 @@ html.theme-light #app-mount .userPopout-3XzG_A .note-3HfJZ5 textarea {
   display: block;
   position: relative;
   background: var(--text-muted);
-  -webkit-mask: url("https://gibbu.github.io/BetterDiscord-Themes/Slate/assets/illustrations/8.svg") center/contain no-repeat;
+  -webkit-mask: url("https://discordstyles.github.io/Slate/assets/illustrations/8.svg") center/contain no-repeat;
 }
 #app-mount .layer-v9HyYc[style*=left][style*=top] .container-3ayLPN.elevationBorderHigh-2WYJ09::before {
   content: "";
@@ -6594,7 +6647,7 @@ html.theme-light #app-mount .userPopout-3XzG_A .note-3HfJZ5 textarea {
   display: block;
   background: var(--text-muted);
   margin-bottom: var(--spacing-double);
-  -webkit-mask: url("https://gibbu.github.io/BetterDiscord-Themes/Slate/assets/illustrations/6.svg") center/contain no-repeat;
+  -webkit-mask: url("https://discordstyles.github.io/Slate/assets/illustrations/6.svg") center/contain no-repeat;
 }
 #app-mount .premiumPromo-fVlLu- .premiumPromoDescription-QWky-t {
   font-size: var(--font-size);
@@ -6623,7 +6676,7 @@ html.theme-light #app-mount .userPopout-3XzG_A .note-3HfJZ5 textarea {
   width: 120px;
   height: 120px;
   background: var(--text-muted);
-  -webkit-mask: url("https://gibbu.github.io/BetterDiscord-Themes/Slate/assets/illustrations/8.svg") center/contain no-repeat;
+  -webkit-mask: url("https://discordstyles.github.io/Slate/assets/illustrations/8.svg") center/contain no-repeat;
   margin-bottom: var(--spacing-double);
 }
 #app-mount #gif-picker-tab-panel .content-ySCtCx:after, #app-mount #gif-picker-tab-panel.container-3ISnnM:after {
@@ -7209,7 +7262,7 @@ html.theme-light #app-mount .container-ZRw2kD .guildSection-1EoFKd .showMoreEmoj
   display: block;
   position: relative;
   margin-bottom: var(--spacing);
-  -webkit-mask: url("https://gibbu.github.io/BetterDiscord-Themes/Slate/assets/illustrations/8.svg") center/contain no-repeat;
+  -webkit-mask: url("https://discordstyles.github.io/Slate/assets/illustrations/8.svg") center/contain no-repeat;
 }
 #app-mount .container-VSDcQc .sectionTag-pXyto9 .autocompleteScroller-iInVqR .empty-3hoe1g p {
   margin: 0;
@@ -7241,7 +7294,7 @@ html.theme-light #app-mount .container-ZRw2kD .guildSection-1EoFKd .showMoreEmoj
   position: relative;
   display: block;
   background: var(--text-muted);
-  -webkit-mask: url("https://gibbu.github.io/BetterDiscord-Themes/Slate/assets/illustrations/1.svg") center/50px no-repeat;
+  -webkit-mask: url("https://discordstyles.github.io/Slate/assets/illustrations/1.svg") center/50px no-repeat;
 }
 #app-mount .container-2Uhd6d .content-3MbD2f {
   margin-left: var(--spacing);
@@ -7484,7 +7537,7 @@ html.theme-light #app-mount .popout-2iWAc-.force-theme.content-1nP7fx .buttonCon
   height: 200px;
   margin-bottom: calc(var(--spacing) * 5);
   background: var(--text-muted);
-  -webkit-mask: url("https://gibbu.github.io/BetterDiscord-Themes/Slate/assets/illustrations/3.svg") center/contain no-repeat;
+  -webkit-mask: url("https://discordstyles.github.io/Slate/assets/illustrations/3.svg") center/contain no-repeat;
 }
 #app-mount .layer-3QrUeG[aria-label*=SETTINGS] .contentRegion-3nDuYy .streamerModeEnabled-2q0Gft .streamerModeEnabledBtn-2ZJ2eq {
   font-size: var(--font-size);
@@ -8168,8 +8221,8 @@ html.theme-light #app-mount .popout-2iWAc-.force-theme.content-1nP7fx .buttonCon
   width: 144px;
   height: 144px;
   background: var(--text-muted);
-  -webkit-mask: url("https://gibbu.github.io/BetterDiscord-Themes/Slate/assets/illustrations/8.svg") center/contain no-repeat;
-          mask: url("https://gibbu.github.io/BetterDiscord-Themes/Slate/assets/illustrations/8.svg") center/contain no-repeat;
+  -webkit-mask: url("https://discordstyles.github.io/Slate/assets/illustrations/8.svg") center/contain no-repeat;
+          mask: url("https://discordstyles.github.io/Slate/assets/illustrations/8.svg") center/contain no-repeat;
 }
 #app-mount .emptyStateHeader-248f_b {
   margin-top: var(--spacing-double);
@@ -8206,6 +8259,34 @@ html.theme-light #app-mount .popout-2iWAc-.force-theme.content-1nP7fx .buttonCon
 }
 #app-mount .userSettingsVoice-iwdUCU .micTest-2C-tpt .micTestCaption-2xsa4I {
   display: none;
+}
+#app-mount .userSettingsVoice-iwdUCU .previewOverlay-2O7_KC {
+  background: var(--background-alt);
+  border: 1px solid var(--base-border);
+  border-radius: var(--border-radius);
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--spacing);
+}
+#app-mount .userSettingsVoice-iwdUCU .previewOverlay-2O7_KC button {
+  margin: 0;
+}
+#app-mount .userSettingsVoice-iwdUCU .previewOverlay-2O7_KC img {
+  display: none;
+}
+#app-mount .userSettingsVoice-iwdUCU .previewOverlay-2O7_KC .flex-1xMQg5 {
+  flex: 0 !important;
+  position: relative;
+}
+#app-mount .userSettingsVoice-iwdUCU .children-rWhLdy .flex-1xMQg5 button + button {
+  margin: 0;
+}
+#app-mount .userSettingsVoice-iwdUCU .children-rWhLdy > .marginBottom40-2vIwTv:nth-last-child(2) {
+  margin-bottom: var(--spacing) !important;
+}
+#app-mount .userSettingsVoice-iwdUCU .formNotice-2_hHWR {
+  margin: 0;
 }
 #app-mount .preview-2nSL_2.card-3Qj_Yx {
   background: var(--background);
@@ -8259,14 +8340,14 @@ html.theme-light #app-mount .popout-2iWAc-.force-theme.content-1nP7fx .buttonCon
 }
 #app-mount .ghostPill-2-KUPM {
   color: var(--text-normal);
-  border: 1px solid var(--base-border);
-  background: var(--background-alt);
   border-radius: var(--border-radius);
   padding: var(--spacing);
   font-size: var(--font-size);
   font-weight: var(--font-weight-noraml);
   line-height: normal;
   margin: 0;
+  background-color: rgba(var(--status-yellow), 0.25);
+  border: 1px solid rgba(var(--status-yellow), 0.5);
 }
 #app-mount .ghostPill-2-KUPM + .flexChild-faoVW3 {
   display: flex;
@@ -8953,8 +9034,8 @@ html.platform-linux #app-mount .layer-3QrUeG[aria-label*=SETTINGS] .item-PXvHYJ:
   border: 1px solid var(--base-border);
   opacity: 1 !important;
   transform: none !important;
-  animation: modal 150ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
   min-height: unset;
+  animation: modal 150ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 #app-mount .modal-yWgWj- .header-2tA9Os,
 #app-mount .modal-yWgWj- .header-1TKi98,
@@ -9880,17 +9961,17 @@ html.theme-light #app-mount .theme-light .root-1gCeng .container-1CE3eW > div[st
   margin: 0;
 }
 #app-mount .modalRoot-1Kx4Hb .formGroup-2hEDrJ .emojiButtonContainer-3d6DFV {
-  margin-right: var(--spacing-half);
+  margin-right: var(--spacing);
 }
 #app-mount .modalRoot-1Kx4Hb .formGroup-2hEDrJ .emojiButtonContainer-3d6DFV .emojiButton-3uL3Aw {
   cursor: default;
 }
 #app-mount .modalRoot-1Kx4Hb .formGroup-2hEDrJ .emojiButtonContainer-3d6DFV .emojiButton-3uL3Aw .sprite-2iCowe {
-  height: 22px;
-  width: 22px;
+  height: 20px;
+  width: 20px;
   transform: none !important;
   background: var(--text-muted);
-  -webkit-mask: url('data:image/svg+xml; utf-8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="currentColor" style="display: inline-block; vertical-align: text-bottom;"><path fill-rule="evenodd" d="M1.5 8a6.5 6.5 0 1113 0 6.5 6.5 0 01-13 0zM8 0a8 8 0 100 16A8 8 0 008 0zM5 8a1 1 0 100-2 1 1 0 000 2zm7-1a1 1 0 11-2 0 1 1 0 012 0zM5.32 9.636a.75.75 0 011.038.175l.007.009c.103.118.22.222.35.31.264.178.683.37 1.285.37.602 0 1.02-.192 1.285-.371.13-.088.247-.192.35-.31l.007-.008a.75.75 0 111.222.87l-.614-.431c.614.43.614.431.613.431v.001l-.001.002-.002.003-.005.007-.014.019a1.984 1.984 0 01-.184.213c-.16.166-.338.316-.53.445-.63.418-1.37.638-2.127.629-.946 0-1.652-.308-2.126-.63a3.32 3.32 0 01-.715-.657l-.014-.02-.005-.006-.002-.003v-.002h-.001l.613-.432-.614.43a.75.75 0 01.183-1.044h.001z"/></svg>') center/20px no-repeat;
+  -webkit-mask: url('data:image/svg+xml; utf-8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="currentColor" style="display: inline-block; vertical-align: text-bottom;"><path fill-rule="evenodd" d="M1.5 8a6.5 6.5 0 1113 0 6.5 6.5 0 01-13 0zM8 0a8 8 0 100 16A8 8 0 008 0zM5 8a1 1 0 100-2 1 1 0 000 2zm7-1a1 1 0 11-2 0 1 1 0 012 0zM5.32 9.636a.75.75 0 011.038.175l.007.009c.103.118.22.222.35.31.264.178.683.37 1.285.37.602 0 1.02-.192 1.285-.371.13-.088.247-.192.35-.31l.007-.008a.75.75 0 111.222.87l-.614-.431c.614.43.614.431.613.431v.001l-.001.002-.002.003-.005.007-.014.019a1.984 1.984 0 01-.184.213c-.16.166-.338.316-.53.445-.63.418-1.37.638-2.127.629-.946 0-1.652-.308-2.126-.63a3.32 3.32 0 01-.715-.657l-.014-.02-.005-.006-.002-.003v-.002h-.001l.613-.432-.614.43a.75.75 0 01.183-1.044h.001z"/></svg>') center/90% no-repeat;
 }
 #app-mount .modalRoot-1Kx4Hb .formGroup-2hEDrJ .emojiButtonContainer-3d6DFV .emojiButton-3uL3Aw:hover .sprite-2iCowe,
 #app-mount .modalRoot-1Kx4Hb .formGroup-2hEDrJ .emojiButtonContainer-3d6DFV .emojiButton-3uL3Aw .sprite-2iCowe[style*="grayscale(0%)"] {
@@ -10087,7 +10168,7 @@ html.theme-light #app-mount .theme-light .root-1gCeng .container-1CE3eW > div[st
   width: 280px;
   height: 140px;
   background: var(--text-muted);
-  -webkit-mask: url("https://gibbu.github.io/BetterDiscord-Themes/Slate/assets/illustrations/5.svg") center/contain no-repeat;
+  -webkit-mask: url("https://discordstyles.github.io/Slate/assets/illustrations/5.svg") center/contain no-repeat;
   margin-bottom: var(--spacing-double);
 }
 
@@ -10514,6 +10595,128 @@ html.theme-light #app-mount .main-3auUui .options-1VK2u9 .optionContainer-15srkc
 html.theme-light #app-mount .main-3auUui .options-1VK2u9 .optionContainer-15srkc:focus {
   box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.05) !important;
   border: 1px solid var(--secondary-border) !important;
+}
+
+#app-mount .keyboardShortcutsModal-3piNz7 {
+  background: var(--background);
+  box-shadow: var(--elevation-2);
+  border: 1px solid var(--base-border);
+  border-radius: var(--border-radius);
+  opacity: 1 !important;
+  max-width: 550px;
+  min-width: 550px;
+  width: 550px;
+  max-height: 575px;
+  animation: modal 150ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+#app-mount .keyboardShortcutsModal-3piNz7 .modalTitle-37O4n6 {
+  padding: var(--spacing-double);
+  max-height: 50px;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: var(--font-size-md);
+  color: var(--text-normal);
+  font-weight: var(--font-weight-semibold);
+  border-bottom: 1px solid var(--base-border);
+}
+#app-mount .keyboardShortcutsModal-3piNz7 .modalTitle-37O4n6 .content-2Add9f {
+  margin-right: var(--spacing);
+}
+#app-mount .keyboardShortcutsModal-3piNz7 .modalTitle-37O4n6 .keybindShortcut-1BD6Z1 {
+  margin: 0;
+}
+#app-mount .keyboardShortcutsModal-3piNz7 .keybindShortcut-1BD6Z1 {
+  font-size: var(--font-size-sm);
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  color: var(--text-normal);
+  font-weight: var(--font-weight-normal);
+  margin-bottom: var(--spacing-half);
+  margin-right: 0;
+  text-transform: capitalize;
+}
+#app-mount .keyboardShortcutsModal-3piNz7 .keybindShortcut-1BD6Z1 span {
+  line-height: var(--line-height);
+  border-radius: var(--border-radius);
+  padding: var(--spacing-third) var(--spacing-half);
+  color: var(--text-normal);
+  background: var(--background-modifier-active);
+  box-shadow: none;
+  border: none;
+  margin-right: var(--spacing-half);
+  -webkit-user-select: none;
+          user-select: none;
+  height: 23px;
+  transform: none;
+}
+#app-mount .keyboardShortcutsModal-3piNz7 .ddrArrows-lSnH7P {
+  top: 0;
+  right: 0;
+  height: 50px;
+  padding: 0 var(--spacing-double);
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+}
+#app-mount .keyboardShortcutsModal-3piNz7 .ddrArrows-lSnH7P .arrow-2enltQ {
+  margin: 0;
+  height: 26px;
+  width: 26px;
+  margin-left: var(--spacing);
+  background: var(--text-muted);
+  opacity: 0.75;
+  -webkit-mask: url('data:image/svg+xml; utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M13.03 8.22a.75.75 0 010 1.06l-4.25 4.25a.75.75 0 01-1.06 0L3.47 9.28a.75.75 0 011.06-1.06l2.97 2.97V3.75a.75.75 0 011.5 0v7.44l2.97-2.97a.75.75 0 011.06 0z"/></svg>') center/cover no-repeat;
+}
+#app-mount .keyboardShortcutsModal-3piNz7 .ddrArrows-lSnH7P .arrow-2enltQ.left-21PxOi {
+  transform: rotate(90deg);
+}
+#app-mount .keyboardShortcutsModal-3piNz7 .ddrArrows-lSnH7P .arrow-2enltQ.up-fkTose {
+  transform: rotate(180deg);
+}
+#app-mount .keyboardShortcutsModal-3piNz7 .ddrArrows-lSnH7P .arrow-2enltQ.right-1AEPK3 {
+  transform: rotate(-90deg);
+}
+#app-mount .keyboardShortcutsModal-3piNz7 .ddrArrows-lSnH7P .arrow-2enltQ.active-2X6Ewx {
+  background: var(--text-normal);
+  opacity: 1;
+}
+#app-mount .keyboardShortcutsModal-3piNz7 .modalSubtitle-1Pj5nv {
+  display: none;
+}
+#app-mount .keyboardShortcutsModal-3piNz7 .keyboardShortcutList-13cQ-8 {
+  padding: var(--spacing-double);
+  grid-gap: var(--spacing);
+  height: auto;
+  column-count: 2;
+  column-gap: var(--spacing);
+  display: block;
+  overflow: visible;
+}
+#app-mount .keyboardShortcutsModal-3piNz7 .keyboardShortcutList-13cQ-8 .keybindGroup--6Qp-w {
+  padding: var(--spacing);
+  border-radius: var(--border-radius);
+  border: 1px solid var(--base-border);
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: auto;
+  background: var(--background-alt);
+  transition: 150ms ease;
+  min-height: auto;
+  box-sizing: border-box;
+  position: relative;
+  margin-bottom: var(--spacing);
+  break-inside: avoid;
+  break-after: always;
+}
+#app-mount .keyboardShortcutsModal-3piNz7 .keyboardShortcutList-13cQ-8 .keybindGroup--6Qp-w .keybindDescription-2RDbC2 {
+  margin-bottom: var(--spacing-third);
+  color: var(--text-normal);
+  font-size: var(--font-size);
+  text-transform: none;
+  font-weight: var(--font-weight-normal);
+  width: unset;
 }
 
 #app-mount .lookFilled-1Gx00P,

@@ -29,15 +29,12 @@
     .discriminator {
       font-size: var(--font-size-sm);
     }
-    .nameTag-m8r81H {
-      line-height: inherit;
-    }
 
     // Rich Presence text
     .activityName-1IaRLn,
     .nameNormal-2lqVQK,
     .nameWrap-3Z4G_9 {
-      color: var(--text-normal);
+      color: var(--text-normal);  
     }
     .activityName-1IaRLn,
     .nameNormal-2lqVQK,
@@ -162,13 +159,15 @@
       transform: translateZ(0);
     }
     .headerTag-2pZJzA {
-      font-weight: 500;
+      font-weight: var(--font-weight-semibold);
       color: var(--text-muted);
       font-size: var(--font-size-sm);
-      justify-content:flex-start; 
+      justify-content:center; 
       &.headerTagNoNickname-ENx6no {
         font-size: var(--font-size-md);
-        justify-content: flex-start;
+        span:not(.bot-2Fta1w):not(.headerTagUsernameNoNickname-2_H881) {
+          font-size:var(--font-size);
+        }
       }
     }
     .headerNormal-T_seeN,
@@ -197,6 +196,7 @@
       background: rgba(var(--status-purple), 0.1);
     }
     .avatarWrapper-3H_478 {
+      cursor:default;
       grid-area: avatar;
       margin-bottom: 0;
     }
@@ -209,6 +209,7 @@
         width: 100%;
         text-align: left;
         line-height: normal;
+        align-items:center;
       }
     }
     .headerNameWrapper-3res2c {
@@ -222,7 +223,8 @@
       }
     }
     .headerTagUsernameNoNickname-2_H881 {
-      color: var(--text-focus);
+      color: var(--text-normal);
+      font-weight:var(--font-weight-semibold);
       overflow: hidden;
       white-space: nowrap;
       text-overflow: ellipsis;
