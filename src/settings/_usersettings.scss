@@ -569,6 +569,36 @@
 				display:none;
 			}
 		}
+		.previewOverlay-2O7_KC {
+			background:var(--background-alt);
+			border:1px solid var(--base-border);
+			border-radius:var(--border-radius);
+			flex-direction:column;
+			align-items:center;
+			justify-content:center;
+			padding:var(--spacing);
+			button {
+				margin:0;
+			}
+			img {
+				display:none;
+			}
+			.flex-1xMQg5 {
+				flex:0 !important;
+				position:relative;
+			}
+		}
+		.children-rWhLdy .flex-1xMQg5 {
+			button+button {
+				margin:0;
+			}
+		}
+		.children-rWhLdy > .marginBottom40-2vIwTv:nth-last-child(2) {
+			margin-bottom:var(--spacing) !important;
+		}
+		.formNotice-2_hHWR {
+			margin:0;
+		}
 	}
 
 	// Appearance

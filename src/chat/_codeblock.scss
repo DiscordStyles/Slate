@@ -25,9 +25,9 @@
 			left: 0;
 			top: 1px;
 			text-align: right;
-			padding-top: 30px;
+			padding-top: 25px;
 			line-height: var(--line-height);
-			height: calc(100% - 30px);
+			height: calc(100% - 25px);
 			overflow: hidden;
 			color: var(--text-muted);
 			background: var(--background-dark);
@@ -36,7 +36,7 @@
 		code {
 			position: relative;
 			box-sizing: border-box;
-			padding: 30px 0.25em 0.15em 34px !important;
+			padding: 25px 0.25em 0.15em 34px !important;
 			background: transparent !important;
 			border: 1px solid var(--base-border);
 			font-size: var(--font-size-sm);
@@ -50,6 +50,7 @@
 				top: 0;
 				left: 0;
 				color: var(--text-normal);
+				border-bottom:1px solid var(--base-border);
 				font-size: 1em;
 				font-weight: var(--font-weight-normal);
 				padding: 0 calc(var(--spacing) + 24px);
