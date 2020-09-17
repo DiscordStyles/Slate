@@ -8,6 +8,7 @@
     min-width:550px;
     width:550px;
     max-height:575px;
+    animation:modal 150ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
     .modalTitle-37O4n6 {
         padding:var(--spacing-double);
         max-height:50px;
@@ -82,12 +83,12 @@
     }
     .keyboardShortcutList-13cQ-8 {
         padding:var(--spacing-double);
-        width:100%;
-        box-sizing:border-box;
-        display:grid;
-        grid-template-columns: repeat(2, 1fr);
         grid-gap:var(--spacing);
         height:auto;
+        column-count: 2;
+        column-gap: var(--spacing);
+        display:block;
+        overflow:visible;
         .keybindGroup--6Qp-w {
             padding:var(--spacing);
             border-radius:var(--border-radius);
@@ -99,16 +100,16 @@
             min-height:auto;
             box-sizing:border-box;
             position:relative;
-            overflow:auto;
-            &.groupEnd-1cdweh {
-                margin-bottom:var(--spacing-double);
-            }
+            margin-bottom:var(--spacing);
+            break-inside:avoid;
+            break-after:always;
             .keybindDescription-2RDbC2 {
                 margin-bottom:var(--spacing-third);
                 color:var(--text-normal);
                 font-size:var(--font-size);
                 text-transform:none;
                 font-weight:var(--font-weight-normal);
+                width:unset;
             }
         }
     }

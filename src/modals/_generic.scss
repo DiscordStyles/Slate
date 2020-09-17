@@ -10,7 +10,6 @@
   }
   .modal-3c3bKg {
     transform:none !important;
-    animation:modal 150ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
   }
   .sizeMedium-df47zS,
   .sizeSmall-1jtLQy,
@@ -34,6 +33,7 @@
     opacity:1 !important;
     transform:none !important;
     min-height:unset;
+    animation:modal 150ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
     .header-2tA9Os,
     .header-1TKi98 {
       padding: var(--spacing-double);
