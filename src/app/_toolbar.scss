@@ -212,7 +212,7 @@ body #app-mount .container-1r6BKw.themed-ANHk51 {
     right: 0;
     margin:0;
     padding: 0 var(--spacing);
-    height:var(--toolbar-height);
+    height:calc(var(--toolbar-height) - 1px);
     display:flex;
     align-items:center;
     background:var(--toolbar-background);

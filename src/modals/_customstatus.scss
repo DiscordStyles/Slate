@@ -6,15 +6,15 @@
         margin:0;
       }
       .emojiButtonContainer-3d6DFV {
-        margin-right:var(--spacing-half);
+        margin-right:var(--spacing);
         .emojiButton-3uL3Aw {
           cursor: default;
           .sprite-2iCowe {
-            height:22px;
-            width:22px;
+            height:20px;
+            width:20px;
             transform:none !important;
             background:var(--text-muted);
-            -webkit-mask:url($icon_smiley_alt) center/20px no-repeat;
+            -webkit-mask:url($icon_smiley_alt) center/90% no-repeat;
           }
           &:hover .sprite-2iCowe,
           .sprite-2iCowe[style*="grayscale(0%)"] {
