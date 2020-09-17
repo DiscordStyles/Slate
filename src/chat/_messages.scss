@@ -516,6 +516,47 @@
     }
   }
 
+  // Blockquotes
+  .blockquoteContainer-U5TVEi {
+    background:var(--background);
+    border:1px solid var(--base-border);
+    border-radius:var(--border-radius);
+    padding:var(--spacing);
+    margin-left:13px;
+    position:relative;
+    box-sizing:border-box;
+    border-top-left-radius:0;
+    margin-bottom:var(--spacing-half);
+    width:fit-content;
+    blockquote {
+      padding:0;
+      max-width:unset;
+    }
+    .blockquoteDivider-2hH8H6 {
+      position:absolute;
+      top:-1px;
+      left:-15px;
+      width: 0;
+      height: 0;
+      border-top: 15px solid var(--base-border);
+      border-left: 15px solid transparent;
+      border-radius:0;
+      background:transparent;
+      &::after {
+        content:'';
+        position:absolute;
+        width: 0;
+        height: 0;
+        top:-14.25px;
+        left:-12.75px;
+        border-top: 15px solid var(--background);
+        border-left: 15px solid transparent;
+        border-radius:0;
+        background:transparent;
+      }
+    }
+  }
+
   // Search Flash Indicator
   .backgroundFlash-24qWLN {
     transition:150ms ease;
