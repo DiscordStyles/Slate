@@ -580,21 +580,24 @@
       left:-15px;
       width: 0;
       height: 0;
-      border-top: 15px solid var(--base-border);
-      border-left: 15px solid transparent;
+      width:15px;
+      height:15px;
       border-radius:0;
       background:transparent;
+      overflow:hidden;
       &::after {
         content:'';
         position:absolute;
         width: 0;
         height: 0;
-        top:-14.25px;
-        left:-13px;
-        border-top: 15px solid var(--background);
-        border-left: 15px solid transparent;
+        top:0;
+        left:8px;
+        width:100%;
+        height:100%;
         border-radius:0;
-        background:transparent;
+        background:var(--background);
+        border:1px solid var(--base-border);
+        transform:skewX(45deg);
       }
     }
   }
