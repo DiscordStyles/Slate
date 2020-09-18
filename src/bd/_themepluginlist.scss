@@ -5,7 +5,7 @@
     padding: 0;
     input {
       border-radius: var(--border-radius);
-      background: var(--toolbar-background);
+      background: var(--background-dark);
       font-size: var(--font-size);
       border: 1px solid var(--base-border);
       color: var(--text-normal);
@@ -13,6 +13,9 @@
       padding: 0 var(--spacing-half);
       height: 25px;
       line-height: 24px;
+      &::-webkit-input-placeholder {
+        color:var(--text-muted);
+      }
       &:focus,
       .focused-1mmYsC {
         border: 1px solid var(--accent-solid);
@@ -26,6 +29,7 @@
   .bd-addon-card {
     background: var(--background-dark);
     border: 1px solid var(--base-border);
+    border-radius:var(--border-radius);
     padding: 0;
     position: relative;
     .bda-header {
@@ -43,6 +47,9 @@
       font-size: var(--font-size-md);
       font-weight: var(--font-weight-normal);
     }
+    .bda-description-wrap:last-child {
+      padding-bottom:16px;
+    }
     .bda-footer {
       padding: var(--spacing) 77px var(--spacing) var(--spacing);
       border-color: var(--base-border);
@@ -52,14 +59,17 @@
       font-size: 0;
     }
     .bda-link {
-      margin-right: var(--spacing);
-      color: var(--white);
-      background-color: accent-solid;
+      color: var(--text-normal);
+      background: var(--background-light);
+      border: 1px solid var(--base-border) !important;
+      box-shadow: none !important;
+      margin-right:var(--spacing);
       &:hover {
-        box-shadow: inset 0 0 0 100vmax rgba(255, 255, 255, 0.1);
+        border:1px solid currentColor !important; 
       }
       &:focus {
-        box-shadow: 0 0 0 2px rgba(var(--accent), 0.25), inset 0 0 0 100vmax rgba(255, 255, 255, 0.1);
+        box-shadow: 0 0 0 1px currentColor !important;
+        border:1px solid currentColor !important;
       }
     }
     .bd-addon-button {
