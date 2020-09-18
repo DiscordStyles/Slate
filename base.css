@@ -3248,21 +3248,63 @@ body #app-mount .container-1r6BKw.themed-ANHk51.title-3qD0b- .children-19S4PO:ho
   border-top: 1px solid var(--base-border) !important;
   border-right: 1px solid var(--base-border) !important;
   border-bottom: 1px solid var(--base-border) !important;
+  border-radius: var(--border-radius);
+}
+#app-mount .embedFull-2tM8-- .grid-1nZz7S {
+  padding: var(--spacing);
+}
+#app-mount .embedFull-2tM8-- .grid-1nZz7S > div:first-child,
+#app-mount .embedFull-2tM8-- .grid-1nZz7S .embedSuppressButton-1FonMn + div {
+  margin: 0;
+}
+#app-mount .embedFull-2tM8-- .embedProvider-3k5pfl {
+  font-size: var(--font-size-sm);
+  color: var(--text-muted);
+}
+#app-mount .embedFull-2tM8-- .embedAuthorNameLink-1gVryT {
+  font-size: var(--font-size);
+  color: var(--text-normal);
+  font-weight: var(--font-weight-semibold);
+}
+#app-mount .embedFull-2tM8-- .embedTitle-3OXDkz,
+#app-mount .embedFull-2tM8-- .embedAuthorName-3mnTWj {
+  font-size: var(--font-size);
+  font-weight: var(--font-weight-semibold);
+}
+#app-mount .embedFull-2tM8-- .embedMargin-UO5XwE {
+  margin-top: var(--spacing-half);
+}
+#app-mount .embedFull-2tM8-- .embedAuthorIcon--1zR3L {
+  margin-right: var(--spacing-half);
+  width: var(--avatar-size-xsm);
+  height: var(--avatar-size-xsm);
+  border-radius: var(--border-radius);
 }
 #app-mount .embedFull-2tM8-- .embedDescription-1Cuq9a,
-#app-mount .embedFull-2tM8-- .embedTitle-3OXDkz {
+#app-mount .embedFull-2tM8-- .embedFieldName-NFrena,
+#app-mount .embedFull-2tM8-- .embedFieldValue-nELq2s {
   font-size: var(--font-size);
+  font-weight: var(--font-weight-normal);
+  color: var(--text-normal);
+}
+#app-mount .embedFull-2tM8-- .embedAuthorName-3mnTWj,
+#app-mount .embedFull-2tM8-- .embedFieldName-NFrena,
+#app-mount .embedFull-2tM8-- .embedTitle-3OXDkz {
+  color: var(--text-normal);
+}
+#app-mount .embedFull-2tM8-- a {
+  color: var(--text-link) !important;
 }
 #app-mount .blockquoteContainer-U5TVEi {
   background: var(--background);
   border: 1px solid var(--base-border);
   border-radius: var(--border-radius);
   padding: var(--spacing);
-  margin-left: 13px;
   position: relative;
   box-sizing: border-box;
   border-top-left-radius: 0;
-  margin-bottom: var(--spacing-half);
+  margin: var(--spacing-half) 0;
+  margin-left: 13px;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
@@ -3288,7 +3330,7 @@ body #app-mount .container-1r6BKw.themed-ANHk51.title-3qD0b- .children-19S4PO:ho
   width: 0;
   height: 0;
   top: -14.25px;
-  left: -12.75px;
+  left: -13px;
   border-top: 15px solid var(--background);
   border-left: 15px solid transparent;
   border-radius: 0;
@@ -3623,27 +3665,26 @@ body #app-mount .container-1r6BKw.themed-ANHk51.title-3qD0b- .children-19S4PO:ho
   border-bottom: 1px solid var(--base-border);
   font-size: 1em;
   font-weight: var(--font-weight-normal);
-  padding: 0 calc(var(--spacing) + 24px);
+  padding: 0 calc(var(--spacing) + 20px);
   display: flex;
   align-items: center;
   position: absolute;
   background-color: var(--background-light);
   box-sizing: border-box;
   font-family: var(--font-family-sans-serif);
-  line-height: normal;
+  line-height: 1;
   white-space: nowrap;
   overflow: hidden;
 }
 #app-mount pre code:after {
   content: "";
   width: 24px;
-  height: 24px;
+  height: 23px;
   position: absolute;
   top: 0;
   left: 0;
   padding: 0 var(--spacing-third);
   -webkit-mask: url('data:image/svg+xml; utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill-rule="evenodd" d="M3 3a2 2 0 012-2h9.982a2 2 0 011.414.586l4.018 4.018A2 2 0 0121 7.018V21a2 2 0 01-2 2H4.75a.75.75 0 010-1.5H19a.5.5 0 00.5-.5V8.5h-4a2 2 0 01-2-2v-4H5a.5.5 0 00-.5.5v6.25a.75.75 0 01-1.5 0V3zm12-.5v4a.5.5 0 00.5.5h4a.5.5 0 00-.146-.336l-4.018-4.018A.5.5 0 0015 2.5z"/><path d="M4.53 12.24a.75.75 0 01-.039 1.06l-2.639 2.45 2.64 2.45a.75.75 0 11-1.022 1.1l-3.23-3a.75.75 0 010-1.1l3.23-3a.75.75 0 011.06.04zm3.979 1.06a.75.75 0 111.02-1.1l3.231 3a.75.75 0 010 1.1l-3.23 3a.75.75 0 11-1.021-1.1l2.639-2.45-2.64-2.45z"/></svg>') center/12px no-repeat;
-          mask: url('data:image/svg+xml; utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill-rule="evenodd" d="M3 3a2 2 0 012-2h9.982a2 2 0 011.414.586l4.018 4.018A2 2 0 0121 7.018V21a2 2 0 01-2 2H4.75a.75.75 0 010-1.5H19a.5.5 0 00.5-.5V8.5h-4a2 2 0 01-2-2v-4H5a.5.5 0 00-.5.5v6.25a.75.75 0 01-1.5 0V3zm12-.5v4a.5.5 0 00.5.5h4a.5.5 0 00-.146-.336l-4.018-4.018A.5.5 0 0015 2.5z"/><path d="M4.53 12.24a.75.75 0 01-.039 1.06l-2.639 2.45 2.64 2.45a.75.75 0 11-1.022 1.1l-3.23-3a.75.75 0 010-1.1l3.23-3a.75.75 0 011.06.04zm3.979 1.06a.75.75 0 111.02-1.1l3.231 3a.75.75 0 010 1.1l-3.23 3a.75.75 0 11-1.021-1.1l2.639-2.45-2.64-2.45z"/></svg>') center/12px no-repeat;
   background: var(--text-normal);
 }
 #app-mount pre code[class~=hljs]:before {

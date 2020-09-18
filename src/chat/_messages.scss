@@ -510,9 +510,51 @@
     border-top: 1px solid var(--base-border) !important;
     border-right: 1px solid var(--base-border) !important;
     border-bottom: 1px solid var(--base-border) !important;
+    border-radius:var(--border-radius);
+    .grid-1nZz7S {
+      padding:var(--spacing);
+      >div:first-child,
+      .embedSuppressButton-1FonMn + div {
+        margin:0;
+      }
+    }
+    .embedProvider-3k5pfl {
+      font-size:var(--font-size-sm);
+      color:var(--text-muted);
+    }
+    .embedAuthorNameLink-1gVryT {
+      font-size:var(--font-size);
+      color:var(--text-normal);
+      font-weight:var(--font-weight-semibold);
+    }
+    .embedTitle-3OXDkz,
+    .embedAuthorName-3mnTWj {
+      font-size:var(--font-size);
+      font-weight:var(--font-weight-semibold);
+    }
+    .embedMargin-UO5XwE {
+      margin-top:var(--spacing-half);
+    }
+    .embedAuthorIcon--1zR3L {
+      margin-right:var(--spacing-half);
+      width:var(--avatar-size-xsm);
+      height:var(--avatar-size-xsm);
+      border-radius:var(--border-radius);
+    }
     .embedDescription-1Cuq9a,
+    .embedFieldName-NFrena,
+    .embedFieldValue-nELq2s {
+      font-size:var(--font-size);
+      font-weight:var(--font-weight-normal);
+      color:var(--text-normal);
+    }
+    .embedAuthorName-3mnTWj, 
+    .embedFieldName-NFrena, 
     .embedTitle-3OXDkz {
-      font-size: var(--font-size);
+      color:var(--text-normal);
+    }
+    a {
+      color:var(--text-link) !important;
     }
   }
 
@@ -522,11 +564,11 @@
     border:1px solid var(--base-border);
     border-radius:var(--border-radius);
     padding:var(--spacing);
-    margin-left:13px;
     position:relative;
     box-sizing:border-box;
     border-top-left-radius:0;
-    margin-bottom:var(--spacing-half);
+    margin:var(--spacing-half) 0;
+    margin-left:13px;
     width:fit-content;
     blockquote {
       padding:0;
@@ -548,7 +590,7 @@
         width: 0;
         height: 0;
         top:-14.25px;
-        left:-12.75px;
+        left:-13px;
         border-top: 15px solid var(--background);
         border-left: 15px solid transparent;
         border-radius:0;

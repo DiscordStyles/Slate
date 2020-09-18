@@ -53,26 +53,26 @@
 				border-bottom:1px solid var(--base-border);
 				font-size: 1em;
 				font-weight: var(--font-weight-normal);
-				padding: 0 calc(var(--spacing) + 24px);
+				padding: 0 calc(var(--spacing) + 20px);
 				display: flex;
 				align-items: center;
 				position: absolute;
 				background-color: var(--background-light);
 				box-sizing: border-box;
 				font-family: var(--font-family-sans-serif);
-				line-height: normal;
+				line-height: 1;
 				white-space: nowrap;
 				overflow: hidden;
 			}
 			&:after {
 				content: "";
 				width: 24px;
-				height: 24px;
+				height: 23px;
 				position: absolute;
 				top: 0;
 				left: 0;
 				padding: 0 var(--spacing-third);
-				mask: url($icon_code_document) center/12px no-repeat;
+				-webkit-mask: url($icon_code_document) center/12px no-repeat;
 				background: var(--text-normal);
 			}
 			@import 'codeblocklangs';
