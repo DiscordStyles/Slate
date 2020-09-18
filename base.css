@@ -10809,6 +10809,44 @@ html.theme-light #app-mount .main-3auUui .options-1VK2u9 .optionContainer-15srkc
   width: unset;
 }
 
+#app-mount .ragingDemon-bDcoXE {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#app-mount .ragingDemon-bDcoXE .symbol-3ffeCr {
+  height: 25vw;
+  width: 25vw;
+  position: relative;
+  background: url("https://cdn.discordapp.com/emojis/477825238172958730.png?v=1") center/cover no-repeat;
+}
+#app-mount .ragingDemon-bDcoXE .symbol-3ffeCr img {
+  display: none;
+}
+#app-mount .ragingDemon-bDcoXE .symbol-3ffeCr::after {
+  content: "";
+  position: absolute;
+  bottom: -6vw;
+  left: -12vw;
+  background: url(https://i.imgur.com/oN8q6xv.png) center/cover no-repeat;
+  width: 15vw;
+  height: 15vw;
+  animation: vibecheck 250ms ease-in-out forwards infinite;
+  opacity: 0;
+  animation-delay: 1.5s;
+}
+#app-mount .ragingDemon-bDcoXE .symbol-3ffeCr .symbolBackground-1w6i-M {
+  position: fixed;
+  background: red !important;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  opacity: 1;
+  animation: fadeIn 7s linear;
+  z-index: -1;
+}
+
 #app-mount .lookFilled-1Gx00P,
 #app-mount .lookInverted-2D7oAl,
 #app-mount .lookLink-9FtZy-,
@@ -11760,5 +11798,206 @@ body.styledGuildsAsChannels-DNHtg_ #app-mount .guilds-1SWlCJ .guildSeparator-3s6
 @keyframes progress-indeterminate {
   100% {
     background-position: 100px 0px;
+  }
+}
+@keyframes vibecheck {
+  2% {
+    transform: translate(7px, -4px) rotate(-0.5deg);
+    opacity: 1;
+  }
+  4% {
+    transform: translate(3px, 7px) rotate(2.5deg);
+    opacity: 1;
+  }
+  6% {
+    transform: translate(3px, 8px) rotate(0.5deg);
+    opacity: 1;
+  }
+  8% {
+    transform: translate(-7px, 4px) rotate(1.5deg);
+    opacity: 1;
+  }
+  10% {
+    transform: translate(6px, 10px) rotate(-0.5deg);
+    opacity: 1;
+  }
+  12% {
+    transform: translate(4px, 2px) rotate(-0.5deg);
+    opacity: 1;
+  }
+  14% {
+    transform: translate(-4px, 6px) rotate(3.5deg);
+    opacity: 1;
+  }
+  16% {
+    transform: translate(1px, 5px) rotate(-1.5deg);
+    opacity: 1;
+  }
+  18% {
+    transform: translate(3px, -7px) rotate(-2.5deg);
+    opacity: 1;
+  }
+  20% {
+    transform: translate(-8px, -7px) rotate(0.5deg);
+    opacity: 1;
+  }
+  22% {
+    transform: translate(3px, -2px) rotate(-2.5deg);
+    opacity: 1;
+  }
+  24% {
+    transform: translate(5px, -4px) rotate(1.5deg);
+    opacity: 1;
+  }
+  26% {
+    transform: translate(-6px, -4px) rotate(-0.5deg);
+    opacity: 1;
+  }
+  28% {
+    transform: translate(1px, 0px) rotate(0.5deg);
+    opacity: 1;
+  }
+  30% {
+    transform: translate(-9px, -3px) rotate(3.5deg);
+    opacity: 1;
+  }
+  32% {
+    transform: translate(3px, 6px) rotate(-1.5deg);
+    opacity: 1;
+  }
+  34% {
+    transform: translate(-2px, -3px) rotate(-1.5deg);
+    opacity: 1;
+  }
+  36% {
+    transform: translate(9px, -3px) rotate(-0.5deg);
+    opacity: 1;
+  }
+  38% {
+    transform: translate(9px, -9px) rotate(-1.5deg);
+    opacity: 1;
+  }
+  40% {
+    transform: translate(8px, -7px) rotate(-2.5deg);
+    opacity: 1;
+  }
+  42% {
+    transform: translate(-8px, -2px) rotate(2.5deg);
+    opacity: 1;
+  }
+  44% {
+    transform: translate(-7px, 2px) rotate(-0.5deg);
+    opacity: 1;
+  }
+  46% {
+    transform: translate(-1px, 4px) rotate(3.5deg);
+    opacity: 1;
+  }
+  48% {
+    transform: translate(3px, 1px) rotate(1.5deg);
+    opacity: 1;
+  }
+  50% {
+    transform: translate(9px, -1px) rotate(2.5deg);
+    opacity: 1;
+  }
+  52% {
+    transform: translate(-1px, 5px) rotate(-2.5deg);
+    opacity: 1;
+  }
+  54% {
+    transform: translate(9px, -2px) rotate(0.5deg);
+    opacity: 1;
+  }
+  56% {
+    transform: translate(5px, -4px) rotate(-2.5deg);
+    opacity: 1;
+  }
+  58% {
+    transform: translate(5px, -8px) rotate(-1.5deg);
+    opacity: 1;
+  }
+  60% {
+    transform: translate(10px, 4px) rotate(1.5deg);
+    opacity: 1;
+  }
+  62% {
+    transform: translate(-8px, 1px) rotate(-2.5deg);
+    opacity: 1;
+  }
+  64% {
+    transform: translate(-9px, 6px) rotate(-1.5deg);
+    opacity: 1;
+  }
+  66% {
+    transform: translate(-3px, 2px) rotate(0.5deg);
+    opacity: 1;
+  }
+  68% {
+    transform: translate(10px, 4px) rotate(0.5deg);
+    opacity: 1;
+  }
+  70% {
+    transform: translate(3px, -4px) rotate(-2.5deg);
+    opacity: 1;
+  }
+  72% {
+    transform: translate(-5px, 10px) rotate(0.5deg);
+    opacity: 1;
+  }
+  74% {
+    transform: translate(1px, -7px) rotate(3.5deg);
+    opacity: 1;
+  }
+  76% {
+    transform: translate(8px, -3px) rotate(-2.5deg);
+    opacity: 1;
+  }
+  78% {
+    transform: translate(-8px, 2px) rotate(-0.5deg);
+    opacity: 1;
+  }
+  80% {
+    transform: translate(2px, 7px) rotate(-2.5deg);
+    opacity: 1;
+  }
+  82% {
+    transform: translate(6px, -4px) rotate(1.5deg);
+    opacity: 1;
+  }
+  84% {
+    transform: translate(3px, 2px) rotate(3.5deg);
+    opacity: 1;
+  }
+  86% {
+    transform: translate(0px, -5px) rotate(-2.5deg);
+    opacity: 1;
+  }
+  88% {
+    transform: translate(1px, -3px) rotate(2.5deg);
+    opacity: 1;
+  }
+  90% {
+    transform: translate(-8px, -9px) rotate(2.5deg);
+    opacity: 1;
+  }
+  92% {
+    transform: translate(-2px, 3px) rotate(2.5deg);
+    opacity: 1;
+  }
+  94% {
+    transform: translate(-6px, 0px) rotate(-0.5deg);
+    opacity: 1;
+  }
+  96% {
+    transform: translate(-9px, 8px) rotate(1.5deg);
+    opacity: 1;
+  }
+  98% {
+    transform: translate(9px, 4px) rotate(-1.5deg);
+  }
+  0%, 100% {
+    transform: translate(0, 0) rotate(0);
+    opacity: 1;
   }
 }
