@@ -18,7 +18,7 @@
 
 @import 'base';
 
-.content-column::before {
+.bd-addon-list::before {
   content:'This is a developer copy of Slate and therefore will not recieve automatic updates. If you are not using this copy for active development, please visit https://discordstyles.github.io/slate-theme for a list of official downloads';
   font-size:var(--font-size);
   font-weight:var(--font-weight-normal);
@@ -30,4 +30,5 @@
   background-color:rgba(var(--status-yellow), .25);
   border:1px solid rgba(var(--status-yellow), .5);
   line-height:normal;
+  display:block;
 }
