@@ -3547,6 +3547,7 @@ body #app-mount .container-1r6BKw.themed-ANHk51.title-3qD0b- .children-19S4PO:ho
   padding: 0 var(--spacing-half);
   display: flex;
   justify-content: center;
+  border-bottom: none;
 }
 #app-mount .base-gE7OpD .text-1y-e8- {
   line-height: normal;
@@ -9037,7 +9038,7 @@ html.platform-linux #app-mount .layer-3QrUeG[aria-label*=SETTINGS] .item-PXvHYJ:
   margin-top: 2px;
 }
 
-#bd-settingspane-container .bd-addon-button, #bd-settingspane-container .bd-button, #bd-settingspane-container .bda-link {
+#bd-settingspane-container .bd-addon-button, #bd-settingspane-container .bd-button, #bd-settingspane-container .bda-link, #bd-settingspane-container .bd-pfbtn {
   font-size: var(--font-size);
   font-weight: var(--font-weight-normal);
   cursor: default;
@@ -9053,6 +9054,9 @@ html.platform-linux #app-mount .layer-3QrUeG[aria-label*=SETTINGS] .item-PXvHYJ:
   text-decoration: none;
   -webkit-user-select: none;
           user-select: none;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
 }
 #bd-settingspane-container .bd-button:hover {
   box-shadow: inset 0 0 0 100vmax rgba(255, 255, 255, 0.1);
@@ -9083,6 +9087,7 @@ html.platform-linux #app-mount .layer-3QrUeG[aria-label*=SETTINGS] .item-PXvHYJ:
   border-color: transparent;
 }
 #bd-settingspane-container .bd-pfbtn {
+  display: block;
   margin: var(--spacing-double) 0 var(--spacing-double) var(--spacing-double);
 }
 #bd-settingspane-container .bd-controls {

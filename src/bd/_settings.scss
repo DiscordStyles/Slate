@@ -1,6 +1,6 @@
 #bd-settingspane-container {
   // Buttons
-  .bd-addon-button, .bd-button, .bda-link {
+  .bd-addon-button, .bd-button, .bda-link, .bd-pfbtn {
     font-size: var(--font-size);
     font-weight: var(--font-weight-normal);
     cursor: default;
@@ -15,6 +15,7 @@
     border: none !important;
     text-decoration: none;
     user-select: none;
+    width:fit-content;
   }
   .bd-button {
     &:hover {
@@ -47,6 +48,7 @@
     }
   }
   .bd-pfbtn {
+    display:block;
     margin: var(--spacing-double) 0 var(--spacing-double) var(--spacing-double);
   }
   .bd-controls {
