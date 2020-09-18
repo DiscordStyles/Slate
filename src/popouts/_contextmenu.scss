@@ -5,14 +5,6 @@
     background: var(--background);
     box-shadow: var(--elevation-1);
     border: 1px solid var(--base-border);
-    [role="group"] {
-      &:first-child .item-1tOPte {
-        border-radius: var(--border-radius) var(--border-radius) 0 0;
-      }
-      &:last-child .item-1tOPte {
-        border-radius: 0 0 var(--border-radius) var(--border-radius);
-      }
-    }
     .scroller-3BxosC {
       padding: 0;
       &::-webkit-scrollbar {
@@ -23,9 +15,20 @@
       margin: 0;
       border-color: var(--base-border);
     }
+    .groupLabel-2t5iuZ {
+      font-size: var(--font-size);
+      color: var(--text-muted);
+      font-weight:var(--font-weight-semibold);
+      margin: 0;
+      padding: var(--spacing-half) var(--spacing);
+      box-sizing: border-box;
+      height: 32px;
+      text-transform:none;
+    }
     .item-1tOPte {
       font-size: var(--font-size);
       color: var(--text-normal);
+      font-weight:var(--font-weight-semibold  );
       margin: 0;
       padding: var(--spacing-half) var(--spacing);
       box-sizing: border-box;
