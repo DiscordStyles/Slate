@@ -648,8 +648,7 @@
       }
       .durationTimeWrapper-OugPFt {
         margin:0;
-        flex-grow:1;
-        .durationTimeDisplay-jww5fr, .durationTimeSeparator-2_xpJ7 {
+          .durationTimeDisplay-jww5fr, .durationTimeSeparator-2_xpJ7 {
           font-weight:var(--font-weight);
           font-size:var(--font-size-sm);
           color:var(--white);
@@ -703,6 +702,10 @@
         .fakeEdges-27pgtp:after, .fakeEdges-27pgtp:before {
           content:none;
         }
+      }
+      .flex-1O1GKY {
+        flex-grow:1;
+        justify-content:flex-end;
       }
       >div:last-child {
         .controlIcon-3cRbti {

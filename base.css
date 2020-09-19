@@ -3387,7 +3387,6 @@ body #app-mount .container-1r6BKw.title-3qD0b- .children-19S4PO:hover .nicknames
 }
 #app-mount .wrapper-2TxpI8 .videoControls-2kcYic .durationTimeWrapper-OugPFt {
   margin: 0;
-  flex-grow: 1;
 }
 #app-mount .wrapper-2TxpI8 .videoControls-2kcYic .durationTimeWrapper-OugPFt .durationTimeDisplay-jww5fr, #app-mount .wrapper-2TxpI8 .videoControls-2kcYic .durationTimeWrapper-OugPFt .durationTimeSeparator-2_xpJ7 {
   font-weight: var(--font-weight);
@@ -3454,6 +3453,10 @@ body #app-mount .container-1r6BKw.title-3qD0b- .children-19S4PO:hover .nicknames
 }
 #app-mount .wrapper-2TxpI8 .videoControls-2kcYic .horizontal-3Sq5iO .fakeEdges-27pgtp:after, #app-mount .wrapper-2TxpI8 .videoControls-2kcYic .horizontal-3Sq5iO .fakeEdges-27pgtp:before {
   content: none;
+}
+#app-mount .wrapper-2TxpI8 .videoControls-2kcYic .flex-1O1GKY {
+  flex-grow: 1;
+  justify-content: flex-end;
 }
 #app-mount .wrapper-2TxpI8 .videoControls-2kcYic > div:last-child .controlIcon-3cRbti {
   margin: 0;
