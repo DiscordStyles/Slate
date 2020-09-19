@@ -4,6 +4,6 @@
     "version": "1.0.0",
     "author": "Gibbu#1211 & Tropical#8908",
     "theme": "Slate.theme.css",
-    "consent": "false",
+    "consent": ["ext_listing"],
     "license": "unknown"
 }

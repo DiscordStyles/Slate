@@ -26,3 +26,7 @@
 ## Documentation
 
 Documentation, including customization guides can be found in the [Wiki](https://github.com/GibbuPCStuff/Slate/wiki) of this repo
+
+## License
+
+See the [LICENSE](LICENSE.md) file for license rights and limitations (MIT).
