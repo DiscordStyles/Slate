@@ -21,11 +21,10 @@
     padding: var(--spacing-half) 0;
     transform: none !important;
     font-size: var(--font-size);
-    font-weight: var(--font-weight-normal);
+    font-weight: var(--font-weight-semibold);
     text-transform: none;
     position: relative;
     width: 100%;
-    color: rgba(var(--status-red));
     border-right: 1px solid var(--base-border);
     box-sizing: border-box;
     &.unread-1xRYoj {
