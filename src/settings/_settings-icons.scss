@@ -2,11 +2,14 @@
 #app-mount .layer-3QrUeG[aria-label="USER_SETTINGS"] .item-PXvHYJ {
   display: flex;
   align-items: center;
+  &.selected-3s45Ha:before {
+    background:currentColor;
+  }
   &:before {
     content: "";
     width: 16px;
     height: 16px;
-    background: currentColor;
+    background: var(--text-muted);
     display: block;
     margin-right: var(--spacing);
     -webkit-mask:url($icon_cog) center/cover no-repeat;
