@@ -31,6 +31,7 @@
       border-radius: 0;
       font-size: var(--font-size);
       font-weight: var(--font-weight-normal);
+      height:var(--item-height);
       cursor: default;
       box-sizing: border-box;
       .label-22pbtT {
@@ -133,16 +134,6 @@
       background: var(--backdrop);
       z-index: -1;
       pointer-events: none;
-    }
-    &:after {
-      content: var(--slate-version);
-      position: absolute;
-      font-size: var(--font-size-xsm);
-      font-weight: var(--font-weight-normal);
-      color: var(--text-normal);
-      bottom: 0;
-      left: 0;
-      margin: var(--spacing);
     }
   }
 }

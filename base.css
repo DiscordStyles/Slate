@@ -5791,6 +5791,7 @@ html.theme-light #app-mount .wrapper-3Q5DdO .qrLogin-1AOZMt .startOverButton-3q0
   border-radius: 0;
   font-size: var(--font-size);
   font-weight: var(--font-weight-normal);
+  height: var(--item-height);
   cursor: default;
   box-sizing: border-box;
 }
@@ -5893,16 +5894,6 @@ html.theme-light #app-mount .wrapper-3Q5DdO .qrLogin-1AOZMt .startOverButton-3q0
   background: var(--backdrop);
   z-index: -1;
   pointer-events: none;
-}
-#app-mount #guild-header-popout:after {
-  content: var(--slate-version);
-  position: absolute;
-  font-size: var(--font-size-xsm);
-  font-weight: var(--font-weight-normal);
-  color: var(--text-normal);
-  bottom: 0;
-  left: 0;
-  margin: var(--spacing);
 }
 
 #app-mount #status-picker {
@@ -9618,6 +9609,11 @@ html.platform-linux #app-mount .layer-3QrUeG[aria-label*=SETTINGS] .item-PXvHYJ:
 #app-mount #bd-settingspane-container .contentColumn-2hrIYH {
   padding: 0 !important;
 }
+#app-mount #bd-settingspane-container .contentColumn-2hrIYH > div {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+}
 #app-mount #bd-settingspane-container .contentColumn-2hrIYH h2.ui-form-title.margin-bottom-20 {
   display: none;
 }
@@ -9625,9 +9621,12 @@ html.platform-linux #app-mount .layer-3QrUeG[aria-label*=SETTINGS] .item-PXvHYJ:
   color: var(--text-normal);
   font-weight: var(--font-weight-normal);
 }
+#app-mount .editor-wrapper {
+  flex-grow: 1;
+}
 #app-mount #bd-customcss-attach-controls {
   box-shadow: none;
-  height: auto;
+  height: 50px;
   border-top: 1px solid var(--base-border);
   background: var(--background);
   display: flex;
@@ -9640,8 +9639,28 @@ html.platform-linux #app-mount .layer-3QrUeG[aria-label*=SETTINGS] .item-PXvHYJ:
 }
 #app-mount #bd-customcss-attach-controls .checkbox-group li .checkbox-inner + span {
   font-size: var(--font-size);
-  margin-left: var(--spacing);
+  margin-left: var(--spacing-half);
+  color: var(--text-normal);
+  font-weight: var(--font-weight-normal);
   line-height: normal;
+  cursor: default;
+}
+#app-mount #bd-customcss-attach-controls .checkbox-inner {
+  width: 14px;
+  height: 14px;
+  display: flex;
+  align-items: center;
+  cursor: default;
+}
+#app-mount #bd-customcss-attach-controls .checkbox-inner:after, #app-mount #bd-customcss-attach-controls .checkbox-inner:before {
+  content: none;
+}
+#app-mount #bd-customcss-attach-controls .checkbox-inner span {
+  display: none;
+}
+#app-mount #bd-customcss-attach-controls .checkbox-inner input {
+  display: inline-block;
+  margin: 0;
 }
 #app-mount #bd-customcss-detach-controls-button button {
   margin: 0;
@@ -9670,8 +9689,8 @@ html.platform-linux #app-mount .layer-3QrUeG[aria-label*=SETTINGS] .item-PXvHYJ:
 }
 
 #app-mount [aria-label*=SETTINGS] .ace_editor {
-  height: calc(65vh - 96px);
-  min-height: 400px;
+  height: auto;
+  flex-grow: 1;
 }
 
 #app-mount #bd-customcss-detach-container {
@@ -9679,6 +9698,15 @@ html.platform-linux #app-mount .layer-3QrUeG[aria-label*=SETTINGS] .item-PXvHYJ:
 }
 #app-mount #bd-customcss-detach-container #bd-customcss-detach-editor {
   height: calc(100vh - var(--titlebar-height) - 50px);
+}
+
+html.theme-light #app-mount #bd-customcss-detach-controls-button button:hover {
+  background: var(--background) !important;
+  border: 1px solid var(--secondary-border) !important;
+}
+html.theme-light #app-mount #bd-customcss-detach-controls-button button:focus {
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.05) !important;
+  border: 1px solid var(--secondary-border) !important;
 }
 
 #app-mount .bd-chat-badge {
