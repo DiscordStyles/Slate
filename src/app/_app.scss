@@ -11,17 +11,30 @@ html {
   background:var(--background);
   transform:none !important;
 }
+body {
+  background:var(--background);
+}
 
 #app-mount {
-  background: var(--toolbar-background);
+  background: var(--background);
   .base-3dtUhz {
     border-radius: 0;
     left: var(--noasw-base);
     overflow: visible !important;
   }
-  .layer-3QrUeG.baseLayer-35bLyl {
+  .layer-3QrUeG {
     opacity: 1 !important;
-    transform: scale(1) !important;
+    transform: none !important;
+    &.animating-rRxada {
+      pointer-events:all;
+      will-change:unset;
+      * {
+        pointer-events:all !important;
+      }
+    }
+    &.baseLayer-35bLyl {
+      z-index:1;
+    }
   }
 
   // Mentions/Channel jump

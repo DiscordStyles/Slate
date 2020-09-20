@@ -141,8 +141,14 @@
       padding-bottom:0;
     }
     .description-3_Ncsb,
-    .labelDescriptor-1PqHgD {
+    .labelDescriptor-1PqHgD,
+    .markdown-11q6EU {
       font-size: var(--font-size);
+    }
+    .markdown-11q6EU {
+      color:var(--text-normal);
+      font-weight:var(--font-weight-normal);
+      line-height:normal;
     }
     h5[style*="margin-bottom: 4px;"] {
       margin-bottom:var(--spacing-third) !important;

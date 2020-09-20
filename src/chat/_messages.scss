@@ -681,12 +681,14 @@
             background:transparent;
             height:10px;
             border-radius:0;
+            box-shadow:none;
             .mediaBarProgress-1xaPtl {
               background:var(--accent-solid);
             }
             .buffer-26XPkd, .mediaBarPreview-1jfyFs, .mediaBarProgress-1xaPtl {
               height:3px;
               top:50%;
+              transition:150ms ease height;
               transform:translateY(-50%);
             }
             .buffer-26XPkd, .buffer-26XPkd:after, .buffer-26XPkd:before {

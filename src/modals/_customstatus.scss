@@ -13,6 +13,7 @@
             height:20px;
             width:20px;
             transform:none !important;
+            filter:none !important;
             background:var(--text-muted);
             -webkit-mask:url($icon_smiley_alt) center/90% no-repeat;
           }

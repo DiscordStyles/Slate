@@ -153,6 +153,7 @@
       .sprite-2iCowe {
         height:22px;
         width:22px;
+        filter:none !important;
         transform:none !important;
         background:var(--text-muted);
         -webkit-mask:url($icon_smiley_alt) center/20px no-repeat;

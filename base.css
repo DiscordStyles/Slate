@@ -141,17 +141,31 @@ html {
   transform: none !important;
 }
 
+body {
+  background: var(--background);
+}
+
 #app-mount {
-  background: var(--toolbar-background);
+  background: var(--background);
 }
 #app-mount .base-3dtUhz {
   border-radius: 0;
   left: var(--noasw-base);
   overflow: visible !important;
 }
-#app-mount .layer-3QrUeG.baseLayer-35bLyl {
+#app-mount .layer-3QrUeG {
   opacity: 1 !important;
-  transform: scale(1) !important;
+  transform: none !important;
+}
+#app-mount .layer-3QrUeG.animating-rRxada {
+  pointer-events: all;
+  will-change: unset;
+}
+#app-mount .layer-3QrUeG.animating-rRxada * {
+  pointer-events: all !important;
+}
+#app-mount .layer-3QrUeG.baseLayer-35bLyl {
+  z-index: 1;
 }
 #app-mount .mention {
   background: rgba(var(--accent), 0.15);
@@ -1321,6 +1335,7 @@ body #app-mount .container-1r6BKw.title-3qD0b- .children-19S4PO:hover .nicknames
   overflow: visible !important;
   display: -webkit-box;
   padding-top: var(--toolbar-height);
+  background: transparent;
 }
 #app-mount .sidebar-2K8pFh .container-PNkimc {
   background: var(--background);
@@ -2027,6 +2042,7 @@ body #app-mount .container-1r6BKw.title-3qD0b- .children-19S4PO:hover .nicknames
 #app-mount .privateChannels-1nO12o {
   overflow: visible;
   width: var(--sidebar-width);
+  background: var(--background);
 }
 #app-mount .privateChannels-1nO12o .searchBar-6Kv8R2 {
   background: var(--toolbar-background);
@@ -2205,6 +2221,7 @@ body #app-mount .container-1r6BKw.title-3qD0b- .children-19S4PO:hover .nicknames
 #app-mount .guilds-1SWlCJ {
   border-right: 1px solid var(--base-border);
   box-sizing: border-box;
+  background: transparent;
 }
 #app-mount .guilds-1SWlCJ .scroller-2TZvBN {
   background: var(--guilds-background);
@@ -3426,6 +3443,7 @@ body #app-mount .container-1r6BKw.title-3qD0b- .children-19S4PO:hover .nicknames
   background: transparent;
   height: 10px;
   border-radius: 0;
+  box-shadow: none;
 }
 #app-mount .wrapper-2TxpI8 .videoControls-2kcYic .horizontal-3Sq5iO .mediaBarInteraction-37i2O4 .mediaBarWrapper-3D7r67 .mediaBarProgress-1xaPtl,
 #app-mount .wrapper-2TxpI8 .videoControls-2kcYic .horizontal-3Sq5iO .mediaBarInteractionDragging-2QurIZ .mediaBarWrapper-3D7r67 .mediaBarProgress-1xaPtl {
@@ -3437,6 +3455,7 @@ body #app-mount .container-1r6BKw.title-3qD0b- .children-19S4PO:hover .nicknames
 #app-mount .wrapper-2TxpI8 .videoControls-2kcYic .horizontal-3Sq5iO .mediaBarInteractionDragging-2QurIZ .mediaBarWrapper-3D7r67 .mediaBarProgress-1xaPtl {
   height: 3px;
   top: 50%;
+  transition: 150ms ease height;
   transform: translateY(-50%);
 }
 #app-mount .wrapper-2TxpI8 .videoControls-2kcYic .horizontal-3Sq5iO .mediaBarInteraction-37i2O4 .mediaBarWrapper-3D7r67 .buffer-26XPkd, #app-mount .wrapper-2TxpI8 .videoControls-2kcYic .horizontal-3Sq5iO .mediaBarInteraction-37i2O4 .mediaBarWrapper-3D7r67 .buffer-26XPkd:after, #app-mount .wrapper-2TxpI8 .videoControls-2kcYic .horizontal-3Sq5iO .mediaBarInteraction-37i2O4 .mediaBarWrapper-3D7r67 .buffer-26XPkd:before,
@@ -3717,6 +3736,7 @@ body #app-mount .container-1r6BKw.title-3qD0b- .children-19S4PO:hover .nicknames
 #app-mount .buttons-3JBrkn .emojiButton-3uL3Aw .sprite-2iCowe {
   height: 22px;
   width: 22px;
+  filter: none !important;
   transform: none !important;
   background: var(--text-muted);
   -webkit-mask: url('data:image/svg+xml; utf-8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="currentColor" style="display: inline-block; vertical-align: text-bottom;"><path fill-rule="evenodd" d="M1.5 8a6.5 6.5 0 1113 0 6.5 6.5 0 01-13 0zM8 0a8 8 0 100 16A8 8 0 008 0zM5 8a1 1 0 100-2 1 1 0 000 2zm7-1a1 1 0 11-2 0 1 1 0 012 0zM5.32 9.636a.75.75 0 011.038.175l.007.009c.103.118.22.222.35.31.264.178.683.37 1.285.37.602 0 1.02-.192 1.285-.371.13-.088.247-.192.35-.31l.007-.008a.75.75 0 111.222.87l-.614-.431c.614.43.614.431.613.431v.001l-.001.002-.002.003-.005.007-.014.019a1.984 1.984 0 01-.184.213c-.16.166-.338.316-.53.445-.63.418-1.37.638-2.127.629-.946 0-1.652-.308-2.126-.63a3.32 3.32 0 01-.715-.657l-.014-.02-.005-.006-.002-.003v-.002h-.001l.613-.432-.614.43a.75.75 0 01.183-1.044h.001z"/></svg>') center/20px no-repeat;
@@ -8072,7 +8092,7 @@ html.theme-light #app-mount .popout-2iWAc-.force-theme.content-1nP7fx .buttonCon
   justify-content: center;
   padding: 0 var(--spacing-triple);
   background: var(--backdrop);
-  transform: none !important;
+  z-index: 1;
 }
 #app-mount .layer-3QrUeG[aria-label*=SETTINGS] [class*=scroller- i]:not([class*=bd-]) {
   background: var(--background);
@@ -9875,9 +9895,17 @@ html.platform-linux #app-mount .layer-3QrUeG[aria-label*=SETTINGS] .item-PXvHYJ:
 }
 #app-mount .modal-yWgWj- .description-3_Ncsb,
 #app-mount .modal-yWgWj- .labelDescriptor-1PqHgD,
+#app-mount .modal-yWgWj- .markdown-11q6EU,
 #app-mount .root-1gCeng .description-3_Ncsb,
-#app-mount .root-1gCeng .labelDescriptor-1PqHgD {
+#app-mount .root-1gCeng .labelDescriptor-1PqHgD,
+#app-mount .root-1gCeng .markdown-11q6EU {
   font-size: var(--font-size);
+}
+#app-mount .modal-yWgWj- .markdown-11q6EU,
+#app-mount .root-1gCeng .markdown-11q6EU {
+  color: var(--text-normal);
+  font-weight: var(--font-weight-normal);
+  line-height: normal;
 }
 #app-mount .modal-yWgWj- h5[style*="margin-bottom: 4px;"],
 #app-mount .root-1gCeng h5[style*="margin-bottom: 4px;"] {
@@ -10650,6 +10678,7 @@ html.theme-light #app-mount .theme-light .root-1gCeng .container-1CE3eW > div[st
   height: 20px;
   width: 20px;
   transform: none !important;
+  filter: none !important;
   background: var(--text-muted);
   -webkit-mask: url('data:image/svg+xml; utf-8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="currentColor" style="display: inline-block; vertical-align: text-bottom;"><path fill-rule="evenodd" d="M1.5 8a6.5 6.5 0 1113 0 6.5 6.5 0 01-13 0zM8 0a8 8 0 100 16A8 8 0 008 0zM5 8a1 1 0 100-2 1 1 0 000 2zm7-1a1 1 0 11-2 0 1 1 0 012 0zM5.32 9.636a.75.75 0 011.038.175l.007.009c.103.118.22.222.35.31.264.178.683.37 1.285.37.602 0 1.02-.192 1.285-.371.13-.088.247-.192.35-.31l.007-.008a.75.75 0 111.222.87l-.614-.431c.614.43.614.431.613.431v.001l-.001.002-.002.003-.005.007-.014.019a1.984 1.984 0 01-.184.213c-.16.166-.338.316-.53.445-.63.418-1.37.638-2.127.629-.946 0-1.652-.308-2.126-.63a3.32 3.32 0 01-.715-.657l-.014-.02-.005-.006-.002-.003v-.002h-.001l.613-.432-.614.43a.75.75 0 01.183-1.044h.001z"/></svg>') center/90% no-repeat;
 }
