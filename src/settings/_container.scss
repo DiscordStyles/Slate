@@ -5,6 +5,9 @@
   padding: 0 var(--spacing-triple);
   background: var(--backdrop);
   z-index:1;
+  &.animating-rRxada {
+    display:none;
+  }
   [class*="scroller-" i]:not([class*="bd-"]) {
     background: var(--background);
     &::-webkit-scrollbar {

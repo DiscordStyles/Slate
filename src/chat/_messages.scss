@@ -181,7 +181,7 @@
       }
       .avatar-1BDn8e {
         border-radius: calc(var(--border-radius) / 1.5) !important;
-        box-shadow: 0 0 0 1px var(--base-border);
+        box-shadow: 0 0 0 .875px var(--base-border);
         top: var(--spacing);
         left: var(--spacing);
         width: var(--avatar-size) !important;
@@ -294,8 +294,8 @@
     &.cozyMessage-3V1Y8y {
       &:after {
         content:'';
-        border-radius: calc(var(--border-radius) / 1.5);
-        box-shadow: 0 0 0 1px var(--base-border);
+        border-radius: calc(var(--border-radius) / 1.5s);
+        box-shadow: 0 0 0 .875px var(--base-border);
         top: var(--spacing);
         left: var(--spacing);
         width: var(--avatar-size);

@@ -1,4 +1,4 @@
-#bd-settingspane-container {
+body #app-mount #bd-settingspane-container {
   // Buttons
   .bd-addon-button, .bd-button, .bda-link, .bd-pfbtn {
     font-size: var(--font-size);
@@ -46,6 +46,9 @@
         border-color: transparent;
       }
     }
+  }
+  .bd-addon-controls {
+    flex-direction:row;
   }
   .bd-pfbtn {
     display:block;

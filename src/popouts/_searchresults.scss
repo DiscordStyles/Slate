@@ -34,6 +34,23 @@
   .channelSeparator-1DOiGt:before {
     content: none;
   }
+  .resultsBlocked-3a77lQ {
+    background:var(--background-light);
+    border-radius:0;
+    border:none;
+    border-bottom:1px solid var(--base-border);
+    font-size:var(--font-size);
+    font-weight:var(--font-weight-noraml);
+    color:var(--text-normal);
+    padding:var(--spacing);
+    .resultsBlockedImage-2aDVMx {
+      background:rgb(var(--status-yellow));
+      width:18px;
+      height:18px;
+      margin-right:var(--spacing);
+      -webkit-mask:url($icon_alert) center/contain no-repeat;
+    }
+  }
   .searchResult-9tQ1uo {
     &:after,
     &:before {
@@ -63,6 +80,8 @@
   .jumpButton-JkYoYK {
     font-size: var(--font-size);
     font-weight: var(--font-weight-normal);
+    height:var(--input-height);
+    min-height:var(--input-height);
     cursor: default;
     height: 20px;
     display: flex;
