@@ -26,12 +26,13 @@
 
     // Selected channel
     &.modeSelected-1zApJ_ .content-3at_AU {
+      background:var(--accent-solid);
       .name-3_Dsmg, svg {
         opacity: 1;
         color: var(--white);
       }
       &:active {
-        background:var(--background-modifier-selected);
+        background:var(--accent-solid);
       }
     }
   }

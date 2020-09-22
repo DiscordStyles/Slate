@@ -187,7 +187,7 @@
         width: var(--avatar-size) !important;
         height: var(--avatar-size) !important;
         transition: 100ms ease box-shadow;
-        background-color: var(--background-light);
+        background-color: var(--background);
         position: absolute;
         overflow: hidden !important;
         cursor:default;
@@ -294,7 +294,7 @@
     &.cozyMessage-3V1Y8y {
       &:after {
         content:'';
-        border-radius: calc(var(--border-radius) / 1.5s);
+        border-radius: calc(var(--border-radius) / 1.5);
         box-shadow: 0 0 0 .875px var(--base-border);
         top: var(--spacing);
         left: var(--spacing);
@@ -311,7 +311,7 @@
           left: var(--spacing);
           width: var(--avatar-size);
           height: var(--avatar-size);
-          mask: url($icon_cog) center/16px no-repeat;
+          mask: url($icon_cog) center/15px no-repeat;
           background:var(--text-muted);
           position: absolute;
           z-index:1;
@@ -396,7 +396,7 @@
       }
       &.selected-LCBEAU {
         color: var(--white);
-        background:var(--background-modifier-selected);
+        background:var(--accent-solid);
       }
       &:first-child {
         border-left:1px solid var(--base-border);

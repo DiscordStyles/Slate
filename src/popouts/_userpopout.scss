@@ -161,7 +161,7 @@
         margin:0;
         line-height: var(--line-height);
         border-radius:var(--border-radius);
-        padding:var(--spacing-third) var(--spacing-half);
+        padding:1px var(--spacing-half);
         color:var(--text-normal);
         background:var(--background-modifier-active);
         font-size:var(--font-size-sm);
@@ -169,7 +169,7 @@
         user-select:none;
         height:auto;
         .botText-1526X_ {
-          font-size:var(--font-size-sm) !important;
+          font-size:var(--font-size-xsm) !important;
           font-weight:var(--font-weight-semibold);
           line-height:normal;
           text-transform:capitalize;
@@ -186,7 +186,7 @@
       }
       span:not(.botText-1526X_):not(.username-2b1r56) {
         font-size:var(--font-size);
-        margin-right:var(--spacing-half);
+        margin-right:var(--spacing-third);
       }
     }
     .headerNormal-T_seeN,

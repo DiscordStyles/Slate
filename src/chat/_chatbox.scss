@@ -111,6 +111,13 @@
   .textArea-12jD-V {
     min-height:var(--avatar-size-sm);
     height:auto;
+    &.fontSize16Padding-3Wk7zP {
+      padding:4px var(--spacing);
+      color:var(--text-normal);
+      font-size:var(--font-size);
+      line-height:normal;
+      min-height:unset;
+    }
   }
   .slateTextArea-1Mkdgw {
     font-size: var(--font-size);

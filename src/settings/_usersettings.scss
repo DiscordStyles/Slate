@@ -28,6 +28,7 @@
 					height: 34px !important;
 					border-radius: var(--border-radius);
 					border: 1px solid var(--base-border);
+					box-shadow:none;
 					img {
 						clip-path: none;
 						-webkit-clip-path: none;
@@ -741,6 +742,7 @@
 		font-weight:var(--font-weight-semibold);
 		color:var(--text-normal);
 		font-size: var(--font-size);
+		margin:0;	
 		line-height:normal;
 	}
 	.overlayStatusText-L2IACa,
@@ -748,6 +750,9 @@
 		font-weight:var(--font-weight-normal);
 		color:var(--text-muted);
 		font-size: var(--font-size);
+		text-transform:none;
+		width:auto;
+		margin-right:var(--spacing);
 	}
 	.nowPlayingAdd-1Kdmh_ {
 		color:var(--text-normal);
@@ -762,12 +767,75 @@
 	.lastPlayed-3bQ7Bo {
 		font-size: var(--font-size-sm);
 		color: var(--text-muted);
+		line-height:normal;
+		order:-1;
 	}
 	.activeGame-14JI7o {
 		border-radius:var(--border-radius);
 		padding:var(--spacing);
-		background-color: rgba(var(--status-grey), 0.25);
-		border:1px solid rgba(var(--status-grey), 0.5);
+		flex-direction:column;
+		align-items: flex-start;
+		&.notDetected-33MY4s  {
+			background-color: rgba(var(--status-grey), 0.25);
+			border:1px solid rgba(var(--status-grey), 0.5);
+		}
+		&.nowPlaying-284llR  {
+			background-color: rgba(var(--status-green), 0.25);
+			border:1px solid rgba(var(--status-green), 0.5);
+			margin-bottom:calc(14px + var(--spacing-double));
+		}
+		.gameNameInput-385LoS {
+			margin:0;
+			padding:0;
+			border:none;
+		}
+		.button-2CgfFz {
+			top:var(--spacing-half);
+			right:var(--spacing-half);
+		}
+		.gameNameLastPlayed-3LJo8n + .flex-1O1GKY {
+			position:absolute;
+			bottom:0;
+			left:0;
+			transform:translateY(calc(100% + var(--spacing)));
+			.overlayToggleIcon-2liB3r {
+				order:-1;
+			}
+			.overlayStatusText-L2IACa {
+				margin:0;
+				margin-left:var(--spacing-half);
+				position:relative;
+				top:.5px;
+			}
+			.overlayToggleIcon-2liB3r {
+				appearance:checkbox;
+				width:14px;
+				height:14px;
+				cursor:default;
+				svg {
+					width:100%;
+					height:100%;
+					border-radius:3px;
+					box-shadow:inset 0 0 0 1px #767676;
+					background:#fff;
+					box-sizing:border-box;
+					path, g {
+						display:none;
+					}
+					&.overlayToggleIconOn-3UNmty {
+						box-shadow:none;
+						background:#0075ff url($icon_checkmark) 2.35px 2px/10.35px no-repeat;
+						border-radius:2px;
+						&:hover {
+							background:#005cc8 url($icon_checkmark) center/10.25px no-repeat;
+						}
+						&:active {
+							background:#3793ff url($icon_checkmark) center/10.25px no-repeat;
+						}
+					}
+				}
+			}
+		}
 	}
 	.wrapper-r-6rrt {
 		width:auto;

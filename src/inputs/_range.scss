@@ -39,7 +39,7 @@
       transform:translateY(-50%) translateX(-50%);
       height:16px;
       width:16px;
-      border-radius:50px;
+      border-radius:50px !important;
       &:hover {
         box-shadow: inset 0 0 0 100vmax rgba(255,255,255,0.1);
       }

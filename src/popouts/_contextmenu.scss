@@ -5,6 +5,8 @@
     background: var(--background);
     box-shadow: var(--elevation-1);
     border: 1px solid var(--base-border);
+    border-radius:var(--border-radius);
+    overflow:hidden;
     .scroller-3BxosC {
       padding: 0;
       &::-webkit-scrollbar {
@@ -45,11 +47,15 @@
         color: rgb(var(--status-red));
       }
       &.colorBrand-ROmMP1 {
-        color: rgb(var(--discord-blurple));
+        color: var(--text-link);
       }
       &.hideInteraction-1iHO1O {
         height: auto;
         padding: 0;
+      }
+      .iconContainer-2-XQPY {
+        color:var(--text-muted);
+        margin-left:var(--spacing);
       }
     }
   }
@@ -63,7 +69,8 @@
   }
   .button-F9qN4n {
     padding: 0;
-    width: 47px;
+    width:45px;
+    flex-grow:1;
     border-radius: 0;
     background: transparent;
     cursor: default;
@@ -75,26 +82,8 @@
     }
   }
 
-  // User settings (reeeee why didn't they change this)
-  #user-settings-cog div {
-    &:first-child {
-      border-radius: var(--border-radius) var(--border-radius) 0 0;
-    }
-    &:last-child {
-      border-radius: 0 0 var(--border-radius) var(--border-radius);
-    }
-  }
-
   // Sub menus
   .submenuContainer-2gbm7M {
-    .scroller-3BxosC .item-1tOPte {
-      &:first-child {
-        border-radius: var(--border-radius) var(--border-radius) 0 0;
-      }
-      &:last-child {
-        border-radius: 0 0 var(--border-radius) var(--border-radius);
-      }
-    }
     .layer-v9HyYc {
       &[style*="right"] {
         margin-right: -4px;
