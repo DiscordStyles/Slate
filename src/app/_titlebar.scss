@@ -42,7 +42,7 @@
     width: 45px;
     color: var(--toolbar-text-muted);
     top: -2px;
-    cursor: default;
+    cursor: var(--cursor);
     &:hover {
       background:var(--toolbar-background-hover);
       color:var(--white);

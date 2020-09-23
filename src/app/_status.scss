@@ -1,5 +1,5 @@
-  .userPopout-3XzG_A,
-  .inner-1ilYF7 {
+.userPopout-3XzG_A,
+.inner-1ilYF7 {
   .wrapper-3t9DeA {
     z-index: 1;
     svg:not(:root) {
@@ -8,6 +8,9 @@
     foreignObject {
       mask: none;
       overflow: visible;
+      &:not([mask*="mobile"]):after {
+        content: none;
+      }
     }
     .dots-3Bkt3k circle {
       &:nth-child(1) {
@@ -134,23 +137,23 @@
       height: calc(var(--avatar-size-lg) - var(--rs-large-spacing) - var(--rs-width));
       margin-top: calc(var(--rs-width) - 1px);
       margin-left: calc(var(--rs-width) - 1px);
-      font-size:0;
+      font-size: 0;
       white-space: normal;
       text-align: center;
-      box-shadow:none;
-      background:rgba(0, 0, 0, 0.5);
-      cursor:default;
-      transitionn:none;
+      box-shadow: none;
+      background: rgba(0, 0, 0, 0.5);
+      cursor: var(--cursor);
+      transition: none;
       &::after {
-        content:'';
-        position:absolute;
-        top:0;
-        left:0;
-        width:100%;
-        height:100%;
-        position:relative;
-        background:var(--white);
-        -webkit-mask:url($icon_person) center/18px no-repeat;
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        position: relative;
+        background: var(--white);
+        -webkit-mask: url($icon_person) center/18px no-repeat;
       }
     }
   }
@@ -163,7 +166,6 @@
   .header-QKLPzZ .wrapper-3t9DeA {
     margin-right: 20px !important;
   }
-  
   // Offline
   .offline-3nJYBR img {
     clip-path: none !important;
@@ -183,8 +185,7 @@
     }
     &:after {
       content: "";
-      mask: url('data:image/svg+xml; utf-8,<svg aria-hidden="true" focusable="false" data-prefix="fas" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M272 0H48C21.5 0 0 21.5 0 48v416c0 26.5 21.5 48 48 48h224c26.5 0 48-21.5 48-48V48c0-26.5-21.5-48-48-48zM160 480c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm112-108c0 6.6-5.4 12-12 12H60c-6.6 0-12-5.4-12-12V60c0-6.6 5.4-12 12-12h200c6.6 0 12 5.4 12 12v312z"></path></svg>')
-        center/12px no-repeat;
+      mask: url('data:image/svg+xml; utf-8,<svg aria-hidden="true" focusable="false" data-prefix="fas" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M272 0H48C21.5 0 0 21.5 0 48v416c0 26.5 21.5 48 48 48h224c26.5 0 48-21.5 48-48V48c0-26.5-21.5-48-48-48zM160 480c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm112-108c0 6.6-5.4 12-12 12H60c-6.6 0-12-5.4-12-12V60c0-6.6 5.4-12 12-12h200c6.6 0 12 5.4 12 12v312z"></path></svg>') center/12px no-repeat;
       display: block;
       position: absolute;
       width: 12px;
@@ -205,38 +206,51 @@
 
 // Standard Dot Status
 .wrapper-3t9DeA {
-  border-radius: calc(var(--border-radius) / 2);
-  box-shadow:0 0 0 .5px var(--base-border); 
+  border-radius: var(--avatar-radius);
+  box-shadow: 0 0 0 .5px var(--base-border);
   .avatar-VxgULZ {
     &[src*="/assets/"] {
-      content:url('');
-      background:var(--background-dark);
+      content: url('');
+      background: var(--background-dark);
     }
     &:before {
-      background:var(--text-muted);
-      mask:url($icon_person) center/12px no-repeat;
+      background: var(--text-muted);
+      mask: url($icon_person) center/12px no-repeat;
     }
   }
   svg:not(:root) {
     overflow: visible;
+  }
+  foreignObject:after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    right: -4px;
+    width: 10px;
+    height: 10px;
+    border: 1px solid var(--base-border);
+    border-radius: 50%;
+    background: var(--background-dark);
+    display: block;
   }
   .mask-1l8v16,
   foreignObject {
     mask: none;
   }
   img {
-    border-radius:var(--border-radius);
+    border-radius: var(--avatar-radius);
   }
   rect {
     x: 24.5px;
     y: 24.5px;
     stroke: var(--base-border);
     rx: 50;
-    &[height="15"], &[height="10"] {
+    &[height="15"],
+    &[height="10"] {
       width: 11px;
       height: 11px;
       x: 24.5px;
-      y: 24.5px;
+      y: 25.5px;
       &[mask*="mobile"] {
         height: 18px;
         y: 17px;
@@ -248,40 +262,27 @@
       x: 19.5px;
       y: 19.5px;
     }
-    &[fill="#43b581"],
-    &[fill="rgba(67, 181, 129, 1)"],
-    &[mask*="online"] {
-      fill:rgb(var(--status-green));
-    }
-    &[fill="#faa61a"],
-    &[fill="rgba(250, 166, 26, 1)"],
-    &[mask*="idle"] {
-      fill:rgb(var(--status-yellow));
-    }
-    &[fill="#f04747"],
-    &[fill="rgba(240, 71, 71, 1)"],
-    &[mask*="dnd"] {
-      fill:rgb(var(--status-red));
-    }
-    &[fill="#593695"],
-    &[mask*="streaming"] {
-      fill:rgb(var(--status-purple));
-    }
-    &[fill="#747f8d"],
-    &[mask*="offline"],
-    &[fill="NaN"],
-    &[mask*="invisible"],
-    &[fill="rgba(116, 127, 141, 1)"] {
-      fill:rgb(var(--status-grey));
-    }
-    &:not([mask*="mobile"]) {
-      mask:none;
-    }
   }
-  .cursorDefault-dsQJ1n rect {
-    y: 8.5px;
-    x: 10.5px;
-    stroke: var(--base-border);
+  .cursorDefault-dsQJ1n {
+    mask rect[x*="8."]:not([x*="7."]) {
+      x: 12;
+      y: 13;
+    }
+    rect {
+      y: 8.5px;
+      x: 10px;
+      stroke: var(--base-border);
+      &[fill="#f04747"],
+      &[fill="rgba(240, 71, 71, 1)"],
+      &[mask*="dnd"] {
+        stroke: none !important;
+        y: 10px !important;
+        x: 10px !important;
+        width: 11px !important;
+        height: 11px !important;
+        rx: 0 !important;
+      }
+    }
   }
   .dots-3Bkt3k circle {
     &:nth-child(1) {

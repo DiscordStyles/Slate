@@ -35,7 +35,7 @@
           color:var(--text-normal);
           font-weight:var(--font-weight-normal);
           line-height:normal;
-          cursor:default;
+          cursor: var(--cursor);
         }
       }
     }
@@ -44,7 +44,7 @@
       height:14px;
       display:flex;
       align-items:center;
-      cursor:default;
+      cursor: var(--cursor);
       &:after,
       &:before {
         content:none;
@@ -64,7 +64,7 @@
       margin-left:var(--spacing);
       font-size: var(--font-size);
       font-weight: var(--font-weight-normal);
-      cursor: default;
+      cursor: var(--cursor);
       min-height: var(--input-height);
       height: var(--input-height);
       line-height: normal;

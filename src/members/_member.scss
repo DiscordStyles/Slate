@@ -8,7 +8,7 @@
     border-radius: 0;
     height: var(--member-height);
     padding: 0 calc(var(--spacing) + 5px);
-    cursor: default;
+    cursor: var(--cursor);
   }
   .avatar-3uk_u9 {
     margin-right: var(--spacing);
@@ -81,6 +81,9 @@
       height: var(--avatar-size-sm);
       background: var(--background-dark);
     }
+  }
+  &.offline-3nJYBR .wrapper-3t9DeA foreignObject:after {
+    content: none;
   }
 }
 .mulitplePlaceholderUsername-pogq9I,

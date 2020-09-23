@@ -12,14 +12,14 @@
 		border-top:1px solid var(--base-border);
 		position:absolute;
 	}
-  
+
 	// Buttons
 	button {
 		height: var(--avatar-size-sm);
 		flex: 1;
 		border-radius: 0;
 		transition: none;
-		cursor: default;
+		cursor: var(--cursor);
 		svg {
 			height: 16px;
 			color: var(--text-normal);
@@ -50,24 +50,24 @@
 			}
 		}
 	}
-  
+
 	// Activity
 	.activityPanel-28dQGo {
 		border:none;
-  	}
-  
+	}
+
 	// Connected
 	.container-1giJp5 {
 		position: relative;
-		border:none;
+		border: none;
 	}
 	.subtext-3CDbHg {
 		color: var(--text-focus);
 	}
 	.channel-1TmDQ6 {
 		font-size: var(--font-size-sm);
-  	}
-  
+  }
+
 	// Connection status
 	.container-1giJp5 {
 		padding: var(--spacing);
@@ -128,7 +128,7 @@
 			display: none;
 		}
   }
-  
+
 	// Share buttons
 	.actionButtons-14eAc_ {
 		position: absolute;
@@ -151,7 +151,7 @@
 			margin-right: 0;
 		}
   }
-  
+
 	// User
 	& > .container-3baos1 {
 		padding: 0 var(--spacing);
@@ -159,6 +159,7 @@
 		box-sizing: border-box;
 		margin-bottom: 0;
 		overflow: visible;
+		border-top: 1px solid var(--base-border);
 		.avatarWrapper-2yR4wp {
 			position: absolute;
 			left: var(--sidebar-width);
@@ -179,12 +180,16 @@
 				width: var(--avatar-size-sm) !important;
 				height: var(--avatar-size-sm) !important;
 				opacity: 1;
-				cursor: default;
+				cursor: var(--cursor);
 				svg[x="14.5"] {
 					x: 0;
 					y: 0;
+					mask rect[x*="8."]:not([x*="7."]) {
+						x: 12;
+						y: 12.5;
+					}
 					rect {
-						x: 11px;
+						x: 10px;
 						y: 8px;
 					}
 				}

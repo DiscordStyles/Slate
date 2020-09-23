@@ -20,7 +20,7 @@
     min-height: auto;
     background: var(--background);
     padding:0;
-    cursor:default;
+    cursor: var(--cursor);
     position:absolute;
     z-index:10;
     box-shadow:var(--elevation-1);
@@ -35,7 +35,7 @@
       padding:0 var(--spacing);
       border: 1px solid var(--base-border);
       border-bottom:none;
-      cursor:default;
+      cursor: var(--cursor);
       border-radius: var(--border-radius) var(--border-radius) 0 0;
       &:hover {
         background:var(--background-modifier-hover);
@@ -63,9 +63,9 @@
     opacity: 1;
     padding: var(--spacing-third) var(--spacing);
     min-height: auto;
-    cursor: default;
+    cursor: var(--cursor);
     button {
-      cursor:default;
+      cursor: var(--cursor);
       &.barButtonMain-3K-jeJ {
         color:var(--text-normal);
         font-size:var(--font-size);
@@ -152,7 +152,7 @@
     pointer-events:all;
     font-size: var(--font-size);
     font-weight: var(--font-weight-normal);
-    cursor: default;
+    cursor: var(--cursor);
     min-height: var(--input-height);
     height: var(--input-height);
     line-height: normal;
@@ -217,7 +217,7 @@
     .button-2OOM0p {
       font-size: var(--font-size);
       font-weight: var(--font-weight-normal);
-      cursor: default;
+      cursor: var(--cursor);
       min-height: var(--input-height);
       height: var(--input-height);
       line-height: normal;
@@ -277,7 +277,7 @@
           border:1px solid var(--base-border);
           border-top:none;
           padding:var(--spacing-double);
-          cursor:default;
+          cursor: var(--cursor);
           .arrow-3bRNiS {
             color:var(--text-muted);
           }

@@ -85,7 +85,7 @@
                 display:flex;
                 align-items:center;
                 width:fit-content;
-                cursor: default;
+                cursor: var(--cursor);
                 padding: 0 var(--spacing);
                 margin-top:var(--spacing);
                 border-radius: var(--button-border-radius);

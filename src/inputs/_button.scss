@@ -6,7 +6,7 @@
   .colorPrimary-3b3xI6.lookLink-9FtZy- {
     font-size: var(--font-size);
     font-weight: var(--font-weight-normal);
-    cursor: default;
+    cursor: var(--cursor);
     min-height: var(--input-height);
     height: var(--input-height);
     line-height: normal;
@@ -55,7 +55,7 @@
     background: var(--background-light);
     border: 1px solid var(--base-border);
     box-shadow: none !important;
-    cursor:default;
+    cursor: var(--cursor);
     &:hover {
       border: 1px solid currentColor;
       .contents-18-Yxp {

@@ -165,7 +165,7 @@
           font-size:var(--font-size);
           font-weight:var(--font-weight-normal);  
           color:var(--text-normal);
-          cursor:default;
+          cursor: var(--cursor);
         }
         .switch-3wwwcV {
           margin:0;
@@ -217,7 +217,7 @@
       background: var(--background-light);
       border: 1px solid var(--base-border);
       box-shadow: none !important;
-      cursor:default;
+      cursor: var(--cursor);
       text-decoration:none;
       &:hover {
         border: 1px solid currentColor;

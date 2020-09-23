@@ -118,11 +118,11 @@
       height: 28px;
       border-radius: var(--border-radius);
       color: var(--text-muted);
-      cursor:default;
+      cursor: var(--cursor);
       .addButtonIcon-1NMJ8u {
         height:var(--font-size);
         width:var(--font-size);
-        cursor:default;
+        cursor: var(--cursor);
       }
       &:hover,
       &[aria-expanded="true"] {
@@ -215,7 +215,7 @@
       background: rgba(var(--status-purple), 0.1);
     }
     .avatarWrapper-3H_478 {
-      cursor:default;
+      cursor: var(--cursor);
       grid-area: avatar;
       margin-bottom: 0;
     }

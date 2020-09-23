@@ -54,7 +54,7 @@
       background: var(--text-muted);
       width: 44px;
       height: 100%;
-      cursor: default;
+      cursor: var(--cursor);
       margin-left: 0;
       padding:0;
       div {
@@ -156,7 +156,7 @@
       margin: 0;
     }
     .emojiButton-3uL3Aw {
-      cursor: default;
+      cursor: var(--cursor);
       .sprite-2iCowe {
         height:22px;
         width:22px;

@@ -33,6 +33,6 @@ strong {
   font-size:var(--font-size);
 }
 a {
-  cursor:default;
+  cursor: var(--cursor);
   color:var(--text-link);
 }

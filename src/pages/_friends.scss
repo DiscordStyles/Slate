@@ -35,7 +35,7 @@
         font-weight:var(--font-weight-normal);
         background:transparent !important;
         border-radius:0;
-        cursor:default;
+        cursor: var(--cursor);
         padding:0 var(--spacing-double);
         color:var(--text-normal) !important;
         border-right:1px solid var(--base-border);
@@ -93,7 +93,7 @@
       margin: 0;
       padding: var(--spacing-double);
       border-radius: 0;
-      cursor:default;
+      cursor: var(--cursor);
       box-sizing:border-box;
       &:not(:first-child) {
         border-bottom: 1px solid var(--base-border);
@@ -147,7 +147,7 @@
       padding: 0;
       border-radius: var(--button-border-radius);
       border: 1px solid var(--base-border);
-      cursor: default;
+      cursor: var(--cursor);
       box-shadow: none !important;
       svg {
         width: 16px;
@@ -234,7 +234,7 @@
       border-radius: 0;
       padding: var(--spacing);
       margin: 0;
-      cursor: default;
+      cursor: var(--cursor);
       &:not(:first-child) {
         border-bottom: 1px solid var(--base-border);
       }
@@ -287,7 +287,7 @@
       border-radius: var(--border-radius) 0 0;
     }
     .voiceSectionDetails-2DQTfs {
-      cursor: default;
+      cursor: var(--cursor);
     }
     .partyMember-1CzxeX {
       height: var(--avatar-size-sm) !important;

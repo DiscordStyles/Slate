@@ -90,11 +90,11 @@
     background: var(--background-light);
     font-size: 1em;
     font-weight: var(--font-weight-normal);
-    cursor:default;
+    cursor: var(--cursor);
   }
   .wrapper-1BJsBx,
   .wrapper-25eVIn {
-    cursor:default;
+    cursor: var(--cursor);
   }
   .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9 {
     background: var(--accent-solid);
@@ -103,7 +103,7 @@
   .circleIconButton-jET_ig {
     background: var(--background-light);
     color: var(--text-normal);
-    cursor:default;
+    cursor: var(--cursor);
     path[d="M21 11.001H13V3.00098H11V11.001H3V13.001H11V21.001H13V13.001H21V11.001Z"] {
       d:path($path_add);
       transform:scale(1.25) translateX(3px) translateY(2px);
@@ -123,7 +123,7 @@
     }
   }
   .wrapper-25eVIn {
-    border-radius: var(--border-radius);
+    border-radius: var(--server-radius);
     overflow: hidden;
   }
   .expandedFolderBackground-2sPsd-,
@@ -181,7 +181,7 @@
       font-weight:var(--font-weight-normal);
       background:rgb(var(--status-red));
       color:var(--white);
-      cursor:default;
+      cursor: var(--cursor);
       opacity:0;
       &[style*="translateY(0%)"] {
         opacity:.9;

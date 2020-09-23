@@ -1,8 +1,10 @@
 @import url("https://discord-custom-covers.github.io/usrbg/dist/usrbg.css");
 :root {
-  --slate-version: "Slate 1.1.6";
+  --slate-version: "Slate 1.1.7";
   --border-radius: 3px;
   --button-border-radius: 2px;
+  --avatar-radius: calc(var(--border-radius) / 2);
+  --server-radius: var(--border-radius);
   --accent-solid: rgba(var(--accent), 1);
   --bd-blue: var(--accent-solid);
   --bd-blue-hover: var(--accent-solid);
@@ -66,7 +68,8 @@
   --rs-small-spacing: 0px;
   --rs-large-spacing: 0px;
   --rs-width: 2px;
-  --rs-avatar-shape: 5%;
+  --rs-avatar-shape: var(--avatar-radius);
+  --cursor: default;
 }
 
 .theme-dark,
@@ -174,7 +177,7 @@ body {
   background: rgba(var(--accent), 0.15);
   border-radius: var(--border-radius);
   color: var(--accent-solid);
-  cursor: default;
+  cursor: var(--cursor);
 }
 #app-mount .mention:hover {
   background: var(--accent-solid);
@@ -229,7 +232,7 @@ strong {
 }
 
 a {
-  cursor: default;
+  cursor: var(--cursor);
   color: var(--text-link);
 }
 
@@ -277,7 +280,7 @@ a {
   width: 45px;
   color: var(--toolbar-text-muted);
   top: -2px;
-  cursor: default;
+  cursor: var(--cursor);
 }
 #app-mount .typeWindows-1za-n7 .winButton-iRh8-Z:hover {
   background: var(--toolbar-background-hover);
@@ -495,7 +498,7 @@ body #app-mount .container-1r6BKw .toolbar-1t6TWx .iconWrapper-2OrFZ1 .iconBadge
 }
 body #app-mount .container-1r6BKw .toolbar-1t6TWx .icon-22AiRD {
   color: var(--toolbar-text-normal);
-  cursor: default;
+  cursor: var(--cursor);
 }
 body #app-mount .container-1r6BKw .toolbar-1t6TWx .icon-22AiRD:hover {
   color: var(--toolbar-text-focus);
@@ -593,7 +596,7 @@ body #app-mount .container-1r6BKw .search-36MZv- .searchBar-3dMhjb .icon-38sknP 
 body #app-mount .container-1r6BKw .search-36MZv- .searchBar-3dMhjb .icon-38sknP .iconContainer-O4O2CN {
   height: 14px;
   width: 14px;
-  cursor: default;
+  cursor: var(--cursor);
 }
 body #app-mount .container-1r6BKw .search-36MZv- .searchBar-3dMhjb .icon-38sknP .iconContainer-O4O2CN .icon-3cZ1F_ {
   color: var(--toolbar-text-muted);
@@ -769,6 +772,10 @@ body #app-mount .container-1r6BKw.title-3qD0b- .children-19S4PO:hover .nicknames
           mask: none;
   overflow: visible;
 }
+.userPopout-3XzG_A .wrapper-3t9DeA foreignObject:not([mask*=mobile]):after,
+.inner-1ilYF7 .wrapper-3t9DeA foreignObject:not([mask*=mobile]):after {
+  content: none;
+}
 .userPopout-3XzG_A .wrapper-3t9DeA .dots-3Bkt3k circle:nth-child(1),
 .inner-1ilYF7 .wrapper-3t9DeA .dots-3Bkt3k circle:nth-child(1) {
   cy: -8 !important;
@@ -923,8 +930,8 @@ body #app-mount .container-1r6BKw.title-3qD0b- .children-19S4PO:hover .nicknames
   text-align: center;
   box-shadow: none;
   background: rgba(0, 0, 0, 0.5);
-  cursor: default;
-  transitionn: none;
+  cursor: var(--cursor);
+  transition: none;
 }
 .userPopout-3XzG_A .avatarHint-1qgaV3 .avatarHintInner-Dco91E::after,
 .inner-1ilYF7 .avatarHint-1qgaV3 .avatarHintInner-Dco91E::after {
@@ -994,7 +1001,7 @@ body #app-mount .container-1r6BKw.title-3qD0b- .children-19S4PO:hover .nicknames
 }
 
 .wrapper-3t9DeA {
-  border-radius: calc(var(--border-radius) / 2);
+  border-radius: var(--avatar-radius);
   box-shadow: 0 0 0 0.5px var(--base-border);
 }
 .wrapper-3t9DeA .avatar-VxgULZ[src*="/assets/"] {
@@ -1009,13 +1016,25 @@ body #app-mount .container-1r6BKw.title-3qD0b- .children-19S4PO:hover .nicknames
 .wrapper-3t9DeA svg:not(:root) {
   overflow: visible;
 }
+.wrapper-3t9DeA foreignObject:after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  right: -4px;
+  width: 10px;
+  height: 10px;
+  border: 1px solid var(--base-border);
+  border-radius: 50%;
+  background: var(--background-dark);
+  display: block;
+}
 .wrapper-3t9DeA .mask-1l8v16,
 .wrapper-3t9DeA foreignObject {
   -webkit-mask: none;
           mask: none;
 }
 .wrapper-3t9DeA img {
-  border-radius: var(--border-radius);
+  border-radius: var(--avatar-radius);
 }
 .wrapper-3t9DeA rect {
   x: 24.5px;
@@ -1027,7 +1046,7 @@ body #app-mount .container-1r6BKw.title-3qD0b- .children-19S4PO:hover .nicknames
   width: 11px;
   height: 11px;
   x: 24.5px;
-  y: 24.5px;
+  y: 25.5px;
 }
 .wrapper-3t9DeA rect[height="15"][mask*=mobile], .wrapper-3t9DeA rect[height="10"][mask*=mobile] {
   height: 18px;
@@ -1039,29 +1058,22 @@ body #app-mount .container-1r6BKw.title-3qD0b- .children-19S4PO:hover .nicknames
   x: 19.5px;
   y: 19.5px;
 }
-.wrapper-3t9DeA rect[fill="#43b581"], .wrapper-3t9DeA rect[fill="rgba(67, 181, 129, 1)"], .wrapper-3t9DeA rect[mask*=online] {
-  fill: rgb(var(--status-green));
-}
-.wrapper-3t9DeA rect[fill="#faa61a"], .wrapper-3t9DeA rect[fill="rgba(250, 166, 26, 1)"], .wrapper-3t9DeA rect[mask*=idle] {
-  fill: rgb(var(--status-yellow));
-}
-.wrapper-3t9DeA rect[fill="#f04747"], .wrapper-3t9DeA rect[fill="rgba(240, 71, 71, 1)"], .wrapper-3t9DeA rect[mask*=dnd] {
-  fill: rgb(var(--status-red));
-}
-.wrapper-3t9DeA rect[fill="#593695"], .wrapper-3t9DeA rect[mask*=streaming] {
-  fill: rgb(var(--status-purple));
-}
-.wrapper-3t9DeA rect[fill="#747f8d"], .wrapper-3t9DeA rect[mask*=offline], .wrapper-3t9DeA rect[fill=NaN], .wrapper-3t9DeA rect[mask*=invisible], .wrapper-3t9DeA rect[fill="rgba(116, 127, 141, 1)"] {
-  fill: rgb(var(--status-grey));
-}
-.wrapper-3t9DeA rect:not([mask*=mobile]) {
-  -webkit-mask: none;
-          mask: none;
+.wrapper-3t9DeA .cursorDefault-dsQJ1n mask rect[x*="8."]:not([x*="7."]) {
+  x: 12;
+  y: 13;
 }
 .wrapper-3t9DeA .cursorDefault-dsQJ1n rect {
   y: 8.5px;
-  x: 10.5px;
+  x: 10px;
   stroke: var(--base-border);
+}
+.wrapper-3t9DeA .cursorDefault-dsQJ1n rect[fill="#f04747"], .wrapper-3t9DeA .cursorDefault-dsQJ1n rect[fill="rgba(240, 71, 71, 1)"], .wrapper-3t9DeA .cursorDefault-dsQJ1n rect[mask*=dnd] {
+  stroke: none !important;
+  y: 10px !important;
+  x: 10px !important;
+  width: 11px !important;
+  height: 11px !important;
+  rx: 0 !important;
 }
 .wrapper-3t9DeA .dots-3Bkt3k circle:nth-child(1) {
   cy: -8 !important;
@@ -1464,7 +1476,7 @@ body #app-mount .container-1r6BKw.title-3qD0b- .children-19S4PO:hover .nicknames
 
 #app-mount .sidebar-2K8pFh .wrapper-1ucjTd {
   position: relative;
-  cursor: default;
+  cursor: var(--cursor);
 }
 #app-mount .sidebar-2K8pFh .wrapper-1ucjTd.modeUnread-1zpFdA .content-3at_AU .name-3_Dsmg, #app-mount .sidebar-2K8pFh .wrapper-1ucjTd.modeUnread-1zpFdA .content-3at_AU svg {
   color: var(--text-focus);
@@ -1508,7 +1520,7 @@ body #app-mount .container-1r6BKw.title-3qD0b- .children-19S4PO:hover .nicknames
 }
 #app-mount .sidebar-2K8pFh .mainContent-ENyL1r,
 #app-mount .sidebar-2K8pFh .voiceUser-14U_Ns {
-  cursor: default;
+  cursor: var(--cursor);
 }
 #app-mount .sidebar-2K8pFh .content-3at_AU {
   margin: 0;
@@ -1517,7 +1529,7 @@ body #app-mount .container-1r6BKw.title-3qD0b- .children-19S4PO:hover .nicknames
   height: var(--item-height);
 }
 #app-mount .sidebar-2K8pFh .content-3at_AU svg {
-  cursor: default;
+  cursor: var(--cursor);
   color: var(--text-muted);
 }
 #app-mount .sidebar-2K8pFh .content-3at_AU svg:active {
@@ -1664,7 +1676,7 @@ body #app-mount .container-1r6BKw.title-3qD0b- .children-19S4PO:hover .nicknames
   width: calc(100% + var(--noasw-channel-header));
   z-index: 11;
   filter: none;
-  cursor: default;
+  cursor: var(--cursor);
 }
 #app-mount .sidebar-2K8pFh .header-2o-2hj .guildIconContainer-E1JUVt {
   margin-right: var(--spacing);
@@ -1768,7 +1780,7 @@ body #app-mount .container-1r6BKw.title-3qD0b- .children-19S4PO:hover .nicknames
   flex: 1;
   border-radius: 0;
   transition: none;
-  cursor: default;
+  cursor: var(--cursor);
 }
 #app-mount .panels-j1Uci_ button svg {
   height: 16px;
@@ -1895,6 +1907,7 @@ body #app-mount .container-1r6BKw.title-3qD0b- .children-19S4PO:hover .nicknames
   box-sizing: border-box;
   margin-bottom: 0;
   overflow: visible;
+  border-top: 1px solid var(--base-border);
 }
 #app-mount .panels-j1Uci_ > .container-3baos1 .avatarWrapper-2yR4wp {
   position: absolute;
@@ -1914,14 +1927,18 @@ body #app-mount .container-1r6BKw.title-3qD0b- .children-19S4PO:hover .nicknames
   width: var(--avatar-size-sm) !important;
   height: var(--avatar-size-sm) !important;
   opacity: 1;
-  cursor: default;
+  cursor: var(--cursor);
 }
 #app-mount .panels-j1Uci_ > .container-3baos1 .avatarWrapper-2yR4wp .wrapper-3t9DeA svg[x="14.5"] {
   x: 0;
   y: 0;
 }
+#app-mount .panels-j1Uci_ > .container-3baos1 .avatarWrapper-2yR4wp .wrapper-3t9DeA svg[x="14.5"] mask rect[x*="8."]:not([x*="7."]) {
+  x: 12;
+  y: 12.5;
+}
 #app-mount .panels-j1Uci_ > .container-3baos1 .avatarWrapper-2yR4wp .wrapper-3t9DeA svg[x="14.5"] rect {
-  x: 11px;
+  x: 10px;
   y: 8px;
 }
 #app-mount .panels-j1Uci_ > .container-3baos1 .nameTag-3uD-yy {
@@ -1990,7 +2007,7 @@ body #app-mount .container-1r6BKw.title-3qD0b- .children-19S4PO:hover .nicknames
   height: 26px;
   padding-right: var(--spacing);
   padding-left: 20px;
-  cursor: default;
+  cursor: var(--cursor);
 }
 #app-mount .sidebar-2K8pFh .containerDefault-3GGEv_ .wrapper-CU3qI5 svg, #app-mount .sidebar-2K8pFh .containerDefault-3GGEv_ .wrapper-CU3qI5 .name-IbjUBS, #app-mount .sidebar-2K8pFh .containerDefault-3GGEv_ .wrapper-CU3qI5 .container-2ax-kl,
 #app-mount .sidebar-2K8pFh .containerDragAfter-3TEhpe .wrapper-CU3qI5 svg,
@@ -2117,7 +2134,7 @@ body #app-mount .container-1r6BKw.title-3qD0b- .children-19S4PO:hover .nicknames
 #app-mount .privateChannels-1nO12o .channel-2QD9_O .layout-2DM8Md {
   border-radius: 0;
   padding: 0 var(--spacing);
-  cursor: default;
+  cursor: var(--cursor);
 }
 #app-mount .privateChannels-1nO12o .channel-2QD9_O .name-uJV0GL {
   font-size: var(--font-size);
@@ -2144,7 +2161,7 @@ body #app-mount .container-1r6BKw.title-3qD0b- .children-19S4PO:hover .nicknames
   width: 50%;
   display: inline-block;
   border-radius: 0;
-  cursor: default;
+  cursor: var(--cursor);
 }
 #app-mount .privateChannels-1nO12o .channel-2QD9_O[href="/channels/@me"] .layout-2DM8Md, #app-mount .privateChannels-1nO12o .channel-2QD9_O[href="/library"] .layout-2DM8Md, #app-mount .privateChannels-1nO12o .channel-2QD9_O[href="/store"] .layout-2DM8Md {
   justify-content: center;
@@ -2316,11 +2333,11 @@ body #app-mount .container-1r6BKw.title-3qD0b- .children-19S4PO:hover .nicknames
   background: var(--background-light);
   font-size: 1em;
   font-weight: var(--font-weight-normal);
-  cursor: default;
+  cursor: var(--cursor);
 }
 #app-mount .guilds-1SWlCJ .wrapper-1BJsBx,
 #app-mount .guilds-1SWlCJ .wrapper-25eVIn {
-  cursor: default;
+  cursor: var(--cursor);
 }
 #app-mount .guilds-1SWlCJ .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9 {
   background: var(--accent-solid);
@@ -2329,7 +2346,7 @@ body #app-mount .container-1r6BKw.title-3qD0b- .children-19S4PO:hover .nicknames
 #app-mount .guilds-1SWlCJ .circleIconButton-jET_ig {
   background: var(--background-light);
   color: var(--text-normal);
-  cursor: default;
+  cursor: var(--cursor);
 }
 #app-mount .guilds-1SWlCJ .circleIconButton-jET_ig path[d="M21 11.001H13V3.00098H11V11.001H3V13.001H11V21.001H13V13.001H21V11.001Z"] {
   d: path("M12 9H7v5H5V9H0V7h5V2h2v5h5v2z");
@@ -2350,7 +2367,7 @@ body #app-mount .container-1r6BKw.title-3qD0b- .children-19S4PO:hover .nicknames
   background: transparent;
 }
 #app-mount .guilds-1SWlCJ .wrapper-25eVIn {
-  border-radius: var(--border-radius);
+  border-radius: var(--server-radius);
   overflow: hidden;
 }
 #app-mount .guilds-1SWlCJ .expandedFolderBackground-2sPsd-,
@@ -2406,7 +2423,7 @@ body #app-mount .container-1r6BKw.title-3qD0b- .children-19S4PO:hover .nicknames
   font-weight: var(--font-weight-normal);
   background: rgb(var(--status-red));
   color: var(--white);
-  cursor: default;
+  cursor: var(--cursor);
   opacity: 0;
 }
 #app-mount .guilds-1SWlCJ .unreadMentionsIndicatorBottom-BXS58x .bar-30k2ka[style*="translateY(0%)"],
@@ -2459,7 +2476,7 @@ body #app-mount .container-1r6BKw.title-3qD0b- .children-19S4PO:hover .nicknames
   min-height: auto;
   background: var(--background);
   padding: 0;
-  cursor: default;
+  cursor: var(--cursor);
   position: absolute;
   z-index: 10;
   box-shadow: var(--elevation-1);
@@ -2477,7 +2494,7 @@ body #app-mount .container-1r6BKw.title-3qD0b- .children-19S4PO:hover .nicknames
   padding: 0 var(--spacing);
   border: 1px solid var(--base-border);
   border-bottom: none;
-  cursor: default;
+  cursor: var(--cursor);
   border-radius: var(--border-radius) var(--border-radius) 0 0;
 }
 #app-mount .chat-3bRxxu .jumpToPresentBar-G1R9s6 .barButtonAlt-mYL1lj:hover {
@@ -2502,10 +2519,10 @@ body #app-mount .container-1r6BKw.title-3qD0b- .children-19S4PO:hover .nicknames
   opacity: 1;
   padding: var(--spacing-third) var(--spacing);
   min-height: auto;
-  cursor: default;
+  cursor: var(--cursor);
 }
 #app-mount .chat-3bRxxu .newMessagesBar-265mhP button {
-  cursor: default;
+  cursor: var(--cursor);
 }
 #app-mount .chat-3bRxxu .newMessagesBar-265mhP button.barButtonMain-3K-jeJ {
   color: var(--text-normal);
@@ -2589,7 +2606,7 @@ body #app-mount .container-1r6BKw.title-3qD0b- .children-19S4PO:hover .nicknames
   pointer-events: all;
   font-size: var(--font-size);
   font-weight: var(--font-weight-normal);
-  cursor: default;
+  cursor: var(--cursor);
   min-height: var(--input-height);
   height: var(--input-height);
   line-height: normal;
@@ -2660,7 +2677,7 @@ body #app-mount .container-1r6BKw.title-3qD0b- .children-19S4PO:hover .nicknames
 #app-mount .messagesWrapper-1sRNjr .container-3RCQyg .button-2OOM0p {
   font-size: var(--font-size);
   font-weight: var(--font-weight-normal);
-  cursor: default;
+  cursor: var(--cursor);
   min-height: var(--input-height);
   height: var(--input-height);
   line-height: normal;
@@ -2720,7 +2737,7 @@ body #app-mount .container-1r6BKw.title-3qD0b- .children-19S4PO:hover .nicknames
   border: 1px solid var(--base-border);
   border-top: none;
   padding: var(--spacing-double);
-  cursor: default;
+  cursor: var(--cursor);
 }
 #app-mount .messagesWrapper-1sRNjr .container-3zqIcM .inner-3GZ54g .cardWrapper-2R6-SX .card-3RzMcx .arrow-3bRNiS {
   color: var(--text-muted);
@@ -2900,7 +2917,7 @@ body #app-mount .container-1r6BKw.title-3qD0b- .children-19S4PO:hover .nicknames
 #app-mount .wrapper-2a6GCs .edited-3sfAzf {
   color: var(--text-muted);
   font-size: var(--font-size-xsm);
-  cursor: default;
+  cursor: var(--cursor);
 }
 #app-mount .wrapper-2a6GCs .operations-36ENbA {
   font-size: 0;
@@ -2910,7 +2927,7 @@ body #app-mount .container-1r6BKw.title-3qD0b- .children-19S4PO:hover .nicknames
 #app-mount .wrapper-2a6GCs .operations-36ENbA a {
   font-size: var(--font-size);
   font-weight: var(--font-weight-normal);
-  cursor: default;
+  cursor: var(--cursor);
   min-height: var(--input-height);
   height: var(--input-height);
   line-height: normal;
@@ -2937,7 +2954,7 @@ body #app-mount .container-1r6BKw.title-3qD0b- .children-19S4PO:hover .nicknames
   color: var(--text-normal);
   background: var(--background-light);
   border: 1px solid var(--base-border);
-  cursor: default;
+  cursor: var(--cursor);
 }
 #app-mount .wrapper-2a6GCs .operations-36ENbA a:first-child:hover {
   border: 1px solid currentColor;
@@ -2960,7 +2977,7 @@ body #app-mount .container-1r6BKw.title-3qD0b- .children-19S4PO:hover .nicknames
   min-height: unset;
 }
 #app-mount .wrapper-2a6GCs.cozy-3raOZG .avatar-1BDn8e {
-  border-radius: calc(var(--border-radius) / 1.5) !important;
+  border-radius: var(--avatar-radius) !important;
   box-shadow: 0 0 0 0.875px var(--base-border);
   top: var(--spacing);
   left: var(--spacing);
@@ -2970,7 +2987,7 @@ body #app-mount .container-1r6BKw.title-3qD0b- .children-19S4PO:hover .nicknames
   background-color: var(--background);
   position: absolute;
   overflow: hidden !important;
-  cursor: default;
+  cursor: var(--cursor);
   filter: none;
   transform: none;
 }
@@ -2996,6 +3013,9 @@ body #app-mount .container-1r6BKw.title-3qD0b- .children-19S4PO:hover .nicknames
 #app-mount .wrapper-2a6GCs.cozy-3raOZG .wrapper-3t9DeA {
   width: var(--avatar-size) !important;
   height: var(--avatar-size) !important;
+}
+#app-mount .wrapper-2a6GCs.cozy-3raOZG .wrapper-3t9DeA foreignObject:after {
+  content: none;
 }
 #app-mount .wrapper-2a6GCs.cozy-3raOZG .wrapper-3t9DeA img {
   border-radius: 0;
@@ -3134,7 +3154,7 @@ body #app-mount .container-1r6BKw.title-3qD0b- .children-19S4PO:hover .nicknames
 #app-mount .localBot-GrCgVt .container-1ov-mD .localBotMessage-3cUzun a {
   font-size: var(--font-size);
   font-weight: var(--font-weight-normal);
-  cursor: default;
+  cursor: var(--cursor);
   min-height: var(--input-height);
   height: var(--input-height);
   line-height: normal;
@@ -3177,7 +3197,7 @@ body #app-mount .container-1r6BKw.title-3qD0b- .children-19S4PO:hover .nicknames
   width: auto;
   color: var(--text-normal);
   border-radius: 0;
-  cursor: default;
+  cursor: var(--cursor);
   box-sizing: border-box;
   border-top: 1px solid var(--base-border);
   border-bottom: 1px solid var(--base-border);
@@ -3402,7 +3422,7 @@ body #app-mount .container-1r6BKw.title-3qD0b- .children-19S4PO:hover .nicknames
 }
 #app-mount .wrapper-2TxpI8 .playCenter-Fe8u3X .wrapper-129saQ .icon-3ZFEtL {
   margin: 0;
-  cursor: default;
+  cursor: var(--cursor);
   width: 72px;
   height: 72px;
   background: var(--white);
@@ -3440,7 +3460,7 @@ body #app-mount .container-1r6BKw.title-3qD0b- .children-19S4PO:hover .nicknames
   width: 20px;
   color: var(--white);
   opacity: 0.65;
-  cursor: default;
+  cursor: var(--cursor);
   transform: none;
 }
 #app-mount .wrapper-2TxpI8 .videoControls-2kcYic .controlIcon-3cRbti:hover {
@@ -3683,7 +3703,7 @@ body #app-mount .container-1r6BKw.title-3qD0b- .children-19S4PO:hover .nicknames
   background: var(--text-muted);
   width: 44px;
   height: 100%;
-  cursor: default;
+  cursor: var(--cursor);
   margin-left: 0;
   padding: 0;
 }
@@ -3784,7 +3804,7 @@ body #app-mount .container-1r6BKw.title-3qD0b- .children-19S4PO:hover .nicknames
   margin: 0;
 }
 #app-mount .buttons-3JBrkn .emojiButton-3uL3Aw {
-  cursor: default;
+  cursor: var(--cursor);
 }
 #app-mount .buttons-3JBrkn .emojiButton-3uL3Aw .sprite-2iCowe {
   height: 22px;
@@ -4275,7 +4295,7 @@ body #app-mount .container-1r6BKw.title-3qD0b- .children-19S4PO:hover .nicknames
 }
 #app-mount .reactions-12N0jA .reactionBtn-3N03Zj {
   color: var(--text-muted);
-  cursor: default;
+  cursor: var(--cursor);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -4298,7 +4318,7 @@ body #app-mount .container-1r6BKw.title-3qD0b- .children-19S4PO:hover .nicknames
   margin-bottom: var(--spacing-half);
   margin-right: var(--spacing-half);
   border-radius: var(--button-border-radius);
-  cursor: default;
+  cursor: var(--cursor);
   box-sizing: border-box;
   padding: var(--spacing-third) var(--spacing-half);
   color: var(--text-normal);
@@ -4474,7 +4494,7 @@ html.theme-light #app-mount .reactions-12N0jA .reaction-1hd86g:not(.reactionMe-w
   background: var(--background);
   transition: none;
   border: 1px solid var(--base-border);
-  cursor: default;
+  cursor: var(--cursor);
 }
 #app-mount .wrapper-2qzCYF .root-2CDANf .participantsButton-KYW-IW:hover {
   background: var(--background-modifier-hover);
@@ -4584,7 +4604,7 @@ html.theme-light #app-mount .reactions-12N0jA .reaction-1hd86g:not(.reactionMe-w
 #app-mount .wrapper-2qzCYF .green-plH-Mj {
   margin: 0;
   background: rgb(var(--status-green));
-  cursor: default;
+  cursor: var(--cursor);
   width: 40px;
   height: 40px;
   padding: 0;
@@ -4638,7 +4658,7 @@ html.theme-light #app-mount .reactions-12N0jA .reaction-1hd86g:not(.reactionMe-w
 #app-mount .wrapper-2qzCYF .wrapper-3EGhDO button {
   margin: 0;
   background: var(--background-alt);
-  cursor: default;
+  cursor: var(--cursor);
   width: 40px;
   height: 40px;
   padding: 0;
@@ -4735,7 +4755,7 @@ html.theme-light #app-mount .reactions-12N0jA .reaction-1hd86g:not(.reactionMe-w
   border-radius: 0;
   height: var(--member-height);
   padding: 0 calc(var(--spacing) + 5px);
-  cursor: default;
+  cursor: var(--cursor);
 }
 #app-mount .member-3-YXUe .avatar-3uk_u9 {
   margin-right: var(--spacing);
@@ -4803,6 +4823,9 @@ html.theme-light #app-mount .reactions-12N0jA .reaction-1hd86g:not(.reactionMe-w
   width: var(--avatar-size-sm);
   height: var(--avatar-size-sm);
   background: var(--background-dark);
+}
+#app-mount .member-3-YXUe.offline-3nJYBR .wrapper-3t9DeA foreignObject:after {
+  content: none;
 }
 
 .mulitplePlaceholderUsername-pogq9I,
@@ -4986,7 +5009,7 @@ html.theme-light #app-mount .reactions-12N0jA .reaction-1hd86g:not(.reactionMe-w
   font-weight: var(--font-weight-normal);
   background: transparent !important;
   border-radius: 0;
-  cursor: default;
+  cursor: var(--cursor);
   padding: 0 var(--spacing-double);
   color: var(--text-normal) !important;
   border-right: 1px solid var(--base-border);
@@ -5041,7 +5064,7 @@ html.theme-light #app-mount .reactions-12N0jA .reaction-1hd86g:not(.reactionMe-w
   margin: 0;
   padding: var(--spacing-double);
   border-radius: 0;
-  cursor: default;
+  cursor: var(--cursor);
   box-sizing: border-box;
 }
 #app-mount .container-1D34oG .peopleListItem-2nzedh:not(:first-child) {
@@ -5094,7 +5117,7 @@ html.theme-light #app-mount .reactions-12N0jA .reaction-1hd86g:not(.reactionMe-w
   padding: 0;
   border-radius: var(--button-border-radius);
   border: 1px solid var(--base-border);
-  cursor: default;
+  cursor: var(--cursor);
   box-shadow: none !important;
 }
 #app-mount .container-1D34oG .actionButton-uPB8Fs svg {
@@ -5179,7 +5202,7 @@ html.theme-light #app-mount .reactions-12N0jA .reaction-1hd86g:not(.reactionMe-w
   border-radius: 0;
   padding: var(--spacing);
   margin: 0;
-  cursor: default;
+  cursor: var(--cursor);
 }
 #app-mount .container-1D34oG .wrapper-3D2qGf:not(:first-child) {
   border-bottom: 1px solid var(--base-border);
@@ -5234,7 +5257,7 @@ html.theme-light #app-mount .reactions-12N0jA .reaction-1hd86g:not(.reactionMe-w
   border-radius: var(--border-radius) 0 0;
 }
 #app-mount .container-1D34oG .voiceSectionDetails-2DQTfs {
-  cursor: default;
+  cursor: var(--cursor);
 }
 #app-mount .container-1D34oG .partyMember-1CzxeX {
   height: var(--avatar-size-sm) !important;
@@ -5458,7 +5481,7 @@ html.theme-light #app-mount .reactions-12N0jA .reaction-1hd86g:not(.reactionMe-w
   justify-content: center;
   font-size: var(--font-size);
   font-weight: var(--font-weight-normal);
-  cursor: default;
+  cursor: var(--cursor);
   min-height: var(--input-height);
   height: var(--input-height);
   line-height: normal;
@@ -5686,7 +5709,7 @@ html.theme-light #app-mount .container-16j22k .problems-3mgf6w a.statusLink-gFXh
 #app-mount .wrapper-3Q5DdO .qrLogin-1AOZMt .startOverButton-3q0wUV {
   font-size: var(--font-size);
   font-weight: var(--font-weight-normal);
-  cursor: default;
+  cursor: var(--cursor);
   min-height: var(--input-height);
   height: var(--input-height);
   line-height: normal;
@@ -5818,7 +5841,7 @@ html.theme-light #app-mount .wrapper-3Q5DdO .qrLogin-1AOZMt .startOverButton-3q0
   font-size: var(--font-size);
   font-weight: var(--font-weight-normal);
   height: var(--item-height);
-  cursor: default;
+  cursor: var(--cursor);
   box-sizing: border-box;
 }
 #app-mount #guild-header-popout .item-1tOPte .label-22pbtT {
@@ -5966,7 +5989,7 @@ html.theme-light #app-mount .wrapper-3Q5DdO .qrLogin-1AOZMt .startOverButton-3q0
   border-radius: 0;
   color: var(--text-normal);
   font-size: var(--font-size);
-  cursor: default;
+  cursor: var(--cursor);
   height: 32px;
   display: flex;
   align-items: center;
@@ -6036,7 +6059,7 @@ html.theme-light #app-mount .wrapper-3Q5DdO .qrLogin-1AOZMt .startOverButton-3q0
   order: -1;
   margin-right: var(--spacing);
   color: currentColor;
-  cursor: default;
+  cursor: var(--cursor);
 }
 #app-mount #status-picker .scroller-3BxosC .item-1tOPte#status-picker-custom-status .clearStatusIcon-3-MDNF {
   width: 10px;
@@ -6170,12 +6193,12 @@ html.theme-light #app-mount .wrapper-3Q5DdO .qrLogin-1AOZMt .startOverButton-3q0
   height: 28px;
   border-radius: var(--border-radius);
   color: var(--text-muted);
-  cursor: default;
+  cursor: var(--cursor);
 }
 #app-mount .userPopout-3XzG_A .actionButton-VzECiy .addButtonIcon-1NMJ8u {
   height: var(--font-size);
   width: var(--font-size);
-  cursor: default;
+  cursor: var(--cursor);
 }
 #app-mount .userPopout-3XzG_A .actionButton-VzECiy:hover, #app-mount .userPopout-3XzG_A .actionButton-VzECiy[aria-expanded=true] {
   color: var(--text-normal);
@@ -6267,7 +6290,7 @@ html.theme-light #app-mount .wrapper-3Q5DdO .qrLogin-1AOZMt .startOverButton-3q0
 #app-mount .userPopout-3XzG_A .avatarWrapper-3H_478 {
   -ms-grid-row: 1;
   -ms-grid-column: 1;
-  cursor: default;
+  cursor: var(--cursor);
   grid-area: avatar;
   margin-bottom: 0;
 }
@@ -6611,7 +6634,7 @@ html.theme-light #app-mount .userPopout-3XzG_A .note-3HfJZ5 textarea {
 #app-mount .jumpButton-3DTcS_ {
   font-size: var(--font-size);
   font-weight: var(--font-weight-normal);
-  cursor: default;
+  cursor: var(--cursor);
   height: 20px;
   display: flex;
   align-items: center;
@@ -6676,7 +6699,7 @@ html.theme-light #app-mount .userPopout-3XzG_A .note-3HfJZ5 textarea {
   padding: var(--spacing);
   height: auto;
   align-items: center;
-  cursor: default;
+  cursor: var(--cursor);
 }
 #app-mount .layer-v9HyYc[style*=left][style*=top] .container-3ayLPN.elevationBorderHigh-2WYJ09 .queryContainer-RKFJW-:hover {
   background: var(--background-modifier-hover);
@@ -6754,7 +6777,7 @@ html.theme-light #app-mount .userPopout-3XzG_A .note-3HfJZ5 textarea {
   height: var(--item-height);
   font-size: var(--font-size);
   border-radius: 0;
-  cursor: default;
+  cursor: var(--cursor);
 }
 #app-mount .layer-v9HyYc[style*=left][style*=top] .container-3ayLPN.elevationBorderHigh-2WYJ09 .resultsGroup-r_nuzN .option-96V44q:after {
   background: none;
@@ -6910,7 +6933,7 @@ html.theme-light #app-mount .userPopout-3XzG_A .note-3HfJZ5 textarea {
   box-sizing: border-box;
   border-radius: 0;
   height: 32px;
-  cursor: default;
+  cursor: var(--cursor);
 }
 #app-mount .styleFlexible-wGDiIL .item-1tOPte.focused-3afm-j,
 #app-mount .submenu-2-ysNh .item-1tOPte.focused-3afm-j {
@@ -6950,7 +6973,7 @@ html.theme-light #app-mount .userPopout-3XzG_A .note-3HfJZ5 textarea {
   flex-grow: 1;
   border-radius: 0;
   background: transparent;
-  cursor: default;
+  cursor: var(--cursor);
 }
 #app-mount .button-F9qN4n:hover {
   background: var(--background-modifier-hover);
@@ -7046,7 +7069,7 @@ html.theme-light #app-mount .userPopout-3XzG_A .note-3HfJZ5 textarea {
   height: var(--input-height);
   width: var(--input-height);
   transition: none;
-  cursor: default;
+  cursor: var(--cursor);
   border-radius: var(--border-radius);
 }
 #app-mount .navItem-3Wp_oJ[aria-controls] button .contents-18-Yxp {
@@ -7124,7 +7147,7 @@ html.theme-light #app-mount .userPopout-3XzG_A .note-3HfJZ5 textarea {
 #app-mount .header-1TOWci .iconLayout-3OgqU3 .iconContainer-2wXvy1 {
   height: 14px;
   width: 14px;
-  cursor: default;
+  cursor: var(--cursor);
 }
 #app-mount .header-8ilj5e .iconLayout-1WxHy4 .iconContainer-O4O2CN .icon-3cZ1F_,
 #app-mount .header-8ilj5e .iconLayout-1WxHy4 .iconContainer-O4O2CN .icon-1S6UIr,
@@ -7197,7 +7220,7 @@ html.theme-light #app-mount .userPopout-3XzG_A .note-3HfJZ5 textarea {
   justify-content: center;
   margin-bottom: 0;
   border-radius: 0;
-  cursor: default;
+  cursor: var(--cursor);
   transition: none;
 }
 #app-mount .categoryItem-1D0nxC .mask-2hO5M8 {
@@ -7236,7 +7259,7 @@ html.theme-light #app-mount .userPopout-3XzG_A .note-3HfJZ5 textarea {
   height: 49px;
   border-top: 1px solid var(--base-border);
   box-sizing: border-box;
-  cursor: default;
+  cursor: var(--cursor);
 }
 #app-mount .unicodeShortcut-15J8Ck svg {
   width: 16px;
@@ -7265,11 +7288,11 @@ html.theme-light #app-mount .userPopout-3XzG_A .note-3HfJZ5 textarea {
   border-top: 1px solid var(--base-border);
   margin-bottom: var(--spacing);
   background: var(--background-light);
-  cursor: default;
+  cursor: var(--cursor);
   height: var(--item-height);
 }
 #app-mount .wrapper-1-Fsb8 .header-19cWci {
-  cursor: default;
+  cursor: var(--cursor);
   display: flex;
   width: 100%;
 }
@@ -7278,13 +7301,13 @@ html.theme-light #app-mount .userPopout-3XzG_A .note-3HfJZ5 textarea {
   text-transform: none;
   color: var(--text-normal);
   font-weight: var(--font-weight-semibold);
-  cursor: default;
+  cursor: var(--cursor);
   margin-left: var(--spacing-half);
   flex-grow: 1;
 }
 #app-mount .wrapper-1-Fsb8 .arrow-gKvcEx {
   transition: none;
-  cursor: default;
+  cursor: var(--cursor);
   color: var(--text-muted);
 }
 #app-mount .wrapper-1-Fsb8 foreignObject {
@@ -7308,7 +7331,7 @@ html.theme-light #app-mount .userPopout-3XzG_A .note-3HfJZ5 textarea {
 }
 #app-mount .emojiItem-14v6tW {
   border-radius: var(--border-radius);
-  cursor: default;
+  cursor: var(--cursor);
 }
 #app-mount .emojiItem-14v6tW.emojiItemSelected-1aLkfV {
   background: var(--background-modifier-hover);
@@ -7513,7 +7536,7 @@ html.theme-light #app-mount .drawerSizingWrapper-17Mss4 .input-3Xdcic {
   font-weight: var(--font-weight-normal);
   height: var(--input-height);
   min-height: var(--input-height);
-  cursor: default;
+  cursor: var(--cursor);
   height: 20px;
   display: flex;
   align-items: center;
@@ -7722,7 +7745,7 @@ html.theme-light #app-mount .drawerSizingWrapper-17Mss4 .input-3Xdcic {
 #app-mount .jumpButton-2F6EMx {
   font-size: var(--font-size);
   font-weight: var(--font-weight-normal);
-  cursor: default;
+  cursor: var(--cursor);
   height: 20px;
   opacity: 0;
   display: flex;
@@ -7881,7 +7904,7 @@ html.theme-light #app-mount .drawerSizingWrapper-17Mss4 .input-3Xdcic {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  cursor: default;
+  cursor: var(--cursor);
   padding: 0 var(--spacing);
   margin-top: var(--spacing);
   border-radius: var(--button-border-radius);
@@ -7976,7 +7999,7 @@ html.theme-light #app-mount .container-ZRw2kD .guildSection-1EoFKd .showMoreEmoj
 #app-mount .container-VSDcQc .sectionTag-pXyto9 .autocompleteScroller-iInVqR .row-rrHHJU {
   color: var(--text-normal);
   padding: 0;
-  cursor: default;
+  cursor: var(--cursor);
 }
 #app-mount .container-VSDcQc .sectionTag-pXyto9 .autocompleteScroller-iInVqR .row-rrHHJU .rowInner-1vvRiF {
   padding: 0 var(--spacing);
@@ -8126,7 +8149,7 @@ html.theme-light #app-mount .container-ZRw2kD .guildSection-1EoFKd .showMoreEmoj
 #app-mount .popout-2iWAc-.force-theme.content-1nP7fx .buttonContainer-lZQm0q .buttonSkipLeftAlign-2Oe1kC {
   font-size: var(--font-size);
   font-weight: var(--font-weight-normal);
-  cursor: default;
+  cursor: var(--cursor);
   min-height: var(--input-height);
   height: var(--input-height);
   line-height: normal;
@@ -8247,7 +8270,7 @@ html.theme-light #app-mount .popout-2iWAc-.force-theme.content-1nP7fx .buttonCon
   color: var(--text-normal);
   line-height: normal;
   min-width: 165px;
-  cursor: default;
+  cursor: var(--cursor);
 }
 #app-mount .layer-3QrUeG[aria-label*=SETTINGS] .sidebarRegion-VFTUkN .item-PXvHYJ:hover, #app-mount .layer-3QrUeG[aria-label*=SETTINGS] .sidebarRegion-VFTUkN .item-PXvHYJ:active {
   background-color: transparent;
@@ -8325,7 +8348,7 @@ html.theme-light #app-mount .popout-2iWAc-.force-theme.content-1nP7fx .buttonCon
 #app-mount .layer-3QrUeG[aria-label*=SETTINGS] .contentRegion-3nDuYy .streamerModeEnabled-2q0Gft .streamerModeEnabledBtn-2ZJ2eq {
   font-size: var(--font-size);
   font-weight: var(--font-weight-normal);
-  cursor: default;
+  cursor: var(--cursor);
   min-height: var(--input-height);
   height: var(--input-height);
   line-height: normal;
@@ -8395,7 +8418,7 @@ html.theme-light #app-mount .popout-2iWAc-.force-theme.content-1nP7fx .buttonCon
   width: 100vw;
   height: 100vw;
   z-index: -1;
-  cursor: default;
+  cursor: var(--cursor);
 }
 #app-mount .layer-3QrUeG[aria-label*=SETTINGS] .contentRegion-3nDuYy .tools-3-3s-N .keybind-KpFkfr {
   display: none;
@@ -8450,7 +8473,7 @@ html.theme-light #app-mount .popout-2iWAc-.force-theme.content-1nP7fx .buttonCon
   margin-top: var(--spacing-third);
 }
 #app-mount .layer-3QrUeG[aria-label*=SETTINGS] .contentRegion-3nDuYy .titleDefault-a8-ZSr {
-  cursor: default;
+  cursor: var(--cursor);
 }
 #app-mount .layer-3QrUeG[aria-label*=SETTINGS] .contentRegion-3nDuYy .switchItem-2hKKKK {
   margin: 0;
@@ -8613,7 +8636,7 @@ html.theme-light #app-mount .popout-2iWAc-.force-theme.content-1nP7fx .buttonCon
   border-radius: var(--button-border-radius);
 }
 #app-mount .userInfoEditing-1CEzdT .questionMark-CWEQZn svg {
-  cursor: default;
+  cursor: var(--cursor);
 }
 #app-mount .userInfoEditing-1CEzdT .questionMark-CWEQZn svg path {
   d: path("M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm9 3a1 1 0 11-2 0 1 1 0 012 0zM6.92 6.085c.081-.16.19-.299.34-.398.145-.097.371-.187.74-.187.28 0 .553.087.738.225A.613.613 0 019 6.25c0 .177-.04.264-.077.318a.956.956 0 01-.277.245c-.076.051-.158.1-.258.161l-.007.004a7.728 7.728 0 00-.313.195 2.416 2.416 0 00-.692.661.75.75 0 001.248.832.956.956 0 01.276-.245 6.3 6.3 0 01.26-.16l.006-.004c.093-.057.204-.123.313-.195.222-.149.487-.355.692-.662.214-.32.329-.702.329-1.15 0-.76-.36-1.348-.863-1.725A2.76 2.76 0 008 4c-.631 0-1.155.16-1.572.438-.413.276-.68.638-.849.977a.75.75 0 101.342.67z");
@@ -8644,7 +8667,7 @@ html.theme-light #app-mount .popout-2iWAc-.force-theme.content-1nP7fx .buttonCon
   font-size: var(--font-size);
   color: var(--text-normal);
   font-weight: var(--font-weight-normal);
-  cursor: default;
+  cursor: var(--cursor);
 }
 #app-mount .userInfoEditing-1CEzdT .avatarColumn-VWwg1S .avatarUploader-3XDtmn .avatarUploaderInner-3UNxY3 {
   background-color: var(--accent-solid);
@@ -8885,7 +8908,7 @@ html.theme-light #app-mount .popout-2iWAc-.force-theme.content-1nP7fx .buttonCon
   padding: 0 var(--spacing);
   font-weight: var(--font-weight-normal);
   font-size: var(--font-size);
-  cursor: default;
+  cursor: var(--cursor);
 }
 #app-mount .paymentHistory-2FXzro .paymentPane-3bwJ6A .payment-xT17Mq .summaryInfo-2QFKUg .description-RQzS-K {
   margin-right: var(--spacing);
@@ -8975,7 +8998,7 @@ html.theme-light #app-mount .popout-2iWAc-.force-theme.content-1nP7fx .buttonCon
   border: 1px solid var(--base-border);
   color: var(--text-muted);
   box-sizing: border-box;
-  cursor: default;
+  cursor: var(--cursor);
 }
 #app-mount .paymentHistory-2FXzro .paymentPane-3bwJ6A .pageActions-1SVAnA .pageButtonNext-V2kUq0.disabled-BrLY9Y,
 #app-mount .paymentHistory-2FXzro .paymentPane-3bwJ6A .pageActions-1SVAnA .pageButtonPrev-1Y-47D.disabled-BrLY9Y {
@@ -9289,7 +9312,7 @@ html.theme-light #app-mount .popout-2iWAc-.force-theme.content-1nP7fx .buttonCon
           appearance: checkbox;
   width: 14px;
   height: 14px;
-  cursor: default;
+  cursor: var(--cursor);
 }
 #app-mount .overlayToggleIcon-2liB3r svg {
   width: 100%;
@@ -9352,7 +9375,7 @@ html.theme-light #app-mount .popout-2iWAc-.force-theme.content-1nP7fx .buttonCon
   margin: 0;
   border: 1px solid var(--base-border);
   border-top: none;
-  cursor: default;
+  cursor: var(--cursor);
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
@@ -9452,6 +9475,14 @@ html.theme-light #app-mount .popout-2iWAc-.force-theme.content-1nP7fx .buttonCon
   margin: 0;
   max-width: unset;
   padding: var(--spacing-double);
+}
+
+.customContainer-1RHXqt {
+  position: relative;
+}
+
+.sidebarScrollable-1qPI87 {
+  top: 55px;
 }
 
 .auditLog-3jNbM6 {
@@ -9698,7 +9729,7 @@ html.platform-linux #app-mount .layer-3QrUeG[aria-label*=SETTINGS] .item-PXvHYJ:
   display: flex;
   align-items: center;
   line-height: normal;
-  cursor: default;
+  cursor: var(--cursor);
   min-width: 165px;
 }
 #app-mount #bd-settings-sidebar .ui-tab-bar-item:before {
@@ -9822,7 +9853,7 @@ html.platform-linux #app-mount .layer-3QrUeG[aria-label*=SETTINGS] .item-PXvHYJ:
   padding: 0 var(--spacing);
   border-radius: var(--button-border-radius);
   border: 1px solid var(--base-border) !important;
-  cursor: default;
+  cursor: var(--cursor);
   position: absolute;
   right: var(--spacing);
   bottom: var(--spacing);
@@ -9920,14 +9951,14 @@ html.platform-linux #app-mount .layer-3QrUeG[aria-label*=SETTINGS] .item-PXvHYJ:
   color: var(--text-normal);
   font-weight: var(--font-weight-normal);
   line-height: normal;
-  cursor: default;
+  cursor: var(--cursor);
 }
 #app-mount #bd-customcss-attach-controls .checkbox-inner {
   width: 14px;
   height: 14px;
   display: flex;
   align-items: center;
-  cursor: default;
+  cursor: var(--cursor);
 }
 #app-mount #bd-customcss-attach-controls .checkbox-inner:after, #app-mount #bd-customcss-attach-controls .checkbox-inner:before {
   content: none;
@@ -9944,7 +9975,7 @@ html.platform-linux #app-mount .layer-3QrUeG[aria-label*=SETTINGS] .item-PXvHYJ:
   margin-left: var(--spacing);
   font-size: var(--font-size);
   font-weight: var(--font-weight-normal);
-  cursor: default;
+  cursor: var(--cursor);
   min-height: var(--input-height);
   height: var(--input-height);
   line-height: normal;
@@ -9996,7 +10027,7 @@ html.theme-light #app-mount #bd-customcss-detach-controls-button button:focus {
 body #app-mount #bd-settingspane-container .bd-addon-button, body #app-mount #bd-settingspane-container .bd-button, body #app-mount #bd-settingspane-container .bda-link, body #app-mount #bd-settingspane-container .bd-pfbtn {
   font-size: var(--font-size);
   font-weight: var(--font-weight-normal);
-  cursor: default;
+  cursor: var(--cursor);
   min-height: 25px;
   height: 25px;
   line-height: normal;
@@ -10285,7 +10316,7 @@ body #app-mount #bd-settingspane-container .bd-controls {
   font-size: var(--font-size);
   font-weight: var(--font-weight-normal);
   color: var(--text-normal);
-  cursor: default;
+  cursor: var(--cursor);
 }
 #app-mount .modal-yWgWj- .switchItem-2hKKKK .directionRow-3v3tfG .switch-3wwwcV,
 #app-mount .root-1gCeng .switchItem-2hKKKK .directionRow-3v3tfG .switch-3wwwcV {
@@ -10345,7 +10376,7 @@ body #app-mount #bd-settingspane-container .bd-controls {
   background: var(--background-light);
   border: 1px solid var(--base-border);
   box-shadow: none !important;
-  cursor: default;
+  cursor: var(--cursor);
   text-decoration: none;
 }
 #app-mount .footer-2gL1pp .lookLink-9FtZy-:hover,
@@ -10819,7 +10850,7 @@ html.theme-light #app-mount .footer-2gL1pp .cancelButton-2O3h8t:focus {
 #app-mount .theme-light .root-1gCeng .container-1CE3eW > div[style*=width] > div[style*=width] .templatesList-2E6rTe .container-UC8Ug1 {
   font-size: var(--font-size);
   font-weight: var(--font-weight-normal);
-  cursor: default;
+  cursor: var(--cursor);
   box-sizing: border-box;
   line-height: normal;
   transition: none;
@@ -10867,7 +10898,7 @@ html.theme-light #app-mount .footer-2gL1pp .cancelButton-2O3h8t:focus {
   color: var(--text-normal);
   background: var(--background-light);
   border: 1px solid var(--base-border);
-  cursor: default;
+  cursor: var(--cursor);
   box-shadow: none !important;
 }
 #app-mount .theme-light .root-1gCeng .container-1CE3eW > div[style*=width] > div[style*=width] .templatesList-2E6rTe .container-UC8Ug1:not(:first-child):hover {
@@ -10966,7 +10997,7 @@ html.theme-light #app-mount .footer-2gL1pp .cancelButton-2O3h8t:focus {
 #app-mount .theme-light .root-1gCeng .container-1CE3eW > div[style*=width] > div[style*=width] .footer-2gL1pp button.lookBlank-3eh9lL {
   font-size: var(--font-size);
   font-weight: var(--font-weight-normal);
-  cursor: default;
+  cursor: var(--cursor);
   min-height: var(--input-height);
   height: var(--input-height);
   line-height: normal;
@@ -10977,7 +11008,7 @@ html.theme-light #app-mount .footer-2gL1pp .cancelButton-2O3h8t:focus {
   color: var(--text-normal);
   background: var(--background-light);
   border: 1px solid var(--base-border);
-  cursor: default;
+  cursor: var(--cursor);
   box-shadow: none !important;
 }
 #app-mount .theme-light .root-1gCeng .container-1CE3eW > div[style*=width] > div[style*=width] .footer-2gL1pp button.lookBlank-3eh9lL:hover {
@@ -11028,7 +11059,7 @@ html.theme-light #app-mount .theme-light .root-1gCeng .container-1CE3eW > div[st
   margin-right: var(--spacing);
 }
 #app-mount .modalRoot-1Kx4Hb .formGroup-2hEDrJ .emojiButtonContainer-3d6DFV .emojiButton-3uL3Aw {
-  cursor: default;
+  cursor: var(--cursor);
 }
 #app-mount .modalRoot-1Kx4Hb .formGroup-2hEDrJ .emojiButtonContainer-3d6DFV .emojiButton-3uL3Aw .sprite-2iCowe {
   height: 20px;
@@ -11122,13 +11153,13 @@ html.theme-light #app-mount .theme-light .root-1gCeng .container-1CE3eW > div[st
   line-height: var(--line-height);
   padding: 0;
   width: 100%;
-  cursor: default;
+  cursor: var(--cursor);
   display: flex;
   align-items: center;
 }
 #app-mount .result-oB0z-- {
   height: auto;
-  cursor: default;
+  cursor: var(--cursor);
 }
 #app-mount .result-oB0z--.resultFocused-3aIoYe {
   background: var(--background-modifier-hover);
@@ -11281,7 +11312,7 @@ html.theme-light #app-mount .theme-light .root-1gCeng .container-1CE3eW > div[st
   background: var(--background-modifier-active);
 }
 #app-mount .container-1If-HZ .reactors-Blmlhw .reactor-3UBcOI .remove-3V-yj8 {
-  cursor: default;
+  cursor: var(--cursor);
   padding: 0;
   background: transparent;
   color: var(--text-muted);
@@ -11331,7 +11362,7 @@ html.theme-light #app-mount .theme-light .root-1gCeng .container-1CE3eW > div[st
 #app-mount .container-1If-HZ .scroller-1-nKid .reactionSelected-1pqISm {
   border-radius: var(--border-radius);
   padding: var(--spacing-half) var(--spacing);
-  cursor: default;
+  cursor: var(--cursor);
   margin: var(--spacing);
   color: var(--text-normal);
 }
@@ -11461,7 +11492,7 @@ html.theme-light #app-mount .theme-light .root-1gCeng .container-1CE3eW > div[st
   margin-bottom: var(--spacing-half);
 }
 #app-mount .shaker-1QVc6p .transitionGroup-aR7y1d .stepBody-1cR8n4 .planOption-3m2svN .planOptionClickable-2m4lfF {
-  cursor: default;
+  cursor: var(--cursor);
 }
 #app-mount .shaker-1QVc6p .transitionGroup-aR7y1d .stepBody-1cR8n4 .planOption-3m2svN .optionSelected-1d91jC {
   color: var(--text-normal);
@@ -11519,7 +11550,7 @@ html.theme-light #app-mount .theme-light .root-1gCeng .container-1CE3eW > div[st
 #app-mount .shaker-1QVc6p .link-3dHnkW {
   font-size: var(--font-size);
   font-weight: var(--font-weight-normal);
-  cursor: default;
+  cursor: var(--cursor);
   min-height: var(--input-height);
   height: var(--input-height);
   line-height: normal;
@@ -11532,7 +11563,7 @@ html.theme-light #app-mount .theme-light .root-1gCeng .container-1CE3eW > div[st
   color: var(--text-normal);
   background: var(--background-light);
   border: 1px solid var(--base-border);
-  cursor: default;
+  cursor: var(--cursor);
   text-decoration: none;
 }
 #app-mount .shaker-1QVc6p .link-3dHnkW:hover {
@@ -11622,7 +11653,7 @@ html.theme-light #app-mount .theme-light .root-1gCeng .container-1CE3eW > div[st
   margin-top: var(--spacing);
   font-size: var(--font-size);
   font-weight: var(--font-weight-normal);
-  cursor: default;
+  cursor: var(--cursor);
   box-sizing: border-box;
   line-height: normal;
   transition: none;
@@ -11829,7 +11860,7 @@ html.theme-light #app-mount .main-3auUui .options-1VK2u9 .optionContainer-15srkc
 #app-mount .colorPrimary-3b3xI6.lookLink-9FtZy- {
   font-size: var(--font-size);
   font-weight: var(--font-weight-normal);
-  cursor: default;
+  cursor: var(--cursor);
   min-height: var(--input-height);
   height: var(--input-height);
   line-height: normal;
@@ -11882,7 +11913,7 @@ html.theme-light #app-mount .main-3auUui .options-1VK2u9 .optionContainer-15srkc
   background: var(--background-light);
   border: 1px solid var(--base-border);
   box-shadow: none !important;
-  cursor: default;
+  cursor: var(--cursor);
 }
 #app-mount .colorPrimary-3b3xI6.lookLink-9FtZy-:hover,
 #app-mount .colorPrimary-3b3xI6.lookFilled-1Gx00P:hover,
@@ -11956,7 +11987,7 @@ html.theme-light #app-mount .main-3auUui .options-1VK2u9 .optionContainer-15srkc
   height: 14px;
   width: 14px;
   position: relative;
-  cursor: default;
+  cursor: var(--cursor);
 }
 #app-mount .checkbox-3kaeSU .checkboxInner-3yjcPe .checkboxElement-1qV33p:checked + span {
   background-color: var(--accent-solid);
@@ -11973,7 +12004,7 @@ html.theme-light #app-mount .main-3auUui .options-1VK2u9 .optionContainer-15srkc
   min-height: auto;
   animation: none;
   transition: none;
-  cursor: default;
+  cursor: var(--cursor);
 }
 #app-mount .container-1nZlH6 .layout-eEMo5y {
   position: relative;
@@ -11985,7 +12016,7 @@ html.theme-light #app-mount .main-3auUui .options-1VK2u9 .optionContainer-15srkc
   color: var(--text-normal);
   font-weight: var(--font-weight);
   height: 100%;
-  cursor: default;
+  cursor: var(--cursor);
 }
 #app-mount .container-1nZlH6 .layout-eEMo5y .flex-1xMQg5 {
   align-items: center;
@@ -11994,7 +12025,7 @@ html.theme-light #app-mount .main-3auUui .options-1VK2u9 .optionContainer-15srkc
   margin: 0;
   padding: 0;
   transition: none;
-  cursor: default;
+  cursor: var(--cursor);
   width: 16px;
   height: 16px;
   background: var(--text-muted);
@@ -12034,7 +12065,7 @@ html.theme-light #app-mount .container-1nZlH6 {
   background: transparent !important;
   border: 1px solid var(--base-border);
   border-top: none;
-  cursor: default;
+  cursor: var(--cursor);
   padding: var(--spacing) !important;
 }
 #app-mount .radioGroup-1GBvlr .item-26Dhrx[style*=background] {
@@ -12042,7 +12073,7 @@ html.theme-light #app-mount .container-1nZlH6 {
   border-color: var(--accent-solid) !important;
 }
 #app-mount .radioGroup-1GBvlr .item-26Dhrx .info-3LOr12 {
-  cursor: default;
+  cursor: var(--cursor);
 }
 #app-mount .radioGroup-1GBvlr .item-26Dhrx .labelForward-1wfipV {
   padding: 0;
@@ -12154,7 +12185,7 @@ html.theme-light #app-mount .container-1nZlH6 {
   min-height: auto;
   transition: none;
   box-sizing: border-box;
-  cursor: default;
+  cursor: var(--cursor);
 }
 #app-mount .css-13kbzi0-control.css-1qm8c5n-control, #app-mount .css-13kbzi0-control.css-2yldzf-control, #app-mount .css-13kbzi0-control.selectOpen-hQuR6b,
 #app-mount .css-15ejc46-control.css-1qm8c5n-control,
@@ -12247,7 +12278,7 @@ html.theme-light #app-mount .container-1nZlH6 {
   height: 100%;
   display: flex;
   align-items: center;
-  cursor: default;
+  cursor: var(--cursor);
   color: var(--text-muted);
 }
 #app-mount .css-12qlrak-indicatorContainer svg,
@@ -12433,7 +12464,7 @@ html.theme-light #app-mount .input-1ppKdn {
   padding: 0 var(--spacing);
   height: var(--item-height);
   min-height: unset;
-  cursor: default;
+  cursor: var(--cursor);
   color: var(--text-normal);
   display: flex;
   align-items: center;
@@ -12570,7 +12601,7 @@ html.theme-light #app-mount .input-1ppKdn {
 #app-mount .overrideHighlight-YPcBxt .checkbox-1ix_J3 {
   height: 16px !important;
   width: 16px !important;
-  cursor: default;
+  cursor: var(--cursor);
 }
 #app-mount .override-2YgiXd .iconContainer-2h8jYA,
 #app-mount .overrideHighlight-YPcBxt .iconContainer-2h8jYA {

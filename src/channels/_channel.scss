@@ -1,7 +1,7 @@
 #app-mount .sidebar-2K8pFh {
   .wrapper-1ucjTd {
     position: relative;
-    cursor: default;
+    cursor: var(--cursor);
 
     // Unread channel
     &.modeUnread-1zpFdA {
@@ -65,7 +65,7 @@
   // Channel
   .mainContent-ENyL1r,
   .voiceUser-14U_Ns {
-    cursor: default;
+    cursor: var(--cursor);
   }
   .content-3at_AU {
     margin: 0;
@@ -73,7 +73,7 @@
     border-radius: 0;
     height: var(--item-height);
     svg {
-      cursor:default;
+      cursor: var(--cursor);
       color: var(--text-muted);
       &:active {
         transform: none;

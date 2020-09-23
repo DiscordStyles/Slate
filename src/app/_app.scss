@@ -45,7 +45,7 @@ body {
     background: rgba(var(--accent), 0.15);
     border-radius: var(--border-radius);
     color: var(--accent-solid);
-    cursor:default;
+    cursor: var(--cursor);
     &:hover {
       background: var(--accent-solid);
       color: var(--white);

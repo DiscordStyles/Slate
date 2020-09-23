@@ -35,7 +35,7 @@
                     background:var(--background-modifier-active);
                 }
                 .remove-3V-yj8 {
-                    cursor:default;
+                    cursor: var(--cursor);
                     padding:0;
                     background:transparent;
                     color:var(--text-muted);
@@ -86,7 +86,7 @@
             .reactionSelected-1pqISm {
                 border-radius:var(--border-radius);
                 padding:var(--spacing-half) var(--spacing);
-                cursor:default;
+                cursor: var(--cursor);
                 margin:var(--spacing);
                 color:var(--text-normal);
             }

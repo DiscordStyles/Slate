@@ -1,9 +1,11 @@
 :root {
-  --slate-version: "Slate 1.1.6";
+  --slate-version: "Slate 1.1.7";
 
   // Roundness
   --border-radius: 3px;
   --button-border-radius: 2px;
+  --avatar-radius: calc(var(--border-radius) / 2);
+  --server-radius: var(--border-radius);
 
   // Primary Coloring
   --accent-solid: rgba(var(--accent), 1);
@@ -15,7 +17,7 @@
   --noasw-base: var(--container, 72px);
   --noasw-channel-header: var(--container, 0px);
 
-  // Spacing 
+  // Spacing
   --spacing-third: calc(var(--spacing) / 3);
   --spacing-half: calc(var(--spacing) / 2);
   --spacing: 10px;
@@ -99,5 +101,8 @@
   --rs-small-spacing: 0px;
   --rs-large-spacing: 0px;
   --rs-width: 2px;
-  --rs-avatar-shape: 5%;
+  --rs-avatar-shape: var(--avatar-radius);
+
+  // Other vars
+  --cursor: default;
 }
