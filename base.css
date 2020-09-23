@@ -69,7 +69,7 @@
   --rs-large-spacing: 0px;
   --rs-width: 2px;
   --rs-avatar-shape: var(--avatar-radius);
-  --cursor: pointer;
+  --cursor: default;
 }
 
 .theme-dark,
