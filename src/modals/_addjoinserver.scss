@@ -41,7 +41,7 @@
                         margin:var(--spacing) 0;
                         margin-top:var(--spacing-double);
                     }
-                    .itemContainer-1LSFks {
+                    .container-UC8Ug1 {
                         font-size: var(--font-size);
                         font-weight: var(--font-weight-normal);
                         cursor: default;
@@ -62,7 +62,7 @@
                             mask-repeat:no-repeat;
                             mask-image:url($icon_cog);
                         }
-                        .itemText-sYKDFz {
+                        .text-1FOLJS {
                             font-weight:var(--font-weight-normal);
                             color:inherit;
                         }
@@ -102,16 +102,16 @@
                                 mask-image:url($icon_location);
                             }
                         }
-                        &:nth-last-child(3)::before {
+                        &:nth-last-child(5)::before {
                             mask-image:url($icon_organization);
                         }
-                        &:nth-last-child(4)::before {
+                        &:nth-last-child(3)::before {
                             mask-image:url($icon_paintcan);
                         }
-                        &:nth-last-child(5)::before {
+                        &:nth-last-child(6)::before {
                             mask-image:url($icon_mortar-board);
                         }
-                        &:nth-last-child(6)::before {
+                        &:nth-last-child(4)::before {
                             mask-image:url($icon_heart);
                         }
                         &:nth-last-child(7)::before {
