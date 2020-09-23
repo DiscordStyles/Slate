@@ -6,7 +6,7 @@
   // Generic member entries
   .layout-2DM8Md {
     border-radius: 0;
-    height: 44px;
+    height: var(--member-height);
     padding: 0 calc(var(--spacing) + 5px);
     cursor: default;
   }
@@ -67,12 +67,6 @@
   &.selected-aXhQR6 {
     .activity-2Gy-9S, .roleColor-rz2vM0 {
       color: #fff !important;
-    }
-    .wrapper-3t9DeA {
-      box-shadow:0 0 0 .5px var(--accent-solid);
-      rect:not([fill="transparent"]) {
-        stroke:var(--accent-solid);
-      }
     }
   }
 

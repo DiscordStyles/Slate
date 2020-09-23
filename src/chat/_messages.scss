@@ -196,6 +196,21 @@
         &:hover {
           box-shadow: 0 0 0 1px var(--accent-solid);
         }
+        &[src*="/assets/"] {
+          content:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg"/>');
+          + .header-23xsNx + .messageContent-2qWWxC::after {
+            content: "";
+            top: var(--spacing);
+            left: var(--spacing);
+            width: var(--avatar-size);
+            height: var(--avatar-size);
+            background: var(--text-muted);
+            mask:url($icon_person) center/12px no-repeat;
+            position: absolute;
+            z-index: 1;
+            pointer-events: none;
+          }
+        }
       }
       .wrapper-3t9DeA {
         width: var(--avatar-size) !important;

@@ -59,14 +59,14 @@
 	// Connected
 	.container-1giJp5 {
 		position: relative;
-		border-bottom-color: var(--base-border);
+		border:none;
 	}
 	.subtext-3CDbHg {
 		color: var(--text-focus);
 	}
 	.channel-1TmDQ6 {
 		font-size: var(--font-size-sm);
-  }
+  	}
   
 	// Connection status
 	.container-1giJp5 {
@@ -155,7 +155,7 @@
 	// User
 	& > .container-3baos1 {
 		padding: 0 var(--spacing);
-		height: var(--toolbar-height);
+		height: 50px;
 		box-sizing: border-box;
 		margin-bottom: 0;
 		overflow: visible;

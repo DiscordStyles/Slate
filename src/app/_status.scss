@@ -207,6 +207,16 @@
 .wrapper-3t9DeA {
   border-radius: calc(var(--border-radius) / 2);
   box-shadow:0 0 0 .5px var(--base-border); 
+  .avatar-VxgULZ {
+    &[src*="/assets/"] {
+      content:url('');
+      background:var(--background-dark);
+    }
+    &:before {
+      background:var(--text-muted);
+      mask:url($icon_person) center/12px no-repeat;
+    }
+  }
   svg:not(:root) {
     overflow: visible;
   }
