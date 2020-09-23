@@ -80,7 +80,7 @@
       padding: 0 var(--spacing);
       border-radius: var(--button-border-radius);
       border: 1px solid var(--base-border) !important;
-      cursor: default;
+      cursor: var(--cursor);
       position: absolute;
       right:var(--spacing);
       bottom:var(--spacing);

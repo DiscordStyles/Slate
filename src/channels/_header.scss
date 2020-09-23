@@ -27,7 +27,7 @@
     width: calc(100% + var(--noasw-channel-header));
     z-index: 11;
     filter: none;
-    cursor: default;
+    cursor: var(--cursor);
     .guildIconContainer-E1JUVt {
       margin-right: var(--spacing);
       .disableColor-MwOAZf, 

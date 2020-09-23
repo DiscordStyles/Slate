@@ -63,7 +63,7 @@
     opacity: 1;
     padding: var(--spacing-third) var(--spacing);
     min-height: auto;
-    cursor: default;
+    cursor: var(--cursor);
     button {
       cursor:default;
       &.barButtonMain-3K-jeJ {
@@ -152,7 +152,7 @@
     pointer-events:all;
     font-size: var(--font-size);
     font-weight: var(--font-weight-normal);
-    cursor: default;
+    cursor: var(--cursor);
     min-height: var(--input-height);
     height: var(--input-height);
     line-height: normal;
@@ -217,7 +217,7 @@
     .button-2OOM0p {
       font-size: var(--font-size);
       font-weight: var(--font-weight-normal);
-      cursor: default;
+      cursor: var(--cursor);
       min-height: var(--input-height);
       height: var(--input-height);
       line-height: normal;

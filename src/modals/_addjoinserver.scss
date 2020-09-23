@@ -44,7 +44,7 @@
                     .itemContainer-1LSFks {
                         font-size: var(--font-size);
                         font-weight: var(--font-weight-normal);
-                        cursor: default;
+                        cursor: var(--cursor);
                         box-sizing:border-box;
                         line-height: normal;
                         transition: none;
@@ -86,7 +86,7 @@
                             color: var(--text-normal);
                             background: var(--background-light);
                             border: 1px solid var(--base-border);
-                            cursor: default;
+                            cursor: var(--cursor);
                             box-shadow: none !important;
                             &:hover {
                               border: 1px solid currentColor;
@@ -180,7 +180,7 @@
                         &.lookBlank-3eh9lL {
                             font-size: var(--font-size);
                             font-weight: var(--font-weight-normal);
-                            cursor: default;
+                            cursor: var(--cursor);
                             min-height: var(--input-height);
                             height: var(--input-height);
                             line-height: normal;
@@ -191,7 +191,7 @@
                             color: var(--text-normal);
                             background: var(--background-light);
                             border: 1px solid var(--base-border);
-                            cursor: default;
+                            cursor: var(--cursor);
                             box-shadow: none !important;
                             &:hover {
                                 border: 1px solid currentColor;

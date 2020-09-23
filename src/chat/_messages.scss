@@ -128,7 +128,7 @@
       a {
         font-size: var(--font-size);
         font-weight: var(--font-weight-normal);
-        cursor: default;
+        cursor: var(--cursor);
         min-height: var(--input-height);
         height: var(--input-height);
         line-height: normal;
@@ -154,7 +154,7 @@
           color: var(--text-normal);
           background: var(--background-light);
           border: 1px solid var(--base-border);
-          cursor: default;
+          cursor: var(--cursor);
           &:hover {
             border: 1px solid currentColor;
           }
@@ -215,6 +215,9 @@
       .wrapper-3t9DeA {
         width: var(--avatar-size) !important;
         height: var(--avatar-size) !important;
+        foreignObject:after {
+          content: none;
+        }
         img {
           border-radius: 0;
           clip-path: none;
@@ -352,7 +355,7 @@
         a {
           font-size: var(--font-size);
           font-weight: var(--font-weight-normal);
-          cursor: default;
+          cursor: var(--cursor);
           min-height: var(--input-height);
           height: var(--input-height);
           line-height: normal;

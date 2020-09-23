@@ -32,7 +32,7 @@
       font-size: var(--font-size);
       font-weight: var(--font-weight-normal);
       height:var(--item-height);
-      cursor: default;
+      cursor: var(--cursor);
       box-sizing: border-box;
       .label-22pbtT {
         flex: unset;

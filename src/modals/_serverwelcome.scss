@@ -63,7 +63,7 @@
                 margin-top:var(--spacing);
                 font-size: var(--font-size);
                 font-weight: var(--font-weight-normal);
-                cursor: default;
+                cursor: var(--cursor);
                 box-sizing:border-box;
                 line-height: normal;
                 transition: none;

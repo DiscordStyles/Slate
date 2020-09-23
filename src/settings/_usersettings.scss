@@ -7,8 +7,7 @@
 
 	// My Account
 	.userSettingsAccount-2eMFVR {
-		.card-3Qj_Yx.cardWarning-2yPNAa,
-		 {
+		.card-3Qj_Yx.cardWarning-2yPNAa {
 			.icon-4lJsMQ {
 				display:none;
 			}
@@ -116,7 +115,7 @@
 			margin-right:0;
 			color: var(--white);
 			background-color: rgb(var(--accent));
-			border-radius:var(--button-border-radius);	
+			border-radius:var(--button-border-radius);
 			svg {
 				cursor:default;
 				path {
@@ -484,7 +483,7 @@
 			.pageActions-1SVAnA {
 				padding:var(--spacing);
 				border-top:1px solid var(--base-border);
-				.pageButtonNext-V2kUq0, 
+				.pageButtonNext-V2kUq0,
 				.pageButtonPrev-1Y-47D {
 					padding:var(--spacing-half);
 					height:var(--input-height);
@@ -498,12 +497,12 @@
 						cursor:not-allowed;
 					}
 					&.pageButtonNext-V2kUq0 {
-						border-radius:0 var(--border-radius) var(--border-radius) 0;	
+						border-radius:0 var(--border-radius) var(--border-radius) 0;
 					}
 					&.pageButtonPrev-1Y-47D {
-						border-radius:var(--border-radius) 0 0 var(--border-radius);	
+						border-radius:var(--border-radius) 0 0 var(--border-radius);
 					}
-				}	
+				}
 				.pageIndicator-1gAbyA {
 					padding:0 var(--spacing-half);
 					height:var(--input-height);
@@ -543,7 +542,7 @@
 	}
 
 	// Voice and Video
-	
+
 	.userSettingsVoice-iwdUCU {
 		.micTest-2C-tpt {
 			button {
@@ -766,7 +765,7 @@
 		font-weight:var(--font-weight-semibold);
 		color:var(--text-normal);
 		font-size: var(--font-size);
-		margin:0;	
+		margin:0;
 		line-height:normal;
 	}
 	.overlayStatusText-L2IACa,
@@ -884,7 +883,7 @@
 
 	// Text and Images
 	.marginBottom20-32qID7.marginTop8-1DLZ1n + .flex-1xMQg5.marginBottom40-2vIwTv + h5 + .marginTop8-1DLZ1n.marginBottom40-2vIwTv {
-		margin-top:0;	
+		margin-top:0;
 		+ h5 + .marginBottom20-32qID7.marginTop8-1DLZ1n {
 			margin:0;
 			+ .marginTop8-1DLZ1n.marginBottom20-32qID7 {

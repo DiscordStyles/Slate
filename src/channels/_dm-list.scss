@@ -65,7 +65,7 @@
     .layout-2DM8Md {
       border-radius: 0;
       padding: 0 var(--spacing);
-      cursor: default;
+      cursor: var(--cursor);
     }
     .name-uJV0GL {
       font-size: var(--font-size);
@@ -95,7 +95,7 @@
       width: 50%;
       display: inline-block;
       border-radius: 0;
-      cursor: default;
+      cursor: var(--cursor);
       .layout-2DM8Md {
         justify-content: center;
         height: 30px;

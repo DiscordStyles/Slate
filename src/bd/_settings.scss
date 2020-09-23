@@ -3,7 +3,7 @@ body #app-mount #bd-settingspane-container {
   .bd-addon-button, .bd-button, .bda-link, .bd-pfbtn {
     font-size: var(--font-size);
     font-weight: var(--font-weight-normal);
-    cursor: default;
+    cursor: var(--cursor);
     min-height: 25px;
     height: 25px;
     line-height: normal;

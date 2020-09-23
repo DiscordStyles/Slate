@@ -30,7 +30,7 @@
 		color: var(--text-normal);
 		line-height: normal;
 		min-width: 165px;
-		cursor: default;
+		cursor: var(--cursor);
 		&:hover,
 		&:active {
 			background-color: transparent;

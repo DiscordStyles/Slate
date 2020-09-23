@@ -82,7 +82,7 @@
     font-weight: var(--font-weight-normal);
     height:var(--input-height);
     min-height:var(--input-height);
-    cursor: default;
+    cursor: var(--cursor);
     height: 20px;
     display: flex;
     align-items: center;

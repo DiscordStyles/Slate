@@ -5,5 +5,5 @@
     "author": "Gibbu#1211 & Tropical#8908",
     "theme": "Slate.theme.css",
     "consent": ["ext_listing"],
-    "license": "unknown"
+    "license": "MIT"
 }

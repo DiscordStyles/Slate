@@ -109,7 +109,7 @@
       justify-content:center;
       font-size: var(--font-size);
       font-weight: var(--font-weight-normal);
-      cursor: default;
+      cursor: var(--cursor);
       min-height: var(--input-height);
       height: var(--input-height);
       line-height: normal;
