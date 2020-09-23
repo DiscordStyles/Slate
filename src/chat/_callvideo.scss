@@ -129,7 +129,7 @@
             background:var(--background);
             transition:none;
             border:1px solid var(--base-border);
-            cursor:default;
+            cursor: var(--cursor);
             &:hover {
                 background:var(--background-modifier-hover);
             }
@@ -239,7 +239,7 @@
     .green-plH-Mj {
         margin:0;
         background:rgb(var(--status-green));
-        cursor:default;
+        cursor: var(--cursor);
         width:40px;
         height:40px;
         padding:0;
@@ -293,7 +293,7 @@
         button {
             margin:0;
             background:var(--background-alt);
-            cursor:default;
+            cursor: var(--cursor);
             width:40px;
             height:40px;
             padding:0;

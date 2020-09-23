@@ -35,7 +35,7 @@
         font-weight:var(--font-weight-normal);
         background:transparent !important;
         border-radius:0;
-        cursor:default;
+        cursor: var(--cursor);
         padding:0 var(--spacing-double);
         color:var(--text-normal) !important;
         border-right:1px solid var(--base-border);
@@ -93,7 +93,7 @@
       margin: 0;
       padding: var(--spacing-double);
       border-radius: 0;
-      cursor:default;
+      cursor: var(--cursor);
       box-sizing:border-box;
       &:not(:first-child) {
         border-bottom: 1px solid var(--base-border);

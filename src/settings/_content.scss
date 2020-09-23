@@ -120,7 +120,7 @@
 				width:100vw;
 				height:100vw;
 				z-index:-1;
-				cursor:default;
+				cursor: var(--cursor);
 			}
 		}
 		.keybind-KpFkfr {

@@ -20,7 +20,7 @@
     min-height: auto;
     background: var(--background);
     padding:0;
-    cursor:default;
+    cursor: var(--cursor);
     position:absolute;
     z-index:10;
     box-shadow:var(--elevation-1);
@@ -35,7 +35,7 @@
       padding:0 var(--spacing);
       border: 1px solid var(--base-border);
       border-bottom:none;
-      cursor:default;
+      cursor: var(--cursor);
       border-radius: var(--border-radius) var(--border-radius) 0 0;
       &:hover {
         background:var(--background-modifier-hover);
@@ -65,7 +65,7 @@
     min-height: auto;
     cursor: var(--cursor);
     button {
-      cursor:default;
+      cursor: var(--cursor);
       &.barButtonMain-3K-jeJ {
         color:var(--text-normal);
         font-size:var(--font-size);
@@ -277,7 +277,7 @@
           border:1px solid var(--base-border);
           border-top:none;
           padding:var(--spacing-double);
-          cursor:default;
+          cursor: var(--cursor);
           .arrow-3bRNiS {
             color:var(--text-muted);
           }

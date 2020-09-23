@@ -148,7 +148,7 @@ body #app-mount .container-1r6BKw {
     }
     .icon-22AiRD {
       color: var(--toolbar-text-normal);
-      cursor:default;
+      cursor: var(--cursor);
       &:hover {
         color: var(--toolbar-text-focus);
       }
@@ -243,7 +243,7 @@ body #app-mount .container-1r6BKw {
         .iconContainer-O4O2CN {
           height:14px;
           width:14px;
-          cursor:default;
+          cursor: var(--cursor);
           .icon-3cZ1F_ {
             color:var(--toolbar-text-muted);
             transition:none;

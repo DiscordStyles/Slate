@@ -17,7 +17,7 @@
     display: flex;
     align-items: center;
     line-height:normal;
-    cursor:default;
+    cursor: var(--cursor);
     min-width:165px;
     &:before {
       content: "";

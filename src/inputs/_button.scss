@@ -55,7 +55,7 @@
     background: var(--background-light);
     border: 1px solid var(--base-border);
     box-shadow: none !important;
-    cursor:default;
+    cursor: var(--cursor);
     &:hover {
       border: 1px solid currentColor;
       .contents-18-Yxp {

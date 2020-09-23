@@ -43,7 +43,7 @@
     padding:var(--spacing);
     height:auto;
     align-items:center;
-    cursor:default;
+    cursor: var(--cursor);
     &:hover {
       background:var(--background-modifier-hover);
     }
@@ -117,7 +117,7 @@
       height:var(--item-height);
       font-size:var(--font-size);
       border-radius:0;
-      cursor:default;
+      cursor: var(--cursor);
       &:after {
         background:none;
       }

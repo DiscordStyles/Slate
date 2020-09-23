@@ -9,7 +9,7 @@
     min-height: auto;
     animation:none;
     transition:none;
-    cursor:default; 
+    cursor: var(--cursor); 
     .layout-eEMo5y {
       position:relative;
       height:100%;
@@ -19,7 +19,7 @@
         color:var(--text-normal);
         font-weight:var(--font-weight);
         height:100%;
-        cursor:default; 
+        cursor: var(--cursor); 
       }
       .flex-1xMQg5 {
         align-items:center;
@@ -28,7 +28,7 @@
         margin:0;
         padding:0;
         transition:none;
-        cursor:default; 
+        cursor: var(--cursor); 
         width:16px;
         height:16px;
         background:var(--text-muted);

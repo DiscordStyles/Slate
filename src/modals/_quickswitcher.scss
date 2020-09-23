@@ -60,13 +60,13 @@
     line-height: var(--line-height);
     padding: 0;
     width: 100%;
-    cursor:default;
+    cursor: var(--cursor);
     display:flex;
     align-items:center;
   }
   .result-oB0z-- {
     height: auto;
-    cursor:default;
+    cursor: var(--cursor);
     &.resultFocused-3aIoYe {
       background:var(--background-modifier-hover);
     }

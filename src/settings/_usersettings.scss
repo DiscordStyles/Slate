@@ -117,7 +117,7 @@
 			background-color: rgb(var(--accent));
 			border-radius:var(--button-border-radius);
 			svg {
-				cursor:default;
+				cursor: var(--cursor);
 				path {
 					d:path($path_help);
 					transform-origin:center;
@@ -150,7 +150,7 @@
 					font-size:var(--font-size);
 					color:var(--text-normal);
 					font-weight:var(--font-weight-normal);
-					cursor:default;
+					cursor: var(--cursor);
 				}
 				.avatarUploaderInner-3UNxY3 {
 					background-color:var(--accent-solid);
@@ -403,7 +403,7 @@
 					padding:0 var(--spacing);
 					font-weight:var(--font-weight-normal);
 					font-size:var(--font-size);
-					cursor:default;
+					cursor: var(--cursor);
 					.description-RQzS-K {
 						margin-right:var(--spacing);
 					}
@@ -492,7 +492,7 @@
 					border:1px solid var(--base-border);
 					color:var(--text-muted);
 					box-sizing:border-box;
-					cursor:default;
+					cursor: var(--cursor);
 					&.disabled-BrLY9Y {
 						cursor:not-allowed;
 					}
@@ -837,7 +837,7 @@
 		appearance:checkbox;
 		width:14px;
 		height:14px;
-		cursor:default;
+		cursor: var(--cursor);
 		svg {
 			width:100%;
 			height:100%;
@@ -904,7 +904,7 @@
 		margin:0;
 		border:1px solid var(--base-border);
 		border-top:none;
-		cursor:default;
+		cursor: var(--cursor);
 		flex-direction:column;
 		justify-content:center;
 		align-items:flex-start;

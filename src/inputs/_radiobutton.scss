@@ -6,14 +6,14 @@
       background:transparent !important;
       border:1px solid var(--base-border);
       border-top:none;
-      cursor:default;
+      cursor: var(--cursor);
       padding:var(--spacing) !important;
       &[style*="background"] {
         background:var(--accent-solid) !important;
         border-color:var(--accent-solid) !important;
       }
       .info-3LOr12 {
-        cursor:default;
+        cursor: var(--cursor);
       }
       .labelForward-1wfipV {
         padding:0;
