@@ -236,6 +236,15 @@ a {
   color: var(--text-link);
 }
 
+.socialLink-3n2n25 {
+  color: var(--text-muted);
+  margin-right: var(--spacing);
+}
+.socialLink-3n2n25 svg {
+  width: 14px;
+  height: 14px;
+}
+
 #app-mount .typeWindows-1za-n7 {
   height: calc(var(--titlebar-height) - 2px);
   border-bottom: 1px solid var(--toolbar-border);
@@ -11851,6 +11860,73 @@ html.theme-light #app-mount .main-3auUui .options-1VK2u9 .optionContainer-15srkc
   opacity: 1;
   animation: fadeIn 7s linear;
   z-index: -1;
+}
+
+#app-mount .modal-3O0aXp {
+  font-size: var(--font-size);
+  max-width: 435px !important;
+}
+#app-mount .modal-3O0aXp .date-1k6kG2 {
+  position: absolute;
+  background: var(--background);
+  top: 0;
+  height: 18px;
+  top: 50%;
+  margin-top: -9px;
+}
+#app-mount .modal-3O0aXp .video-1FESK- {
+  border-radius: var(--border-radius);
+  box-shadow: var(--elevation-1);
+  width: 100%;
+  height: auto;
+}
+#app-mount .modal-3O0aXp .content-s2SEQO {
+  line-height: normal;
+  font-size: var(--font-size);
+}
+#app-mount .modal-3O0aXp .content-s2SEQO ul {
+  margin: 0;
+}
+#app-mount .modal-3O0aXp .content-s2SEQO ul li {
+  margin-bottom: var(--spacing);
+  color: var(--text-muted);
+  text-indent: 0;
+  background: var(--background-alt);
+  border: 1px solid var(--base-border);
+  padding: var(--spacing);
+}
+#app-mount .modal-3O0aXp .content-s2SEQO ul li strong {
+  color: var(--text-normal);
+}
+#app-mount .modal-3O0aXp .content-s2SEQO ul li:before {
+  content: none;
+}
+#app-mount .modal-3O0aXp .content-s2SEQO ul a {
+  color: var(--text-link);
+}
+#app-mount .modal-3O0aXp .container-1_ClKi {
+  height: 500px;
+}
+#app-mount .modal-3O0aXp .added-2hLRj3,
+#app-mount .modal-3O0aXp .fixed-3zCC84,
+#app-mount .modal-3O0aXp .improved-1NJK-y,
+#app-mount .modal-3O0aXp .progress-YsDrV- {
+  font-size: var(--font-size);
+  font-weight: var(--font-weight-bold);
+  margin-top: var(--spacing-double);
+  margin-bottom: var(--spacing-half);
+}
+#app-mount .modal-3O0aXp .added-2hLRj3:after,
+#app-mount .modal-3O0aXp .fixed-3zCC84:after,
+#app-mount .modal-3O0aXp .improved-1NJK-y:after,
+#app-mount .modal-3O0aXp .progress-YsDrV-:after {
+  content: none;
+}
+#app-mount .modal-3O0aXp .added-2hLRj3.marginTop-2incQ6,
+#app-mount .modal-3O0aXp .fixed-3zCC84.marginTop-2incQ6,
+#app-mount .modal-3O0aXp .improved-1NJK-y.marginTop-2incQ6,
+#app-mount .modal-3O0aXp .progress-YsDrV-.marginTop-2incQ6 {
+  margin-top: var(--spacing);
 }
 
 #app-mount .lookFilled-1Gx00P,
