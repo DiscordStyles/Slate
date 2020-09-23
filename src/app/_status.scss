@@ -206,7 +206,7 @@
 
 // Standard Dot Status
 .wrapper-3t9DeA {
-  border-radius: var(--avatar-roundness);
+  border-radius: var(--avatar-radius);
   box-shadow: 0 0 0 .5px var(--base-border);
   .avatar-VxgULZ {
     &[src*="/assets/"] {
@@ -238,7 +238,7 @@
     mask: none;
   }
   img {
-    border-radius: var(--avatar-roundness);
+    border-radius: var(--avatar-radius);
   }
   rect {
     x: 24.5px;

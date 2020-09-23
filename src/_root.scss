@@ -4,8 +4,8 @@
   // Roundness
   --border-radius: 3px;
   --button-border-radius: 2px;
-  --avatar-roundness: calc(var(--border-radius) / 2);
-  --server-icon-roundess: var(--border-radius);
+  --avatar-radius: calc(var(--border-radius) / 2);
+  --server-radius: var(--border-radius);
 
   // Primary Coloring
   --accent-solid: rgba(var(--accent), 1);
@@ -101,8 +101,8 @@
   --rs-small-spacing: 0px;
   --rs-large-spacing: 0px;
   --rs-width: 2px;
-  --rs-avatar-shape: var(--avatar-roundness);
+  --rs-avatar-shape: var(--avatar-radius);
 
   // Other vars
-  --cursor: default;
+  --cursor: pointer;
 }
