@@ -312,7 +312,8 @@ body #app-mount .container-1r6BKw {
   }
 }
 
-html.platform-win[lang="en-US"] {
+html.platform-win[lang="en-US"],
+html.platform-win[lang="en-GB"] {
   .toolbar-1t6TWx {
     .iconWrapper-2OrFZ1[aria-label="Inbox"],
     .iconWrapper-2OrFZ1[aria-label="Pinned Messages"],
@@ -412,7 +413,8 @@ html.platform-win[lang="en-US"] {
 
 // Unfocused App
 
-html.platform-win[lang="en-US"]:not(.app-focused) .toolbar-1t6TWx {
+html.platform-win[lang="en-US"]:not(.app-focused) .toolbar-1t6TWx,
+html.platform-win[lang="en-GB"]:not(.app-focused) .toolbar-1t6TWx {
   .iconWrapper-2OrFZ1[aria-label="Inbox"],
   .iconWrapper-2OrFZ1[aria-label="Pinned Messages"],
   .iconWrapper-2OrFZ1[aria-label="Add Friends to DM"],
