@@ -107,7 +107,22 @@
     position: relative;
     display:block;
     mask: url($icon_discord) center/18px no-repeat;
-    opacity: .5;
-    background: var(--white);
+    background: var(--text-muted);
+  }
+  &.unfocused-1QsMU3 .macButtonClose-MwZ2nf, 
+  &.unfocused-1QsMU3 .macButtonMaximize-2FMHAO, 
+  &.unfocused-1QsMU3 .macButtonMinimize-3EJ6wo {
+    background:var(--text-muted);
+    opacity:.6;
+  }
+}
+
+// Unfocused App
+
+html:not(.app-focused) {
+  .wordmarkWindows-1v0lYD,
+  .typeMacOS-3EmCyP:after,
+  .winButton-iRh8-Z {
+    opacity:.6;
   }
 }

@@ -146,6 +146,9 @@ body #app-mount .container-1r6BKw {
         background: rgb(var(--status-red));
       }
     }
+    a {
+      display:none;
+    }
     .icon-22AiRD {
       color: var(--toolbar-text-normal);
       cursor: var(--cursor);
@@ -309,7 +312,7 @@ body #app-mount .container-1r6BKw {
   }
 }
 
-html.platform-win[lang="en-us"] {
+html.platform-win[lang="en-US"] {
   .toolbar-1t6TWx {
     .iconWrapper-2OrFZ1[aria-label="Inbox"],
     .iconWrapper-2OrFZ1[aria-label="Pinned Messages"],
@@ -389,6 +392,7 @@ html.platform-win[lang="en-us"] {
     left:184px;
   }
   .anchor-3Z-8Bb {
+    display:block !important;
     &:nth-child(8) .iconWrapper-2OrFZ1 {
       left:184px;
     }
@@ -401,5 +405,17 @@ html.platform-win[lang="en-us"] {
         content:'Help';
       }
     }
+  }
+}
+
+// Unfocused App
+
+html.platform-win[lang="en-US"]:not(.app-focused) .toolbar-1t6TWx {
+  .iconWrapper-2OrFZ1[aria-label="Inbox"],
+  .iconWrapper-2OrFZ1[aria-label="Pinned Messages"],
+  .iconWrapper-2OrFZ1[aria-label="Add Friends to DM"],
+  .iconWrapper-2OrFZ1[aria-label="New Group DM"],
+  .anchor-3Z-8Bb .iconWrapper-2OrFZ1 {
+    opacity:.6;
   }
 }

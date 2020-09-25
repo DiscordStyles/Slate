@@ -351,8 +351,17 @@ a {
   display: block;
   -webkit-mask: url("data:image/svg+xml;base64,PHN2ZyBpZD0iTGF5ZXJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2aWV3Qm94PSIwIDAgMjQ1IDI0MCI+PHN0eWxlPi5zdDB7ZmlsbDojRkZGRkZGO308L3N0eWxlPjxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik0xMDQuNCAxMDMuOWMtNS43IDAtMTAuMiA1LTEwLjIgMTEuMXM0LjYgMTEuMSAxMC4yIDExLjFjNS43IDAgMTAuMi01IDEwLjItMTEuMS4xLTYuMS00LjUtMTEuMS0xMC4yLTExLjF6TTE0MC45IDEwMy45Yy01LjcgMC0xMC4yIDUtMTAuMiAxMS4xczQuNiAxMS4xIDEwLjIgMTEuMWM1LjcgMCAxMC4yLTUgMTAuMi0xMS4xcy00LjUtMTEuMS0xMC4yLTExLjF6Ii8+PHBhdGggY2xhc3M9InN0MCIgZD0iTTE4OS41IDIwaC0xMzRDNDQuMiAyMCAzNSAyOS4yIDM1IDQwLjZ2MTM1LjJjMCAxMS40IDkuMiAyMC42IDIwLjUgMjAuNmgxMTMuNGwtNS4zLTE4LjUgMTIuOCAxMS45IDEyLjEgMTEuMiAyMS41IDE5VjQwLjZjMC0xMS40LTkuMi0yMC42LTIwLjUtMjAuNnptLTM4LjYgMTMwLjZzLTMuNi00LjMtNi42LTguMWMxMy4xLTMuNyAxOC4xLTExLjkgMTguMS0xMS45LTQuMSAyLjctOCA0LjYtMTEuNSA1LjktNSAyLjEtOS44IDMuNS0xNC41IDQuMy05LjYgMS44LTE4LjQgMS4zLTI1LjktLjEtNS43LTEuMS0xMC42LTIuNy0xNC43LTQuMy0yLjMtLjktNC44LTItNy4zLTMuNC0uMy0uMi0uNi0uMy0uOS0uNS0uMi0uMS0uMy0uMi0uNC0uMy0xLjgtMS0yLjgtMS43LTIuOC0xLjdzNC44IDggMTcuNSAxMS44Yy0zIDMuOC02LjcgOC4zLTYuNyA4LjMtMjIuMS0uNy0zMC41LTE1LjItMzAuNS0xNS4yIDAtMzIuMiAxNC40LTU4LjMgMTQuNC01OC4zIDE0LjQtMTAuOCAyOC4xLTEwLjUgMjguMS0xMC41bDEgMS4yYy0xOCA1LjItMjYuMyAxMy4xLTI2LjMgMTMuMXMyLjItMS4yIDUuOS0yLjljMTAuNy00LjcgMTkuMi02IDIyLjctNi4zLjYtLjEgMS4xLS4yIDEuNy0uMiA2LjEtLjggMTMtMSAyMC4yLS4yIDkuNSAxLjEgMTkuNyAzLjkgMzAuMSA5LjYgMCAwLTcuOS03LjUtMjQuOS0xMi43bDEuNC0xLjZzMTMuNy0uMyAyOC4xIDEwLjVjMCAwIDE0LjQgMjYuMSAxNC40IDU4LjMgMCAwLTguNSAxNC41LTMwLjYgMTUuMnoiLz48L3N2Zz4=") center/18px no-repeat;
           mask: url("data:image/svg+xml;base64,PHN2ZyBpZD0iTGF5ZXJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2aWV3Qm94PSIwIDAgMjQ1IDI0MCI+PHN0eWxlPi5zdDB7ZmlsbDojRkZGRkZGO308L3N0eWxlPjxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik0xMDQuNCAxMDMuOWMtNS43IDAtMTAuMiA1LTEwLjIgMTEuMXM0LjYgMTEuMSAxMC4yIDExLjFjNS43IDAgMTAuMi01IDEwLjItMTEuMS4xLTYuMS00LjUtMTEuMS0xMC4yLTExLjF6TTE0MC45IDEwMy45Yy01LjcgMC0xMC4yIDUtMTAuMiAxMS4xczQuNiAxMS4xIDEwLjIgMTEuMWM1LjcgMCAxMC4yLTUgMTAuMi0xMS4xcy00LjUtMTEuMS0xMC4yLTExLjF6Ii8+PHBhdGggY2xhc3M9InN0MCIgZD0iTTE4OS41IDIwaC0xMzRDNDQuMiAyMCAzNSAyOS4yIDM1IDQwLjZ2MTM1LjJjMCAxMS40IDkuMiAyMC42IDIwLjUgMjAuNmgxMTMuNGwtNS4zLTE4LjUgMTIuOCAxMS45IDEyLjEgMTEuMiAyMS41IDE5VjQwLjZjMC0xMS40LTkuMi0yMC42LTIwLjUtMjAuNnptLTM4LjYgMTMwLjZzLTMuNi00LjMtNi42LTguMWMxMy4xLTMuNyAxOC4xLTExLjkgMTguMS0xMS45LTQuMSAyLjctOCA0LjYtMTEuNSA1LjktNSAyLjEtOS44IDMuNS0xNC41IDQuMy05LjYgMS44LTE4LjQgMS4zLTI1LjktLjEtNS43LTEuMS0xMC42LTIuNy0xNC43LTQuMy0yLjMtLjktNC44LTItNy4zLTMuNC0uMy0uMi0uNi0uMy0uOS0uNS0uMi0uMS0uMy0uMi0uNC0uMy0xLjgtMS0yLjgtMS43LTIuOC0xLjdzNC44IDggMTcuNSAxMS44Yy0zIDMuOC02LjcgOC4zLTYuNyA4LjMtMjIuMS0uNy0zMC41LTE1LjItMzAuNS0xNS4yIDAtMzIuMiAxNC40LTU4LjMgMTQuNC01OC4zIDE0LjQtMTAuOCAyOC4xLTEwLjUgMjguMS0xMC41bDEgMS4yYy0xOCA1LjItMjYuMyAxMy4xLTI2LjMgMTMuMXMyLjItMS4yIDUuOS0yLjljMTAuNy00LjcgMTkuMi02IDIyLjctNi4zLjYtLjEgMS4xLS4yIDEuNy0uMiA2LjEtLjggMTMtMSAyMC4yLS4yIDkuNSAxLjEgMTkuNyAzLjkgMzAuMSA5LjYgMCAwLTcuOS03LjUtMjQuOS0xMi43bDEuNC0xLjZzMTMuNy0uMyAyOC4xIDEwLjVjMCAwIDE0LjQgMjYuMSAxNC40IDU4LjMgMCAwLTguNSAxNC41LTMwLjYgMTUuMnoiLz48L3N2Zz4=") center/18px no-repeat;
-  opacity: 0.5;
-  background: var(--white);
+  background: var(--text-muted);
+}
+.typeMacOS-3EmCyP.unfocused-1QsMU3 .macButtonClose-MwZ2nf, .typeMacOS-3EmCyP.unfocused-1QsMU3 .macButtonMaximize-2FMHAO, .typeMacOS-3EmCyP.unfocused-1QsMU3 .macButtonMinimize-3EJ6wo {
+  background: var(--text-muted);
+  opacity: 0.6;
+}
+
+html:not(.app-focused) .wordmarkWindows-1v0lYD,
+html:not(.app-focused) .typeMacOS-3EmCyP:after,
+html:not(.app-focused) .winButton-iRh8-Z {
+  opacity: 0.6;
 }
 
 body #app-mount .container-1r6BKw {
@@ -508,6 +517,9 @@ body #app-mount .container-1r6BKw .toolbar-1t6TWx .iconWrapper-2OrFZ1 {
 }
 body #app-mount .container-1r6BKw .toolbar-1t6TWx .iconWrapper-2OrFZ1 .iconBadge-qZ4Ksk {
   background: rgb(var(--status-red));
+}
+body #app-mount .container-1r6BKw .toolbar-1t6TWx a {
+  display: none;
 }
 body #app-mount .container-1r6BKw .toolbar-1t6TWx .icon-22AiRD {
   color: var(--toolbar-text-normal);
@@ -670,11 +682,11 @@ body #app-mount .container-1r6BKw.title-3qD0b- .children-19S4PO:hover .nicknames
   opacity: 1;
 }
 
-html.platform-win[lang=en-us] .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label=Inbox],
-html.platform-win[lang=en-us] .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label="Pinned Messages"],
-html.platform-win[lang=en-us] .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label="Add Friends to DM"],
-html.platform-win[lang=en-us] .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label="New Group DM"],
-html.platform-win[lang=en-us] .toolbar-1t6TWx .anchor-3Z-8Bb .iconWrapper-2OrFZ1 {
+html.platform-win[lang=en-US] .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label=Inbox],
+html.platform-win[lang=en-US] .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label="Pinned Messages"],
+html.platform-win[lang=en-US] .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label="Add Friends to DM"],
+html.platform-win[lang=en-US] .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label="New Group DM"],
+html.platform-win[lang=en-US] .toolbar-1t6TWx .anchor-3Z-8Bb .iconWrapper-2OrFZ1 {
   position: fixed;
   top: 0;
   -webkit-app-region: no-drag;
@@ -691,130 +703,141 @@ html.platform-win[lang=en-us] .toolbar-1t6TWx .anchor-3Z-8Bb .iconWrapper-2OrFZ1
   overflow: hidden;
   text-overflow: ellipsis;
 }
-html.platform-win[lang=en-us] .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label=Inbox]::after,
-html.platform-win[lang=en-us] .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label="Pinned Messages"]::after,
-html.platform-win[lang=en-us] .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label="Add Friends to DM"]::after,
-html.platform-win[lang=en-us] .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label="New Group DM"]::after,
-html.platform-win[lang=en-us] .toolbar-1t6TWx .anchor-3Z-8Bb .iconWrapper-2OrFZ1::after {
+html.platform-win[lang=en-US] .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label=Inbox]::after,
+html.platform-win[lang=en-US] .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label="Pinned Messages"]::after,
+html.platform-win[lang=en-US] .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label="Add Friends to DM"]::after,
+html.platform-win[lang=en-US] .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label="New Group DM"]::after,
+html.platform-win[lang=en-US] .toolbar-1t6TWx .anchor-3Z-8Bb .iconWrapper-2OrFZ1::after {
   color: inherit;
   font-weight: inherit;
   font-size: inherit;
   white-space: nowrap;
 }
-html.platform-win[lang=en-us] .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label=Inbox][aria-label=Inbox],
-html.platform-win[lang=en-us] .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label="Pinned Messages"][aria-label=Inbox],
-html.platform-win[lang=en-us] .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label="Add Friends to DM"][aria-label=Inbox],
-html.platform-win[lang=en-us] .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label="New Group DM"][aria-label=Inbox],
-html.platform-win[lang=en-us] .toolbar-1t6TWx .anchor-3Z-8Bb .iconWrapper-2OrFZ1[aria-label=Inbox] {
+html.platform-win[lang=en-US] .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label=Inbox][aria-label=Inbox],
+html.platform-win[lang=en-US] .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label="Pinned Messages"][aria-label=Inbox],
+html.platform-win[lang=en-US] .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label="Add Friends to DM"][aria-label=Inbox],
+html.platform-win[lang=en-US] .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label="New Group DM"][aria-label=Inbox],
+html.platform-win[lang=en-US] .toolbar-1t6TWx .anchor-3Z-8Bb .iconWrapper-2OrFZ1[aria-label=Inbox] {
   left: 38px;
   width: 50px;
 }
-html.platform-win[lang=en-us] .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label=Inbox][aria-label=Inbox]::after,
-html.platform-win[lang=en-us] .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label="Pinned Messages"][aria-label=Inbox]::after,
-html.platform-win[lang=en-us] .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label="Add Friends to DM"][aria-label=Inbox]::after,
-html.platform-win[lang=en-us] .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label="New Group DM"][aria-label=Inbox]::after,
-html.platform-win[lang=en-us] .toolbar-1t6TWx .anchor-3Z-8Bb .iconWrapper-2OrFZ1[aria-label=Inbox]::after {
+html.platform-win[lang=en-US] .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label=Inbox][aria-label=Inbox]::after,
+html.platform-win[lang=en-US] .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label="Pinned Messages"][aria-label=Inbox]::after,
+html.platform-win[lang=en-US] .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label="Add Friends to DM"][aria-label=Inbox]::after,
+html.platform-win[lang=en-US] .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label="New Group DM"][aria-label=Inbox]::after,
+html.platform-win[lang=en-US] .toolbar-1t6TWx .anchor-3Z-8Bb .iconWrapper-2OrFZ1[aria-label=Inbox]::after {
   content: "Inbox";
 }
-html.platform-win[lang=en-us] .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label=Inbox][aria-label="Pinned Messages"],
-html.platform-win[lang=en-us] .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label="Pinned Messages"][aria-label="Pinned Messages"],
-html.platform-win[lang=en-us] .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label="Add Friends to DM"][aria-label="Pinned Messages"],
-html.platform-win[lang=en-us] .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label="New Group DM"][aria-label="Pinned Messages"],
-html.platform-win[lang=en-us] .toolbar-1t6TWx .anchor-3Z-8Bb .iconWrapper-2OrFZ1[aria-label="Pinned Messages"] {
+html.platform-win[lang=en-US] .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label=Inbox][aria-label="Pinned Messages"],
+html.platform-win[lang=en-US] .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label="Pinned Messages"][aria-label="Pinned Messages"],
+html.platform-win[lang=en-US] .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label="Add Friends to DM"][aria-label="Pinned Messages"],
+html.platform-win[lang=en-US] .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label="New Group DM"][aria-label="Pinned Messages"],
+html.platform-win[lang=en-US] .toolbar-1t6TWx .anchor-3Z-8Bb .iconWrapper-2OrFZ1[aria-label="Pinned Messages"] {
   left: 88px;
   width: 42px;
 }
-html.platform-win[lang=en-us] .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label=Inbox][aria-label="Pinned Messages"]::after,
-html.platform-win[lang=en-us] .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label="Pinned Messages"][aria-label="Pinned Messages"]::after,
-html.platform-win[lang=en-us] .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label="Add Friends to DM"][aria-label="Pinned Messages"]::after,
-html.platform-win[lang=en-us] .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label="New Group DM"][aria-label="Pinned Messages"]::after,
-html.platform-win[lang=en-us] .toolbar-1t6TWx .anchor-3Z-8Bb .iconWrapper-2OrFZ1[aria-label="Pinned Messages"]::after {
+html.platform-win[lang=en-US] .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label=Inbox][aria-label="Pinned Messages"]::after,
+html.platform-win[lang=en-US] .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label="Pinned Messages"][aria-label="Pinned Messages"]::after,
+html.platform-win[lang=en-US] .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label="Add Friends to DM"][aria-label="Pinned Messages"]::after,
+html.platform-win[lang=en-US] .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label="New Group DM"][aria-label="Pinned Messages"]::after,
+html.platform-win[lang=en-US] .toolbar-1t6TWx .anchor-3Z-8Bb .iconWrapper-2OrFZ1[aria-label="Pinned Messages"]::after {
   content: "Pins";
 }
-html.platform-win[lang=en-us] .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label=Inbox][aria-label="Pinned Messages"] .iconBadge-qZ4Ksk,
-html.platform-win[lang=en-us] .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label="Pinned Messages"][aria-label="Pinned Messages"] .iconBadge-qZ4Ksk,
-html.platform-win[lang=en-us] .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label="Add Friends to DM"][aria-label="Pinned Messages"] .iconBadge-qZ4Ksk,
-html.platform-win[lang=en-us] .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label="New Group DM"][aria-label="Pinned Messages"] .iconBadge-qZ4Ksk,
-html.platform-win[lang=en-us] .toolbar-1t6TWx .anchor-3Z-8Bb .iconWrapper-2OrFZ1[aria-label="Pinned Messages"] .iconBadge-qZ4Ksk {
+html.platform-win[lang=en-US] .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label=Inbox][aria-label="Pinned Messages"] .iconBadge-qZ4Ksk,
+html.platform-win[lang=en-US] .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label="Pinned Messages"][aria-label="Pinned Messages"] .iconBadge-qZ4Ksk,
+html.platform-win[lang=en-US] .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label="Add Friends to DM"][aria-label="Pinned Messages"] .iconBadge-qZ4Ksk,
+html.platform-win[lang=en-US] .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label="New Group DM"][aria-label="Pinned Messages"] .iconBadge-qZ4Ksk,
+html.platform-win[lang=en-US] .toolbar-1t6TWx .anchor-3Z-8Bb .iconWrapper-2OrFZ1[aria-label="Pinned Messages"] .iconBadge-qZ4Ksk {
   top: 4px;
   right: 4px;
   z-index: -1;
 }
-html.platform-win[lang=en-us] .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label=Inbox][aria-label="Add Friends to DM"], html.platform-win[lang=en-us] .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label=Inbox][aria-label="New Group DM"],
-html.platform-win[lang=en-us] .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label="Pinned Messages"][aria-label="Add Friends to DM"],
-html.platform-win[lang=en-us] .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label="Pinned Messages"][aria-label="New Group DM"],
-html.platform-win[lang=en-us] .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label="Add Friends to DM"][aria-label="Add Friends to DM"],
-html.platform-win[lang=en-us] .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label="Add Friends to DM"][aria-label="New Group DM"],
-html.platform-win[lang=en-us] .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label="New Group DM"][aria-label="Add Friends to DM"],
-html.platform-win[lang=en-us] .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label="New Group DM"][aria-label="New Group DM"],
-html.platform-win[lang=en-us] .toolbar-1t6TWx .anchor-3Z-8Bb .iconWrapper-2OrFZ1[aria-label="Add Friends to DM"],
-html.platform-win[lang=en-us] .toolbar-1t6TWx .anchor-3Z-8Bb .iconWrapper-2OrFZ1[aria-label="New Group DM"] {
+html.platform-win[lang=en-US] .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label=Inbox][aria-label="Add Friends to DM"], html.platform-win[lang=en-US] .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label=Inbox][aria-label="New Group DM"],
+html.platform-win[lang=en-US] .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label="Pinned Messages"][aria-label="Add Friends to DM"],
+html.platform-win[lang=en-US] .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label="Pinned Messages"][aria-label="New Group DM"],
+html.platform-win[lang=en-US] .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label="Add Friends to DM"][aria-label="Add Friends to DM"],
+html.platform-win[lang=en-US] .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label="Add Friends to DM"][aria-label="New Group DM"],
+html.platform-win[lang=en-US] .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label="New Group DM"][aria-label="Add Friends to DM"],
+html.platform-win[lang=en-US] .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label="New Group DM"][aria-label="New Group DM"],
+html.platform-win[lang=en-US] .toolbar-1t6TWx .anchor-3Z-8Bb .iconWrapper-2OrFZ1[aria-label="Add Friends to DM"],
+html.platform-win[lang=en-US] .toolbar-1t6TWx .anchor-3Z-8Bb .iconWrapper-2OrFZ1[aria-label="New Group DM"] {
   left: 130px;
   width: 54px;
 }
-html.platform-win[lang=en-us] .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label=Inbox][aria-label="Add Friends to DM"]::after, html.platform-win[lang=en-us] .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label=Inbox][aria-label="New Group DM"]::after,
-html.platform-win[lang=en-us] .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label="Pinned Messages"][aria-label="Add Friends to DM"]::after,
-html.platform-win[lang=en-us] .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label="Pinned Messages"][aria-label="New Group DM"]::after,
-html.platform-win[lang=en-us] .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label="Add Friends to DM"][aria-label="Add Friends to DM"]::after,
-html.platform-win[lang=en-us] .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label="Add Friends to DM"][aria-label="New Group DM"]::after,
-html.platform-win[lang=en-us] .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label="New Group DM"][aria-label="Add Friends to DM"]::after,
-html.platform-win[lang=en-us] .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label="New Group DM"][aria-label="New Group DM"]::after,
-html.platform-win[lang=en-us] .toolbar-1t6TWx .anchor-3Z-8Bb .iconWrapper-2OrFZ1[aria-label="Add Friends to DM"]::after,
-html.platform-win[lang=en-us] .toolbar-1t6TWx .anchor-3Z-8Bb .iconWrapper-2OrFZ1[aria-label="New Group DM"]::after {
+html.platform-win[lang=en-US] .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label=Inbox][aria-label="Add Friends to DM"]::after, html.platform-win[lang=en-US] .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label=Inbox][aria-label="New Group DM"]::after,
+html.platform-win[lang=en-US] .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label="Pinned Messages"][aria-label="Add Friends to DM"]::after,
+html.platform-win[lang=en-US] .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label="Pinned Messages"][aria-label="New Group DM"]::after,
+html.platform-win[lang=en-US] .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label="Add Friends to DM"][aria-label="Add Friends to DM"]::after,
+html.platform-win[lang=en-US] .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label="Add Friends to DM"][aria-label="New Group DM"]::after,
+html.platform-win[lang=en-US] .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label="New Group DM"][aria-label="Add Friends to DM"]::after,
+html.platform-win[lang=en-US] .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label="New Group DM"][aria-label="New Group DM"]::after,
+html.platform-win[lang=en-US] .toolbar-1t6TWx .anchor-3Z-8Bb .iconWrapper-2OrFZ1[aria-label="Add Friends to DM"]::after,
+html.platform-win[lang=en-US] .toolbar-1t6TWx .anchor-3Z-8Bb .iconWrapper-2OrFZ1[aria-label="New Group DM"]::after {
   content: "Group";
 }
-html.platform-win[lang=en-us] .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label=Inbox][aria-label="New Group DM"],
-html.platform-win[lang=en-us] .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label="Pinned Messages"][aria-label="New Group DM"],
-html.platform-win[lang=en-us] .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label="Add Friends to DM"][aria-label="New Group DM"],
-html.platform-win[lang=en-us] .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label="New Group DM"][aria-label="New Group DM"],
-html.platform-win[lang=en-us] .toolbar-1t6TWx .anchor-3Z-8Bb .iconWrapper-2OrFZ1[aria-label="New Group DM"] {
+html.platform-win[lang=en-US] .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label=Inbox][aria-label="New Group DM"],
+html.platform-win[lang=en-US] .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label="Pinned Messages"][aria-label="New Group DM"],
+html.platform-win[lang=en-US] .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label="Add Friends to DM"][aria-label="New Group DM"],
+html.platform-win[lang=en-US] .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label="New Group DM"][aria-label="New Group DM"],
+html.platform-win[lang=en-US] .toolbar-1t6TWx .anchor-3Z-8Bb .iconWrapper-2OrFZ1[aria-label="New Group DM"] {
   left: 88px;
 }
-html.platform-win[lang=en-us] .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label=Inbox]:hover,
-html.platform-win[lang=en-us] .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label="Pinned Messages"]:hover,
-html.platform-win[lang=en-us] .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label="Add Friends to DM"]:hover,
-html.platform-win[lang=en-us] .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label="New Group DM"]:hover,
-html.platform-win[lang=en-us] .toolbar-1t6TWx .anchor-3Z-8Bb .iconWrapper-2OrFZ1:hover {
+html.platform-win[lang=en-US] .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label=Inbox]:hover,
+html.platform-win[lang=en-US] .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label="Pinned Messages"]:hover,
+html.platform-win[lang=en-US] .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label="Add Friends to DM"]:hover,
+html.platform-win[lang=en-US] .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label="New Group DM"]:hover,
+html.platform-win[lang=en-US] .toolbar-1t6TWx .anchor-3Z-8Bb .iconWrapper-2OrFZ1:hover {
   background: var(--toolbar-background-hover);
 }
-html.platform-win[lang=en-us] .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label=Inbox]:active, html.platform-win[lang=en-us] .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label=Inbox].selected-1GqIat,
-html.platform-win[lang=en-us] .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label="Pinned Messages"]:active,
-html.platform-win[lang=en-us] .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label="Pinned Messages"].selected-1GqIat,
-html.platform-win[lang=en-us] .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label="Add Friends to DM"]:active,
-html.platform-win[lang=en-us] .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label="Add Friends to DM"].selected-1GqIat,
-html.platform-win[lang=en-us] .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label="New Group DM"]:active,
-html.platform-win[lang=en-us] .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label="New Group DM"].selected-1GqIat,
-html.platform-win[lang=en-us] .toolbar-1t6TWx .anchor-3Z-8Bb .iconWrapper-2OrFZ1:active,
-html.platform-win[lang=en-us] .toolbar-1t6TWx .anchor-3Z-8Bb .iconWrapper-2OrFZ1.selected-1GqIat {
+html.platform-win[lang=en-US] .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label=Inbox]:active, html.platform-win[lang=en-US] .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label=Inbox].selected-1GqIat,
+html.platform-win[lang=en-US] .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label="Pinned Messages"]:active,
+html.platform-win[lang=en-US] .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label="Pinned Messages"].selected-1GqIat,
+html.platform-win[lang=en-US] .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label="Add Friends to DM"]:active,
+html.platform-win[lang=en-US] .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label="Add Friends to DM"].selected-1GqIat,
+html.platform-win[lang=en-US] .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label="New Group DM"]:active,
+html.platform-win[lang=en-US] .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label="New Group DM"].selected-1GqIat,
+html.platform-win[lang=en-US] .toolbar-1t6TWx .anchor-3Z-8Bb .iconWrapper-2OrFZ1:active,
+html.platform-win[lang=en-US] .toolbar-1t6TWx .anchor-3Z-8Bb .iconWrapper-2OrFZ1.selected-1GqIat {
   background: var(--toolbar-background-active);
 }
-html.platform-win[lang=en-us] .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label=Inbox] svg,
-html.platform-win[lang=en-us] .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label="Pinned Messages"] svg,
-html.platform-win[lang=en-us] .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label="Add Friends to DM"] svg,
-html.platform-win[lang=en-us] .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label="New Group DM"] svg,
-html.platform-win[lang=en-us] .toolbar-1t6TWx .anchor-3Z-8Bb .iconWrapper-2OrFZ1 svg {
+html.platform-win[lang=en-US] .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label=Inbox] svg,
+html.platform-win[lang=en-US] .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label="Pinned Messages"] svg,
+html.platform-win[lang=en-US] .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label="Add Friends to DM"] svg,
+html.platform-win[lang=en-US] .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label="New Group DM"] svg,
+html.platform-win[lang=en-US] .toolbar-1t6TWx .anchor-3Z-8Bb .iconWrapper-2OrFZ1 svg {
   display: none;
 }
-html.platform-win[lang=en-us] .inviteToolbar-3F-l2g ~ .anchor-3Z-8Bb .iconWrapper-2OrFZ1 {
+html.platform-win[lang=en-US] .inviteToolbar-3F-l2g ~ .anchor-3Z-8Bb .iconWrapper-2OrFZ1 {
   left: 142px;
 }
-html.platform-win[lang=en-us] .libraryFilter-31ZUa2 ~ .anchor-3Z-8Bb .iconWrapper-2OrFZ1 {
+html.platform-win[lang=en-US] .libraryFilter-31ZUa2 ~ .anchor-3Z-8Bb .iconWrapper-2OrFZ1 {
   left: 88px;
 }
-html.platform-win[lang=en-us] .iconWrapper-2OrFZ1[aria-label="Add Friends to DM"] ~ .anchor-3Z-8Bb .iconWrapper-2OrFZ1 {
+html.platform-win[lang=en-US] .iconWrapper-2OrFZ1[aria-label="Add Friends to DM"] ~ .anchor-3Z-8Bb .iconWrapper-2OrFZ1 {
   left: 184px;
 }
-html.platform-win[lang=en-us] .anchor-3Z-8Bb:nth-child(8) .iconWrapper-2OrFZ1 {
+html.platform-win[lang=en-US] .anchor-3Z-8Bb {
+  display: block !important;
+}
+html.platform-win[lang=en-US] .anchor-3Z-8Bb:nth-child(8) .iconWrapper-2OrFZ1 {
   left: 184px;
 }
-html.platform-win[lang=en-us] .anchor-3Z-8Bb:nth-child(6) .iconWrapper-2OrFZ1 {
+html.platform-win[lang=en-US] .anchor-3Z-8Bb:nth-child(6) .iconWrapper-2OrFZ1 {
   left: 130px;
 }
-html.platform-win[lang=en-us] .anchor-3Z-8Bb .iconWrapper-2OrFZ1 {
+html.platform-win[lang=en-US] .anchor-3Z-8Bb .iconWrapper-2OrFZ1 {
   width: auto;
 }
-html.platform-win[lang=en-us] .anchor-3Z-8Bb .iconWrapper-2OrFZ1::after {
+html.platform-win[lang=en-US] .anchor-3Z-8Bb .iconWrapper-2OrFZ1::after {
   content: "Help";
+}
+
+html.platform-win[lang=en-US]:not(.app-focused) .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label=Inbox],
+html.platform-win[lang=en-US]:not(.app-focused) .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label="Pinned Messages"],
+html.platform-win[lang=en-US]:not(.app-focused) .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label="Add Friends to DM"],
+html.platform-win[lang=en-US]:not(.app-focused) .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label="New Group DM"],
+html.platform-win[lang=en-US]:not(.app-focused) .toolbar-1t6TWx .anchor-3Z-8Bb .iconWrapper-2OrFZ1 {
+  opacity: 0.6;
 }
 
 #app-mount .tooltip-2QfLtc,
