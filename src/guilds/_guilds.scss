@@ -88,13 +88,17 @@
   }
   .childWrapper-anI2G9 {
     background: var(--background-light);
+    border-radius: var(--server-radius);
     font-size: 1em;
     font-weight: var(--font-weight-normal);
+    overflow:hidden;
     cursor: var(--cursor);
   }
   .wrapper-1BJsBx,
   .wrapper-25eVIn {
     cursor: var(--cursor);
+    border-radius: var(--server-radius);  
+    overflow:hidden;
   }
   .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9 {
     background: var(--accent-solid);
@@ -104,6 +108,7 @@
     background: var(--background-light);
     color: var(--text-normal);
     cursor: var(--cursor);
+    border-radius: var(--server-radius);
     path[d="M21 11.001H13V3.00098H11V11.001H3V13.001H11V21.001H13V13.001H21V11.001Z"] {
       d:path($path_add);
       transform:scale(1.25) translateX(3px) translateY(2px);
@@ -123,8 +128,12 @@
     }
   }
   .wrapper-25eVIn {
-    border-radius: var(--server-radius);
-    overflow: hidden;
+    overflow: visible;
+    .numberBadge-2s8kKX {
+      position:relative;
+      top:3px;
+      left:3px;
+    }
   }
   .expandedFolderBackground-2sPsd-,
   .folderIconWrapper-226oVY,

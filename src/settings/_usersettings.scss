@@ -1,4 +1,4 @@
-#app-mount {
+#app-mount .layer-3QrUeG[aria-label="USER_SETTINGS"] {
 	// Hide redundant information
 	#user-settings > div > div.contentRegion-3nDuYy > div > div > main > div > div > div:nth-child(1) > h5,
 	#user-settings > div > div.contentRegion-3nDuYy > div > div > main > div > div > div:nth-child(2) > h5 {
@@ -145,27 +145,6 @@
 		}
 		.avatarColumn-VWwg1S {
 			margin:0;
-			.avatarUploader-3XDtmn {
-				.removeButton-1hcZyG {
-					font-size:var(--font-size);
-					color:var(--text-normal);
-					font-weight:var(--font-weight-normal);
-					cursor: var(--cursor);
-				}
-				.avatarUploaderInner-3UNxY3 {
-					background-color:var(--accent-solid);
-					margin-bottom:var(--spacing);
-				}
-				.sizeInfo-SKMPPw {
-					color:var(--text-muted);
-					font-size:var(--font-size-sm);
-					font-weight:var(--font-weight-normal);
-				}
-				.colorStatusRed-1YV2rj {
-					font-size:var(--font-size);
-					font-weight:var(--font-weight-normal);
-				}
-			}
 			+.flexChild-faoVW3 {
 				display:flex;
 				flex-wrap:wrap;
@@ -183,15 +162,6 @@
 				}
 			}
 		}
-	}
-	.avatarUploaderInner-3UNxY3 {
-		width: 64px;
-		height: 64px;
-		border-radius: var(--border-radius);
-		border: 1px solid var(--base-border);
-	}
-	.avatarUploaderIndicator-2G-aIZ {
-		display: none;
 	}
 
 	// Privacy and Safety

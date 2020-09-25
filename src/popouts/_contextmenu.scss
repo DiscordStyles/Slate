@@ -30,13 +30,16 @@
     .item-1tOPte {
       font-size: var(--font-size);
       color: var(--text-normal);
-      font-weight:var(--font-weight-semibold  );
+      font-weight:var(--font-weight-semibold);
       margin: 0;
       padding: var(--spacing-half) var(--spacing);
       box-sizing: border-box;
       border-radius: 0;
       height: 32px;
       cursor: var(--cursor);
+      .labelContainer-1BLJti {
+        padding:0;
+      }
       &.focused-3afm-j {
         background: var(--background-modifier-hover);
       }

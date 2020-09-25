@@ -205,7 +205,7 @@
             width: var(--avatar-size);
             height: var(--avatar-size);
             background: var(--text-muted);
-            mask:url($icon_person) center/12px no-repeat;
+            mask:url($icon_person) center/40% no-repeat;
             position: absolute;
             z-index: 1;
             pointer-events: none;
@@ -321,20 +321,6 @@
         background: var(--background-light);
         position: absolute;
         pointer-events:none;
-      }
-      .contents-2mQqc9 {
-        &:after {
-          content:'';
-          top: var(--spacing);
-          left: var(--spacing);
-          width: var(--avatar-size);
-          height: var(--avatar-size);
-          mask: url($icon_cog) center/15px no-repeat;
-          background:var(--text-muted);
-          position: absolute;
-          z-index:1;
-          pointer-events:none;
-        }
       }
     }
     .botTagRegular-2HEhHi {

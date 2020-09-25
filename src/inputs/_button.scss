@@ -3,7 +3,8 @@
   .lookInverted-2D7oAl,
   .lookLink-9FtZy-,
   .lookOutlined-3sRXeN,
-  .colorPrimary-3b3xI6.lookLink-9FtZy- {
+  .colorPrimary-3b3xI6.lookLink-9FtZy-,
+  .bd-modal-wrapper .footer button {
     font-size: var(--font-size);
     font-weight: var(--font-weight-normal);
     cursor: var(--cursor);
@@ -18,7 +19,8 @@
       margin-right:var(--spacing-half);
     }
   }
-  .lookFilled-1Gx00P {
+  .lookFilled-1Gx00P,
+  .bd-modal-wrapper .footer button {
     color: var(--white);
     background-color: rgb(var(--accent));
     margin-left:var(--spacing);

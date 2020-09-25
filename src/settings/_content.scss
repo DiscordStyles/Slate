@@ -172,6 +172,7 @@
 	}
 	.description-3_Ncsb {
 		font-size: var(--font-size);
+		font-weight:var(--font-weight-normal);
 		line-height: 1.5;
 		color: var(--text-muted);
 	}
@@ -227,7 +228,12 @@
 	.divider-3573oO {
 		display: none;
 	}
-
+	.divider-3wNib3 {
+		margin:0;
+		padding:0;
+		border:none;
+		margin-top:var(--spacing-double);
+	}
 	.formNotice-2_hHWR {
 		.default-3nhoK- {
 			font-size: var(--font-size);
