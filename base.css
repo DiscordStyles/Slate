@@ -9449,9 +9449,6 @@ html.theme-light #app-mount .popout-2iWAc-.force-theme.content-1nP7fx .buttonCon
   min-width: 100%;
   padding: 0;
 }
-#app-mount .layer-3QrUeG[aria-label=GUILD_SETTINGS] .contentTransitionWrap-3hqOEW {
-  position: relative;
-}
 #app-mount .layer-3QrUeG[aria-label=GUILD_SETTINGS] .noticeRegion-1YviSH {
   left: unset;
   right: 0;
@@ -9495,6 +9492,23 @@ html.theme-light #app-mount .popout-2iWAc-.force-theme.content-1nP7fx .buttonCon
   top: 50px;
   border-right: 1px solid var(--base-border);
   width: 200px;
+}
+#app-mount .layer-3QrUeG[aria-label=GUILD_SETTINGS] .sidebarScrollable-1qPI87 + .content-1rPSz4 {
+  max-width: unset;
+}
+#app-mount .layer-3QrUeG[aria-label=GUILD_SETTINGS] .sidebarScrollable-1qPI87 + .content-1rPSz4 div:first-child .size14-e6ZScH.marginBottom20-32qID7 {
+  font-size: var(--font-size);
+  font-weight: var(--font-weight-normal);
+  padding: var(--spacing);
+  background-color: rgba(var(--status-green), 0.25);
+  border: 1px solid rgba(var(--status-green), 0.5);
+  border-radius: var(--border-radius);
+}
+#app-mount .layer-3QrUeG[aria-label=GUILD_SETTINGS] .sidebarScrollable-1qPI87 + .content-1rPSz4 .divider-3573oO ~ .marginBottom40-2vIwTv {
+  margin-bottom: var(--spacing-double);
+}
+#app-mount .layer-3QrUeG[aria-label=GUILD_SETTINGS] .sidebarScrollable-1qPI87 + .content-1rPSz4 .marginBottom40-2vIwTv + .divider-3573oO + .marginBottom40-2vIwTv div.flex-1xMQg5.marginBottom20-32qID7 {
+  margin-bottom: 0;
 }
 #app-mount .layer-3QrUeG[aria-label=GUILD_SETTINGS] .sidebarScrollable-1qPI87 .flexChild-faoVW3[style*="padding: 60px 15px 80px 20px;"] {
   padding: 0 !important;
@@ -12617,7 +12631,7 @@ html.theme-light #app-mount .wrapper-O5i5-0 .root-1gCeng .scroller-2hZ97C .invit
 #app-mount .checkboxWrapper-SkhIWG {
   width: 14px;
   border-radius: 0;
-  background: transparent;
+  background: transparent !important;
   display: flex;
   align-items: center;
   box-shadow: none;
