@@ -120,7 +120,7 @@
 // Unfocused App
 
 html:not(.app-focused) {
-  .wordmarkWindows-1v0lYD,
+  .wordmarkWindows-1v0lYD::before,
   .typeMacOS-3EmCyP:after,
   .winButton-iRh8-Z {
     opacity:.6;

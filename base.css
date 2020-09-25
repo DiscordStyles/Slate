@@ -358,7 +358,7 @@ a {
   opacity: 0.6;
 }
 
-html:not(.app-focused) .wordmarkWindows-1v0lYD,
+html:not(.app-focused) .wordmarkWindows-1v0lYD::before,
 html:not(.app-focused) .typeMacOS-3EmCyP:after,
 html:not(.app-focused) .winButton-iRh8-Z {
   opacity: 0.6;
