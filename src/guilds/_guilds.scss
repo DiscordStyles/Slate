@@ -37,7 +37,11 @@
       transform: translateX(-50%);
     }
     .lowerBadge-29hYVK {
-      margin-bottom:5px;
+      margin-bottom:28px;
+      margin-right:5px;
+      .numberBadge-2s8kKX {
+        box-shadow:0 0 0 3px var(--guilds-background);
+      }
     }
     .upperBadge-2XnnGB {
       top:5px;
@@ -140,7 +144,7 @@
   .guildIcon-GuAC7C,
   .guildIconUnavailable-5PMHDN,
   .guildsError-b7zR5HX {
-    border-radius: var(--border-radius);
+    border-radius: var(--server-radius);
   }
   .wrapper-sa6paO {
     height:100%;

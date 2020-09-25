@@ -1,7 +1,6 @@
 #app-mount {
   .recentMentionsPopout-3rCiI6 {
-    left: 50%;
-    transform: translateX(-50%);
+    margin-left:-50px;
     position: absolute;
     background: var(--background);
     box-shadow: none;

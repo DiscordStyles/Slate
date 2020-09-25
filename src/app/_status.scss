@@ -208,15 +208,16 @@
 .wrapper-3t9DeA {
   border-radius: calc(var(--avatar-radius) / 2);
   box-shadow:0 0 0 .5px var(--base-border);
+  background:var(--background-dark);
   .avatar-VxgULZ {
     &[src*="/assets/"] {
-      content: url('');
+      content:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg"/>');
       border-radius:0;
-      background: var(--background-dark);
+      background: var(--text-muted);
+      mask: url($icon_person) center/42% no-repeat;
     }
     &:before {
-      background: var(--text-muted);
-      mask: url($icon_person) center/12px no-repeat;
+      content:none;
     }
     &[src*="/assets/e1fb24a120bdd003a84e021b16ec3bef.png"],
     &[src*="/assets/861ab526aa1fabb04c6b7da8074e3e21.png"],
@@ -224,9 +225,7 @@
     &[src*="/assets/485a854d5171c8dc98088041626e6fea.png"],
     &[src*="/assets/f810dc5fedb7175c43a3389aa890534f.png"],
     &[src*="/assets/b3150d5cef84b9e82128a1131684f287.png"] {
-      &::before { 
-        mask:url($icon_organization) center/50% no-repeat;
-      }
+      mask:url($icon_organization) center/50% no-repeat;
     }
   }
   svg:not(:root) {
