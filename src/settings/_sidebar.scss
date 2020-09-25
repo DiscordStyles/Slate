@@ -31,6 +31,18 @@
 		line-height: normal;
 		min-width: 165px;
 		cursor: var(--cursor);
+		.badge-_BgAUQ {
+			background:rgb(var(--status-red));
+			padding:0 var(--spacing-half);
+			border-radius:var(--button-border-radius);
+			font-size:var(--font-size-sm);
+			font-weight:var(--font-weight-normal);
+			color:var(--white);
+			text-transform:capitalize;
+			display:flex;
+			align-items:center;
+			line-height:normal;
+		}
 		&:hover,
 		&:active {
 			background-color: transparent;

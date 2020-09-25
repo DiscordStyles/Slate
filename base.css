@@ -751,6 +751,8 @@ html.platform-win[lang=en-US] .toolbar-1t6TWx .anchor-3Z-8Bb .iconWrapper-2OrFZ1
   top: 4px;
   right: 4px;
   z-index: -1;
+  width: 4px;
+  height: 4px;
 }
 html.platform-win[lang=en-US] .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label=Inbox][aria-label="Add Friends to DM"], html.platform-win[lang=en-US] .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label=Inbox][aria-label="New Group DM"],
 html.platform-win[lang=en-US] .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label="Pinned Messages"][aria-label="Add Friends to DM"],
@@ -816,19 +818,19 @@ html.platform-win[lang=en-US] .libraryFilter-31ZUa2 ~ .anchor-3Z-8Bb .iconWrappe
 html.platform-win[lang=en-US] .iconWrapper-2OrFZ1[aria-label="Add Friends to DM"] ~ .anchor-3Z-8Bb .iconWrapper-2OrFZ1 {
   left: 184px;
 }
-html.platform-win[lang=en-US] .anchor-3Z-8Bb {
+html.platform-win[lang=en-US] .toolbar-1t6TWx .anchor-3Z-8Bb {
   display: block !important;
 }
-html.platform-win[lang=en-US] .anchor-3Z-8Bb:nth-child(8) .iconWrapper-2OrFZ1 {
+html.platform-win[lang=en-US] .toolbar-1t6TWx .anchor-3Z-8Bb:nth-child(8) .iconWrapper-2OrFZ1 {
   left: 184px;
 }
-html.platform-win[lang=en-US] .anchor-3Z-8Bb:nth-child(6) .iconWrapper-2OrFZ1 {
+html.platform-win[lang=en-US] .toolbar-1t6TWx .anchor-3Z-8Bb:nth-child(6) .iconWrapper-2OrFZ1 {
   left: 130px;
 }
-html.platform-win[lang=en-US] .anchor-3Z-8Bb .iconWrapper-2OrFZ1 {
+html.platform-win[lang=en-US] .toolbar-1t6TWx .anchor-3Z-8Bb .iconWrapper-2OrFZ1 {
   width: auto;
 }
-html.platform-win[lang=en-US] .anchor-3Z-8Bb .iconWrapper-2OrFZ1::after {
+html.platform-win[lang=en-US] .toolbar-1t6TWx .anchor-3Z-8Bb .iconWrapper-2OrFZ1::after {
   content: "Help";
 }
 
@@ -6058,6 +6060,17 @@ html.theme-light #app-mount .wrapper-3Q5DdO .qrLogin-1AOZMt .startOverButton-3q0
   width: 14px;
   height: 14px;
 }
+#app-mount #guild-header-popout .item-1tOPte .icon-LYJorE foreignObject, #app-mount #guild-header-popout .item-1tOPte .iconContainer-2-XQPY foreignObject {
+  -webkit-mask: none;
+          mask: none;
+}
+#app-mount #guild-header-popout .item-1tOPte .badge-3lkhh2 {
+  border-radius: 50px;
+  width: 4px;
+  height: 4px;
+  background: rgb(var(--status-red));
+  right: -2px;
+}
 #app-mount #guild-header-popout .item-1tOPte .iconContainer-2-XQPY {
   order: -1;
   margin: 0 var(--spacing) 0 0;
@@ -8481,6 +8494,18 @@ html.theme-light #app-mount .popout-2iWAc-.force-theme.content-1nP7fx .buttonCon
   min-width: 165px;
   cursor: var(--cursor);
 }
+#app-mount .layer-3QrUeG[aria-label*=SETTINGS] .sidebarRegion-VFTUkN .item-PXvHYJ .badge-_BgAUQ {
+  background: rgb(var(--status-red));
+  padding: 0 var(--spacing-half);
+  border-radius: var(--button-border-radius);
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-normal);
+  color: var(--white);
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+  line-height: normal;
+}
 #app-mount .layer-3QrUeG[aria-label*=SETTINGS] .sidebarRegion-VFTUkN .item-PXvHYJ:hover, #app-mount .layer-3QrUeG[aria-label*=SETTINGS] .sidebarRegion-VFTUkN .item-PXvHYJ:active {
   background-color: transparent;
 }
@@ -9772,6 +9797,14 @@ html.theme-light #app-mount .popout-2iWAc-.force-theme.content-1nP7fx .buttonCon
 }
 #app-mount .layer-3QrUeG[aria-label=GUILD_SETTINGS] .sidebarScrollable-1qPI87 .separator-gCa7yv {
   display: none;
+}
+#app-mount .layer-3QrUeG[aria-label=GUILD_SETTINGS] .size14-e6ZScH {
+  font-size: var(--font-size);
+  line-height: normal;
+}
+#app-mount .layer-3QrUeG[aria-label=GUILD_SETTINGS] .viewAsRoleButton-1ZpPlO {
+  margin: 0;
+  margin-top: var(--spacing);
 }
 #app-mount .layer-3QrUeG[aria-label=GUILD_SETTINGS] .emojiRow-zIc7ZX {
   box-shadow: 0 1px 0 0 var(--base-border);

@@ -357,6 +357,8 @@ html.platform-win[lang="en-US"] {
           top:4px;
           right:4px;
           z-index:-1;
+          width:4px;
+          height:4px;
         }
       }
       &[aria-label="Add Friends to DM"],
@@ -391,7 +393,7 @@ html.platform-win[lang="en-US"] {
   .iconWrapper-2OrFZ1[aria-label="Add Friends to DM"] ~ .anchor-3Z-8Bb .iconWrapper-2OrFZ1 {
     left:184px;
   }
-  .anchor-3Z-8Bb {
+  .toolbar-1t6TWx .anchor-3Z-8Bb {
     display:block !important;
     &:nth-child(8) .iconWrapper-2OrFZ1 {
       left:184px;

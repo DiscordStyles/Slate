@@ -40,6 +40,16 @@
       .icon-LYJorE, .iconContainer-2-XQPY {
         width: 14px;
         height: 14px;
+        foreignObject {
+          mask:none;
+        }
+      }
+      .badge-3lkhh2 {
+        border-radius:50px;
+        width:4px;
+        height:4px;
+        background:rgb(var(--status-red));
+        right:-2px;
       }
       .iconContainer-2-XQPY {
         order: -1;
