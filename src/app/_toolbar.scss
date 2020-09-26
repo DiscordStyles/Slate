@@ -324,7 +324,7 @@ html.platform-win[lang="en-GB"] {
       position:fixed;
       top:0;
       -webkit-app-region:no-drag;
-      height:var(--titlebar-height);
+      height:calc(var(--titlebar-height) - 1px);
       width:auto;
       display:flex;
       align-items:center;
