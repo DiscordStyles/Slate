@@ -197,7 +197,7 @@
           box-shadow: 0 0 0 1px var(--accent-solid);
         }
         &[src*="/assets/"] {
-          content:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg"/>');
+          content:url($blank);
           + .header-23xsNx + .messageContent-2qWWxC::after {
             content: "";
             top: var(--spacing);

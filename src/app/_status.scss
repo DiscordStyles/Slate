@@ -211,7 +211,7 @@
   background:var(--background-dark);
   .avatar-VxgULZ {
     &[src*="/assets/"] {
-      content:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg"/>');
+      content:url($blank);
       border-radius:0;
       background: var(--text-muted);
       mask: url($icon_person) center/42% no-repeat;
