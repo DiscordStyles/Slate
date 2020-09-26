@@ -7,7 +7,7 @@
     position: fixed;
     top: calc(var(--titlebar-height) + var(--toolbar-height));
     left: 0;
-    top: calc(var(--toolbar-height) + var(--titlebar-height) + 1px);
+    top: calc(var(--toolbar-height) + var(--titlebar-height));
     padding: 0;
     border-radius: 0;
     box-shadow: none;

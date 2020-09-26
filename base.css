@@ -250,8 +250,7 @@ a {
 }
 
 #app-mount .typeWindows-1za-n7 {
-  height: calc(var(--titlebar-height) - 1px);
-  border-bottom: 1px solid var(--toolbar-border);
+  height: calc(var(--titlebar-height) - 2px);
   margin-top: 2px;
   position: relative;
   width: 100vw;
@@ -288,6 +287,8 @@ a {
   width: 100vw;
   height: var(--titlebar-height);
   background: var(--toolbar-background-alt);
+  border-bottom: 1px solid var(--toolbar-border);
+  box-sizing: border-box;
   z-index: -1;
 }
 #app-mount .typeWindows-1za-n7 .winButton-iRh8-Z {
@@ -389,6 +390,7 @@ body #app-mount .container-1r6BKw .children-19S4PO .followButton-L6L-Us {
   border-color: var(--toolbar-border);
   background: var(--toolbar-background-hover);
   color: var(--toolbar-text-normal);
+  z-index: 1;
 }
 body #app-mount .container-1r6BKw .children-19S4PO .followButton-L6L-Us:hover {
   background: var(--toolbar-background-hover) !important;
@@ -6141,7 +6143,7 @@ html.theme-light #app-mount .wrapper-3Q5DdO .qrLogin-1AOZMt .startOverButton-3q0
   position: fixed;
   top: calc(var(--titlebar-height) + var(--toolbar-height));
   left: 0;
-  top: calc(var(--toolbar-height) + var(--titlebar-height) + 1px);
+  top: calc(var(--toolbar-height) + var(--titlebar-height));
   padding: 0;
   border-radius: 0;
   box-shadow: none;

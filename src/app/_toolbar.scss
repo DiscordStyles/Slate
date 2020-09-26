@@ -20,6 +20,7 @@ body #app-mount .container-1r6BKw {
       border-color:var(--toolbar-border);
       background:var(--toolbar-background-hover);
       color:var(--toolbar-text-normal);
+      z-index:1;
       &:hover {
         background:var(--toolbar-background-hover) !important;
       }
