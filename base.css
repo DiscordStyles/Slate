@@ -6603,7 +6603,7 @@ html.theme-light #app-mount .wrapper-3Q5DdO .qrLogin-1AOZMt .startOverButton-3q0
 }
 #app-mount .userPopout-3XzG_A .headerPlaying-j0WQBV .activity-11LB_k > .buttonsWrapper-2eYbM0 {
   margin-top: 0;
-  padding-top: calc(var(--spacing-triple) + 4px);
+  padding: 0 var(--spacing);
   position: relative;
 }
 #app-mount .userPopout-3XzG_A .headerPlaying-j0WQBV .activity-11LB_k > .buttonsWrapper-2eYbM0 > .listeningActionsUserPopout-Ga2V_N {
@@ -6771,8 +6771,10 @@ html.theme-light #app-mount .wrapper-3Q5DdO .qrLogin-1AOZMt .startOverButton-3q0
 }
 #app-mount .userPopout-3XzG_A .bar-3urHkF + .horizontal-2EEEnY {
   position: absolute;
-  top: var(--spacing);
+  height: 28px;
+  top: -28px;
   right: var(--spacing);
+  align-items: center;
 }
 #app-mount .userPopout-3XzG_A .barInner-3NDaY_ {
   border-radius: 0;

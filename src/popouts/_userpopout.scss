@@ -197,7 +197,7 @@
       background: rgba(var(--accent), 0.1);
       .activity-11LB_k > .buttonsWrapper-2eYbM0 {
         margin-top: 0;
-        padding-top: calc(var(--spacing-triple) + 4px);
+        padding:0 var(--spacing);
         position: relative;
         & > .listeningActionsUserPopout-Ga2V_N {
           height: var(--item-height);
@@ -351,8 +351,10 @@
       z-index: 0;
       & + .horizontal-2EEEnY {
         position: absolute;
-        top: var(--spacing);
+        height:28px;
+        top: -28px;
         right: var(--spacing);
+        align-items:center;
       }
     }
     .barInner-3NDaY_ {
