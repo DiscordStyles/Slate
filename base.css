@@ -159,6 +159,7 @@ body {
 }
 #app-mount .layers-3iHuyZ {
   z-index: 11;
+  overflow: visible;
 }
 #app-mount .layer-3QrUeG {
   opacity: 1 !important;
@@ -249,12 +250,13 @@ a {
 }
 
 #app-mount .typeWindows-1za-n7 {
-  height: calc(var(--titlebar-height) - 2px);
+  height: calc(var(--titlebar-height) - 1px);
   border-bottom: 1px solid var(--toolbar-border);
   margin-top: 2px;
   position: relative;
   width: 100vw;
   z-index: 10;
+  box-sizing: border-box;
 }
 #app-mount .typeWindows-1za-n7 .wordmarkWindows-1v0lYD {
   padding: 0 var(--spacing-half);
@@ -2830,6 +2832,7 @@ html.platform-win[lang=en-GB]:not(.app-focused) .toolbar-1t6TWx .anchor-3Z-8Bb .
   box-shadow: none;
   opacity: 1;
   padding: var(--spacing-third) var(--spacing);
+  padding-right: var(--spacing-third);
   min-height: auto;
   cursor: var(--cursor);
 }
@@ -8547,6 +8550,7 @@ html.theme-light #app-mount .popout-2iWAc-.force-theme.content-1nP7fx .buttonCon
   padding: 0 var(--spacing-triple);
   background: var(--backdrop);
   z-index: 1;
+  top: calc(var(--titlebar-height) * -1);
 }
 #app-mount .layer-3QrUeG[aria-label*=SETTINGS].animating-rRxada {
   display: none;

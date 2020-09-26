@@ -1,12 +1,13 @@
 // Windows Titlebar
 
 #app-mount .typeWindows-1za-n7 {
-  height: calc(var(--titlebar-height) - 2px);
+  height: calc(var(--titlebar-height) - 1px);
   border-bottom: 1px solid var(--toolbar-border);
   margin-top: 2px;
   position: relative;
   width: 100vw;
   z-index:10;
+  box-sizing:border-box;
   .wordmarkWindows-1v0lYD {
     padding: 0 var(--spacing-half);
     display: flex;
