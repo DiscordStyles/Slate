@@ -27,7 +27,7 @@
       position:absolute;
       top:var(--toolbar-height);
       left:0;
-      width:calc(100vw - var(--sidebar-width) * 2 - var(--noasw-base) * 2);
+      width:calc(100vw - (var(--sidebar-width) * 2) - var(--noasw-base));
       background:var(--background);
       height:30px;
       border-bottom:1px solid var(--base-border);
@@ -175,8 +175,8 @@
       background: var(--background);
       min-width:unset;
       max-width:unset;
-      flex:0 0 calc(var(--sidebar-width) + var(--noasw-base));
-      width:calc(var(--sidebar-width) + var(--noasw-base));
+      flex:0 0 var(--sidebar-width);
+      width:var(--sidebar-width);
     }
     .nowPlayingScroller-2XrVUt {
       height: calc(100vh - var(--titlebar-height) - var(--toolbar-height));
@@ -310,11 +310,13 @@
     
     // Empty State Messages
     
-    .text-GwUZgS {
-      color:var(--text-muted);
-      font-size:var(--font-size);
-    }
     .image-1GzsFd {
+      margin:0;
+      width:175px !important;
+      height:175px !important;
+      background:url($illustration_7) center/contain no-repeat !important;
+    }
+    .text-GwUZgS {
       display:none;
     }
   }

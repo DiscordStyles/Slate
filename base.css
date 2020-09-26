@@ -5302,7 +5302,7 @@ html.theme-light #app-mount .reactions-12N0jA .reaction-1hd86g:not(.reactionMe-w
   position: absolute;
   top: var(--toolbar-height);
   left: 0;
-  width: calc(100vw - var(--sidebar-width) * 2 - var(--noasw-base) * 2);
+  width: calc(100vw - (var(--sidebar-width) * 2) - var(--noasw-base));
   background: var(--background);
   height: 30px;
   border-bottom: 1px solid var(--base-border);
@@ -5445,8 +5445,8 @@ html.theme-light #app-mount .reactions-12N0jA .reaction-1hd86g:not(.reactionMe-w
   background: var(--background);
   min-width: unset;
   max-width: unset;
-  flex: 0 0 calc(var(--sidebar-width) + var(--noasw-base));
-  width: calc(var(--sidebar-width) + var(--noasw-base));
+  flex: 0 0 var(--sidebar-width);
+  width: var(--sidebar-width);
 }
 #app-mount .container-1D34oG .nowPlayingScroller-2XrVUt {
   height: calc(100vh - var(--titlebar-height) - var(--toolbar-height));
@@ -5580,11 +5580,13 @@ html.theme-light #app-mount .reactions-12N0jA .reaction-1hd86g:not(.reactionMe-w
   box-shadow: inset 0 0 0 1px var(--base-border);
   border-radius: var(--border-radius);
 }
-#app-mount .container-1D34oG .text-GwUZgS {
-  color: var(--text-muted);
-  font-size: var(--font-size);
-}
 #app-mount .container-1D34oG .image-1GzsFd {
+  margin: 0;
+  width: 175px !important;
+  height: 175px !important;
+  background: url("https://discordstyles.github.io/Slate/assets/illustrations/8.svg") center/contain no-repeat !important;
+}
+#app-mount .container-1D34oG .text-GwUZgS {
   display: none;
 }
 
