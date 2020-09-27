@@ -8545,6 +8545,58 @@ html.theme-light #app-mount .popout-2iWAc-.force-theme.content-1nP7fx .buttonCon
   margin-top: var(--spacing);
 }
 
+#app-mount .toolbar-2bjZV7 {
+  background: var(--background);
+  border: 1px solid var(--base-border);
+  box-shadow: var(--elevation-1);
+  border-radius: var(--border-radius);
+  height: auto;
+  margin-left: 12px;
+}
+#app-mount .toolbar-2bjZV7 .button-qqmJ7w {
+  all: unset;
+  width: 30px;
+  height: var(--input-height);
+  display: flex;
+  align-items: center;
+  color: var(--text-normal);
+  box-shadow: none !important;
+}
+#app-mount .toolbar-2bjZV7 .button-qqmJ7w:nth-child(2) {
+  border-radius: var(--border-radius) 0 0 var(--border-radius);
+}
+#app-mount .toolbar-2bjZV7 .button-qqmJ7w:last-child {
+  border-radius: 0 var(--border-radius) var(--border-radius) 0;
+}
+#app-mount .toolbar-2bjZV7 .button-qqmJ7w .icon-KgGMGo {
+  color: inherit;
+  height: 14px;
+  width: 14px;
+}
+#app-mount .toolbar-2bjZV7 .button-qqmJ7w .buttonInner-3shTxu {
+  height: auto;
+}
+#app-mount .toolbar-2bjZV7 .button-qqmJ7w:hover {
+  background: var(--background-modifier-hover);
+}
+#app-mount .toolbar-2bjZV7 .button-qqmJ7w:active {
+  background: var(--background-modifier-active);
+}
+#app-mount .toolbar-2bjZV7 .divider-24xeUg {
+  display: none;
+}
+#app-mount .toolbar-2bjZV7:before {
+  background: var(--background);
+  border: 1px solid var(--base-border);
+  width: 8px;
+  height: 8px;
+  -webkit-clip-path: polygon(100% 0, 0% 100%, 0 0);
+          clip-path: polygon(100% 0, 0% 100%, 0 0);
+  transform: rotate(225deg);
+  margin-left: 3px;
+  margin-bottom: 2.5px;
+}
+
 #app-mount .layer-3QrUeG[aria-label*=SETTINGS] {
   display: flex;
   align-items: center;

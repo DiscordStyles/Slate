@@ -1,0 +1,50 @@
+#app-mount .toolbar-2bjZV7 {
+    background:var(--background);
+    border:1px solid var(--base-border);
+    box-shadow:var(--elevation-1);
+    border-radius:var(--border-radius);
+    height:auto;
+    margin-left:12px;
+    .button-qqmJ7w {
+        all:unset;
+        width:30px;
+        height:var(--input-height);
+        display:flex;
+        align-items:center;
+        color:var(--text-normal);
+        box-shadow:none !important;
+        &:nth-child(2) {
+            border-radius:var(--border-radius) 0 0 var(--border-radius);
+        }
+        &:last-child {
+            border-radius:0 var(--border-radius) var(--border-radius) 0;
+        }
+        .icon-KgGMGo {
+            color:inherit;
+            height:14px;
+            width:14px;
+        }
+        .buttonInner-3shTxu {
+            height:auto;
+        }
+        &:hover {
+            background:var(--background-modifier-hover);
+        }
+        &:active {
+            background:var(--background-modifier-active);
+        }
+    }
+    .divider-24xeUg {
+        display:none;
+    }
+    &:before {
+        background: var(--background);
+        border: 1px solid var(--base-border);
+        width: 8px;
+        height: 8px;
+        clip-path: polygon(100% 0, 0% 100%, 0 0);
+        transform:rotate(225deg);
+        margin-left:3px;
+        margin-bottom:2.5px;
+    }
+}
