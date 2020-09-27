@@ -2833,6 +2833,7 @@ html.platform-win[lang=en-GB]:not(.app-focused) .toolbar-1t6TWx .anchor-3Z-8Bb .
   border-bottom: 1px solid var(--base-border);
   box-shadow: none;
   opacity: 1;
+  z-index: 100;
   padding: var(--spacing-third) var(--spacing);
   padding-right: var(--spacing-third);
   min-height: auto;
@@ -8404,8 +8405,10 @@ html.theme-light #app-mount .container-ZRw2kD .guildSection-1EoFKd .showMoreEmoj
   transform: none !important;
 }
 
-.full-motion .translate-2dAEQ6.animatorLeft-1EQxU0 {
-  transform: translateZ(0) !important;
+.full-motion body .translate-2dAEQ6 {
+  transform: none !important;
+  -webkit-transform: none !important;
+  transition: none;
 }
 
 #app-mount .container-2Uhd6d {
@@ -8595,6 +8598,44 @@ html.theme-light #app-mount .popout-2iWAc-.force-theme.content-1nP7fx .buttonCon
   transform: rotate(225deg);
   margin-left: 3px;
   margin-bottom: 2.5px;
+}
+
+#app-mount .colorPickerCustom-2CWBn2 {
+  padding: var(--spacing);
+  border-radius: var(--border-radius);
+  background: var(--background);
+  box-shadow: var(--elevation-1);
+  border: 1px solid var(--base-border);
+  width: auto;
+}
+#app-mount .colorPickerCustom-2CWBn2 .saturation-1FDvtn {
+  height: 150px;
+  width: 200px;
+}
+#app-mount .colorPickerCustom-2CWBn2 .saturation-1FDvtn > div,
+#app-mount .colorPickerCustom-2CWBn2 .saturation-1FDvtn > div > div,
+#app-mount .colorPickerCustom-2CWBn2 .saturation-black {
+  border-radius: var(--border-radius);
+}
+#app-mount .colorPickerCustom-2CWBn2 .hue-13HAGb {
+  height: 6px;
+  margin: var(--spacing) 0;
+}
+#app-mount .colorPickerCustom-2CWBn2 .hue-13HAGb > div > div {
+  border-radius: var(--button-border-radius);
+}
+#app-mount .colorPickerCustom-2CWBn2 .hue-13HAGb > div > div > div > div {
+  background: var(--white) !important;
+  box-shadow: none !important;
+  border-radius: var(--button-border-radius) !important;
+  margin: 0 !important;
+  height: 16px !important;
+  width: 6px !important;
+  margin-top: -4px !important;
+  cursor: w-resize;
+}
+#app-mount .colorPickerCustom-2CWBn2 .marginTop8-1DLZ1n {
+  margin: 0;
 }
 
 #app-mount .layer-3QrUeG[aria-label*=SETTINGS] {
@@ -10601,10 +10642,6 @@ body #app-mount #bd-settingspane-container .bd-controls {
   padding: 0 var(--spacing-double);
 }
 
-#app-mount .full-motion .translate-2dAEQ6.didRender-33z1u8 {
-  transform: none !important;
-  -webkit-transform: none !important;
-}
 #app-mount .backdrop-1wrmKB,
 #app-mount .backdropWithLayer-3_uhz4 {
   background: var(--backdrop) !important;

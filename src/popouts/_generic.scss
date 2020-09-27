@@ -8,6 +8,8 @@
     }
 }
 
-.full-motion .translate-2dAEQ6.animatorLeft-1EQxU0 {
-    transform:translateZ(0) !important;
+.full-motion body .translate-2dAEQ6 {
+    transform:none !important;
+    -webkit-transform:none !important;
+    transition:none;
 }

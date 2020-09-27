@@ -61,6 +61,7 @@
     border-bottom: 1px solid var(--base-border);
     box-shadow: none;
     opacity: 1;
+    z-index:100;
     padding: var(--spacing-third) var(--spacing);
     padding-right:var(--spacing-third);
     min-height: auto;
