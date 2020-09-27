@@ -7348,24 +7348,8 @@ html.theme-light #app-mount .userPopout-3XzG_A .note-3HfJZ5 textarea {
   border: 1px solid var(--base-border);
   box-shadow: var(--elevation-1);
   margin-left: calc((var(--spacing-double) + var(--avatar-size-sm)) * -1 + var(--spacing));
-  bottom: calc(100% + var(--spacing-double) + 6px);
+  bottom: calc(100% + var(--spacing-double));
   overflow: visible;
-}
-#app-mount .autocomplete-1vrmpx::before {
-  content: "";
-  position: absolute;
-  left: 50%;
-  bottom: -5.5px;
-  height: 10px;
-  width: 10px;
-  background: var(--background);
-  transform: translateX(-50%);
-  transform: rotate(45deg);
-  border-bottom: 1px solid var(--base-border);
-  border-right: 1px solid var(--base-border);
-  -webkit-clip-path: polygon(0 100%, 100% 100%, 100% 0);
-  clip-path: polygon(0 100%, 100% 100%, 100% 0);
-  box-shadow: var(--elevation-1);
 }
 #app-mount .autocomplete-1vrmpx .wrapper-3t9DeA {
   height: var(--avatar-size-xsm) !important;
@@ -7428,24 +7412,31 @@ html.theme-light #app-mount .userPopout-3XzG_A .note-3HfJZ5 textarea {
 #app-mount .autocomplete-1vrmpx .autocompleteRow-2OthDa .size14-e6ZScH {
   font-size: var(--font-size);
 }
-#app-mount .autocomplete-1vrmpx .autocompleteRow-2OthDa .size14-e6ZScH[style] {
+#app-mount .autocomplete-1vrmpx .autocompleteRow-2OthDa .size14-e6ZScH[style*=color] {
   font-weight: var(--font-weight-semibold);
   border: 1px solid currentColor;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  flex: 0 !important;
+  flex: auto !important;
   padding: var(--spacing-third);
   border-radius: var(--border-radius);
   font-size: var(--font-size-sm);
   line-height: normal;
 }
-#app-mount .autocomplete-1vrmpx .autocompleteRow-2OthDa .size14-e6ZScH[style] + .description-11DmNu {
+#app-mount .autocomplete-1vrmpx .autocompleteRow-2OthDa .size14-e6ZScH[style*=color] + .description-11DmNu {
   background: transparent !important;
   margin: 0;
   margin-left: auto;
   padding: 0;
   color: var(--text-muted);
+}
+#app-mount .autocomplete-1vrmpx .flexChild-faoVW3 {
+  display: flex;
+  align-items: center;
+}
+#app-mount .autocomplete-1vrmpx .colorStandard-2KCXvj.flexChild-faoVW3 {
+  margin: 0;
 }
 #app-mount .autocomplete-1vrmpx .divider-23swzi {
   background: var(--base-border);
@@ -7492,8 +7483,20 @@ html.theme-light #app-mount .userPopout-3XzG_A .note-3HfJZ5 textarea {
   top: calc(100% + var(--spacing-half) + 5px);
 }
 #app-mount .channelTextAreaUpload-3t7EIx .autocomplete-1vrmpx::before {
+  content: "";
   top: -5.5px;
+  transform: translateX(-50%);
   transform: rotate(-135deg);
+  position: absolute;
+  left: 50%;
+  height: 10px;
+  width: 10px;
+  background: var(--background);
+  border-bottom: 1px solid var(--base-border);
+  border-right: 1px solid var(--base-border);
+  -webkit-clip-path: polygon(0 100%, 100% 100%, 100% 0);
+  clip-path: polygon(0 100%, 100% 100%, 100% 0);
+  box-shadow: var(--elevation-1);
 }
 
 #app-mount ::-webkit-scrollbar {

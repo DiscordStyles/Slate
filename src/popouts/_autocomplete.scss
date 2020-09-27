@@ -4,24 +4,8 @@
   border: 1px solid var(--base-border);
   box-shadow: var(--elevation-1);
   margin-left:calc((var(--spacing-double) + var(--avatar-size-sm)) * -1 + var(--spacing));
-  bottom:calc(100% + var(--spacing-double) + 6px);
+  bottom:calc(100% + var(--spacing-double));
   overflow:visible;
-  &::before {
-    content:'';
-    position:absolute;
-    left:50%;
-    bottom:-5.5px;
-    height:10px;
-    width:10px;
-    background:var(--background);
-    transform:translateX(-50%);
-    transform: rotate(45deg);
-    border-bottom: 1px solid var(--base-border);
-    border-right: 1px solid var(--base-border);
-    -webkit-clip-path: polygon(0 100%, 100% 100%, 100% 0);
-    clip-path: polygon(0 100%, 100% 100%, 100% 0);
-    box-shadow: var(--elevation-1);
-  }
   .wrapper-3t9DeA {
     height:var(--avatar-size-xsm) !important;
     width:var(--avatar-size-xsm) !important;
@@ -81,11 +65,11 @@
     }
     .size14-e6ZScH {
       font-size:var(--font-size);
-      &[style] {
+      &[style*="color"] {
         font-weight:var(--font-weight-semibold);
         border:1px solid currentColor;
         width:fit-content;
-        flex:0 !important;
+        flex:auto !important;
         padding:var(--spacing-third);
         border-radius:var(--border-radius);
         font-size:var(--font-size-sm);
@@ -99,6 +83,13 @@
         }
       }
     }
+  }
+  .flexChild-faoVW3 {
+    display:flex;
+    align-items:center;
+  }
+  .colorStandard-2KCXvj.flexChild-faoVW3 {
+    margin:0;
   }
   .divider-23swzi {
     background:var(--base-border);
@@ -144,7 +135,19 @@
   bottom:unset;
   top:calc(100% + var(--spacing-half) + 5px);
   &::before {
+    content:'';
     top:-5.5px;
+    transform:translateX(-50%);
     transform: rotate(-135deg);
+    position:absolute;
+    left:50%;
+    height:10px;
+    width:10px;
+    background:var(--background);
+    border-bottom: 1px solid var(--base-border);
+    border-right: 1px solid var(--base-border);
+    -webkit-clip-path: polygon(0 100%, 100% 100%, 100% 0);
+    clip-path: polygon(0 100%, 100% 100%, 100% 0);
+    box-shadow: var(--elevation-1);
   }
 }
