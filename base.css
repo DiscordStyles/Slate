@@ -922,6 +922,7 @@ html.platform-win[lang=en-GB] .toolbar-1t6TWx .anchor-3Z-8Bb:nth-child(6) .iconW
 html.platform-win[lang=en-US] .toolbar-1t6TWx .anchor-3Z-8Bb .iconWrapper-2OrFZ1,
 html.platform-win[lang=en-GB] .toolbar-1t6TWx .anchor-3Z-8Bb .iconWrapper-2OrFZ1 {
   width: auto;
+  left: 130px;
 }
 html.platform-win[lang=en-US] .toolbar-1t6TWx .anchor-3Z-8Bb .iconWrapper-2OrFZ1::after,
 html.platform-win[lang=en-GB] .toolbar-1t6TWx .anchor-3Z-8Bb .iconWrapper-2OrFZ1::after {
