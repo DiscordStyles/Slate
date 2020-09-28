@@ -2216,8 +2216,8 @@ html.platform-win[lang=en-GB]:not(.app-focused) .toolbar-1t6TWx .anchor-3Z-8Bb .
   margin-right: 0;
 }
 #app-mount .panels-j1Uci_ > .container-3baos1 {
-  padding: 0 var(--spacing);
-  height: 50px;
+  padding: var(--spacing);
+  height: auto;
   box-sizing: border-box;
   margin-bottom: 0;
   overflow: visible;
@@ -3976,7 +3976,6 @@ html.platform-win[lang=en-GB]:not(.app-focused) .toolbar-1t6TWx .anchor-3Z-8Bb .
   display: flex;
   align-items: center;
   background: var(--background-light);
-  min-height: 50px;
   height: auto;
   margin: 0;
   position: relative;
