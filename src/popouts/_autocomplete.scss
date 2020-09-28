@@ -69,7 +69,7 @@
         font-weight:var(--font-weight-semibold);
         border:1px solid currentColor;
         width:fit-content;
-        flex:auto !important;
+        flex-grow:0 !important;
         padding:var(--spacing-third);
         border-radius:var(--border-radius);
         font-size:var(--font-size-sm);
