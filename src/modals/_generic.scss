@@ -123,6 +123,25 @@
       .body-Mj9Oxz {
         text-align:left;
       }
+      .title-18-Ds0 {
+        max-height:50px;
+        box-sizing:border-box;
+        padding:var(--spacing-double);
+        text-align:left;
+        border-bottom:1px solid var(--base-border);
+        color:var(--text-normal);
+        font-size:var(--font-size-md);
+        font-weight:var(--font-weight-semibold);
+        text-transform:none;
+        margin:0;
+        position:relative;
+        line-height:normal;
+        display:flex;
+        align-items:center;
+        top:calc(var(--spacing-double) * -1);
+        left:calc(var(--spacing-double) * -1);
+        width:calc(100% + (var(--spacing-double) * 2));
+      }
     }
     .inner-ZyuQk0 {
       padding: var(--spacing-double) var(--spacing-double) 0;
@@ -213,7 +232,13 @@
     .cancelButton-3Xu9aX,
     button:only-child {
       margin:0;
-    } 
+    }
+    button {
+      min-width:120px;
+    }
+    &.justifyBetween-2tTqYu {
+      justify-content:flex-start;
+    }
     .lookLink-9FtZy-,
     .cancelButton-2O3h8t {
       color: var(--text-normal);

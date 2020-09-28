@@ -9132,7 +9132,7 @@ html.theme-light #app-mount .popout-2iWAc-.force-theme.content-1nP7fx .buttonCon
   align-items: center;
   position: absolute;
   margin: 0;
-  right: var(--spacing-double);
+  right: calc(var(--spacing) * 1.5);
 }
 #app-mount .layer-3QrUeG[aria-label*=SETTINGS] .contentRegion-3nDuYy .tools-3-3s-N {
   position: relative;
@@ -10425,8 +10425,14 @@ html.theme-light #app-mount .popout-2iWAc-.force-theme.content-1nP7fx .buttonCon
   height: var(--avatar-size-sm) !important;
   width: var(--avatar-size-sm) !important;
 }
+#app-mount .layer-3QrUeG[aria-label=GUILD_SETTINGS] .customColumn-Rb6toI {
+  position: relative;
+  max-width: unset;
+  width: 100%;
+}
 #app-mount .layer-3QrUeG[aria-label=GUILD_SETTINGS] .customHeader-f9DEJ_ {
   padding-top: 0;
+  margin-bottom: var(--spacing-double);
 }
 #app-mount .layer-3QrUeG[aria-label=GUILD_SETTINGS] .customHeader-f9DEJ_ h2 {
   margin-bottom: 0;
@@ -10434,25 +10440,30 @@ html.theme-light #app-mount .popout-2iWAc-.force-theme.content-1nP7fx .buttonCon
 #app-mount .layer-3QrUeG[aria-label=GUILD_SETTINGS] .customScroller-26gWhv > div {
   margin: 0;
   max-width: unset;
-  padding: var(--spacing-double);
-}
-#app-mount .layer-3QrUeG[aria-label=GUILD_SETTINGS] .customContainer-1RHXqt {
-  position: relative;
+  padding: var(--spacing-double) !important;
 }
 #app-mount .layer-3QrUeG[aria-label=GUILD_SETTINGS] .auditLog-3jNbM6 {
-  border-color: var(--base-border);
+  border: none;
 }
-#app-mount .layer-3QrUeG[aria-label=GUILD_SETTINGS] .headerClickable-2IVFo9, #app-mount .layer-3QrUeG[aria-label=GUILD_SETTINGS] .headerDefault-1wrJcN {
-  background: var(--background-dark);
+#app-mount .layer-3QrUeG[aria-label=GUILD_SETTINGS] .auditLog-3jNbM6:last-child {
+  margin: 0;
+}
+#app-mount .layer-3QrUeG[aria-label=GUILD_SETTINGS] .auditLog-3jNbM6 .headerClickable-2IVFo9,
+#app-mount .layer-3QrUeG[aria-label=GUILD_SETTINGS] .auditLog-3jNbM6 .headerDefault-1wrJcN {
+  border: 1px solid var(--base-border);
+  padding: var(--spacing);
+  background: var(--background-alt);
+  border-radius: var(--border-radius);
+}
+#app-mount .layer-3QrUeG[aria-label=GUILD_SETTINGS] .auditLog-3jNbM6 .headerClickable-2IVFo9 .icon-RTGJu3,
+#app-mount .layer-3QrUeG[aria-label=GUILD_SETTINGS] .auditLog-3jNbM6 .headerDefault-1wrJcN .icon-RTGJu3 {
+  display: none;
 }
 #app-mount .layer-3QrUeG[aria-label=GUILD_SETTINGS] .divider-1pnAR2 {
   border-color: var(--base-border);
 }
 #app-mount .layer-3QrUeG[aria-label=GUILD_SETTINGS] .changeDetails-bk98pu {
   background: var(--background-dark);
-}
-#app-mount .layer-3QrUeG[aria-label=GUILD_SETTINGS] .customColumn-Rb6toI + .toolsContainer-1edPuj {
-  margin-right: -10px;
 }
 
 html.theme-light #app-mount .layer-3QrUeG[aria-label*=SETTINGS] .contentRegion-3nDuYy .streamerModeEnabled-2q0Gft .streamerModeEnabledBtn-2ZJ2eq:hover {
@@ -11210,6 +11221,26 @@ body #app-mount #bd-settingspane-container .bd-controls {
 #app-mount .root-1gCeng:not(.popout-103y-5) .content-1LAB8Z .body-Mj9Oxz {
   text-align: left;
 }
+#app-mount .modal-yWgWj- .content-1LAB8Z .title-18-Ds0,
+#app-mount .root-1gCeng:not(.popout-103y-5) .content-1LAB8Z .title-18-Ds0 {
+  max-height: 50px;
+  box-sizing: border-box;
+  padding: var(--spacing-double);
+  text-align: left;
+  border-bottom: 1px solid var(--base-border);
+  color: var(--text-normal);
+  font-size: var(--font-size-md);
+  font-weight: var(--font-weight-semibold);
+  text-transform: none;
+  margin: 0;
+  position: relative;
+  line-height: normal;
+  display: flex;
+  align-items: center;
+  top: calc(var(--spacing-double) * -1);
+  left: calc(var(--spacing-double) * -1);
+  width: calc(100% + (var(--spacing-double) * 2));
+}
 #app-mount .modal-yWgWj- .inner-ZyuQk0,
 #app-mount .root-1gCeng:not(.popout-103y-5) .inner-ZyuQk0 {
   padding: var(--spacing-double) var(--spacing-double) 0;
@@ -11323,6 +11354,12 @@ body #app-mount #bd-settingspane-container .bd-controls {
 #app-mount .footer-2gL1pp .cancelButton-3Xu9aX,
 #app-mount .footer-2gL1pp button:only-child {
   margin: 0;
+}
+#app-mount .footer-2gL1pp button {
+  min-width: 120px;
+}
+#app-mount .footer-2gL1pp.justifyBetween-2tTqYu {
+  justify-content: flex-start;
 }
 #app-mount .footer-2gL1pp .lookLink-9FtZy-,
 #app-mount .footer-2gL1pp .cancelButton-2O3h8t {
@@ -13412,6 +13449,12 @@ html.theme-light #app-mount .wrapper-O5i5-0 .root-1gCeng .scroller-2hZ97C .invit
 #app-mount .lookLink-9FtZy-.reset-2ikQ30 {
   opacity: 1;
   margin: 0;
+}
+#app-mount .secondaryButton-BIo-2g {
+  margin: 0;
+}
+#app-mount .primaryButton-2BsGPp, #app-mount .secondaryButton-BIo-2g {
+  flex: 0;
 }
 #app-mount .colorPrimary-3b3xI6.lookLink-9FtZy-,
 #app-mount .colorPrimary-3b3xI6.lookFilled-1Gx00P,
