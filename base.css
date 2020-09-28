@@ -7422,7 +7422,7 @@ html.theme-light #app-mount .userPopout-3XzG_A .note-3HfJZ5 textarea {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  flex: auto !important;
+  flex-grow: 0 !important;
   padding: var(--spacing-third);
   border-radius: var(--border-radius);
   font-size: var(--font-size-sm);
