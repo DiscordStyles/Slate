@@ -38,6 +38,24 @@
         .tag-2gHSR7 { // fuck these
             display:none;
         }
+        .h4-AQvcAz:only-child {
+            display:flex;
+            align-items:center;
+            box-sizing: border-box;
+            height: var(--input-height);
+            background-color: var(--background-dark);
+            border: 1px solid var(--base-border);
+            border-radius: var(--border-radius);
+            font-size: var(--font-size);
+            padding: 0 var(--spacing-half);
+            color: var(--text-normal);
+            font-weight: var(--font-weight-normal);
+            margin: 0;
+            z-index: 1;
+            text-transform:none;
+            opacity:.5;
+            cursor:not-allowed;
+        }
         .subtitle-2P4u9v {
             color:var(--text-normal);
             font-size:var(--font-size);

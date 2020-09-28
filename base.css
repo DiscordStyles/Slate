@@ -3653,6 +3653,14 @@ html.platform-win[lang=en-GB]:not(.app-focused) .toolbar-1t6TWx .anchor-3Z-8Bb .
   outline: none;
   transition: 250ms ease;
 }
+#app-mount .embedImage-2W1cML img,
+#app-mount .embedImage-2W1cML video,
+#app-mount .embedThumbnail-2Y84-K img,
+#app-mount .embedThumbnail-2Y84-K video,
+#app-mount .embedVideo-3nf0O9 img,
+#app-mount .embedVideo-3nf0O9 video {
+  border-radius: var(--border-radius);
+}
 #app-mount .embedFull-2tM8-- {
   background-color: var(--background);
   border-top: 1px solid var(--base-border) !important;
@@ -3701,6 +3709,10 @@ html.platform-win[lang=en-GB]:not(.app-focused) .toolbar-1t6TWx .anchor-3Z-8Bb .
 #app-mount .embedFull-2tM8-- .embedFieldName-NFrena,
 #app-mount .embedFull-2tM8-- .embedTitle-3OXDkz {
   color: var(--text-normal);
+}
+#app-mount .embedFull-2tM8-- .embedFooterIcon-239O1f {
+  border-radius: var(--avatar-radius);
+  margin-right: var(--spacing-half);
 }
 #app-mount .embedFull-2tM8-- a {
   color: var(--text-link) !important;
@@ -8811,6 +8823,24 @@ html.theme-light #app-mount .popout-2iWAc-.force-theme.content-1nP7fx .buttonCon
 #app-mount .root-1gCeng.popout-103y-5 .header-1TKi98 .h4-AQvcAz,
 #app-mount .root-1gCeng.popout-103y-5 .header-1TKi98 .tag-2gHSR7 {
   display: none;
+}
+#app-mount .root-1gCeng.popout-103y-5 .header-1TKi98 .h4-AQvcAz:only-child {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  height: var(--input-height);
+  background-color: var(--background-dark);
+  border: 1px solid var(--base-border);
+  border-radius: var(--border-radius);
+  font-size: var(--font-size);
+  padding: 0 var(--spacing-half);
+  color: var(--text-normal);
+  font-weight: var(--font-weight-normal);
+  margin: 0;
+  z-index: 1;
+  text-transform: none;
+  opacity: 0.5;
+  cursor: not-allowed;
 }
 #app-mount .root-1gCeng.popout-103y-5 .header-1TKi98 .subtitle-2P4u9v {
   color: var(--text-normal);

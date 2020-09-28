@@ -532,6 +532,14 @@
   }
 
   // Embeds 
+  .embedImage-2W1cML img, 
+  .embedImage-2W1cML video, 
+  .embedThumbnail-2Y84-K img, 
+  .embedThumbnail-2Y84-K video, 
+  .embedVideo-3nf0O9 img, 
+  .embedVideo-3nf0O9 video {
+    border-radius:var(--border-radius);
+  }
   .embedFull-2tM8-- {
     background-color: var(--background);
     border-top: 1px solid var(--base-border) !important;
@@ -579,6 +587,10 @@
     .embedFieldName-NFrena, 
     .embedTitle-3OXDkz {
       color:var(--text-normal);
+    }
+    .embedFooterIcon-239O1f {
+      border-radius:var(--avatar-radius);
+      margin-right:var(--spacing-half);
     }
     a {
       color:var(--text-link) !important;
