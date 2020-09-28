@@ -120,6 +120,9 @@
       .divider-3573oO {
         display:none;
       }
+      .body-Mj9Oxz {
+        text-align:left;
+      }
     }
     .inner-ZyuQk0 {
       padding: var(--spacing-double) var(--spacing-double) 0;
@@ -207,9 +210,10 @@
     box-shadow: none;
     border-top: 1px solid var(--base-border);
     padding: var(--spacing-double);
-    .cancelButton-3Xu9aX {
+    .cancelButton-3Xu9aX,
+    button:only-child {
       margin:0;
-    }
+    } 
     .lookLink-9FtZy-,
     .cancelButton-2O3h8t {
       color: var(--text-normal);

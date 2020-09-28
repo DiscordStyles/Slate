@@ -10141,6 +10141,12 @@ html.theme-light #app-mount .popout-2iWAc-.force-theme.content-1nP7fx .buttonCon
   min-width: 100%;
   padding: 0;
 }
+#app-mount .layer-3QrUeG[aria-label=GUILD_SETTINGS] .radioGroup-1GBvlr {
+  margin-bottom: var(--spacing-double);
+}
+#app-mount .layer-3QrUeG[aria-label=GUILD_SETTINGS] .marginBottom20-32qID7.description-3_Ncsb {
+  margin-bottom: var(--spacing);
+}
 #app-mount .layer-3QrUeG[aria-label=GUILD_SETTINGS] .noticeRegion-1YviSH {
   left: unset;
   right: 0;
@@ -10214,7 +10220,7 @@ html.theme-light #app-mount .popout-2iWAc-.force-theme.content-1nP7fx .buttonCon
 #app-mount .layer-3QrUeG[aria-label=GUILD_SETTINGS] .sidebarScrollable-1qPI87 .header-2RyJ0Y .sidebarHeader-UbSI9z {
   color: var(--text-normal);
   font-weight: var(--font-weight-semibold);
-  font-size: var(--font-size-md);
+  font-size: var(--font-size);
   text-transform: none;
   transition: none;
   align-items: center;
@@ -10293,15 +10299,101 @@ html.theme-light #app-mount .popout-2iWAc-.force-theme.content-1nP7fx .buttonCon
   margin: 0;
   margin-top: var(--spacing);
 }
-#app-mount .layer-3QrUeG[aria-label=GUILD_SETTINGS] .emojiRow-zIc7ZX {
-  box-shadow: 0 1px 0 0 var(--base-border);
+#app-mount .layer-3QrUeG[aria-label=GUILD_SETTINGS] strong a {
+  font-weight: var(--font-weight-normal);
 }
-#app-mount .layer-3QrUeG[aria-label=GUILD_SETTINGS] .emojiRemove-1k6MlJ {
-  right: 0;
-  background-color: var(--background-dark);
+#app-mount .layer-3QrUeG[aria-label=GUILD_SETTINGS] .wrapper-r-6rrt {
+  margin-top: calc(var(--spacing) * 8);
+}
+#app-mount .layer-3QrUeG[aria-label=GUILD_SETTINGS] .wrapper-r-6rrt .image-1GzsFd {
+  width: 156px !important;
+  height: 156px !important;
+  margin-bottom: var(--spacing-double);
+  background: var(--text-muted) !important;
+  -webkit-mask: url("https://discordstyles.github.io/Slate/assets/illustrations/8.svg") center/contain no-repeat;
+          mask: url("https://discordstyles.github.io/Slate/assets/illustrations/8.svg") center/contain no-repeat;
+}
+#app-mount .layer-3QrUeG[aria-label=GUILD_SETTINGS] .wrapper-r-6rrt .title-2BxgL2 {
+  color: var(--text-normal);
+  font-size: var(--font-size);
+  font-weight: var(--font-weight-normal);
+  text-transform: none;
+  line-height: normal;
+}
+#app-mount .layer-3QrUeG[aria-label=GUILD_SETTINGS] .wrapper-r-6rrt .text-GwUZgS {
+  margin-top: var(--spacing-half);
+  color: var(--text-muted);
+  font-size: var(--font-size);
+  font-weight: var(--font-weight-normal);
+  text-transform: none;
+  line-height: normal;
+}
+#app-mount .layer-3QrUeG[aria-label=GUILD_SETTINGS] div.contentRegion-3nDuYy > div > div > main > div > div:nth-child(3) > div:nth-child(2) > div.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.marginBottom4-2qk4Hy {
+  margin: 0;
+  padding: var(--spacing);
+  background: var(--background-alt);
   border: 1px solid var(--base-border);
-  border-radius: var(--border-radius);
+  border-radius: var(--border-radius) var(--border-radius) 0 0;
+}
+#app-mount .layer-3QrUeG[aria-label=GUILD_SETTINGS] div.contentRegion-3nDuYy > div > div > main > div > div:nth-child(3) > div:nth-child(2) > div.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.marginBottom4-2qk4Hy .flexChild-faoVW3 {
+  margin: 0;
+}
+#app-mount .layer-3QrUeG[aria-label=GUILD_SETTINGS] div.contentRegion-3nDuYy > div > div > main > div > div:nth-child(3) > div:nth-child(2) > div.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.marginBottom4-2qk4Hy .flexChild-faoVW3 .colorStandard-2KCXvj {
+  color: var(--text-normal);
+  font-weight: var(--font-weight-normal);
+  font-size: var(--font-size);
+}
+#app-mount .layer-3QrUeG[aria-label=GUILD_SETTINGS] div.contentRegion-3nDuYy > div > div > main > div > div:nth-child(3) > div.colorStandard-2KCXvj.size14-e6ZScH.description-3_Ncsb.formText-3fs7AJ.marginBottom40-2vIwTv.modeDefault-3a2Ph1 {
+  margin: 0;
+}
+#app-mount .layer-3QrUeG[aria-label=GUILD_SETTINGS] .emojiRow-zIc7ZX {
   box-shadow: none;
+  border: 1px solid var(--base-border);
+  border-top: none;
+  height: var(--item-height);
+  padding: var(--spacing);
+  box-sizing: content-box;
+}
+#app-mount .layer-3QrUeG[aria-label=GUILD_SETTINGS] .emojiRow-zIc7ZX:last-child {
+  border-radius: 0 0 var(--border-radius) var(--border-radius);
+}
+#app-mount .layer-3QrUeG[aria-label=GUILD_SETTINGS] .emojiRow-zIc7ZX:before {
+  content: none;
+}
+#app-mount .layer-3QrUeG[aria-label=GUILD_SETTINGS] .emojiRow-zIc7ZX .emojiRemove-1k6MlJ {
+  top: var(--spacing);
+  right: var(--spacing);
+}
+#app-mount .layer-3QrUeG[aria-label=GUILD_SETTINGS] .emojiRow-zIc7ZX .emojiUploader-1f0pVx {
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+#app-mount .layer-3QrUeG[aria-label=GUILD_SETTINGS] .emojiRow-zIc7ZX .emojiUploader-1f0pVx .emojiRowText-2j4TNM {
+  position: relative;
+  top: 0;
+  left: 0;
+  margin-left: var(--spacing);
+}
+#app-mount .layer-3QrUeG[aria-label=GUILD_SETTINGS] .emojiRow-zIc7ZX .emojiAliasPlaceholder-3H_iZA {
+  display: none;
+}
+#app-mount .layer-3QrUeG[aria-label=GUILD_SETTINGS] .emojiRow-zIc7ZX .emojiInput-1aLNse {
+  opacity: 1;
+}
+#app-mount .layer-3QrUeG[aria-label=GUILD_SETTINGS] .emojiRow-zIc7ZX .positionRelative-3HNyhz {
+  margin-right: 0;
+}
+#app-mount .layer-3QrUeG[aria-label=GUILD_SETTINGS] .emojiRow-zIc7ZX .emojiImage-1hZi2F {
+  border-radius: var(--avatar-radius);
+  border: 1px solid var(--base-border);
+  background-color: var(--background-dark);
+  width: var(--input-height);
+  height: var(--input-height);
+}
+#app-mount .layer-3QrUeG[aria-label=GUILD_SETTINGS] .emojiRow-zIc7ZX .avatar-2Hubm8 {
+  height: var(--avatar-size-sm) !important;
+  width: var(--avatar-size-sm) !important;
 }
 #app-mount .layer-3QrUeG[aria-label=GUILD_SETTINGS] .customHeader-f9DEJ_ {
   padding-top: 0;
@@ -11084,6 +11176,10 @@ body #app-mount #bd-settingspane-container .bd-controls {
 #app-mount .root-1gCeng:not(.popout-103y-5) .content-1LAB8Z .divider-3573oO {
   display: none;
 }
+#app-mount .modal-yWgWj- .content-1LAB8Z .body-Mj9Oxz,
+#app-mount .root-1gCeng:not(.popout-103y-5) .content-1LAB8Z .body-Mj9Oxz {
+  text-align: left;
+}
 #app-mount .modal-yWgWj- .inner-ZyuQk0,
 #app-mount .root-1gCeng:not(.popout-103y-5) .inner-ZyuQk0 {
   padding: var(--spacing-double) var(--spacing-double) 0;
@@ -11194,7 +11290,8 @@ body #app-mount #bd-settingspane-container .bd-controls {
   border-top: 1px solid var(--base-border);
   padding: var(--spacing-double);
 }
-#app-mount .footer-2gL1pp .cancelButton-3Xu9aX {
+#app-mount .footer-2gL1pp .cancelButton-3Xu9aX,
+#app-mount .footer-2gL1pp button:only-child {
   margin: 0;
 }
 #app-mount .footer-2gL1pp .lookLink-9FtZy-,
@@ -13255,17 +13352,20 @@ html.theme-light #app-mount .wrapper-O5i5-0 .root-1gCeng .scroller-2hZ97C .invit
   margin-right: var(--spacing-half);
 }
 #app-mount .lookFilled-1Gx00P,
-#app-mount .bd-modal-wrapper .footer button {
+#app-mount .bd-modal-wrapper .footer button,
+#app-mount .primaryButton-2BsGPp {
   color: var(--white);
   background-color: rgb(var(--accent));
   margin-left: var(--spacing);
 }
 #app-mount .lookFilled-1Gx00P:hover,
-#app-mount .bd-modal-wrapper .footer button:hover {
+#app-mount .bd-modal-wrapper .footer button:hover,
+#app-mount .primaryButton-2BsGPp:hover {
   box-shadow: inset 0 0 0 100vmax rgba(255, 255, 255, 0.1);
 }
 #app-mount .lookFilled-1Gx00P:focus,
-#app-mount .bd-modal-wrapper .footer button:focus {
+#app-mount .bd-modal-wrapper .footer button:focus,
+#app-mount .primaryButton-2BsGPp:focus {
   box-shadow: 0 0 0 2px rgba(var(--accent), 0.25), inset 0 0 0 100vmax rgba(255, 255, 255, 0.1);
 }
 #app-mount .lookLink-9FtZy- {
