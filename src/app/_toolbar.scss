@@ -315,7 +315,7 @@ body #app-mount .container-1r6BKw {
 
 html.platform-win[lang="en-US"],
 html.platform-win[lang="en-GB"] {
-  .toolbar-1t6TWx {
+  body:not(.oldTitleBarEnabled-D8ppJQ) .toolbar-1t6TWx {
     .iconWrapper-2OrFZ1[aria-label="Inbox"],
     .iconWrapper-2OrFZ1[aria-label="Pinned Messages"],
     .iconWrapper-2OrFZ1[aria-label="Add Friends to DM"],
@@ -386,29 +386,29 @@ html.platform-win[lang="en-GB"] {
         display:none;
       }
     }
-  }
-  .inviteToolbar-3F-l2g ~ .anchor-3Z-8Bb .iconWrapper-2OrFZ1 {
-    left:142px;
-  }
-  .libraryFilter-31ZUa2 ~ .anchor-3Z-8Bb .iconWrapper-2OrFZ1 {
-    left:88px;
-  }
-  .iconWrapper-2OrFZ1[aria-label="Add Friends to DM"] ~ .anchor-3Z-8Bb .iconWrapper-2OrFZ1 {
-    left:184px;
-  }
-  .toolbar-1t6TWx .anchor-3Z-8Bb {
-    display:block !important;
-    &:nth-child(8) .iconWrapper-2OrFZ1 {
+    .inviteToolbar-3F-l2g ~ .anchor-3Z-8Bb .iconWrapper-2OrFZ1 {
+      left:142px;
+    }
+    .libraryFilter-31ZUa2 ~ .anchor-3Z-8Bb .iconWrapper-2OrFZ1 {
+      left:88px;
+    }
+    .iconWrapper-2OrFZ1[aria-label="Add Friends to DM"] ~ .anchor-3Z-8Bb .iconWrapper-2OrFZ1 {
       left:184px;
     }
-    &:nth-child(6) .iconWrapper-2OrFZ1 {
-      left:130px;
-    }
-    .iconWrapper-2OrFZ1 {
-      width:auto;
-      left:130px;
-      &::after {
-        content:'Help';
+    .anchor-3Z-8Bb {
+      display:block !important;
+      &:nth-child(8) .iconWrapper-2OrFZ1 {
+        left:184px;
+      }
+      &:nth-child(6) .iconWrapper-2OrFZ1 {
+        left:130px;
+      }
+      .iconWrapper-2OrFZ1 {
+        width:auto;
+        left:130px;
+        &::after {
+          content:'Help';
+        }
       }
     }
   }
@@ -416,8 +416,7 @@ html.platform-win[lang="en-GB"] {
 
 // Unfocused App
 
-html.platform-win[lang="en-US"]:not(.app-focused) .toolbar-1t6TWx,
-html.platform-win[lang="en-GB"]:not(.app-focused) .toolbar-1t6TWx {
+html.platform-win[lang="en-GB"]:not(.app-focused) body:not(.oldTitleBarEnabled-D8ppJQ) .toolbar-1t6TWx {
   .iconWrapper-2OrFZ1[aria-label="Inbox"],
   .iconWrapper-2OrFZ1[aria-label="Pinned Messages"],
   .iconWrapper-2OrFZ1[aria-label="Add Friends to DM"],
