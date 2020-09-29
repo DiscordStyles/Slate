@@ -3705,6 +3705,9 @@ html.platform-win[lang=en-GB]:not(.app-focused) .toolbar-1t6TWx .anchor-3Z-8Bb .
   font-weight: var(--font-weight-normal);
   color: var(--text-normal);
 }
+#app-mount .embedFull-2tM8-- .embedFieldName-NFrena {
+  font-weight: var(--font-weight-semibold);
+}
 #app-mount .embedFull-2tM8-- .embedAuthorName-3mnTWj,
 #app-mount .embedFull-2tM8-- .embedFieldName-NFrena,
 #app-mount .embedFull-2tM8-- .embedTitle-3OXDkz {
@@ -4227,14 +4230,26 @@ html.platform-win[lang=en-GB]:not(.app-focused) .toolbar-1t6TWx .anchor-3Z-8Bb .
   margin-top: 0 !important;
 }
 #app-mount .chat-3bRxxu .avatar-2daVqv {
-  border-radius: var(--border-radius);
+  border-radius: var(--avatar-radius);
   width: var(--avatar-size);
   height: var(--avatar-size);
-  border: 1px solid var(--base-border);
-  background: var(--background-dark);
+  box-shadow: 0 0 0 0.875px var(--base-border);
+  background: var(--background);
   top: var(--spacing);
   left: var(--spacing);
   opacity: 1 !important;
+  box-sizing: border-box;
+}
+#app-mount .chat-3bRxxu .avatar-2daVqv::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: var(--text-muted);
+  -webkit-mask: url('data:image/svg+xml; utf-8,<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" class="octicon" height="64" role="img" viewBox="0 0 12 16" width="48" style="display:inline-block;fill:var(--text-muted);user-select:none;vertical-align:middle"><path fill-rule="evenodd" d="M12 14.002a.998.998 0 0 1-.998.998H1.001A1 1 0 0 1 0 13.999V13c0-2.633 4-4 4-4s.229-.409 0-1c-.841-.62-.944-1.59-1-4 .173-2.413 1.867-3 3-3s2.827.586 3 3c-.056 2.41-.159 3.38-1 4-.229.59 0 1 0 1s4 1.367 4 4v1.002z"/></svg>') center/40% no-repeat;
+          mask: url('data:image/svg+xml; utf-8,<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" class="octicon" height="64" role="img" viewBox="0 0 12 16" width="48" style="display:inline-block;fill:var(--text-muted);user-select:none;vertical-align:middle"><path fill-rule="evenodd" d="M12 14.002a.998.998 0 0 1-.998.998H1.001A1 1 0 0 1 0 13.999V13c0-2.633 4-4 4-4s.229-.409 0-1c-.841-.62-.944-1.59-1-4 .173-2.413 1.867-3 3-3s2.827.586 3 3c-.056 2.41-.159 3.38-1 4-.229.59 0 1 0 1s4 1.367 4 4v1.002z"/></svg>') center/40% no-repeat;
 }
 #app-mount .chat-3bRxxu .attachment-2p5mHK,
 #app-mount .chat-3bRxxu .blob-2w7iIK {
@@ -6145,6 +6160,76 @@ html.theme-light #app-mount .wrapper-3Q5DdO .qrLogin-1AOZMt .startOverButton-3q0
   display: none;
 }
 
+#app-mount .errorPage-u8SYh4 {
+  background: var(--background);
+  box-sizing: border-box;
+  order: 1;
+}
+#app-mount .errorPage-u8SYh4 .flex-1xMQg5 {
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: calc(var(--spacing) * 4);
+}
+#app-mount .errorPage-u8SYh4 .flex-1xMQg5 .image-3zK3Wt {
+  position: absolute;
+  right: var(--spacing);
+  bottom: var(--spacing);
+  height: 490px;
+  width: 290px;
+  background: url("https://discordstyles.github.io/Slate/assets/illustrations/11.svg") center/contain no-repeat;
+}
+#app-mount .errorPage-u8SYh4 .flex-1xMQg5 .text-NLHgOm {
+  width: 100%;
+  margin-bottom: var(--spacing-double);
+}
+#app-mount .errorPage-u8SYh4 .flex-1xMQg5 .text-NLHgOm .note-450gs3,
+#app-mount .errorPage-u8SYh4 .flex-1xMQg5 .text-NLHgOm .title-3trS3_ {
+  text-align: left;
+}
+#app-mount .errorPage-u8SYh4 .flex-1xMQg5 .text-NLHgOm .title-3trS3_ {
+  font-weight: var(--font-weight-light);
+  font-size: var(--font-size-xxl);
+  margin-bottom: var(--spacing);
+  line-height: normal;
+  display: flex;
+  align-items: center;
+}
+#app-mount .errorPage-u8SYh4 .flex-1xMQg5 .text-NLHgOm .title-3trS3_::before {
+  content: "";
+  height: 50vh;
+  width: 50vh;
+  position: absolute;
+  bottom: -12.5vh;
+  left: -12.5vh;
+  z-index: 0;
+  transform: rotate(25deg);
+  display: block;
+  margin-right: var(--spacing);
+  background: #dbe8f1;
+  -webkit-mask: url('data:image/svg+xml; utf-8,<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" class="octicon" height="64" role="img" viewBox="0 0 14 16" width="56" style="display:inline-block;fill:currentColor;user-select:none;vertical-align:middle"><path fill-rule="evenodd" d="M10 1H4L0 5v6l4 4h6l4-4V5l-4-4zm3 9.5L9.5 14h-5L1 10.5v-5L4.5 2h5L13 5.5v5zM6 4h2v5H6V4zm0 6h2v2H6v-2z"/></svg>') center/contain no-repeat;
+          mask: url('data:image/svg+xml; utf-8,<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" class="octicon" height="64" role="img" viewBox="0 0 14 16" width="56" style="display:inline-block;fill:currentColor;user-select:none;vertical-align:middle"><path fill-rule="evenodd" d="M10 1H4L0 5v6l4 4h6l4-4V5l-4-4zm3 9.5L9.5 14h-5L1 10.5v-5L4.5 2h5L13 5.5v5zM6 4h2v5H6V4zm0 6h2v2H6v-2z"/></svg>') center/contain no-repeat;
+}
+#app-mount .errorPage-u8SYh4 .flex-1xMQg5 .text-NLHgOm .note-450gs3 {
+  font-size: var(--font-size);
+  color: var(--text-normal);
+  font-weight: var(--font-weight-normal);
+  width: 500px;
+}
+#app-mount .errorPage-u8SYh4 .flex-1xMQg5 .text-NLHgOm .note-450gs3:after {
+  line-height: 1.5;
+  content: "Discord encountered a unexpected error that caused it to crash. If this is your first time seeing this screen, reload the app. If you continue seeing this after reloading, uninstall and reinstall Discord. If the issue still persists, consider contacting support.";
+}
+#app-mount .errorPage-u8SYh4 .flex-1xMQg5 .text-NLHgOm .note-450gs3 p {
+  display: none;
+}
+#app-mount .errorPage-u8SYh4 .flex-1xMQg5 button {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: calc(var(--spacing) * 4);
+  min-width: 150px;
+}
+
 #app-mount .loading-Ags1CY {
   background: var(--background-alt);
   display: flex;
@@ -6174,7 +6259,7 @@ html.theme-light #app-mount .wrapper-3Q5DdO .qrLogin-1AOZMt .startOverButton-3q0
   border-radius: 0;
   box-shadow: none;
   height: calc(100vh - var(--toolbar-height) - var(--titlebar-height));
-  width: calc(var(--sidebar-width) + var(--container));
+  width: calc(var(--sidebar-width) + var(--noasw-base));
   background: var(--background);
   border-right: 1px solid var(--base-border);
 }
@@ -6302,7 +6387,7 @@ html.theme-light #app-mount .wrapper-3Q5DdO .qrLogin-1AOZMt .startOverButton-3q0
   content: "";
   position: fixed;
   top: calc(var(--toolbar-height) + var(--titlebar-height) - 1);
-  left: calc(var(--sidebar-width) + var(--container));
+  left: calc(var(--sidebar-width) + var(--noasw-base));
   width: 100vw;
   height: 100vh;
   background: var(--backdrop);
@@ -10444,20 +10529,107 @@ html.theme-light #app-mount .popout-2iWAc-.force-theme.content-1nP7fx .buttonCon
 }
 #app-mount .layer-3QrUeG[aria-label=GUILD_SETTINGS] .auditLog-3jNbM6 {
   border: none;
+  border-radius: 0;
 }
 #app-mount .layer-3QrUeG[aria-label=GUILD_SETTINGS] .auditLog-3jNbM6:last-child {
   margin: 0;
 }
 #app-mount .layer-3QrUeG[aria-label=GUILD_SETTINGS] .auditLog-3jNbM6 .headerClickable-2IVFo9,
-#app-mount .layer-3QrUeG[aria-label=GUILD_SETTINGS] .auditLog-3jNbM6 .headerDefault-1wrJcN {
+#app-mount .layer-3QrUeG[aria-label=GUILD_SETTINGS] .auditLog-3jNbM6 .headerDefault-1wrJcN,
+#app-mount .layer-3QrUeG[aria-label=GUILD_SETTINGS] .auditLog-3jNbM6 .headerExpanded-CUEwZ5 {
   border: 1px solid var(--base-border);
   padding: var(--spacing);
   background: var(--background-alt);
   border-radius: var(--border-radius);
 }
 #app-mount .layer-3QrUeG[aria-label=GUILD_SETTINGS] .auditLog-3jNbM6 .headerClickable-2IVFo9 .icon-RTGJu3,
-#app-mount .layer-3QrUeG[aria-label=GUILD_SETTINGS] .auditLog-3jNbM6 .headerDefault-1wrJcN .icon-RTGJu3 {
+#app-mount .layer-3QrUeG[aria-label=GUILD_SETTINGS] .auditLog-3jNbM6 .headerDefault-1wrJcN .icon-RTGJu3,
+#app-mount .layer-3QrUeG[aria-label=GUILD_SETTINGS] .auditLog-3jNbM6 .headerExpanded-CUEwZ5 .icon-RTGJu3 {
   display: none;
+}
+#app-mount .layer-3QrUeG[aria-label=GUILD_SETTINGS] .auditLog-3jNbM6 .headerClickable-2IVFo9 .avatar-_VZUJy,
+#app-mount .layer-3QrUeG[aria-label=GUILD_SETTINGS] .auditLog-3jNbM6 .headerDefault-1wrJcN .avatar-_VZUJy,
+#app-mount .layer-3QrUeG[aria-label=GUILD_SETTINGS] .auditLog-3jNbM6 .headerExpanded-CUEwZ5 .avatar-_VZUJy {
+  margin: 0;
+  height: var(--avatar-size) !important;
+  width: var(--avatar-size) !important;
+}
+#app-mount .layer-3QrUeG[aria-label=GUILD_SETTINGS] .auditLog-3jNbM6 .headerClickable-2IVFo9.headerExpanded-CUEwZ5 .expand-1lx8E1,
+#app-mount .layer-3QrUeG[aria-label=GUILD_SETTINGS] .auditLog-3jNbM6 .headerDefault-1wrJcN.headerExpanded-CUEwZ5 .expand-1lx8E1,
+#app-mount .layer-3QrUeG[aria-label=GUILD_SETTINGS] .auditLog-3jNbM6 .headerExpanded-CUEwZ5.headerExpanded-CUEwZ5 .expand-1lx8E1 {
+  transform: rotate(180deg);
+}
+#app-mount .layer-3QrUeG[aria-label=GUILD_SETTINGS] .auditLog-3jNbM6 .headerClickable-2IVFo9 .expand-1lx8E1,
+#app-mount .layer-3QrUeG[aria-label=GUILD_SETTINGS] .auditLog-3jNbM6 .headerDefault-1wrJcN .expand-1lx8E1,
+#app-mount .layer-3QrUeG[aria-label=GUILD_SETTINGS] .auditLog-3jNbM6 .headerExpanded-CUEwZ5 .expand-1lx8E1 {
+  -webkit-mask: url('data:image/svg+xml; utf-8,<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" class="octicon" height="64" role="img" viewBox="0 0 12 16" width="48" style="display:inline-block;fill:currentColor;user-select:none;vertical-align:middle"><path fill-rule="evenodd" d="M0 5l6 6 6-6H0z"/></svg>') center/contain no-repeat;
+          mask: url('data:image/svg+xml; utf-8,<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" class="octicon" height="64" role="img" viewBox="0 0 12 16" width="48" style="display:inline-block;fill:currentColor;user-select:none;vertical-align:middle"><path fill-rule="evenodd" d="M0 5l6 6 6-6H0z"/></svg>') center/contain no-repeat;
+  background: var(--text-muted);
+  transition: none;
+  width: 12px;
+  height: 12px;
+  transform: none;
+}
+#app-mount .layer-3QrUeG[aria-label=GUILD_SETTINGS] .auditLog-3jNbM6 .headerClickable-2IVFo9 .expand-1lx8E1 path,
+#app-mount .layer-3QrUeG[aria-label=GUILD_SETTINGS] .auditLog-3jNbM6 .headerDefault-1wrJcN .expand-1lx8E1 path,
+#app-mount .layer-3QrUeG[aria-label=GUILD_SETTINGS] .auditLog-3jNbM6 .headerExpanded-CUEwZ5 .expand-1lx8E1 path {
+  display: none;
+}
+#app-mount .layer-3QrUeG[aria-label=GUILD_SETTINGS] .auditLog-3jNbM6 .headerClickable-2IVFo9 .timeWrap-2DasL6,
+#app-mount .layer-3QrUeG[aria-label=GUILD_SETTINGS] .auditLog-3jNbM6 .headerDefault-1wrJcN .timeWrap-2DasL6,
+#app-mount .layer-3QrUeG[aria-label=GUILD_SETTINGS] .auditLog-3jNbM6 .headerExpanded-CUEwZ5 .timeWrap-2DasL6 {
+  margin: 0 var(--spacing);
+  max-width: 100%;
+}
+#app-mount .layer-3QrUeG[aria-label=GUILD_SETTINGS] .auditLog-3jNbM6 .headerClickable-2IVFo9 .timeWrap-2DasL6 .overflowEllipsis-1PBFxQ,
+#app-mount .layer-3QrUeG[aria-label=GUILD_SETTINGS] .auditLog-3jNbM6 .headerDefault-1wrJcN .timeWrap-2DasL6 .overflowEllipsis-1PBFxQ,
+#app-mount .layer-3QrUeG[aria-label=GUILD_SETTINGS] .auditLog-3jNbM6 .headerExpanded-CUEwZ5 .timeWrap-2DasL6 .overflowEllipsis-1PBFxQ {
+  color: var(--text-normal);
+  font-size: var(--font-size);
+  font-weight: var(--font-weight-normal);
+  line-height: normal;
+}
+#app-mount .layer-3QrUeG[aria-label=GUILD_SETTINGS] .auditLog-3jNbM6 .headerClickable-2IVFo9 .timeWrap-2DasL6 .overflowEllipsis-1PBFxQ strong,
+#app-mount .layer-3QrUeG[aria-label=GUILD_SETTINGS] .auditLog-3jNbM6 .headerDefault-1wrJcN .timeWrap-2DasL6 .overflowEllipsis-1PBFxQ strong,
+#app-mount .layer-3QrUeG[aria-label=GUILD_SETTINGS] .auditLog-3jNbM6 .headerExpanded-CUEwZ5 .timeWrap-2DasL6 .overflowEllipsis-1PBFxQ strong {
+  all: unset;
+  line-height: var(--line-height);
+  border-radius: var(--border-radius);
+  padding: 1px var(--spacing-half);
+  color: var(--text-normal);
+  background: var(--background-modifier-active);
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-normal);
+  flex-grow: 0;
+  display: inline-block;
+  -webkit-user-select: none;
+          user-select: none;
+}
+#app-mount .layer-3QrUeG[aria-label=GUILD_SETTINGS] .auditLog-3jNbM6 .headerClickable-2IVFo9 .timeWrap-2DasL6 .userHook-3AdCBF,
+#app-mount .layer-3QrUeG[aria-label=GUILD_SETTINGS] .auditLog-3jNbM6 .headerDefault-1wrJcN .timeWrap-2DasL6 .userHook-3AdCBF,
+#app-mount .layer-3QrUeG[aria-label=GUILD_SETTINGS] .auditLog-3jNbM6 .headerExpanded-CUEwZ5 .timeWrap-2DasL6 .userHook-3AdCBF {
+  font-size: var(--font-size);
+  font-weight: var(--font-weight-semibold);
+  color: var(--text-normal);
+  line-height: normal;
+}
+#app-mount .layer-3QrUeG[aria-label=GUILD_SETTINGS] .auditLog-3jNbM6 .headerClickable-2IVFo9 .timeWrap-2DasL6 .userHook-3AdCBF .discrim-3rYTMj,
+#app-mount .layer-3QrUeG[aria-label=GUILD_SETTINGS] .auditLog-3jNbM6 .headerDefault-1wrJcN .timeWrap-2DasL6 .userHook-3AdCBF .discrim-3rYTMj,
+#app-mount .layer-3QrUeG[aria-label=GUILD_SETTINGS] .auditLog-3jNbM6 .headerExpanded-CUEwZ5 .timeWrap-2DasL6 .userHook-3AdCBF .discrim-3rYTMj {
+  opacity: 1;
+  color: var(--text-muted);
+  font-size: var(--font-size-sm);
+  line-height: normal;
+}
+#app-mount .layer-3QrUeG[aria-label=GUILD_SETTINGS] .auditLog-3jNbM6 .headerClickable-2IVFo9 .timeWrap-2DasL6 .timestamp-1mruiI,
+#app-mount .layer-3QrUeG[aria-label=GUILD_SETTINGS] .auditLog-3jNbM6 .headerDefault-1wrJcN .timeWrap-2DasL6 .timestamp-1mruiI,
+#app-mount .layer-3QrUeG[aria-label=GUILD_SETTINGS] .auditLog-3jNbM6 .headerExpanded-CUEwZ5 .timeWrap-2DasL6 .timestamp-1mruiI {
+  margin-top: var(--spacing-third);
+  color: var(--text-muted);
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-normal);
+  position: relative;
+  top: -2px;
 }
 #app-mount .layer-3QrUeG[aria-label=GUILD_SETTINGS] .divider-1pnAR2 {
   border-color: var(--base-border);
@@ -12142,12 +12314,13 @@ html.theme-light #app-mount .footer-2gL1pp .cancelButton-2O3h8t:focus {
 #app-mount .theme-light .root-1gCeng .container-1CE3eW > div[style*=width] > div[style*=width] .templatesList-2E6rTe + .footer-2gL1pp button {
   padding: var(--spacing);
   height: auto;
+  margin: 0;
+}
+#app-mount .theme-light .root-1gCeng .container-1CE3eW > div[style*=width] > div[style*=width] .footer-2gL1pp {
+  justify-content: flex-start;
 }
 #app-mount .theme-light .root-1gCeng .container-1CE3eW > div[style*=width] > div[style*=width] .footer-2gL1pp .footerTitle-2CYZch {
   display: none;
-}
-#app-mount .theme-light .root-1gCeng .container-1CE3eW > div[style*=width] > div[style*=width] .footer-2gL1pp button {
-  margin: 0;
 }
 #app-mount .theme-light .root-1gCeng .container-1CE3eW > div[style*=width] > div[style*=width] .footer-2gL1pp button.lookBlank-3eh9lL {
   font-size: var(--font-size);
@@ -13448,12 +13621,13 @@ html.theme-light #app-mount .wrapper-O5i5-0 .root-1gCeng .scroller-2hZ97C .invit
 }
 #app-mount .lookLink-9FtZy-.reset-2ikQ30 {
   opacity: 1;
-  margin: 0;
+  margin: 0 !important;
 }
 #app-mount .secondaryButton-BIo-2g {
   margin: 0;
 }
-#app-mount .primaryButton-2BsGPp, #app-mount .secondaryButton-BIo-2g {
+#app-mount .primaryButton-2BsGPp,
+#app-mount .secondaryButton-BIo-2g {
   flex: 0;
 }
 #app-mount .colorPrimary-3b3xI6.lookLink-9FtZy-,

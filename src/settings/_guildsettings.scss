@@ -289,17 +289,83 @@
   }
   .auditLog-3jNbM6 {
     border:none;
+    border-radius:0;
     &:last-child {
       margin:0;
     }
     .headerClickable-2IVFo9, 
-    .headerDefault-1wrJcN {
+    .headerDefault-1wrJcN,
+    .headerExpanded-CUEwZ5 {
       border:1px solid var(--base-border);
       padding:var(--spacing);
       background: var(--background-alt);
       border-radius:var(--border-radius);
       .icon-RTGJu3 {
         display:none;
+      }
+      .avatar-_VZUJy {
+        margin:0;
+        height:var(--avatar-size) !important;
+        width:var(--avatar-size) !important;
+      }
+      &.headerExpanded-CUEwZ5 {
+        .expand-1lx8E1 {
+          transform:rotate(180deg);
+        }
+      }
+      .expand-1lx8E1 {
+        mask:url($icon_triangle) center/contain no-repeat;
+        background:var(--text-muted);
+        transition:none;
+        width:12px;
+        height:12px;
+        transform:none;
+        path {
+          display:none;
+        }
+      }
+      .timeWrap-2DasL6 {
+        margin:0 var(--spacing);
+        max-width:100%;
+        .overflowEllipsis-1PBFxQ {
+          color:var(--text-normal);
+          font-size:var(--font-size);
+          font-weight:var(--font-weight-normal);
+          line-height:normal;
+          strong {
+            all:unset;
+            line-height: var(--line-height);
+            border-radius:var(--border-radius);
+            padding:1px var(--spacing-half);
+            color:var(--text-normal);
+            background:var(--background-modifier-active);
+            font-size:var(--font-size-sm);
+            font-weight:var(--font-weight-normal);
+            flex-grow:0;
+            display:inline-block;
+            user-select:none;
+          }
+        }
+        .userHook-3AdCBF {
+          font-size:var(--font-size);
+          font-weight:var(--font-weight-semibold);
+          color:var(--text-normal);
+          line-height:normal;
+          .discrim-3rYTMj {
+            opacity:1;
+            color:var(--text-muted);
+            font-size:var(--font-size-sm);
+            line-height:normal;
+          }
+        }
+        .timestamp-1mruiI {
+          margin-top:var(--spacing-third);
+          color:var(--text-muted);
+          font-size:var(--font-size-sm);
+          font-weight:var(--font-weight-normal);
+          position:relative;
+          top:-2px;
+        }
       }
     }
   }

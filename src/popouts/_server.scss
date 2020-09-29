@@ -12,7 +12,7 @@
     border-radius: 0;
     box-shadow: none;
     height: calc(100vh - var(--toolbar-height) - var(--titlebar-height));
-    width: calc(var(--sidebar-width) + var(--container));
+    width: calc(var(--sidebar-width) + var(--noasw-base));
     background: var(--background);
     border-right: 1px solid var(--base-border);
     .scroller-3BxosC {
@@ -138,7 +138,7 @@
       content: "";
       position: fixed;
       top: calc(var(--toolbar-height) + var(--titlebar-height) - 1);
-      left: calc(var(--sidebar-width) + var(--container));
+      left: calc(var(--sidebar-width) + var(--noasw-base));
       width: 100vw;
       height: 100vh;
       background: var(--backdrop);

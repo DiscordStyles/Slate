@@ -170,13 +170,14 @@
                 .templatesList-2E6rTe + .footer-2gL1pp button {
                     padding:var(--spacing);
                     height:auto;
+                    margin:0;
                 }
                 .footer-2gL1pp {
+                    justify-content:flex-start;
                     .footerTitle-2CYZch {
                         display:none;
                     }
                     button {
-                        margin:0;
                         &.lookBlank-3eh9lL {
                             font-size: var(--font-size);
                             font-weight: var(--font-weight-normal);
