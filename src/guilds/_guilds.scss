@@ -26,6 +26,10 @@
       display: flex;
       align-items: center;
       height: var(--toolbar-height);
+      background:transparent !important;
+      .wrapper-1BJsBx {
+        background:transparent !important;
+      }
     }
     .listItem-2P_4kh {
       margin-bottom: 0;
@@ -103,6 +107,15 @@
     cursor: var(--cursor);
     border-radius: var(--server-radius);  
     overflow:hidden;
+    background:var(--background-light);
+    transition:150ms ease;
+    &.selected-bZ3Lue {
+      background:var(--accent-solid);
+      .icon-27yU2q[src*="/assets/"] {
+        background:var(--white);
+        transition:150ms ease;
+      }
+    }
   }
   .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9 {
     background: var(--accent-solid);
@@ -137,6 +150,19 @@
       position:relative;
       top:3px;
       left:3px;
+    }
+    .icon-27yU2q[src*="/assets/"] {
+      content:url($blank);
+      background:var(--text-muted);
+      mask:url($icon_person) center/40% no-repeat;
+      &[src*="/assets/e1fb24a120bdd003a84e021b16ec3bef.png"],
+      &[src*="/assets/861ab526aa1fabb04c6b7da8074e3e21.png"],
+      &[src*="/assets/b8912961ea6ab32f0655d583bbc26b4f.png"],
+      &[src*="/assets/485a854d5171c8dc98088041626e6fea.png"],
+      &[src*="/assets/f810dc5fedb7175c43a3389aa890534f.png"],
+      &[src*="/assets/b3150d5cef84b9e82128a1131684f287.png"] {
+        mask:url($icon_organization) center/42% no-repeat;
+      }
     }
   }
   .expandedFolderBackground-2sPsd-,
@@ -229,7 +255,9 @@
 .theme-light {
   #app-mount .guilds-1SWlCJ {
     .childWrapper-anI2G9,
-    .circleIconButton-jET_ig {
+    .circleIconButton-jET_ig,
+    .wrapper-1BJsBx,
+    .wrapper-25eVIn {
       background:var(--background-dark);
     }
     .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9 {

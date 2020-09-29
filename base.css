@@ -691,6 +691,10 @@ body #app-mount .container-1r6BKw.title-3qD0b- .children-19S4PO:hover .nicknames
   opacity: 1;
 }
 
+html.platform-win[lang=en-US] body:not(.oldTitleBarEnabled-D8ppJQ) .container-1D34oG .toolbar-1t6TWx,
+html.platform-win[lang=en-GB] body:not(.oldTitleBarEnabled-D8ppJQ) .container-1D34oG .toolbar-1t6TWx {
+  border: none;
+}
 html.platform-win[lang=en-US] body:not(.oldTitleBarEnabled-D8ppJQ) .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label=Inbox],
 html.platform-win[lang=en-US] body:not(.oldTitleBarEnabled-D8ppJQ) .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label="Pinned Messages"],
 html.platform-win[lang=en-US] body:not(.oldTitleBarEnabled-D8ppJQ) .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label="Add Friends to DM"],
@@ -2585,6 +2589,10 @@ html.platform-win[lang=en-GB]:not(.app-focused) body:not(.oldTitleBarEnabled-D8p
   display: flex;
   align-items: center;
   height: var(--toolbar-height);
+  background: transparent !important;
+}
+#app-mount .guilds-1SWlCJ .tutorialContainer-1v44GL .wrapper-25eVIn .wrapper-1BJsBx {
+  background: transparent !important;
 }
 #app-mount .guilds-1SWlCJ .tutorialContainer-1v44GL .listItem-2P_4kh {
   margin-bottom: 0;
@@ -2662,6 +2670,17 @@ html.platform-win[lang=en-GB]:not(.app-focused) body:not(.oldTitleBarEnabled-D8p
   cursor: var(--cursor);
   border-radius: var(--server-radius);
   overflow: hidden;
+  background: var(--background-light);
+  transition: 150ms ease;
+}
+#app-mount .guilds-1SWlCJ .wrapper-1BJsBx.selected-bZ3Lue,
+#app-mount .guilds-1SWlCJ .wrapper-25eVIn.selected-bZ3Lue {
+  background: var(--accent-solid);
+}
+#app-mount .guilds-1SWlCJ .wrapper-1BJsBx.selected-bZ3Lue .icon-27yU2q[src*="/assets/"],
+#app-mount .guilds-1SWlCJ .wrapper-25eVIn.selected-bZ3Lue .icon-27yU2q[src*="/assets/"] {
+  background: var(--white);
+  transition: 150ms ease;
 }
 #app-mount .guilds-1SWlCJ .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9 {
   background: var(--accent-solid);
@@ -2698,6 +2717,16 @@ html.platform-win[lang=en-GB]:not(.app-focused) body:not(.oldTitleBarEnabled-D8p
   position: relative;
   top: 3px;
   left: 3px;
+}
+#app-mount .guilds-1SWlCJ .wrapper-25eVIn .icon-27yU2q[src*="/assets/"] {
+  content: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg"/>');
+  background: var(--text-muted);
+  -webkit-mask: url('data:image/svg+xml; utf-8,<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" class="octicon" height="64" role="img" viewBox="0 0 12 16" width="48" style="display:inline-block;fill:var(--text-muted);user-select:none;vertical-align:middle"><path fill-rule="evenodd" d="M12 14.002a.998.998 0 0 1-.998.998H1.001A1 1 0 0 1 0 13.999V13c0-2.633 4-4 4-4s.229-.409 0-1c-.841-.62-.944-1.59-1-4 .173-2.413 1.867-3 3-3s2.827.586 3 3c-.056 2.41-.159 3.38-1 4-.229.59 0 1 0 1s4 1.367 4 4v1.002z"/></svg>') center/40% no-repeat;
+          mask: url('data:image/svg+xml; utf-8,<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" class="octicon" height="64" role="img" viewBox="0 0 12 16" width="48" style="display:inline-block;fill:var(--text-muted);user-select:none;vertical-align:middle"><path fill-rule="evenodd" d="M12 14.002a.998.998 0 0 1-.998.998H1.001A1 1 0 0 1 0 13.999V13c0-2.633 4-4 4-4s.229-.409 0-1c-.841-.62-.944-1.59-1-4 .173-2.413 1.867-3 3-3s2.827.586 3 3c-.056 2.41-.159 3.38-1 4-.229.59 0 1 0 1s4 1.367 4 4v1.002z"/></svg>') center/40% no-repeat;
+}
+#app-mount .guilds-1SWlCJ .wrapper-25eVIn .icon-27yU2q[src*="/assets/"][src*="/assets/e1fb24a120bdd003a84e021b16ec3bef.png"], #app-mount .guilds-1SWlCJ .wrapper-25eVIn .icon-27yU2q[src*="/assets/"][src*="/assets/861ab526aa1fabb04c6b7da8074e3e21.png"], #app-mount .guilds-1SWlCJ .wrapper-25eVIn .icon-27yU2q[src*="/assets/"][src*="/assets/b8912961ea6ab32f0655d583bbc26b4f.png"], #app-mount .guilds-1SWlCJ .wrapper-25eVIn .icon-27yU2q[src*="/assets/"][src*="/assets/485a854d5171c8dc98088041626e6fea.png"], #app-mount .guilds-1SWlCJ .wrapper-25eVIn .icon-27yU2q[src*="/assets/"][src*="/assets/f810dc5fedb7175c43a3389aa890534f.png"], #app-mount .guilds-1SWlCJ .wrapper-25eVIn .icon-27yU2q[src*="/assets/"][src*="/assets/b3150d5cef84b9e82128a1131684f287.png"] {
+  -webkit-mask: url('data:image/svg+xml; utf-8,<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" class="octicon" height="64" role="img" viewBox="0 0 16 16" width="64" style="display:inline-block;fill:currentColor;user-select:none;vertical-align:middle"><path fill-rule="evenodd" d="M16 12.999c0 .439-.45 1-1 1H7.995c-.539 0-.994-.447-.995-.999H1c-.54 0-1-.561-1-1 0-2.634 3-4 3-4s.229-.409 0-1c-.841-.621-1.058-.59-1-3 .058-2.419 1.367-3 2.5-3s2.442.58 2.5 3c.058 2.41-.159 2.379-1 3-.229.59 0 1 0 1s1.549.711 2.42 2.088A6.78 6.78 0 0 1 10 8.999s.229-.409 0-1c-.841-.62-1.058-.59-1-3 .058-2.419 1.367-3 2.5-3s2.437.581 2.495 3c.059 2.41-.158 2.38-1 3-.229.59 0 1 0 1s3.005 1.366 3.005 4z"/></svg>') center/42% no-repeat;
+          mask: url('data:image/svg+xml; utf-8,<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" class="octicon" height="64" role="img" viewBox="0 0 16 16" width="64" style="display:inline-block;fill:currentColor;user-select:none;vertical-align:middle"><path fill-rule="evenodd" d="M16 12.999c0 .439-.45 1-1 1H7.995c-.539 0-.994-.447-.995-.999H1c-.54 0-1-.561-1-1 0-2.634 3-4 3-4s.229-.409 0-1c-.841-.621-1.058-.59-1-3 .058-2.419 1.367-3 2.5-3s2.442.58 2.5 3c.058 2.41-.159 2.379-1 3-.229.59 0 1 0 1s1.549.711 2.42 2.088A6.78 6.78 0 0 1 10 8.999s.229-.409 0-1c-.841-.62-1.058-.59-1-3 .058-2.419 1.367-3 2.5-3s2.437.581 2.495 3c.059 2.41-.158 2.38-1 3-.229.59 0 1 0 1s3.005 1.366 3.005 4z"/></svg>') center/42% no-repeat;
 }
 #app-mount .guilds-1SWlCJ .expandedFolderBackground-2sPsd-,
 #app-mount .guilds-1SWlCJ .folderIconWrapper-226oVY,
@@ -2781,7 +2810,9 @@ html.platform-win[lang=en-GB]:not(.app-focused) body:not(.oldTitleBarEnabled-D8p
 }
 
 .theme-light #app-mount .guilds-1SWlCJ .childWrapper-anI2G9,
-.theme-light #app-mount .guilds-1SWlCJ .circleIconButton-jET_ig {
+.theme-light #app-mount .guilds-1SWlCJ .circleIconButton-jET_ig,
+.theme-light #app-mount .guilds-1SWlCJ .wrapper-1BJsBx,
+.theme-light #app-mount .guilds-1SWlCJ .wrapper-25eVIn {
   background: var(--background-dark);
 }
 .theme-light #app-mount .guilds-1SWlCJ .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9 {
@@ -2847,10 +2878,11 @@ html.platform-win[lang=en-GB]:not(.app-focused) body:not(.oldTitleBarEnabled-D8p
   box-shadow: none;
   opacity: 1;
   z-index: 100;
-  padding: var(--spacing-third) var(--spacing);
-  padding-right: var(--spacing-third);
   min-height: auto;
   cursor: var(--cursor);
+}
+#app-mount .chat-3bRxxu .newMessagesBar-265mhP:active {
+  padding: 0;
 }
 #app-mount .chat-3bRxxu .newMessagesBar-265mhP button {
   cursor: var(--cursor);
@@ -2858,11 +2890,24 @@ html.platform-win[lang=en-GB]:not(.app-focused) body:not(.oldTitleBarEnabled-D8p
 #app-mount .chat-3bRxxu .newMessagesBar-265mhP button.barButtonMain-3K-jeJ {
   color: var(--text-normal);
   font-size: var(--font-size);
-  padding: 0;
-  font-weight: var(--font-weight-semibold);
-  pointer-events: none;
+  font-weight: var(--font-weight-normal);
+  height: 29px;
+  padding: 0 var(--spacing);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-#app-mount .chat-3bRxxu .newMessagesBar-265mhP button .barButtonIcon-3t4V3d {
+#app-mount .chat-3bRxxu .newMessagesBar-265mhP button.barButtonMain-3K-jeJ:after {
+  content: "";
+  width: 16px;
+  height: 16px;
+  background: rgb(var(--status-yellow));
+  -webkit-mask: url('data:image/svg+xml; utf-8,<svg xmlns="http://www.w3.org/2000/svg" aria-labelledby="__Octicon_Title_3" class="octicon status status-modified" version="1.1" viewBox="0 0 16 16"><title id="__Octicon_Title_3">Modified</title><path fill-rule="evenodd" d="M2.75 2.5h10.5a.25.25 0 01.25.25v10.5a.25.25 0 01-.25.25H2.75a.25.25 0 01-.25-.25V2.75a.25.25 0 01.25-.25zM13.25 1H2.75A1.75 1.75 0 001 2.75v10.5c0 .966.784 1.75 1.75 1.75h10.5A1.75 1.75 0 0015 13.25V2.75A1.75 1.75 0 0013.25 1zM8 10a2 2 0 100-4 2 2 0 000 4z"/></svg>') center/contain no-repeat;
+          mask: url('data:image/svg+xml; utf-8,<svg xmlns="http://www.w3.org/2000/svg" aria-labelledby="__Octicon_Title_3" class="octicon status status-modified" version="1.1" viewBox="0 0 16 16"><title id="__Octicon_Title_3">Modified</title><path fill-rule="evenodd" d="M2.75 2.5h10.5a.25.25 0 01.25.25v10.5a.25.25 0 01-.25.25H2.75a.25.25 0 01-.25-.25V2.75a.25.25 0 01.25-.25zM13.25 1H2.75A1.75 1.75 0 001 2.75v10.5c0 .966.784 1.75 1.75 1.75h10.5A1.75 1.75 0 0015 13.25V2.75A1.75 1.75 0 0013.25 1zM8 10a2 2 0 100-4 2 2 0 000 4z"/></svg>') center/contain no-repeat;
+  position: relative;
+  display: inline-block;
+}
+#app-mount .chat-3bRxxu .newMessagesBar-265mhP button.barButtonAlt-mYL1lj {
   display: none;
 }
 #app-mount .chat-3bRxxu .hasMore-3e72_v {
@@ -2930,9 +2975,7 @@ html.platform-win[lang=en-GB]:not(.app-focused) body:not(.oldTitleBarEnabled-D8p
   margin-bottom: var(--spacing);
 }
 #app-mount .chat-3bRxxu .messagesErrorBar-nyJGU7 .barButtonAlt-mYL1lj,
-#app-mount .chat-3bRxxu .newMessagesBar-265mhP .barButtonAlt-mYL1lj,
-#app-mount .chat-3bRxxu .messagesErrorBar-nyJGU7 .spinner-1AwyAQ,
-#app-mount .chat-3bRxxu .newMessagesBar-265mhP .spinner-1AwyAQ {
+#app-mount .chat-3bRxxu .messagesErrorBar-nyJGU7 .spinner-1AwyAQ {
   order: 1;
   pointer-events: all;
   font-size: var(--font-size);
@@ -2948,15 +2991,11 @@ html.platform-win[lang=en-GB]:not(.app-focused) body:not(.oldTitleBarEnabled-D8p
   background-color: rgb(var(--accent));
 }
 #app-mount .chat-3bRxxu .messagesErrorBar-nyJGU7 .barButtonAlt-mYL1lj:hover,
-#app-mount .chat-3bRxxu .newMessagesBar-265mhP .barButtonAlt-mYL1lj:hover,
-#app-mount .chat-3bRxxu .messagesErrorBar-nyJGU7 .spinner-1AwyAQ:hover,
-#app-mount .chat-3bRxxu .newMessagesBar-265mhP .spinner-1AwyAQ:hover {
+#app-mount .chat-3bRxxu .messagesErrorBar-nyJGU7 .spinner-1AwyAQ:hover {
   box-shadow: inset 0 0 0 100vmax rgba(255, 255, 255, 0.1);
 }
 #app-mount .chat-3bRxxu .messagesErrorBar-nyJGU7 .barButtonAlt-mYL1lj:focus,
-#app-mount .chat-3bRxxu .newMessagesBar-265mhP .barButtonAlt-mYL1lj:focus,
-#app-mount .chat-3bRxxu .messagesErrorBar-nyJGU7 .spinner-1AwyAQ:focus,
-#app-mount .chat-3bRxxu .newMessagesBar-265mhP .spinner-1AwyAQ:focus {
+#app-mount .chat-3bRxxu .messagesErrorBar-nyJGU7 .spinner-1AwyAQ:focus {
   box-shadow: 0 0 0 2px rgba(var(--accent), 0.25), inset 0 0 0 100vmax rgba(255, 255, 255, 0.1);
 }
 
@@ -5069,15 +5108,18 @@ html.theme-light #app-mount .reactions-12N0jA .reaction-1hd86g:not(.reactionMe-w
           mask: none;
 }
 
-#app-mount .members-1998pB {
+#app-mount .membersWrap-2h-GB4 {
+  min-width: unset;
+}
+#app-mount .membersWrap-2h-GB4 .members-1998pB {
   width: var(--sidebar-width);
   border-left: 1px solid var(--base-border);
   background: var(--background);
 }
-#app-mount .members-1998pB > div {
+#app-mount .membersWrap-2h-GB4 .members-1998pB > div {
   background: transparent;
 }
-#app-mount .members-1998pB::-webkit-scrollbar {
+#app-mount .membersWrap-2h-GB4 .members-1998pB::-webkit-scrollbar {
   display: none;
 }
 
@@ -9018,6 +9060,16 @@ html.theme-light #app-mount .popout-2iWAc-.force-theme.content-1nP7fx .buttonCon
 }
 #app-mount .root-1gCeng.popout-103y-5 .footer-1eyGBa button {
   margin: 0;
+}
+#app-mount .root-1gCeng.popout-103y-5 .footer-1eyGBa .h5-18_1nd + .input-cIJ7To {
+  border: none;
+  padding: 0;
+  background: transparent;
+}
+#app-mount .root-1gCeng.popout-103y-5 .footer-1eyGBa .marginTop8-1DLZ1n {
+  margin-top: var(--spacing-half);
+  color: var(--text-muted);
+  font-size: var(--font-size-sm);
 }
 
 #app-mount .layer-3QrUeG[aria-label*=SETTINGS] {

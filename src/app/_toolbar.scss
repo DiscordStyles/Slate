@@ -315,6 +315,9 @@ body #app-mount .container-1r6BKw {
 
 html.platform-win[lang="en-US"],
 html.platform-win[lang="en-GB"] {
+  body:not(.oldTitleBarEnabled-D8ppJQ) .container-1D34oG .toolbar-1t6TWx {
+    border:none;
+  }
   body:not(.oldTitleBarEnabled-D8ppJQ) .toolbar-1t6TWx {
     .iconWrapper-2OrFZ1[aria-label="Inbox"],
     .iconWrapper-2OrFZ1[aria-label="Pinned Messages"],

@@ -1,11 +1,14 @@
-#app-mount .members-1998pB {
-  width: var(--sidebar-width);
-  border-left: 1px solid var(--base-border);
-  background: var(--background);
-  & > div {
-    background: transparent;
-  }
-  &::-webkit-scrollbar {
-    display: none;
+#app-mount .membersWrap-2h-GB4 {
+  min-width:unset;
+  .members-1998pB {
+    width: var(--sidebar-width);
+    border-left: 1px solid var(--base-border);
+    background: var(--background);
+    & > div {
+      background: transparent;
+    }
+    &::-webkit-scrollbar {
+      display: none;
+    }
   }
 }

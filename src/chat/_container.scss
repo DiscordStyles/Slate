@@ -57,25 +57,38 @@
     left: 0;
     right: 0;
     border-radius: 0;
-    background: var(--background-light);
-    border-bottom: 1px solid var(--base-border);
+    background:var(--background-light);
+    border-bottom:1px solid var(--base-border);
     box-shadow: none;
     opacity: 1;
     z-index:100;
-    padding: var(--spacing-third) var(--spacing);
-    padding-right:var(--spacing-third);
     min-height: auto;
     cursor: var(--cursor);
+    &:active {
+      padding:0;
+    }
     button {
       cursor: var(--cursor);
       &.barButtonMain-3K-jeJ {
         color:var(--text-normal);
         font-size:var(--font-size);
-        padding:0;
-        font-weight:var(--font-weight-semibold);
-        pointer-events:none;
+        font-weight:var(--font-weight-normal);
+        height:29px;
+        padding:0 var(--spacing);
+        display:flex;
+        align-items:center;
+        justify-content:space-between;
+        &:after {
+          content:'';
+          width:16px;
+          height:16px;
+          background:rgb(var(--status-yellow));
+          mask:url($icon_modified) center/contain no-repeat;
+          position:relative;
+          display:inline-block;
+        }
       }
-      .barButtonIcon-3t4V3d {
+      &.barButtonAlt-mYL1lj {
         display:none;
       }
     }
@@ -147,9 +160,7 @@
     }
   }
   .messagesErrorBar-nyJGU7 .barButtonAlt-mYL1lj,
-  .newMessagesBar-265mhP .barButtonAlt-mYL1lj,
-  .messagesErrorBar-nyJGU7 .spinner-1AwyAQ,
-  .newMessagesBar-265mhP .spinner-1AwyAQ {
+  .messagesErrorBar-nyJGU7 .spinner-1AwyAQ {
     order:1;
     pointer-events:all;
     font-size: var(--font-size);
