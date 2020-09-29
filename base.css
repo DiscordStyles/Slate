@@ -10542,6 +10542,7 @@ html.theme-light #app-mount .popout-2iWAc-.force-theme.content-1nP7fx .buttonCon
   padding: var(--spacing);
   background: var(--background-alt);
   border-radius: var(--border-radius);
+  cursor: var(--cursor);
 }
 #app-mount .layer-3QrUeG[aria-label=GUILD_SETTINGS] .auditLog-3jNbM6 .headerClickable-2IVFo9 .icon-RTGJu3,
 #app-mount .layer-3QrUeG[aria-label=GUILD_SETTINGS] .auditLog-3jNbM6 .headerDefault-1wrJcN .icon-RTGJu3,
@@ -10554,6 +10555,11 @@ html.theme-light #app-mount .popout-2iWAc-.force-theme.content-1nP7fx .buttonCon
   margin: 0;
   height: var(--avatar-size) !important;
   width: var(--avatar-size) !important;
+}
+#app-mount .layer-3QrUeG[aria-label=GUILD_SETTINGS] .auditLog-3jNbM6 .headerClickable-2IVFo9.headerExpanded-CUEwZ5,
+#app-mount .layer-3QrUeG[aria-label=GUILD_SETTINGS] .auditLog-3jNbM6 .headerDefault-1wrJcN.headerExpanded-CUEwZ5,
+#app-mount .layer-3QrUeG[aria-label=GUILD_SETTINGS] .auditLog-3jNbM6 .headerExpanded-CUEwZ5.headerExpanded-CUEwZ5 {
+  border-radius: var(--border-radius) var(--border-radius) 0 0;
 }
 #app-mount .layer-3QrUeG[aria-label=GUILD_SETTINGS] .auditLog-3jNbM6 .headerClickable-2IVFo9.headerExpanded-CUEwZ5 .expand-1lx8E1,
 #app-mount .layer-3QrUeG[aria-label=GUILD_SETTINGS] .auditLog-3jNbM6 .headerDefault-1wrJcN.headerExpanded-CUEwZ5 .expand-1lx8E1,
@@ -10632,11 +10638,50 @@ html.theme-light #app-mount .popout-2iWAc-.force-theme.content-1nP7fx .buttonCon
   position: relative;
   top: -2px;
 }
-#app-mount .layer-3QrUeG[aria-label=GUILD_SETTINGS] .divider-1pnAR2 {
-  border-color: var(--base-border);
+#app-mount .layer-3QrUeG[aria-label=GUILD_SETTINGS] .auditLog-3jNbM6 .divider-1pnAR2 {
+  display: none;
 }
-#app-mount .layer-3QrUeG[aria-label=GUILD_SETTINGS] .changeDetails-bk98pu {
-  background: var(--background-dark);
+#app-mount .layer-3QrUeG[aria-label=GUILD_SETTINGS] .auditLog-3jNbM6 .changeDetails-bk98pu {
+  background: var(--background-light);
+  border: 1px solid var(--base-border);
+  border-top: none;
+  border-radius: 0 0 var(--border-radius) var(--border-radius);
+  padding: var(--spacing);
+}
+#app-mount .layer-3QrUeG[aria-label=GUILD_SETTINGS] .auditLog-3jNbM6 .changeDetails-bk98pu .detail-1BhUh9 {
+  margin: 0;
+  margin-bottom: var(--spacing);
+}
+#app-mount .layer-3QrUeG[aria-label=GUILD_SETTINGS] .auditLog-3jNbM6 .changeDetails-bk98pu .detail-1BhUh9:last-child {
+  margin: 0;
+}
+#app-mount .layer-3QrUeG[aria-label=GUILD_SETTINGS] .auditLog-3jNbM6 .changeDetails-bk98pu .detail-1BhUh9 .dash-3L29dH {
+  display: none;
+}
+#app-mount .layer-3QrUeG[aria-label=GUILD_SETTINGS] .auditLog-3jNbM6 .changeDetails-bk98pu .detail-1BhUh9 .changeStr-12S1vf {
+  font-size: var(--font-size);
+  font-weight: var(--font-weight-normal);
+  color: var(--text-muted);
+  line-height: normal;
+}
+#app-mount .layer-3QrUeG[aria-label=GUILD_SETTINGS] .auditLog-3jNbM6 .changeDetails-bk98pu .detail-1BhUh9 .changeStr-12S1vf strong {
+  color: var(--text-normal);
+  font-weight: var(--font-weight-semibold);
+}
+#app-mount .layer-3QrUeG[aria-label=GUILD_SETTINGS] .auditLog-3jNbM6 .changeDetails-bk98pu .detail-1BhUh9 .prefix-24L010 {
+  font-family: var(--font-family-monospace);
+  font-size: var(--font-size);
+  font-weight: var(--font-weight-normal);
+  line-height: normal;
+}
+#app-mount .layer-3QrUeG[aria-label=GUILD_SETTINGS] .auditLog-3jNbM6 .changeDetails-bk98pu .detail-1BhUh9 .prefix-24L010.typeCreate-1kfBMl {
+  color: rgb(var(--status-green));
+}
+#app-mount .layer-3QrUeG[aria-label=GUILD_SETTINGS] .auditLog-3jNbM6 .changeDetails-bk98pu .detail-1BhUh9 .prefix-24L010.typeDelete-bTXOuk {
+  color: rgb(var(--status-red));
+}
+#app-mount .layer-3QrUeG[aria-label=GUILD_SETTINGS] .auditLog-3jNbM6 .changeDetails-bk98pu .detail-1BhUh9 .prefix-24L010.typeUpdate-2bwuHy {
+  color: rgb(var(--status-yellow));
 }
 
 html.theme-light #app-mount .layer-3QrUeG[aria-label*=SETTINGS] .contentRegion-3nDuYy .streamerModeEnabled-2q0Gft .streamerModeEnabledBtn-2ZJ2eq:hover {
