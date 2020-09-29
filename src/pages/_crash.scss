@@ -12,7 +12,8 @@
             bottom: var(--spacing);
             height: 490px;
             width:290px;
-            background:url($illustration_10) center/contain no-repeat;
+            background:var(--text-muted);
+            mask:url($illustration_10) center/contain no-repeat;
         }
         .text-NLHgOm {
             width:100%;
@@ -39,7 +40,7 @@
                     transform:rotate(25deg);
                     display:block;
                     margin-right:var(--spacing);
-                    background:#dbe8f1;
+                    background:var(--text-muted);
                     mask:url($icon_stop) center/contain no-repeat;
                 }
             }
