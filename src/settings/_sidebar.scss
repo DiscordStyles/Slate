@@ -51,21 +51,6 @@
 			color: var(--white);
 			background: rgb(var(--accent));
 		}
-		&[style] {
-			&:active,
-			&:hover {
-				background:transparent !important;
-				color:rgb(var(--discord-blurple)) !important;
-			}
-		}
-		&[style*="background-color: rgb(114, 137, 218)"] {
-			background: rgb(var(--discord-blurple)) !important;
-			&:active,
-			&:hover {
-				background:rgb(var(--discord-blurple)) !important;
-				color:var(--white) !important;
-			}
-		}
 	}
 
 	// Socials
@@ -78,7 +63,7 @@
 	.info-1VyQPT {
 		padding: calc(var(--spacing) / 3) var(--spacing-double);
 		.colorMuted-HdFt4q:first-of-type:before {
-			content: var(--slate-version);
+			content: var(--slate-version) ' ('var(--slate-palette)')';
 			display: block;
 		}
 	}

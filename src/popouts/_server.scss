@@ -75,9 +75,9 @@
         }
       }
       &#guild-header-popout-invite-people {
-        color: rgb(var(--discord-blurple));
+        color: var(--text-link);
         &:hover {
-          color: rgb(var(--discord-blurple));
+          color: var(--text-link);
         }
         path {
           d: path($path_person_add);

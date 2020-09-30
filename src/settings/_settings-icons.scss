@@ -42,6 +42,7 @@
   
   // Subscriptions
   &:nth-child(8):before {
+    background:currentColor;
     mask: url($icon_discord) center/cover no-repeat;
   }
   	
@@ -54,6 +55,7 @@
   &:nth-child(10) {
     color: rgba(var(--discord-pink), 1);
     &:before {
+      background:currentColor;
       mask: url($icon_nitro-gem) center/cover no-repeat;
     }
     &.selected-3s45Ha {
@@ -65,8 +67,9 @@
   &:nth-child(11) {
     color: rgba(var(--status-yellow), 1);
     &:before {
+      background:currentColor;
       mask: url($icon_hypesquad) center/cover no-repeat;
-      }
+    }
     &.selected-3s45Ha {
       background: rgba(var(--status-yellow), 1);
     }
@@ -131,9 +134,9 @@ html.platform-win #app-mount .layer-3QrUeG[aria-label*="SETTINGS"] .item-PXvHYJ 
   }
   	
   // Logout
-  &:nth-child(28):before {
+  &[style*="240, 71, 71"]:before {
     mask: url($icon_sign-out) center/cover no-repeat;
-    background-color: rgba(var(--status-red), 1);
+    background: rgba(var(--status-red), 1);
   }
 }
 
@@ -180,9 +183,9 @@ html.platform-osx #app-mount .layer-3QrUeG[aria-label*="SETTINGS"] .item-PXvHYJ 
   }
   	
   // Logout
-  &:nth-child(26):before {
+  &[style*="240, 71, 71"]:before {
     mask: url($icon_sign-out) center/cover no-repeat;
-    background-color: rgba(var(--status-red), 1);
+    background: rgba(var(--status-red), 1);
   }
 }
 
@@ -234,8 +237,8 @@ html.platform-linux #app-mount .layer-3QrUeG[aria-label*="SETTINGS"] .item-PXvHY
   }
   	
   // Logout
-  &:nth-child(27):before {
+  &[style*="240, 71, 71"]:before {
     mask: url($icon_sign-out) center/cover no-repeat;
-    background-color: rgba(var(--status-red), 1);
+    background: rgba(var(--status-red), 1);
   }
 }
