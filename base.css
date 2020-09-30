@@ -14057,6 +14057,9 @@ html.theme-light #app-mount .container-1nZlH6 {
   color: var(--text-normal) !important;
   line-height: var(--line-height);
 }
+#app-mount .radioGroup-1GBvlr .item-26Dhrx .title-3BE6m5 .icon-3pNFyS {
+  display: none;
+}
 #app-mount .radioGroup-1GBvlr .item-26Dhrx .desc-2Dttbk,
 #app-mount .radioGroup-1GBvlr .item-26Dhrx .title-3BE6m5:after {
   font-size: var(--font-size);
