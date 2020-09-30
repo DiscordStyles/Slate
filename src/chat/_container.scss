@@ -281,6 +281,9 @@
       }
       .subtitle-2UIIw0 {
         margin:0;
+        font-weight:var(--font-weight-normal);
+        color:var(--text-normal);
+        line-height:normal;
       }
       .cardWrapper-2R6-SX {
         .card-3RzMcx {
@@ -291,24 +294,22 @@
           border-top:none;
           padding:var(--spacing-double);
           cursor: var(--cursor);
-          .arrow-3bRNiS {
-            color:var(--text-muted);
-          }
-          &:hover .arrow-3bRNiS {
-            color:var(--text-normal);
+          .icon-2ou77m {
+            display:none;
           }
           .checkmark-3rush5 {
             background:transparent;
             padding:0;
             color:rgb(var(--status-green));
           }
-          .icon-2ou77m {
-            display:none;
-          }
           .cardHeader-2Wz67Q {
             margin:0;
             font-size:var(--font-size);
             font-weight:var(--font-weight-semibold);
+            color:var(--text-normal);
+          }
+          &.completed-13TrxW .cardHeader-2Wz67Q {
+            opacity:1;
           }
         }
         &:nth-child(2) .card-3RzMcx {

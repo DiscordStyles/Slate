@@ -582,18 +582,103 @@
 		}
 	}
 	.preview-2nSL_2 + .marginTop40-i-78cZ {
+		+.marginTop40-i-78cZ {
+			position:relative;
+			h5 {
+				&::before {
+					content:'Get more palettes at https://slate-theme.netlify.app/palettes';
+					color:var(--text-muted);
+					font-size:var(--font-size);
+					font-weight:var(--font-weight-normal);
+					line-height:normal;
+					margin-top:calc((var(--spacing) + 50px) - var(--spacing-double));
+					margin-bottom:var(--spacing-double);
+					display:block;
+				}
+			}
+			&::after {
+				content:'';
+				top:calc(var(--spacing) * -1 - 5px);
+				border:1px solid var(--base-border);
+				border-radius:var(--border-radius);
+				left:0;
+				position:absolute;
+				width:300px;
+				height:50px;
+				background: linear-gradient(90deg, var(--accent-solid) 25%, var(--text-normal) 25%, var(--text-normal) 50%, var(--background-dark) 50%, var(--background-dark) 75%, var(--background) 75%);
+			}
+		}
+		&::after {
+			content:'Palette - ' var(--slate-palette);
+			color:var(--text-normal);
+			font-size:var(--font-size-md);
+			font-weight:var(--font-weight-semibold);
+			line-height:normal;
+			margin-top:var(--spacing);
+			display:block;
+		}
 		h5 {
 			display:block !important;
 		}
-		 .radioGroup-1GBvlr {
-			.item-26Dhrx:first-child {
-				.title-3BE6m5:after {
-					content: "Dark themed elements with a grey color scheme.";
+		.radioGroup-1GBvlr {
+			display:flex;
+			.item-26Dhrx {
+				border:none;
+				padding:0 !important;
+				background:transparent !important;
+				margin-right:var(--spacing-double);
+				display:flex;
+				flex-direction:column;
+				align-items:center;
+				.checkboxWrapper-SkhIWG {
+					position:static;
 				}
-			}
-			&:last-child {
-				.title-3BE6m5:after {
-					content: "Light themed elements with a white color scheme. (Unfinished)";
+				.info-3LOr12 {
+					margin:0;
+					.title-3BE6m5 {
+						font-weight:var(--font-weight-normal);
+						&.titleChecked-2wg0pd {
+							color:var(--text-normal) !important;
+							margin-top:var(--spacing-half);
+						}
+					}
+				}
+				&[style*="rgb(114, 137, 218)"]::before {
+					border:1px solid var(--accent-solid) !important;
+					box-shadow:0 0 0 3px rgba(var(--accent), 0.25);
+				}
+				label::after {
+					content:'';
+					position:absolute;
+					top:0;
+					left:0;
+					width:100px;
+					height:72px;
+					transform:scale(.65);
+					border-radius:var(--border-radius);
+					box-shadow:var(--elevation-2);
+				}
+				&::before {
+					content:'';
+					width:100px;
+					height:72px;
+					display:flex;
+					background-color:var(--background-alt);
+					background-image:url($illustration_2);
+					background-size:125%;
+					background-position:bottom;
+					background-repeat:no-repeat;
+					border-radius:var(--border-radius);
+					border:1px solid var(--base-border);
+					box-sizing:border-box;
+				}
+				&:first-child label::after {
+					background:url($illustration_preview_1) center/cover no-repeat;;
+					border:1px solid #141414;
+				}
+				&:last-child label::after {
+					background:url($illustration_preview_2) center/cover no-repeat;
+					border:1px solid #141414;
 				}
 			}
 		}
@@ -935,6 +1020,14 @@
 	}
 }
 
-.theme-light .connectionIcon-2ElzVe {
-	filter: invert(1);
+
+// Light Mode
+
+html.theme-light {
+	#app-mount .layer-3QrUeG[aria-label=USER_SETTINGS] .preview-2nSL_2 + .marginTop40-i-78cZ .radioGroup-1GBvlr .item-26Dhrx::before {
+		background-color:var(--background-dark);
+	}
+	.connectionIcon-2ElzVe {
+		filter: invert(1);
+	}
 }
