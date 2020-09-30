@@ -854,7 +854,8 @@
 }
 
 // Remove Powercord Codeblock Mods
-.hljs .powercord-lines, .powercord-codeblock-lang {
+.powercord-lines, 
+.powercord-codeblock-lang {
   display: none;
 }
 
