@@ -45,7 +45,7 @@
   // User drag region
   .containerUserOver-1U5YnL:after {
     left: 0;
-    border-radius: 0;
+    border-radius: var(--border-radius);
     border:2px solid rgb(var(--status-green));
     background: rgba(var(--status-green), 0.2);
   }
