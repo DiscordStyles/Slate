@@ -29,10 +29,6 @@ body #app-mount .container-1r6BKw {
         box-shadow:0 0 0 1px currentColor !important;
       }
     }
-    .container-1MGX4D {
-      position:relative;
-      left:calc((var(--spacing) + 20px) * -1 + var(--spacing-half))
-    }
     .input-2A_zIr,
     .input-cIJ7To {
       background: var(--toolbar-background);
@@ -214,7 +210,8 @@ body #app-mount .container-1r6BKw {
     }
   }
   .children-19S4PO path[d="M14 8.00598C14 10.211 12.206 12.006 10 12.006C7.795 12.006 6 10.211 6 8.00598C6 5.80098 7.794 4.00598 10 4.00598C12.206 4.00598 14 5.80098 14 8.00598ZM2 19.006C2 15.473 5.29 13.006 10 13.006C14.711 13.006 18 15.473 18 19.006V20.006H2V19.006Z"] {
-    display:none;
+    d: path($path_members);
+    transform: scale(1.15) translateY(10%);
     ~ path {
       display:none;
     }
