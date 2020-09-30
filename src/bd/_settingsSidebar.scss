@@ -1,7 +1,8 @@
 #app-mount #bd-settings-sidebar {
   padding-bottom: calc(var(--spacing) - 5px);
   .ui-tab-bar-separator {
-    background-color: var(--base-border);
+    border-bottom:1px solid var(--base-border);
+    background:transparent;
     margin: var(--spacing) 0 calc(var(--spacing) + 5px);
   }
   .ui-tab-bar-header {

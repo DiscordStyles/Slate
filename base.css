@@ -9980,6 +9980,10 @@ html.theme-light #app-mount .popout-2iWAc-.force-theme.content-1nP7fx .buttonCon
 #app-mount .layer-3QrUeG[aria-label=USER_SETTINGS] .preview-2nSL_2 + .marginTop40-i-78cZ + .marginTop40-i-78cZ {
   position: relative;
 }
+#app-mount .layer-3QrUeG[aria-label=USER_SETTINGS] .preview-2nSL_2 + .marginTop40-i-78cZ + .marginTop40-i-78cZ h5 {
+  -webkit-user-select: none;
+          user-select: none;
+}
 #app-mount .layer-3QrUeG[aria-label=USER_SETTINGS] .preview-2nSL_2 + .marginTop40-i-78cZ + .marginTop40-i-78cZ h5::before {
   content: "Get more palettes at https://slate-theme.netlify.app/palettes";
   color: var(--text-muted);
@@ -9989,6 +9993,7 @@ html.theme-light #app-mount .popout-2iWAc-.force-theme.content-1nP7fx .buttonCon
   margin-top: calc((var(--spacing) + 50px) - var(--spacing-double));
   margin-bottom: var(--spacing-double);
   display: block;
+  cursor: default;
 }
 #app-mount .layer-3QrUeG[aria-label=USER_SETTINGS] .preview-2nSL_2 + .marginTop40-i-78cZ + .marginTop40-i-78cZ::after {
   content: "";
@@ -11044,7 +11049,8 @@ html.platform-linux #app-mount .layer-3QrUeG[aria-label*=SETTINGS] .item-PXvHYJ:
   padding-bottom: calc(var(--spacing) - 5px);
 }
 #app-mount #bd-settings-sidebar .ui-tab-bar-separator {
-  background-color: var(--base-border);
+  border-bottom: 1px solid var(--base-border);
+  background: transparent;
   margin: var(--spacing) 0 calc(var(--spacing) + 5px);
 }
 #app-mount #bd-settings-sidebar .ui-tab-bar-header {

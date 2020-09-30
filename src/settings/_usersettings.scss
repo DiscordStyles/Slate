@@ -585,6 +585,7 @@
 		+.marginTop40-i-78cZ {
 			position:relative;
 			h5 {
+				user-select:none;
 				&::before {
 					content:'Get more palettes at https://slate-theme.netlify.app/palettes';
 					color:var(--text-muted);
@@ -594,6 +595,7 @@
 					margin-top:calc((var(--spacing) + 50px) - var(--spacing-double));
 					margin-bottom:var(--spacing-double);
 					display:block;
+					cursor:default;
 				}
 			}
 			&::after {
