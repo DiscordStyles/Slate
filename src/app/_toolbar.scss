@@ -316,12 +316,11 @@ body #app-mount .container-1r6BKw {
   }
 }
 
-html.platform-win[lang="en-US"],
-html.platform-win[lang="en-GB"] {
-  body:not(.oldTitleBarEnabled-D8ppJQ) .container-1D34oG .toolbar-1t6TWx {
+html.platform-win[lang="en-US"] {
+  body:not(.oldTitleBarEnabled-D8ppJQ) .container-1r6BKw.themed-ANHk51 .container-1D34oG .toolbar-1t6TWx {
     border:none;
   }
-  body:not(.oldTitleBarEnabled-D8ppJQ) .toolbar-1t6TWx {
+  body:not(.oldTitleBarEnabled-D8ppJQ) .container-1r6BKw.themed-ANHk51 .toolbar-1t6TWx {
     .iconWrapper-2OrFZ1[aria-label="Inbox"],
     .iconWrapper-2OrFZ1[aria-label="Pinned Messages"],
     .iconWrapper-2OrFZ1[aria-label="Add Friends to DM"],
@@ -422,7 +421,7 @@ html.platform-win[lang="en-GB"] {
 
 // Unfocused App
 
-html.platform-win[lang="en-GB"]:not(.app-focused) body:not(.oldTitleBarEnabled-D8ppJQ) .toolbar-1t6TWx {
+html.platform-win[lang="en-US"]:not(.app-focused) body:not(.oldTitleBarEnabled-D8ppJQ) .container-1r6BKw.themed-ANHk51 .toolbar-1t6TWx {
   .iconWrapper-2OrFZ1[aria-label="Inbox"],
   .iconWrapper-2OrFZ1[aria-label="Pinned Messages"],
   .iconWrapper-2OrFZ1[aria-label="Add Friends to DM"],
