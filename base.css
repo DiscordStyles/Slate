@@ -13772,6 +13772,7 @@ html.theme-light #app-mount .wrapper-O5i5-0 .root-1gCeng .scroller-2hZ97C .invit
 #app-mount .lookInverted-2D7oAl,
 #app-mount .lookLink-9FtZy-,
 #app-mount .lookOutlined-3sRXeN,
+#app-mount .lookGhost-2Fn_0-,
 #app-mount .colorPrimary-3b3xI6.lookLink-9FtZy-,
 #app-mount .bd-modal-wrapper .footer button {
   font-size: var(--font-size);
@@ -13789,6 +13790,7 @@ html.theme-light #app-mount .wrapper-O5i5-0 .root-1gCeng .scroller-2hZ97C .invit
 #app-mount .lookInverted-2D7oAl .buttonIcon-1BKzBu,
 #app-mount .lookLink-9FtZy- .buttonIcon-1BKzBu,
 #app-mount .lookOutlined-3sRXeN .buttonIcon-1BKzBu,
+#app-mount .lookGhost-2Fn_0- .buttonIcon-1BKzBu,
 #app-mount .colorPrimary-3b3xI6.lookLink-9FtZy- .buttonIcon-1BKzBu,
 #app-mount .bd-modal-wrapper .footer button .buttonIcon-1BKzBu {
   margin-right: var(--spacing-half);
@@ -13838,6 +13840,7 @@ html.theme-light #app-mount .wrapper-O5i5-0 .root-1gCeng .scroller-2hZ97C .invit
 #app-mount .lookOutlined-3sRXeN,
 #app-mount .secondaryButton-BIo-2g,
 #app-mount .actionButton-uPB8Fs,
+#app-mount .lookGhost-2Fn_0-,
 #app-mount .cancelButton-10XRsm {
   color: var(--text-normal);
   background: var(--background-light);
@@ -13851,6 +13854,7 @@ html.theme-light #app-mount .wrapper-O5i5-0 .root-1gCeng .scroller-2hZ97C .invit
 #app-mount .lookOutlined-3sRXeN:hover,
 #app-mount .secondaryButton-BIo-2g:hover,
 #app-mount .actionButton-uPB8Fs:hover,
+#app-mount .lookGhost-2Fn_0-:hover,
 #app-mount .cancelButton-10XRsm:hover {
   border: 1px solid currentColor;
 }
@@ -13860,6 +13864,7 @@ html.theme-light #app-mount .wrapper-O5i5-0 .root-1gCeng .scroller-2hZ97C .invit
 #app-mount .lookOutlined-3sRXeN:hover .contents-18-Yxp,
 #app-mount .secondaryButton-BIo-2g:hover .contents-18-Yxp,
 #app-mount .actionButton-uPB8Fs:hover .contents-18-Yxp,
+#app-mount .lookGhost-2Fn_0-:hover .contents-18-Yxp,
 #app-mount .cancelButton-10XRsm:hover .contents-18-Yxp {
   text-decoration: none;
 }
@@ -13869,6 +13874,7 @@ html.theme-light #app-mount .wrapper-O5i5-0 .root-1gCeng .scroller-2hZ97C .invit
 #app-mount .lookOutlined-3sRXeN:focus,
 #app-mount .secondaryButton-BIo-2g:focus,
 #app-mount .actionButton-uPB8Fs:focus,
+#app-mount .lookGhost-2Fn_0-:focus,
 #app-mount .cancelButton-10XRsm:focus {
   box-shadow: 0 0 0 1px currentColor !important;
   border: 1px solid currentColor !important;
@@ -13883,6 +13889,7 @@ html.theme-light #app-mount .wrapper-O5i5-0 .root-1gCeng .scroller-2hZ97C .invit
 .theme-light #app-mount .colorPrimary-3b3xI6.lookFilled-1Gx00P:hover,
 .theme-light #app-mount .lookInverted-2D7oAl:hover,
 .theme-light #app-mount .lookOutlined-3sRXeN:hover,
+.theme-light #app-mount .lookGhost-2Fn_0-:hover,
 .theme-light #app-mount .secondaryButton-BIo-2g:hover,
 .theme-light #app-mount .actionButton-uPB8Fs:hover,
 .theme-light #app-mount .cancelButton-10XRsm:hover {
@@ -13893,6 +13900,7 @@ html.theme-light #app-mount .wrapper-O5i5-0 .root-1gCeng .scroller-2hZ97C .invit
 .theme-light #app-mount .colorPrimary-3b3xI6.lookFilled-1Gx00P:focus,
 .theme-light #app-mount .lookInverted-2D7oAl:focus,
 .theme-light #app-mount .lookOutlined-3sRXeN:focus,
+.theme-light #app-mount .lookGhost-2Fn_0-:focus,
 .theme-light #app-mount .secondaryButton-BIo-2g:focus,
 .theme-light #app-mount .actionButton-uPB8Fs:focus,
 .theme-light #app-mount .cancelButton-10XRsm:focus {
