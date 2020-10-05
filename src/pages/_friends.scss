@@ -63,7 +63,7 @@
       padding-top:30px;
     }
     .peopleColumn-29fq28 .scrollerBase-289Jih {
-      margin-bottom: 49px;
+      margin-bottom: calc(var(--avatar-size-sm) + var(--spacing-double) + 3px);
     }
     .base-1x0h_U {
       color:var(--text-normal);

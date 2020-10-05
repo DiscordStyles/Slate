@@ -694,8 +694,8 @@ body #app-mount .container-1r6BKw.title-3qD0b- .children-19S4PO:hover .nicknames
   opacity: 1;
 }
 
-html.platform-win[lang=en-US] body:not(.oldTitleBarEnabled-D8ppJQ) .container-1r6BKw.themed-ANHk51 .container-1D34oG .toolbar-1t6TWx {
-  border: none;
+html.platform-win[lang=en-US] body:not(.oldTitleBarEnabled-D8ppJQ) .container-1D34oG .container-1r6BKw.themed-ANHk51 .toolbar-1t6TWx {
+  border: none !important;
 }
 html.platform-win[lang=en-US] body:not(.oldTitleBarEnabled-D8ppJQ) .container-1r6BKw.themed-ANHk51 .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label=Inbox],
 html.platform-win[lang=en-US] body:not(.oldTitleBarEnabled-D8ppJQ) .container-1r6BKw.themed-ANHk51 .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label="Pinned Messages"],
@@ -5340,7 +5340,7 @@ html.theme-light #app-mount .reactions-12N0jA .reaction-1hd86g:not(.reactionMe-w
   padding-top: 30px;
 }
 #app-mount .container-1D34oG .peopleColumn-29fq28 .scrollerBase-289Jih {
-  margin-bottom: 49px;
+  margin-bottom: calc(var(--avatar-size-sm) + var(--spacing-double) + 3px);
 }
 #app-mount .container-1D34oG .base-1x0h_U {
   color: var(--text-normal);
@@ -6064,17 +6064,18 @@ html.theme-light #app-mount .wrapper-3Q5DdO .qrLogin-1AOZMt .startOverButton-3q0
 }
 
 .applicationStore-1pNvnv .scroller-2FKFPG, .container-1D34oG .scroller-2FKFPG {
-  margin-bottom: 49px;
+  margin-bottom: calc(var(--avatar-size-sm) + var(--spacing-double) + 3px);
 }
 .applicationStore-1pNvnv:before, .container-1D34oG:before {
   content: "";
   position: absolute;
   bottom: 0;
-  height: 49px;
+  height: calc(var(--avatar-size-sm) + var(--spacing-double) + 3px);
   border-top: 1px solid var(--base-border);
   background: var(--background-light);
   width: 100%;
   z-index: 1;
+  box-sizing: border-box;
 }
 
 #app-mount .noChannel-Z1DQK7 {

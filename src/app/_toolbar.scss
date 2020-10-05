@@ -317,8 +317,8 @@ body #app-mount .container-1r6BKw {
 }
 
 html.platform-win[lang="en-US"] {
-  body:not(.oldTitleBarEnabled-D8ppJQ) .container-1r6BKw.themed-ANHk51 .container-1D34oG .toolbar-1t6TWx {
-    border:none;
+  body:not(.oldTitleBarEnabled-D8ppJQ) .container-1D34oG .container-1r6BKw.themed-ANHk51 .toolbar-1t6TWx {
+    border:none !important;
   }
   body:not(.oldTitleBarEnabled-D8ppJQ) .container-1r6BKw.themed-ANHk51 .toolbar-1t6TWx {
     .iconWrapper-2OrFZ1[aria-label="Inbox"],
