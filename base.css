@@ -728,6 +728,7 @@ html.platform-win[lang=en-US] body:not(.oldTitleBarEnabled-D8ppJQ) .container-1r
   font-weight: inherit;
   font-size: inherit;
   white-space: nowrap;
+  line-height: normal;
 }
 html.platform-win[lang=en-US] body:not(.oldTitleBarEnabled-D8ppJQ) .container-1r6BKw.themed-ANHk51 .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label=Inbox][aria-label=Inbox],
 html.platform-win[lang=en-US] body:not(.oldTitleBarEnabled-D8ppJQ) .container-1r6BKw.themed-ANHk51 .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label="Pinned Messages"][aria-label=Inbox],
@@ -824,6 +825,9 @@ html.platform-win[lang=en-US] body:not(.oldTitleBarEnabled-D8ppJQ) .container-1r
 html.platform-win[lang=en-US] body:not(.oldTitleBarEnabled-D8ppJQ) .container-1r6BKw.themed-ANHk51 .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label="New Group DM"] svg,
 html.platform-win[lang=en-US] body:not(.oldTitleBarEnabled-D8ppJQ) .container-1r6BKw.themed-ANHk51 .toolbar-1t6TWx .anchor-3Z-8Bb .iconWrapper-2OrFZ1 svg {
   display: none;
+}
+html.platform-win[lang=en-US] body:not(.oldTitleBarEnabled-D8ppJQ) .container-1r6BKw.themed-ANHk51 .toolbar-1t6TWx .inviteToolbar-3F-l2g {
+  display: block !important;
 }
 html.platform-win[lang=en-US] body:not(.oldTitleBarEnabled-D8ppJQ) .container-1r6BKw.themed-ANHk51 .toolbar-1t6TWx .inviteToolbar-3F-l2g ~ .anchor-3Z-8Bb .iconWrapper-2OrFZ1 {
   left: 142px;

@@ -347,6 +347,7 @@ html.platform-win[lang="en-US"] {
         font-weight:inherit;
         font-size:inherit;
         white-space:nowrap;
+        line-height:normal;
       }
       &[aria-label="Inbox"] {
         left:38px; 
@@ -390,6 +391,9 @@ html.platform-win[lang="en-US"] {
       svg {
         display:none;
       }
+    }
+    .inviteToolbar-3F-l2g {
+      display:block !important;
     }
     .inviteToolbar-3F-l2g ~ .anchor-3Z-8Bb .iconWrapper-2OrFZ1 {
       left:142px;
