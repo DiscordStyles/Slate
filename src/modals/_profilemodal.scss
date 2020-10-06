@@ -9,19 +9,19 @@
   transform:translateZ(0);
   animation:modal 150ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
   overflow:visible;
+  padding-top:40px;
 
   // Right Sidebar
   [class*="topSection"] {
-    margin-top:40px;
-    width:220px;
+    width:234px;
     display:flex;
     flex-direction:column;
     background:var(--background);
     box-sizing:border-box;
     border-radius:var(--border-radius) 0 0 var(--border-radius);
     &:not(.topSectionNormal-2-vo2m) + .body-3ND3kc {
-      margin-top:141px;
-      border-top:1px solid var(--base-border);
+      margin-top:101px;
+      height:calc(100% - 142px); 
     }
   }
 
@@ -58,28 +58,33 @@
   .activityProfile-2bJRaP {
     position:absolute;
     top:40px;
-    left:220px;
-    width:calc(100% - 220px);
+    left:234px;
+    width:calc(100% - 234px);
     box-sizing:border-box;
     padding:var(--spacing);
     background:var(--accent);
     background-color:rgba(var(--accent), .25);
     height:102px;
     display:flex;
+    flex-direction:column;
     align-items:center;
     margin:0;
     border-radius:0;
     .bodyAlignCenter-1KzvJk, .bodyNormal-2D39hT {
       width:100%;
     }
-    .headerText-1HLrL7 {
-      display:none;
-    }
-    .gameIcon-_0rmMm {
+    .gameIcon-_0rmMm,
+    .assetsLargeImageActivityFeed-25vA7H, 
+    .assetsLargeImageActivityFeedXbox-3Tr-tf, 
+    .assetsLargeImageProfile-3YXDex {
       height:50px;
       width:50px;
     }
   } 
+
+  .headerFill-adLl4x {
+    background:transparent;
+  }
 
   .header-QKLPzZ {
     position:relative;
@@ -87,18 +92,17 @@
     height:100%;
     padding:var(--spacing-double);
     border:1px solid var(--base-border);
-    border-top:none;
+    border-top:none;  
     border-right:none;
     border-bottom-left-radius:var(--border-radius);
     &:after {
       content:'';
       position:fixed;
-      height:100%;
-      top:0;
-      left:219px;
+      height:calc(100% - 40px);
+      top:40px;
+      left:232px;
       border-right:1px solid var(--base-border);
       width:1px;
-      height:100%;
       z-index:100;
     }
     // Avatar
@@ -131,8 +135,8 @@
       }
     }
     .wrapper-3t9DeA {
-      width:calc(220px - var(--spacing) * 4) !important;
-      height:calc(220px - var(--spacing) * 4) !important;
+      width:calc(234px - var(--spacing) * 4) !important;
+      height:calc(234px - var(--spacing) * 4) !important;
       margin-bottom:var(--spacing);
       background:var(--background);
       z-index:101;
@@ -166,7 +170,7 @@
         position:fixed;
         top:40px;
         left:0;
-        width:221px;
+        width:234px;
         height:80%;
         z-index:-1;
         opacity:.5;
@@ -181,9 +185,10 @@
 
     .headerInfo-30uryT {
       position:relative;
-      flex:0;
+      flex:1;
       padding:0;
-      margin-bottom:var(--spacing);
+      margin-bottom:var(--spacing-double);
+      display:block;
       width:100%;
       z-index:101;
       .nameTag-2IFDfL {
@@ -206,28 +211,51 @@
       }
       // Badges (Dont forget custom icons)
       .profileBadges-2vWUYb {
-        position:fixed;
-        top:0;
-        left:0;
         margin:0;
+        margin-bottom:auto;
         padding:0;
-        height:40px;
-        width:220px;
         box-sizing:border-box;
-        width:220px;
-        align-items:center;
-        padding:0 calc(var(--spacing) * 1.5);
+        display:block;
+        order:1;
+        &::before {
+          content:'';
+          width:100%;
+          box-sizing:border-box;
+          height:1px;
+          border-top:1px solid var(--base-border);
+          display:block;
+          position:relative;
+          margin:var(--spacing) 0;
+        }
         .profileBadgeWrapper-rl_RO6 {
           margin:0;
-          margin-right:var(--spacing);
-          &:last-child {
-            margin:0;
+          margin-top:var(--spacing);
+          div[aria-label] {
+            display:flex;
+            align-items:center;
+            pointer-events:none;
+            &::after {
+              content:attr(aria-label);
+              margin-left:var(--spacing-half);
+              font-size:var(--font-size);
+              color:var(--text-normal);
+              font-weight:var(--font-weight-normal);
+              line-height:normal;
+              max-width:100%;
+              white-space:nowrap;
+              text-overflow:ellipsis;
+              overflow:hidden;
+            }
           }
           .profileBadge-2BqF-Z {
             width:18px;
             height:18px;
             background:var(--text-muted);
             cursor:var(--cursor);
+            pointer-events:all;
+            &:hover {
+              background:var(--text-normal);
+            }
             -webkit-mask-size:contain;
             -webkit-mask-position:center;
             -webkit-mask-repeat:no-repeat;
@@ -269,20 +297,19 @@
     }
 
     // Action Buttons
-    .actionButton-3W1xZa {
+    button {
       margin-left:0 !important;
       margin-right:var(--spacing);
       width:calc(100% - var(--spacing) - 32px);
-      display:inline;
-      float:left;
       position:relative;
       z-index:101;
+      display:inline-block;
+      float:left;
       +div {
-        display:inline;
+        display:inline-block;
         float:right;
         position:relative;
         z-index:101;
-        margin:0;
         width:32px;
         height:var(--input-height);
         color: var(--text-normal);
@@ -323,8 +350,8 @@
         position:absolute;
         box-sizing:border-box;
         top:0;
-        left:220px;
-        width:140px;
+        left:0;
+        width:234px;
         display:flex;
         align-items:center;
         justify-content:center;
@@ -348,7 +375,6 @@
         background:var(--background-dark);
         border-bottom:1px solid var(--base-border);
         border-top:none;
-        padding-left:220px;
         border-radius:var(--border-radius) var(--border-radius) 0 0;
         border:1px solid var(--base-border);
         height:40px;
@@ -361,19 +387,19 @@
         box-sizing:border-box;
         top:0;
         left:0;
+        padding:0;
         width:100%;
         display:flex;
         flex-direction:column;
         background:var(--background-dark);
-        border-bottom:1px solid var(--base-border);
         border-top:none;
-        padding-left:220px;
         border-radius:var(--border-radius) var(--border-radius) 0 0;
         border:1px solid var(--base-border);
-        height:40px;
+        border-bottom:none;
+        height:auto;
         overflow:hidden;
         .tabBar-2MuP6- {
-          height:40px;
+          height:auto;
           .item-PXvHYJ {
             margin:0; 
             width:calc(100% / 3);
@@ -387,16 +413,18 @@
             justify-content:center;
             border:none !important;
             border-left:1px solid var(--base-border) !important;
+            border-bottom:1px solid var(--base-border) !important;
             box-sizing:border-box;
+            height:40px;
             cursor:var(--cursor);
             &:hover {
               background:var(--background);
             }
             &:first-child {
-              border:none !important;
+              border-left:none !important;
             }
             &:only-child {
-              width:140px;
+              width:233px;
               flex-grow:0;
               border-right:1px solid var(--base-border) !important;
             }
@@ -412,15 +440,18 @@
     }
   }
   .body-3ND3kc {
-    height:350px;
-    flex:1;
+    position:absolute;
+    left:234px;
+    width:calc(100% - 235px);
+    height:calc(100% - 41px);
     background:var(--background-alt);
-    margin-top:40px; // Note: Adjust this later to fit improved tabbar style
     border-right:1px solid var(--base-border);
     border-bottom:1px solid var(--base-border);
     border-bottom-right-radius:var(--border-radius);
     .infoScroller-3EYYns {
       padding:var(--spacing-double) !important;
+      max-height:450px;
+      box-sizing:border-box;
       .userInfoSection-2acyCx {
         padding:0;
         margin-bottom:var(--spacing);
@@ -431,10 +462,13 @@
 
 // Light mode
 html.theme-light {
+  .root-SR8cQa .header-QKLPzZ + div[class]:before {
+    background:var(--background);
+  }
   .root-SR8cQa .header-QKLPzZ + div[class] .tabBarContainer-1s1u-z {
     background:var(--background);
     .item-PXvHYJ:hover {
-      background:var(--background-modifier-hover);
+      background:var(--background-modifier-hover) !important;
     }
     .item-PXvHYJ.selected-3s45Ha,
     .item-PXvHYJ[style*="rgb(255, 255, 255)"] {
