@@ -20,8 +20,11 @@
     box-sizing:border-box;
     border-radius:var(--border-radius) 0 0 var(--border-radius);
     &:not(.topSectionNormal-2-vo2m) + .body-3ND3kc {
-      margin-top:101px;
-      height:calc(100% - 142px); 
+      margin-top:103px;
+      height:calc(100% - 144px); 
+    }
+    &.topSectionPlaying-1J5E4n .activityProfile-2bJRaP  h3{
+      display:none;
     }
   }
 
@@ -67,10 +70,14 @@
     height:102px;
     display:flex;
     flex-direction:column;
-    align-items:center;
+    justify-content:center;
+    align-items:flex-start;
     margin:0;
     border-radius:0;
-    .bodyAlignCenter-1KzvJk, .bodyNormal-2D39hT {
+    border:none;
+    border-right:1px solid var(--base-border);
+    .bodyAlignCenter-1KzvJk, 
+    .bodyNormal-2D39hT {
       width:100%;
     }
     .gameIcon-_0rmMm,
@@ -79,6 +86,9 @@
     .assetsLargeImageProfile-3YXDex {
       height:50px;
       width:50px;
+    }
+    .details-38sfDr, .nameNormal-2lqVQK, .playTime-2uWd1Z, .state-Tt0LO3, .timestamp-VjAZmo {
+      font-size:var(--font-size);
     }
   } 
 
@@ -297,6 +307,41 @@
     }
 
     // Action Buttons
+    .headerInfo-30uryT + div[role="button"],
+    .headerInfo-30uryT + button + div[role="button"] {
+      display:inline-block;
+      float:right;
+      position:relative;
+      z-index:101;
+      width:32px;
+      height:var(--input-height);
+      color: var(--text-normal);
+      background: var(--background-light);
+      border: 1px solid var(--base-border);
+      box-shadow: none !important;
+      box-sizing:border-box;
+      border-radius:var(--button-border-radius);
+      cursor: var(--cursor);
+      &:after {
+        content:'';
+        color:inherit;
+        background:currentColor;
+        position:absolute;
+        width:100%;
+        height:100%;
+        mask:url($icon_menu_horizontal) center/var(--font-size) no-repeat;
+      }
+      &:hover {
+        border: 1px solid currentColor;
+      }
+      &:focus {
+        box-shadow: 0 0 0 1px currentColor !important;
+        border: 1px solid currentColor !important;
+      }
+      svg {
+        display:none;
+      }
+    }
     button {
       margin-left:0 !important;
       margin-right:var(--spacing);
@@ -305,40 +350,6 @@
       z-index:101;
       display:inline-block;
       float:left;
-      +div {
-        display:inline-block;
-        float:right;
-        position:relative;
-        z-index:101;
-        width:32px;
-        height:var(--input-height);
-        color: var(--text-normal);
-        background: var(--background-light);
-        border: 1px solid var(--base-border);
-        box-shadow: none !important;
-        box-sizing:border-box;
-        border-radius:var(--button-border-radius);
-        cursor: var(--cursor);
-        &:after {
-          content:'';
-          color:inherit;
-          background:currentColor;
-          position:absolute;
-          width:100%;
-          height:100%;
-          mask:url($icon_menu_horizontal) center/var(--font-size) no-repeat;
-        }
-        &:hover {
-          border: 1px solid currentColor;
-        }
-        &:focus {
-          box-shadow: 0 0 0 1px currentColor !important;
-          border: 1px solid currentColor !important;
-        }
-        svg {
-          display:none;
-        }
-      }
     }
 
     // Tab Bar
@@ -394,8 +405,6 @@
         background:var(--background-dark);
         border-top:none;
         border-radius:var(--border-radius) var(--border-radius) 0 0;
-        border:1px solid var(--base-border);
-        border-bottom:none;
         height:auto;
         overflow:hidden;
         .tabBar-2MuP6- {
@@ -414,6 +423,7 @@
             border:none !important;
             border-left:1px solid var(--base-border) !important;
             border-bottom:1px solid var(--base-border) !important;
+            border-top:1px solid var(--base-border) !important;
             box-sizing:border-box;
             height:40px;
             cursor:var(--cursor);
@@ -421,18 +431,35 @@
               background:var(--background);
             }
             &:first-child {
-              border-left:none !important;
+              border-top-left-radius:var(--border-radius);
+            }
+            &:last-child {
+              border-top-right-radius:var(--border-radius);
+              border-right:1px solid var(--base-border) !important;
             }
             &:only-child {
-              width:233px;
+              width:234px;
               flex-grow:0;
-              border-right:1px solid var(--base-border) !important;
+              border:1px solid transparent !important;
+              border-right-color:var(--base-border) !important;
+              &:after {
+                content:'';
+                position:fixed;
+                top:0;
+                left:0;
+                width:100%;
+                height:40px;
+                border:1px solid var(--base-border); 
+                box-sizing:border-box;
+                border-radius:var(--border-radius) var(--border-radius) 0 0;
+                border-bottom:none;
+              }
             }
             &.selected-3s45Ha,
             &[style*="rgb(255, 255, 255)"] {
               box-shadow:inset 0 -3px 0px var(--accent-solid);
-              background:transparent;
-              color:var(--text-normal) !important; 
+              background:transparent !important;
+              color:var(--text-normal) !important;
             }
           }
         }
@@ -443,18 +470,84 @@
     position:absolute;
     left:234px;
     width:calc(100% - 235px);
-    height:calc(100% - 41px);
+    height:calc(100% - 40px);
     background:var(--background-alt);
     border-right:1px solid var(--base-border);
     border-bottom:1px solid var(--base-border);
     border-bottom-right-radius:var(--border-radius);
     .infoScroller-3EYYns {
       padding:var(--spacing-double) !important;
-      max-height:450px;
       box-sizing:border-box;
       .userInfoSection-2acyCx {
         padding:0;
         margin-bottom:var(--spacing);
+        .userInfoSectionHeader-CBvMDh {
+          color:var(--text-normal);
+          font-size:var(--font-size-md);
+          font-weight:var(--font-weight-semibold);
+          line-height:normal;
+          text-transform:none;
+          margin-bottom:var(--spacing-half);
+        }
+        .note-QfFU8y {
+          margin:0;
+        }
+        +.userInfoSection-2acyCx {
+          border:none;
+          margin:0;
+          &::before {
+            content:'Connections';
+            color:var(--text-normal);
+            font-size:var(--font-size-md);
+            font-weight:var(--font-weight-semibold);
+            line-height:normal;
+            margin-bottom:var(--spacing-half);
+            display:block;
+          }
+        }
+        .connectedAccounts-repVzS {
+          margin:0;
+          display:grid;
+          grid-template-columns: 1fr 1fr;
+          grid-gap:var(--spacing);
+          .connectedAccount-36nQx7 {
+            width:unset;
+            margin:0;
+            background:var(--background-light);
+            border:1px solid var(--base-border);
+            border-radius:var(--border-radius);
+            padding:var(--spacing);
+            flex-direction:column;
+            align-items:flex-start;
+            position:relative;
+            overflow:hidden;
+            .connectedAccountName-f8AEe2 {
+              font-size:var(--font-size);
+              font-weight:var(--font-weight-normal);
+              line-height:normal;
+              color:var(--text-normal);
+              margin:0;
+              + span {
+                order:-1;
+                .flowerStarContainer-3zDVtj {
+                  margin:0;
+                  margin-right:var(--spacing-half);
+                }
+              }
+            }
+            .connectedAccountOpenIcon-2cNbq5 {
+            }
+            .connectedAccountIcon-3P3V6F {
+              position:absolute;
+              top:0;
+              right:0;
+              width:auto;
+              height:100%;
+              padding:var(--spacing-half);
+              box-sizing:border-box;
+            }
+          }
+        }
       }
     }
   }
