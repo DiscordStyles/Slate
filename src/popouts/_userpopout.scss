@@ -33,16 +33,16 @@
     // Rich Presence text
     .activityName-1IaRLn,
     .nameNormal-2lqVQK,
-    .nameWrap-3Z4G_9 {
-      color: var(--text-normal);  
-    }
-    .activityName-1IaRLn,
-    .nameNormal-2lqVQK,
     .nameWrap-3Z4G_9,
     .textRow-19NEd_ {
       font-size: var(--font-size-sm);
-      font-weight: var(--font-weight-semibold);
+      font-weight: var(--font-weight-normal);
       color: var(--text-normal);
+      line-height:normal;
+    }
+
+    .activityName-1IaRLn {
+      font-weight:var(--font-weight-semibold);
     }
 
     // Roles

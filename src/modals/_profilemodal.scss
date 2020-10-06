@@ -21,7 +21,7 @@
     border-radius:var(--border-radius) 0 0 var(--border-radius);
     &:not(.topSectionNormal-2-vo2m) + .body-3ND3kc {
       margin-top:103px;
-      height:calc(100% - 144px); 
+      height:calc(100% - 40px - 104px); 
     }
     &.topSectionPlaying-1J5E4n .activityProfile-2bJRaP  h3{
       display:none;
@@ -67,7 +67,7 @@
     padding:var(--spacing);
     background:var(--accent);
     background-color:rgba(var(--accent), .25);
-    height:102px;
+    height:103px;
     display:flex;
     flex-direction:column;
     justify-content:center;
@@ -76,6 +76,7 @@
     border-radius:0;
     border:none;
     border-right:1px solid var(--base-border);
+    border-bottom:1px solid var(--base-border);
     .bodyAlignCenter-1KzvJk, 
     .bodyNormal-2D39hT {
       width:100%;
@@ -201,6 +202,9 @@
       display:block;
       width:100%;
       z-index:101;
+      &:last-child {
+        margin:0;
+      }
       .nameTag-2IFDfL {
         margin:0;
         flex-direction:column;
@@ -243,7 +247,6 @@
           div[aria-label] {
             display:flex;
             align-items:center;
-            pointer-events:none;
             &::after {
               content:attr(aria-label);
               margin-left:var(--spacing-half);
@@ -263,9 +266,6 @@
             background:var(--text-muted);
             cursor:var(--cursor);
             pointer-events:all;
-            &:hover {
-              background:var(--text-normal);
-            }
             -webkit-mask-size:contain;
             -webkit-mask-position:center;
             -webkit-mask-repeat:no-repeat;
@@ -300,6 +300,16 @@
             }
             &.profileBadgeHypeSquadOnlineHouse3-1YbjMX {
               -webkit-mask-image: url($icon_law);
+            }
+            &.profileBadgePartner-SjK6L2 {
+              -webkit-mask-image: url($icon_text_link);
+            }
+            &.profileBadgeStaff-13GO7z {
+              -webkit-mask-image:url($icon_tools);
+            }
+            &.profileBadgeBugHunterLevel1-3oBv8Z,
+            &.profileBadgeBugHunterLevel2-3tFzet {
+              -webkit-mask-image:url($icon_bug);
             }
           }
         }
@@ -367,7 +377,7 @@
         align-items:center;
         justify-content:center;
         border-right:1px solid var(--base-border);
-        height:39px;
+        height:40px;
         padding:0 var(--spacing);
         font-size:var(--font-size);
         font-weight:var(--font-weight-normal);
@@ -452,7 +462,6 @@
                 border:1px solid var(--base-border); 
                 box-sizing:border-box;
                 border-radius:var(--border-radius) var(--border-radius) 0 0;
-                border-bottom:none;
               }
             }
             &.selected-3s45Ha,
@@ -470,7 +479,7 @@
     position:absolute;
     left:234px;
     width:calc(100% - 235px);
-    height:calc(100% - 40px);
+    height:calc(100% - 41px);
     background:var(--background-alt);
     border-right:1px solid var(--base-border);
     border-bottom:1px solid var(--base-border);
@@ -507,9 +516,10 @@
         }
         .connectedAccounts-repVzS {
           margin:0;
-          display:grid;
-          grid-template-columns: 1fr 1fr;
           grid-gap:var(--spacing);
+          display:block;
+          column-count: 2;
+          column-gap: var(--spacing);
           .connectedAccount-36nQx7 {
             width:unset;
             margin:0;
@@ -517,10 +527,14 @@
             border:1px solid var(--base-border);
             border-radius:var(--border-radius);
             padding:var(--spacing);
-            flex-direction:column;
-            align-items:flex-start;
             position:relative;
             overflow:hidden;
+            display:flex;
+            flex-wrap:wrap;
+            height:auto;
+            break-inside:avoid;
+            break-after:always;
+            margin-bottom:var(--spacing);
             .connectedAccountName-f8AEe2 {
               font-size:var(--font-size);
               font-weight:var(--font-weight-normal);
@@ -528,23 +542,74 @@
               color:var(--text-normal);
               margin:0;
               + span {
-                order:-1;
-                .flowerStarContainer-3zDVtj {
-                  margin:0;
-                  margin-right:var(--spacing-half);
-                }
+                display:none;
               }
             }
-            .connectedAccountOpenIcon-2cNbq5 {
+            img {
+              display:inline-block;
+              width:18px;
+              height:18px;
+              content:url($blank);
+              background:var(--text-normal);
+              mask-position:center;
+              mask-size:contain; 
+              mask-repeat:no-repeat;
+              margin-right:var(--spacing);
+              &[alt="Battle.net Logo" i] {
+                mask-image:url($icon_battlenet);
+              }
+              &[alt="Steam Logo" i] {
+                mask-image:url($icon_steam);
+              }
+              &[alt="Facebook Logo" i] {
+                mask-image:url($icon_facebook);
+              }
+              &[alt="Twitch Logo" i] {
+                mask-image:url($icon_twitch);
+              }
+              &[alt="Github Logo" i] {
+                mask-image:url($icon_github);
+              }
+              &[alt="Twitter Logo" i] {
+                mask-image:url($icon_twitter);
+                mask-size:125%;
+              }
+              &[alt="Reddit Logo" i] {
+                mask-image:url($icon_reddit);
+              }
+              &[alt="Xbox Live Logo" i] {
+                mask-image:url($icon_xbox);
+              }
+              &[alt="Skype Logo" i] {
+                mask-image:url($icon_skype);
+              }
+              &[alt="Youtube Logo" i] {
+                mask-image:url($icon_youtube);
+              }
+              &[alt="Spotify Logo" i] {
+                mask-image:url($icon_spotify);
+              }
             }
-            .connectedAccountIcon-3P3V6F {
-              position:absolute;
-              top:0;
-              right:0;
-              width:auto;
-              height:100%;
-              padding:var(--spacing-half);
-              box-sizing:border-box;
+            a {
+              font-size:var(--font-size);
+              margin-top:var(--spacing-third);
+              width:100%;
+              display:block;
+              position:relative;
+              overflow:hidden;
+              text-overflow:ellipsis;
+              border-top:1px solid var(--base-border);
+              padding-top:var(--spacing-half);
+              margin-top:var(--spacing-half);
+              line-height:normal;
+              svg {
+                display:none;
+              }
+              &:after {
+                content:attr(href);
+                width:100%;
+                white-space:nowrap;
+              }
             }
           }
         }
@@ -565,7 +630,7 @@ html.theme-light {
     }
     .item-PXvHYJ.selected-3s45Ha,
     .item-PXvHYJ[style*="rgb(255, 255, 255)"] {
-      background:transparent;
+      background:transparent !important;
     }
   }
   .root-SR8cQa .header-QKLPzZ .actionButton-3W1xZa + div {
