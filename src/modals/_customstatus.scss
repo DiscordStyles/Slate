@@ -5,6 +5,20 @@
       &:nth-last-child(2) {
         margin:0;
       }
+      .clearButton-13g8ju {
+        background:var(--text-muted);
+        opacity:1;
+        mask:url($icon_close) center/10px no-repeat;
+        width:16px;
+        height:100%;
+        right:var(--spacing-half);
+        .clearIcon-xXwSFS {
+          display:none;
+        }
+        &:hover {
+          background:var(--text-normal);
+        }
+      }
       .emojiButtonContainer-3d6DFV {
         margin-right:var(--spacing);
         .emojiButton-3uL3Aw {

@@ -1,5 +1,4 @@
-.userPopout-3XzG_A,
-.header-QKLPzZ {
+.userPopout-3XzG_A {
   .wrapper-3t9DeA {
     z-index: 1;
     svg:not(:root) {
@@ -197,11 +196,6 @@
       z-index: 1;
     }
   }
-}
-
-// Remove inbuilt theme RadialStatus
-#app-mount .wrapper-3t9DeA:before {
-  content: none !important;
 }
 
 // Standard Dot Status
