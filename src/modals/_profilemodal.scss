@@ -62,7 +62,7 @@
     .activityHeader-1PExlk {
       display:none;
     }
-  }
+  }   
   .activityProfile-2bJRaP {
     position:absolute;
     top:40px;
@@ -249,6 +249,10 @@
         .profileBadgeWrapper-rl_RO6 {
           margin:0;
           margin-top:var(--spacing);
+          color:var(--text-muted) !important;
+          &.powercord-badge {
+            background:transparent;
+          }
           div[aria-label] {
             display:flex;
             align-items:center;
@@ -316,12 +320,14 @@
             &.profileBadgeBugHunterLevel2-3tFzet
             &.powercord-badge-hunter {
               -webkit-mask-image:url($icon_bug);
+              background:var(--text-muted);
               path {
                 display:none;
               }
             }
             &.powercord-badge-developer {
               -webkit-mask-image:url($icon_plug);
+              background:var(--text-muted);
               path {
                 display:none;
               }
