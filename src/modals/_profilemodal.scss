@@ -292,8 +292,13 @@
             &.profileGuildSubscriberlvl9-1qrrRa {
               -webkit-mask-image:url($icon_rocket);
             }
-            &.profileBadgeEarlySupporter-PQB_0a {
+            &.profileBadgeEarlySupporter-PQB_0a,
+            &.powercord-badge-early {
               -webkit-mask-image:url($icon_telescope);
+              background:var(--text-muted);
+              path {
+                display:none;
+              }
             }
             &.profileBadgeVerifiedDeveloper-4WY75k {
               -webkit-mask-image:url($icon_code);
@@ -313,8 +318,13 @@
             &.profileBadgePartner-SjK6L2 {
               -webkit-mask-image: url($icon_text_link);
             }
-            &.profileBadgeStaff-13GO7z {
+            &.profileBadgeStaff-13GO7z,
+            &.powercord-badge-staff {
               -webkit-mask-image:url($icon_tools);
+              background:var(--text-muted);
+              path {
+                display:none;
+              }
             }
             &.profileBadgeBugHunterLevel1-3oBv8Z,
             &.profileBadgeBugHunterLevel2-3tFzet
@@ -327,6 +337,13 @@
             }
             &.powercord-badge-developer {
               -webkit-mask-image:url($icon_plug);
+              background:var(--text-muted);
+              path {
+                display:none;
+              }
+            }
+            &.powercord-badge-translator {
+              -webkit-mask-image:url($icon_globe);
               background:var(--text-muted);
               path {
                 display:none;
