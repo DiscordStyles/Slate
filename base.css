@@ -11967,6 +11967,11 @@ html.theme-light #app-mount .footer-2gL1pp .cancelButton-2O3h8t:focus {
   display: flex;
   align-items: center;
 }
+.root-SR8cQa .activity-1ythUs .customStatusText-39gdCI .customStatus-154i-H span {
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
 .root-SR8cQa .activity-1ythUs .customStatusText-39gdCI .customStatus-154i-H .customStatusEmoji-3BvdMX {
   margin-right: var(--spacing-half);
   width: 16px;

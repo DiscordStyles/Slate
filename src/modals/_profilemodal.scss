@@ -47,6 +47,11 @@
       .customStatus-154i-H {
         display:flex;
         align-items:center;
+        span {
+          width:100%;
+          overflow:hidden;
+          text-overflow:ellipsis;
+        }
         .customStatusEmoji-3BvdMX {
           margin-right:var(--spacing-half);
           width:16px;
