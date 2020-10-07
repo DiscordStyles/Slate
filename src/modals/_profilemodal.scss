@@ -311,6 +311,9 @@
             &.profileBadgeBugHunterLevel2-3tFzet
             &.powercord-badge-hunter {
               -webkit-mask-image:url($icon_bug);
+              path {
+                display:none;
+              }
             }
             &.powercord-badge-developer {
               -webkit-mask-image:url($icon_plug);
