@@ -308,8 +308,15 @@
               -webkit-mask-image:url($icon_tools);
             }
             &.profileBadgeBugHunterLevel1-3oBv8Z,
-            &.profileBadgeBugHunterLevel2-3tFzet {
+            &.profileBadgeBugHunterLevel2-3tFzet
+            &.powercord-badge-hunter {
               -webkit-mask-image:url($icon_bug);
+            }
+            &.powercord-badge-developer {
+              -webkit-mask-image:url($icon_plug);
+              path {
+                display:none;
+              }
             }
           }
         }
