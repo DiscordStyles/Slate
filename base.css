@@ -3040,6 +3040,10 @@ html.platform-win[lang=en-US]:not(.app-focused) body:not(.oldTitleBarEnabled-D8p
 #app-mount .group-spacing-16 .groupStart-23k01U {
   margin: 0;
 }
+#app-mount .headerText-3Uvj1Y {
+  display: flex;
+  margin: 0;
+}
 #app-mount .wrapper-2a6GCs {
   background: transparent !important;
   min-height: unset;
@@ -10960,9 +10964,6 @@ html.platform-linux #app-mount .layer-3QrUeG[aria-label*=SETTINGS] .item-PXvHYJ[
   background: rgba(var(--status-red), 1);
 }
 
-#app-mount #bd-settings-sidebar {
-  padding-bottom: calc(var(--spacing) - 5px);
-}
 #app-mount #bd-settings-sidebar .ui-tab-bar-separator {
   border-bottom: 1px solid var(--base-border);
   background: transparent;
@@ -12418,7 +12419,6 @@ html.theme-light #app-mount .footer-2gL1pp .cancelButton-2O3h8t:focus {
 }
 .root-SR8cQa .body-3ND3kc .infoScroller-3EYYns .userInfoSection-2acyCx .connectedAccounts-repVzS {
   margin: 0;
-  grid-gap: var(--spacing);
   display: block;
   column-count: 2;
   column-gap: var(--spacing);
@@ -12451,8 +12451,8 @@ html.theme-light #app-mount .footer-2gL1pp .cancelButton-2O3h8t:focus {
 }
 .root-SR8cQa .body-3ND3kc .infoScroller-3EYYns .userInfoSection-2acyCx .connectedAccounts-repVzS .connectedAccount-36nQx7 img {
   display: inline-block;
-  width: 18px;
-  height: 18px;
+  width: 16px;
+  height: 16px;
   content: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg"/>');
   background: var(--text-normal);
   -webkit-mask-position: center;
@@ -12509,6 +12509,10 @@ html.theme-light #app-mount .footer-2gL1pp .cancelButton-2O3h8t:focus {
   -webkit-mask-image: url('data:image/svg+xml; utf-8,<svg xmlns="http://www.w3.org/2000/svg" version="1.1" id="Capa_1" x="0px" y="0px" width="98.372px" height="98.372px" viewBox="0 0 98.372 98.372" style="enable-background:new 0 0 98.372 98.372;" xml:space="preserve"><g><path d="M49.186,0.002C22.022,0.002,0,22.021,0,49.186C0,76.35,22.022,98.37,49.186,98.37c27.164,0,49.186-22.021,49.186-49.185 C98.372,22.021,76.35,0.002,49.186,0.002z M68.116,72.547c-0.796,0-1.339-0.275-2.082-0.729c-7.129-4.313-16.019-6.58-25.449-6.58 c-5.264,0-10.561,0.677-15.515,1.707c-0.805,0.175-1.817,0.484-2.425,0.484c-1.867,0-3.111-1.482-3.111-3.092 c0-2.064,1.19-3.096,2.675-3.379c6.075-1.385,12.125-2.176,18.409-2.176c10.762,0,20.354,2.471,28.608,7.418 c1.228,0.717,1.947,1.449,1.947,3.27C71.174,71.245,69.732,72.547,68.116,72.547z M73.475,59.529 c-1.067,0-1.738-0.432-2.465-0.854c-8-4.748-19.09-7.902-31.232-7.902c-6.228,0-11.604,0.873-16.053,2.058 c-0.959,0.265-1.496,0.549-2.394,0.549c-2.114,0-3.842-1.726-3.842-3.856c0-2.091,1.015-3.529,3.059-4.105 c5.529-1.52,11.177-2.689,19.394-2.689c12.875,0,25.33,3.206,35.121,9.066c1.642,0.939,2.246,2.137,2.246,3.887 C77.309,57.809,75.613,59.529,73.475,59.529z M79.577,44.389c-1,0-1.595-0.244-2.533-0.758 c-8.901-5.338-22.719-8.277-36.079-8.277c-6.67,0-13.443,0.679-19.648,2.362c-0.715,0.179-1.616,0.537-2.521,0.537 c-2.624,0-4.638-2.076-4.638-4.699c0-2.674,1.656-4.174,3.442-4.701c7.012-2.065,14.838-3.027,23.346-3.027 c14.443,0,29.639,2.971,40.738,9.488c1.496,0.849,2.533,2.126,2.533,4.468C84.215,42.462,82.061,44.389,79.577,44.389z"/></g></svg>');
           mask-image: url('data:image/svg+xml; utf-8,<svg xmlns="http://www.w3.org/2000/svg" version="1.1" id="Capa_1" x="0px" y="0px" width="98.372px" height="98.372px" viewBox="0 0 98.372 98.372" style="enable-background:new 0 0 98.372 98.372;" xml:space="preserve"><g><path d="M49.186,0.002C22.022,0.002,0,22.021,0,49.186C0,76.35,22.022,98.37,49.186,98.37c27.164,0,49.186-22.021,49.186-49.185 C98.372,22.021,76.35,0.002,49.186,0.002z M68.116,72.547c-0.796,0-1.339-0.275-2.082-0.729c-7.129-4.313-16.019-6.58-25.449-6.58 c-5.264,0-10.561,0.677-15.515,1.707c-0.805,0.175-1.817,0.484-2.425,0.484c-1.867,0-3.111-1.482-3.111-3.092 c0-2.064,1.19-3.096,2.675-3.379c6.075-1.385,12.125-2.176,18.409-2.176c10.762,0,20.354,2.471,28.608,7.418 c1.228,0.717,1.947,1.449,1.947,3.27C71.174,71.245,69.732,72.547,68.116,72.547z M73.475,59.529 c-1.067,0-1.738-0.432-2.465-0.854c-8-4.748-19.09-7.902-31.232-7.902c-6.228,0-11.604,0.873-16.053,2.058 c-0.959,0.265-1.496,0.549-2.394,0.549c-2.114,0-3.842-1.726-3.842-3.856c0-2.091,1.015-3.529,3.059-4.105 c5.529-1.52,11.177-2.689,19.394-2.689c12.875,0,25.33,3.206,35.121,9.066c1.642,0.939,2.246,2.137,2.246,3.887 C77.309,57.809,75.613,59.529,73.475,59.529z M79.577,44.389c-1,0-1.595-0.244-2.533-0.758 c-8.901-5.338-22.719-8.277-36.079-8.277c-6.67,0-13.443,0.679-19.648,2.362c-0.715,0.179-1.616,0.537-2.521,0.537 c-2.624,0-4.638-2.076-4.638-4.699c0-2.674,1.656-4.174,3.442-4.701c7.012-2.065,14.838-3.027,23.346-3.027 c14.443,0,29.639,2.971,40.738,9.488c1.496,0.849,2.533,2.126,2.533,4.468C84.215,42.462,82.061,44.389,79.577,44.389z"/></g></svg>');
 }
+.root-SR8cQa .body-3ND3kc .infoScroller-3EYYns .userInfoSection-2acyCx .connectedAccounts-repVzS .connectedAccount-36nQx7 img[alt="League of Legends Logo" i] {
+  -webkit-mask-image: url("/assets/806953fe1cc616477175cbcdf90d5cd3.png");
+          mask-image: url("/assets/806953fe1cc616477175cbcdf90d5cd3.png");
+}
 .root-SR8cQa .body-3ND3kc .infoScroller-3EYYns .userInfoSection-2acyCx .connectedAccounts-repVzS .connectedAccount-36nQx7 a {
   font-size: var(--font-size);
   margin-top: var(--spacing-third);
@@ -12531,7 +12535,8 @@ html.theme-light #app-mount .footer-2gL1pp .cancelButton-2O3h8t:focus {
   white-space: nowrap;
 }
 
-html.theme-light .root-SR8cQa .header-QKLPzZ + div[class]:before {
+html.theme-light .root-SR8cQa .header-QKLPzZ + div[class]:before,
+html.theme-light .root-SR8cQa .body-3ND3kc .infoScroller-3EYYns .userInfoSection-2acyCx .connectedAccounts-repVzS .connectedAccount-36nQx7 {
   background: var(--background);
 }
 html.theme-light .root-SR8cQa .header-QKLPzZ + div[class] .tabBarContainer-1s1u-z {

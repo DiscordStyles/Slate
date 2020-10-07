@@ -516,7 +516,6 @@
         }
         .connectedAccounts-repVzS {
           margin:0;
-          grid-gap:var(--spacing);
           display:block;
           column-count: 2;
           column-gap: var(--spacing);
@@ -547,8 +546,8 @@
             }
             img {
               display:inline-block;
-              width:18px;
-              height:18px;
+              width:16px;
+              height:16px;
               content:url($blank);
               background:var(--text-normal);
               mask-position:center;
@@ -589,6 +588,9 @@
               &[alt="Spotify Logo" i] {
                 mask-image:url($icon_spotify);
               }
+              &[alt="League of Legends Logo" i] {
+                mask-image:url('/assets/806953fe1cc616477175cbcdf90d5cd3.png');
+              }
             }
             a {
               font-size:var(--font-size);
@@ -620,7 +622,8 @@
 
 // Light mode
 html.theme-light {
-  .root-SR8cQa .header-QKLPzZ + div[class]:before {
+  .root-SR8cQa .header-QKLPzZ + div[class]:before,
+  .root-SR8cQa .body-3ND3kc .infoScroller-3EYYns .userInfoSection-2acyCx .connectedAccounts-repVzS .connectedAccount-36nQx7 {
     background:var(--background);
   }
   .root-SR8cQa .header-QKLPzZ + div[class] .tabBarContainer-1s1u-z {
