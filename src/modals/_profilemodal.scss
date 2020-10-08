@@ -23,8 +23,15 @@
       margin-top:103px;
       height:calc(100% - 40px - 104px); 
     }
-    &.topSectionPlaying-1J5E4n .activityProfile-2bJRaP  h3{
-      display:none;
+    &:not(.topSectionNormal-2-vo2m).topSectionSpotify-1lI0-P + .body-3ND3kc {
+      margin-top:50px;
+      height:calc(100% - 40px - 51px); 
+    }
+    &.topSectionPlaying-1J5E4n,
+    &.topSectionSpotify-1lI0-P {
+      .activityProfile-2bJRaP .headerTextNormal-2mGWX3 {
+        display:none;
+      }
     }
   }
 
@@ -82,9 +89,20 @@
     border:none;
     border-right:1px solid var(--base-border);
     border-bottom:1px solid var(--base-border);
+    .content-3JfFJh, 
+    .details-38sfDr,
+    .headerText-1HLrL7 {
+      color:var(--text-normal);
+    }
+    .contentImagesActivityFeed-2f9veg, .contentImagesProfile-1Mz07W {
+      margin-left:var(--spacing);
+    }
     .bodyAlignCenter-1KzvJk, 
     .bodyNormal-2D39hT {
       width:100%;
+    }
+    .assetsLargeImage-eYwpTX {
+      border-radius:var(--border-radius);
     }
     .gameIcon-_0rmMm,
     .assetsLargeImageActivityFeed-25vA7H, 
@@ -93,10 +111,93 @@
       height:50px;
       width:50px;
     }
-    .details-38sfDr, .nameNormal-2lqVQK, .playTime-2uWd1Z, .state-Tt0LO3, .timestamp-VjAZmo {
+    .details-38sfDr, 
+    .nameNormal-2lqVQK, 
+    .playTime-2uWd1Z, 
+    .state-Tt0LO3, 
+    .timestamp-VjAZmo,
+    .activityName-1IaRLn,
+    .nameNormal-2lqVQK,
+    .nameWrap-3Z4G_9,
+    .textRow-19NEd_ {
       font-size:var(--font-size);
+      color:var(--text-normal);
+      font-weight:var(--font-weight-normal);
+      line-height:normal;
     }
-  } 
+    .textRow-19NEd_ {
+      line-height:normal;
+    }
+    .base-1x0h_U {
+      font-weight:var(--font-weight-semibold);
+      a, div, p, span {
+        font-weight:inherit;
+      }
+    }
+  }
+  .topSectionSpotify-1lI0-P {
+    .activityProfile-2bJRaP {
+      background-color:rgba(var(--status-green), .25);
+      height:50px;
+      .assetsLargeImage-eYwpTX {
+        height:28px;
+        width:28px;
+      }
+      .textRow-19NEd_ {
+        width:fit-content;
+        position:relative;
+      }
+      .content-3JfFJh {
+        flex-grow:0 !important;
+        margin-right:auto;
+      }
+      .detailsWrap-22pigg {
+        display:inline-block;
+        vertical-align:top;
+      }
+      .state-Tt0LO3 {
+        display:inline-block;
+        float:right;
+        vertical-align:middle;
+        &:before {
+          content:' ';
+          white-space:pre;
+        }
+      }
+      .timeBarProfile-10b-fm {
+        margin:0;
+        position:absolute;
+        top:0;
+        left:0;
+        width:100%;
+        height:100%;
+        z-index:-1;
+        .bar-3urHkF {
+          height:100%;
+          margin:0;
+          background:transparent;
+          border-radius:0;
+          .barInner-3NDaY_ {
+            background:rgba(var(--status-green), .25);
+            border-radius:0;
+          }
+        }
+        .flex-1xMQg5 {
+          display:none;
+        }
+      }
+      .buttonsWrapper-2eYbM0 {
+        margin:0;
+        marign-left:var(--spacing);
+      }
+      button {
+        font-size:0 !important;
+        svg {
+          margin:0;
+        }
+      }
+    }
+  }
 
   .headerFill-adLl4x {
     background:transparent;
