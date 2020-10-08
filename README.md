@@ -1,4 +1,4 @@
-<h1 align="center">Slate</h1>
+<img align="center" src="https://i.imgur.com/5dQTQVp.png"></img>
 <p align="center">An optimized, consistent, and functional theme for Discord based on GitHub's design language.</p>
 
 ![](https://i.imgur.com/GEcQZhN.png)
