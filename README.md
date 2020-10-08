@@ -1,4 +1,4 @@
-<img align="center" src="https://i.imgur.com/5dQTQVp.png"></img>
+<img align="center" width="640px" height="314" src="https://i.imgur.com/5dQTQVp.png"></img>
 <p align="center">An optimized, consistent, and functional theme for Discord based on GitHub's design language.</p>
 
 ![](https://i.imgur.com/GEcQZhN.png)
