@@ -347,11 +347,11 @@
           position:relative;
           margin:var(--spacing) 0;
         }
-        .profileBadgeWrapper-rl_RO6 {
+        .profileBadgeWrapper-1rGSsp {
           margin:0;
           margin-top:var(--spacing);
           color:var(--text-muted) !important;
-          &.powercord-badge .profileBadge-2BqF-Z {
+          &.powercord-badge .profileBadge-2niAfJ {
             background:transparent;
           }
           div[aria-label] {
@@ -370,7 +370,7 @@
               overflow:hidden;
             }
           }
-          .profileBadge-2BqF-Z {
+          .profileBadge-2niAfJ {
             width:18px;
             height:18px;
             background:var(--text-muted);
@@ -379,21 +379,21 @@
             -webkit-mask-size:contain;
             -webkit-mask-position:center;
             -webkit-mask-repeat:no-repeat;
-            &.profileBadgePremium-3kZ9Qj {
+            &.profileBadgePremium-1KDZYC {
               -webkit-mask-image:url($icon_heart);
             }
-            &.profileGuildSubscriberlvl1-pKd1EZ,
-            &.profileGuildSubscriberlvl2-1aIFve,
-            &.profileGuildSubscriberlvl3-33AROf,
-            &.profileGuildSubscriberlvl4-2yY8EG,
-            &.profileGuildSubscriberlvl5-1mIKQ8,
-            &.profileGuildSubscriberlvl6-2tCBLE,
-            &.profileGuildSubscriberlvl7-3M0RQX,
-            &.profileGuildSubscriberlvl8-2ot52H,
-            &.profileGuildSubscriberlvl9-1qrrRa {
+            &.profileGuildSubscriberlvl1-3oI9tx,
+            &.profileGuildSubscriberlvl2-r6nJHT,
+            &.profileGuildSubscriberlvl3-38s3Dj,
+            &.profileGuildSubscriberlvl4-2NXrsI,
+            &.profileGuildSubscriberlvl5-3XIa2K,
+            &.profileGuildSubscriberlvl6-3e3sxW,
+            &.profileGuildSubscriberlvl7-1dVhQT,
+            &.profileGuildSubscriberlvl8-1kXdFr,
+            &.profileGuildSubscriberlvl9-1d6zav {
               -webkit-mask-image:url($icon_rocket);
             }
-            &.profileBadgeEarlySupporter-PQB_0a,
+            &.profileBadgeEarlySupporter-2ng_jL,
             &.powercord-badge-early {
               -webkit-mask-image:url($icon_telescope);
               background:var(--text-muted);
@@ -401,25 +401,29 @@
                 display:none;
               }
             }
-            &.profileBadgeVerifiedDeveloper-4WY75k {
+            &.profileBadgeVerifiedDeveloper-4WY75k,
+            &.profileBadgeVerifiedDeveloper-195KfD {
               -webkit-mask-image:url($icon_code);
             }
-            &.profileBadgeHypesquad-1YIe7Z {
+            &.profileBadgeHypesquad-12E2P6 {
               -webkit-mask-image:url($icon_megaphone);
             }
-            &.profileBadgeHypeSquadOnlineHouse1-xN6tES {
+            &.profileBadgeHypeSquadOnlineHouse1-3rBtjf,
+            &.profileBadgeHypeSquadOnlineHouse1Winner-3wCl80 {
               -webkit-mask-image: url($icon_flame);
             }
-            &.profileBadgeHypeSquadOnlineHouse2-3jBpXR {
+            &.profileBadgeHypeSquadOnlineHouse2-2oU04B,
+            &.profileBadgeHypeSquadOnlineHouse2Winner-AS5bXe {
               -webkit-mask-image: url($icon_zap);
             }
-            &.profileBadgeHypeSquadOnlineHouse3-1YbjMX {
+            &.profileBadgeHypeSquadOnlineHouse3-1DoJkv,
+            &.profileBadgeHypeSquadOnlineHouse3Winner-2CwwQi {
               -webkit-mask-image: url($icon_law);
             }
-            &.profileBadgePartner-SjK6L2 {
+            &.profileBadgePartner-j6Lwhr {
               -webkit-mask-image: url($icon_text_link);
             }
-            &.profileBadgeStaff-13GO7z,
+            &.profileBadgeStaff-3BXdTO,
             &.powercord-badge-staff {
               -webkit-mask-image:url($icon_tools);
               background:var(--text-muted);
@@ -427,8 +431,8 @@
                 display:none;
               }
             }
-            &.profileBadgeBugHunterLevel1-3oBv8Z,
-            &.profileBadgeBugHunterLevel2-3tFzet,
+            &.profileBadgeBugHunterLevel1-dbEzVz,
+            &.profileBadgeBugHunterLevel2-3TUciC,
             &.powercord-badge-hunter {
               -webkit-mask-image:url($icon_bug);
               background:var(--text-muted);
