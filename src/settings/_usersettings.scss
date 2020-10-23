@@ -710,6 +710,10 @@
 				display:none;
 			}
 		}
+		.container-3auIfb {
+			order:-1;
+			margin-right:var(--spacing-half);
+		}
 		&:hover .icon-GiGwrE {
 			color:var(--text-normal);
 		}
@@ -719,11 +723,6 @@
 	}
 	.soundLabel-wUmcnl {
 		transform: translateX(-24px);
-	}
-	.icon-GiGwrE {
-		width: 14px;
-		height: 14px;
-		margin-right: var(--spacing);
 	}
 	.sound-2QlACh {
 		font-size: var(--font-size);

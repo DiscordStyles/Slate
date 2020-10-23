@@ -1,12 +1,16 @@
 #app-mount .uploadModal-2ifh8j {
-  background-color: var(--background-dark);
+  box-shadow:var(--elevation-high);
+  background-color: var(--background);
   border-radius: var(--border-radius);
-  box-shadow: none;
+  border:1px solid var(--base-border);
+  box-sizing:border-box;
   position: relative;
   padding-top: 32px;
   min-height: unset;
   .inner-3nWsbo {
     margin: 0;
+    padding:var(--spacing-double);
+    box-sizing:border-box;
   }
   .file-34mY5K {
     position: unset;
@@ -17,14 +21,15 @@
       display: none;
     }
     &.image-2yrs5j {
-      margin: 0;
-      width: 100%;
+      margin: 0 !important;
+      width: 100% !important;
+      height: auto !important;
       background-size: cover;
       border-radius: 0;
       box-shadow: none;
-      height: 298.13px;
       border-bottom: 1px solid var(--base-border);
       background-color: var(--background);
+      border-radius:var(--border-radius);
       &:active {
         background-size: 100%;
       }
@@ -45,10 +50,13 @@
     background: var(--background);
     width: 100%;
     border-radius: var(--border-radius) var(--border-radius) 0 0;
-    div {
+    .filename-ovv3c5 {
       font-size: var(--font-size);
+      font-weight:var(--font-weight-semibold);
+      color:var(--text-normal);
       line-height: normal;
       height: auto;
+      user-select:text;
     }
   }
   .label-3aiqT2 {
@@ -56,10 +64,13 @@
   }
   .comment-4IWttf {
     margin: 0;
-    padding: var(--spacing-double);
+    margin-top:var(--spacing);
   }
   .channelTextArea-2VhZ6z {
-    margin: 0 0 5px;
+    margin:0;
+    .inner-MADQqc {
+      background:var(--background-alt);
+    }
   }
   .scrollableContainer-2NUZem {
     border-radius: var(--border-radius);

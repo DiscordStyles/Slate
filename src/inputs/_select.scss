@@ -9,7 +9,10 @@
   .css-hygzao-control,
   .css-1qm8c5n-control,
   .sizeMedium-6vZ9JV.select-1Pkeg4,
-  .css-gd8if9-control {
+  .css-gd8if9-control,
+  .css-x3hllb-control,
+  .css-z86t1q-control,
+  .css-1ou54ee-control {
     border: 1px solid var(--base-border);
     border-radius: var(--border-radius);
     background: var(--background-dark);
@@ -22,6 +25,7 @@
     cursor: var(--cursor);
     &.css-1qm8c5n-control,
     &.css-2yldzf-control,
+    &.css-1ou54ee-control,
     &.selectOpen-hQuR6b {
       border:1px solid var(--accent-solid);
       box-shadow:0 0 0 2px rgba(var(--accent), 0.25);
@@ -30,7 +34,8 @@
   .css-1k00wn6-singleValue,
   .css-111z1s-singleValue,
   .css-6nrxdk-singleValue,
-  .css-548n9r-singleValue {
+  .css-548n9r-singleValue,
+  .css-1yg49vj-singleValue {
     color:var(--text-normal);
     margin:0;
     display:flex;
@@ -77,7 +82,8 @@
   .css-11dkexk-indicatorContainer,
   .css-u3suk5-indicatorContainer,
   .css-1lqc17i-indicatorContainer,
-  .css-95pa8n-indicatorContainer {
+  .css-95pa8n-indicatorContainer,
+  .css-myto3z-indicatorContainer {
     padding:0 var(--spacing-half);
     opacity: 1;
     height:100%;
@@ -128,7 +134,11 @@
     .css-oce0qz-control,
     .css-hygzao-control,
     .css-1qm8c5n-control,
-    .sizeMedium-6vZ9JV.select-1Pkeg4 {
+    .sizeMedium-6vZ9JV.select-1Pkeg4,
+    .css-gd8if9-control,
+    .css-x3hllb-control,
+    .css-z86t1q-control,
+    .css-1ou54ee-control {
       background:var(--background);
     }
   }

@@ -186,6 +186,7 @@
       .avatar-1BDn8e {
         border-radius: var(--avatar-radius) !important;
         box-shadow: 0 0 0 .875px var(--base-border);
+        margin:0;
         top: var(--spacing);
         left: var(--spacing);
         width: var(--avatar-size) !important;
@@ -233,6 +234,41 @@
         &.jumboable {
           width: calc(var(--font-size) * 4);
           height: calc(var(--font-size) * 4);
+        }
+      }
+      .emotewrapper {
+        &:hover::after {
+          content:'';
+          width:16px;
+          height:16px;
+          top:-7px;
+          right:-7px;
+          background:var(--background);
+          border:1px solid var(--base-border);
+          border-radius:50%;
+          position:absolute;
+          box-sizing:border-box;
+        }
+        .fav {
+          position:absolute;
+          width:16px;
+          height:16px;
+          top:-7px;
+          right:-7px;
+          mask:url($icon_star) center/70% no-repeat;
+          background:var(--text-muted);
+          z-index:1;
+          padding:0;
+          box-sizing:border-box;
+          border:1px solid var(--base-border);
+          border-radius:50%;
+          &:hover {
+            background:var(--text-normal);
+          }
+          &.active {
+            background:rgb(var(--status-yellow));
+            mask:url($icon_star_filled) center/70% no-repeat;
+          }
         }
       }
     }

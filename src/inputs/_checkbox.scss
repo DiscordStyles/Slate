@@ -1,20 +1,19 @@
 #app-mount {
   // Remove Checkbox Styling
-	.switch-3wwwcV,
-	.checkboxWrapper-SkhIWG {
-		width: 14px;
+  	.container-3auIfb {
+		width: auto;
 		border-radius: 0;
 		background: transparent !important;
 		display: flex;
 		align-items: center;
 		box-shadow: none;
 		-webkit-box-shadow: none;
-		&:after,
-		&:before {
-			content: none;
+		cursor:var(--cursor);
+		.slider-TkfMQL {
+			display:none;
 		}
-		.checkbox-2tyjJg,
-		.input-3ITkQf {
+		.input-rwLH4i {
+			margin:0;
 			opacity: 1;
 			height: 14px !important;
 			width: 14px !important;
