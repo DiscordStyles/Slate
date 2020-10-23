@@ -627,6 +627,69 @@
     border-right:1px solid var(--base-border);
     border-bottom:1px solid var(--base-border);
     border-bottom-right-radius:var(--border-radius);
+    .listScroller-2_vlfo {
+      padding:0;
+      .empty-2WtT5s {
+        padding:var(--spacing-double);
+        .emptyIcon-pGTAhd {
+          width:124px;
+          height:124px;
+          background:var(--text-muted);
+          mask:url($illustration_7) center/contain no-repeat;
+        }
+        .emptyText-6tYmO5 {
+          font-size:var(--font-size);
+          color:var(--text-normal);
+          font-weight:var(--font-weight-normal);
+          line-height:normal;
+          margin-top:var(--spacing);
+          text-transform:none;
+        }
+      }
+      .listRow-hutiT_ {
+        margin:0;
+        padding:0 var(--spacing);
+        margin:0;
+        border-radius:0;
+        cursor:var(--cursor);
+        line-height:normal;
+        color:var(--text-normal);
+        &:hover {
+          background:var(--background-modifier-hover);
+        }
+        &:active {
+          background:var(--background-modifier-active);
+        }
+        .iconSizeMedium-2OqPjI {
+          margin-right:var(--spacing-half);
+          width:var(--avatar-size-sm);
+          height:var(--avatar-size-sm);
+          border-radius:var(--avatar-radius);
+          box-sizing:border-box;
+          border:1px solid var(--base-border);
+        }
+        .listRowContent-3Kih4Q {
+          display:flex;
+          align-items:center;
+          height:var(--item-height);
+          .listName-3w10cx {
+            line-height:normal;
+            color:var(--text-normal);
+            font-size:var(--font-size);
+            font-weight:var(--font-weight-normal);
+          }
+          .guildNick-3uAm3i {
+            font-size:var(--font-size-sm);
+            color:var(--text-muted);
+            font-weight:var(--font-weight-normal);
+            &:not(:empty)::before {
+              content:'-';
+              margin:0 var(--spacing-third);
+            }
+          }
+        }
+      }
+    }
     .infoScroller-3EYYns {
       padding:var(--spacing-double) !important;
       box-sizing:border-box;

@@ -7071,7 +7071,7 @@ html.theme-light #app-mount .userPopout-3XzG_A .note-3HfJZ5 textarea {
   box-shadow: var(--elevation-1);
   border: 1px solid var(--base-border);
 }
-#app-mount .layer-v9HyYc[style*=left][style*=top] .container-3ayLPN.elevationBorderHigh-2WYJ09:empty {
+z #app-mount .layer-v9HyYc[style*=left][style*=top] .container-3ayLPN.elevationBorderHigh-2WYJ09:empty {
   height: auto;
   display: flex;
   flex-direction: column;
@@ -7079,7 +7079,7 @@ html.theme-light #app-mount .userPopout-3XzG_A .note-3HfJZ5 textarea {
   justify-content: center;
   padding: var(--spacing);
 }
-#app-mount .layer-v9HyYc[style*=left][style*=top] .container-3ayLPN.elevationBorderHigh-2WYJ09:empty:after {
+z #app-mount .layer-v9HyYc[style*=left][style*=top] .container-3ayLPN.elevationBorderHigh-2WYJ09:empty:after {
   content: "";
   width: 72px;
   height: 72px;
@@ -12564,6 +12564,70 @@ html.theme-light #app-mount .footer-2gL1pp .cancelButton-2O3h8t:focus {
   border-right: 1px solid var(--base-border);
   border-bottom: 1px solid var(--base-border);
   border-bottom-right-radius: var(--border-radius);
+}
+.root-SR8cQa .body-3ND3kc .listScroller-2_vlfo {
+  padding: 0;
+}
+.root-SR8cQa .body-3ND3kc .listScroller-2_vlfo .empty-2WtT5s {
+  padding: var(--spacing-double);
+}
+.root-SR8cQa .body-3ND3kc .listScroller-2_vlfo .empty-2WtT5s .emptyIcon-pGTAhd {
+  width: 124px;
+  height: 124px;
+  background: var(--text-muted);
+  -webkit-mask: url("https://discordstyles.github.io/Slate/assets/illustrations/8.svg") center/contain no-repeat;
+          mask: url("https://discordstyles.github.io/Slate/assets/illustrations/8.svg") center/contain no-repeat;
+}
+.root-SR8cQa .body-3ND3kc .listScroller-2_vlfo .empty-2WtT5s .emptyText-6tYmO5 {
+  font-size: var(--font-size);
+  color: var(--text-normal);
+  font-weight: var(--font-weight-normal);
+  line-height: normal;
+  margin-top: var(--spacing);
+  text-transform: none;
+}
+.root-SR8cQa .body-3ND3kc .listScroller-2_vlfo .listRow-hutiT_ {
+  margin: 0;
+  padding: 0 var(--spacing);
+  margin: 0;
+  border-radius: 0;
+  cursor: var(--cursor);
+  line-height: normal;
+  color: var(--text-normal);
+}
+.root-SR8cQa .body-3ND3kc .listScroller-2_vlfo .listRow-hutiT_:hover {
+  background: var(--background-modifier-hover);
+}
+.root-SR8cQa .body-3ND3kc .listScroller-2_vlfo .listRow-hutiT_:active {
+  background: var(--background-modifier-active);
+}
+.root-SR8cQa .body-3ND3kc .listScroller-2_vlfo .listRow-hutiT_ .iconSizeMedium-2OqPjI {
+  margin-right: var(--spacing-half);
+  width: var(--avatar-size-sm);
+  height: var(--avatar-size-sm);
+  border-radius: var(--avatar-radius);
+  box-sizing: border-box;
+  border: 1px solid var(--base-border);
+}
+.root-SR8cQa .body-3ND3kc .listScroller-2_vlfo .listRow-hutiT_ .listRowContent-3Kih4Q {
+  display: flex;
+  align-items: center;
+  height: var(--item-height);
+}
+.root-SR8cQa .body-3ND3kc .listScroller-2_vlfo .listRow-hutiT_ .listRowContent-3Kih4Q .listName-3w10cx {
+  line-height: normal;
+  color: var(--text-normal);
+  font-size: var(--font-size);
+  font-weight: var(--font-weight-normal);
+}
+.root-SR8cQa .body-3ND3kc .listScroller-2_vlfo .listRow-hutiT_ .listRowContent-3Kih4Q .guildNick-3uAm3i {
+  font-size: var(--font-size-sm);
+  color: var(--text-muted);
+  font-weight: var(--font-weight-normal);
+}
+.root-SR8cQa .body-3ND3kc .listScroller-2_vlfo .listRow-hutiT_ .listRowContent-3Kih4Q .guildNick-3uAm3i:not(:empty)::before {
+  content: "-";
+  margin: 0 var(--spacing-third);
 }
 .root-SR8cQa .body-3ND3kc .infoScroller-3EYYns {
   padding: var(--spacing-double) !important;
