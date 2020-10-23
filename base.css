@@ -6522,6 +6522,7 @@ html.theme-light #app-mount .wrapper-3Q5DdO .qrLogin-1AOZMt .startOverButton-3q0
   padding: 0 var(--spacing);
   max-height: 172px;
   overflow: auto;
+  position: static;
 }
 #app-mount .userPopout-3XzG_A .member-perm,
 #app-mount .userPopout-3XzG_A .role-2irmRk {
@@ -6532,24 +6533,23 @@ html.theme-light #app-mount .wrapper-3Q5DdO .qrLogin-1AOZMt .startOverButton-3q0
   padding: var(--spacing-half) calc(var(--spacing) / 1.5);
   margin: 0 var(--spacing-half) var(--spacing-half) 0;
   height: auto;
-  transition: 50ms ease linear;
   height: 22px;
 }
-#app-mount .userPopout-3XzG_A .member-perm:hover .roleCircle-3xAZ1j,
-#app-mount .userPopout-3XzG_A .role-2irmRk:hover .roleCircle-3xAZ1j {
+#app-mount .userPopout-3XzG_A .member-perm:hover .roleCircle-3xAZ1j, #app-mount .userPopout-3XzG_A .member-perm:active .roleCircle-3xAZ1j,
+#app-mount .userPopout-3XzG_A .role-2irmRk:hover .roleCircle-3xAZ1j,
+#app-mount .userPopout-3XzG_A .role-2irmRk:active .roleCircle-3xAZ1j {
   opacity: 1;
   box-sizing: border-box;
 }
-#app-mount .userPopout-3XzG_A .member-perm:hover .roleCircle-3xAZ1j .roleRemoveIcon-2-TeGW,
-#app-mount .userPopout-3XzG_A .role-2irmRk:hover .roleCircle-3xAZ1j .roleRemoveIcon-2-TeGW {
+#app-mount .userPopout-3XzG_A .member-perm:hover .roleCircle-3xAZ1j .roleRemoveIcon-2-TeGW, #app-mount .userPopout-3XzG_A .member-perm:active .roleCircle-3xAZ1j .roleRemoveIcon-2-TeGW,
+#app-mount .userPopout-3XzG_A .role-2irmRk:hover .roleCircle-3xAZ1j .roleRemoveIcon-2-TeGW,
+#app-mount .userPopout-3XzG_A .role-2irmRk:active .roleCircle-3xAZ1j .roleRemoveIcon-2-TeGW {
   opacity: 1;
 }
-#app-mount .userPopout-3XzG_A .member-perm:hover .roleCircle-3xAZ1j .roleRemoveIcon-2-TeGW path,
-#app-mount .userPopout-3XzG_A .role-2irmRk:hover .roleCircle-3xAZ1j .roleRemoveIcon-2-TeGW path {
-  fill: var(--text-focus);
-}
-#app-mount .userPopout-3XzG_A .perm-circle,
-#app-mount .userPopout-3XzG_A .roleCircle-3xAZ1j {
+#app-mount .userPopout-3XzG_A .member-perm .perm-circle,
+#app-mount .userPopout-3XzG_A .member-perm .roleCircle-3xAZ1j,
+#app-mount .userPopout-3XzG_A .role-2irmRk .perm-circle,
+#app-mount .userPopout-3XzG_A .role-2irmRk .roleCircle-3xAZ1j {
   margin: 0;
   border-radius: var(--border-radius);
   position: absolute;
@@ -6560,8 +6560,11 @@ html.theme-light #app-mount .wrapper-3Q5DdO .qrLogin-1AOZMt .startOverButton-3q0
   opacity: 0.75;
   border-radius: 50px;
 }
-#app-mount .userPopout-3XzG_A .perm-circle .roleRemoveIcon-2-TeGW,
-#app-mount .userPopout-3XzG_A .roleCircle-3xAZ1j .roleRemoveIcon-2-TeGW {
+#app-mount .userPopout-3XzG_A .member-perm .perm-circle .roleRemoveIcon-2-TeGW,
+#app-mount .userPopout-3XzG_A .member-perm .roleCircle-3xAZ1j .roleRemoveIcon-2-TeGW,
+#app-mount .userPopout-3XzG_A .role-2irmRk .perm-circle .roleRemoveIcon-2-TeGW,
+#app-mount .userPopout-3XzG_A .role-2irmRk .roleCircle-3xAZ1j .roleRemoveIcon-2-TeGW {
+  position: relative;
   z-index: 10;
   background: inherit;
   width: 100%;
@@ -6569,11 +6572,20 @@ html.theme-light #app-mount .wrapper-3Q5DdO .qrLogin-1AOZMt .startOverButton-3q0
   padding: var(--spacing-third);
   box-sizing: border-box;
   opacity: 0;
-  transition: 50ms linear opacity;
   border-radius: 50px;
 }
-#app-mount .userPopout-3XzG_A .member-perm .name,
-#app-mount .userPopout-3XzG_A .roleName-32vpEy {
+#app-mount .userPopout-3XzG_A .member-perm .perm-circle .roleRemoveIcon-2-TeGW path,
+#app-mount .userPopout-3XzG_A .member-perm .roleCircle-3xAZ1j .roleRemoveIcon-2-TeGW path,
+#app-mount .userPopout-3XzG_A .role-2irmRk .perm-circle .roleRemoveIcon-2-TeGW path,
+#app-mount .userPopout-3XzG_A .role-2irmRk .roleCircle-3xAZ1j .roleRemoveIcon-2-TeGW path {
+  fill: var(--white);
+  transform: scale(0.75);
+  transform-origin: center;
+}
+#app-mount .userPopout-3XzG_A .member-perm .member-perm .name,
+#app-mount .userPopout-3XzG_A .member-perm .roleName-32vpEy,
+#app-mount .userPopout-3XzG_A .role-2irmRk .member-perm .name,
+#app-mount .userPopout-3XzG_A .role-2irmRk .roleName-32vpEy {
   overflow: hidden;
   line-height: normal;
   position: relative;
@@ -12753,9 +12765,9 @@ html.theme-light .root-SR8cQa .header-QKLPzZ .actionButton-3W1xZa + div:focus {
   width: 100% !important;
   height: auto !important;
   background-size: cover;
-  border-radius: 0;
   box-shadow: none;
-  border-bottom: 1px solid var(--base-border);
+  box-sizing: border-box;
+  border: 1px solid var(--base-border);
   background-color: var(--background);
   border-radius: var(--border-radius);
 }
@@ -12787,20 +12799,31 @@ html.theme-light .root-SR8cQa .header-QKLPzZ .actionButton-3W1xZa + div:focus {
   -webkit-user-select: text;
           user-select: text;
 }
-#app-mount .uploadModal-2ifh8j .label-3aiqT2 {
-  display: none;
-}
 #app-mount .uploadModal-2ifh8j .comment-4IWttf {
   margin: 0;
   margin-top: var(--spacing);
 }
-#app-mount .uploadModal-2ifh8j .channelTextArea-2VhZ6z {
+#app-mount .uploadModal-2ifh8j .comment-4IWttf .label-3aiqT2 {
+  font-size: var(--font-size);
+  color: var(--text-normal);
+  font-weight: var(--font-weight-normal);
+  text-transform: none;
+  margin-bottom: var(--spacing-third);
+}
+#app-mount .uploadModal-2ifh8j .comment-4IWttf .label-3aiqT2 .optional--ezibr {
+  margin: 0;
+  color: var(--text-muted);
+}
+#app-mount .uploadModal-2ifh8j .comment-4IWttf .label-3aiqT2 .optional--ezibr::before {
+  content: " ";
+}
+#app-mount .uploadModal-2ifh8j .comment-4IWttf .channelTextArea-2VhZ6z {
   margin: 0;
 }
-#app-mount .uploadModal-2ifh8j .channelTextArea-2VhZ6z .inner-MADQqc {
+#app-mount .uploadModal-2ifh8j .comment-4IWttf .channelTextArea-2VhZ6z .inner-MADQqc {
   background: var(--background-alt);
 }
-#app-mount .uploadModal-2ifh8j .scrollableContainer-2NUZem {
+#app-mount .uploadModal-2ifh8j .comment-4IWttf .channelTextArea-2VhZ6z .inner-MADQqc .scrollableContainer-2NUZem {
   border-radius: var(--border-radius);
 }
 #app-mount .uploadModal-2ifh8j .charcounter {
@@ -12813,17 +12836,17 @@ html.theme-light .root-SR8cQa .header-QKLPzZ .actionButton-3W1xZa + div:focus {
   border-top: 1px solid var(--base-border);
   padding: var(--spacing);
 }
-#app-mount .uploadModal-2ifh8j .checkboxWrapper-SkhIWG {
+#app-mount .uploadModal-2ifh8j .footer-3mqk7D .checkboxWrapper-SkhIWG {
   flex: none;
 }
-#app-mount .uploadModal-2ifh8j .checkbox-1ix_J3 {
+#app-mount .uploadModal-2ifh8j .footer-3mqk7D .checkbox-1ix_J3 {
   border: none;
   background: var(--background-dark);
 }
-#app-mount .uploadModal-2ifh8j .checkbox-1ix_J3.checked-3_4uQ9 {
+#app-mount .uploadModal-2ifh8j .footer-3mqk7D .checkbox-1ix_J3.checked-3_4uQ9 {
   background: var(--accent-solid);
 }
-#app-mount .uploadModal-2ifh8j .checkbox-1ix_J3.checked-3_4uQ9 polyline {
+#app-mount .uploadModal-2ifh8j .footer-3mqk7D .checkbox-1ix_J3.checked-3_4uQ9 polyline {
   stroke: #fff;
 }
 
@@ -14440,7 +14463,8 @@ html.theme-light #app-mount .cancelButton-10XRsm:focus {
   border: 1px solid var(--secondary-border) !important;
 }
 
-#app-mount .container-3auIfb {
+#app-mount .container-3auIfb,
+#app-mount .checkboxWrapper-SkhIWG {
   width: auto;
   border-radius: 0;
   background: transparent !important;
@@ -14450,10 +14474,14 @@ html.theme-light #app-mount .cancelButton-10XRsm:focus {
   -webkit-box-shadow: none;
   cursor: var(--cursor);
 }
-#app-mount .container-3auIfb .slider-TkfMQL {
+#app-mount .container-3auIfb .slider-TkfMQL,
+#app-mount .checkboxWrapper-SkhIWG .slider-TkfMQL {
   display: none;
 }
-#app-mount .container-3auIfb .input-rwLH4i {
+#app-mount .container-3auIfb .input-rwLH4i,
+#app-mount .container-3auIfb .input-3ITkQf,
+#app-mount .checkboxWrapper-SkhIWG .input-rwLH4i,
+#app-mount .checkboxWrapper-SkhIWG .input-3ITkQf {
   margin: 0;
   opacity: 1;
   height: 14px !important;

@@ -52,6 +52,7 @@
       padding: 0 var(--spacing);
       max-height: 172px;
       overflow: auto;
+      position:static;
     }
     .member-perm,
     .role-2irmRk {
@@ -62,52 +63,54 @@
       padding: var(--spacing-half) calc(var(--spacing) / 1.5);
       margin: 0 var(--spacing-half) var(--spacing-half) 0;
       height: auto;
-      transition: 50ms ease linear;
       height:22px;
-      &:hover .roleCircle-3xAZ1j {
+      &:hover .roleCircle-3xAZ1j,
+      &:active .roleCircle-3xAZ1j {
         opacity: 1;
         box-sizing: border-box;
         .roleRemoveIcon-2-TeGW {
           opacity: 1;
+        }
+      }
+      .perm-circle,
+      .roleCircle-3xAZ1j {
+        margin: 0;
+        border-radius: var(--border-radius);
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        opacity: 0.75;
+        border-radius: 50px;
+        .roleRemoveIcon-2-TeGW {
+          position:relative;
+          z-index: 10;
+          background: inherit;
+          width: 100%;
+          height: 100%;
+          padding: var(--spacing-third);
+          box-sizing: border-box;
+          opacity: 0;
+          border-radius: 50px;
           path {
-            fill: var(--text-focus);
+            fill:var(--white);
+            transform:scale(.75);
+            transform-origin:center;
           }
         }
       }
-    }
-    .perm-circle,
-    .roleCircle-3xAZ1j {
-      margin: 0;
-      border-radius: var(--border-radius);
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      opacity: 0.75;
-      border-radius: 50px;
-      .roleRemoveIcon-2-TeGW {
-        z-index: 10;
-        background: inherit;
-        width: 100%;
-        height: 100%;
-        padding: var(--spacing-third);
-        box-sizing: border-box;
-        opacity: 0;
-        transition: 50ms linear opacity;
-        border-radius: 50px;
+      .member-perm .name,
+      .roleName-32vpEy {
+        overflow: hidden;
+        line-height:normal;
+        position: relative;
+        z-index: 1;
+        margin-right: 0;
+        color: var(--white);
+        font-size: var(--font-size-sm);
+        font-weight: var(--font-weight-normal);
       }
-    }
-    .member-perm .name,
-    .roleName-32vpEy {
-      overflow: hidden;
-      line-height:normal;
-      position: relative;
-      z-index: 1;
-      margin-right: 0;
-      color: var(--white);
-      font-size: var(--font-size-sm);
-      font-weight: var(--font-weight-normal);
     }
     .actionButton-VzECiy {
       position: absolute;
