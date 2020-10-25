@@ -27,7 +27,7 @@
 
 ## Documentation
 
-Documentation, including customization guides can be found in the [Wiki](https://github.com/GibbuPCStuff/Slate/wiki) of this repo
+Documentation, including customization guides can be found in the [Wiki](https://github.com/DiscordStyles/Slate/wiki) of this repo
 
 ## License
 
