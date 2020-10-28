@@ -32,6 +32,6 @@
   }
   // Uninstall
   &:nth-child(4):before {
-    mask: url($icon_trashcan) center/cover no-repeat;
+    mask: url($icon_trashcan) center/contain no-repeat;
   }
 }
