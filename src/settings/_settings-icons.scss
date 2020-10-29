@@ -1,5 +1,5 @@
 // Global icons
-#app-mount .layer-3QrUeG[aria-label="USER_SETTINGS"] .item-PXvHYJ {
+#app-mount .layer-3QrUeG[aria-label="USER_SETTINGS"] .side-8zPYf6 > .item-PXvHYJ {
   display: flex;
   align-items: center;
   &.selected-3s45Ha:before {
@@ -82,7 +82,7 @@
 }
 
 // Windows icons
-html.platform-win #app-mount .layer-3QrUeG[aria-label*="SETTINGS"] .item-PXvHYJ {
+html.platform-win #app-mount .layer-3QrUeG[aria-label*="SETTINGS"] .side-8zPYf6 > .item-PXvHYJ {
   // Overlay
   &:nth-child(15):before {
     mask: url($icon_overlay) center/cover no-repeat;
@@ -141,7 +141,7 @@ html.platform-win #app-mount .layer-3QrUeG[aria-label*="SETTINGS"] .item-PXvHYJ 
 }
 
 // Mac Icons
-html.platform-osx #app-mount .layer-3QrUeG[aria-label*="SETTINGS"] .item-PXvHYJ {
+html.platform-osx #app-mount .layer-3QrUeG[aria-label*="SETTINGS"] .side-8zPYf6 > .item-PXvHYJ {
   // Notifications
   &:nth-child(15):before {
     mask: url($icon_bell) center/cover no-repeat;
@@ -190,7 +190,7 @@ html.platform-osx #app-mount .layer-3QrUeG[aria-label*="SETTINGS"] .item-PXvHYJ 
 }
 
 // Linux Icons
-html.platform-linux #app-mount .layer-3QrUeG[aria-label*="SETTINGS"] .item-PXvHYJ {
+html.platform-linux #app-mount .layer-3QrUeG[aria-label*="SETTINGS"] .side-8zPYf6 > .item-PXvHYJ {
   // Notifications
   &:nth-child(15):before {
     mask: url($icon_bell) center/cover no-repeat;
