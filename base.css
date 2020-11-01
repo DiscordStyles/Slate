@@ -15772,3 +15772,13 @@ body.styledGuildsAsChannels-DNHtg_ #app-mount .guilds-1SWlCJ .guildSeparator-3s6
     opacity: 1;
   }
 }
+
+.attachPopout-36hjtN{
+    transform: translateY(-50px);
+    color: var(--text-normal);
+    border-radius: 0px;
+    background: var(--background);
+}
+.attachPopoutRow-3iqqu1:hover{
+    background: var(--accent-solid);
+}
