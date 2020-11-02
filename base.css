@@ -2033,6 +2033,9 @@ html.platform-win[lang=en-US]:not(.app-focused) body:not(.oldTitleBarEnabled-D8p
 #app-mount .panels-j1Uci_ .container-1giJp5 .disabledButtonWrapper-3wH6-b {
   flex: none;
   margin-right: 0;
+  min-width: 42px;
+  min-height: 26px;
+  height: 26px;
 }
 #app-mount .panels-j1Uci_ .container-1giJp5 .disabledButtonWrapper-3wH6-b button {
   flex: 0;
@@ -3040,10 +3043,6 @@ html.platform-win[lang=en-US]:not(.app-focused) body:not(.oldTitleBarEnabled-D8p
 #app-mount .group-spacing-16 .groupStart-23k01U {
   margin: 0;
 }
-#app-mount .headerText-3Uvj1Y {
-  display: flex;
-  margin: 0;
-}
 #app-mount .wrapper-2a6GCs {
   background: transparent !important;
   min-height: unset;
@@ -3216,6 +3215,10 @@ html.platform-win[lang=en-US]:not(.app-focused) body:not(.oldTitleBarEnabled-D8p
   align-items: center;
   display: flex;
   min-height: unset;
+}
+#app-mount .wrapper-2a6GCs.cozy-3raOZG .headerText-3Uvj1Y {
+  display: flex;
+  margin: 0;
 }
 #app-mount .wrapper-2a6GCs.cozy-3raOZG .avatar-1BDn8e {
   border-radius: var(--avatar-radius) !important;
@@ -3749,7 +3752,8 @@ html.platform-win[lang=en-US]:not(.app-focused) body:not(.oldTitleBarEnabled-D8p
 #app-mount .wrapper-2TxpI8 .videoControls-2kcYic .durationTimeWrapper-OugPFt {
   margin: 0;
 }
-#app-mount .wrapper-2TxpI8 .videoControls-2kcYic .durationTimeWrapper-OugPFt .durationTimeDisplay-jww5fr, #app-mount .wrapper-2TxpI8 .videoControls-2kcYic .durationTimeWrapper-OugPFt .durationTimeSeparator-2_xpJ7 {
+#app-mount .wrapper-2TxpI8 .videoControls-2kcYic .durationTimeWrapper-OugPFt .durationTimeDisplay-jww5fr,
+#app-mount .wrapper-2TxpI8 .videoControls-2kcYic .durationTimeWrapper-OugPFt .durationTimeSeparator-2_xpJ7 {
   font-weight: var(--font-weight);
   font-size: var(--font-size-sm);
   color: var(--white);
@@ -3758,7 +3762,8 @@ html.platform-win[lang=en-US]:not(.app-focused) body:not(.oldTitleBarEnabled-D8p
   -webkit-user-select: text;
           user-select: text;
 }
-#app-mount .wrapper-2TxpI8 .videoControls-2kcYic .durationTimeWrapper-OugPFt .durationTimeDisplay-jww5fr.durationTimeSeparator-2_xpJ7, #app-mount .wrapper-2TxpI8 .videoControls-2kcYic .durationTimeWrapper-OugPFt .durationTimeSeparator-2_xpJ7.durationTimeSeparator-2_xpJ7 {
+#app-mount .wrapper-2TxpI8 .videoControls-2kcYic .durationTimeWrapper-OugPFt .durationTimeDisplay-jww5fr.durationTimeSeparator-2_xpJ7,
+#app-mount .wrapper-2TxpI8 .videoControls-2kcYic .durationTimeWrapper-OugPFt .durationTimeSeparator-2_xpJ7.durationTimeSeparator-2_xpJ7 {
   margin: 0 var(--spacing-third);
 }
 #app-mount .wrapper-2TxpI8 .videoControls-2kcYic .horizontal-3Sq5iO {
@@ -3774,7 +3779,11 @@ html.platform-win[lang=en-US]:not(.app-focused) body:not(.oldTitleBarEnabled-D8p
   display: flex;
   align-items: center;
 }
-#app-mount .wrapper-2TxpI8 .videoControls-2kcYic .horizontal-3Sq5iO .mediaBarInteraction-37i2O4:hover .buffer-26XPkd, #app-mount .wrapper-2TxpI8 .videoControls-2kcYic .horizontal-3Sq5iO .mediaBarInteraction-37i2O4:hover .mediaBarPreview-1jfyFs, #app-mount .wrapper-2TxpI8 .videoControls-2kcYic .horizontal-3Sq5iO .mediaBarInteraction-37i2O4:hover .mediaBarProgress-1xaPtl, #app-mount .wrapper-2TxpI8 .videoControls-2kcYic .horizontal-3Sq5iO .mediaBarInteraction-37i2O4:active .buffer-26XPkd, #app-mount .wrapper-2TxpI8 .videoControls-2kcYic .horizontal-3Sq5iO .mediaBarInteraction-37i2O4:active .mediaBarPreview-1jfyFs, #app-mount .wrapper-2TxpI8 .videoControls-2kcYic .horizontal-3Sq5iO .mediaBarInteraction-37i2O4:active .mediaBarProgress-1xaPtl,
+#app-mount .wrapper-2TxpI8 .videoControls-2kcYic .horizontal-3Sq5iO .mediaBarInteraction-37i2O4:hover .buffer-26XPkd,
+#app-mount .wrapper-2TxpI8 .videoControls-2kcYic .horizontal-3Sq5iO .mediaBarInteraction-37i2O4:hover .mediaBarPreview-1jfyFs,
+#app-mount .wrapper-2TxpI8 .videoControls-2kcYic .horizontal-3Sq5iO .mediaBarInteraction-37i2O4:hover .mediaBarProgress-1xaPtl, #app-mount .wrapper-2TxpI8 .videoControls-2kcYic .horizontal-3Sq5iO .mediaBarInteraction-37i2O4:active .buffer-26XPkd,
+#app-mount .wrapper-2TxpI8 .videoControls-2kcYic .horizontal-3Sq5iO .mediaBarInteraction-37i2O4:active .mediaBarPreview-1jfyFs,
+#app-mount .wrapper-2TxpI8 .videoControls-2kcYic .horizontal-3Sq5iO .mediaBarInteraction-37i2O4:active .mediaBarProgress-1xaPtl,
 #app-mount .wrapper-2TxpI8 .videoControls-2kcYic .horizontal-3Sq5iO .mediaBarInteractionDragging-2QurIZ:hover .buffer-26XPkd,
 #app-mount .wrapper-2TxpI8 .videoControls-2kcYic .horizontal-3Sq5iO .mediaBarInteractionDragging-2QurIZ:hover .mediaBarPreview-1jfyFs,
 #app-mount .wrapper-2TxpI8 .videoControls-2kcYic .horizontal-3Sq5iO .mediaBarInteractionDragging-2QurIZ:hover .mediaBarProgress-1xaPtl,
@@ -3794,7 +3803,9 @@ html.platform-win[lang=en-US]:not(.app-focused) body:not(.oldTitleBarEnabled-D8p
 #app-mount .wrapper-2TxpI8 .videoControls-2kcYic .horizontal-3Sq5iO .mediaBarInteractionDragging-2QurIZ .mediaBarWrapper-3D7r67 .mediaBarProgress-1xaPtl {
   background: var(--accent-solid);
 }
-#app-mount .wrapper-2TxpI8 .videoControls-2kcYic .horizontal-3Sq5iO .mediaBarInteraction-37i2O4 .mediaBarWrapper-3D7r67 .buffer-26XPkd, #app-mount .wrapper-2TxpI8 .videoControls-2kcYic .horizontal-3Sq5iO .mediaBarInteraction-37i2O4 .mediaBarWrapper-3D7r67 .mediaBarPreview-1jfyFs, #app-mount .wrapper-2TxpI8 .videoControls-2kcYic .horizontal-3Sq5iO .mediaBarInteraction-37i2O4 .mediaBarWrapper-3D7r67 .mediaBarProgress-1xaPtl,
+#app-mount .wrapper-2TxpI8 .videoControls-2kcYic .horizontal-3Sq5iO .mediaBarInteraction-37i2O4 .mediaBarWrapper-3D7r67 .buffer-26XPkd,
+#app-mount .wrapper-2TxpI8 .videoControls-2kcYic .horizontal-3Sq5iO .mediaBarInteraction-37i2O4 .mediaBarWrapper-3D7r67 .mediaBarPreview-1jfyFs,
+#app-mount .wrapper-2TxpI8 .videoControls-2kcYic .horizontal-3Sq5iO .mediaBarInteraction-37i2O4 .mediaBarWrapper-3D7r67 .mediaBarProgress-1xaPtl,
 #app-mount .wrapper-2TxpI8 .videoControls-2kcYic .horizontal-3Sq5iO .mediaBarInteractionDragging-2QurIZ .mediaBarWrapper-3D7r67 .buffer-26XPkd,
 #app-mount .wrapper-2TxpI8 .videoControls-2kcYic .horizontal-3Sq5iO .mediaBarInteractionDragging-2QurIZ .mediaBarWrapper-3D7r67 .mediaBarPreview-1jfyFs,
 #app-mount .wrapper-2TxpI8 .videoControls-2kcYic .horizontal-3Sq5iO .mediaBarInteractionDragging-2QurIZ .mediaBarWrapper-3D7r67 .mediaBarProgress-1xaPtl {
@@ -3803,7 +3814,9 @@ html.platform-win[lang=en-US]:not(.app-focused) body:not(.oldTitleBarEnabled-D8p
   transition: 150ms ease height;
   transform: translateY(-50%);
 }
-#app-mount .wrapper-2TxpI8 .videoControls-2kcYic .horizontal-3Sq5iO .mediaBarInteraction-37i2O4 .mediaBarWrapper-3D7r67 .buffer-26XPkd, #app-mount .wrapper-2TxpI8 .videoControls-2kcYic .horizontal-3Sq5iO .mediaBarInteraction-37i2O4 .mediaBarWrapper-3D7r67 .buffer-26XPkd:after, #app-mount .wrapper-2TxpI8 .videoControls-2kcYic .horizontal-3Sq5iO .mediaBarInteraction-37i2O4 .mediaBarWrapper-3D7r67 .buffer-26XPkd:before,
+#app-mount .wrapper-2TxpI8 .videoControls-2kcYic .horizontal-3Sq5iO .mediaBarInteraction-37i2O4 .mediaBarWrapper-3D7r67 .buffer-26XPkd,
+#app-mount .wrapper-2TxpI8 .videoControls-2kcYic .horizontal-3Sq5iO .mediaBarInteraction-37i2O4 .mediaBarWrapper-3D7r67 .buffer-26XPkd:after,
+#app-mount .wrapper-2TxpI8 .videoControls-2kcYic .horizontal-3Sq5iO .mediaBarInteraction-37i2O4 .mediaBarWrapper-3D7r67 .buffer-26XPkd:before,
 #app-mount .wrapper-2TxpI8 .videoControls-2kcYic .horizontal-3Sq5iO .mediaBarInteractionDragging-2QurIZ .mediaBarWrapper-3D7r67 .buffer-26XPkd,
 #app-mount .wrapper-2TxpI8 .videoControls-2kcYic .horizontal-3Sq5iO .mediaBarInteractionDragging-2QurIZ .mediaBarWrapper-3D7r67 .buffer-26XPkd:after,
 #app-mount .wrapper-2TxpI8 .videoControls-2kcYic .horizontal-3Sq5iO .mediaBarInteractionDragging-2QurIZ .mediaBarWrapper-3D7r67 .buffer-26XPkd:before {
@@ -3814,7 +3827,8 @@ html.platform-win[lang=en-US]:not(.app-focused) body:not(.oldTitleBarEnabled-D8p
   background: var(--accent-solid);
   transition: none;
 }
-#app-mount .wrapper-2TxpI8 .videoControls-2kcYic .horizontal-3Sq5iO .fakeEdges-27pgtp:after, #app-mount .wrapper-2TxpI8 .videoControls-2kcYic .horizontal-3Sq5iO .fakeEdges-27pgtp:before {
+#app-mount .wrapper-2TxpI8 .videoControls-2kcYic .horizontal-3Sq5iO .fakeEdges-27pgtp:after,
+#app-mount .wrapper-2TxpI8 .videoControls-2kcYic .horizontal-3Sq5iO .fakeEdges-27pgtp:before {
   content: none;
 }
 #app-mount .wrapper-2TxpI8 .videoControls-2kcYic .flex-1O1GKY {
@@ -5485,7 +5499,7 @@ html.theme-light #app-mount .reactions-12N0jA .reaction-1hd86g:not(.reactionMe-w
   color: var(--text-normal);
   font-weight: var(--font-weight-semibold);
   border-bottom: 1px solid var(--base-border);
-  height: auto;
+  height: 30px;
   width: 100%;
   text-transform: none;
   box-sizing: border-box;
@@ -6380,7 +6394,8 @@ html.theme-light #app-mount .wrapper-3Q5DdO .qrLogin-1AOZMt .startOverButton-3q0
           clip-path: polygon(0 100%, 100% 100%, 100% 0);
   box-shadow: var(--elevation-1);
 }
-#app-mount #status-picker .scroller-3BxosC .description-2L932D, #app-mount #status-picker .scroller-3BxosC .separator-2I32lJ {
+#app-mount #status-picker .scroller-3BxosC .description-2L932D,
+#app-mount #status-picker .scroller-3BxosC .separator-2I32lJ {
   display: none;
 }
 #app-mount #status-picker .scroller-3BxosC .item-1tOPte {
@@ -6445,7 +6460,8 @@ html.theme-light #app-mount .wrapper-3Q5DdO .qrLogin-1AOZMt .startOverButton-3q0
   margin: 0;
   margin-right: var(--spacing-half);
 }
-#app-mount #status-picker .scroller-3BxosC .item-1tOPte#status-picker-custom-status .customEmojiPlaceholder-37iZ_j, #app-mount #status-picker .scroller-3BxosC .item-1tOPte#status-picker-custom-status .status-3Kz6VS {
+#app-mount #status-picker .scroller-3BxosC .item-1tOPte#status-picker-custom-status .customEmojiPlaceholder-37iZ_j,
+#app-mount #status-picker .scroller-3BxosC .item-1tOPte#status-picker-custom-status .status-3Kz6VS {
   width: 10px;
   height: 10px;
 }
@@ -8090,7 +8106,7 @@ html.theme-light #app-mount .input-3Xdcic {
   box-shadow: 0 0 0 2px rgba(var(--accent), 0.25), inset 0 0 0 100vmax rgba(255, 255, 255, 0.1);
 }
 
-.layer-v9HyYc[style*="position: absolute;"][style*="bottom: 9"][style*=left] .animatorTop-2Y7x2r {
+.layer-v9HyYc[style*="position: absolute;"][style*="bottom: 90"][style*=left] .animatorTop-2Y7x2r {
   position: fixed !important;
   top: 0 !important;
   left: 0 !important;
@@ -8100,7 +8116,7 @@ html.theme-light #app-mount .input-3Xdcic {
   transform: none !important;
   transition: none !important;
 }
-.layer-v9HyYc[style*="position: absolute;"][style*="bottom: 9"][style*=left] .animatorTop-2Y7x2r:before {
+.layer-v9HyYc[style*="position: absolute;"][style*="bottom: 90"][style*=left] .animatorTop-2Y7x2r:before {
   content: "";
   position: fixed;
   top: 0;
@@ -8991,6 +9007,57 @@ html.theme-light #app-mount .popout-2iWAc-.force-theme.content-1nP7fx .buttonCon
   margin-top: var(--spacing-half);
   color: var(--text-muted);
   font-size: var(--font-size-sm);
+}
+
+#app-mount .noArrow-2foL9g.noShadow-3pu20z.popout-2iWAc-.popoutTopLeft-3B0mFf.arrowAlignmentTop-1yftWI {
+  top: 616px !important;
+}
+
+#app-mount .attachPopout-36hjtN {
+  background: var(--background);
+  border: 1px solid var(--base-border);
+  box-shadow: var(--elevation-1);
+  padding: 0;
+  overflow: hidden;
+  border-radius: var(--border-radius);
+}
+#app-mount .attachPopout-36hjtN:before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  background: var(--background);
+  box-sizing: border-box;
+  position: absolute;
+  bottom: -4px;
+  left: 8px;
+  transform: rotate(45deg);
+  border-bottom: 1px solid var(--base-border);
+  border-right: 1px solid var(--base-border);
+  -webkit-clip-path: polygon(0 100%, 100% 100%, 100% 0);
+  clip-path: polygon(0 100%, 100% 100%, 100% 0);
+  box-shadow: var(--elevation-1);
+}
+#app-mount .attachPopout-36hjtN .attachPopoutRow-3iqqu1 {
+  cursor: var(--cursor);
+}
+#app-mount .attachPopout-36hjtN .attachPopoutRow-3iqqu1:first-child svg {
+  -webkit-mask: url('data:image/svg+xml; utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M8.53 1.22a.75.75 0 00-1.06 0L3.72 4.97a.75.75 0 001.06 1.06l2.47-2.47v6.69a.75.75 0 001.5 0V3.56l2.47 2.47a.75.75 0 101.06-1.06L8.53 1.22zM3.75 13a.75.75 0 000 1.5h8.5a.75.75 0 000-1.5h-8.5z"></path></svg>') center/18px no-repeat;
+}
+#app-mount .attachPopout-36hjtN .attachPopoutRow-3iqqu1:last-child svg {
+  -webkit-mask: url('data:image/svg+xml; utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M6.122.392a1.75 1.75 0 011.756 0l5.25 3.045c.54.313.872.89.872 1.514V7.25a.75.75 0 01-1.5 0V5.677L7.75 8.432v6.384a1 1 0 01-1.502.865L.872 12.563A1.75 1.75 0 010 11.049V4.951c0-.624.332-1.2.872-1.514L6.122.392zM7.125 1.69l4.63 2.685L7 7.133 2.245 4.375l4.63-2.685a.25.25 0 01.25 0zM1.5 11.049V5.677l4.75 2.755v5.516l-4.625-2.683a.25.25 0 01-.125-.216zm10.828 3.684a.75.75 0 101.087 1.034l2.378-2.5a.75.75 0 000-1.034l-2.378-2.5a.75.75 0 00-1.087 1.034L13.501 12H10.25a.75.75 0 000 1.5h3.251l-1.173 1.233z"></path></svg>') center/18px no-repeat;
+}
+#app-mount .attachPopoutRow-3iqqu1 {
+  border-radius: 0;
+  transition: none;
+}
+#app-mount .attachPopoutRowText-2R5RC2 {
+  margin-left: var(--spacing);
+}
+#app-mount .attachPopoutIcon-1QXhWW {
+  background: var(--text-normal);
+}
+#app-mount .attachPopoutIcon-1QXhWW path {
+  display: none;
 }
 
 #app-mount .layer-3QrUeG[aria-label*=SETTINGS],
@@ -15522,6 +15589,10 @@ body.styledGuildsAsChannels-DNHtg_ #app-mount .guilds-1SWlCJ .guildSeparator-3s6
 #app-mount .container-6sXIoE.withTimeline-824fT_.maximized-vv2Wr0 .coverWrapper-YAplwJ {
   border: none;
   border-bottom: 1px solid var(--base-border);
+}
+
+#app-mount .form-2fGMdU .charCounterAdded-zz9O4t {
+  width: 100%;
 }
 
 @keyframes growIn {
