@@ -570,6 +570,18 @@
     outline:none;
     transition:250ms ease;
   }
+  
+  .attachPopout-36hjtN{ // Style the upload options (spotify, game invite, file attachment)
+    transform: translateY(-50px);
+    // Fixes upload options going off-screen
+    
+    color: var(--text-normal);
+    border-radius: 0px;
+    background: var(--background);
+}
+.attachPopoutRow-3iqqu1:hover{
+    background: var(--accent-solid);
+}
 
   // Embeds 
   .embedImage-2W1cML img, 
