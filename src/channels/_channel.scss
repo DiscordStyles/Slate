@@ -1,33 +1,33 @@
 #app-mount .sidebar-2K8pFh {
-  .wrapper-1ucjTd {
+  .wrapper-2jXpOf {
     position: relative;
     cursor: var(--cursor);
 
     // Unread channel
-    &.modeUnread-1zpFdA {
-      .content-3at_AU {
-        .name-3_Dsmg, svg {
+    &.modeUnread-1qO3K1 {
+      .content-1x5b-n {
+        .name-23GUGE, svg {
           color: var(--text-focus);
           opacity: 1;
         }
       }
-      &:hover .unread-3zKkbm {
+      &:hover .unread-2lAfLh {
         height: 18px;
       }
     }
 
     // Muted channel
-    &.modeMuted-3osy7j .content-3at_AU {
-      .name-3_Dsmg, svg {
+    &.modeMuted-onO3r- .content-1x5b-n {
+      .name-23GUGE, svg {
         opacity: .75;
         color: var(--text-muted);
       }
     }
 
     // Selected channel
-    &.modeSelected-1zApJ_ .content-3at_AU {
+    &.modeSelected-346R90 .content-1x5b-n {
       background:var(--accent-solid);
-      .name-3_Dsmg, svg {
+      .name-23GUGE, svg {
         opacity: 1;
         color: var(--white);
       }
@@ -51,7 +51,7 @@
   }
 
   // Unread pill
-  .unread-3zKkbm {
+  .unread-2lAfLh {
     border-radius: 0;
     width: 2px;
     height: 12px;
@@ -63,11 +63,11 @@
   }
 
   // Channel
-  .mainContent-ENyL1r,
+  .mainContent-u_9PKf,
   .voiceUser-14U_Ns {
     cursor: var(--cursor);
   }
-  .content-3at_AU {
+  .content-1x5b-n {
     margin: 0;
     padding: 0 var(--spacing);
     border-radius: 0;
@@ -84,7 +84,7 @@
         transform: scale(1.5) translateX(2px);
       }
     }
-    .iconBase-2IHuka {
+    .iconBase-3LOlfs {
       margin-left: var(--spacing-half);
       path[d="M14 2H16V3H14V5H13V3H11V2H13V0H14V2Z"] {
         d: path($path_person_add);
@@ -98,7 +98,7 @@
         transform-origin: center;
       }
     }
-    .icon-1_QxNX {
+    .icon-1DeIlz {
       margin-right: var(--spacing);
       height: 14px;
       width: auto;
@@ -107,7 +107,7 @@
         transform: scale(1.25) translateX(2px) translateY(1px);
       }
     }
-    .name-3_Dsmg {
+    .name-23GUGE {
       font-size: var(--font-size);
       font-weight: var(--font-weight-normal);
       color: var(--text-normal);
@@ -116,9 +116,9 @@
 
   // Channel Dragging
 
-  .containerDragAfter-3TEhpe:before, 
+  .containerDragAfter-3TEhpe:before,
   .containerDragBefore-3Dzc5x:before,
-  .containerDragAfter-1F4fgZ:after, 
+  .containerDragAfter-1F4fgZ:after,
   .containerDragBefore-31UGCO:before {
     left:0;
     border-radius:0;
@@ -126,7 +126,7 @@
     background:rgb(var(--status-green));
     box-shadow:none;
   }
-  
+
   // Connected users in voice
   .list-2bwCXU {
     padding-left: 0;

@@ -1,8 +1,8 @@
 #app-mount .sidebar-2K8pFh {
   // Server dropdown selected
-  .container-2Rl01u {
+  .container-1taM1r {
     background: var(--toolbar-background);
-    &.selected-WP3kCM .header-2o-2hj {
+    &.selected-31Nl7x .header-2V-4Sw {
       background: var(--background);
       border-bottom: 1px solid transparent;
       .name-3YKhmS {
@@ -13,7 +13,7 @@
       }
     }
   }
-  .header-2o-2hj {
+  .header-2V-4Sw {
     box-shadow: none;
     border-bottom: 1px solid var(--toolbar-border);
     border-right: 1px solid var(--toolbar-border);
@@ -30,9 +30,9 @@
     cursor: var(--cursor);
     .guildIconContainer-E1JUVt {
       margin-right: var(--spacing);
-      .disableColor-MwOAZf, 
-      .iconBackgroundTierNone-3MPhMJ, 
-      .iconBackgroundTierOne-2LhaMB, 
+      .disableColor-MwOAZf,
+      .iconBackgroundTierNone-3MPhMJ,
+      .iconBackgroundTierOne-2LhaMB,
       .iconBackgroundTierThree-3qw3JX,
       .iconBackgroundTierTwo-3bCmdc {
         color:var(--toolbar-background-active);
@@ -40,10 +40,10 @@
       .iconTierNone-3xOaeG {
         color: var(--toolbar-text-muted);
       }
-      .bannerVisible-14J9lQ  .iconBackgroundTierOne-2LhaMB, 
-      .bannerVisible-14J9lQ .iconBackgroundTierThree-3qw3JX, 
+      .bannerVisible-14J9lQ  .iconBackgroundTierOne-2LhaMB,
+      .bannerVisible-14J9lQ .iconBackgroundTierThree-3qw3JX,
       .bannerVisible-14J9lQ .iconBackgroundTierTwo-3bCmdc,
-      .iconTierOne-BHC2T8, 
+      .iconTierOne-BHC2T8,
       .iconTierTwo-_1edeM {
         color:var(--toolbar-text-normal);
       }
@@ -104,7 +104,7 @@
 }
 
 // Light Mode
-.theme-light #app-mount .sidebar-2K8pFh .container-2Rl01u.selected-WP3kCM .header-2o-2hj {
+.theme-light #app-mount .sidebar-2K8pFh .container-2Rl01u.selected-WP3kCM .header-2V-4Sw {
   border-right: none;
   h1 {
     color: var(--text-focus);
