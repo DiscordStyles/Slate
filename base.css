@@ -1761,74 +1761,74 @@ html.platform-win[lang=en-US]:not(.app-focused) body:not(.oldTitleBarEnabled-D8p
   background: rgb(var(--status-green));
   box-shadow: none;
 }
-#app-mount .sidebar-2K8pFh .list-2bwCXU {
+#app-mount .sidebar-2K8pFh .list-2luk8a {
   padding-left: 0;
 }
-#app-mount .sidebar-2K8pFh .list-2bwCXU .content-3xS9Lh {
+#app-mount .sidebar-2K8pFh .list-2luk8a .content-1Wq3SX {
   border-radius: 0;
   margin: 0;
   height: 100%;
   padding-left: calc(var(--spacing) * 2.5);
 }
-#app-mount .sidebar-2K8pFh .list-2bwCXU .voiceUser-14U_Ns {
+#app-mount .sidebar-2K8pFh .list-2luk8a .voiceUser-1K6Xox {
   border-radius: 0;
   height: var(--item-height);
 }
-#app-mount .sidebar-2K8pFh .list-2bwCXU .voiceUser-14U_Ns .avatarContainer-2inGBK {
+#app-mount .sidebar-2K8pFh .list-2luk8a .voiceUser-1K6Xox .avatarContainer-28iYmV {
   margin-left: var(--spacing);
   border-radius: var(--border-radius);
   height: var(--avatar-size-xsm);
   width: var(--avatar-size-xsm);
   border: 1px solid var(--base-border);
 }
-#app-mount .sidebar-2K8pFh .list-2bwCXU .voiceUser-14U_Ns .avatarContainer-2inGBK.avatarSpeaking-3MqCHL {
+#app-mount .sidebar-2K8pFh .list-2luk8a .voiceUser-1K6Xox .avatarContainer-28iYmV.avatarSpeaking-2IGMRN {
   border-color: rgb(var(--accent));
   box-shadow: 0 0 0 2px rgba(var(--accent), 0.35);
 }
-#app-mount .sidebar-2K8pFh .list-2bwCXU .voiceUser-14U_Ns .icons-3q-_6z {
+#app-mount .sidebar-2K8pFh .list-2luk8a .voiceUser-1K6Xox .icons-3q-_6z {
   margin-right: var(--spacing);
 }
-#app-mount .sidebar-2K8pFh .list-2bwCXU .voiceUser-14U_Ns .username-lm8y6T {
+#app-mount .sidebar-2K8pFh .list-2luk8a .voiceUser-1K6Xox .username-3KYl0N {
   color: var(--text-normal);
   font-size: var(--font-size);
   font-weight: var(--font-weight-normal);
 }
-#app-mount .sidebar-2K8pFh .list-2bwCXU .voiceUser-14U_Ns .icon-3BcwQu {
+#app-mount .sidebar-2K8pFh .list-2luk8a .voiceUser-1K6Xox .icon-3BcwQu {
   color: var(--text-normal);
   height: 14px;
   width: 14px;
 }
-#app-mount .sidebar-2K8pFh .list-2bwCXU .voiceUser-14U_Ns.selected-3TGCSZ .icon-3BcwQu, #app-mount .sidebar-2K8pFh .list-2bwCXU .voiceUser-14U_Ns.selected-3TGCSZ .username-lm8y6T {
+#app-mount .sidebar-2K8pFh .list-2luk8a .voiceUser-1K6Xox.selected-3TGCSZ .icon-3BcwQu, #app-mount .sidebar-2K8pFh .list-2luk8a .voiceUser-1K6Xox.selected-3TGCSZ .username-3KYl0N {
   color: #fff !important;
 }
-#app-mount .sidebar-2K8pFh .list-2bwCXU .voiceUser-14U_Ns.selected-3TGCSZ .usernameSpeaking-2xbKKh:after {
+#app-mount .sidebar-2K8pFh .list-2luk8a .voiceUser-1K6Xox.selected-3TGCSZ .usernameSpeaking-2xbKKh:after {
   background: #fff;
 }
-#app-mount .sidebar-2K8pFh .list-2bwCXU.collapsed-3x0tkj {
+#app-mount .sidebar-2K8pFh .list-2luk8a.collapsed-3x0tkj {
   padding-left: calc(var(--spacing) * 2.5);
 }
-#app-mount .sidebar-2K8pFh .list-2bwCXU.collapsed-3x0tkj .content-3xS9Lh {
+#app-mount .sidebar-2K8pFh .list-2luk8a.collapsed-3x0tkj .content-3xS9Lh {
   padding-left: 0;
 }
-#app-mount .sidebar-2K8pFh .userLimit-64AFxe .wrapper-pZmgj4 {
+#app-mount .sidebar-2K8pFh .userLimit-3aerPX .wrapper-2tAnRe {
   color: var(--text-normal);
   border-radius: var(--border-radius);
   border: 1px solid var(--base-border);
 }
-#app-mount .sidebar-2K8pFh .userLimit-64AFxe .wrapper-pZmgj4 span {
+#app-mount .sidebar-2K8pFh .userLimit-3aerPX .wrapper-2tAnRe span {
   padding: 0 var(--spacing-half);
   width: auto;
   font-size: var(--font-size);
   color: var(--text-normal);
   font-weight: var(--font-weight-semibold);
 }
-#app-mount .sidebar-2K8pFh .userLimit-64AFxe .wrapper-pZmgj4 span.users-i_3-kL {
+#app-mount .sidebar-2K8pFh .userLimit-3aerPX .wrapper-2tAnRe span.users-3kndPl {
   background: transparent;
 }
-#app-mount .sidebar-2K8pFh .userLimit-64AFxe .wrapper-pZmgj4 span.total-3tKGEB {
+#app-mount .sidebar-2K8pFh .userLimit-3aerPX .wrapper-2tAnRe span.total-i6us2n {
   background: var(--background-alt);
 }
-#app-mount .sidebar-2K8pFh .userLimit-64AFxe .wrapper-pZmgj4 span.total-3tKGEB:after {
+#app-mount .sidebar-2K8pFh .userLimit-3aerPX .wrapper-2tAnRe span.total-i6us2n:after {
   content: none;
 }
 
@@ -12931,6 +12931,7 @@ html.theme-light .root-SR8cQa .header-QKLPzZ .actionButton-3W1xZa + div:focus {
   margin: 0 !important;
   width: 100% !important;
   height: auto !important;
+  max-height: 60vh !important;
   background-size: cover;
   box-shadow: none;
   box-sizing: border-box;

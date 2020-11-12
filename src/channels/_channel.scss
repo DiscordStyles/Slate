@@ -128,24 +128,24 @@
   }
 
   // Connected users in voice
-  .list-2bwCXU {
+  .list-2luk8a {
     padding-left: 0;
-    .content-3xS9Lh {
+    .content-1Wq3SX {
       border-radius: 0;
       margin: 0;
       height: 100%;
       padding-left: calc(var(--spacing) * 2.5);
     }
-    .voiceUser-14U_Ns {
+    .voiceUser-1K6Xox {
       border-radius: 0;
       height: var(--item-height);
-      .avatarContainer-2inGBK {
+      .avatarContainer-28iYmV {
         margin-left: var(--spacing);
         border-radius: var(--border-radius);
         height: var(--avatar-size-xsm);
         width: var(--avatar-size-xsm);
         border: 1px solid var(--base-border);
-        &.avatarSpeaking-3MqCHL {
+        &.avatarSpeaking-2IGMRN {
           border-color: rgb(var(--accent));
           box-shadow: 0 0 0 2px rgba(var(--accent), .35);
         }
@@ -153,7 +153,7 @@
       .icons-3q-_6z {
         margin-right: var(--spacing);
       }
-      .username-lm8y6T {
+      .username-3KYl0N {
         color: var(--text-normal);
         font-size: var(--font-size);
         font-weight: var(--font-weight-normal);
@@ -164,7 +164,7 @@
         width: 14px;
       }
       &.selected-3TGCSZ {
-        .icon-3BcwQu, .username-lm8y6T {
+        .icon-3BcwQu, .username-3KYl0N {
           color: #fff !important;
         }
         .usernameSpeaking-2xbKKh:after {
@@ -181,8 +181,8 @@
   }
 
   // User Limit
-  .userLimit-64AFxe {
-    .wrapper-pZmgj4 {
+  .userLimit-3aerPX {
+    .wrapper-2tAnRe {
       color: var(--text-normal);
       border-radius: var(--border-radius);
       border: 1px solid var(--base-border);
@@ -192,10 +192,10 @@
         font-size:var(--font-size);
         color:var(--text-normal);
         font-weight:var(--font-weight-semibold);
-        &.users-i_3-kL {
+        &.users-3kndPl {
           background: transparent;
         }
-        &.total-3tKGEB {
+        &.total-i6us2n {
           background: var(--background-alt);
           &:after {
             content:none;
