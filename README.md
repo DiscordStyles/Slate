@@ -31,4 +31,4 @@ Documentation, including customization guides can be found in the [Wiki](https:/
 
 ## License
 
-See the [LICENSE](LICENSE.md) file for license rights and limitations (MIT).
+See the [LICENSE](https://github.com/DiscordStyles/Slate/blob/master/LICENSE.md) file for license rights and limitations (MIT).
