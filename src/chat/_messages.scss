@@ -901,6 +901,59 @@
       background: transparent !important;
     }
   }
+
+  // Replied to message
+  .repliedMessage-VokQwo {
+    background: var(--background);
+    border: 1px solid var(--base-border);
+    width: fit-content;
+    margin-left: -5px;
+    padding: var(--spacing-third) var(--spacing-half);
+    border-radius: 0 var(--border-radius) var(--border-radius) var(--border-radius);
+    & > div {
+      position: relative;
+      z-index: 1;
+    }
+    .replyAvatar-1K9Wmr {
+      position: absolute;
+      left: calc(var(--avatar-size-xsm) / -1 - 15px);
+      top: -1px;
+      width: var(--avatar-size-xsm);
+      height: var(--avatar-size-xsm);
+      border-radius: var(--border-radius);
+      border: 1px solid var(--base-border);
+      background: var(--background-dark);
+    }
+    &:before {
+      content: none;
+    }
+    &:after {
+      content: "";
+      position: absolute;
+      top: -1px;
+      left: -4px;
+      z-index: 0;
+      width: 6px;
+      height: 6px;
+      border-radius: 0;
+      background: var(--background);
+      border: 1px solid var(--base-border);
+      transform: skewX(45deg);
+      border-bottom: none;
+      border-right: none;
+    }
+    & + .contents-2mQqc9 {
+      img, .avatar-1BDn8e {
+        top: calc(var(--spacing-triple) + 15px) !important;
+      }
+      .replyLink-nOQEG8 {
+        display: none;
+        & + .username-1A8OIy {
+          display: none;
+        }
+      }
+    }
+  }
 }
 
 // Remove Powercord Codeblock Mods

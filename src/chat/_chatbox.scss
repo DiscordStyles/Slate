@@ -108,6 +108,9 @@
     box-sizing:border-box;
     height:unset;
   }
+  .hasReply-16cIUP .inner-MADQqc {
+    border-radius: 0 0 var(--border-radius) var(--border-radius);
+  }
   .textArea-12jD-V {
     min-height:var(--avatar-size-sm);
     height:auto;
@@ -198,7 +201,7 @@
     padding:0 var(--spacing-half);
     display:flex;
     justify-content:center;
-    border-bottom:none; 
+    border-bottom:none;
     .text-1y-e8- {
       line-height:normal;
       color:var(--text-muted);
@@ -227,6 +230,39 @@
     opacity:1;
     &:hover {
       opacity:1;
+    }
+  }
+
+  // Reply
+  .container-2fRDfG {
+    background: var(--background-alt);
+    border-radius: var(--border-radius) var(--border-radius) 0 0;
+    border: 1px solid var(--base-border);
+    border-bottom: none;
+    .text-15b_0l {
+      margin-left: var(--spacing);
+    }
+  }
+  .mentionButton-3710-W {
+    padding: 4px 6px;
+    font-size: var(--font-size-sm);
+  }
+  .mentionIcon-1UYeiz {
+    width: 12px;
+    height: 12px;
+  }
+  .separator-ju-9xl {
+    height: 26px;
+    background: var(--base-border);
+  }
+  .closeButton-37O8QC {
+    padding: 4px 6px;
+    svg {
+      -webkit-mask: url($icon_cross) center/cover;
+      background: var(--text-normal);
+    }
+    path {
+      display: none;
     }
   }
 }
