@@ -908,6 +908,7 @@
     border: 1px solid var(--base-border);
     width: fit-content;
     margin-left: -5px;
+    max-width: calc(100vw - (var(--sidebar-width) * 3));
     padding: var(--spacing-third) var(--spacing-half);
     border-radius: 0 var(--border-radius) var(--border-radius) var(--border-radius);
     & > div {
@@ -953,6 +954,12 @@
         }
       }
     }
+  }
+  .repliedTextContent-1R3vnK {
+    max-width: calc(100vw - (var(--sidebar-width) * 3));
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+    white-space: nowrap;
   }
 }
 

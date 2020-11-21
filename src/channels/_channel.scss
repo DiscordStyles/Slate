@@ -2,6 +2,7 @@
   .wrapper-2jXpOf {
     position: relative;
     cursor: var(--cursor);
+    padding: 0;
 
     // Unread channel
     &.modeUnread-1qO3K1 {
@@ -38,12 +39,12 @@
   }
 
   // User drag
-  .draggable-1KoBzC {
+  .draggable-2E_4tJ {
     height: var(--item-height);
   }
 
   // User drag region
-  .containerUserOver-1U5YnL:after {
+  .containerUserOver-2mv1jO:after {
     left: 0;
     border-radius: var(--border-radius);
     border:2px solid rgb(var(--status-green));
@@ -115,7 +116,6 @@
   }
 
   // Channel Dragging
-
   .containerDragAfter-3TEhpe:before,
   .containerDragBefore-3Dzc5x:before,
   .containerDragAfter-1F4fgZ:after,
@@ -163,12 +163,13 @@
         height: 14px;
         width: 14px;
       }
-      &.selected-3TGCSZ {
-        .icon-3BcwQu, .username-3KYl0N {
+      &.selected-3t3Csj {
+        .icon-2IuuZd, .username-3KYl0N {
           color: #fff !important;
         }
-        .usernameSpeaking-2xbKKh:after {
-          background: #fff;
+        .avatarSpeaking-2IGMRN {
+          box-shadow: 0 0 0 2px rgba(255,255,255,0.5);
+          border-color: #fff;
         }
       }
     }
