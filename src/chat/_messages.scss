@@ -904,6 +904,9 @@
 
   // Replied to message
   .repliedMessage-VokQwo {
+    position: absolute;
+    top: var(--spacing-triple);
+    left: calc(var(--spacing-triple) + var(--avatar-size));
     background: var(--background);
     border: 1px solid var(--base-border);
     width: fit-content;
@@ -915,15 +918,11 @@
       position: relative;
       z-index: 1;
     }
-    .replyAvatar-1K9Wmr {
-      position: absolute;
-      left: calc(var(--avatar-size-xsm) / -1 - 15px);
-      top: -1px;
-      width: var(--avatar-size-xsm);
-      height: var(--avatar-size-xsm);
-      border-radius: var(--border-radius);
-      border: 1px solid var(--base-border);
-      background: var(--background-dark);
+    img {
+      display: none;
+    }
+    .username-1A8OIy {
+      margin-right: var(--spacing-half);
     }
     &:before {
       content: none;
@@ -943,16 +942,8 @@
       border-bottom: none;
       border-right: none;
     }
-    & + .contents-2mQqc9 {
-      img, .avatar-1BDn8e {
-        top: calc(var(--spacing-triple) + 15px) !important;
-      }
-      .replyLink-nOQEG8 {
-        display: none;
-        & + .username-1A8OIy {
-          display: none;
-        }
-      }
+    & + .contents-2mQqc9 .header-23xsNx {
+      margin-bottom: 32px;
     }
   }
   .repliedTextContent-1R3vnK {

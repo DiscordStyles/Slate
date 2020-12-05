@@ -1,6 +1,6 @@
 @import url("https://discord-custom-covers.github.io/usrbg/dist/usrbg.css");
 :root {
-  --slate-version: "Slate 1.5.1";
+  --slate-version: "Slate 1.5.2";
   --slate-palette: "Primer";
   --border-radius: 3px;
   --button-border-radius: 2px;
@@ -3932,6 +3932,9 @@ html.platform-win[lang=en-US]:not(.app-focused) body:not(.oldTitleBarEnabled-D8p
   background: transparent !important;
 }
 #app-mount .repliedMessage-VokQwo {
+  position: absolute;
+  top: var(--spacing-triple);
+  left: calc(var(--spacing-triple) + var(--avatar-size));
   background: var(--background);
   border: 1px solid var(--base-border);
   width: -webkit-fit-content;
@@ -3946,15 +3949,11 @@ html.platform-win[lang=en-US]:not(.app-focused) body:not(.oldTitleBarEnabled-D8p
   position: relative;
   z-index: 1;
 }
-#app-mount .repliedMessage-VokQwo .replyAvatar-1K9Wmr {
-  position: absolute;
-  left: calc(var(--avatar-size-xsm) / -1 - 15px);
-  top: -1px;
-  width: var(--avatar-size-xsm);
-  height: var(--avatar-size-xsm);
-  border-radius: var(--border-radius);
-  border: 1px solid var(--base-border);
-  background: var(--background-dark);
+#app-mount .repliedMessage-VokQwo img {
+  display: none;
+}
+#app-mount .repliedMessage-VokQwo .username-1A8OIy {
+  margin-right: var(--spacing-half);
 }
 #app-mount .repliedMessage-VokQwo:before {
   content: none;
@@ -3974,14 +3973,8 @@ html.platform-win[lang=en-US]:not(.app-focused) body:not(.oldTitleBarEnabled-D8p
   border-bottom: none;
   border-right: none;
 }
-#app-mount .repliedMessage-VokQwo + .contents-2mQqc9 img, #app-mount .repliedMessage-VokQwo + .contents-2mQqc9 .avatar-1BDn8e {
-  top: calc(var(--spacing-triple) + 15px) !important;
-}
-#app-mount .repliedMessage-VokQwo + .contents-2mQqc9 .replyLink-nOQEG8 {
-  display: none;
-}
-#app-mount .repliedMessage-VokQwo + .contents-2mQqc9 .replyLink-nOQEG8 + .username-1A8OIy {
-  display: none;
+#app-mount .repliedMessage-VokQwo + .contents-2mQqc9 .header-23xsNx {
+  margin-bottom: 32px;
 }
 #app-mount .repliedTextContent-1R3vnK {
   max-width: calc(100vw - (var(--sidebar-width) * 3));
