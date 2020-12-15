@@ -13,11 +13,11 @@
     height: var(--input-height);
     line-height: normal;
     transition: none;
-    box-sizing:border-box;
+    box-sizing: border-box;
     padding: 0 var(--spacing);
     border-radius: var(--button-border-radius);
     .buttonIcon-1BKzBu {
-      margin-right:var(--spacing-half);
+      margin-right: var(--spacing-half);
     }
   }
   .lookFilled-1Gx00P,
@@ -25,12 +25,12 @@
   .primaryButton-2BsGPp {
     color: var(--white);
     background-color: rgb(var(--accent));
-    margin-left:var(--spacing);
+    margin-left: var(--spacing);
     &:hover {
-      box-shadow: inset 0 0 0 100vmax rgba(255,255,255,0.1);
+      box-shadow: inset 0 0 0 100vmax rgba(255, 255, 255, 0.1);
     }
     &:focus {
-      box-shadow: 0 0 0 2px rgba(var(--accent), 0.25), inset 0 0 0 100vmax rgba(255,255,255,0.1);
+      box-shadow: 0 0 0 2px rgba(var(--accent), 0.25), inset 0 0 0 100vmax rgba(255, 255, 255, 0.1);
     }
   }
   .lookLink-9FtZy- {
@@ -41,19 +41,19 @@
     cursor: pointer;
     &:hover .contents-18-Yxp {
       background-image: none !important;
-      text-decoration:underline;
+      text-decoration: underline;
     }
     &.reset-2ikQ30 {
       opacity: 1;
-      margin:0 !important;
+      margin: 0 !important;
     }
   }
   .secondaryButton-BIo-2g {
-    margin:0;
+    margin: 0;
   }
-  .primaryButton-2BsGPp, 
+  .primaryButton-2BsGPp,
   .secondaryButton-BIo-2g {
-    flex:0;
+    flex: 0;
   }
   .colorPrimary-3b3xI6.lookLink-9FtZy-,
   .colorPrimary-3b3xI6.lookFilled-1Gx00P,
@@ -71,7 +71,7 @@
     &:hover {
       border: 1px solid currentColor;
       .contents-18-Yxp {
-        text-decoration:none;
+        text-decoration: none;
       }
     }
     &:focus {
@@ -80,31 +80,29 @@
     }
   }
   .premiumIcon-YgHhed {
-    margin-right:var(--spacing-third);
-    height:16px;
-    width:16px;
+    margin-right: var(--spacing-third);
+    height: 16px;
+    width: 16px;
   }
 }
 
 // Light mode buttons
-html.theme-light {
-  #app-mount {
-    .colorPrimary-3b3xI6.lookLink-9FtZy-,
-    .colorPrimary-3b3xI6.lookFilled-1Gx00P,
-    .lookInverted-2D7oAl,
-    .lookOutlined-3sRXeN,
-    .lookGhost-2Fn_0-,
-    .secondaryButton-BIo-2g,
-    .actionButton-uPB8Fs,
-    .cancelButton-10XRsm {
-      &:hover {
-        background: var(--background);
-        border: 1px solid var(--secondary-border);
-      }
-      &:focus {
-        box-shadow: 0 0 0 2px rgba(0,0,0,0.05) !important;
-        border: 1px solid var(--secondary-border) !important;
-      }
+html.theme-light #app-mount {
+  .colorPrimary-3b3xI6.lookLink-9FtZy-,
+  .colorPrimary-3b3xI6.lookFilled-1Gx00P,
+  .lookInverted-2D7oAl,
+  .lookOutlined-3sRXeN,
+  .lookGhost-2Fn_0-,
+  .secondaryButton-BIo-2g,
+  .actionButton-uPB8Fs,
+  .cancelButton-10XRsm {
+    &:hover {
+      background: var(--background);
+      border: 1px solid var(--secondary-border);
+    }
+    &:focus {
+      box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.05) !important;
+      border: 1px solid var(--secondary-border) !important;
     }
   }
 }

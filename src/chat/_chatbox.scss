@@ -177,14 +177,6 @@
   .button-318s1X {
     padding: 0;
   }
-  // DevilBro CharCounter
-  .charCounter-7fw40k {
-    font-size: var(--font-size-sm);
-    color: var(--text-muted);
-    opacity: .4;
-    bottom: -11px;
-    right: 1px;
-  }
   // Users typing
   .base-gE7OpD {
     opacity:.65;
@@ -264,5 +256,10 @@
     path {
       display: none;
     }
+  }
+
+  // GIF & Gift buttons
+  .buttons-3JBrkn > .button-38aScr {
+    display: none;
   }
 }

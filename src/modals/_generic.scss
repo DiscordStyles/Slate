@@ -52,7 +52,7 @@
       .colorStandard-2KCXvj {
         font-size: var(--font-size-md);
         color:var(--text-normal);
-        font-weight:var(--font-weight-semibold);  
+        font-weight:var(--font-weight-semibold);
         text-transform:none;
         line-height:normal;
         letter-spacing:normal;
@@ -201,7 +201,7 @@
         flex-direction:row-reverse;
         label {
           font-size:var(--font-size);
-          font-weight:var(--font-weight-normal);  
+          font-weight:var(--font-weight-normal);
           color:var(--text-normal);
           cursor: var(--cursor);
         }
@@ -232,7 +232,7 @@
       }
       .box-mmYMsp {
         background: var(--background) !important;
-        cursor: pointer;
+        cursor: var(--cursor);
         border: none;
         &[style*="rgb(114, 137, 218)"] {
           background: var(--accent-solid) !important;
@@ -281,7 +281,7 @@
   }
   .overrideList-Xc_VCf {
     padding:0;
-    .header-3Uqp87, 
+    .header-3Uqp87,
     .overrideHeader-367JNH {
       color:var(--text-muted);
       font-size:var(--font-size);
@@ -315,7 +315,7 @@
 // Light Mode
 
 html.theme-light {
-  #app-mount .footer-2gL1pp .lookLink-9FtZy-, 
+  #app-mount .footer-2gL1pp .lookLink-9FtZy-,
   #app-mount .footer-2gL1pp .cancelButton-2O3h8t {
     &:hover {
       background: var(--background);

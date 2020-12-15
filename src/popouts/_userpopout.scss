@@ -154,7 +154,7 @@
       background: var(--background-dark);
       display: grid;
       grid-template-columns: auto 1fr;
-      grid-template-areas: "avatar info" "status status" "last last" "join join" "date date";
+      grid-template-areas: "avatar info" "status status" "last last" "join join" "date date" "badges badges";
       align-items: center;
       justify-content: flex-start;
       padding: var(--spacing);
@@ -183,7 +183,7 @@
       font-weight: var(--font-weight-semibold);
       color: var(--text-muted);
       font-size: var(--font-size-sm);
-      justify-content:flex-start; 
+      justify-content:flex-start;
       &.headerTagNoNickname-ENx6no {
         font-size: var(--font-size-md);
       }
@@ -284,8 +284,6 @@
     .joinedAtDate-IawR02 {
       grid-area: join;
     }
-
-    // flex-1xMQg5 flex-1O1GKY vertical-V37hAW flex-1O1GKY directionColumn-35P_nr justifyStart-2NDFzi alignStretch-DpGPf3 wrap-ZIn9Iy buttonsWrapper-2eYbM0 actionsUserPopout-2MrzCa
 
     .lastMessageDate-ocEw13 {
       grid-area: last;

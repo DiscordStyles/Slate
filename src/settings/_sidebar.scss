@@ -1,7 +1,7 @@
 #app-mount .layer-3QrUeG[aria-label*="SETTINGS"] .sidebarRegion-VFTUkN,
 #app-mount .layer-3QrUeG[aria-label*="RTC"] .sidebarRegion-VFTUkN {
 	flex: unset;
-	z-index:10;	
+	z-index:10;
 	.sidebarRegionScroller-3MXcoP {
 		flex: auto;
 	}
@@ -9,7 +9,7 @@
 		padding: var(--spacing) 0;
 		width: auto;
 	}
-	
+
 	// Header (User settings/App settings)
 	.header-2RyJ0Y {
 		display: none;
@@ -64,7 +64,7 @@
 	.info-1VyQPT {
 		padding: calc(var(--spacing) / 3) var(--spacing-double);
 		.colorMuted-HdFt4q:first-of-type:before {
-			content: var(--slate-version) ' ('var(--slate-palette)')';
+			content: 'Slate ' var(--slate-version) ' ('var(--slate-palette)')';
 			display: block;
 		}
 	}

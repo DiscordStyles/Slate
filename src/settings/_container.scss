@@ -1,3 +1,6 @@
+#app-mount .baseLayer-35bLyl.animating-rRxada:not(.stop-animations) + .animating-rRxada {
+  display: none;
+}
 #app-mount .layer-3QrUeG[aria-label*="SETTINGS"],
 #app-mount .layer-3QrUeG[aria-label*="RTC"] {
   display: flex;
@@ -7,9 +10,6 @@
   background: var(--backdrop);
   z-index:1;
   top:calc(var(--titlebar-height) * -1);
-  &.animating-rRxada {
-    display:none;
-  }
   [class*="scroller-" i]:not([class*="bd-"]) {
     background: var(--background);
     &::-webkit-scrollbar {

@@ -1,18 +1,5 @@
 #app-mount {
-  .css-13kbzi0-control,
-  .css-15ejc46-control,
-  .css-1a8reka-control,
-  .css-1yegjoj-control,
-  .css-2yldzf-control,
-  .css-oc2jo8-control,
-  .css-oce0qz-control,
-  .css-hygzao-control,
-  .css-1qm8c5n-control,
-  .sizeMedium-6vZ9JV.select-1Pkeg4,
-  .css-gd8if9-control,
-  .css-x3hllb-control,
-  .css-z86t1q-control,
-  .css-1ou54ee-control {
+  [class*="css"][class*="control"] {
     border: 1px solid var(--base-border);
     border-radius: var(--border-radius);
     background: var(--background-dark);
@@ -23,14 +10,55 @@
     transition:none;
     box-sizing:border-box;
     cursor: var(--cursor);
-    &.css-1qm8c5n-control,
-    &.css-2yldzf-control,
-    &.css-1ou54ee-control,
-    &.selectOpen-hQuR6b {
-      border:1px solid var(--accent-solid);
-      box-shadow:0 0 0 2px rgba(var(--accent), 0.25);
+
+    // Arrow
+    > [class*="css"]:last-child {
+      height: var(--input-height);
+    }
+    [class*="indicatorContainer"] {
+      padding: 0 var(--spacing-half);
+    }
+
+    &.css-6fzn47-control {
+      border-radius: var(--border-radius) var(--border-radius) 0 0;
     }
   }
+
+  // Select menu
+  [class*="css"][class*="menu"] {
+    background: var(--background-dark);
+    box-shadow: var(--elevation-1);
+    border-color: var(--base-border);
+    overflow: hidden;
+    border-radius: 0 0 var(--border-radius) var(--border-radius);
+    [class*="option"] {
+      padding: var(--spacing);
+      min-height: auto;
+      &.css-rzbxvl-option {
+        background: var(--background-modifier-hover);
+      }
+      &.css-1ba14n5-option {
+        background: var(--background-modifier-active);
+      }
+    }
+  }
+
+  // New select, used for Custom Status (why Discord?)
+  .select-2fjwPw {
+    border: 1px solid var(--base-border);
+    border-radius: var(--border-radius);
+    background: var(--background-dark);
+    font-size: var(--font-size);
+    height: var(--input-height);
+    padding: 0 var(--spacing);
+    min-height: auto;
+    transition:none;
+    box-sizing:border-box;
+    cursor: var(--cursor);
+  }
+
+
+
   .css-1k00wn6-singleValue,
   .css-111z1s-singleValue,
   .css-6nrxdk-singleValue,
@@ -77,31 +105,6 @@
   .css-1wy0on6 {
     height: var(--input-height);
   }
-  .css-12qlrak-indicatorContainer,
-  .css-1flfamv-indicatorContainer,
-  .css-11dkexk-indicatorContainer,
-  .css-u3suk5-indicatorContainer,
-  .css-1lqc17i-indicatorContainer,
-  .css-95pa8n-indicatorContainer,
-  .css-myto3z-indicatorContainer {
-    padding:0 var(--spacing-half);
-    opacity: 1;
-    height:100%;
-    display:flex;
-    align-items:center;
-    cursor: var(--cursor);
-    color:var(--text-muted);
-    svg {
-      width:10px;
-      height:10px;
-      mask: url($icon_chevron-down) center/10px no-repeat;
-      background: currentColor;
-      color:inherit;
-      path {
-        display: none;
-      }
-    }
-  }
   .css-13kbzi0-control,
   .css-oce0qz-control {
     opacity: .5;
@@ -122,24 +125,6 @@
 }
 
 // Light Mode
-
-.theme-light {
-  #app-mount {
-    .css-13kbzi0-control,
-    .css-15ejc46-control,
-    .css-1a8reka-control,
-    .css-1yegjoj-control,
-    .css-2yldzf-control,
-    .css-oc2jo8-control,
-    .css-oce0qz-control,
-    .css-hygzao-control,
-    .css-1qm8c5n-control,
-    .sizeMedium-6vZ9JV.select-1Pkeg4,
-    .css-gd8if9-control,
-    .css-x3hllb-control,
-    .css-z86t1q-control,
-    .css-1ou54ee-control {
-      background:var(--background);
-    }
-  }
+.theme-light #app-mount [class*="css"][class*="control"] {
+  background:var(--background);
 }
