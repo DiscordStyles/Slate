@@ -1708,6 +1708,9 @@ html.platform-win[lang=en-US]:not(.app-focused) body:not(.oldTitleBarEnabled-D8p
 #app-mount .sidebar-2K8pFh .voiceUser-14U_Ns {
   cursor: var(--cursor);
 }
+#app-mount .sidebar-2K8pFh .iconContainer-1BBaeJ {
+  margin-right: 0;
+}
 #app-mount .sidebar-2K8pFh .content-1x5b-n {
   margin: 0;
   padding: 0 var(--spacing);
@@ -1772,6 +1775,7 @@ html.platform-win[lang=en-US]:not(.app-focused) body:not(.oldTitleBarEnabled-D8p
   margin: 0;
   height: 100%;
   padding-left: calc(var(--spacing) * 2.5);
+  cursor: var(--cursor);
 }
 #app-mount .sidebar-2K8pFh .list-2luk8a .voiceUser-1K6Xox {
   border-radius: 0;
