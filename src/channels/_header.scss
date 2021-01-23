@@ -56,7 +56,7 @@
       line-height: normal;
       &:before {
         display: block;
-        content: "Current Server";
+        content: var(--i18n-current-server);
         font-size: var(--font-size-sm);
         font-weight: var(--font-weight-normal);
         color: var(--toolbar-text-muted);

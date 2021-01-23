@@ -1,0 +1,9 @@
+// Default translation is set to en-US/en-GB
+// They're both using the same seeing as there's no differences. Yet.
+
+html {
+  --i18n-current-server: 'Current Server';
+  --i18n-current-channel: 'Current Channel';
+
+  --i18n-settings-header: 'Options';
+}

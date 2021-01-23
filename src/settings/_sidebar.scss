@@ -2,6 +2,7 @@
 #app-mount .layer-3QrUeG[aria-label*="RTC"] .sidebarRegion-VFTUkN {
 	flex: unset;
 	z-index:10;
+	border-right: 1px solid var(--base-border);
 	.sidebarRegionScroller-3MXcoP {
 		flex: auto;
 	}

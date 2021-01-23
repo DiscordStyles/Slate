@@ -6,161 +6,33 @@
 	}
 
 	// My Account
-	.userSettingsAccount-2eMFVR {
-		.card-3Qj_Yx.cardWarning-2yPNAa {
-			.icon-4lJsMQ {
-				display:none;
-			}
-			.flexChild-faoVW3:last-child {
-				margin:0;
-			}
+	.background-1QDuV2 {
+		border-radius: var(--border-radius);
+		background: var(--background-alt);
+		border: 1px solid var(--base-border);
+		padding: 0;
+		.profile-1eT9hT {
+			padding: var(--spacing-double);
 		}
-		.cardPrimary-1Hv-to {
-			background: transparent !important;
-			border: none !important;
-			padding: 0;
-			box-shadow:none;
-			.flexChild-faoVW3:first-child {
-				margin-right: 0;
-				.wrapper-3t9DeA {
-					width: 34px !important;
-					height: 34px !important;
-					border-radius: var(--border-radius);
-					border: 1px solid var(--base-border);
-					box-shadow:none;
-					img {
-						clip-path: none;
-						-webkit-clip-path: none;
-					}
-				}
-			}
-			h5 {
-				display: none;
-			}
-			.marginBottom20-32qID7 {
-				margin-bottom: 0 !important;
-				+ div .viewBody-2Qz-jg {
-					color: var(--text-muted);
-					font-weight: var(--font-weight-normal);
-					font-style: italic;
-				}
-			}
-			.viewBody-2Qz-jg {
-				pointer-events: none;
-				font-size: var(--font-size);
-				font-weight: var(--font-weight-semibold);
-				color: var(--text-normal);
-				span {
-					opacity: 1 !important;
-				}
-			}
+		.details-2fkb7l {
+			margin: 0 0 0 var(--spacing-double);
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
 		}
-	}
-	.userInfoViewing-16kqK3 .flexChild-faoVW3[style="flex: 0 1 auto;"] {
-		margin-left: 0;
-	}
-	.userInfoViewingButton-2-jbH9 {
-		top: 0;
-		right: 0;
-	}
-	.userSettingsSecurity-3IYeMF {
-		margin-top: var(--spacing-double);
-		h5 {
-			margin-bottom: var(--spacing);
+		.username-1fQw19 {
+			font-size: var(--font-size-md);
 		}
-		.children-rWhLdy {
-			.flexChild-faoVW3 {
-				margin: 0;
-				> div {
-					display: flex;
-					align-items: center;
-					.colorStandard-2KCXvj {
-						margin: 0;
-						flex-grow:1;
-					}
-				}
-				+ .flex-1xMQg5 {
-					display: none;
-				}
-				&:only-child > div {
-					flex-direction: column;
-					align-items: flex-start;
-					button {
-						margin: var(--spacing) var(--spacing) 0 0;
-					}
-				}
-			}
-			.lookLink-9FtZy-.colorPrimary-3b3xI6 {
-				margin-left: var(--spacing);
-			}
+		.profileBadge-2niAfJ {
+			width: 20px;
+			height: 20px;
 		}
-	}
-	.userInfoEditing-1CEzdT {
-		margin-bottom: 0;
-		box-shadow:none;
-		h5 {
-			font-size:var(--font-size) !important;
-			margin-bottom:var(--spacing-half) !important;
-			font-weight:var(--font-weight-normal) !important;
-		}
-		.required-7sPBq3 {
-			margin-left:var(--spacing-third);
-			color:rgb(var(--status-red));
-			padding:0;
-		}
-		.questionMark-CWEQZn {
-			width:var(--input-height);
-			height:var(--input-height);
-			margin-left:var(--spacing);
-			margin-right:0;
-			color: var(--white);
-			background-color: rgb(var(--accent));
-			border-radius:var(--button-border-radius);
-			svg {
-				cursor: var(--cursor);
-				path {
-					d:path($path_help);
-					transform-origin:center;
-					transform:translate(-3px) scale(.9);
-				}
-			}
-			&:hover {
-				box-shadow: inset 0 0 0 100vmax rgba(255,255,255,0.1);
-			}
-			&:focus {
-				box-shadow: 0 0 0 2px rgba(var(--accent), 0.25), inset 0 0 0 100vmax rgba(255,255,255,0.1);
-			}
-		}
-		.justifyEnd-2E6vba {
-			margin-top:var(--spacing-double);
-			.flex-1xMQg5,
-			.flexChild-faoVW3 {
-				margin:0;
-				&:first-child {
-					button {
-						margin-right:var(--spacing);
-					}
-				}
-			}
-		}
-		.avatarColumn-VWwg1S {
-			margin:0;
-			+.flexChild-faoVW3 {
-				display:flex;
-				flex-wrap:wrap;
-				.marginBottom20-32qID7 {
-					width:100%;
-					+div:not(.marginTop20-3TxNs6):not(.marginBottom20-32qID7) {
-						flex-grow:1;
-					}
-				}
-				.marginTop20-3TxNs6 {
-					margin-top:0;
-					margin-left:var(--spacing);
-					display:flex;
-					align-items:flex-end;
-				}
-			}
+		.fieldList-21DyL8 {
+			margin-top: 0;
+			padding: var(--spacing-double);
+			border-top: 1px solid var(--base-border);
+			border-radius: 0;
+			background: transparent;
 		}
 	}
 

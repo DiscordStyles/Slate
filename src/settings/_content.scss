@@ -2,13 +2,12 @@
 #app-mount .layer-3QrUeG[aria-label*="RTC"] .contentRegion-3nDuYy {
 	flex: unset;
 	flex-grow: 1;
-	border-left: 1px solid var(--base-border);
 	background: transparent;
 	position:static;
 
 	// Header
 	&::before {
-		content: "Options";
+		content: var(--i18n-settings-header);
 		display: flex;
 		align-items: center;
 		border-bottom: 1px solid var(--base-border);
@@ -112,7 +111,7 @@
 				&:hover {
 					background:var(--text-normal);
 				}
-			} 
+			}
 			&::after {
 				content:'';
 				position:fixed;
@@ -247,9 +246,6 @@
 		}
 	}
 }
-
-@import "usersettings";
-@import "guildsettings";
 
 // Light Mode
 

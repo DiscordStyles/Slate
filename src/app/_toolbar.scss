@@ -64,7 +64,7 @@ body #app-mount .container-1r6BKw {
       flex: 1;
       &:before {
         display: block;
-        content: "Current Channel";
+        content: var(--i18n-current-channel);
         font-size: var(--font-size-sm);
         font-weight: var(--font-weight-normal);
         color: var(--toolbar-text-muted);
@@ -283,7 +283,7 @@ body #app-mount .container-1r6BKw {
           .public-DraftEditor-content {
             padding:0;
             display:flex;
-            align-items:center;   
+            align-items:center;
           }
         }
       }
@@ -350,7 +350,7 @@ html.platform-win[lang="en-US"] {
         line-height:normal;
       }
       &[aria-label="Inbox"] {
-        left:38px; 
+        left:38px;
         width:50px;
         &::after {
           content:'Inbox';
