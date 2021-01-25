@@ -1,6 +1,6 @@
 @import url("https://discord-custom-covers.github.io/usrbg/dist/usrbg.css");
 :root {
-  --slate-version: "1.5.4";
+  --slate-version: "1.5.5";
   --slate-palette: "Primer";
   --border-radius: 3px;
   --button-border-radius: 2px;
@@ -7515,15 +7515,49 @@ z #app-mount .layer-v9HyYc[style*=left][style*=top] .container-3ayLPN.elevationB
   box-shadow: var(--elevation-1);
   margin-left: calc((var(--spacing-double) + var(--avatar-size-sm)) * -1 + var(--spacing));
   bottom: calc(100% + var(--spacing-double));
-  overflow: visible;
 }
 #app-mount .autocomplete-1vrmpx .wrapper-3t9DeA {
   height: var(--avatar-size-xsm) !important;
   width: var(--avatar-size-xsm) !important;
 }
+#app-mount .autocomplete-1vrmpx .wrapper-uf3cnO {
+  padding-bottom: 0;
+  margin-bottom: 0;
+  width: 38px;
+  border-right: 1px solid var(--base-border);
+}
+#app-mount .autocomplete-1vrmpx .wrapper-uf3cnO .wrapper-2siovq {
+  width: 38px !important;
+  height: 38px !important;
+  padding: 0 !important;
+  border-radius: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#app-mount .autocomplete-1vrmpx .wrapper-uf3cnO .wrapper-2siovq.selected-3xBBKs {
+  background: rgba(var(--accent), 1);
+}
+#app-mount .autocomplete-1vrmpx .wrapper-2Gsate {
+  background: var(--background-dark);
+}
+#app-mount .autocomplete-1vrmpx .listItems-1uJgMC {
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  bottom: 0 !important;
+}
+#app-mount .autocomplete-1vrmpx .categorySection-231RiR {
+  height: 100%;
+}
+#app-mount .autocomplete-1vrmpx .bar-AokMp3 {
+  padding: 0 var(--spacing);
+  height: auto;
+  margin-bottom: 0;
+  background: var(--background);
+}
 #app-mount .autocomplete-1vrmpx .base-1pYU8j {
   border-radius: 0;
-  height: var(--item-height);
   align-items: center;
   display: flex;
   padding: 0 var(--spacing);
@@ -7549,6 +7583,15 @@ z #app-mount .layer-v9HyYc[style*=left][style*=top] .container-3ayLPN.elevationB
   -webkit-user-select: none;
           user-select: none;
   margin-left: var(--spacing-half);
+}
+#app-mount .autocomplete-1vrmpx .wrapper-2IKwZK {
+  width: 100%;
+  justify-content: space-between;
+}
+#app-mount .autocomplete-1vrmpx .infoWrapper-3ekLP_ {
+  display: grid;
+  grid-template-columns: 0.4fr 2fr;
+  grid-gap: var(--spacing);
 }
 #app-mount .autocomplete-1vrmpx .autocompleteInner-zh20B_ {
   padding-bottom: 0;
@@ -7734,25 +7777,30 @@ z #app-mount .layer-v9HyYc[style*=left][style*=top] .container-3ayLPN.elevationB
 #app-mount #gif-picker-tab-panel .header-1TOWci {
   padding-left: 80px;
 }
-#app-mount .nav-7UD0KD + .wrapper-1rqM3x .header-1TOWci, #app-mount .nav-7UD0KD + .wrapper-1rqM3x .header-8ilj5e {
+#app-mount .nav-7UD0KD + .wrapper-1rqM3x .header-1TOWci,
+#app-mount .nav-7UD0KD + .wrapper-1rqM3x .header-8ilj5e {
   padding-left: 80px;
 }
-#app-mount .header-1TOWci, #app-mount .header-8ilj5e {
+#app-mount .header-1TOWci,
+#app-mount .header-8ilj5e {
   padding: var(--spacing);
   box-shadow: none;
   border-bottom: 1px solid var(--base-border);
   grid-template-columns: auto 20px;
   grid-gap: var(--spacing);
 }
-#app-mount .container-2XeR5Z, #app-mount .container-cMG81i {
+#app-mount .container-2XeR5Z,
+#app-mount .container-cMG81i {
   background: transparent;
   border-radius: 0;
   overflow: visible;
 }
-#app-mount .inner-2P4tQO, #app-mount .inner-3ErfOT {
+#app-mount .inner-2P4tQO,
+#app-mount .inner-3ErfOT {
   padding: 0;
 }
-#app-mount .input-1Rv96N, #app-mount .input-3Xdcic {
+#app-mount .input-1Rv96N,
+#app-mount .input-3Xdcic {
   box-sizing: border-box;
   height: var(--input-height);
   background-color: var(--background-dark);
@@ -7765,7 +7813,8 @@ z #app-mount .layer-v9HyYc[style*=left][style*=top] .container-3ayLPN.elevationB
   margin: 0;
   z-index: 1;
 }
-#app-mount .input-1Rv96N:focus, #app-mount .input-3Xdcic:focus {
+#app-mount .input-1Rv96N:focus,
+#app-mount .input-3Xdcic:focus {
   border: 1px solid var(--accent-solid);
   box-shadow: 0 0 0 2px rgba(var(--accent), 0.25);
 }
@@ -7910,20 +7959,20 @@ z #app-mount .layer-v9HyYc[style*=left][style*=top] .container-3ayLPN.elevationB
 #app-mount .unicodeShortcut-15J8Ck:hover svg {
   color: var(--text-normal);
 }
-#app-mount .container-2jxBbw, #app-mount .results-3i9FaE {
-  height: 398px;
-}
-#app-mount .listItems-1uJgMC {
+#app-mount #emoji-picker-tab-panel .listItems-1uJgMC {
   margin-left: -8px;
   margin-top: -8px;
   width: 100%;
+}
+#app-mount .container-2jxBbw,
+#app-mount .results-3i9FaE {
+  height: 398px;
 }
 #app-mount .wrapper-1-Fsb8 {
   background: var(--background);
   padding: 0 var(--spacing);
   border-bottom: 1px solid var(--base-border);
   border-top: 1px solid var(--base-border);
-  margin-bottom: var(--spacing);
   background: var(--background-light);
   cursor: var(--cursor);
   height: var(--item-height);
