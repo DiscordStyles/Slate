@@ -7966,6 +7966,9 @@ z #app-mount .layer-v9HyYc[style*=left][style*=top] .container-3ayLPN.elevationB
   margin-top: -8px;
   width: 100%;
 }
+#app-mount #emoji-picker-tab-panel .wrapper-1-Fsb8 {
+  margin-bottom: var(--spacing);
+}
 #app-mount .container-2jxBbw,
 #app-mount .results-3i9FaE {
   height: 398px;

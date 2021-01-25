@@ -236,10 +236,15 @@
   }
 
   // Emote list (right side)
-  #emoji-picker-tab-panel .listItems-1uJgMC {
-    margin-left: -8px;
-    margin-top: -8px;
-    width: 100%;
+  #emoji-picker-tab-panel {
+    .listItems-1uJgMC {
+      margin-left: -8px;
+      margin-top: -8px;
+      width: 100%;
+    }
+    .wrapper-1-Fsb8 {
+      margin-bottom: var(--spacing);
+    }
   }
   .container-2jxBbw,
   .results-3i9FaE {
