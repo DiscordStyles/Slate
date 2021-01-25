@@ -5,6 +5,7 @@
   box-shadow: var(--elevation-1);
   margin-left: calc((var(--spacing-double) + var(--avatar-size-sm)) * -1 + var(--spacing));
   bottom: calc(100% + var(--spacing-double));
+  max-height: 272px;
   .wrapper-3t9DeA {
     height: var(--avatar-size-xsm) !important;
     width: var(--avatar-size-xsm) !important;
@@ -53,6 +54,7 @@
   .base-1pYU8j {
     border-radius: 0;
     align-items: center;
+    height: var(--item-height);
     display: flex;
     padding: 0 var(--spacing);
     .contentTitle-2tG_sM {
