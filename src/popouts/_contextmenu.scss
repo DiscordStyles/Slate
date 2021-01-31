@@ -37,11 +37,22 @@
       border-radius: 0;
       height: 32px;
       cursor: var(--cursor);
+
+      .checkbox-3s5GYZ {
+        color: rgba(var(--accent), 1);
+      }
+
       .labelContainer-1BLJti {
         padding:0 var(--spacing);
       }
       &.focused-3afm-j {
         background: var(--background-modifier-hover);
+        .checkbox-3s5GYZ {
+          color: #fff;
+        }
+        .check-1JyqgN {
+          color: rgba(var(--accent), 1);
+        }
       }
       &:active:not(.hideInteraction-1iHO1O) {
         background: var(--background-modifier-active);

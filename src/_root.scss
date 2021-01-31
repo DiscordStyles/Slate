@@ -1,5 +1,5 @@
 :root {
-  --slate-version: "1.5.6";
+  --slate-version: "1.5.7";
   --slate-palette: "Primer";
 
   // Roundness
@@ -14,7 +14,7 @@
   --bd-blue-hover: var(--accent-solid);
 
   // ASW Fallbacks
-  --noasw-padding: calc(var(--container, 0) - 4px);
+  --noasw-padding: calc(var(--toolbar-height) + (var(--server-icon-size) - var(--server-icon-size)));
   --noasw-base: var(--container, 72px);
   --noasw-channel-header: var(--container, 0px);
 

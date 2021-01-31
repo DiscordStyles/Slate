@@ -1,6 +1,6 @@
 @import url("https://discord-custom-covers.github.io/usrbg/dist/usrbg.css");
 :root {
-  --slate-version: "1.5.6";
+  --slate-version: "1.5.7";
   --slate-palette: "Primer";
   --border-radius: 3px;
   --button-border-radius: 2px;
@@ -9,7 +9,7 @@
   --accent-solid: rgba(var(--accent), 1);
   --bd-blue: var(--accent-solid);
   --bd-blue-hover: var(--accent-solid);
-  --noasw-padding: calc(var(--container, 0) - 4px);
+  --noasw-padding: calc(var(--toolbar-height) + (var(--server-icon-size) - var(--server-icon-size)));
   --noasw-base: var(--container, 72px);
   --noasw-channel-header: var(--container, 0px);
   --spacing-third: calc(var(--spacing) / 3);
@@ -1869,24 +1869,24 @@ html.platform-win[lang=en-US]:not(.app-focused) body:not(.oldTitleBarEnabled-D8p
   filter: none;
   cursor: var(--cursor);
 }
-#app-mount .sidebar-2K8pFh .header-2V-4Sw .guildIconContainer-E1JUVt {
+#app-mount .sidebar-2K8pFh .header-2V-4Sw .guildIconContainer-2FW_iA {
   margin-right: var(--spacing);
 }
-#app-mount .sidebar-2K8pFh .header-2V-4Sw .guildIconContainer-E1JUVt .disableColor-MwOAZf,
-#app-mount .sidebar-2K8pFh .header-2V-4Sw .guildIconContainer-E1JUVt .iconBackgroundTierNone-3MPhMJ,
-#app-mount .sidebar-2K8pFh .header-2V-4Sw .guildIconContainer-E1JUVt .iconBackgroundTierOne-2LhaMB,
-#app-mount .sidebar-2K8pFh .header-2V-4Sw .guildIconContainer-E1JUVt .iconBackgroundTierThree-3qw3JX,
-#app-mount .sidebar-2K8pFh .header-2V-4Sw .guildIconContainer-E1JUVt .iconBackgroundTierTwo-3bCmdc {
+#app-mount .sidebar-2K8pFh .header-2V-4Sw .guildIconContainer-2FW_iA .disableColor-MwOAZf,
+#app-mount .sidebar-2K8pFh .header-2V-4Sw .guildIconContainer-2FW_iA .iconBackgroundTierNone-3MPhMJ,
+#app-mount .sidebar-2K8pFh .header-2V-4Sw .guildIconContainer-2FW_iA .iconBackgroundTierOne-2LhaMB,
+#app-mount .sidebar-2K8pFh .header-2V-4Sw .guildIconContainer-2FW_iA .iconBackgroundTierThree-3qw3JX,
+#app-mount .sidebar-2K8pFh .header-2V-4Sw .guildIconContainer-2FW_iA .iconBackgroundTierTwo-3bCmdc {
   color: var(--toolbar-background-active);
 }
-#app-mount .sidebar-2K8pFh .header-2V-4Sw .guildIconContainer-E1JUVt .iconTierNone-3xOaeG {
+#app-mount .sidebar-2K8pFh .header-2V-4Sw .guildIconContainer-2FW_iA .iconTierNone-3xOaeG {
   color: var(--toolbar-text-muted);
 }
-#app-mount .sidebar-2K8pFh .header-2V-4Sw .guildIconContainer-E1JUVt .bannerVisible-14J9lQ .iconBackgroundTierOne-2LhaMB,
-#app-mount .sidebar-2K8pFh .header-2V-4Sw .guildIconContainer-E1JUVt .bannerVisible-14J9lQ .iconBackgroundTierThree-3qw3JX,
-#app-mount .sidebar-2K8pFh .header-2V-4Sw .guildIconContainer-E1JUVt .bannerVisible-14J9lQ .iconBackgroundTierTwo-3bCmdc,
-#app-mount .sidebar-2K8pFh .header-2V-4Sw .guildIconContainer-E1JUVt .iconTierOne-BHC2T8,
-#app-mount .sidebar-2K8pFh .header-2V-4Sw .guildIconContainer-E1JUVt .iconTierTwo-_1edeM {
+#app-mount .sidebar-2K8pFh .header-2V-4Sw .guildIconContainer-2FW_iA .bannerVisible-14J9lQ .iconBackgroundTierOne-2LhaMB,
+#app-mount .sidebar-2K8pFh .header-2V-4Sw .guildIconContainer-2FW_iA .bannerVisible-14J9lQ .iconBackgroundTierThree-3qw3JX,
+#app-mount .sidebar-2K8pFh .header-2V-4Sw .guildIconContainer-2FW_iA .bannerVisible-14J9lQ .iconBackgroundTierTwo-3bCmdc,
+#app-mount .sidebar-2K8pFh .header-2V-4Sw .guildIconContainer-2FW_iA .iconTierOne-BHC2T8,
+#app-mount .sidebar-2K8pFh .header-2V-4Sw .guildIconContainer-2FW_iA .iconTierTwo-_1edeM {
   color: var(--toolbar-text-normal);
 }
 #app-mount .sidebar-2K8pFh .header-2V-4Sw h1 {
@@ -3867,12 +3867,15 @@ html.platform-win[lang=en-US]:not(.app-focused) body:not(.oldTitleBarEnabled-D8p
 }
 #app-mount .placeholder-37qJjk {
   font-size: var(--font-size);
-  padding: 4px var(--spacing) 0;
+  padding: 0 var(--spacing);
   color: var(--text-muted);
   font-weight: var(--font-weight-normal);
   line-height: normal;
+  display: flex;
+  align-items: center;
   top: 0;
   width: 98%;
+  min-height: 24px;
 }
 #app-mount .scrollableContainer-2NUZem {
   padding: 0;
@@ -3894,6 +3897,10 @@ html.platform-win[lang=en-US]:not(.app-focused) body:not(.oldTitleBarEnabled-D8p
   box-sizing: border-box;
   height: unset;
 }
+#app-mount .inner-MADQqc:focus-within {
+  border-color: rgba(var(--accent), 1);
+  box-shadow: 0 0 0 2px rgba(var(--accent), 0.25);
+}
 #app-mount .hasReply-16cIUP .inner-MADQqc {
   border-radius: 0 0 var(--border-radius) var(--border-radius);
 }
@@ -3913,24 +3920,9 @@ html.platform-win[lang=en-US]:not(.app-focused) body:not(.oldTitleBarEnabled-D8p
   padding: 4px var(--spacing) 0;
   color: var(--text-normal);
   font-weight: var(--font-weight-normal);
-  font-weight: var(--font-weight-normal);
   line-height: normal;
   top: 0;
   width: 98%;
-}
-#app-mount .slateTextArea-1Mkdgw:focus:after {
-  content: "";
-  top: -1px;
-  left: -1px;
-  position: fixed;
-  width: calc(100% + 2px);
-  height: calc(100% + 2px);
-  background: transparent;
-  pointer-events: none;
-  box-sizing: border-box;
-  border: 1px solid var(--accent-solid);
-  box-shadow: 0 0 0 2px rgba(var(--accent), 0.25);
-  border-radius: var(--border-radius);
 }
 #app-mount .buttons-3JBrkn {
   height: auto;
@@ -7451,6 +7443,10 @@ z #app-mount .layer-v9HyYc[style*=left][style*=top] .container-3ayLPN.elevationB
   height: 32px;
   cursor: var(--cursor);
 }
+#app-mount .styleFlexible-wGDiIL .item-1tOPte .checkbox-3s5GYZ,
+#app-mount .submenu-2-ysNh .item-1tOPte .checkbox-3s5GYZ {
+  color: rgba(var(--accent), 1);
+}
 #app-mount .styleFlexible-wGDiIL .item-1tOPte .labelContainer-1BLJti,
 #app-mount .submenu-2-ysNh .item-1tOPte .labelContainer-1BLJti {
   padding: 0 var(--spacing);
@@ -7458,6 +7454,14 @@ z #app-mount .layer-v9HyYc[style*=left][style*=top] .container-3ayLPN.elevationB
 #app-mount .styleFlexible-wGDiIL .item-1tOPte.focused-3afm-j,
 #app-mount .submenu-2-ysNh .item-1tOPte.focused-3afm-j {
   background: var(--background-modifier-hover);
+}
+#app-mount .styleFlexible-wGDiIL .item-1tOPte.focused-3afm-j .checkbox-3s5GYZ,
+#app-mount .submenu-2-ysNh .item-1tOPte.focused-3afm-j .checkbox-3s5GYZ {
+  color: #fff;
+}
+#app-mount .styleFlexible-wGDiIL .item-1tOPte.focused-3afm-j .check-1JyqgN,
+#app-mount .submenu-2-ysNh .item-1tOPte.focused-3afm-j .check-1JyqgN {
+  color: rgba(var(--accent), 1);
 }
 #app-mount .styleFlexible-wGDiIL .item-1tOPte:active:not(.hideInteraction-1iHO1O),
 #app-mount .submenu-2-ysNh .item-1tOPte:active:not(.hideInteraction-1iHO1O) {
@@ -7707,6 +7711,20 @@ z #app-mount .layer-v9HyYc[style*=left][style*=top] .container-3ayLPN.elevationB
   font-size: inherit;
   font-weight: inherit;
   line-height: normal;
+}
+#app-mount .autocomplete-1vrmpx .autocompleteRowContentSecondary-1tgI-F {
+  line-height: var(--line-height);
+  border-radius: var(--border-radius);
+  padding: var(--spacing-third) var(--spacing-half);
+  color: var(--text-normal);
+  background: var(--background-modifier-active);
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-normal);
+  flex-grow: 0;
+  display: inline-flex;
+  -webkit-user-select: none;
+          user-select: none;
+  margin-left: var(--spacing);
 }
 
 #app-mount .channelTextAreaUpload-3t7EIx .autocomplete-1vrmpx {
@@ -14665,7 +14683,7 @@ html.theme-light #app-mount .cancelButton-10XRsm:focus {
 }
 
 .disabled-2HSEFa {
-  --cursor:not-allowed;
+  --cursor: not-allowed;
 }
 
 #app-mount .container-1nZlH6 {

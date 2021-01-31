@@ -81,12 +81,15 @@
   }
   .placeholder-37qJjk {
     font-size: var(--font-size);
-    padding: 4px var(--spacing) 0;
+    padding: 0 var(--spacing);
     color: var(--text-muted);
     font-weight: var(--font-weight-normal);
-    line-height:normal;
+    line-height: normal;
+    display: flex;
+    align-items: center;
     top: 0;
     width: 98%;
+    min-height: 24px;
   }
   .scrollableContainer-2NUZem {
     padding: 0;
@@ -107,6 +110,10 @@
     transform: translateZ(0);
     box-sizing:border-box;
     height:unset;
+    &:focus-within {
+      border-color: rgba(var(--accent), 1);
+      box-shadow: 0 0 0 2px rgba(var(--accent), 0.25);
+    }
   }
   .hasReply-16cIUP .inner-MADQqc {
     border-radius: 0 0 var(--border-radius) var(--border-radius);
@@ -127,24 +134,9 @@
     padding: 4px var(--spacing) 0;
     color: var(--text-normal);
     font-weight: var(--font-weight-normal);
-    font-weight:var(--font-weight-normal);
-    line-height:normal;
-    top:0;
+    line-height: normal;
+    top: 0;
     width: 98%;
-    &:focus:after {
-      content: '';
-      top: -1px;
-      left: -1px;
-      position: fixed;
-      width: calc(100% + 2px);
-      height: calc(100% + 2px);
-      background: transparent;
-      pointer-events: none;
-      box-sizing: border-box;
-      border: 1px solid var(--accent-solid);
-      box-shadow: 0 0 0 2px rgba(var(--accent), 0.25);
-      border-radius: var(--border-radius);
-    }
   }
   .buttons-3JBrkn {
     height: auto;

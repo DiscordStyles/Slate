@@ -1,49 +1,49 @@
 #app-mount {
   // Remove Checkbox Styling
-	  .container-3auIfb,
-	  .checkboxWrapper-SkhIWG {
-		width: auto;
-		border-radius: 0;
-		background: transparent !important;
-		display: flex;
-		align-items: center;
-		box-shadow: none;
-		-webkit-box-shadow: none;
-		cursor:var(--cursor);
-		.slider-TkfMQL {
-			display:none;
-		}
-		.input-rwLH4i,
-		.input-3ITkQf {
-			margin:0;
-			opacity: 1;
-			height: 14px !important;
-			width: 14px !important;
-			position: relative;
-			cursor: var(--cursor);
-			appearance:checkbox;
-		}
-	}
-	.checkboxWrapper-SkhIWG {
-		width:auto;
-		.labelForward-1wfipV {
-			padding-left:var(--spacing-half);
-			cursor:var(--cursor);
-			.size14-e6ZScH {
-				font-size:var(--font-size);
-			}
-		}
-	}
-	.checkbox-1ix_J3 {
-		display:none;
-	}
+  .container-3auIfb,
+  .checkboxWrapper-SkhIWG {
+    width: auto;
+    border-radius: 0;
+    background: transparent !important;
+    display: flex;
+    align-items: center;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    cursor: var(--cursor);
+    .slider-TkfMQL {
+      display: none;
+    }
+    .input-rwLH4i,
+    .input-3ITkQf {
+      margin: 0;
+      opacity: 1;
+      height: 14px !important;
+      width: 14px !important;
+      position: relative;
+      cursor: var(--cursor);
+      appearance: checkbox;
+    }
+  }
+  .checkboxWrapper-SkhIWG {
+    width: auto;
+    .labelForward-1wfipV {
+      padding-left: var(--spacing-half);
+      cursor: var(--cursor);
+      .size14-e6ZScH {
+        font-size: var(--font-size);
+      }
+    }
+  }
+  .checkbox-1ix_J3 {
+    display: none;
+  }
 
-	// Secondary Checkbox Elements
-	.checkbox-3kaeSU .checkboxInner-3yjcPe .checkboxElement-1qV33p:checked + span {
-		background-color: var(--accent-solid);
-		border-color: var(--accent-solid);
-	}
+  // Secondary Checkbox Elements
+  .checkbox-3kaeSU .checkboxInner-3yjcPe .checkboxElement-1qV33p:checked + span {
+    background-color: var(--accent-solid);
+    border-color: var(--accent-solid);
+  }
 }
 .disabled-2HSEFa {
-	--cursor:not-allowed;
+  --cursor: not-allowed;
 }

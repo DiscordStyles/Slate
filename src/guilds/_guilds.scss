@@ -1,7 +1,7 @@
 #app-mount .guilds-1SWlCJ {
   border-right: 1px solid var(--base-border);
   box-sizing: border-box;
-  background:transparent;
+  background: transparent;
   .scroller-2TZvBN {
     background: var(--guilds-background);
     contain: none;
@@ -12,23 +12,23 @@
   .listItemWrapper-3X98Pc:active,
   .circleButtonMask-2VNJsN:active,
   .blobContainer-239gwq:active {
-    transform:none;
+    transform: none;
   }
   // Home button
   .tutorialContainer-1v44GL .childWrapper-anI2G9 {
     background: transparent !important;
   }
   .tutorialContainer-1v44GL {
-    [class*=pill] {
+    [class*="pill"] {
       display: none;
     }
     .wrapper-25eVIn {
       display: flex;
       align-items: center;
       height: var(--toolbar-height);
-      background:transparent !important;
+      background: transparent !important;
       .wrapper-1BJsBx {
-        background:transparent !important;
+        background: transparent !important;
       }
     }
     .listItem-2P_4kh {
@@ -41,37 +41,37 @@
       transform: translateX(-50%);
     }
     .lowerBadge-29hYVK {
-      margin-bottom:28px;
-      margin-right:5px;
+      margin-bottom: 28px;
+      margin-right: 5px;
       .numberBadge-2s8kKX {
-        box-shadow:0 0 0 3px var(--guilds-background);
+        box-shadow: 0 0 0 3px var(--guilds-background);
       }
     }
     .upperBadge-2XnnGB {
-      top:5px;
-      right:0px;
-      transform:none !important;  
+      top: 5px;
+      right: 0px;
+      transform: none !important;
       .downloadProgress-3lBtPV {
-        top:0;
-        left:0;
-        width:18px;
-        height:18px;
+        top: 0;
+        left: 0;
+        width: 18px;
+        height: 18px;
         .circleBackgroundAlt-Eohdst {
-            fill:var(--background);
+          fill: var(--background);
         }
         .circleBackground-OqqxHM {
-          fill:var(--background-light);
-          stroke:var(--base-border);
+          fill: var(--background-light);
+          stroke: var(--base-border);
         }
         .circleProgress-1EBmVn {
-          stroke:var(--accent-solid);
+          stroke: var(--accent-solid);
         }
         .downloadIcon-3TWA3B {
-          padding:var(--spacing-half);
-          color:var(--text-normal);
+          padding: var(--spacing-half);
+          color: var(--text-normal);
           path {
-            d:path($path_download);
-            transform:scale(1.5);
+            d: path($path_download);
+            transform: scale(1.5);
           }
         }
       }
@@ -99,21 +99,21 @@
     border-radius: var(--server-radius);
     font-size: 1em;
     font-weight: var(--font-weight-normal);
-    overflow:hidden;
+    overflow: hidden;
     cursor: var(--cursor);
   }
   .wrapper-1BJsBx,
   .wrapper-25eVIn {
     cursor: var(--cursor);
-    border-radius: var(--server-radius);  
-    overflow:hidden;
-    background:var(--background-light);
-    transition:150ms ease;
+    border-radius: var(--server-radius);
+    overflow: hidden;
+    background: var(--background-light);
+    transition: 150ms ease;
     &.selected-bZ3Lue {
-      background:var(--accent-solid);
+      background: var(--accent-solid);
       .icon-27yU2q[src*="/assets/"] {
-        background:var(--white);
-        transition:150ms ease;
+        background: var(--white);
+        transition: 150ms ease;
       }
     }
   }
@@ -127,8 +127,8 @@
     cursor: var(--cursor);
     border-radius: var(--server-radius);
     path[d="M21 11.001H13V3.00098H11V11.001H3V13.001H11V21.001H13V13.001H21V11.001Z"] {
-      d:path($path_add);
-      transform:scale(1.25) translateX(3px) translateY(2px);
+      d: path($path_add);
+      transform: scale(1.25) translateX(3px) translateY(2px);
     }
     &.selected-ugP_am {
       background-color: var(--accent-solid) !important;
@@ -147,21 +147,21 @@
   .wrapper-25eVIn {
     overflow: visible;
     .numberBadge-2s8kKX {
-      position:relative;
-      top:3px;
-      left:3px;
+      position: relative;
+      top: 3px;
+      left: 3px;
     }
     .icon-27yU2q[src*="/assets/"] {
-      content:url($blank);
-      background:var(--text-muted);
-      mask:url($icon_person) center/40% no-repeat;
+      content: url($blank);
+      background: var(--text-muted);
+      mask: url($icon_person) center/40% no-repeat;
       &[src*="/assets/e1fb24a120bdd003a84e021b16ec3bef.png"],
       &[src*="/assets/861ab526aa1fabb04c6b7da8074e3e21.png"],
       &[src*="/assets/b8912961ea6ab32f0655d583bbc26b4f.png"],
       &[src*="/assets/485a854d5171c8dc98088041626e6fea.png"],
       &[src*="/assets/f810dc5fedb7175c43a3389aa890534f.png"],
       &[src*="/assets/b3150d5cef84b9e82128a1131684f287.png"] {
-        mask:url($icon_organization) center/42% no-repeat;
+        mask: url($icon_organization) center/42% no-repeat;
       }
     }
   }
@@ -173,7 +173,7 @@
     border-radius: var(--server-radius);
   }
   .wrapper-sa6paO {
-    height:100%;
+    height: 100%;
   }
   [class*="pill"] span {
     border-radius: 0;
@@ -191,15 +191,15 @@
     left: calc(var(--icon) * -1);
     width: var(--icon);
     height: var(--icon);
-    background: rgba(0,0,0,0.6) !important;
+    background: rgba(0, 0, 0, 0.6) !important;
     border-radius: 0;
     .icon-3s6X1M {
       width: 18px;
       color: var(--white);
       path {
         &[d="M21.526 8.149C21.231 7.966 20.862 7.951 20.553 8.105L18 9.382V7C18 5.897 17.103 5 16 5H4C2.897 5 2 5.897 2 7V17C2 18.104 2.897 19 4 19H16C17.103 19 18 18.104 18 17V14.618L20.553 15.894C20.694 15.965 20.847 16 21 16C21.183 16 21.365 15.949 21.526 15.851C21.82 15.668 22 15.347 22 15V9C22 8.653 21.82 8.332 21.526 8.149Z"] {
-          d:path($path_video);
-          transform:scale(1.45) translateY(1px);
+          d: path($path_video);
+          transform: scale(1.45) translateY(1px);
         }
       }
     }
@@ -208,47 +208,47 @@
   // Mention Indicators
   .unreadMentionsIndicatorBottom-BXS58x,
   .unreadMentionsIndicatorTop-gA6RCh {
-    padding:0;
+    padding: 0;
     .active-1SSsBb:active {
-      top:0;
+      top: 0;
     }
     .bar-30k2ka {
-      width:var(--container);
-      border-radius:0;
-      text-transform:capitalize;
-      font-size:var(--font-size);
-      font-weight:var(--font-weight-normal);
-      background:rgb(var(--status-red));
-      color:var(--white);
+      width: var(--container);
+      border-radius: 0;
+      text-transform: capitalize;
+      font-size: var(--font-size);
+      font-weight: var(--font-weight-normal);
+      background: rgb(var(--status-red));
+      color: var(--white);
       cursor: var(--cursor);
-      opacity:0;
+      opacity: 0;
       &[style*="translateY(0%)"] {
-        opacity:.9;
+        opacity: 0.9;
         &:hover {
-          opacity:1;
+          opacity: 1;
         }
       }
     }
   }
   .unreadMentionsIndicatorBottom-BXS58x {
-    height:auto;
-    width:auto;
+    height: auto;
+    width: auto;
   }
   .unreadMentionsIndicatorTop-gA6RCh {
-    top:var(--toolbar-height);
+    top: var(--toolbar-height);
   }
 
   // Draggable Icon State
 
   .dragInner-_SHftW {
-    background:var(--background);
-    border-radius:var(--border-radius);
-    border:1px dashed var(--base-border);
-    box-sizing:border-box;
+    background: var(--background);
+    border-radius: var(--border-radius);
+    border: 1px dashed var(--base-border);
+    box-sizing: border-box;
   }
 
   .folder-21wGz3.hover-2ji_A7 {
-    background:transparent;
+    background: transparent;
   }
 }
 
@@ -258,7 +258,7 @@
     .circleIconButton-jET_ig,
     .wrapper-1BJsBx,
     .wrapper-25eVIn {
-      background:var(--background-dark);
+      background: var(--background-dark);
     }
     .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9 {
       color: var(--white);

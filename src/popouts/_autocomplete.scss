@@ -198,6 +198,21 @@
       line-height: normal;
     }
   }
+
+  // Emoji server name
+  .autocompleteRowContentSecondary-1tgI-F {
+    line-height: var(--line-height);
+    border-radius: var(--border-radius);
+    padding: var(--spacing-third) var(--spacing-half);
+    color: var(--text-normal);
+    background: var(--background-modifier-active);
+    font-size: var(--font-size-sm);
+    font-weight: var(--font-weight-normal);
+    flex-grow: 0;
+    display: inline-flex;
+    user-select: none;
+    margin-left: var(--spacing);
+  }
 }
 
 #app-mount .channelTextAreaUpload-3t7EIx .autocomplete-1vrmpx {
