@@ -1,0 +1,50 @@
+#app-mount .everyonePopout-nEbJY3 {
+  background: var(--background);
+  box-shadow: var(--elevation-2);
+  border-radius: var(--border-radius);
+  position: fixed;
+  bottom: 0;
+  border: 1px solid var(--base-border);
+  flex-direction: column-reverse;
+  overflow: hidden;
+  min-height: unset;
+
+  .size14-e6ZScH {
+    font-size: var(--font-size);
+  }
+
+  .body-2iXqIL {
+    padding: var(--spacing-double);
+  }
+  .animation-3GofIz {
+    -webkit-mask: url($illustration_1) center/cover;
+    background: var(--text-normal);
+    width: 120px;
+    min-width: 120px;
+    max-width: 120px;
+    svg {
+      display: none;
+    }
+  }
+  .header-3_S6dz {
+    font-weight: var(--font-weight-bold);
+    font-size: var(--font-size-md);
+  }
+  .buttonContainer-1BodPZ button {
+    margin: 0;
+  }
+
+  .footer-2aTx0s {
+    background: var(--background-alt);
+    border-bottom: 1px solid var(--base-border);
+    padding: var(--spacing);
+  }
+  .icon-2qOzDL {
+    -webkit-mask: url($icon_alert) center/cover;
+    background: var(--text-normal);
+    margin-right: var(--spacing);
+    g {
+      display: none;
+    }
+  }
+}
