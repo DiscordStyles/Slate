@@ -13,7 +13,7 @@
     &:before {
       content: none;
     }
-    [aria-controls] {
+    & > div, [aria-controls] {
       width: 100%;
     }
     .buttonContainer-3AU1Ij {
