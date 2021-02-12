@@ -13,7 +13,7 @@
     &:before {
       content: none;
     }
-    & > div, [aria-controls] {
+    & > div:not(.typing-2GQL18), [aria-controls] {
       width: 100%;
     }
     .buttonContainer-3AU1Ij {

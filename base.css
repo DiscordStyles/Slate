@@ -3714,7 +3714,7 @@ html.platform-win[lang=en-US]:not(.app-focused) body:not(.oldTitleBarEnabled-D8p
 #app-mount .form-2fGMdU:before {
   content: none;
 }
-#app-mount .form-2fGMdU > div, #app-mount .form-2fGMdU [aria-controls] {
+#app-mount .form-2fGMdU > div:not(.typing-2GQL18), #app-mount .form-2fGMdU [aria-controls] {
   width: 100%;
 }
 #app-mount .form-2fGMdU .buttonContainer-3AU1Ij {
