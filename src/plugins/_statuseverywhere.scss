@@ -3,4 +3,9 @@
 #app-mount .cozy-3raOZG .wrapper-3t9DeA.avatar-1BDn8e {
   box-shadow: none !important;
   overflow: visible !important;
+
+  .pointerEvents-2zdfdO {
+    y: calc(var(--avatar-size) + 4px);
+    x: calc(var(--avatar-size) + 4px);
+  }
 }
