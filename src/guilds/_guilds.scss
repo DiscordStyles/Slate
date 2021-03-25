@@ -15,10 +15,12 @@
     transform: none;
   }
   // Home button
+  .tutorialContainer-1v44GL .childWrapper-anI2G9,
   .tutorialContainer-1v44GL .childWrapper-anI2G9 {
     background: transparent !important;
   }
-  .tutorialContainer-1v44GL {
+  .tutorialContainer-1v44GL,
+  .tutorialContainer-2sGCg9 {
     [class*="pill"] {
       display: none;
     }
@@ -31,7 +33,8 @@
         background: transparent !important;
       }
     }
-    .listItem-2P_4kh {
+    .listItem-2P_4kh,
+    .listItem-GuPuDH {
       margin-bottom: 0;
     }
     .svg-1X37T1 {
@@ -77,7 +80,8 @@
       }
     }
   }
-  .homeIcon-tEMBK1 {
+  .homeIcon-tEMBK1,
+  .homeIcon-FuNwkv {
     mask: url($icon_home) center/65% no-repeat;
     background: var(--text-normal);
     width: 100%;
@@ -87,10 +91,12 @@
       display: none;
     }
   }
-  .selected-bZ3Lue .homeIcon-tEMBK1 {
+  .selected-bZ3Lue .homeIcon-tEMBK1,
+  .selected-bZ3Lue .homeIcon-FuNwkv {
     background: var(--text-focus);
   }
-  .guildSeparator-3s64Iy {
+  .guildSeparator-3s64Iy,
+  .guildSeparator-33mFX6 {
     background: var(--base-border);
     height: 1px;
   }
@@ -121,7 +127,8 @@
     background: var(--accent-solid);
     color: var(--text-focus);
   }
-  .circleIconButton-jET_ig {
+  .circleIconButton-jET_ig,
+  .circleIconButton-1QV--U {
     background: var(--background-light);
     color: var(--text-normal);
     cursor: var(--cursor);
@@ -130,7 +137,8 @@
       d: path($path_add);
       transform: scale(1.25) translateX(3px) translateY(2px);
     }
-    &.selected-ugP_am {
+    &.selected-ugP_am,
+    &.selected-1JjBPm {
       background-color: var(--accent-solid) !important;
       color: #fff;
     }
@@ -138,9 +146,11 @@
   foreignObject {
     mask: none;
   }
-  .expandedFolderBackground-2sPsd- {
+  .expandedFolderBackground-2sPsd-,
+  .expandedFolderBackground-1cujaW {
     background: var(--background-light);
-    &.collapsed-1GMuSb {
+    &.collapsed-1GMuSb,
+    &.collapsed-2ZrjoL {
       background: transparent;
     }
   }
@@ -169,7 +179,12 @@
   .folderIconWrapper-226oVY,
   .guildIcon-GuAC7C,
   .guildIconUnavailable-5PMHDN,
-  .guildsError-b7zR5HX {
+  .guildsError-b7zR5HX,
+  .expandedFolderBackground-1cujaW,
+  .folderIconWrapper-1_bOZe,
+  .guildIcon-2Tpnad,
+  .guildIconUnavailable-3IYARS,
+  .guildsError-g6NwOI {
     border-radius: var(--server-radius);
   }
   .wrapper-sa6paO {
@@ -185,7 +200,9 @@
   // Badges
 
   .iconBadge-2wi9r4,
-  .unavailableBadge-3k7iq_ {
+  .unavailableBadge-3k7iq_,
+  .iconBadge-3qSJIw,
+  .unavailableBadge-20E5O2 {
     position: absolute;
     top: 0;
     left: calc(var(--icon) * -1);
@@ -193,7 +210,7 @@
     height: var(--icon);
     background: rgba(0, 0, 0, 0.6) !important;
     border-radius: 0;
-    .icon-3s6X1M {
+    svg {
       width: 18px;
       color: var(--white);
       path {
@@ -207,7 +224,9 @@
 
   // Mention Indicators
   .unreadMentionsIndicatorBottom-BXS58x,
-  .unreadMentionsIndicatorTop-gA6RCh {
+  .unreadMentionsIndicatorBottom-2mDYbI,
+  .unreadMentionsIndicatorTop-gA6RCh,
+  .unreadMentionsIndicatorTop-2-tcdU {
     padding: 0;
     .active-1SSsBb:active {
       top: 0;
@@ -230,24 +249,28 @@
       }
     }
   }
-  .unreadMentionsIndicatorBottom-BXS58x {
+  .unreadMentionsIndicatorBottom-BXS58x,
+  .unreadMentionsIndicatorBottom-2mDYbI {
     height: auto;
     width: auto;
   }
-  .unreadMentionsIndicatorTop-gA6RCh {
+  .unreadMentionsIndicatorTop-gA6RCh,
+  .unreadMentionsIndicatorTop-2-tcdU {
     top: var(--toolbar-height);
   }
 
   // Draggable Icon State
 
-  .dragInner-_SHftW {
+  .dragInner-_SHftW,
+  .dragInner-Oq_toX {
     background: var(--background);
     border-radius: var(--border-radius);
     border: 1px dashed var(--base-border);
     box-sizing: border-box;
   }
 
-  .folder-21wGz3.hover-2ji_A7 {
+  .folder-21wGz3.hover-2ji_A7,
+  .folder-1hbNCn.hover-qTxTR_ {
     background: transparent;
   }
 }
@@ -256,6 +279,7 @@
   #app-mount .guilds-1SWlCJ {
     .childWrapper-anI2G9,
     .circleIconButton-jET_ig,
+    .circleIconButton-1QV--U,
     .wrapper-1BJsBx,
     .wrapper-25eVIn {
       background: var(--background-dark);
