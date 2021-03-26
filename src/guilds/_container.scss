@@ -1,0 +1,35 @@
+#app-mount .guilds-1SWlCJ {
+  border-right: 1px solid var(--base-border);
+  box-sizing: border-box;
+  background: transparent;
+  .scrollerBase-289Jih {
+    background: var(--guilds-background);
+    contain: none;
+    padding-top: var(--noasw-padding);
+  }
+  .guildSeparator-33mFX6 {
+    background: var(--base-border);
+    height: 1px;
+  }
+
+  // Remove Active Animations
+  .listItemWrapper-3X98Pc:active,
+  .circleButtonMask-2VNJsN:active,
+  .blobContainer-239gwq:active {
+    transform: none;
+  }
+}
+
+.theme-light {
+  #app-mount .guilds-1SWlCJ {
+    .childWrapper-anI2G9,
+    .circleIconButton-1QV--U,
+    .wrapper-1BJsBx,
+    .wrapper-25eVIn {
+      background: var(--background-dark);
+    }
+    .wrapper-1BJsBx.selected-1JjBPm .childWrapper-anI2G9 {
+      color: var(--white);
+    }
+  }
+}
