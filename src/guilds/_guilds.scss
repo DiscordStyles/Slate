@@ -2,8 +2,7 @@
   border-right: 1px solid var(--base-border);
   box-sizing: border-box;
   background: transparent;
-  .scroller-2TZvBN,
-  .scroller-1Bvpku {
+  .scrollerBase-289Jih {
     background: var(--guilds-background);
     contain: none;
     padding-top: var(--noasw-padding);
@@ -16,11 +15,9 @@
     transform: none;
   }
   // Home button
-  .tutorialContainer-1v44GL .childWrapper-anI2G9,
   .tutorialContainer-2sGCg9 .childWrapper-anI2G9 {
     background: transparent !important;
   }
-  .tutorialContainer-1v44GL,
   .tutorialContainer-2sGCg9 {
     [class*="pill"] {
       display: none;
@@ -34,7 +31,6 @@
         background: transparent !important;
       }
     }
-    .listItem-2P_4kh,
     .listItem-GuPuDH {
       margin-bottom: 0;
     }
@@ -55,33 +51,8 @@
       top: 5px;
       right: 0px;
       transform: none !important;
-      .downloadProgress-3lBtPV {
-        top: 0;
-        left: 0;
-        width: 18px;
-        height: 18px;
-        .circleBackgroundAlt-Eohdst {
-          fill: var(--background);
-        }
-        .circleBackground-OqqxHM {
-          fill: var(--background-light);
-          stroke: var(--base-border);
-        }
-        .circleProgress-1EBmVn {
-          stroke: var(--accent-solid);
-        }
-        .downloadIcon-3TWA3B {
-          padding: var(--spacing-half);
-          color: var(--text-normal);
-          path {
-            d: path($path_download);
-            transform: scale(1.5);
-          }
-        }
-      }
     }
   }
-  .homeIcon-tEMBK1,
   .homeIcon-FuNwkv {
     mask: url($icon_home) center/65% no-repeat;
     background: var(--text-normal);
@@ -92,11 +63,9 @@
       display: none;
     }
   }
-  .selected-bZ3Lue .homeIcon-tEMBK1,
-  .selected-bZ3Lue .homeIcon-FuNwkv {
+  .selected-1JjBPm .homeIcon-FuNwkv {
     background: var(--text-focus);
   }
-  .guildSeparator-3s64Iy,
   .guildSeparator-33mFX6 {
     background: var(--base-border);
     height: 1px;
@@ -116,7 +85,7 @@
     overflow: hidden;
     background: var(--background-light);
     transition: 150ms ease;
-    &.selected-bZ3Lue {
+    &.selected-1JjBPm {
       background: var(--accent-solid);
       .icon-27yU2q[src*="/assets/"] {
         background: var(--white);
@@ -124,11 +93,10 @@
       }
     }
   }
-  .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9 {
+  .wrapper-1BJsBx.selected-1JjBPm .childWrapper-anI2G9 {
     background: var(--accent-solid);
     color: var(--text-focus);
   }
-  .circleIconButton-jET_ig,
   .circleIconButton-1QV--U {
     background: var(--background-light);
     color: var(--text-normal);
@@ -147,7 +115,6 @@
   foreignObject {
     mask: none;
   }
-  .expandedFolderBackground-2sPsd-,
   .expandedFolderBackground-1cujaW {
     background: var(--background-light);
     &.collapsed-1GMuSb,
@@ -176,9 +143,9 @@
       }
     }
   }
-  .expandedFolderBackground-2sPsd-,
-  .folderIconWrapper-226oVY,
-  .guildIcon-GuAC7C,
+  .expandedFolderBackground-1cujaW,
+  .folderIconWrapper-1_bOZe,
+  .guildIcon-2Tpnad,
   .guildIconUnavailable-5PMHDN,
   .guildsError-b7zR5HX,
   .expandedFolderBackground-1cujaW,
@@ -199,7 +166,6 @@
   }
 
   // Badges
-
   .iconBadge-2wi9r4,
   .unavailableBadge-3k7iq_,
   .iconBadge-3qSJIw,
@@ -250,19 +216,15 @@
       }
     }
   }
-  .unreadMentionsIndicatorBottom-BXS58x,
   .unreadMentionsIndicatorBottom-2mDYbI {
     height: auto;
     width: auto;
   }
-  .unreadMentionsIndicatorTop-gA6RCh,
   .unreadMentionsIndicatorTop-2-tcdU {
     top: var(--toolbar-height);
   }
 
   // Draggable Icon State
-
-  .dragInner-_SHftW,
   .dragInner-Oq_toX {
     background: var(--background);
     border-radius: var(--border-radius);
@@ -270,22 +232,24 @@
     box-sizing: border-box;
   }
 
-  .folder-21wGz3.hover-2ji_A7,
-  .folder-1hbNCn.hover-qTxTR_ {
+  .folder-1hbNCn {
     background: transparent;
+    cursor: var(--cursor);
+    &.hover-qTxTR_ {
+      background: transparent;
+    }
   }
 }
 
 .theme-light {
   #app-mount .guilds-1SWlCJ {
     .childWrapper-anI2G9,
-    .circleIconButton-jET_ig,
     .circleIconButton-1QV--U,
     .wrapper-1BJsBx,
     .wrapper-25eVIn {
       background: var(--background-dark);
     }
-    .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9 {
+    .wrapper-1BJsBx.selected-1JjBPm .childWrapper-anI2G9 {
       color: var(--white);
     }
   }
