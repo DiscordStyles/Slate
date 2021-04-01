@@ -757,6 +757,42 @@
     text-overflow: ellipsis;
     white-space: nowrap;
   }
+
+  // Text file embed
+  .container-1pMiXm {
+    border: 1px solid var(--base-border);
+    border-radius: var(--border-radius);
+    background: var(--background);
+    pre {
+      margin: 0;
+      code {
+        border: none;
+      }
+    }
+  }
+  .textContainer-C0szpm {
+    border: none;
+    background: transparent;
+  }
+  .footer-2yA7Ep {
+    border: none;
+    background: transparent;
+    height: auto;
+    padding: var(--spacing-half) var(--spacing);
+    border-top: 1px solid var(--base-border);
+    .openFullPreviewSection-DZS30W {
+      padding: 0;
+      height: 16px;
+      svg {
+        height: 16px;
+        width: 16px;
+      }
+    }
+    svg {
+      height: 18px;
+      width: 18px;
+    }
+  }
 }
 
 // Remove Powercord Codeblock Mods

@@ -3,6 +3,7 @@
   border-right: 1px solid var(--base-border);
   position: relative;
   box-sizing: border-box;
+  z-index: 2;
   &::before {
     content: "";
     top: 0;
@@ -212,5 +213,8 @@
   }
   .title-eS5yk3 {
     font-size: var(--font-size);
+  }
+  .powercord-spotify.hover .spotify-extra-controls {
+    height: 54px;
   }
 }
