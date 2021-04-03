@@ -1991,7 +1991,7 @@ html.platform-win[lang=en-US]:not(.app-focused) body:not(.oldTitleBarEnabled-D8p
 }
 #app-mount .panels-j1Uci_ .actionButtons-14eAc_ {
   position: absolute;
-  top: var(--spacing);
+  top: calc(var(--spacing) - 4px);
   left: calc(var(--spacing) + 70px);
   margin-top: 0;
   z-index: 1;
@@ -2539,7 +2539,7 @@ html.platform-win[lang=en-US]:not(.app-focused) body:not(.oldTitleBarEnabled-D8p
   width: var(--icon);
   height: var(--icon);
   background: rgba(0, 0, 0, 0.6) !important;
-  border-radius: 0;
+  border-radius: var(--server-radius);
 }
 #app-mount .iconBadge-2wi9r4 svg,
 #app-mount .unavailableBadge-3k7iq_ svg,
