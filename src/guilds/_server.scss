@@ -22,6 +22,9 @@
         transition: 150ms ease;
       }
     }
+    foreignObject {
+      mask: none;
+    }
   }
   .wrapper-1BJsBx.selected-1JjBPm .childWrapper-anI2G9,
   .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9 {
@@ -43,9 +46,6 @@
       background-color: var(--accent-solid) !important;
       color: #fff;
     }
-  }
-  foreignObject {
-    mask: none;
   }
   .wrapper-25eVIn {
     overflow: visible;

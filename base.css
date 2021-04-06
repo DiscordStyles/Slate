@@ -1,6 +1,6 @@
 @import url("https://discord-custom-covers.github.io/usrbg/dist/usrbg.css");
 :root {
-  --slate-version: "1.5.10";
+  --slate-version: "1.5.11";
   --slate-palette: "Primer";
   --border-radius: 3px;
   --button-border-radius: 2px;
@@ -160,7 +160,6 @@ body {
 }
 #app-mount .base-3dtUhz {
   border-radius: 0;
-  left: var(--noasw-base) !important;
   overflow: visible !important;
 }
 #app-mount .layers-3iHuyZ {
@@ -2416,6 +2415,11 @@ html.platform-win[lang=en-US]:not(.app-focused) body:not(.oldTitleBarEnabled-D8p
   background: var(--white);
   transition: 150ms ease;
 }
+#app-mount .wrapper-1BJsBx foreignObject,
+#app-mount .wrapper-25eVIn foreignObject {
+  -webkit-mask: none;
+          mask: none;
+}
 #app-mount .wrapper-1BJsBx.selected-1JjBPm .childWrapper-anI2G9,
 #app-mount .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9 {
   background: var(--accent-solid);
@@ -2434,10 +2438,6 @@ html.platform-win[lang=en-US]:not(.app-focused) body:not(.oldTitleBarEnabled-D8p
 #app-mount .circleIconButton-1QV--U.selected-ugP_am, #app-mount .circleIconButton-1QV--U.selected-1JjBPm, #app-mount .circleIconButton-1QV--U.selected-bZ3Lue {
   background-color: var(--accent-solid) !important;
   color: #fff;
-}
-#app-mount foreignObject {
-  -webkit-mask: none;
-          mask: none;
 }
 #app-mount .wrapper-25eVIn {
   overflow: visible;
