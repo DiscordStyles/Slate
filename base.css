@@ -15870,17 +15870,3 @@ body.styledGuildsAsChannels-DNHtg_ #app-mount .guilds-1SWlCJ .guildSeparator-3s6
     opacity: 1;
   }
 }
-.bd-addon-list::before {
-  content: "This is a developer copy of Slate and therefore will not recieve automatic updates. If you are not using this copy for active development, please visit https://discordstyles.github.io/slate-theme for a list of official downloads.";
-  font-size: var(--font-size);
-  font-weight: var(--font-weight-normal);
-  color: var(--text-normal);
-  padding: var(--spacing);
-  margin: var(--spacing-double);
-  margin-bottom: 0;
-  border-radius: var(--border-radius);
-  background-color: rgba(var(--status-yellow), 0.25);
-  border: 1px solid rgba(var(--status-yellow), 0.5);
-  line-height: normal;
-  display: block;
-}
