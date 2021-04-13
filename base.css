@@ -1,6 +1,5 @@
-@import url("https://discord-custom-covers.github.io/usrbg/dist/usrbg.css");
 :root {
-  --slate-version: "1.5.11";
+  --slate-version: "1.5.12";
   --slate-palette: "Primer";
   --border-radius: 3px;
   --button-border-radius: 2px;
@@ -1990,7 +1989,7 @@ html.platform-win[lang=en-US]:not(.app-focused) body:not(.oldTitleBarEnabled-D8p
 }
 #app-mount .panels-j1Uci_ .actionButtons-14eAc_ {
   position: absolute;
-  top: var(--spacing);
+  top: calc(var(--spacing) - 4px);
   left: calc(var(--spacing) + 70px);
   margin-top: 0;
   z-index: 1;
@@ -2539,7 +2538,7 @@ html.platform-win[lang=en-US]:not(.app-focused) body:not(.oldTitleBarEnabled-D8p
   width: var(--icon);
   height: var(--icon);
   background: rgba(0, 0, 0, 0.6) !important;
-  border-radius: 0;
+  border-radius: var(--server-radius);
 }
 #app-mount .iconBadge-2wi9r4 svg,
 #app-mount .unavailableBadge-3k7iq_ svg,
@@ -9321,6 +9320,11 @@ html.theme-light #app-mount .popout-2iWAc-.force-theme.content-1nP7fx .buttonCon
 #app-mount .layer-3QrUeG[aria-label*=RTC] [class*=scroller- i]:not([class*=bd-])::-webkit-scrollbar {
   display: none;
 }
+#app-mount .layer-3QrUeG[aria-label*=SETTINGS] .customScroller-26gWhv,
+#app-mount .layer-3QrUeG[aria-label*=RTC] .customScroller-26gWhv {
+  height: 65vh;
+  max-height: 650px;
+}
 #app-mount .layer-3QrUeG[aria-label*=SETTINGS] .standardSidebarView-3F1I7i,
 #app-mount .layer-3QrUeG[aria-label*=RTC] .standardSidebarView-3F1I7i {
   animation: modal 150ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
@@ -11001,6 +11005,19 @@ html.theme-light .connectionIcon-2ElzVe {
 }
 #app-mount .layer-3QrUeG[aria-label=GUILD_SETTINGS] .auditLog-3jNbM6 .changeDetails-bk98pu .detail-1BhUh9 .prefix-24L010.typeUpdate-2bwuHy {
   color: rgb(var(--status-yellow));
+}
+#app-mount .layer-3QrUeG[aria-label=GUILD_SETTINGS] .bannedUser-1IalTM,
+#app-mount .layer-3QrUeG[aria-label=GUILD_SETTINGS] .member-1q7VfX {
+  box-shadow: none;
+  background: var(--background-alt);
+  padding: var(--spacing);
+  margin-top: var(--spacing);
+  border: 1px solid var(--base-border);
+  border-radius: var(--border-radius);
+}
+#app-mount .layer-3QrUeG[aria-label=GUILD_SETTINGS] .bannedUser-1IalTM:before,
+#app-mount .layer-3QrUeG[aria-label=GUILD_SETTINGS] .member-1q7VfX:before {
+  content: none;
 }
 
 #app-mount .layer-3QrUeG[aria-label=CHANNEL_SETTINGS] .customContainer-1RHXqt {
@@ -15440,6 +15457,30 @@ html.theme-light #app-mount .input-1ppKdn {
   display: none;
 }
 
+#app-mount .uploadArea-3QgLtW {
+  background: var(--backdrop);
+}
+#app-mount .uploadDropModal-2kTwbc {
+  height: auto;
+  padding: var(--spacing-double) 0;
+}
+#app-mount .uploadDropModal-2kTwbc .bgScale-1otPtc {
+  background: var(--background);
+  border-radius: var(--border-radius);
+  box-shadow: var(--elevation-1);
+  border: 1px solid var(--base-border);
+}
+#app-mount .uploadDropModal-2kTwbc .inner-3nWsbo {
+  border: none;
+  border-radius: 0;
+}
+#app-mount .uploadDropModal-2kTwbc .icons-1w691d {
+  display: none;
+}
+#app-mount .uploadDropModal-2kTwbc .instructions-2Du9gG pre:before {
+  content: none;
+}
+
 html.platform-osx #app-mount .guilds-1SWlCJ {
   margin-top: 0;
 }
@@ -15828,4 +15869,18 @@ body.styledGuildsAsChannels-DNHtg_ #app-mount .guilds-1SWlCJ .guildSeparator-3s6
     transform: translate(0, 0) rotate(0);
     opacity: 1;
   }
+}
+.bd-addon-list::before {
+  content: "This is a developer copy of Slate and therefore will not recieve automatic updates. If you are not using this copy for active development, please visit https://discordstyles.github.io/slate-theme for a list of official downloads.";
+  font-size: var(--font-size);
+  font-weight: var(--font-weight-normal);
+  color: var(--text-normal);
+  padding: var(--spacing);
+  margin: var(--spacing-double);
+  margin-bottom: 0;
+  border-radius: var(--border-radius);
+  background-color: rgba(var(--status-yellow), 0.25);
+  border: 1px solid rgba(var(--status-yellow), 0.5);
+  line-height: normal;
+  display: block;
 }

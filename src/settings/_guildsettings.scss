@@ -425,4 +425,18 @@
       }
     }
   }
+
+  // Ban list
+  .bannedUser-1IalTM,
+  .member-1q7VfX {
+    box-shadow: none;
+    background: var(--background-alt);
+    padding: var(--spacing);
+    margin-top: var(--spacing);
+    border: 1px solid var(--base-border);
+    border-radius: var(--border-radius);
+    &:before {
+      content: none;
+    }
+  }
 }

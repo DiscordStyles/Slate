@@ -155,7 +155,7 @@
     width: var(--icon);
     height: var(--icon);
     background: rgba(0, 0, 0, 0.6) !important;
-    border-radius: 0;
+    border-radius: var(--server-radius);
     svg {
       width: 18px;
       color: var(--white);
