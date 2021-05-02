@@ -17,14 +17,14 @@
       }
     }
     .username-1A8OIy {
-      font-size: var(--font-size);
+      font-size: var(--chat-font-size);
       color: var(--text-normal);
       font-weight: var(--font-weight-semibold);
       line-height: normal;
       margin: 0;
     }
     .markup-2BOw-j {
-      font-size: var(--font-size);
+      font-size: var(--chat-font-size);
       margin-left: 0;
       padding-left: 0;
       line-height: var(--line-height);
@@ -92,7 +92,7 @@
     .timestamp-3ZCmNB,
     .timestamp-1E3uAL {
       color: var(--text-muted);
-      font-size: var(--font-size-xsm);
+      font-size: var(--chat-font-size-xsm);
       margin-left: var(--spacing-half);
       font-weight: var(--font-weight-semibold);
       height: auto;
@@ -102,7 +102,7 @@
         width: auto;
       }
       &.alt-1uNpEt {
-        font-size: var(--font-size-xsm);
+        font-size: var(--chat-font-size-xsm);
         height: auto;
         width: 40px;
         text-align: center;
@@ -170,7 +170,7 @@
     // Cozy
     &.cozy-3raOZG {
       margin: 0;
-      padding-left: calc(var(--avatar-size) + var(--spacing) * 2);
+      padding-left: calc(var(--chat-avatar-size) + var(--spacing) * 2);
       padding-bottom: var(--spacing);
       .container-1ov-mD {
         max-width: 100%;
@@ -190,8 +190,8 @@
         margin: 0;
         top: var(--spacing);
         left: var(--spacing);
-        width: var(--avatar-size) !important;
-        height: var(--avatar-size) !important;
+        width: var(--chat-avatar-size) !important;
+        height: var(--chat-avatar-size) !important;
         transition: 100ms ease box-shadow;
         background-color: var(--background);
         position: absolute;
@@ -210,8 +210,8 @@
               content: "";
               top: var(--spacing);
               left: var(--spacing);
-              width: var(--avatar-size);
-              height: var(--avatar-size);
+              width: var(--chat-avatar-size);
+              height: var(--chat-avatar-size);
               background: var(--text-muted);
               mask: url($icon_person) center/40% no-repeat;
               position: absolute;
@@ -222,8 +222,8 @@
         }
       }
       .wrapper-3t9DeA {
-        width: var(--avatar-size) !important;
-        height: var(--avatar-size) !important;
+        width: var(--chat-avatar-size) !important;
+        height: var(--chat-avatar-size) !important;
         foreignObject:after {
           content: none;
         }
@@ -325,7 +325,7 @@
       padding-left: calc(10px + var(--spacing-double)) !important;
     }
     .content-2M3n_H {
-      font-size: var(--font-size);
+      font-size: var(--chat-font-size);
       color: var(--text-muted);
       font-weight: var(--font-weight-normal);
       line-height: normal;
@@ -341,7 +341,7 @@
     .iconContainer-3GkGRf {
       margin: 0;
       padding: 0;
-      width: calc(var(--avatar-size) + var(--spacing) * 2);
+      width: calc(var(--chat-avatar-size) + var(--spacing) * 2);
       margin-top: 1px;
       .iconSize-2tmqqh {
         background-size: cover;
@@ -369,8 +369,8 @@
         box-shadow: 0 0 0 0.875px var(--base-border);
         top: var(--spacing);
         left: var(--spacing);
-        width: var(--avatar-size);
-        height: var(--avatar-size);
+        width: var(--chat-avatar-size);
+        height: var(--chat-avatar-size);
         background: var(--background-light);
         position: absolute;
         pointer-events: none;
@@ -534,8 +534,8 @@
     .guildIconImage-3qTk45 {
       border-radius: var(--border-radius);
       box-shadow: inset 0 0 0 1px var(--base-border);
-      width: var(--avatar-size-lg);
-      height: var(--avatar-size-lg);
+      width: var(--chat-avatar-size-lg);
+      height: var(--chat-avatar-size-lg);
       margin-right: var(--spacing);
     }
     .guildName-2hvnt_ {
@@ -607,51 +607,51 @@
         margin: 0;
       }
     }
-    .embedProvider-3k5pfl {
-      font-size: var(--font-size-sm);
-      color: var(--text-muted);
-    }
-    .embedAuthorNameLink-1gVryT {
-      font-size: var(--font-size);
-      color: var(--text-normal);
-      font-weight: var(--font-weight-semibold);
-    }
-    .embedTitle-3OXDkz,
-    .embedAuthorName-3mnTWj {
-      font-size: var(--font-size);
-      font-weight: var(--font-weight-semibold);
-    }
-    .embedMargin-UO5XwE {
-      margin-top: var(--spacing-half);
-    }
-    .embedAuthorIcon--1zR3L {
-      margin-right: var(--spacing-half);
-      width: var(--avatar-size-xsm);
-      height: var(--avatar-size-xsm);
-      border-radius: var(--border-radius);
-    }
-    .embedDescription-1Cuq9a,
-    .embedFieldName-NFrena,
-    .embedFieldValue-nELq2s {
-      font-size: var(--font-size);
-      font-weight: var(--font-weight-normal);
-      color: var(--text-normal);
-    }
-    .embedFieldName-NFrena {
-      font-weight: var(--font-weight-semibold);
-    }
-    .embedAuthorName-3mnTWj,
-    .embedFieldName-NFrena,
-    .embedTitle-3OXDkz {
-      color: var(--text-normal);
-    }
-    .embedFooterIcon-239O1f {
-      border-radius: var(--avatar-radius);
-      margin-right: var(--spacing-half);
-    }
     a {
       color: var(--text-link) !important;
     }
+  }
+  .embedProvider-3k5pfl {
+    font-size: var(--font-size-sm);
+    color: var(--text-muted);
+  }
+  .embedAuthorNameLink-1gVryT {
+    font-size: var(--font-size);
+    color: var(--text-normal);
+    font-weight: var(--font-weight-semibold);
+  }
+  .embedTitle-3OXDkz,
+  .embedAuthorName-3mnTWj {
+    font-size: var(--chat-font-size);
+    font-weight: var(--font-weight-semibold);
+  }
+  .embedMargin-UO5XwE {
+    margin-top: var(--spacing-half);
+  }
+  .embedAuthorIcon--1zR3L {
+    margin-right: var(--spacing-half);
+    width: var(--chat-avatar-size-xsm);
+    height: var(--chat-avatar-size-xsm);
+    border-radius: var(--border-radius);
+  }
+  .embedDescription-1Cuq9a,
+  .embedFieldName-NFrena,
+  .embedFieldValue-nELq2s {
+    font-size: var(--chat-font-size);
+    font-weight: var(--font-weight-normal);
+    color: var(--text-normal);
+  }
+  .embedFieldName-NFrena {
+    font-weight: var(--font-weight-semibold);
+  }
+  .embedAuthorName-3mnTWj,
+  .embedFieldName-NFrena,
+  .embedTitle-3OXDkz {
+    color: var(--text-normal);
+  }
+  .embedFooterIcon-239O1f {
+    border-radius: var(--avatar-radius);
+    margin-right: var(--spacing-half);
   }
 
   // Blockquotes
@@ -711,7 +711,7 @@
   .repliedMessage-VokQwo {
     position: absolute;
     top: var(--spacing-triple);
-    left: calc(var(--spacing-triple) + var(--avatar-size));
+    left: calc(var(--spacing-triple) + var(--chat-avatar-size));
     background: var(--background);
     border: 1px solid var(--base-border);
     width: fit-content;
@@ -770,9 +770,20 @@
       }
     }
   }
+  .messageAttachment-1aDidq {
+    min-width: calc(45vw - var(--chat-avatar-size));
+  }
+  .attachmentName-1iFwvb {
+    font-size: var(--chat-font-size-sm);
+  }
+  .formattedSize-2PXVec {
+    color: var(--text-muted);
+    font-size: var(--chat-font-size-xsm);
+  }
   .textContainer-C0szpm {
     border: none;
     background: transparent;
+    min-height: auto;
   }
   .footer-2yA7Ep {
     border: none;
@@ -791,6 +802,19 @@
     svg {
       height: 18px;
       width: 18px;
+    }
+  }
+
+  .message-2qnXI6 pre {
+    font-size: var(--chat-font-size-sm);
+    code {
+      font-size: var(--chat-font-size-sm);
+      &:before {
+        font-size: var(--chat-font-size-sm);
+      }
+    }
+    &:before {
+      font-size: var(--chat-font-size-sm);
     }
   }
 }

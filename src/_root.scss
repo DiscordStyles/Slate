@@ -1,5 +1,5 @@
 :root {
-  --slate-version: "1.5.13";
+  --slate-version: "1.5.14";
   --slate-palette: "Primer";
 
   // Roundness
@@ -39,6 +39,12 @@
   --font-size-xxl: 42px;
   --line-height-sm: 1;
   --line-height: 1.5;
+
+  // Chat
+  --chat-font-size-xsm: var(--font-size-xsm);
+  --chat-font-size-sm: var(--font-size-sm);
+  --chat-font-size: var(--font-size);
+  --chat-avatar-size: var(--avatar-size);
 
   // Font weights
   --font-weight-light: 300;
