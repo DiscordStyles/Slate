@@ -1,4 +1,27 @@
 #app-mount {
+
+  // Public servers button
+  #bd-pub-li {
+    height: auto;
+  }
+  #bd-pub-button {
+    font-size: var(--font-size);
+    font-weight: var(--font-weight-normal);
+    cursor: var(--cursor);
+    min-height: var(--input-height);
+    height: auto;
+    line-height: normal;
+    transition: none;
+    box-sizing: border-box;
+    border-radius: var(--button-border-radius);
+    color: var(--text-normal);
+    background: var(--background-light) !important;
+    border: 1px solid var(--base-border) !important;
+    box-shadow: none !important;
+    margin-bottom: var(--spacing);
+  }
+
+
   .childWrapper-anI2G9 {
     background: var(--background-light);
     border-radius: var(--server-radius);

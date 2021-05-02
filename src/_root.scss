@@ -1,5 +1,5 @@
 :root {
-  --slate-version: "1.5.12";
+  --slate-version: "1.5.13";
   --slate-palette: "Primer";
 
   // Roundness
@@ -30,7 +30,7 @@
   --font-family-monospace: Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
 
   // Text Scaling
-  --font-size-xsm:9px;
+  --font-size-xsm: 9px;
   --font-size-sm: 11px;
   --font-size: 12px;
   --font-size-md: 14px;
@@ -48,8 +48,8 @@
 
   // Titlebar
   --titlebar-height: 28px;
-  --win32-close-background-hover:#e81123;
-  --win32-close-background-active:#bf0f1d;
+  --win32-close-background-hover: #e81123;
+  --win32-close-background-active: #bf0f1d;
 
   // Toolbar
   --toolbar-height: 50px;

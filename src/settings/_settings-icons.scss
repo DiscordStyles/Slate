@@ -1,5 +1,5 @@
 // Global icons
-#app-mount .layer-3QrUeG[aria-label="USER_SETTINGS"] .side-8zPYf6 > .item-PXvHYJ {
+#app-mount .item-PXvHYJ {
   display: flex;
   align-items: center;
   &.selected-3s45Ha:before {
@@ -12,106 +12,93 @@
     background: var(--text-muted);
     display: block;
     margin-right: var(--spacing);
-    -webkit-mask: url($icon_cog) center/cover no-repeat;
+    mask-image: url($icon_cog);
+    mask-size: 16px;
+    mask-position: center;
+    mask-repeat: no-repeat;
   }
-  // My account
-  &:nth-child(2):before {
-    mask: url($icon_user) center/cover no-repeat;
+
+  // User settings
+  &[aria-controls="My Account-tab"]:before {
+    mask-image: url($icon_user);
   }
-  // Privacy & Safety
-  &:nth-child(3):before {
-    mask: url($icon_shield) center/cover no-repeat;
+  &[aria-controls="Privacy & Safety-tab"]:before {
+    mask-image: url($icon_shield);
   }
-  // Authorized Apps
-  &:nth-child(4):before {
-    mask: url($icon_check) center/cover no-repeat;
+  &[aria-controls="Authorized Apps-tab"]:before {
+    mask-image: url($icon_check);
   }
-  // Connections
-  &:nth-child(5):before {
-    mask: url($icon_link) center/cover no-repeat;
+  &[aria-controls="Connections-tab"]:before {
+    mask-image: url($icon_link);
   }
-  // Subscriptions
-  &:nth-child(8) {
+  &[aria-controls="Discord Nitro-tab"] {
     background: transparent !important;
     &:before {
       background: currentColor;
-      mask: url($icon_discord) center/cover no-repeat;
+      mask-image: url($icon_discord);
     }
     &[style*="background-color: rgb(114, 137, 218)"] {
       background: rgb(114, 137, 218) !important;
     }
   }
-  // Server Boost
-  &:nth-child(9) {
-    color: rgba(var(--discord-pink), 1);
+  &[aria-controls="Nitro Server Boost-tab"] {
+    color: rgba(var(--discord-pink), 1) !important;
     &:before {
       background: currentColor;
-      mask: url($icon_nitro-gem) center/cover no-repeat;
+      mask-image: url($icon_nitro-gem);
     }
     &.selected-3s45Ha {
-      color: var(--white);
-      background: rgba(var(--discord-pink), 1);
+      color: var(--white) !important;
+      background: rgba(var(--discord-pink), 1) !important;
     }
   }
-  // Gift Inventory
-  &:nth-child(10):before {
-    mask: url($icon_gift) center/cover no-repeat;
+  &[aria-controls="Library Inventory-tab"]:before {
+    mask-image: url($icon_gift);
   }
-  // Billing
-  &:nth-child(11):before {
-    mask: url($icon_credit-card) center/cover no-repeat;
+  &[aria-controls="Billing-tab"]:before {
+    mask-image: url($icon_credit-card);
   }
-  // Voice and Video
-  &:nth-child(14):before {
-    mask: url($icon_mic) center/cover no-repeat;
+  &[aria-controls="Appearance-tab"]:before {
+    mask-image: url($icon_bucket);
+    mask-size: 12px;
   }
-  // Text & Images
-  &:nth-child(15):before {
-    mask: url($icon_comment) center/cover no-repeat;
+  &[aria-controls="Accessibility-tab"]:before {
+    mask-image: url($icon_eye);
   }
-  // Appearance
-  &:nth-child(16):before {
-    mask: url($icon_bucket) center/12px no-repeat;
+  &[aria-controls="Voice & Video-tab"]:before {
+    mask-image: url($icon_mic);
   }
-  // Notifications
-  &:nth-child(17):before {
-    mask: url($icon_bell) center/cover no-repeat;
+  &[aria-controls="Text & Images-tab"]:before {
+    mask-image: url($icon_comment);
   }
-  // Keybinds
-  &:nth-child(18):before {
-    mask: url($icon_keyboard) center/cover no-repeat;
+  &[aria-controls="Notifications-tab"]:before {
+    mask-image: url($icon_bell);
   }
-  // Language
-  &:nth-child(19):before {
-    mask: url($icon_world) center/cover no-repeat;
+  &[aria-controls="Keybinds-tab"]:before {
+    mask-image: url($icon_keyboard);
   }
-  // Logout
-  &[style*="240, 71, 71"]:before {
-    mask: url($icon_sign-out) center/cover no-repeat;
-    background: rgba(var(--status-red), 1);
+  &[aria-controls="Language-tab"]:before {
+    mask-image: url($icon_world);
   }
-}
-
-// Windows icons
-html.platform-win #app-mount .layer-3QrUeG[aria-label*="SETTINGS"] .side-8zPYf6 > .item-PXvHYJ {
-  // Windows Settings
-  &:nth-child(20):before {
-    mask: url($icon_windows) center/cover no-repeat;
+  &[aria-controls="Windows-tab"]:before {
+    mask-image: url($icon_windows);
   }
-  // Game Activity
-  &:nth-child(30):before {
-    mask: url($icon_feed) center/cover no-repeat;
+  &[aria-controls="Streamer Mode-tab"]:before {
+    mask-image: url($icon_video);
   }
-  // Overlay
-  &:nth-child(31):before {
-    mask: url($icon_overlay) center/cover no-repeat;
+  &[aria-controls="Advanced-tab"]:before {
+    mask-image: url($icon_cpu);
   }
-  // Change Log
-  &:nth-child(33):before {
-    mask: url($icon_history) center/cover no-repeat;
+  &[aria-controls="Game Activity-tab"]:before {
+    mask-image: url($icon_feed);
   }
-  // Hypesquad
-  &:nth-child(34) {
+  &[aria-controls="Overlay-tab"]:before {
+    mask-image: url($icon_overlay);
+  }
+  &[aria-controls="changelog-tab"]:before {
+    mask-image: url($icon_history);
+  }
+  &[aria-controls="Hypesquad Online-tab"] {
     color: rgba(var(--status-yellow), 1);
     &:before {
       background: currentColor;
@@ -122,116 +109,74 @@ html.platform-win #app-mount .layer-3QrUeG[aria-label*="SETTINGS"] .side-8zPYf6 
       background: rgba(var(--status-yellow), 1);
     }
   }
+  &[aria-controls="logout-tab"] {
+    &:before {
+      mask-image: url($icon_sign-out);
+      background: rgba(var(--status-red), 1);
+    }
+    &[style*="background-color: rgba(240, 71, 71, 0.1)"] {
+      background: transparent !important;
+    }
+    &[style*="background-color: rgb(240, 71, 71)"]:before {
+      background: #fff !important;
+    }
+  }
+
+
+  // Server settings
+  &[aria-controls="OVERVIEW-tab"]:before {
+    mask-image: url($icon_eye);
+  }
+  &[aria-controls="ROLES-tab"]:before {
+    mask-image: url($icon_unordered-list);
+  }
+  &[aria-controls="EMOJI-tab"]:before {
+    mask-image: url($icon_emoji);
+  }
+  &[aria-controls="MODERATION-tab"]:before {
+    mask-image: url($icon_tools);
+  }
+  &[aria-controls="AUDIT_LOG-tab"]:before {
+    mask-image: url($icon_history);
+  }
+  &[aria-controls="INTEGRATIONS-tab"]:before {
+    mask-image: url($icon_link);
+  }
+  &[aria-controls="GUILD_TEMPLATES-tab"]:before {
+    mask-image: url($icon_repo-template);
+  }
+  &[aria-controls="COMMUNITY-tab"]:before {
+    mask-image: url($icon_share-android);
+  }
+  &[aria-controls="GUILD_PREMIUM-tab"] {
+    &:before {
+      mask-image: url($icon_zap);
+      background: rgb(114, 137, 218);
+    }
+    &[style*="background-color: rgb(114, 137, 218)"]:before {
+      background: #fff;
+    }
+  }
+  &[aria-controls="MEMBERS-tab"]:before {
+    mask-image: url($icon_people);
+  }
+  &[aria-controls="INSTANT_INVITES-tab"]:before {
+    mask-image: url($icon_person-add);
+  }
+  &[aria-controls="BANS-tab"]:before {
+    mask-image: url($icon_shield-x);
+  }
+  &[aria-controls="DELETE-tab"] {
+    &:before {
+      mask-image: url($icon_trashcan);
+      mask-size: 12px;
+      background: rgba(var(--status-red), 1);
+    }
+    &[style*="background-color: rgba(240, 71, 71, 0.1)"] {
+      background: transparent !important;
+    }
+    &[style*="background-color: rgb(240, 71, 71)"]:before {
+      background: #fff !important;
+    }
+  }
 }
-
-
-
-// TODO: Fix icons for other Operating Systems
-// - MacOS
-// - Linux
-// Zerthox emulator doesn't seem to be working.
-// I'm leaving the previos code here just so we remember what goes where.
-
-
-// // Mac Icons
-// html.platform-osx #app-mount .layer-3QrUeG[aria-label*="SETTINGS"] .side-8zPYf6 > .item-PXvHYJ {
-//   // Notifications
-//   &:nth-child(15):before {
-//     mask: url($icon_bell) center/cover no-repeat;
-//   }
-//
-//   // Keybinds
-//   &:nth-child(16):before {
-//     mask: url($icon_keyboard) center/cover no-repeat;
-//   }
-//
-//   // Game Activity
-//   &:nth-child(17):before {
-//     mask: url($icon_feed) center/cover no-repeat;
-//   }
-//
-//   // Text & Images
-//   &:nth-child(18):before {
-//     mask: url($icon_comment) center/cover no-repeat;
-//   }
-//
-//   // Appearance
-//   &:nth-child(19):before {
-//     mask: url($icon_bucket) center/12px no-repeat;
-//   }
-//
-//   // Streamer Mode
-//   &:nth-child(20):before {
-//     mask: url($icon_video) center/cover no-repeat;
-//   }
-//
-//   // Language
-//   &:nth-child(21):before {
-//     mask: url($icon_world) center/cover no-repeat;
-//   }
-//
-//   // Change Log
-//   &:nth-child(23):before {
-//     mask: url($icon_history) center/cover no-repeat;
-//   }
-//
-//   // Logout
-//   &[style*="240, 71, 71"]:before {
-//     mask: url($icon_sign-out) center/cover no-repeat;
-//     background: rgba(var(--status-red), 1);
-//   }
-// }
-//
-// // Linux Icons
-// html.platform-linux #app-mount .layer-3QrUeG[aria-label*="SETTINGS"] .side-8zPYf6 > .item-PXvHYJ {
-//   // Notifications
-//   &:nth-child(15):before {
-//     mask: url($icon_bell) center/cover no-repeat;
-//   }
-//
-//   // Keybinds
-//   &:nth-child(16):before {
-//     mask: url($icon_keyboard) center/cover no-repeat;
-//   }
-//
-//   // Game Activity
-//   &:nth-child(17):before {
-//     mask: url($icon_feed) center/cover no-repeat;
-//   }
-//
-//   // Text & Images
-//   &:nth-child(18):before {
-//     mask: url($icon_comment) center/cover no-repeat;
-//   }
-//
-//   // Appearance
-//   &:nth-child(19):before {
-//     mask: url($icon_bucket) center/12px no-repeat;
-//   }
-//
-//   // Streamer Mode
-//   &:nth-child(20):before {
-//     mask: url($icon_video) center/cover no-repeat;
-//   }
-//
-//   // Language
-//   &:nth-child(21):before {
-//     mask: url($icon_world) center/cover no-repeat;
-//   }
-//
-//   // Linux Settings
-//   &:nth-child(22):before {
-//     mask: url($icon_linux) center/14px no-repeat;
-//   }
-//
-//   // Change Log
-//   &:nth-child(24):before {
-//     mask: url($icon_history) center/cover no-repeat;
-//   }
-//
-//   // Logout
-//   &[style*="240, 71, 71"]:before {
-//     mask: url($icon_sign-out) center/cover no-repeat;
-//     background: rgba(var(--status-red), 1);
-//   }
-// }
