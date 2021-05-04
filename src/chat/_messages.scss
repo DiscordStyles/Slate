@@ -724,7 +724,12 @@
       z-index: 1;
     }
     img {
-      display: none;
+      &.replyAvatar-1K9Wmr {
+        display: none;
+      }
+      &.emoji {
+        display: inline;
+      }
     }
     .username-1A8OIy {
       margin-right: var(--spacing-half);
