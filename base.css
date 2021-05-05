@@ -3697,8 +3697,11 @@ html.platform-win[lang=en-US]:not(.app-focused) body:not(.oldTitleBarEnabled-D8p
   position: relative;
   z-index: 1;
 }
-#app-mount .repliedMessage-VokQwo img {
+#app-mount .repliedMessage-VokQwo img.replyAvatar-1K9Wmr {
   display: none;
+}
+#app-mount .repliedMessage-VokQwo img.emoji {
+  display: inline;
 }
 #app-mount .repliedMessage-VokQwo .username-1A8OIy {
   margin-right: var(--spacing-half);
