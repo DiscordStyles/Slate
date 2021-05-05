@@ -15,10 +15,10 @@ html.theme-dark .force-theme.theme-light {
   --background-dark: #1d2125;
 
   // Guilds
-  --guilds-background:var(--background);
+  --guilds-background: var(--background);
 
   // White
-  --white:#ffffff; // Only use to contrast a primary background.
+  --white: #ffffff; // Only use to contrast a primary background.
 
   // Scrollbars
   --scrollbar-background: rgb(255 255 255 / 0.1);
@@ -31,10 +31,10 @@ html.theme-dark .force-theme.theme-light {
   --background-modifier-selected: var(--accent-solid);
 
   // Syntax Highlighting
-  --syntax-blue:#79b8ff;
-  --syntax-purple:#b392f0;
-  --syntax-grey:#959da5;
-  --syntax-grey-alt:#d1d5da;
-  --syntax-orange:#ffab70;
-  --syntax-green:#56b6c2;
+  --syntax-blue: #79b8ff;
+  --syntax-purple: #b392f0;
+  --syntax-grey: #959da5;
+  --syntax-grey-alt: #d1d5da;
+  --syntax-orange: #ffab70;
+  --syntax-green: #56b6c2;
 }

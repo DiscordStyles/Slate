@@ -1,3 +1,5 @@
+@use '../assets';
+
 // Global icons
 #app-mount .sidebar-CFHs9e .item-PXvHYJ {
   display: flex;
@@ -12,7 +14,7 @@
     background: var(--text-muted);
     display: block;
     margin-right: var(--spacing);
-    mask-image: url($icon_cog);
+    mask-image: url(assets.$icon_cog);
     mask-size: 16px;
     mask-position: center;
     mask-repeat: no-repeat;
@@ -20,22 +22,22 @@
 
   // User settings
   &[aria-controls="My Account-tab"]:before {
-    mask-image: url($icon_user);
+    mask-image: url(assets.$icon_user);
   }
   &[aria-controls="Privacy & Safety-tab"]:before {
-    mask-image: url($icon_shield);
+    mask-image: url(assets.$icon_shield);
   }
   &[aria-controls="Authorized Apps-tab"]:before {
-    mask-image: url($icon_check);
+    mask-image: url(assets.$icon_check);
   }
   &[aria-controls="Connections-tab"]:before {
-    mask-image: url($icon_link);
+    mask-image: url(assets.$icon_link);
   }
   &[aria-controls="Discord Nitro-tab"] {
     background: transparent !important;
     &:before {
       background: currentColor;
-      mask-image: url($icon_discord);
+      mask-image: url(assets.$icon_discord);
     }
     &[style*="background-color: rgb(114, 137, 218)"] {
       background: rgb(114, 137, 218) !important;
@@ -45,7 +47,7 @@
     color: rgba(var(--discord-pink), 1) !important;
     &:before {
       background: currentColor;
-      mask-image: url($icon_nitro-gem);
+      mask-image: url(assets.$icon_nitro-gem);
     }
     &.selected-3s45Ha {
       color: var(--white) !important;
@@ -53,56 +55,56 @@
     }
   }
   &[aria-controls="Library Inventory-tab"]:before {
-    mask-image: url($icon_gift);
+    mask-image: url(assets.$icon_gift);
   }
   &[aria-controls="Billing-tab"]:before {
-    mask-image: url($icon_credit-card);
+    mask-image: url(assets.$icon_credit-card);
   }
   &[aria-controls="Appearance-tab"]:before {
-    mask-image: url($icon_bucket);
+    mask-image: url(assets.$icon_bucket);
     mask-size: 12px;
   }
   &[aria-controls="Accessibility-tab"]:before {
-    mask-image: url($icon_eye);
+    mask-image: url(assets.$icon_eye);
   }
   &[aria-controls="Voice & Video-tab"]:before {
-    mask-image: url($icon_mic);
+    mask-image: url(assets.$icon_mic);
   }
   &[aria-controls="Text & Images-tab"]:before {
-    mask-image: url($icon_comment);
+    mask-image: url(assets.$icon_comment);
   }
   &[aria-controls="Notifications-tab"]:before {
-    mask-image: url($icon_bell);
+    mask-image: url(assets.$icon_bell);
   }
   &[aria-controls="Keybinds-tab"]:before {
-    mask-image: url($icon_keyboard);
+    mask-image: url(assets.$icon_keyboard);
   }
   &[aria-controls="Language-tab"]:before {
-    mask-image: url($icon_world);
+    mask-image: url(assets.$icon_world);
   }
   &[aria-controls="Windows-tab"]:before {
-    mask-image: url($icon_windows);
+    mask-image: url(assets.$icon_windows);
   }
   &[aria-controls="Streamer Mode-tab"]:before {
-    mask-image: url($icon_video);
+    mask-image: url(assets.$icon_video);
   }
   &[aria-controls="Advanced-tab"]:before {
-    mask-image: url($icon_cpu);
+    mask-image: url(assets.$icon_cpu);
   }
   &[aria-controls="Game Activity-tab"]:before {
-    mask-image: url($icon_feed);
+    mask-image: url(assets.$icon_feed);
   }
   &[aria-controls="Overlay-tab"]:before {
-    mask-image: url($icon_overlay);
+    mask-image: url(assets.$icon_overlay);
   }
   &[aria-controls="changelog-tab"]:before {
-    mask-image: url($icon_history);
+    mask-image: url(assets.$icon_history);
   }
   &[aria-controls="Hypesquad Online-tab"] {
     color: rgba(var(--status-yellow), 1);
     &:before {
       background: currentColor;
-      mask: url($icon_hypesquad) center/cover no-repeat;
+      mask: url(assets.$icon_hypesquad) center/cover no-repeat;
     }
     &.selected-3s45Ha {
       color: var(--white);
@@ -111,7 +113,7 @@
   }
   &[aria-controls="logout-tab"] {
     &:before {
-      mask-image: url($icon_sign-out);
+      mask-image: url(assets.$icon_sign-out);
       background: rgba(var(--status-red), 1);
     }
     &[style*="background-color: rgba(240, 71, 71, 0.1)"] {
@@ -122,35 +124,34 @@
     }
   }
 
-
   // Server settings
   &[aria-controls="OVERVIEW-tab"]:before {
-    mask-image: url($icon_eye);
+    mask-image: url(assets.$icon_eye);
   }
   &[aria-controls="ROLES-tab"]:before {
-    mask-image: url($icon_unordered-list);
+    mask-image: url(assets.$icon_unordered-list);
   }
   &[aria-controls="EMOJI-tab"]:before {
-    mask-image: url($icon_emoji);
+    mask-image: url(assets.$icon_emoji);
   }
   &[aria-controls="MODERATION-tab"]:before {
-    mask-image: url($icon_tools);
+    mask-image: url(assets.$icon_tools);
   }
   &[aria-controls="AUDIT_LOG-tab"]:before {
-    mask-image: url($icon_history);
+    mask-image: url(assets.$icon_history);
   }
   &[aria-controls="INTEGRATIONS-tab"]:before {
-    mask-image: url($icon_link);
+    mask-image: url(assets.$icon_link);
   }
   &[aria-controls="GUILD_TEMPLATES-tab"]:before {
-    mask-image: url($icon_repo-template);
+    mask-image: url(assets.$icon_repo-template);
   }
   &[aria-controls="COMMUNITY-tab"]:before {
-    mask-image: url($icon_share-android);
+    mask-image: url(assets.$icon_share-android);
   }
   &[aria-controls="GUILD_PREMIUM-tab"] {
     &:before {
-      mask-image: url($icon_zap);
+      mask-image: url(assets.$icon_zap);
       background: rgb(114, 137, 218);
     }
     &[style*="background-color: rgb(114, 137, 218)"]:before {
@@ -158,17 +159,17 @@
     }
   }
   &[aria-controls="MEMBERS-tab"]:before {
-    mask-image: url($icon_people);
+    mask-image: url(assets.$icon_people);
   }
   &[aria-controls="INSTANT_INVITES-tab"]:before {
-    mask-image: url($icon_person-add);
+    mask-image: url(assets.$icon_person-add);
   }
   &[aria-controls="BANS-tab"]:before {
-    mask-image: url($icon_shield-x);
+    mask-image: url(assets.$icon_shield-x);
   }
   &[aria-controls="DELETE-tab"] {
     &:before {
-      mask-image: url($icon_trashcan);
+      mask-image: url(assets.$icon_trashcan);
       mask-size: 12px;
       background: rgba(var(--status-red), 1);
     }

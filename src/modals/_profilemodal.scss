@@ -1,3 +1,5 @@
+@use '../assets';
+
 .root-SR8cQa {
   width: 700px;
   background: var(--background);
@@ -189,7 +191,7 @@
       }
       .buttonsWrapper-2eYbM0 {
         margin: 0;
-        marign-left: var(--spacing);
+        margin-left: var(--spacing);
       }
       button {
         font-size: 0 !important;
@@ -380,7 +382,7 @@
           mask-position: center;
           mask-repeat: no-repeat;
           &.profileBadgePremium-1KDZYC {
-            mask-image: url($icon_heart);
+            mask-image: url(assets.$icon_heart);
           }
           &.profileGuildSubscriberlvl1-3oI9tx,
           &.profileGuildSubscriberlvl2-r6nJHT,
@@ -391,11 +393,11 @@
           &.profileGuildSubscriberlvl7-1dVhQT,
           &.profileGuildSubscriberlvl8-1kXdFr,
           &.profileGuildSubscriberlvl9-1d6zav {
-            mask-image: url($icon_rocket);
+            mask-image: url(assets.$icon_rocket);
           }
           &.profileBadgeEarlySupporter-2ng_jL,
           &.powercord-badge-early {
-            mask-image: url($icon_telescope);
+            mask-image: url(assets.$icon_telescope);
             background: var(--text-muted);
             path {
               display: none;
@@ -403,29 +405,29 @@
           }
           &.profileBadgeVerifiedDeveloper-4WY75k,
           &.profileBadgeVerifiedDeveloper-195KfD {
-            mask-image: url($icon_code);
+            mask-image: url(assets.$icon_code);
           }
           &.profileBadgeHypesquad-12E2P6 {
-            mask-image: url($icon_megaphone);
+            mask-image: url(assets.$icon_megaphone);
           }
           &.profileBadgeHypeSquadOnlineHouse1-3rBtjf,
           &.profileBadgeHypeSquadOnlineHouse1Winner-3wCl80 {
-            mask-image: url($icon_flame);
+            mask-image: url(assets.$icon_flame);
           }
           &.profileBadgeHypeSquadOnlineHouse2-2oU04B,
           &.profileBadgeHypeSquadOnlineHouse2Winner-AS5bXe {
-            mask-image: url($icon_zap);
+            mask-image: url(assets.$icon_zap);
           }
           &.profileBadgeHypeSquadOnlineHouse3-1DoJkv,
           &.profileBadgeHypeSquadOnlineHouse3Winner-2CwwQi {
-            mask-image: url($icon_law);
+            mask-image: url(assets.$icon_law);
           }
           &.profileBadgePartner-j6Lwhr {
-            mask-image: url($icon_text_link);
+            mask-image: url(assets.$icon_text_link);
           }
           &.profileBadgeStaff-3BXdTO,
           &.powercord-badge-staff {
-            mask-image: url($icon_tools);
+            mask-image: url(assets.$icon_tools);
             background: var(--text-muted);
             path {
               display: none;
@@ -434,21 +436,21 @@
           &.profileBadgeBugHunterLevel1-dbEzVz,
           &.profileBadgeBugHunterLevel2-3TUciC,
           &.powercord-badge-hunter {
-            mask-image: url($icon_bug);
+            mask-image: url(assets.$icon_bug);
             background: var(--text-muted);
             path {
               display: none;
             }
           }
           &.powercord-badge-developer {
-            mask-image: url($icon_plug);
+            mask-image: url(assets.$icon_plug);
             background: var(--text-muted);
             path {
               display: none;
             }
           }
           &.powercord-badge-translator {
-            mask-image: url($icon_globe);
+            mask-image: url(assets.$icon_globe);
             background: var(--text-muted);
             path {
               display: none;
@@ -481,7 +483,8 @@
         position: absolute;
         width: 100%;
         height: 100%;
-        mask: url($icon_menu_horizontal) center/var(--font-size) no-repeat;
+        mask: url(assets.$icon_menu_horizontal) center/var(--font-size)
+          no-repeat;
       }
       &:hover {
         border: 1px solid currentColor;
@@ -634,7 +637,7 @@
           width: 124px;
           height: 124px;
           background: var(--text-muted);
-          mask: url($illustration_7) center/contain no-repeat;
+          mask: url(assets.$illustration_7) center/contain no-repeat;
         }
         .emptyText-6tYmO5 {
           font-size: var(--font-size);
@@ -753,45 +756,45 @@
               display: inline-block;
               width: 16px;
               height: 16px;
-              content: url($blank);
+              content: url(assets.$blank);
               background: var(--text-normal);
               mask-position: center;
               mask-size: contain;
               mask-repeat: no-repeat;
               margin-right: var(--spacing);
               &[alt="Battle.net Logo" i] {
-                mask-image: url($icon_battlenet);
+                mask-image: url(assets.$icon_battlenet);
               }
               &[alt="Steam Logo" i] {
-                mask-image: url($icon_steam);
+                mask-image: url(assets.$icon_steam);
               }
               &[alt="Facebook Logo" i] {
-                mask-image: url($icon_facebook);
+                mask-image: url(assets.$icon_facebook);
               }
               &[alt="Twitch Logo" i] {
-                mask-image: url($icon_twitch);
+                mask-image: url(assets.$icon_twitch);
               }
               &[alt="Github Logo" i] {
-                mask-image: url($icon_github);
+                mask-image: url(assets.$icon_github);
               }
               &[alt="Twitter Logo" i] {
-                mask-image: url($icon_twitter);
+                mask-image: url(assets.$icon_twitter);
                 mask-size: 125%;
               }
               &[alt="Reddit Logo" i] {
-                mask-image: url($icon_reddit);
+                mask-image: url(assets.$icon_reddit);
               }
               &[alt="Xbox Live Logo" i] {
-                mask-image: url($icon_xbox);
+                mask-image: url(assets.$icon_xbox);
               }
               &[alt="Skype Logo" i] {
-                mask-image: url($icon_skype);
+                mask-image: url(assets.$icon_skype);
               }
               &[alt="Youtube Logo" i] {
-                mask-image: url($icon_youtube);
+                mask-image: url(assets.$icon_youtube);
               }
               &[alt="Spotify Logo" i] {
-                mask-image: url($icon_spotify);
+                mask-image: url(assets.$icon_spotify);
               }
               &[alt="League of Legends Logo" i] {
                 mask-image: url("/assets/806953fe1cc616477175cbcdf90d5cd3.png");

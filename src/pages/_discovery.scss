@@ -95,10 +95,10 @@
     width: 100%;
     box-sizing: border-box;
     padding: var(--spacing);
-    background: linear-gradient(transparent 10%, rgba(0,0,0,0.9));
+    background: linear-gradient(transparent 10%, rgba(0, 0, 0, 0.9));
     .colorHeaderSecondary-3Sp3Ft {
       color: #fff;
-      opacity: .7;
+      opacity: 0.7;
     }
   }
   .guildIcon-3W0pfo {
@@ -107,7 +107,7 @@
     left: var(--spacing);
   }
   .iconMask-3b8GzQ {
-    background: rgba(0,0,0,0.5);
+    background: rgba(0, 0, 0, 0.5);
   }
   .roundButton-2CW1Hh {
     border-radius: var(--border-radius);

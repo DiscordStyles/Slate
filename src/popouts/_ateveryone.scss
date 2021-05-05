@@ -1,3 +1,5 @@
+@use '../assets';
+
 #app-mount .everyonePopout-nEbJY3 {
   background: var(--background);
   box-shadow: var(--elevation-2);
@@ -17,7 +19,7 @@
     padding: var(--spacing-double);
   }
   .animation-3GofIz {
-    -webkit-mask: url($illustration_1) center/cover;
+    mask: url(assets.$illustration_1) center/cover;
     background: var(--text-normal);
     width: 120px;
     min-width: 120px;
@@ -40,7 +42,7 @@
     padding: var(--spacing);
   }
   .icon-2qOzDL {
-    -webkit-mask: url($icon_alert) center/cover;
+    mask: url(assets.$icon_alert) center/cover;
     background: var(--text-normal);
     margin-right: var(--spacing);
     g {

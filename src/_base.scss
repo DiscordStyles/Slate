@@ -1,24 +1,23 @@
-@import 'root';
-@import 'dark';
-@import 'light';
-@import 'translations/import';
+@use 'root';
+@use 'dark';
+@use 'light';
+@use 'translations';
 
-@import 'assets/import';
-@import 'app/import';
-@import 'channels/import';
-@import 'guilds/import';
-@import 'chat/import';
-@import 'members/import';
-@import 'pages/import';
-@import 'popouts/import';
-@import 'settings/import';
-@import 'bd/import';
-@import 'gm/import';
-@import 'modals/import';
-@import 'inputs/import';
-@import 'overlays/import';
+@use 'app';
+@use 'channels';
+@use 'guilds';
+@use 'chat';
+@use 'members';
+@use 'pages';
+@use 'popouts';
+@use 'settings';
+@use 'bd';
+@use 'gm';
+@use 'modals';
+@use 'inputs';
+@use 'overlays';
 
-@import 'os/import';
-@import 'plugins/import';
+@use 'os';
+@use 'plugins';
 
-@import 'keyframes';
+@use 'keyframes';

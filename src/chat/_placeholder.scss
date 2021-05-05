@@ -1,3 +1,5 @@
+@use '../assets';
+
 #app-mount .chat-3bRxxu {
   .wrapper-3vR61M {
     background: var(--background-alt);
@@ -22,27 +24,27 @@
     border-radius: var(--avatar-radius);
     width: var(--avatar-size);
     height: var(--avatar-size);
-    box-shadow: 0 0 0 .875px var(--base-border);
+    box-shadow: 0 0 0 0.875px var(--base-border);
     background: var(--background);
     top: var(--spacing);
     left: var(--spacing);
     opacity: 1 !important;
-    box-sizing:border-box;
+    box-sizing: border-box;
     &::after {
-      content:'';
-      position:absolute;
-      width:100%;
-      height:100%;
-      top:0;
-      left:0;
-      background:var(--text-muted);
-      mask:url($icon_person) center/40% no-repeat;
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      background: var(--text-muted);
+      mask: url(assets.$icon_person) center/40% no-repeat;
     }
   }
-  .attachment-2p5mHK, 
+  .attachment-2p5mHK,
   .blob-2w7iIK {
-    border-radius:var(--border-radius);
-    background:var(--text-muted);
-    height:4px;
+    border-radius: var(--border-radius);
+    background: var(--text-muted);
+    height: 4px;
   }
 }

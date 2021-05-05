@@ -3,7 +3,7 @@ html.theme-light #app-mount .theme-light .root-1gCeng,
 html.theme-light .force-theme.theme-light {
   // Text and Borders
   --base-border: #e1e4e8;
-  --secondary-border:#d1d5da; // Light Mode Only
+  --secondary-border: #d1d5da; // Light Mode Only
   --text-normal: #24292e;
   --text-muted: #6a737d;
   --text-focus: #000000;
@@ -12,11 +12,11 @@ html.theme-light .force-theme.theme-light {
   // Backgrounds
   --background-light: #f6f8fa;
   --background-alt: #ffffff;
-  --background:#ffffff;
+  --background: #ffffff;
   --background-dark: #ebeef1;
-  
+
   // Guilds
-  --guilds-background:var(--background);
+  --guilds-background: var(--background);
 
   //White
   --white: #ffffff; // Only use to contrast a primary background.
@@ -32,10 +32,10 @@ html.theme-light .force-theme.theme-light {
   --background-modifier-selected: var(--accent-solid);
 
   // Syntax Highlighting
-  --syntax-blue:#79b8ff;
-  --syntax-purple:#b392f0;
-  --syntax-grey:#6a737d;
-  --syntax-grey-alt:#24292e;
-  --syntax-orange:#ffab70;
-  --syntax-green:#56b6c2;
+  --syntax-blue: #79b8ff;
+  --syntax-purple: #b392f0;
+  --syntax-grey: #6a737d;
+  --syntax-grey-alt: #24292e;
+  --syntax-orange: #ffab70;
+  --syntax-green: #56b6c2;
 }

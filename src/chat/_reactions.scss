@@ -1,3 +1,5 @@
+@use '../assets';
+
 #app-mount {
   .reactions-12N0jA {
     margin: 0;
@@ -17,7 +19,7 @@
         height: 12px;
         color: inherit;
         path {
-          d: path($path_add);
+          d: path(assets.$path_add);
           transform: scale(1.6) translateX(1px) translateY(-1px);
         }
       }

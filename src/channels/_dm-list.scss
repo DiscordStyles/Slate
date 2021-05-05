@@ -1,7 +1,9 @@
+@use '../assets';
+
 #app-mount .privateChannels-1nO12o {
   overflow: visible;
   width: var(--sidebar-width);
-  background:var(--background);
+  background: var(--background);
 
   // Search Header
   .searchBar-6Kv8R2 {
@@ -48,7 +50,7 @@
     text-transform: none;
   }
   .privateChannelRecipientsInviteButtonIcon-3A3uTc {
-    display:none;
+    display: none;
   }
   .scroller-1JbKMe {
     background: var(--background);
@@ -63,7 +65,7 @@
     max-width: 100%;
     padding: 0;
     .children-gzQq2t {
-      margin-left:var(--spacing-half);
+      margin-left: var(--spacing-half);
     }
     .layout-2DM8Md {
       border-radius: 0;
@@ -74,7 +76,7 @@
       font-size: var(--font-size);
       font-weight: var(--font-weight-normal);
       color: var(--text-normal);
-      line-height:normal;
+      line-height: normal;
     }
     .avatar-3uk_u9 {
       margin-right: var(--spacing);
@@ -89,7 +91,7 @@
     &[href="/store"] {
       border-left: 1px solid var(--base-border);
       .children-gzQq2t {
-        display:none; // Hides Download Indicator
+        display: none; // Hides Download Indicator
       }
     }
     &[href="/channels/@me"],
@@ -102,7 +104,7 @@
       .layout-2DM8Md {
         justify-content: center;
         height: 30px;
-        box-sizing:border-box;
+        box-sizing: border-box;
         border-bottom: 1px solid var(--base-border);
         .avatar-3uk_u9 {
           display: none;
@@ -116,9 +118,9 @@
       }
       &[href="/store"] {
         display: none;
-      } 
+      }
       &[href="/channels/@me"] + [href="/store"] {
-        display:inline-block;
+        display: inline-block;
       }
       &.selected-aXhQR6 .layout-2DM8Md {
         background: transparent;
@@ -132,7 +134,7 @@
       color: var(--white);
       .closeButton-2GCmT5 {
         display: block;
-        background:var(--white);
+        background: var(--white);
       }
       .activityText-OW8WYb,
       .name-uJV0GL,
@@ -143,14 +145,14 @@
   }
   .closeButton-2GCmT5 {
     z-index: 10;
-    opacity:1;
-    background:var(--text-muted);
-    -webkit-mask:url($icon_close) center/11px no-repeat;
+    opacity: 1;
+    background: var(--text-muted);
+    mask: url(assets.$icon_close) center/11px no-repeat;
     path {
-      display:none;
+      display: none;
     }
     &:hover {
-      background:var(--text-normal);
+      background: var(--text-normal);
     }
   }
   .wrapper-3t9DeA {
@@ -164,28 +166,23 @@
     }
   }
   &:hover .wrapper-3t9DeA:before {
-    background: linear-gradient(
-      90deg,
-      transparent,
-      var(--background-modifier-hover) 50%
-    );
+    background: linear-gradient( 90deg, transparent, var(--background-modifier-hover) 50%);
   }
   &:active .wrapper-3t9DeA:before {
-    background: linear-gradient(
-      90deg,
-      transparent,
-      var(--background-modifier-active) 50%
-    );
+    background: linear-gradient(90deg, transparent, var(--background-modifier-active) 50%);
   }
 
   // Empty DMs List
   .empty-388osJ {
-    display:none;
+    display: none;
   }
 }
 
 // Light mode optimization
-.theme-light #app-mount .privateChannels-1nO12o  .channel-2QD9_O.selected-aXhQR6 {
+.theme-light
+  #app-mount
+  .privateChannels-1nO12o
+  .channel-2QD9_O.selected-aXhQR6 {
   color: #fff;
   .activityText-OW8WYb,
   .name-uJV0GL,

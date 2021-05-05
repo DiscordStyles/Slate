@@ -5,8 +5,8 @@
     background: var(--background);
     box-shadow: var(--elevation-1);
     border: 1px solid var(--base-border);
-    border-radius:var(--border-radius);
-    overflow:hidden;
+    border-radius: var(--border-radius);
+    overflow: hidden;
     .scroller-3BxosC {
       padding: 0;
       &::-webkit-scrollbar {
@@ -20,17 +20,17 @@
     .groupLabel-2t5iuZ {
       font-size: var(--font-size);
       color: var(--text-muted);
-      font-weight:var(--font-weight-semibold);
+      font-weight: var(--font-weight-semibold);
       margin: 0;
       padding: var(--spacing-half) var(--spacing);
       box-sizing: border-box;
       height: 32px;
-      text-transform:none;
+      text-transform: none;
     }
     .item-1tOPte {
       font-size: var(--font-size);
       color: var(--text-normal);
-      font-weight:var(--font-weight-semibold);
+      font-weight: var(--font-weight-semibold);
       margin: 0;
       padding: var(--spacing-half) var(--spacing);
       box-sizing: border-box;
@@ -43,7 +43,7 @@
       }
 
       .labelContainer-1BLJti {
-        padding:0 var(--spacing);
+        padding: 0 var(--spacing);
       }
       &.focused-3afm-j {
         background: var(--background-modifier-hover);
@@ -68,8 +68,8 @@
         padding: 0;
       }
       .iconContainer-2-XQPY {
-        color:var(--text-muted);
-        margin-left:var(--spacing);
+        color: var(--text-muted);
+        margin-left: var(--spacing);
       }
     }
   }
@@ -83,16 +83,16 @@
   }
   .button-F9qN4n {
     padding: 0;
-    width:45px;
-    flex-grow:1;
+    width: 45px;
+    flex-grow: 1;
     border-radius: 0;
     background: transparent;
     cursor: var(--cursor);
     &:hover {
-      background:var(--background-modifier-hover);
+      background: var(--background-modifier-hover);
     }
     &:active {
-      background:var(--background-modifier-active);
+      background: var(--background-modifier-active);
     }
   }
 

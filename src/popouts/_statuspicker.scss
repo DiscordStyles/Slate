@@ -1,3 +1,5 @@
+@use '../assets';
+
 #app-mount #status-picker {
   background: var(--background);
   width: var(--sidebar-width);
@@ -108,7 +110,7 @@
         }
         .customEmojiPlaceholder-37iZ_j {
           background: var(--text-normal);
-          mask: url($icon_add) center/cover no-repeat;
+          mask: url(assets.$icon_add) center/cover no-repeat;
           margin: 0;
         }
         .clearStatusButton-1Mxs1q {
@@ -122,7 +124,7 @@
           height: 10px;
           margin-left: 0;
           path {
-            d: path($path_close);
+            d: path(assets.$path_close);
           }
         }
         .customStatusContentIcon-2sionu {

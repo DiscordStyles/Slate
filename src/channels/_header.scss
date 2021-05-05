@@ -35,17 +35,17 @@
       .iconBackgroundTierOne-2LhaMB,
       .iconBackgroundTierThree-3qw3JX,
       .iconBackgroundTierTwo-3bCmdc {
-        color:var(--toolbar-background-active);
+        color: var(--toolbar-background-active);
       }
       .iconTierNone-3xOaeG {
         color: var(--toolbar-text-muted);
       }
-      .bannerVisible-14J9lQ  .iconBackgroundTierOne-2LhaMB,
+      .bannerVisible-14J9lQ .iconBackgroundTierOne-2LhaMB,
       .bannerVisible-14J9lQ .iconBackgroundTierThree-3qw3JX,
       .bannerVisible-14J9lQ .iconBackgroundTierTwo-3bCmdc,
       .iconTierOne-BHC2T8,
       .iconTierTwo-_1edeM {
-        color:var(--toolbar-text-normal);
+        color: var(--toolbar-text-normal);
       }
     }
     h1 {
@@ -97,14 +97,18 @@
 // Verified Guild (Global Component)
 
 .verified-1eC5dy {
-  color:rgb(var(--status-green));
+  color: rgb(var(--status-green));
 }
 .partnered-3nJayh {
-  color:var(--accent-solid);
+  color: var(--accent-solid);
 }
 
 // Light Mode
-.theme-light #app-mount .sidebar-2K8pFh .container-2Rl01u.selected-WP3kCM .header-2V-4Sw {
+.theme-light
+  #app-mount
+  .sidebar-2K8pFh
+  .container-2Rl01u.selected-WP3kCM
+  .header-2V-4Sw {
   border-right: none;
   h1 {
     color: var(--text-focus);

@@ -1,3 +1,5 @@
+@use '../assets';
+
 #app-mount .layer-3QrUeG[aria-label="GUILD_SETTINGS"] {
   .contentColumnMinimal-2iX-kP {
     max-width: unset;
@@ -35,8 +37,7 @@
   }
 
   // Overview
-  .children-rWhLdy {
-    .marginBottom40-2vIwTv.flex-1xMQg5[style] + .divider-3wNib3 + .divider-3wNib3:nth-child(3) .select-2TCrqx + .colorStandard-2KCXvj + .marginTop20-3TxNs6 + .marginTop20-3TxNs6 {
+  .children-rWhLdy {marginBottom40-2vIwTv.flex-1xMQg5[style] + .divider-3wNib3 + .divider-3wNib3:nth-child(3) .select-2TCrqx + .colorStandard-2KCXvj + .marginTop20-3TxNs6 + .marginTop20-3TxNs6 {
       margin: 0;
     }
     .flex-1xMQg5[style*="flex: 1 1 50%"],
@@ -60,7 +61,7 @@
     top: 50px;
     border-right: 1px solid var(--base-border);
     width: 200px;
-    + .content-1rPSz4 {
+    & + .content-1rPSz4 {
       max-width: unset;
       div:first-child .size14-e6ZScH.marginBottom20-32qID7 {
         font-size: var(--font-size);
@@ -74,8 +75,8 @@
         margin-bottom: var(--spacing-double);
       }
       .marginBottom40-2vIwTv
-        + .divider-3573oO
-        + .marginBottom40-2vIwTv
+        & + .divider-3573oO
+        & + .marginBottom40-2vIwTv
         div.flex-1xMQg5.marginBottom20-32qID7 {
         margin-bottom: 0;
       }
@@ -99,13 +100,13 @@
         pointer-events: none;
         opacity: 1;
         .addRoleIcon-3YjErH {
-          content: url($blank);
+          content: url(assets.$blank);
           background: var(--text-muted);
           height: 12px;
           width: 12px;
           opacity: 1;
           pointer-events: all;
-          -webkit-mask: url($icon_add) center/10px no-repeat;
+          mask: url(assets.$icon_add) center/10px no-repeat;
           transition: none;
           &:hover {
             background: var(--text-normal);
@@ -186,7 +187,7 @@
       height: 156px !important;
       margin-bottom: var(--spacing-double);
       background: var(--text-muted) !important;
-      mask: url($illustration_7) center/contain no-repeat;
+      mask: url(assets.$illustration_7) center/contain no-repeat;
     }
     .title-2BxgL2 {
       color: var(--text-normal);
@@ -325,7 +326,7 @@
         }
       }
       .expand-1lx8E1 {
-        mask: url($icon_triangle) center/contain no-repeat;
+        mask: url(assets.$icon_triangle) center/contain no-repeat;
         background: var(--text-muted);
         transition: none;
         width: 12px;

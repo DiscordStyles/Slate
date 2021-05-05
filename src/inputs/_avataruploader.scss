@@ -1,3 +1,5 @@
+@use '../assets';
+
 #app-mount .avatarUploader-3XDtmn {
   .removeButton-1hcZyG {
     font-size: var(--font-size);
@@ -37,7 +39,7 @@
         width: 100%;
         height: 100%;
         background: var(--text-muted);
-        mask: url($icon_person) center/32% no-repeat;
+        mask: url(assets.$icon_person) center/32% no-repeat;
       }
     }
     .avatarUploaderAcronym-3SioMc {
@@ -58,7 +60,7 @@
       width: 25px;
       height: 25px;
       background: var(--white);
-      -webkit-mask: url($icon_attach) center/contain no-repeat;
+      mask: url(assets.$icon_attach) center/contain no-repeat;
     }
   }
   .avatarUploaderIndicator-2G-aIZ {

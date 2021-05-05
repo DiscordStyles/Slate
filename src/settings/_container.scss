@@ -8,8 +8,8 @@
   justify-content: center;
   padding: 0 var(--spacing-triple);
   background: var(--backdrop);
-  z-index:1;
-  top:calc(var(--titlebar-height) * -1);
+  z-index: 1;
+  top: calc(var(--titlebar-height) * -1);
   [class*="scroller-" i]:not([class*="bd-"]) {
     background: var(--background);
     &::-webkit-scrollbar {
@@ -34,17 +34,15 @@
     max-height: 650px;
     min-height: 400px;
     padding-top: 50px;
-    top:0;
+    top: 0;
     .settingsToolbar-wu4yfQ {
-      display:none; // OldTitleBar
+      display: none; // OldTitleBar
     }
   }
 }
 
 @media only screen and (max-height: 650px) {
-  #app-mount .layer-3QrUeG[aria-label*="SETTINGS"] {
-    .standardSidebarView-3F1I7i {
-      min-height: 500px;
-    }
+  #app-mount .layer-3QrUeG[aria-label*="SETTINGS"] .standardSidebarView-3F1I7i {
+    min-height: 500px;
   }
 }

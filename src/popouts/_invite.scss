@@ -1,3 +1,5 @@
+@use '../assets';
+
 #app-mount .noArrow-2foL9g.noShadow-3pu20z.popout-2iWAc-.popoutTopLeft-3B0mFf.arrowAlignmentTop-1yftWI {
   top: 616px !important;
 }
@@ -22,7 +24,6 @@
       transform: rotate(45deg);
       border-bottom: 1px solid var(--base-border);
       border-right: 1px solid var(--base-border);
-      -webkit-clip-path: polygon(0 100%, 100% 100%, 100% 0);
       clip-path: polygon(0 100%, 100% 100%, 100% 0);
       box-shadow: var(--elevation-1);
     }
@@ -30,10 +31,10 @@
     .attachPopoutRow-3iqqu1 {
       cursor: var(--cursor);
       &:first-child svg {
-        -webkit-mask: url($icon_upload) center/18px no-repeat;
+        mask: url(assets.$icon_upload) center/18px no-repeat;
       }
       &:last-child svg {
-        -webkit-mask: url($icon_package_out) center/18px no-repeat;
+        mask: url(assets.$icon_package_out) center/18px no-repeat;
       }
     }
   }

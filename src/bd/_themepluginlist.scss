@@ -14,7 +14,7 @@
       height: 25px;
       line-height: 24px;
       &::-webkit-input-placeholder {
-        color:var(--text-muted);
+        color: var(--text-muted);
       }
       &:focus,
       .focused-1mmYsC {
@@ -29,7 +29,7 @@
   .bd-addon-card {
     background: var(--background-dark);
     border: 1px solid var(--base-border);
-    border-radius:var(--border-radius);
+    border-radius: var(--border-radius);
     padding: 0;
     position: relative;
     .bda-header {
@@ -48,7 +48,7 @@
       font-weight: var(--font-weight-normal);
     }
     .bda-description-wrap:last-child {
-      padding-bottom:16px;
+      padding-bottom: 16px;
     }
     .bda-footer {
       padding: var(--spacing) 77px var(--spacing) var(--spacing);
@@ -63,13 +63,13 @@
       background: var(--background-light);
       border: 1px solid var(--base-border) !important;
       box-shadow: none !important;
-      margin-right:var(--spacing);
+      margin-right: var(--spacing);
       &:hover {
-        border:1px solid currentColor !important; 
+        border: 1px solid currentColor !important;
       }
       &:focus {
         box-shadow: 0 0 0 1px currentColor !important;
-        border:1px solid currentColor !important;
+        border: 1px solid currentColor !important;
       }
     }
     .bd-addon-button {
@@ -82,8 +82,8 @@
       border: 1px solid var(--base-border) !important;
       cursor: var(--cursor);
       position: absolute;
-      right:var(--spacing);
-      bottom:var(--spacing);
+      right: var(--spacing);
+      bottom: var(--spacing);
       &:before {
         content: "Delete";
       }
@@ -109,7 +109,7 @@
     border: 1px solid var(--secondary-border) !important;
   }
   &:active {
-    box-shadow: 0 0 0 2px rgba(0,0,0,0.05) !important;
+    box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.05) !important;
     border: 1px solid var(--secondary-border) !important;
   }
 }

@@ -10,27 +10,27 @@
     border: 1px solid var(--base-border);
     position: relative;
     font-weight: var(--font-weight-semibold);
-    transform: none !important; 
+    transform: none !important;
     &.subscribeTooltipWrapper-32-Ce8 {
-      padding:var(--spacing);
+      padding: var(--spacing);
       &:after {
-        margin:0;
-        margin-left:-5px;
+        margin: 0;
+        margin-left: -5px;
       }
       .subscribeTooltipHeader-2etyUq {
-        margin-bottom:var(--spacing-half);
-        color:var(--text-normal);
-        font-weight:var(--font-weight-semibold);
-        font-size:var(--font-size-md);
+        margin-bottom: var(--spacing-half);
+        color: var(--text-normal);
+        font-weight: var(--font-weight-semibold);
+        font-size: var(--font-size-md);
       }
       .subscribeTooltipText-w-pylu {
-        margin:0;
-        color:var(--text-muted);
-        font-weight:var(--font-weight-normal);
-        font-size:var(--font-size);
+        margin: 0;
+        color: var(--text-muted);
+        font-weight: var(--font-weight-normal);
+        font-size: var(--font-size);
       }
       .subscribeTooltipButton-r9C2rU {
-        margin-top:var(--spacing);
+        margin-top: var(--spacing);
       }
     }
     .tooltipContent-bqVLWK {
@@ -62,23 +62,23 @@
       margin-top: -5px;
     }
     .size14-e6ZScH {
-      color:var(--text-normal);
-      font-size:var(--font-size);
-      line-height:normal;
+      color: var(--text-normal);
+      font-size: var(--font-size);
+      line-height: normal;
       &.clickCTA-kIMiUd {
-        color:var(--text-muted);
-        font-size:var(--font-size-sm);
+        color: var(--text-muted);
+        font-size: var(--font-size-sm);
       }
     }
     .userTooltip-7qZaHD {
-      font-size:var(--font-size);
-      color:var(--text-normal);
+      font-size: var(--font-size);
+      color: var(--text-normal);
       .avatar-i5C_qp {
-        margin-right:var(--spacing-half);
+        margin-right: var(--spacing-half);
       }
       .discriminator-17tNDS {
-        opacity:1;
-        color:var(--text-muted);
+        opacity: 1;
+        color: var(--text-muted);
       }
     }
   }

@@ -1,9 +1,11 @@
+@use '../assets';
+
 #app-mount .member-3-YXUe {
   padding: 0;
   margin: 0;
   max-width: 100%;
   &.offline-3nJYBR {
-    opacity:.5;
+    opacity: 0.5;
   }
 
   // Generic member entries
@@ -36,7 +38,7 @@
     font-weight: var(--font-weight-semibold);
     color: var(--text-muted);
     .icon-15YQ1T {
-      margin-left:calc(var(--spacing) / 4);
+      margin-left: calc(var(--spacing) / 4);
     }
   }
 
@@ -52,23 +54,25 @@
     margin-left: 0;
     margin-top: 0;
     margin-right: var(--spacing-half);
-    span, svg {
+    span,
+    svg {
       display: none;
     }
     &:before {
-      content: '';
+      content: "";
       width: 16px;
       height: 16px;
       position: relative;
       display: flex;
       align-items: center;
       justify-content: center;
-      mask: url($icon_cog) center/12px no-repeat;
+      mask: url(assets.$icon_cog) center/12px no-repeat;
       background: var(--text-normal);
     }
   }
   &.selected-aXhQR6 {
-    .activity-2Gy-9S, .roleColor-rz2vM0 {
+    .activity-2Gy-9S,
+    .roleColor-rz2vM0 {
       color: #fff !important;
     }
   }
@@ -76,7 +80,7 @@
   // Placeholders
   &.placeholder-3X_lzF {
     padding: 0 var(--spacing);
-    animation:none;
+    animation: none;
     .placeholderAvatar-damqh6 {
       border-radius: var(--border-radius);
       border: 1px solid var(--base-border);
@@ -90,11 +94,11 @@
   }
 }
 .mulitplePlaceholderUsername-pogq9I,
-.placeholderUsername-2B_OA9, 
+.placeholderUsername-2B_OA9,
 .memberGroupsPlaceholder-3mwPub {
-  background:var(--text-muted);
-  opacity:.2;
-  height:4px;
-  animation:none;
-  border-radius:var(--border-radius);
+  background: var(--text-muted);
+  opacity: 0.2;
+  height: 4px;
+  animation: none;
+  border-radius: var(--border-radius);
 }

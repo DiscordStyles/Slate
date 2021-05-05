@@ -1,3 +1,5 @@
+@use '../assets';
+
 #app-mount {
   .wrapper-2TxpI8 {
     background: var(--background);
@@ -14,10 +16,8 @@
       opacity: 0;
       transition: 250ms linear opacity;
     }
-    &.wrapperPaused-19pWuK {
-      &:after {
-        opacity: 1;
-      }
+    &.wrapperPaused-19pWuK:after {
+      opacity: 1;
     }
     &.wrapperControlsHidden-35Gtol {
       .metadata-13NcHb,
@@ -25,10 +25,8 @@
         opacity: 0;
       }
     }
-    &:hover {
-      .playCenter-Fe8u3X .wrapper-129saQ .icon-3ZFEtL {
-        opacity: 1;
-      }
+    &:hover .playCenter-Fe8u3X .wrapper-129saQ .icon-3ZFEtL {
+      opacity: 1;
     }
   }
   .playCenter-Fe8u3X {
@@ -47,7 +45,7 @@
         background: var(--white);
         opacity: 0.65;
         margin-top: 4px;
-        -webkit-mask: url($icon_play) center/72px no-repeat;
+        mask: url(assets.$icon_play) center/72px no-repeat;
         polygon {
           display: none;
         }
@@ -200,7 +198,7 @@
       height: 18px;
       width: 18px;
       opacity: 0.75;
-      -webkit-mask: url($icon_download) center/18px no-repeat;
+      mask: url(assets.$icon_download) center/18px no-repeat;
       .metadataIcon-2FyCKU {
         display: none;
       }

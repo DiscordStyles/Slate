@@ -1,3 +1,5 @@
+@use '../assets';
+
 #app-mount .layer-3QrUeG[aria-label="CHANNEL_SETTINGS"] {
   .customContainer-1RHXqt {
     position: relative;
@@ -15,6 +17,6 @@
     height: 156px !important;
     margin-bottom: var(--spacing-double);
     background: var(--text-muted) !important;
-    mask: url($illustration_7) center/contain no-repeat;
+    mask: url(assets.$illustration_7) center/contain no-repeat;
   }
 }

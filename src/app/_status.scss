@@ -1,3 +1,5 @@
+@use '../assets';
+
 .userPopout-3XzG_A {
   .wrapper-3t9DeA {
     z-index: 1;
@@ -65,7 +67,7 @@
         height: 100%;
         position: relative;
         background: var(--white);
-        -webkit-mask: url($icon_person) center/18px no-repeat;
+        mask: url(assets.$icon_person) center/18px no-repeat;
       }
     }
   }
@@ -105,10 +107,10 @@
   background: var(--background-dark);
   .avatar-VxgULZ {
     &[src*="/assets/"] {
-      content: url($blank);
+      content: url(assets.$blank);
       border-radius: 0;
       background: var(--text-muted);
-      mask: url($icon_person) center/42% no-repeat;
+      mask: url(assets.$icon_person) center/42% no-repeat;
     }
     &:before {
       content: none;
@@ -119,7 +121,7 @@
     &[src*="/assets/485a854d5171c8dc98088041626e6fea.png"],
     &[src*="/assets/f810dc5fedb7175c43a3389aa890534f.png"],
     &[src*="/assets/b3150d5cef84b9e82128a1131684f287.png"] {
-      mask: url($icon_organization) center/50% no-repeat;
+      mask: url(assets.$icon_organization) center/50% no-repeat;
     }
   }
   svg:not(:root) {

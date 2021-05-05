@@ -86,7 +86,7 @@
   }
   .infoWrapper-3ekLP_ {
     display: grid;
-    grid-template-columns: .4fr 2fr;
+    grid-template-columns: 0.4fr 2fr;
     align-items: center;
     grid-gap: var(--spacing);
   }
@@ -120,7 +120,8 @@
     color: var(--text-normal);
     .selectable-3dP3y- {
       cursor: var(--cursor);
-      &:hover, &.selected-1Tbx07 {
+      &:hover,
+      &.selected-1Tbx07 {
         background: var(--background-modifier-hover);
       }
       &:active {

@@ -1,6 +1,9 @@
 body #app-mount #bd-settingspane-container {
   // Buttons
-  .bd-addon-button, .bd-button, .bda-link, .bd-pfbtn {
+  .bd-addon-button,
+  .bd-button,
+  .bda-link,
+  .bd-pfbtn {
     font-size: var(--font-size);
     font-weight: var(--font-weight-normal);
     cursor: var(--cursor);
@@ -15,7 +18,7 @@ body #app-mount #bd-settingspane-container {
     border: none !important;
     text-decoration: none;
     user-select: none;
-    width:fit-content;
+    width: fit-content;
   }
   .bd-button {
     &:hover {
@@ -48,10 +51,10 @@ body #app-mount #bd-settingspane-container {
     }
   }
   .bd-addon-controls {
-    flex-direction:row;
+    flex-direction: row;
   }
   .bd-pfbtn {
-    display:block;
+    display: block;
     margin: var(--spacing-double) 0 var(--spacing-double) var(--spacing-double);
   }
   .bd-controls {

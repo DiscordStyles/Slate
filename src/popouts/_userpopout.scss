@@ -38,11 +38,11 @@
       font-size: var(--font-size-sm);
       font-weight: var(--font-weight-normal);
       color: var(--text-normal);
-      line-height:normal;
+      line-height: normal;
     }
 
     .activityName-1IaRLn {
-      font-weight:var(--font-weight-semibold);
+      font-weight: var(--font-weight-semibold);
     }
 
     // Roles
@@ -52,7 +52,7 @@
       padding: 0 var(--spacing);
       max-height: 172px;
       overflow: auto;
-      position:static;
+      position: static;
     }
     .member-perm,
     .role-2irmRk {
@@ -63,7 +63,7 @@
       padding: var(--spacing-half) calc(var(--spacing) / 1.5);
       margin: 0 var(--spacing-half) var(--spacing-half) 0;
       height: auto;
-      height:22px;
+      height: 22px;
       &:hover .roleCircle-3xAZ1j,
       &:active .roleCircle-3xAZ1j {
         opacity: 1;
@@ -84,7 +84,7 @@
         opacity: 0.75;
         border-radius: 50px;
         .roleRemoveIcon-2-TeGW {
-          position:relative;
+          position: relative;
           z-index: 10;
           background: inherit;
           width: 100%;
@@ -94,16 +94,16 @@
           opacity: 0;
           border-radius: 50px;
           path {
-            fill:var(--white);
-            transform:scale(.75);
-            transform-origin:center;
+            fill: var(--white);
+            transform: scale(0.75);
+            transform-origin: center;
           }
         }
       }
       .member-perm .name,
       .roleName-32vpEy {
         overflow: hidden;
-        line-height:normal;
+        line-height: normal;
         position: relative;
         z-index: 1;
         margin-right: 0;
@@ -116,15 +116,15 @@
       position: absolute;
       top: 0;
       right: 0;
-      padding:0;
+      padding: 0;
       margin: 0 var(--spacing);
       height: 28px;
       border-radius: var(--border-radius);
       color: var(--text-muted);
       cursor: var(--cursor);
       .addButtonIcon-1NMJ8u {
-        height:var(--font-size);
-        width:var(--font-size);
+        height: var(--font-size);
+        width: var(--font-size);
         cursor: var(--cursor);
       }
       &:hover,
@@ -161,21 +161,21 @@
       box-sizing: border-box;
       transform: translateZ(0);
       .botTag-2WPJ74 {
-        margin:0;
+        margin: 0;
         line-height: var(--line-height);
-        border-radius:var(--border-radius);
-        padding:1px var(--spacing-half);
-        color:var(--text-normal);
-        background:var(--background-modifier-active);
-        font-size:var(--font-size-sm);
-        font-weight:var(--font-weight-normal);
-        user-select:none;
-        height:auto;
+        border-radius: var(--border-radius);
+        padding: 1px var(--spacing-half);
+        color: var(--text-normal);
+        background: var(--background-modifier-active);
+        font-size: var(--font-size-sm);
+        font-weight: var(--font-weight-normal);
+        user-select: none;
+        height: auto;
         .botText-1526X_ {
-          font-size:var(--font-size-xsm) !important;
-          font-weight:var(--font-weight-semibold);
-          line-height:normal;
-          text-transform:capitalize;
+          font-size: var(--font-size-xsm) !important;
+          font-weight: var(--font-weight-semibold);
+          line-height: normal;
+          text-transform: capitalize;
         }
       }
     }
@@ -183,13 +183,13 @@
       font-weight: var(--font-weight-semibold);
       color: var(--text-muted);
       font-size: var(--font-size-sm);
-      justify-content:flex-start;
+      justify-content: flex-start;
       &.headerTagNoNickname-ENx6no {
         font-size: var(--font-size-md);
       }
       span:not(.botText-1526X_):not(.username-2b1r56) {
-        font-size:var(--font-size);
-        margin-right:var(--spacing-third);
+        font-size: var(--font-size);
+        margin-right: var(--spacing-third);
       }
     }
     .headerNormal-T_seeN,
@@ -200,7 +200,7 @@
       background: rgba(var(--accent), 0.1);
       .activity-11LB_k > .buttonsWrapper-2eYbM0 {
         margin-top: 0;
-        padding:0 var(--spacing);
+        padding: 0 var(--spacing);
         position: relative;
         & > .listeningActionsUserPopout-Ga2V_N {
           height: var(--item-height);
@@ -231,7 +231,7 @@
         width: 100%;
         text-align: left;
         line-height: normal;
-        align-items:center;
+        align-items: center;
       }
     }
     .headerNameWrapper-3res2c {
@@ -240,13 +240,13 @@
       .headerName-fajvi9 {
         font-size: var(--font-size-md);
         white-space: nowrap;
-        color:var(--text-normal);
-        font-weight:var(--font-weight-semibold);
+        color: var(--text-normal);
+        font-weight: var(--font-weight-semibold);
       }
     }
     .headerTagUsernameNoNickname-2_H881 {
       color: var(--text-normal);
-      font-weight:var(--font-weight-semibold);
+      font-weight: var(--font-weight-semibold);
       overflow: hidden;
       white-space: nowrap;
       text-overflow: ellipsis;
@@ -352,10 +352,10 @@
       z-index: 0;
       & + .horizontal-2EEEnY {
         position: absolute;
-        height:28px;
+        height: 28px;
         top: -28px;
         right: var(--spacing);
-        align-items:center;
+        align-items: center;
       }
     }
     .barInner-3NDaY_ {
@@ -490,7 +490,6 @@
 }
 
 // USRBG Integration
-
 .userPopout-3XzG_A {
   .wrapper-3t9DeA::after {
     content: "";
@@ -519,5 +518,5 @@
 // Light Mode
 
 html.theme-light #app-mount .userPopout-3XzG_A .note-3HfJZ5 textarea {
-  background:var(--background);
+  background: var(--background);
 }

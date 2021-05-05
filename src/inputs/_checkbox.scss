@@ -8,7 +8,6 @@
     display: flex;
     align-items: center;
     box-shadow: none;
-    -webkit-box-shadow: none;
     cursor: var(--cursor);
     .slider-TkfMQL {
       display: none;
@@ -39,7 +38,10 @@
   }
 
   // Secondary Checkbox Elements
-  .checkbox-3kaeSU .checkboxInner-3yjcPe .checkboxElement-1qV33p:checked + span {
+  .checkbox-3kaeSU
+    .checkboxInner-3yjcPe
+    .checkboxElement-1qV33p:checked
+    & + span {
     background-color: var(--accent-solid);
     border-color: var(--accent-solid);
   }

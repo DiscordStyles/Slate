@@ -1,17 +1,19 @@
+@use '../assets';
+
 #app-mount {
   .sidebar-CFHs9e .item-PXvHYJ {
     &[aria-controls="Emotes-tab"]:before {
-      mask-image: url($icon_smiley);
+      mask-image: url(assets.$icon_smiley);
       mask-size: 14px;
     }
     &[aria-controls="plugins-tab"]:before {
-      mask-image: url($icon_plug);
+      mask-image: url(assets.$icon_plug);
     }
     &[aria-controls="themes-tab"]:before {
-      mask-image: url($icon_paint-roller);
+      mask-image: url(assets.$icon_paint-roller);
     }
     &[aria-controls="customcss-tab"]:before {
-      mask-image: url($icon_code);
+      mask-image: url(assets.$icon_code);
     }
     &:hover {
       background: transparent;

@@ -1,16 +1,16 @@
 #app-mount .uploadModal-2ifh8j {
-  box-shadow:var(--elevation-high);
+  box-shadow: var(--elevation-high);
   background-color: var(--background);
   border-radius: var(--border-radius);
-  border:1px solid var(--base-border);
-  box-sizing:border-box;
+  border: 1px solid var(--base-border);
+  box-sizing: border-box;
   position: relative;
   padding-top: 32px;
   min-height: unset;
   .inner-3nWsbo {
     margin: 0;
-    padding:var(--spacing-double);
-    box-sizing:border-box;
+    padding: var(--spacing-double);
+    box-sizing: border-box;
   }
   .file-34mY5K {
     position: unset;
@@ -27,10 +27,10 @@
       max-height: 60vh !important;
       background-size: cover;
       box-shadow: none;
-      box-sizing:border-box;
+      box-sizing: border-box;
       border: 1px solid var(--base-border);
       background-color: var(--background);
-      border-radius:var(--border-radius);
+      border-radius: var(--border-radius);
       &:active {
         background-size: 100%;
       }
@@ -53,34 +53,34 @@
     border-radius: var(--border-radius) var(--border-radius) 0 0;
     .filename-ovv3c5 {
       font-size: var(--font-size);
-      font-weight:var(--font-weight-semibold);
-      color:var(--text-normal);
+      font-weight: var(--font-weight-semibold);
+      color: var(--text-normal);
       line-height: normal;
       height: auto;
-      user-select:text;
+      user-select: text;
     }
   }
   .comment-4IWttf {
     margin: 0;
-    margin-top:var(--spacing);
+    margin-top: var(--spacing);
     .label-3aiqT2 {
-      font-size:var(--font-size);
-      color:var(--text-normal);
-      font-weight:var(--font-weight-normal);
-      text-transform:none;
-      margin-bottom:var(--spacing-third);
+      font-size: var(--font-size);
+      color: var(--text-normal);
+      font-weight: var(--font-weight-normal);
+      text-transform: none;
+      margin-bottom: var(--spacing-third);
       .optional--ezibr {
-        margin:0;
-        color:var(--text-muted);
+        margin: 0;
+        color: var(--text-muted);
         &::before {
-          content:' ';
+          content: " ";
         }
       }
     }
     .channelTextArea-2VhZ6z {
-      margin:0;
+      margin: 0;
       .inner-MADQqc {
-        background:var(--background-alt);
+        background: var(--background-alt);
         .scrollableContainer-2NUZem {
           border-radius: var(--border-radius);
         }
@@ -89,7 +89,7 @@
   }
   .charcounter {
     font-size: var(--font-size);
-    opacity: .5;
+    opacity: 0.5;
   }
   .footer-3mqk7D {
     background: var(--background);

@@ -6,19 +6,21 @@
     padding: var(--spacing-half) 0;
     .wrapper-PY0fhH {
       color: var(--text-normal);
-      height:26px;
-      padding-right:var(--spacing);
-      padding-left:20px;
+      height: 26px;
+      padding-right: var(--spacing);
+      padding-left: 20px;
       cursor: var(--cursor);
-      svg, .name-3l27Hl, .container-2ax-kl {
+      svg,
+      .name-3l27Hl,
+      .container-2ax-kl {
         color: var(--text-normal);
-        font-size:var(--font-size-sm);
-        font-weight:var(--font-weight-semibold);
-        line-height:normal;
+        font-size: var(--font-size-sm);
+        font-weight: var(--font-weight-semibold);
+        line-height: normal;
       }
       .arrow-gKvcEx {
-        left:4px;
-        top:7px;
+        left: 4px;
+        top: 7px;
       }
       .name-3l27Hl,
       .container-2ax-kl {
@@ -26,16 +28,17 @@
       }
       &.muted-1NRuDm {
         color: var(--text-muted);
-        svg, .name-3l27Hl {
+        svg,
+        .name-3l27Hl {
           color: var(--text-muted);
         }
       }
       .addButton-1BORro {
-        height:14px;
-        width:14px;
+        height: 14px;
+        width: 14px;
         svg {
-          height:14px;
-          width:14px;
+          height: 14px;
+          width: 14px;
         }
       }
     }

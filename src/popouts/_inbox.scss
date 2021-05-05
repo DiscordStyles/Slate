@@ -1,6 +1,6 @@
 #app-mount {
   .recentMentionsPopout-3rCiI6 {
-    margin-left:-50px;
+    margin-left: -50px;
     position: absolute;
     background: var(--background);
     box-shadow: none;
@@ -125,10 +125,11 @@
       color: var(--white);
     }
     &:hover {
-      box-shadow: inset 0 0 0 100vmax rgba(255,255,255,0.1);
+      box-shadow: inset 0 0 0 100vmax rgba(255, 255, 255, 0.1);
     }
     &:focus {
-      box-shadow: 0 0 0 2px rgba(var(--accent), 0.25), inset 0 0 0 100vmax rgba(255,255,255,0.1);
+      box-shadow: 0 0 0 2px rgba(var(--accent), 0.25),
+        inset 0 0 0 100vmax rgba(255, 255, 255, 0.1);
     }
   }
 }

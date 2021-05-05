@@ -2,8 +2,8 @@
   .searchResultsWrap-3-pOjs {
     background-color: var(--background);
     border-left: 1px solid var(--base-border);
-    box-sizing:border-box;
-    width:calc(var(--sidebar-width) * 1.5);
+    box-sizing: border-box;
+    width: calc(var(--sidebar-width) * 1.5);
     .scroller-3GIiMh {
       padding: 0 !important;
       margin-top: -1px;
@@ -84,7 +84,8 @@
       box-sizing: border-box;
       justify-content: space-around;
     }
-    button, .pageButton-2ruNwd {
+    button,
+    .pageButton-2ruNwd {
       font-size: var(--font-size);
       font-weight: var(--font-weight-normal);
       min-height: var(--input-height);
@@ -123,7 +124,8 @@
 }
 
 html.theme-light #app-mount {
-  .pageControlContainer-eP-SVd button, .tab-2j5AEF {
+  .pageControlContainer-eP-SVd button,
+  .tab-2j5AEF {
     &:hover {
       background: var(--background);
       border: 1px solid var(--secondary-border);

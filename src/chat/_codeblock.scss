@@ -1,4 +1,6 @@
 // Codeblocks
+@use '../assets';
+@use 'codeblocklangs';
 
 #app-mount {
 	code,
@@ -72,10 +74,9 @@
 				top: 0;
 				left: 0;
 				padding: 0 var(--spacing-third);
-				-webkit-mask: url($icon_code_document) center/12px no-repeat;
+				mask: url(assets.$icon_code_document) center/12px no-repeat;
 				background: var(--text-normal);
 			}
-			@import 'codeblocklangs';
 
 			// Syntax
 			.hljs-built_in,

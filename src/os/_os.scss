@@ -12,8 +12,8 @@ html.platform-osx #app-mount {
 // Linux
 
 html.platform-linux {
-  --titlebar-height:0px;
+  --titlebar-height: 0px;
   #guild-header-popout {
-    top:var(--toolbar-height) !important;
+    top: var(--toolbar-height) !important;
   }
 }

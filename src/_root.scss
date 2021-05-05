@@ -26,8 +26,8 @@
   --spacing-triple: calc(var(--spacing) * 3);
 
   // Fonts
-  --font-family-sans-serif: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', Arial, sans-serif;
-  --font-family-monospace: Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
+  --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
+  --font-family-monospace: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 
   // Text Scaling
   --font-size-xsm: 9px;
@@ -66,7 +66,7 @@
   --toolbar-search-border: var(--toolbar-border);
   --toolbar-background: #1d2125;
   --toolbar-background-hover: #2f363d;
-  --toolbar-background-active:#444d56;
+  --toolbar-background-active: #444d56;
   --toolbar-background-alt: #24292e;
   --toolbar-border: #141414;
 
@@ -82,7 +82,7 @@
   --channel-height: 32px;
 
   // Avatars
-  --avatar-size-xsm:18px;
+  --avatar-size-xsm: 18px;
   --avatar-size-sm: 24px;
   --avatar-size: 28px;
   --avatar-size-lg: 45px;
@@ -92,8 +92,8 @@
   --backdrop: rgb(0 0 0 / 0.4);
 
   // Elevation
-  --elevation-1: 0 8px 24px rgba(0,0,0,0.15);
-  --elevation-2: 0 2px 7px rgba(0,0,0,0.5);
+  --elevation-1: 0 8px 24px rgba(0, 0, 0, 0.15);
+  --elevation-2: 0 2px 7px rgba(0, 0, 0, 0.5);
 
   // Status Colors
   --status-green: 40, 167, 69;

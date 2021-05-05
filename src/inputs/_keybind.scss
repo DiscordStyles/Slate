@@ -1,3 +1,5 @@
+@use '../assets';
+
 #app-mount {
   .container-1nZlH6 {
     border: 1px solid var(--base-border);
@@ -5,56 +7,56 @@
     background: var(--background-dark);
     font-size: var(--font-size);
     height: var(--input-height);
-    padding:0 var(--spacing-half);
+    padding: 0 var(--spacing-half);
     min-height: auto;
-    animation:none;
-    transition:none;
-    cursor: var(--cursor); 
+    animation: none;
+    transition: none;
+    cursor: var(--cursor);
     .layout-eEMo5y {
-      position:relative;
-      height:100%;
+      position: relative;
+      height: 100%;
       .input-1UhAnY {
-        padding:0;
-        font-size:var(--font-size);
-        color:var(--text-normal);
-        font-weight:var(--font-weight);
-        height:100%;
-        cursor: var(--cursor); 
+        padding: 0;
+        font-size: var(--font-size);
+        color: var(--text-normal);
+        font-weight: var(--font-weight);
+        height: 100%;
+        cursor: var(--cursor);
       }
       .flex-1xMQg5 {
-        align-items:center;
+        align-items: center;
       }
       button {
-        margin:0;
-        padding:0;
-        transition:none;
-        cursor: var(--cursor); 
-        width:16px;
-        height:16px;
-        background:var(--text-muted);
-        -webkit-mask:url($icon_pencil) center/12px no-repeat;
+        margin: 0;
+        padding: 0;
+        transition: none;
+        cursor: var(--cursor);
+        width: 16px;
+        height: 16px;
+        background: var(--text-muted);
+        mask: url(assets.$icon_pencil) center/12px no-repeat;
         .contents-18-Yxp {
-          display:none;
+          display: none;
         }
       }
       .flag-16iIBd {
-        display:none;
+        display: none;
       }
       .name-3suiPo {
-        margin:0;
+        margin: 0;
       }
     }
     &:hover button {
-      background:var(--text-normal);
+      background: var(--text-normal);
     }
     &.recording-1H2dS7 {
-      border:1px solid var(--accent-solid); 
-      box-shadow:0 0 0 2px rgba(var(--accent), 0.25);
+      border: 1px solid var(--accent-solid);
+      box-shadow: 0 0 0 2px rgba(var(--accent), 0.25);
       button {
-        -webkit-mask:url($icon_close) center/12px no-repeat;
-        background:var(--text-muted);
+        mask: url(assets.$icon_close) center/12px no-repeat;
+        background: var(--text-muted);
         &:hover {
-          background:var(--text-normal);
+          background: var(--text-normal);
         }
       }
     }
@@ -64,5 +66,5 @@
 // Light Mode
 
 html.theme-light #app-mount .container-1nZlH6 {
-  background:var(--background);
+  background: var(--background);
 }

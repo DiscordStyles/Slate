@@ -1,165 +1,168 @@
+@use '../assets';
+
 #app-mount .root-1gCeng.popout-103y-5 {
-    left:246px;
-    top:calc(var(--spacing) - 8px);
-    position:relative;
-    width:300px;
-    background:var(--background);
-    border:1px solid var(--base-border);
-    box-shadow:var(--elevation-1);
-    border-radius:var(--border-radius);
-    box-sizing:border-box;
-    max-height:unset;
-    min-height:unset;
-    &::before {
-        content:'';
-        position:absolute;
-        left:22px;
-        top:-4px;
-        height:10px;
-        width:10px;
-        background:var(--background-alt);
-        transform: rotate(-135deg);
-        border-bottom: 1px solid var(--base-border);
-        border-right: 1px solid var(--base-border);
-        -webkit-clip-path: polygon(0 100%, 100% 100%, 100% 0);
-        clip-path: polygon(0 100%, 100% 100%, 100% 0);
-        box-shadow: var(--elevation-1);
+  left: 246px;
+  top: calc(var(--spacing) - 8px);
+  position: relative;
+  width: 300px;
+  background: var(--background);
+  border: 1px solid var(--base-border);
+  box-shadow: var(--elevation-1);
+  border-radius: var(--border-radius);
+  box-sizing: border-box;
+  max-height: unset;
+  min-height: unset;
+  &::before {
+    content: "";
+    position: absolute;
+    left: 22px;
+    top: -4px;
+    height: 10px;
+    width: 10px;
+    background: var(--background-alt);
+    transform: rotate(-135deg);
+    border-bottom: 1px solid var(--base-border);
+    border-right: 1px solid var(--base-border);
+    -webkit-clip-path: polygon(0 100%, 100% 100%, 100% 0);
+    clip-path: polygon(0 100%, 100% 100%, 100% 0);
+    box-shadow: var(--elevation-1);
+  }
+  .header-1TKi98 {
+    padding: var(--spacing);
+    transition: none;
+    box-shadow: none;
+    border-bottom: 1px solid var(--base-border);
+    box-sizing: border-box;
+    background: var(--background-alt);
+    border-radius: var(--border-radius) var(--border-radius) 0 0;
+    position: static;
+    .h4-AQvcAz,
+    .tag-2gHSR7 {
+      // fuck these
+      display: none;
     }
-    .header-1TKi98 {
-        padding:var(--spacing);
-        transition:none;
-        box-shadow:none;
-        border-bottom:1px solid var(--base-border);
-        box-sizing:border-box;
-        background:var(--background-alt);
-        border-radius:var(--border-radius) var(--border-radius) 0 0;
-        position:static;
-        .h4-AQvcAz,
-        .tag-2gHSR7 { // fuck these
-            display:none;
+    .h4-AQvcAz:only-child {
+      display: flex;
+      align-items: center;
+      box-sizing: border-box;
+      height: var(--input-height);
+      background-color: var(--background-dark);
+      border: 1px solid var(--base-border);
+      border-radius: var(--border-radius);
+      font-size: var(--font-size);
+      padding: 0 var(--spacing-half);
+      color: var(--text-normal);
+      font-weight: var(--font-weight-normal);
+      margin: 0;
+      z-index: 1;
+      text-transform: none;
+      opacity: 0.5;
+      cursor: not-allowed;
+    }
+    .subtitle-2P4u9v {
+      color: var(--text-normal);
+      font-size: var(--font-size);
+      font-weight: var(--font-weight-normal);
+      line-height: normal;
+      margin: 0;
+      margin-bottom: var(--spacing-half);
+    }
+    .searchBar-1Vaz-O {
+      margin: 0;
+      .inner-3ErfOT {
+        overflow: visible !important;
+        .input-1Rv96N {
+          padding: 0 var(--spacing-half);
         }
-        .h4-AQvcAz:only-child {
-            display:flex;
-            align-items:center;
-            box-sizing: border-box;
-            height: var(--input-height);
-            background-color: var(--background-dark);
-            border: 1px solid var(--base-border);
-            border-radius: var(--border-radius);
+      }
+    }
+  }
+  .scroller-hUf6zQ {
+    .content-3YMskv {
+      height: fit-content !important;
+      .friendWrapper-2SrUFF {
+        margin: 0;
+        padding: 0;
+        .friend-3KALPe {
+          font-size: var(--font-size);
+          font-weight: var(--font-weight);
+          color: var(--text-);
+          padding: 0 var(--spacing);
+          height: var(--item-height);
+          cursor: var(--cursor);
+          border-radius: 0;
+          display: flex;
+          align-items: center;
+          .avatar-vr5NCN {
+            height: var(--avatar-size-xsm) !important;
+            width: var(--avatar-size-xsm) !important;
+          }
+          .nickname-O95uts {
+            display: none; // what is even the point of this
+          }
+          .discordTag-X7dpau {
+            opacity: 1;
+            color: var(--text-muted);
             font-size: var(--font-size);
-            padding: 0 var(--spacing-half);
-            color: var(--text-normal);
-            font-weight: var(--font-weight-normal);
-            margin: 0;
-            z-index: 1;
-            text-transform:none;
-            opacity:.5;
-            cursor:not-allowed;
-        }
-        .subtitle-2P4u9v {
-            color:var(--text-normal);
-            font-size:var(--font-size);
-            font-weight:var(--font-weight-normal);
-            line-height:normal;
-            margin:0;
-            margin-bottom:var(--spacing-half);
-        }
-        .searchBar-1Vaz-O {
-            margin:0;
-            .inner-3ErfOT {
-                overflow:visible !important;
-                .input-1Rv96N {
-                    padding:0 var(--spacing-half);
-                }
+            line-height: normal;
+            .username-2b1r56 {
+              font-weight: var(--font-weight-semibold);
+              color: var(--text-normal);
             }
+          }
+          &.friendSelected-1sa4bG,
+          &:hover {
+            background: var(--background-modifier-hover);
+          }
+          &:active {
+            background: var(--background-modifier-active);
+          }
         }
+      }
     }
-    .scroller-hUf6zQ {
-        .content-3YMskv {
-            height:fit-content !important;
-            .friendWrapper-2SrUFF {
-                margin:0;
-                padding:0;
-                .friend-3KALPe {
-                    font-size:var(--font-size);
-                    font-weight:var(--font-weight);
-                    color:var(--text-   );
-                    padding:0 var(--spacing);
-                    height:var(--item-height);
-                    cursor:var(--cursor);
-                    border-radius:0;
-                    display:flex;
-                    align-items:center;
-                    .avatar-vr5NCN {
-                        height:var(--avatar-size-xsm) !important;
-                        width:var(--avatar-size-xsm) !important;
-                    }
-                    .nickname-O95uts {
-                        display:none; // what is even the point of this
-                    }
-                    .discordTag-X7dpau {
-                        opacity:1;
-                        color:var(--text-muted);
-                        font-size:var(--font-size);
-                        line-height:normal;
-                        .username-2b1r56 {
-                            font-weight:var(--font-weight-semibold);    
-                            color:var(--text-normal);
-                        }
-                    }
-                    &.friendSelected-1sa4bG,
-                    &:hover {
-                        background:var(--background-modifier-hover);
-                    }
-                    &:active {
-                        background:var(--background-modifier-active);
-                    }
-                }
-            }
-        }
+  }
+  .errorState-KkUH_2 {
+    margin: 0;
+    padding: var(--spacing-double);
+    color: var(--text-normal);
+    font-size: var(--font-size);
+    font-weight: var(--font-weight-normal);
+    line-height: normal;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .errorStateIcon-3fNXE5 {
+      width: 72px;
+      height: 72px;
+      background: var(--text-muted);
+      display: block;
+      position: relative;
+      margin-bottom: var(--spacing);
+      mask: url(assets.$illustration_7) center/contain no-repeat;
     }
-    .errorState-KkUH_2 {
-        margin:0;
-        padding:var(--spacing-double);
-        color:var(--text-normal);
-        font-size:var(--font-size);
-        font-weight:var(--font-weight-normal);
-        line-height:normal;
-        display:flex;
-        flex-direction:column;
-        align-items:center;
-        .errorStateIcon-3fNXE5 {
-            width:72px;
-            height:72px;
-            background:var(--text-muted);
-            display:block;
-            position:relative;
-            margin-bottom:var(--spacing);
-            -webkit-mask:url($illustration_7) center/contain no-repeat;
-        }
-        > div:last-child {
-            max-width:180px;
-        }
+    > div:last-child {
+      max-width: 180px;
     }
-    .footerSeparator-M9dQY1 {
-        display:none; // why would they even add this 
+  }
+  .footerSeparator-M9dQY1 {
+    display: none; // why would they even add this
+  }
+  .footer-1eyGBa {
+    flex: 0 !important;
+    padding: var(--spacing);
+    border-top: 1px solid var(--base-border);
+    button {
+      margin: 0;
     }
-    .footer-1eyGBa {
-        flex:0 !important;
-        padding:var(--spacing);
-        border-top:1px solid var(--base-border);
-        button {
-            margin:0;
-        }
-        .h5-18_1nd + .input-cIJ7To {
-            border:none;
-            padding:0;
-            background:transparent;
-        }
-        .marginTop8-1DLZ1n {
-            margin-top:var(--spacing-half);
-            color:var(--text-muted);
-            font-size:var(--font-size-sm);
-        }
+    .h5-18_1nd + .input-cIJ7To {
+      border: none;
+      padding: 0;
+      background: transparent;
     }
+    .marginTop8-1DLZ1n {
+      margin-top: var(--spacing-half);
+      color: var(--text-muted);
+      font-size: var(--font-size-sm);
+    }
+  }
 }
