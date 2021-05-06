@@ -7,19 +7,20 @@ assignees: ''
 
 ---
 
-**Describe the bug**
-*((A clear and concise description of what the bug is))*
+**Describe the bug**  
+*((A clear and concise description of what the bug is))*  
 
-**To Reproduce**
-*((Steps to reproduce the behavior))*
+**To Reproduce**  
+*((Steps to reproduce the behavior))*  
 
-**Screenshots**
-*((If applicable, add screenshots to help explain your problem))*
+**Screenshots**  
+*((If applicable, add screenshots to help explain your problem))*  
 
-**Desktop (please complete the following information):**
-Discord channel: (Stable/PTB/Canary)
-OS: (Windows/Linux/OSX)
-Mod: (BetterDiscord/Powercord/Vizality)
+**Infomation (please complete the following information):**  
+Discord channel: *((Stable/PTB/Canary))*  
+OS: *((Windows/Linux/OSX))*  
+Mod: *((BetterDiscord/Powercord/Vizality))*  
+Discord language: *((Your language))*  
 
-**Additional context**
-*((Add any other context about the problem here.))*
+**Additional context**  
+*((Add any other context about the problem here.))*  
