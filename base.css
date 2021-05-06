@@ -14458,9 +14458,6 @@ html.theme-light #app-mount .footer-2gL1pp .cancelButton-2O3h8t:focus {
   -webkit-column-break-inside: avoid;
      -moz-column-break-inside: avoid;
           break-inside: avoid;
-  -webkit-column-break-after: always;
-     -moz-column-break-after: always;
-          break-after: always;
   margin-bottom: var(--spacing);
 }
 .root-SR8cQa .body-3ND3kc .infoScroller-3EYYns .userInfoSection-2acyCx .connectedAccounts-repVzS .connectedAccount-36nQx7 .connectedAccountName-f8AEe2 {
