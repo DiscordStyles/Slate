@@ -1,17 +1,17 @@
 @use '../assets';
 
 #app-mount .loading-Ags1CY {
-  background: var(--background-alt);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  &:before {
-    content: "";
-    width: 24px;
-    height: 24px;
-    background: var(--text-normal);
-    mask: url(assets.$icon_spinner) center/12px no-repeat;
-    animation: rotate 1s linear infinite;
-    position: relative;
-  }
+	background: var(--background-alt);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	&:before {
+		content: "";
+		width: 24px;
+		height: 24px;
+		background: var(--text-normal);
+		mask: url(assets.$icon_spinner) center/12px no-repeat;
+		animation: rotate 1s linear infinite;
+		position: relative;
+	}
 }

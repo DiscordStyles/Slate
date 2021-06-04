@@ -1,71 +1,71 @@
 @use '../assets';
 
 #app-mount .errorPage-u8SYh4 {
-  background: var(--background);
-  box-sizing: border-box;
-  order: 1;
-  .flex-1xMQg5 {
-    justify-content: flex-start;
-    align-items: flex-start;
-    padding: calc(var(--spacing) * 4);
-    .image-3zK3Wt {
-      position: absolute;
-      right: var(--spacing);
-      bottom: var(--spacing);
-      height: 490px;
-      width: 290px;
-      background: var(--text-muted);
-      mask: url(assets.$illustration_10) center/contain no-repeat;
-    }
-    .text-NLHgOm {
-      width: 100%;
-      margin-bottom: var(--spacing-double);
-      .note-450gs3,
-      .title-3trS3_ {
-        text-align: left;
-      }
-      .title-3trS3_ {
-        font-weight: var(--font-weight-light);
-        font-size: var(--font-size-xxl);
-        margin-bottom: var(--spacing);
-        line-height: normal;
-        display: flex;
-        align-items: center;
-        &::before {
-          content: "";
-          height: 50vh;
-          width: 50vh;
-          position: absolute;
-          bottom: -12.5vh;
-          left: -12.5vh;
-          z-index: 0;
-          transform: rotate(25deg);
-          display: block;
-          margin-right: var(--spacing);
-          background: var(--text-muted);
-          mask: url(assets.$icon_stop) center/contain no-repeat;
-        }
-      }
-      .note-450gs3 {
-        font-size: var(--font-size);
-        color: var(--text-normal);
-        font-weight: var(--font-weight-normal);
-        width: 500px;
-        &:after {
-          line-height: 1.5;
-          content: "Discord encountered a unexpected error that caused it to crash. If this is your first time seeing this screen, reload the app. If you continue seeing this after reloading, uninstall and reinstall Discord. If the issue still persists, consider contacting support.";
-        }
-        p {
-          display: none;
-        }
-      }
-    }
-    button {
-      position: absolute;
-      bottom: 0;
-      right: 0;
-      margin: calc(var(--spacing) * 4);
-      min-width: 150px;
-    }
-  }
+	background: var(--background);
+	box-sizing: border-box;
+	order: 1;
+	.flex-1xMQg5 {
+		justify-content: flex-start;
+		align-items: flex-start;
+		padding: calc(var(--spacing) * 4);
+		.image-3zK3Wt {
+			position: absolute;
+			right: var(--spacing);
+			bottom: var(--spacing);
+			height: 490px;
+			width: 290px;
+			background: var(--text-muted);
+			mask: url(assets.$illustration_10) center/contain no-repeat;
+		}
+		.text-NLHgOm {
+			width: 100%;
+			margin-bottom: var(--spacing-double);
+			.note-450gs3,
+			.title-3trS3_ {
+				text-align: left;
+			}
+			.title-3trS3_ {
+				font-weight: var(--font-weight-light);
+				font-size: var(--font-size-xxl);
+				margin-bottom: var(--spacing);
+				line-height: normal;
+				display: flex;
+				align-items: center;
+				&::before {
+					content: "";
+					height: 50vh;
+					width: 50vh;
+					position: absolute;
+					bottom: -12.5vh;
+					left: -12.5vh;
+					z-index: 0;
+					transform: rotate(25deg);
+					display: block;
+					margin-right: var(--spacing);
+					background: var(--text-muted);
+					mask: url(assets.$icon_stop) center/contain no-repeat;
+				}
+			}
+			.note-450gs3 {
+				font-size: var(--font-size);
+				color: var(--text-normal);
+				font-weight: var(--font-weight-normal);
+				width: 500px;
+				&:after {
+					line-height: 1.5;
+					content: "Discord encountered a unexpected error that caused it to crash. If this is your first time seeing this screen, reload the app. If you continue seeing this after reloading, uninstall and reinstall Discord. If the issue still persists, consider contacting support.";
+				}
+				p {
+					display: none;
+				}
+			}
+		}
+		button {
+			position: absolute;
+			bottom: 0;
+			right: 0;
+			margin: calc(var(--spacing) * 4);
+			min-width: 150px;
+		}
+	}
 }

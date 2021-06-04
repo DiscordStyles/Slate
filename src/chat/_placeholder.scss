@@ -1,50 +1,50 @@
 @use '../assets';
 
 #app-mount .chat-3bRxxu {
-  .wrapper-3vR61M {
-    background: var(--background-alt);
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-  }
-  .wrapper-1F5TKx {
-    background: transparent;
-    padding-top: var(--spacing);
-    padding-bottom: var(--spacing);
-    padding-left: calc(var(--avatar-size) + var(--spacing) * 2);
-    & + :not([style*="margin-top"]) {
-      margin-top: calc(var(--spacing) / -1);
-    }
-    &[style*="margin-top"] {
-      border-top: 1px solid var(--base-border);
-      margin-top: 0 !important;
-    }
-  }
-  .avatar-2daVqv {
-    border-radius: var(--avatar-radius);
-    width: var(--avatar-size);
-    height: var(--avatar-size);
-    box-shadow: 0 0 0 0.875px var(--base-border);
-    background: var(--background);
-    top: var(--spacing);
-    left: var(--spacing);
-    opacity: 1 !important;
-    box-sizing: border-box;
-    &::after {
-      content: "";
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      top: 0;
-      left: 0;
-      background: var(--text-muted);
-      mask: url(assets.$icon_person) center/40% no-repeat;
-    }
-  }
-  .attachment-2p5mHK,
-  .blob-2w7iIK {
-    border-radius: var(--border-radius);
-    background: var(--text-muted);
-    height: 4px;
-  }
+	.wrapper-3vR61M {
+		background: var(--background-alt);
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-end;
+	}
+	.wrapper-1F5TKx {
+		background: transparent;
+		padding-top: var(--spacing);
+		padding-bottom: var(--spacing);
+		padding-left: calc(var(--avatar-size) + var(--spacing) * 2);
+		& + :not([style*="margin-top"]) {
+			margin-top: calc(var(--spacing) / -1);
+		}
+		&[style*="margin-top"] {
+			border-top: 1px solid var(--base-border);
+			margin-top: 0 !important;
+		}
+	}
+	.avatar-2daVqv {
+		border-radius: var(--avatar-radius);
+		width: var(--avatar-size);
+		height: var(--avatar-size);
+		box-shadow: 0 0 0 0.875px var(--base-border);
+		background: var(--background);
+		top: var(--spacing);
+		left: var(--spacing);
+		opacity: 1 !important;
+		box-sizing: border-box;
+		&::after {
+			content: "";
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			top: 0;
+			left: 0;
+			background: var(--text-muted);
+			mask: url(assets.$icon_person) center/40% no-repeat;
+		}
+	}
+	.attachment-2p5mHK,
+	.blob-2w7iIK {
+		border-radius: var(--border-radius);
+		background: var(--text-muted);
+		height: 4px;
+	}
 }

@@ -1,22 +1,22 @@
 @use '../assets';
 
 #app-mount .layer-3QrUeG[aria-label="CHANNEL_SETTINGS"] {
-  .customContainer-1RHXqt {
-    position: relative;
-    div[style="height: 60px;"] {
-      display: none;
-    }
-  }
-  .customScroller-26gWhv > div {
-    padding: var(--spacing);
-    margin: 0;
-    max-width: 100%;
-  }
-  .image-1GzsFd {
-    width: 156px !important;
-    height: 156px !important;
-    margin-bottom: var(--spacing-double);
-    background: var(--text-muted) !important;
-    mask: url(assets.$illustration_7) center/contain no-repeat;
-  }
+	.customContainer-1RHXqt {
+		position: relative;
+		div[style="height: 60px;"] {
+			display: none;
+		}
+	}
+	.customScroller-26gWhv > div {
+		padding: var(--spacing);
+		margin: 0;
+		max-width: 100%;
+	}
+	.image-1GzsFd {
+		width: 156px !important;
+		height: 156px !important;
+		margin-bottom: var(--spacing-double);
+		background: var(--text-muted) !important;
+		mask: url(assets.$illustration_7) center/contain no-repeat;
+	}
 }

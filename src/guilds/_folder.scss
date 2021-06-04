@@ -1,16 +1,16 @@
 #app-mount {
-  .folder-1hbNCn {
-    background: transparent;
-    cursor: var(--cursor);
-    &.hover-qTxTR_ {
-      background: transparent;
-    }
-  }
-  .expandedFolderBackground-1cujaW {
-    background: var(--background-light);
-    &.collapsed-1GMuSb,
-    &.collapsed-2ZrjoL {
-      background: transparent;
-    }
-  }
+	.folder-1hbNCn {
+		background: transparent;
+		cursor: var(--cursor);
+		&.hover-qTxTR_ {
+			background: transparent;
+		}
+	}
+	.expandedFolderBackground-1cujaW {
+		background: var(--background-light);
+		&.collapsed-1GMuSb,
+		&.collapsed-2ZrjoL {
+			background: transparent;
+		}
+	}
 }

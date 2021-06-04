@@ -1,69 +1,69 @@
 @use '../assets';
 
 #app-mount .avatarUploader-3XDtmn {
-  .removeButton-1hcZyG {
-    font-size: var(--font-size);
-    color: var(--text-normal);
-    font-weight: var(--font-weight-normal);
-    cursor: var(--cursor);
-  }
-  .avatarUploaderInner-3UNxY3 {
-    background-color: var(--accent-solid);
-  }
-  .sizeInfo-SKMPPw {
-    color: var(--text-muted);
-    font-size: var(--font-size-sm);
-    font-weight: var(--font-weight-normal);
-    line-height: normal;
-  }
-  .colorStatusRed-1YV2rj {
-    font-size: var(--font-size);
-    font-weight: var(--font-weight-normal);
-  }
-  .avatarUploaderInner-3UNxY3 {
-    width: 64px;
-    height: 64px;
-    box-shadow: none;
-    background-color: var(--background-alt);
-    border-radius: var(--border-radius);
-    border: 1px solid var(--base-border);
-    &[style*="/assets/"] {
-      background-image: none !important;
-      background: var(--background-dark);
-      &::before {
-        content: "";
-        position: absolute;
-        display: block;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background: var(--text-muted);
-        mask: url(assets.$icon_person) center/32% no-repeat;
-      }
-    }
-    .avatarUploaderAcronym-3SioMc {
-      font-weight: var(--font-weight-light);
-      color: var(--text-normal);
-      font-size: var(--font-size-lg);
-    }
-    .fileInput-23-d-3 {
-      cursor: var(--cursor) !important;
-    }
-  }
-  .avatarUploaderHint-3SN212 {
-    background: rgba(0, 0, 0, 0.5);
-    font-size: 0;
-    border-radius: var(--border-radius);
-    &::after {
-      content: "";
-      width: 25px;
-      height: 25px;
-      background: var(--white);
-      mask: url(assets.$icon_attach) center/contain no-repeat;
-    }
-  }
-  .avatarUploaderIndicator-2G-aIZ {
-    display: none;
-  }
+	.removeButton-1hcZyG {
+		font-size: var(--font-size);
+		color: var(--text-normal);
+		font-weight: var(--font-weight-normal);
+		cursor: var(--cursor);
+	}
+	.avatarUploaderInner-3UNxY3 {
+		background-color: var(--accent-solid);
+	}
+	.sizeInfo-SKMPPw {
+		color: var(--text-muted);
+		font-size: var(--font-size-sm);
+		font-weight: var(--font-weight-normal);
+		line-height: normal;
+	}
+	.colorStatusRed-1YV2rj {
+		font-size: var(--font-size);
+		font-weight: var(--font-weight-normal);
+	}
+	.avatarUploaderInner-3UNxY3 {
+		width: 64px;
+		height: 64px;
+		box-shadow: none;
+		background-color: var(--background-alt);
+		border-radius: var(--border-radius);
+		border: 1px solid var(--base-border);
+		&[style*="/assets/"] {
+			background-image: none !important;
+			background: var(--background-dark);
+			&::before {
+				content: "";
+				position: absolute;
+				display: block;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+				background: var(--text-muted);
+				mask: url(assets.$icon_person) center/32% no-repeat;
+			}
+		}
+		.avatarUploaderAcronym-3SioMc {
+			font-weight: var(--font-weight-light);
+			color: var(--text-normal);
+			font-size: var(--font-size-lg);
+		}
+		.fileInput-23-d-3 {
+			cursor: var(--cursor) !important;
+		}
+	}
+	.avatarUploaderHint-3SN212 {
+		background: rgba(0, 0, 0, 0.5);
+		font-size: 0;
+		border-radius: var(--border-radius);
+		&::after {
+			content: "";
+			width: 25px;
+			height: 25px;
+			background: var(--white);
+			mask: url(assets.$icon_attach) center/contain no-repeat;
+		}
+	}
+	.avatarUploaderIndicator-2G-aIZ {
+		display: none;
+	}
 }

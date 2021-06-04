@@ -1,15 +1,15 @@
 @use '../assets';
 
 #app-mount {
-  .spinner-2enMB9 {
-    background: var(--text-normal);
-    mask: url(assets.$icon_spinner) center/12px no-repeat;
-    animation: rotate 1s linear infinite;
+	.spinner-2enMB9 {
+		background: var(--text-normal);
+		mask: url(assets.$icon_spinner) center/12px no-repeat;
+		animation: rotate 1s linear infinite;
 
-    .wanderingCubesItem-WPXqao,
-    .chasingDotsItem-2DVNUn,
-    .pulsingEllipsis-3YiXRF {
-      display: none;
-    }
-  }
+		.wanderingCubesItem-WPXqao,
+		.chasingDotsItem-2DVNUn,
+		.pulsingEllipsis-3YiXRF {
+			display: none;
+		}
+	}
 }

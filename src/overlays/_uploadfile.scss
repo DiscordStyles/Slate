@@ -1,26 +1,26 @@
 #app-mount {
-  .uploadArea-3QgLtW {
-    background: var(--backdrop);
-  }
-  .uploadDropModal-2kTwbc {
-    height: auto;
-    padding: var(--spacing-double) 0;
+	.uploadArea-3QgLtW {
+		background: var(--backdrop);
+	}
+	.uploadDropModal-2kTwbc {
+		height: auto;
+		padding: var(--spacing-double) 0;
 
-    .bgScale-1otPtc {
-      background: var(--background);
-      border-radius: var(--border-radius);
-      box-shadow: var(--elevation-1);
-      border: 1px solid var(--base-border);
-    }
-    .inner-3nWsbo {
-      border: none;
-      border-radius: 0;
-    }
-    .icons-1w691d {
-      display: none;
-    }
-    .instructions-2Du9gG pre:before {
-      content: none;
-    }
-  }
+		.bgScale-1otPtc {
+			background: var(--background);
+			border-radius: var(--border-radius);
+			box-shadow: var(--elevation-1);
+			border: 1px solid var(--base-border);
+		}
+		.inner-3nWsbo {
+			border: none;
+			border-radius: 0;
+		}
+		.icons-1w691d {
+			display: none;
+		}
+		.instructions-2Du9gG pre:before {
+			content: none;
+		}
+	}
 }

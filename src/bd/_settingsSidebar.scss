@@ -1,47 +1,47 @@
 @use '../assets';
 
 #app-mount {
-  .sidebar-CFHs9e .item-PXvHYJ {
-    &[aria-controls="Emotes-tab"]:before {
-      mask-image: url(assets.$icon_smiley);
-      mask-size: 14px;
-    }
-    &[aria-controls="plugins-tab"]:before {
-      mask-image: url(assets.$icon_plug);
-    }
-    &[aria-controls="themes-tab"]:before {
-      mask-image: url(assets.$icon_paint-roller);
-    }
-    &[aria-controls="customcss-tab"]:before {
-      mask-image: url(assets.$icon_code);
-    }
-    &:hover {
-      background: transparent;
-    }
-    &.selected {
-      color: #fff;
-      background: var(--accent-solid);
-      &:before {
-        background-color: #fff;
-      }
-    }
-  }
-  .bd-changelog-button {
-    margin: calc(var(--spacing) / 3) var(--spacing-double);
-    font-weight: var(--font-weight-normal);
-    font-size: var(--font-size);
-    padding: var(--spacing);
-    border-radius: var(--border-radius);
-    color: var(--text-normal);
-    line-height: normal;
-    min-width: 165px;
-    cursor: var(--cursor);
-    height: auto;
-    display: flex;
-    align-items: center;
-    &:after {
-      content: "BD Change log";
-      margin-left: var(--spacing);
-    }
-  }
+	.sidebar-CFHs9e .item-PXvHYJ {
+		&[aria-controls="Emotes-tab"]:before {
+			mask-image: url(assets.$icon_smiley);
+			mask-size: 14px;
+		}
+		&[aria-controls="plugins-tab"]:before {
+			mask-image: url(assets.$icon_plug);
+		}
+		&[aria-controls="themes-tab"]:before {
+			mask-image: url(assets.$icon_paint-roller);
+		}
+		&[aria-controls="customcss-tab"]:before {
+			mask-image: url(assets.$icon_code);
+		}
+		&:hover {
+			background: transparent;
+		}
+		&.selected {
+			color: #fff;
+			background: var(--accent-solid);
+			&:before {
+				background-color: #fff;
+			}
+		}
+	}
+	.bd-changelog-button {
+		margin: calc(var(--spacing) / 3) var(--spacing-double);
+		font-weight: var(--font-weight-normal);
+		font-size: var(--font-size);
+		padding: var(--spacing);
+		border-radius: var(--border-radius);
+		color: var(--text-normal);
+		line-height: normal;
+		min-width: 165px;
+		cursor: var(--cursor);
+		height: auto;
+		display: flex;
+		align-items: center;
+		&:after {
+			content: "BD Change log";
+			margin-left: var(--spacing);
+		}
+	}
 }

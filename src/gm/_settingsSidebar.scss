@@ -1,39 +1,39 @@
 @use '../assets';
 
 #app-mount .goosemod-settings-injected .goosemod-settings-sidebar .item-PXvHYJ {
-  display: flex;
-  align-items: center;
-  &.selected-3s45Ha:before {
-    background: currentColor;
-  }
-  &:before {
-    content: "";
-    width: 16px;
-    height: 16px;
-    background: var(--text-muted);
-    display: block;
-    margin-right: var(--spacing);
-    mask: url(assets.$icon_cog) center/cover no-repeat;
-  }
+	display: flex;
+	align-items: center;
+	&.selected-3s45Ha:before {
+		background: currentColor;
+	}
+	&:before {
+		content: "";
+		width: 16px;
+		height: 16px;
+		background: var(--text-muted);
+		display: block;
+		margin-right: var(--spacing);
+		mask: url(assets.$icon_cog) center/cover no-repeat;
+	}
 
-  &[style*="240, 71, 71"]:before {
-    background: rgba(var(--status-red), 1);
-  }
+	&[style*="240, 71, 71"]:before {
+		background: rgba(var(--status-red), 1);
+	}
 
-  &:not(:nth-child(2)):not(:nth-child(3)):not(:nth-child(4)):before {
-    mask: url(assets.$icon_cog) center/cover no-repeat;
-  }
+	&:not(:nth-child(2)):not(:nth-child(3)):not(:nth-child(4)):before {
+		mask: url(assets.$icon_cog) center/cover no-repeat;
+	}
 
-  // Manage Modules
-  &:nth-child(2):before {
-    mask: url(assets.$icon_tools) center/cover no-repeat;
-  }
-  // Module Store
-  &:nth-child(3):before {
-    mask: url(assets.$icon_tag) center/cover no-repeat;
-  }
-  // Uninstall
-  &:nth-child(4):before {
-    mask: url(assets.$icon_trashcan) center/contain no-repeat;
-  }
+	// Manage Modules
+	&:nth-child(2):before {
+		mask: url(assets.$icon_tools) center/cover no-repeat;
+	}
+	// Module Store
+	&:nth-child(3):before {
+		mask: url(assets.$icon_tag) center/cover no-repeat;
+	}
+	// Uninstall
+	&:nth-child(4):before {
+		mask: url(assets.$icon_trashcan) center/contain no-repeat;
+	}
 }

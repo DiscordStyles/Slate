@@ -1,16 +1,16 @@
 .applicationStore-1pNvnv, .container-1D34oG {
-  .scroller-2FKFPG {
-    margin-bottom: calc(var(--avatar-size-sm) + var(--spacing-double) + 3px);
-  }
-  &:before {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    height: calc(var(--avatar-size-sm) + var(--spacing-double) + 3px);
-    border-top: 1px solid var(--base-border);
-    background: var(--background-light);
-    width: 100%;
-    z-index: 1;
-    box-sizing: border-box;
-  }
+	.scroller-2FKFPG {
+		margin-bottom: calc(var(--avatar-size-sm) + var(--spacing-double) + 3px);
+	}
+	&:before {
+		content: "";
+		position: absolute;
+		bottom: 0;
+		height: calc(var(--avatar-size-sm) + var(--spacing-double) + 3px);
+		border-top: 1px solid var(--base-border);
+		background: var(--background-light);
+		width: 100%;
+		z-index: 1;
+		box-sizing: border-box;
+	}
 }

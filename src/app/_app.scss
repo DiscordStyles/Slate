@@ -1,62 +1,62 @@
 ::-webkit-input-placeholder {
-  user-select: none;
+	user-select: none;
 }
 
 html {
-  line-height: var(--line-height);
+	line-height: var(--line-height);
 }
 
 .app-2rEoOp,
 .bg-h5JY_x {
-  background: var(--background);
-  transform: none !important;
-  top: 0 !important;
+	background: var(--background);
+	transform: none !important;
+	top: 0 !important;
 }
 body {
-  background: var(--background);
+	background: var(--background);
 }
 
 #app-mount {
-  background: var(--background);
-  .base-3dtUhz {
-    border-radius: 0;
-    overflow: visible !important;
-  }
-  .layers-3iHuyZ {
-    z-index: 11;
-    overflow: visible;
-  }
-  .layer-3QrUeG {
-    opacity: 1 !important;
-    transform: none !important;
-    top: 0;
-    padding-top: 0;
-    &.animating-rRxada {
-      pointer-events: all;
-      will-change: unset;
-      * {
-        pointer-events: all !important;
-      }
-    }
-    &.baseLayer-35bLyl {
-      z-index: 1;
-    }
-  }
+	background: var(--background);
+	.base-3dtUhz {
+		border-radius: 0;
+		overflow: visible !important;
+	}
+	.layers-3iHuyZ {
+		z-index: 11;
+		overflow: visible;
+	}
+	.layer-3QrUeG {
+		opacity: 1 !important;
+		transform: none !important;
+		top: 0;
+		padding-top: 0;
+		&.animating-rRxada {
+			pointer-events: all;
+			will-change: unset;
+			* {
+				pointer-events: all !important;
+			}
+		}
+		&.baseLayer-35bLyl {
+			z-index: 1;
+		}
+	}
 
-  // Mentions/Channel jump
-  .mention {
-    background: rgba(var(--accent), 0.15);
-    border-radius: var(--border-radius);
-    color: var(--accent-solid);
-    cursor: var(--cursor);
-    &:hover {
-      background: var(--accent-solid);
-      color: var(--white);
-    }
-  }
+	// Mentions/Channel jump
+	.mention {
+		background: rgba(var(--accent), 0.15);
+		border-radius: var(--border-radius);
+		color: var(--accent-solid);
+		cursor: var(--cursor);
+		&:hover {
+			background: var(--accent-solid);
+			color: var(--white);
+		}
+	}
 
-  // Remove box-shadow from chat
-  .content-yTz4x3:before {
-    content: none;
-  }
+	// Remove box-shadow from chat
+	.content-yTz4x3:before {
+		content: none;
+	}
 }
