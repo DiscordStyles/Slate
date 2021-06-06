@@ -1,115 +1,38 @@
-#bd-settingspane-container {
-	.bd-search-wrapper {
-		background: transparent;
-		border-radius: 0;
-		padding: 0;
-		input {
-			border-radius: var(--border-radius);
-			background: var(--background-dark);
-			font-size: var(--font-size);
-			border: 1px solid var(--base-border);
-			color: var(--text-normal);
-			transition: none;
-			padding: 0 var(--spacing-half);
-			height: 25px;
-			line-height: 24px;
-			&::-webkit-input-placeholder {
-				color: var(--text-muted);
-			}
-			&:focus,
-			.focused-1mmYsC {
-				border: 1px solid var(--accent-solid);
-				box-shadow: 0 0 0 2px rgba(var(--accent), 0.25);
-			}
-		}
-		svg {
-			display: none;
-		}
-	}
+.bd-addon-list {
 	.bd-addon-card {
-		background: var(--background-dark);
-		border: 1px solid var(--base-border);
 		border-radius: var(--border-radius);
+		border: 1px solid var(--base-border);
+		background: var(--background-dark);
+		margin-bottom: var(--spacing);
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+	.bd-addon-header {
+		background: var(--background-alt);
+		padding: var(--spacing);
+	}
+	.bd-title {
+		font-size: var(--font-size);
+	}
+	.bd-name {
+		color: var(--text-focus);
+	}
+	.bd-meta {
+		color: var(--text-muted);
+	}
+
+	.bd-description-wrap {
+		padding: var(--spacing);
+	}
+	.bd-description {
 		padding: 0;
-		position: relative;
-		.bda-header {
-			padding: var(--spacing) var(--spacing) 0;
-			box-sizing: border-box;
-			border: none;
-			font-size: var(--font-size);
-			font-weight: var(--font-weight-normal);
-		}
-		.bda-description {
-			padding: var(--spacing) 80px var(--spacing) var(--spacing);
-			box-sizing: border-box;
-			border-color: var(--base-border);
-			margin: 0;
-			font-size: var(--font-size-md);
-			font-weight: var(--font-weight-normal);
-		}
-		.bda-description-wrap:last-child {
-			padding-bottom: 16px;
-		}
-		.bda-footer {
-			padding: var(--spacing) 77px var(--spacing) var(--spacing);
-			border-color: var(--base-border);
-		}
-		.bda-links {
-			display: flex;
-			font-size: 0;
-		}
-		.bda-link {
-			color: var(--text-normal);
-			background: var(--background-light);
-			border: 1px solid var(--base-border) !important;
-			box-shadow: none !important;
-			margin-right: var(--spacing);
-			&:hover {
-				border: 1px solid currentColor !important;
-			}
-			&:focus {
-				box-shadow: 0 0 0 1px currentColor !important;
-				border: 1px solid currentColor !important;
-			}
-		}
-		.bd-addon-button {
-			color: var(--text-normal);
-			background: var(--background-light);
-			min-height: var(--input-height);
-			height: var(--input-height);
-			padding: 0 var(--spacing);
-			border-radius: var(--button-border-radius);
-			border: 1px solid var(--base-border) !important;
-			cursor: var(--cursor);
-			position: absolute;
-			right: var(--spacing);
-			bottom: var(--spacing);
-			&:before {
-				content: "Delete";
-			}
-			svg {
-				display: none;
-			}
-			&:hover {
-				border: 1px solid currentColor !important;
-			}
-			&:active {
-				box-shadow: 0 0 0 1px currentColor !important;
-				border: 1px solid currentColor !important;
-			}
-		}
+		font-size: var(--font-size);
+		color: var(--text-normal);
+		margin-bottom: 0;
 	}
-}
 
-// Light Mode
-
-.theme-light #bd-settingspane-container .bd-addon-card .bd-addon-button {
-	&:hover {
-		background: var(--background) !important;
-		border: 1px solid var(--secondary-border) !important;
-	}
-	&:active {
-		box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.05) !important;
-		border: 1px solid var(--secondary-border) !important;
+	.bd-footer {
+		padding: 0 var(--spacing) var(--spacing);
 	}
 }

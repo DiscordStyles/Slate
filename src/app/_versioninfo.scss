@@ -1,0 +1,22 @@
+#app-mount {
+	// Base css import version
+	.layer-3QrUeG[aria-label*="SETTINGS"] .info-1VyQPT {
+		padding: calc(var(--spacing) / 3) var(--spacing-double);
+		.colorMuted-HdFt4q:first-of-type:before {
+			content: "Slate base " var(--slate-base-version) " (" var(--slate-palette) ")";
+			display: block;
+			text-transform: none;
+		}
+	}
+
+	// BD card info
+	#Slate-card .bd-description-wrap:after {
+		content: "Latest file version: " var(--slate-file-version) "\A Latest base.css version: " var(--slate-base-version);
+		white-space: pre-wrap;
+		display: block;
+		line-height: var(--line-height);
+		color: var(--text-normal);
+		font-size: var(--font-size);
+		margin-top: var(--spacing);
+	}
+}
