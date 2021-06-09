@@ -12,7 +12,7 @@
 	.sizeMedium-df47zS,
 	.sizeSmall-1jtLQy,
 	.sizeLarge-2yOtf1,
-	.small-3iVZYw:not(.popout-103y-5) {
+	.small-3iVZYw:not(.popout-103y-5):not(.root-3QyAh1) {
 		min-width: 400px;
 		max-width: 600px;
 		max-height: 88vh;
@@ -27,7 +27,7 @@
 		background-color: var(--background);
 		border-radius: var(--border-radius);
 		box-shadow: var(--elevation-2);
-		border: 1px solid var(--base-border);
+		border: none;
 		opacity: 1 !important;
 		transform: none !important;
 		min-height: unset;

@@ -1,4 +1,4 @@
-#app-mount .userPopout-3XzG_A {
+#app-mount .userPopout-xaxa6l {
 	box-shadow: var(--elevation-1);
 	border-radius: var(--border-radius);
 	border: 1px solid var(--base-border);
@@ -6,7 +6,7 @@
 	overflow: hidden;
 	transform: translateZ(0) !important;
 
-	.bodyTitle-Y0qMQz,
+	.bodyTitle-3FWCs2,
 	.headerText-1HLrL7 {
 		color: var(--text-normal);
 		font-weight: var(--font-weight-semibold);
@@ -24,7 +24,7 @@
 	}
 
 	// Header
-	.headerNormal-1l1Znk {
+	.headerNormal-1mX3KY {
 		background: transparent;
 	}
 	.headerTop-2cWpdB {
@@ -57,18 +57,25 @@
 			margin: 0 var(--spacing) 0 0;
 		}
 	}
-	.customStatus-3NamXG {
+	.customStatus-oN4ZZY {
 		margin-top: var(--spacing);
 		font-size: var(--font-size);
 		align-items: center;
 	}
+	.setIdentityLink-3lcnXW {
+		display: none;
+	}
 
 	// Avatar
-	.avatarPositionNormal-1CZUPk {
+	.avatarPositionNormal-aZjAsn {
 		top: 25px;
 		left: var(--spacing);
 	}
-	.avatar-22FtUu {
+	.avatarPositionPremium-3We5Ho {
+		top: 85px;
+		left: var(--spacing);
+	}
+	.avatar-37jOim {
 		background: var(--background);
 		box-shadow: none;
 		border: 1px solid var(--base-border);
@@ -79,7 +86,7 @@
 			border-radius: calc(var(--avatar-radius) * 2);
 		}
 	}
-	.avatarHint-1E3LMl {
+	.avatarHint-2A3RNb {
 		top: 1px;
 		left: 1px;
 		z-index: 1;
@@ -91,7 +98,7 @@
 	}
 
 	// Activity
-	.activity-fViXj7 {
+	.activity-3v9l4T {
 		padding: 0;
 	}
 	.body-ZAhrcj {
@@ -159,19 +166,19 @@
 	}
 
 	// Body
-	.body-3iLsc4 {
+	.body-3HBlXn {
 		background: transparent;
 		padding: 0;
 		&::-webkit-scrollbar {
 			display: none;
 		}
 	}
-	.bodyInnerWrapper-Z8WDxe {
+	.bodyInnerWrapper-1NH0NQ {
 		padding: 0;
 	}
 
 	// Roles
-	.rolesList-22qj2L {
+	.rolesList-TyGJiZ {
 		margin: 0;
 		padding: 0 var(--spacing) var(--spacing);
 		position: unset;
@@ -257,14 +264,17 @@
 
 
 
-	.footer-1fjuF6 {
+	.footer-1N3bR3 {
 		background: transparent;
-		padding: 0 var(--spacing) var(--spacing);
-		.protip-YaFfgO {
+		padding: 0;
+		.protip-2urNh2 {
 			display: none;
 		}
+		.inputWrapper-31_8H8 {
+			margin: 0 var(--spacing) var(--spacing);
+		}
 	}
-	.note-3HfJZ5 {
+	.note-1MiCN7 {
 		margin: var(--spacing);
 	}
 
@@ -276,7 +286,7 @@
 			height: 120px;
 			background: var(--user-background) center/cover no-repeat;
 		}
-		.avatarPositionNormal-1CZUPk {
+		.avatarPositionNormal-aZjAsn {
 			top: 85px;
 		}
 	}

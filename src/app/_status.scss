@@ -1,6 +1,6 @@
 @use '../assets';
 
-.userPopout-3XzG_A {
+.userPopout-xaxa6l {
 	.wrapper-3t9DeA {
 		z-index: 1;
 		svg:not(:root) {
@@ -42,15 +42,13 @@
 			y: calc(var(--avatar-size-xl) + 4px);
 		}
 	}
-	.avatarHint-1qgaV3 {
+	.avatarHint-2A3RNb {
 		foreignObject {
 			mask: none;
 		}
-		.avatarHintInner-Dco91E {
+		.avatarHintInner-1TvA8u {
 			border-radius: var(--rs-avatar-shape) !important;
 			padding-top: 0;
-			width: calc(var(--avatar-size-lg) - var(--rs-large-spacing));
-			height: calc(var(--avatar-size-lg) - var(--rs-large-spacing));
 			font-size: 0;
 			white-space: normal;
 			text-align: center;
