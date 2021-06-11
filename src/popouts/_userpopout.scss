@@ -32,7 +32,7 @@
 		border: none;
 		padding: calc(var(--spacing-triple) + var(--spacing)) var(--spacing) var(--spacing);
 	}
-	.profileBanner-33-uE1 {
+	.popoutBanner-19WKGg {
 		border-bottom: 1px solid var(--base-border);
 	}
 	.nickname-2gQ76l {
@@ -282,7 +282,7 @@
 
 	// Usrbg support
 	&[style*="--user-background"] {
-		.profileBanner-33-uE1 {
+		.popoutBanner-19WKGg {
 			height: 120px;
 			background: var(--user-background) center/cover no-repeat;
 		}
