@@ -20,7 +20,7 @@
 			margin-right: var(--spacing-half);
 		}
 	}
-	.lookFilled-1Gx00P,
+	.lookFilled-1Gx00P:not(.colorGrey-2DXtkV),
 	.bd-modal-wrapper .footer button,
 	.primaryButton-2BsGPp {
 		color: var(--white);
@@ -62,7 +62,8 @@
 	.secondaryButton-BIo-2g,
 	.actionButton-uPB8Fs,
 	.lookGhost-2Fn_0-,
-	.cancelButton-10XRsm {
+	.cancelButton-10XRsm,
+	.colorGrey-2DXtkV {
 		color: var(--text-normal);
 		background: var(--background-light);
 		border: 1px solid var(--base-border);
@@ -77,6 +78,11 @@
 		&:focus {
 			box-shadow: 0 0 0 1px currentColor !important;
 			border: 1px solid currentColor !important;
+		}
+
+		&.removeButton-3vophT,
+		&.colorRed-1TFJan {
+			color: rgb(var(--red));
 		}
 	}
 	.premiumIcon-YgHhed {

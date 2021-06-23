@@ -4,6 +4,11 @@
 #app-mount .sidebar-CFHs9e .item-PXvHYJ {
 	display: flex;
 	align-items: center;
+
+	.icon-Zc-uZZ {
+		display: none;
+	}
+
 	&.selected-3s45Ha:before {
 		background: currentColor;
 	}

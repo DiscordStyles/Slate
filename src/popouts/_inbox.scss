@@ -53,9 +53,6 @@
 		padding: var(--spacing);
 		height: auto;
 	}
-	.guildIcon-3Co6k- {
-		border-radius: var(--border-radius);
-	}
 	.channelNameHeader-F4hU_R {
 		font-size: var(--font-size-md);
 	}
@@ -64,10 +61,11 @@
 		color: var(--text-muted);
 	}
 	.guildIcon-3Co6k- {
+		border-radius: var(--border-radius);
 		margin-right: var(--spacing);
 		width: var(--avatar-size);
 		height: var(--avatar-size);
-		background: var(--background-light);
+		background-color: var(--background-light);
 	}
 	.acronym-1e2Mdt {
 		font-size: var(--font-size);

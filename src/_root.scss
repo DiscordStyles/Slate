@@ -1,6 +1,6 @@
 :root {
 	--slate-file-version: "1.1";
-	--slate-base-version: "1.6.0";
+	--slate-base-version: "1.6.1";
 	--slate-palette: "Primer";
 
 	// Roundness
@@ -106,7 +106,10 @@
 
 	// Discord colours
 	--discord-spotify: 29, 185, 84;
-	--font-display: var(--font-family-sans-serif);
+	--font-display: var(--font-family-sans-serif) !important;
+
+	// Colours
+	--red: 215, 58, 73;
 
 	// RadialStatus
 	--rs-small-spacing: 0px;

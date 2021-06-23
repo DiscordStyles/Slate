@@ -1,6 +1,6 @@
 :root {
   --slate-file-version: "1.1";
-  --slate-base-version: "1.6.0";
+  --slate-base-version: "1.6.1";
   --slate-palette: "Primer";
   --border-radius: 3px;
   --button-border-radius: 2px;
@@ -70,7 +70,8 @@
   --status-grey: 117, 128, 142;
   --discord-pink: 255, 115, 250;
   --discord-spotify: 29, 185, 84;
-  --font-display: var(--font-family-sans-serif);
+  --font-display: var(--font-family-sans-serif) !important;
+  --red: 215, 58, 73;
   --rs-small-spacing: 0px;
   --rs-large-spacing: 0px;
   --rs-width: 2px;
@@ -4384,6 +4385,9 @@ html.platform-win[lang=en-US]:not(.app-focused) body:not(.oldTitleBarEnabled-D8p
 }
 #app-mount form:hover .base-gE7OpD:hover {
   opacity: 1;
+}
+#app-mount .replyBar-1YLQ2F {
+  background: transparent;
 }
 #app-mount .container-2fRDfG {
   background: var(--background-alt);
@@ -9093,9 +9097,6 @@ html.theme-light #app-mount .tab-2j5AEF:focus {
   padding: var(--spacing);
   height: auto;
 }
-#app-mount .guildIcon-3Co6k- {
-  border-radius: var(--border-radius);
-}
 #app-mount .channelNameHeader-F4hU_R {
   font-size: var(--font-size-md);
 }
@@ -9104,10 +9105,11 @@ html.theme-light #app-mount .tab-2j5AEF:focus {
   color: var(--text-muted);
 }
 #app-mount .guildIcon-3Co6k- {
+  border-radius: var(--border-radius);
   margin-right: var(--spacing);
   width: var(--avatar-size);
   height: var(--avatar-size);
-  background: var(--background-light);
+  background-color: var(--background-light);
 }
 #app-mount .acronym-1e2Mdt {
   font-size: var(--font-size);
@@ -11997,6 +11999,9 @@ html.theme-light .connectionIcon-2ElzVe {
       -ms-flex-align: center;
           align-items: center;
 }
+#app-mount .sidebar-CFHs9e .item-PXvHYJ .icon-Zc-uZZ {
+  display: none;
+}
 #app-mount .sidebar-CFHs9e .item-PXvHYJ.selected-3s45Ha:before {
   background: currentColor;
 }
@@ -12290,41 +12295,6 @@ html.theme-light .connectionIcon-2ElzVe {
 }
 .bd-addon-list .bd-footer {
   padding: 0 var(--spacing) var(--spacing);
-}
-
-#app-mount #bd-settingspane-container .ui-switch-wrapper {
-  width: 13px;
-  height: 13px;
-}
-#app-mount #bd-settingspane-container .ui-switch-wrapper .ui-switch {
-  width: 13px;
-  height: 13px;
-  border-radius: var(--border-radius);
-  background-color: var(--checkbox-background);
-  border: 1px solid var(--checkbox-border);
-  margin-left: 0;
-}
-#app-mount #bd-settingspane-container .ui-switch-wrapper .ui-switch:before {
-  content: "";
-  width: 8px !important;
-  height: 3px !important;
-  background: transparent !important;
-  border-bottom: 2px solid var(--checkbox-tick) !important;
-  border-left: 2px solid var(--checkbox-tick) !important;
-  display: block !important;
-  opacity: 0 !important;
-  top: 2px !important;
-  -webkit-box-shadow: none !important;
-          box-shadow: none !important;
-  left: 1px !important;
-  -webkit-transform: rotate(-45deg) translate(0) !important;
-          transform: rotate(-45deg) translate(0) !important;
-}
-#app-mount #bd-settingspane-container .ui-switch-wrapper .ui-switch.checked {
-  background-color: var(--checkbox-background) !important;
-}
-#app-mount #bd-settingspane-container .ui-switch-wrapper .ui-switch.checked:before {
-  opacity: 1 !important;
 }
 
 #app-mount #bd-settingspane-container .contentColumn-2hrIYH {
@@ -15718,20 +15688,20 @@ html.theme-light #app-mount .wrapper-O5i5-0 .root-1gCeng .scroller-2hZ97C .invit
 #app-mount .bd-modal-wrapper .footer button .buttonIcon-1BKzBu {
   margin-right: var(--spacing-half);
 }
-#app-mount .lookFilled-1Gx00P,
+#app-mount .lookFilled-1Gx00P:not(.colorGrey-2DXtkV),
 #app-mount .bd-modal-wrapper .footer button,
 #app-mount .primaryButton-2BsGPp {
   color: var(--white);
   background-color: rgb(var(--accent));
   margin-left: var(--spacing);
 }
-#app-mount .lookFilled-1Gx00P:hover,
+#app-mount .lookFilled-1Gx00P:not(.colorGrey-2DXtkV):hover,
 #app-mount .bd-modal-wrapper .footer button:hover,
 #app-mount .primaryButton-2BsGPp:hover {
   -webkit-box-shadow: inset 0 0 0 100vmax rgba(255, 255, 255, 0.1);
           box-shadow: inset 0 0 0 100vmax rgba(255, 255, 255, 0.1);
 }
-#app-mount .lookFilled-1Gx00P:focus,
+#app-mount .lookFilled-1Gx00P:not(.colorGrey-2DXtkV):focus,
 #app-mount .bd-modal-wrapper .footer button:focus,
 #app-mount .primaryButton-2BsGPp:focus {
   -webkit-box-shadow: 0 0 0 2px rgba(var(--accent), 0.25), inset 0 0 0 100vmax rgba(255, 255, 255, 0.1);
@@ -15768,7 +15738,8 @@ html.theme-light #app-mount .wrapper-O5i5-0 .root-1gCeng .scroller-2hZ97C .invit
 #app-mount .secondaryButton-BIo-2g,
 #app-mount .actionButton-uPB8Fs,
 #app-mount .lookGhost-2Fn_0-,
-#app-mount .cancelButton-10XRsm {
+#app-mount .cancelButton-10XRsm,
+#app-mount .colorGrey-2DXtkV {
   color: var(--text-normal);
   background: var(--background-light);
   border: 1px solid var(--base-border);
@@ -15783,7 +15754,8 @@ html.theme-light #app-mount .wrapper-O5i5-0 .root-1gCeng .scroller-2hZ97C .invit
 #app-mount .secondaryButton-BIo-2g:hover,
 #app-mount .actionButton-uPB8Fs:hover,
 #app-mount .lookGhost-2Fn_0-:hover,
-#app-mount .cancelButton-10XRsm:hover {
+#app-mount .cancelButton-10XRsm:hover,
+#app-mount .colorGrey-2DXtkV:hover {
   border: 1px solid currentColor;
 }
 #app-mount .colorPrimary-3b3xI6.lookLink-9FtZy-:hover .contents-18-Yxp,
@@ -15793,7 +15765,8 @@ html.theme-light #app-mount .wrapper-O5i5-0 .root-1gCeng .scroller-2hZ97C .invit
 #app-mount .secondaryButton-BIo-2g:hover .contents-18-Yxp,
 #app-mount .actionButton-uPB8Fs:hover .contents-18-Yxp,
 #app-mount .lookGhost-2Fn_0-:hover .contents-18-Yxp,
-#app-mount .cancelButton-10XRsm:hover .contents-18-Yxp {
+#app-mount .cancelButton-10XRsm:hover .contents-18-Yxp,
+#app-mount .colorGrey-2DXtkV:hover .contents-18-Yxp {
   text-decoration: none;
 }
 #app-mount .colorPrimary-3b3xI6.lookLink-9FtZy-:focus,
@@ -15803,10 +15776,30 @@ html.theme-light #app-mount .wrapper-O5i5-0 .root-1gCeng .scroller-2hZ97C .invit
 #app-mount .secondaryButton-BIo-2g:focus,
 #app-mount .actionButton-uPB8Fs:focus,
 #app-mount .lookGhost-2Fn_0-:focus,
-#app-mount .cancelButton-10XRsm:focus {
+#app-mount .cancelButton-10XRsm:focus,
+#app-mount .colorGrey-2DXtkV:focus {
   -webkit-box-shadow: 0 0 0 1px currentColor !important;
           box-shadow: 0 0 0 1px currentColor !important;
   border: 1px solid currentColor !important;
+}
+#app-mount .colorPrimary-3b3xI6.lookLink-9FtZy-.removeButton-3vophT, #app-mount .colorPrimary-3b3xI6.lookLink-9FtZy-.colorRed-1TFJan,
+#app-mount .colorPrimary-3b3xI6.lookFilled-1Gx00P.removeButton-3vophT,
+#app-mount .colorPrimary-3b3xI6.lookFilled-1Gx00P.colorRed-1TFJan,
+#app-mount .lookInverted-2D7oAl.removeButton-3vophT,
+#app-mount .lookInverted-2D7oAl.colorRed-1TFJan,
+#app-mount .lookOutlined-3sRXeN.removeButton-3vophT,
+#app-mount .lookOutlined-3sRXeN.colorRed-1TFJan,
+#app-mount .secondaryButton-BIo-2g.removeButton-3vophT,
+#app-mount .secondaryButton-BIo-2g.colorRed-1TFJan,
+#app-mount .actionButton-uPB8Fs.removeButton-3vophT,
+#app-mount .actionButton-uPB8Fs.colorRed-1TFJan,
+#app-mount .lookGhost-2Fn_0-.removeButton-3vophT,
+#app-mount .lookGhost-2Fn_0-.colorRed-1TFJan,
+#app-mount .cancelButton-10XRsm.removeButton-3vophT,
+#app-mount .cancelButton-10XRsm.colorRed-1TFJan,
+#app-mount .colorGrey-2DXtkV.removeButton-3vophT,
+#app-mount .colorGrey-2DXtkV.colorRed-1TFJan {
+  color: rgb(var(--red));
 }
 #app-mount .premiumIcon-YgHhed {
   margin-right: var(--spacing-third);
