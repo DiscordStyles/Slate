@@ -6,8 +6,9 @@
 	overflow: hidden;
 	transform: translateZ(0) !important;
 
-	.bodyTitle-3FWCs2,
-	.headerText-1HLrL7 {
+	.bodyTitle-1ySSKn,
+	.headerText-1HLrL7,
+	.aboutMeTitle-1IYtPE {
 		color: var(--text-normal);
 		font-weight: var(--font-weight-semibold);
 		font-size: var(--font-size);
@@ -24,33 +25,33 @@
 	}
 
 	// Header
-	.headerNormal-1mX3KY {
+	.headerNormal-3KXFBt {
 		background: transparent;
 	}
-	.headerTop-2cWpdB {
+	.headerTop-3vNv-a {
 		background: transparent;
 		border: none;
 		padding: calc(var(--spacing-triple) + var(--spacing)) var(--spacing) var(--spacing);
 	}
-	.popoutBanner-19WKGg {
+	.banner-2QYc2d {
 		border-bottom: 1px solid var(--base-border);
 	}
-	.nickname-2gQ76l {
+	.nickname-3M3Jfa {
 		font-size: var(--font-size-md);
 		color: var(--text-focus);
 	}
-	.headerTagNoNickname-1VyQza {
+	.headerTagNoNickname-3qrd77 {
 		font-size: var(--font-size-md);
 		line-height: normal;
 	}
-	.headerTagWithNickname-1SDMpI {
+	.headerTagWithNickname-3l_x6x {
 		font-size: var(--font-size);
 		color: var(--text-normal);
 	}
-	.discrimBase-1QwWzY {
+	.discrimBase-24vY8o {
 		top: 0;
 	}
-	.profileBadges-3cJaE1 {
+	.profileBadges-ohc0Vu {
 		right: var(--spacing);
 		top: var(--spacing);
 		& > div {
@@ -58,12 +59,17 @@
 		}
 	}
 	.customStatus-oN4ZZY {
-		margin-top: var(--spacing);
 		font-size: var(--font-size);
 		align-items: center;
 	}
-	.setIdentityLink-3lcnXW {
+	.setIdentityLink-1t8Ahd {
 		display: none;
+	}
+	.aboutMeSection-1Fw5Ia {
+		padding: 0;
+	}
+	.aboutMeBody-3GuvKk {
+		padding: 0 var(--spacing) var(--spacing);
 	}
 
 	// Avatar
@@ -173,12 +179,16 @@
 			display: none;
 		}
 	}
-	.bodyInnerWrapper-1NH0NQ {
+	.bodyInnerWrapper-26fQXj {
 		padding: 0;
+		background: transparent;
+	}
+	.divider-ewBQKj {
+		display: none;
 	}
 
 	// Roles
-	.rolesList-TyGJiZ {
+	.rolesList-1geHY1 {
 		margin: 0;
 		padding: 0 var(--spacing) var(--spacing);
 		position: unset;
@@ -264,7 +274,7 @@
 
 
 
-	.footer-1N3bR3 {
+	.footer-3UKYOU {
 		background: transparent;
 		padding: 0;
 		.protip-2urNh2 {
@@ -274,7 +284,7 @@
 			margin: 0 var(--spacing) var(--spacing);
 		}
 	}
-	.note-1MiCN7 {
+	.note-1oo11U {
 		margin: var(--spacing);
 	}
 
@@ -282,7 +292,7 @@
 
 	// Usrbg support
 	&[style*="--user-background"] {
-		.popoutBanner-19WKGg {
+		.banner-2QYc2d {
 			height: 120px;
 			background: var(--user-background) center/cover no-repeat;
 		}

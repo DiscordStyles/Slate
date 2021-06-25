@@ -65,6 +65,7 @@ $bannerHeight: 180px;
 		padding: 0;
 		flex-direction: column;
 		align-items: flex-start;
+		position: unset;
 	}
 	// Usrbg support
 	&[style*="--user-background"] .banner-2QYc2d:not(.bannerPremium-2hSAwz) {
@@ -118,7 +119,8 @@ $bannerHeight: 180px;
 				font-size: var(--font-size);
 				color: var(--text-normal);
 				font-weight: var(--font-weight-normal);
-				line-height: normal;
+				line-height: 18px;
+				margin-top: -2px;
 				width: 171px;
 				max-width: 100%;
 				white-space: nowrap;
@@ -138,25 +140,32 @@ $bannerHeight: 180px;
 		height: 18px;
 		background: var(--text-muted);
 		cursor: var(--cursor);
+		overflow: hidden;
+		position: relative;
+		padding: 18px 18px 0 0;
+		box-sizing: border-box;
 		pointer-events: all;
 		mask-size: contain;
 		mask-position: center;
 		mask-repeat: no-repeat;
-		&.profileBadgePremium-1KDZYC {
+
+		// Current nitro user
+		&[src*="e04ce699dcd2fd50d352a384511687a9"] {
 			mask-image: url(assets.$icon_heart);
 		}
-		&.profileGuildSubscriberlvl1-3oI9tx,
-		&.profileGuildSubscriberlvl2-r6nJHT,
-		&.profileGuildSubscriberlvl3-38s3Dj,
-		&.profileGuildSubscriberlvl4-2NXrsI,
-		&.profileGuildSubscriberlvl5-3XIa2K,
-		&.profileGuildSubscriberlvl6-3e3sxW,
-		&.profileGuildSubscriberlvl7-1dVhQT,
-		&.profileGuildSubscriberlvl8-1kXdFr,
-		&.profileGuildSubscriberlvl9-1d6zav {
+		// Server boosts
+		&[src*="ba38c1c57dfccb94127e53b7ac502a90"],
+		&[src*="c0c9db2de008e61a1a720581ca175fa1"],
+		&[src*="1d3c9e1123aee11a325af328609d1274"],
+		&[src*="dd50d32cf4fee241b2fa022d8c0435ae"],
+		&[src*="496aa1174817ec391612f745dc8e0725"],
+		&[src*="ce54a4f8c0e133a6f2d60336e7acac7d"],
+		&[src*="7294cc730410a1caeceeca736f800b42"],
+		&[src*="42ecb902decfc8e83a7446a0904b1e18"] {
 			mask-image: url(assets.$icon_rocket);
 		}
-		&.profileBadgeEarlySupporter-2ng_jL,
+		// Early support
+		&[src*="d66ce47c4ab7817190af9544f97e98cc"],
 		&.powercord-badge-early {
 			mask-image: url(assets.$icon_telescope);
 			background: var(--text-muted);
@@ -164,26 +173,28 @@ $bannerHeight: 180px;
 				display: none;
 			}
 		}
-		&.profileBadgeVerifiedDeveloper-4WY75k,
-		&.profileBadgeVerifiedDeveloper-195KfD {
+		// Verified Bot Developer
+		&[src*="877dc8bece1590e63fac6d5a0cd2a225"] {
 			mask-image: url(assets.$icon_code);
 		}
-		&.profileBadgeHypesquad-12E2P6 {
+		// Hypesquad
+		&[src*="f5354673c9cff61c1dcc70081ef774e5"] {
 			mask-image: url(assets.$icon_megaphone);
 		}
-		&.profileBadgeHypeSquadOnlineHouse1-3rBtjf,
-		&.profileBadgeHypeSquadOnlineHouse1Winner-3wCl80 {
+		// Hypesquad Bravery
+		&[src*="995ecfdbdf94ad84dd4d802c104e4630"] {
 			mask-image: url(assets.$icon_flame);
 		}
-		&.profileBadgeHypeSquadOnlineHouse2-2oU04B,
-		&.profileBadgeHypeSquadOnlineHouse2Winner-AS5bXe {
+		// Hypesquad Brilliance
+		&[src*="473dadec13ab7e90e209cc60fccb31c5"] {
 			mask-image: url(assets.$icon_zap);
 		}
-		&.profileBadgeHypeSquadOnlineHouse3-1DoJkv,
-		&.profileBadgeHypeSquadOnlineHouse3Winner-2CwwQi {
+		// Hypesquad Balance
+		&[src*="58f11abcf3c13812bff969baaeb84d82"] {
 			mask-image: url(assets.$icon_law);
 		}
-		&.profileBadgePartner-j6Lwhr {
+		// Paterned Server Owner
+		&[src*="53828e0c0fb6676440ad11b5d2586241"] {
 			mask-image: url(assets.$icon_text_link);
 		}
 		&.profileBadgeStaff-3BXdTO,
