@@ -7,6 +7,12 @@
 	}
 
 	// Container
+	.contentWrapper-SvZHNd {
+		background: var(--background);
+		border: 1px solid var(--base-border);
+		border-radius: var(--border-radius);
+		box-shadow: var(--elevation-1);
+	}
 	.wrapper-1rqM3x {
 		z-index: 10;
 	}
@@ -14,16 +20,12 @@
 		height: 442px;
 		grid-template-rows: 46px auto 49px;
 		grid-template-columns: 38px auto;
-		background: var(--background);
-		border: 1px solid var(--base-border);
-		border-radius: var(--border-radius);
 	}
 	.contentWrapper-SvZHNd {
 		grid-gap: 0;
 		padding-top: 0;
 		border-radius: var(--border-radius);
 		display: block;
-		overflow: visible;
 		box-shadow: var(--elevation-1);
 		.scroller-2FKFPG {
 			height: 396px;
@@ -64,31 +66,27 @@
 				}
 			}
 		}
-		&:first-child button .contents-18-Yxp {
+		&:nth-child(1) button .contents-18-Yxp {
 			mask: url(assets.$icon_image) center/cover no-repeat;
 		}
-		&:last-child button .contents-18-Yxp {
+		&:nth-child(2) button .contents-18-Yxp {
+			mask: url(assets.$icon_star) center/cover no-repeat;
+		}
+		&:nth-child(3) button .contents-18-Yxp {
 			mask: url(assets.$icon_face) center/cover no-repeat;
 		}
 	}
 
 	// Header (Search)
-	#gif-picker-tab-panel .header-1TOWci {
-		padding-left: 80px;
-	}
-	.nav-7UD0KD + .wrapper-1rqM3x {
-		.header-1TOWci,
-		.header-8ilj5e {
-			padding-left: 80px;
-		}
-	}
 	.header-1TOWci,
-	.header-8ilj5e {
+	.header-8ilj5e,
+	.header-2k4I2o {
 		padding: var(--spacing);
 		box-shadow: none;
 		border-bottom: 1px solid var(--base-border);
 		grid-template-columns: auto 20px;
 		grid-gap: var(--spacing);
+		padding-left: 115px;
 	}
 	.container-2XeR5Z,
 	.container-cMG81i {
@@ -99,9 +97,11 @@
 	.inner-2P4tQO,
 	.inner-3ErfOT {
 		padding: 0;
+		overflow: visible !important;
 	}
 	.input-1Rv96N,
-	.input-3Xdcic {
+	.input-3Xdcic,
+	.input-1Rv96N {
 		box-sizing: border-box;
 		height: var(--input-height);
 		background-color: var(--background-dark);
@@ -118,8 +118,8 @@
 			box-shadow: 0 0 0 2px rgba(var(--accent), 0.25);
 		}
 	}
-	.header-8ilj5e .iconLayout-1WxHy4,
-	.header-1TOWci .iconLayout-3OgqU3 {
+	.iconLayout-1WxHy4,
+	.iconLayout-3OgqU3 {
 		width: fit-content;
 		order: -1;
 		position: absolute;
@@ -168,11 +168,11 @@
 
 	// Server picker list (left side)
 	.categoryList-2Kzf65 {
-		border: 1px solid var(--base-border);
+		border-right: 1px solid var(--base-border);
 		border-top: none;
 		background: var(--background-dark);
 		width: 38px;
-		top: 47px;
+		top: 46px;
 		border-bottom-left-radius: var(--border-radius);
 	}
 	.categoryItem-1D0nxC {
@@ -315,7 +315,8 @@
 	}
 
 	// Hovered emote info
-	.inspector-3LQtX9 {
+	.inspector-3LQtX9,
+	.inspector-S2gM3e {
 		background: var(--background);
 		border-top: 1px solid var(--base-border);
 		padding: var(--spacing);
@@ -401,7 +402,6 @@
 	}
 
 	// No Results
-
 	.noSearchResultsContainer-7llQ5J {
 		border-bottom: 1px solid var(--base-border);
 		.wrapper-1GJGVj {
@@ -425,10 +425,59 @@
 			content: none;
 		}
 	}
-	.container-3ISnnM {
-		background: var(--background);
-		border: 1px solid var(--base-border);
+
+	// Sticker picker
+	.wrapper-2iFQJ9 {
+		height: 442px;
+		grid-template-columns: 39px auto;
+	}
+	#sticker-picker-grid .listItems-1uJgMC {
+		margin-left: -8px;
+	}
+	.categoryList-xW5xXr {
+		border-right: 1px solid var(--base-border);
+		border-top: none;
+		background: var(--background-dark);
+		width: 38px;
+		top: 45px;
+		.listItems-1uJgMC {
+			top: 0 !important;
+			right: 0 !important;
+			bottom: 0 !important;
+			left: 0 !important;
+		}
+	}
+	.stickerCategory-3Yz7vN {
+		margin: 0;
+		border-radius: 0;
+		width: 38px;
+		height: 33px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		cursor: var(--cursor);
+		svg {
+			width: 24px;
+			height: 24px;
+		}
+		foreignObject {
+			mask: none;
+		}
+		img {
+			border-radius: var(--border-radius);
+		}
+		&.stickerCategorySelected-2uaMAG {
+			background: rgb(var(--accent));
+		}
+	}
+	.inspectedIndicator-59EII8 {
+		mask: none;
 		border-radius: var(--border-radius);
+		background: transparent;
+		padding: 0;
+	}
+	.stickerInspected-2EM4w- {
+		background: var(--background-modifier-hover);
 	}
 }
 
