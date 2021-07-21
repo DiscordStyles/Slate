@@ -38,7 +38,10 @@
 				background: var(--background-modifier-hover);
 			}
 			&.css-1ba14n5-option {
-				background: var(--background-modifier-active);
+				background: var(--accent-solid);
+				.title-1B76a1 {
+					color: #fff;
+				}
 			}
 		}
 	}

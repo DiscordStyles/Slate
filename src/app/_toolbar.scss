@@ -245,14 +245,14 @@
 		font-weight: var(--font-weight-normal);
 		border: 1px solid var(--toolbar-search-border);
 		color: var(--toolbar-text-normal);
-		padding: 0 var(--spacing-half);
+		padding: 0 var(--spacing) 0 var(--spacing-triple);
 		height: var(--input-height);
 		box-sizing: border-box;
 		width: calc(var(--sidebar-width) - var(--spacing));
 		.icon-38sknP {
 			width: fit-content;
 			order: -1;
-			margin-right: var(--spacing-half);
+			left: var(--spacing);
 			.iconContainer-O4O2CN {
 				height: 14px;
 				width: 14px;

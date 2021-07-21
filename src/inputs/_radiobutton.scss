@@ -30,6 +30,10 @@
 		&[aria-checked="true"] {
 			background: rgba(var(--accent), 1);
 			border-color: rgba(var(--accent), 1);
+			.colorStandard-2KCXvj,
+			.colorHeaderSecondary-3Sp3Ft {
+				color: var(--white);
+			}
 		}
 	}
 }

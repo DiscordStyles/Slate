@@ -44,6 +44,13 @@
 	.categorySection-231RiR {
 		height: 100%;
 	}
+	.scrollerBase-289Jih {
+		max-height: 272px !important;
+		padding-bottom: 0;
+		& > div[aria-hidden="true"] {
+			display: none;
+		}
+	}
 
 	.bar-AokMp3 {
 		padding: 0 var(--spacing);
