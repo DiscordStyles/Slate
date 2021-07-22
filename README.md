@@ -27,6 +27,10 @@
 
 Documentation, including customization guides can be found in the [Wiki](https://github.com/DiscordStyles/Slate/wiki) of this repo
 
+## Contributing
+
+Looking to contribute to Slate? Read the the [contributing.md](https://github.com/DiscordStyles/Slate/blob/master/CONTRIBUTING.md) file.
+
 ## License
 
 See the [LICENSE](https://github.com/DiscordStyles/Slate/blob/master/LICENSE.md) file for license rights and limitations (MIT).
