@@ -3768,7 +3768,7 @@ html.platform-win[lang=en-US]:not(.app-focused) body:not(.oldTitleBarEnabled-D8p
   transition: 150ms ease;
   background: rgba(var(--accent), 0.2) !important;
 }
-#app-mount .backgroundFlash-24qWLN[style*="rgba(114, 137, 218, 0)"] {
+#app-mount .backgroundFlash-24qWLN[style*="rgba(88, 101, 242, 0)"] {
   background: transparent !important;
 }
 #app-mount .repliedMessage-VokQwo {

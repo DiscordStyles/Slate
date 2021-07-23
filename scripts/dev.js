@@ -30,7 +30,7 @@ watcher.on('change', () => {
 			.then(postcssRes => {
 				fs.writeFile(themesFolder+'\\Slate.theme.css', postcssRes.css, (err) => {
 					if (err) console.error(err);
-					else console.log('Built css file.');
+					else console.log(`Built css file. (${(result.stats.duration/60000 * 60).toFixed(2)}s)`);
 				})
 			})
 	})
