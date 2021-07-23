@@ -15,6 +15,11 @@ watcher.on('change', () => {
 		file: 'src/Slate.theme.scss',
 		outputStyle: 'expanded'
 	}, (err, result) => {
+		if (err) {
+			console.error(err);
+			return false;
+		}
+
 		const newRes = Buffer.from(result.css).toString();
 
 		postcss([autoprefixer])
@@ -24,7 +29,7 @@ watcher.on('change', () => {
 			})
 			.then(postcssRes => {
 				fs.writeFile(themesFolder+'\\Slate.theme.css', postcssRes.css, (err) => {
-					if (err) console.log(err);
+					if (err) console.error(err);
 					else console.log('Built css file.');
 				})
 			})
