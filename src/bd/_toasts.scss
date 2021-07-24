@@ -1,0 +1,79 @@
+@use '../assets';
+
+.bd-toasts {
+	right: 0 !important;
+	top: unset;
+	left: unset !important;
+	bottom: var(--spacing-double) !important;
+	width: 300px !important;
+	align-items: flex-end;
+}
+.bd-toast {
+	width: 100%;
+	box-sizing: border-box;
+	padding: var(--spacing);
+	background: var(--background-light) !important;
+	border-radius: var(--border-radius) 0 0 var(--border-radius);
+	box-shadow: var(--elevation-1);
+	border: 1px solid var(--base-border);
+	&.icon {
+		padding-left: calc(var(--spacing-double) * 2.5);
+		&:after {
+			content: "";
+			position: absolute;
+			top: 50%;
+			transform: translateY(-50%);
+			left: calc(var(--spacing) * 1.5);
+			width: 20px;
+			height: 20px;
+			mask-position: center;
+			mask-size: cover;
+		}
+		&.toast-info:after {
+			mask-image: url(assets.$icon_info);
+			background: rgb(var(--blue));
+		}
+		&.toast-success:after {
+			mask-image: url(assets.$icon_check-circle);
+			background: rgb(var(--green));
+		}
+		&.toast-warning:after, &.toast-warn:after {
+			mask-image: url(assets.$icon_alert);
+			background: rgb(var(--amber));
+		}
+		&.toast-error:after, &.toast-danger:after {
+			mask-image: url(assets.$icon_cross-circle);
+			background: rgb(var(--red));
+		}
+	}
+	&[class*="toast-"]:before {
+		display: block;
+		font-size: var(--font-size-sm);
+		color: var(--text-muted);
+		margin-bottom: var(--spacing-half);
+	}
+	&.toast-info {
+		border-left: 4px solid rgb(var(--blue));
+		&:before {
+			content: "Info";
+		}
+	}
+	&.toast-success {
+		border-left: 4px solid rgb(var(--green));
+		&:before {
+			content: "Success";
+		}
+	}
+	&.toast-warning, &.toast-warn {
+		border-left: 4px solid rgb(Var(--amber));
+		&:before {
+			content: "Warning";
+		}
+	}
+	&.toast-error, &.toast-danger {
+		border-left: 4px solid rgb(Var(--red));
+		&:before {
+			content: "Error";
+		}
+	}
+}

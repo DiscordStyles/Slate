@@ -61,6 +61,7 @@
 	.customStatus-oN4ZZY {
 		font-size: var(--font-size);
 		align-items: center;
+		padding: 0 var(--spacing);
 	}
 	.setIdentityLink-1t8Ahd {
 		display: none;
@@ -182,6 +183,7 @@
 	.bodyInnerWrapper-26fQXj {
 		padding: 0;
 		background: transparent;
+		position: relative;
 	}
 	.divider-ewBQKj {
 		display: none;
