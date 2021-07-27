@@ -5,7 +5,7 @@ const fs = require('fs');
 const postcss = require('postcss');
 const autoprefixer = require('autoprefixer');
 
-console.log('Building base.css file...');
+console.log('Building Slate.css file...');
 
 sass.render({
 	file: 'src/_base.scss',
@@ -24,9 +24,9 @@ sass.render({
 			to: undefined
 		})
 		.then(postcssRes => {
-			fs.writeFile('./base.css', postcssRes.css, (err) => {
+			fs.writeFile('dist/Slate.css', postcssRes.css, (err) => {
 				if (err) console.error(err);
-				else console.log(`Successfully built base.css file. (${(result.stats.duration/60000 * 60).toFixed(2)}s)`);
+				else console.log(`Successfully built Slate.css file. (${(result.stats.duration/60000 * 60).toFixed(2)}s)`);
 			})
 		})
 })
