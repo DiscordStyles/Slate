@@ -42,7 +42,7 @@
 */
 
 @import url("https://discordstyles.github.io/AdjustableServerWidth/base.css");
-@import url("https://discordstyles.github.io/Slate/base.css");
+@import url("https://discordstyles.github.io/Slate/dist/Slate.css");
 
 /*
 ====================================================================================
@@ -68,4 +68,3 @@
                 Please place any Theme-specific Custom CSS Below here
 ====================================================================================
 */
-
