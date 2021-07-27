@@ -3,7 +3,7 @@
     "description": "An optimized, consistent, and functional theme for Discord based on GitHub's design language.",
     "version": "1.1.7",
     "author": "Gibbu#1211 & Tropical#8908",
-    "theme": "Slate.theme.css",
+    "theme": "dist/Slate.theme.css",
     "consent": ["ext_listing"],
     "license": "MIT"
 }
