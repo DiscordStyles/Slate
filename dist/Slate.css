@@ -9401,6 +9401,78 @@ html.theme-light #app-mount .popout-2iWAc-.force-theme.content-1nP7fx .buttonCon
   display: none;
 }
 
+#app-mount .container-7uh5fX {
+  left: calc(100% - (var(--spacing-triple) * 2));
+  position: relative;
+  background: var(--background);
+  border: 1px solid var(--base-border);
+  border-radius: var(--border-radius);
+  box-shadow: var(--elevation-1);
+}
+#app-mount .container-7uh5fX .header-1VS4tm {
+  background: var(--background-dark);
+  border-bottom: 1px solid var(--base-border);
+  padding: 0 var(--spacing);
+}
+#app-mount .container-7uh5fX .divider-mDc_D8 {
+  height: 100%;
+  background: var(--base-border);
+}
+#app-mount .container-7uh5fX .title-wn-Ecb {
+  margin-right: var(--spacing);
+}
+#app-mount .container-7uh5fX .tab-PQvTH4 {
+  font-size: var(--font-size);
+  font-weight: var(--font-weight-normal);
+  cursor: var(--cursor);
+  min-height: var(--input-height);
+  height: var(--input-height);
+  line-height: normal;
+  transition: none;
+  box-sizing: border-box;
+  padding: 0 var(--spacing);
+  border-radius: var(--button-border-radius);
+  margin-right: var(--spacing);
+}
+#app-mount .container-7uh5fX .tab-PQvTH4.selected-3s45Ha {
+  background: rgb(var(--accent));
+  color: #fff;
+}
+#app-mount .container-7uh5fX .activeThreadsList-3f7l7U {
+  padding: 0 !important;
+}
+#app-mount .container-7uh5fX .activeThreadsList-3f7l7U::-webkit-scrollbar {
+  display: none;
+}
+#app-mount .container-7uh5fX .sectionHeader-17Aate {
+  margin: 0;
+  height: auto;
+  padding: var(--spacing);
+  color: var(--text-muted);
+  font-weight: var(--font-weight-semibold);
+}
+#app-mount .container-7uh5fX .container-2I9Hud {
+  border-radius: 0;
+  background: transparent;
+  border: none;
+  border-top: 1px solid var(--base-border);
+  padding: var(--spacing);
+  height: auto;
+}
+#app-mount .container-7uh5fX .container-2I9Hud:last-child {
+  border-bottom: 1px solid var(--base-border);
+}
+#app-mount .container-7uh5fX .container-2I9Hud:hover {
+  background: var(--background-alt);
+}
+#app-mount .container-7uh5fX .threadName-2iLyXl {
+  font-size: var(--font-size-md);
+  margin-bottom: var(--spacing-half);
+}
+#app-mount .container-7uh5fX .messageContent-19B5yF {
+  font-size: var(--font-size);
+}
+
 #app-mount .baseLayer-35bLyl.animating-rRxada:not(.stop-animations) + .animating-rRxada {
   display: none;
 }
