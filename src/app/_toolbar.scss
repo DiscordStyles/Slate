@@ -72,6 +72,9 @@
 				font-weight: var(--font-weight-normal);
 				color: var(--toolbar-text-muted);
 			}
+			&.parentChannelName-1C2HEo ~ h3::before {
+				content: none;
+			}
 		}
 		.akaBadge-1M-1Gw,
 		.divider-3FBTu8 {

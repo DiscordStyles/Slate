@@ -472,6 +472,9 @@ html:not(.app-focused) body:not(.oldTitleBarEnabled-D8ppJQ) .winButton-iRh8-Z {
   font-weight: var(--font-weight-normal);
   color: var(--toolbar-text-muted);
 }
+#app-mount .container-1r6BKw .children-19S4PO h3.parentChannelName-1C2HEo ~ h3::before {
+  content: none;
+}
 #app-mount .container-1r6BKw .children-19S4PO .akaBadge-1M-1Gw,
 #app-mount .container-1r6BKw .children-19S4PO .divider-3FBTu8 {
   display: none;
@@ -2730,183 +2733,17 @@ html.platform-win[lang=en-US]:not(.app-focused) body:not(.oldTitleBarEnabled-D8p
 #app-mount .chat-3bRxxu {
   background: var(--background-alt);
 }
+#app-mount .chat-3bRxxu.threadSidebarOpen-vdkwIh {
+  border-radius: 0;
+}
 #app-mount .chat-3bRxxu .scroller-2LSbBU {
   overflow-x: hidden !important;
 }
 #app-mount .chat-3bRxxu .scrollerSpacer-avRLaA {
   display: none;
 }
-#app-mount .chat-3bRxxu .jumpToPresentBar-G1R9s6 {
-  opacity: 1;
-  left: calc(var(--spacing) - 2px);
-  bottom: 0;
-  border-radius: 0;
-  min-height: auto;
-  background: var(--background);
-  padding: 0;
-  cursor: var(--cursor);
-  position: absolute;
-  z-index: 10;
-  box-shadow: var(--elevation-1);
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-}
-#app-mount .chat-3bRxxu .jumpToPresentBar-G1R9s6 .barButtonMain-3K-jeJ {
-  display: none;
-}
-#app-mount .chat-3bRxxu .jumpToPresentBar-G1R9s6 .barButtonAlt-mYL1lj {
-  font-size: var(--font-size-sm);
-  color: var(--text-normal);
-  font-weight: var(--font-weight);
-  padding: 0 var(--spacing);
-  border: 1px solid var(--base-border);
-  border-bottom: none;
-  cursor: var(--cursor);
-  border-radius: var(--border-radius) var(--border-radius) 0 0;
-}
-#app-mount .chat-3bRxxu .jumpToPresentBar-G1R9s6 .barButtonAlt-mYL1lj:hover {
-  background: var(--background-modifier-hover);
-}
-#app-mount .chat-3bRxxu .jumpToPresentBar-G1R9s6 .barButtonAlt-mYL1lj:active {
-  background: var(--background-modifier-active);
-}
-#app-mount .chat-3bRxxu .jumpToPresentBar-G1R9s6 .barButtonAlt-mYL1lj > svg {
-  display: none;
-}
-#app-mount .chat-3bRxxu .jumpToPresentBar-G1R9s6:active {
-  margin: 0;
-}
-#app-mount .chat-3bRxxu .newMessagesBar-265mhP {
-  left: 0;
-  right: 0;
-  border-radius: 0;
-  background: var(--background-light);
-  border-bottom: 1px solid var(--base-border);
-  box-shadow: none;
-  opacity: 1;
-  z-index: 100;
-  min-height: auto;
-  cursor: var(--cursor);
-}
-#app-mount .chat-3bRxxu .newMessagesBar-265mhP:active {
-  padding: 0;
-}
-#app-mount .chat-3bRxxu .newMessagesBar-265mhP button {
-  cursor: var(--cursor);
-}
-#app-mount .chat-3bRxxu .newMessagesBar-265mhP button.barButtonMain-3K-jeJ {
-  color: var(--text-normal);
-  font-size: var(--font-size);
-  font-weight: var(--font-weight-normal);
-  height: 29px;
-  padding: 0 var(--spacing);
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-#app-mount .chat-3bRxxu .newMessagesBar-265mhP button.barButtonMain-3K-jeJ:after {
-  content: "";
-  width: 16px;
-  height: 16px;
-  background: rgb(var(--status-yellow));
-  -webkit-mask: url('data:image/svg+xml; utf-8,<svg xmlns="http://www.w3.org/2000/svg" aria-labelledby="__Octicon_Title_3" class="octicon status status-modified" version="1.1" viewBox="0 0 16 16"><title id="__Octicon_Title_3">Modified</title><path fill-rule="evenodd" d="M2.75 2.5h10.5a.25.25 0 01.25.25v10.5a.25.25 0 01-.25.25H2.75a.25.25 0 01-.25-.25V2.75a.25.25 0 01.25-.25zM13.25 1H2.75A1.75 1.75 0 001 2.75v10.5c0 .966.784 1.75 1.75 1.75h10.5A1.75 1.75 0 0015 13.25V2.75A1.75 1.75 0 0013.25 1zM8 10a2 2 0 100-4 2 2 0 000 4z"/></svg>') center/contain no-repeat;
-          mask: url('data:image/svg+xml; utf-8,<svg xmlns="http://www.w3.org/2000/svg" aria-labelledby="__Octicon_Title_3" class="octicon status status-modified" version="1.1" viewBox="0 0 16 16"><title id="__Octicon_Title_3">Modified</title><path fill-rule="evenodd" d="M2.75 2.5h10.5a.25.25 0 01.25.25v10.5a.25.25 0 01-.25.25H2.75a.25.25 0 01-.25-.25V2.75a.25.25 0 01.25-.25zM13.25 1H2.75A1.75 1.75 0 001 2.75v10.5c0 .966.784 1.75 1.75 1.75h10.5A1.75 1.75 0 0015 13.25V2.75A1.75 1.75 0 0013.25 1zM8 10a2 2 0 100-4 2 2 0 000 4z"/></svg>') center/contain no-repeat;
-  position: relative;
-  display: inline-block;
-}
-#app-mount .chat-3bRxxu .newMessagesBar-265mhP button.barButtonAlt-mYL1lj {
-  display: none;
-}
-#app-mount .chat-3bRxxu .hasMore-3e72_v {
-  margin: 0;
-  box-shadow: none;
-  background: var(--background);
-  border-top: 1px solid var(--base-border);
-  border-bottom: 1px solid var(--base-border);
-  border-radius: 0;
-}
-#app-mount .chat-3bRxxu .messagesErrorBar-nyJGU7 {
-  opacity: 1;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  flex-direction: column;
-  background: var(--background);
-  border-radius: var(--border-radius);
-  box-shadow: var(--elevation-1);
-  border: 1px solid var(--base-border);
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
-  width: 340px;
-  height: 290px;
-  box-sizing: border-box;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: var(--spacing-double);
-  pointer-events: none;
-  margin-left: -170px;
-  margin-top: -145px;
-  -webkit-animation: modal 150ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
-          animation: modal 150ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
-}
-#app-mount .chat-3bRxxu .messagesErrorBar-nyJGU7 .barButtonMain-3K-jeJ {
-  font-size: 0;
-  padding: 0;
-  overflow: visible;
-  margin: var(--spacing) 0;
-  height: auto;
+#app-mount .chat-3bRxxu .header-3uLluP {
   line-height: normal;
-}
-#app-mount .chat-3bRxxu .messagesErrorBar-nyJGU7 .barButtonMain-3K-jeJ:after {
-  content: "Uh oh.";
-  font-size: var(--font-size-xxl);
-  font-weight: var(--font-weight-light);
-  color: var(--text-normal);
-}
-#app-mount .chat-3bRxxu .messagesErrorBar-nyJGU7:before {
-  content: "";
-  width: 100px;
-  height: 100px;
-  background: var(--text-muted);
-  -webkit-mask: url("https://discordstyles.github.io/Slate/assets/illustrations/1.svg") center/contain no-repeat;
-          mask: url("https://discordstyles.github.io/Slate/assets/illustrations/1.svg") center/contain no-repeat;
-  margin-bottom: var(--spacing);
-}
-#app-mount .chat-3bRxxu .messagesErrorBar-nyJGU7:after {
-  content: "There was a problem loading messages for this channel. Make sure you have a stable internet connection, then try agian.";
-  font-size: var(--font-size);
-  color: var(--text-muted);
-  text-transform: none;
-  text-align: center;
-  line-height: normal;
-  margin-bottom: var(--spacing);
-}
-#app-mount .chat-3bRxxu .messagesErrorBar-nyJGU7 .barButtonAlt-mYL1lj,
-#app-mount .chat-3bRxxu .messagesErrorBar-nyJGU7 .spinner-1AwyAQ {
-  order: 1;
-  pointer-events: all;
-  font-size: var(--font-size);
-  font-weight: var(--font-weight-normal);
-  cursor: var(--cursor);
-  min-height: var(--input-height);
-  height: var(--input-height);
-  line-height: normal;
-  transition: none;
-  padding: 0 var(--spacing);
-  border-radius: var(--button-border-radius);
-  color: var(--white);
-  background-color: rgb(var(--accent));
-}
-#app-mount .chat-3bRxxu .messagesErrorBar-nyJGU7 .barButtonAlt-mYL1lj:hover,
-#app-mount .chat-3bRxxu .messagesErrorBar-nyJGU7 .spinner-1AwyAQ:hover {
-  box-shadow: inset 0 0 0 100vmax rgba(255, 255, 255, 0.1);
-}
-#app-mount .chat-3bRxxu .messagesErrorBar-nyJGU7 .barButtonAlt-mYL1lj:focus,
-#app-mount .chat-3bRxxu .messagesErrorBar-nyJGU7 .spinner-1AwyAQ:focus {
-  box-shadow: 0 0 0 2px rgba(var(--accent), 0.25), inset 0 0 0 100vmax rgba(255, 255, 255, 0.1);
 }
 
 #app-mount .messagesWrapper-1sRNjr {
@@ -3355,6 +3192,9 @@ html.platform-win[lang=en-US]:not(.app-focused) body:not(.oldTitleBarEnabled-D8p
   background: rgb(var(--status-yellow));
   -webkit-mask: url('data:image/svg+xml; utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25z"/></svg>') center/70% no-repeat;
           mask: url('data:image/svg+xml; utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25z"/></svg>') center/70% no-repeat;
+}
+#app-mount .wrapper-2a6GCs.cozy-3raOZG.hasThread-2k82W0::after {
+  display: none;
 }
 #app-mount .compact-T3H92H {
   padding: var(--spacing) 0 var(--spacing) 70px;
@@ -5237,6 +5077,237 @@ html.theme-light #app-mount .reactions-12N0jA .reaction-1hd86g:not(.reactionMe-w
 }
 #app-mount .metadataContent-3c_ZXw {
   padding: 0;
+}
+
+#app-mount .typeThread-3ESTm- .mainContent-u_9PKf {
+  padding: 0;
+  padding-left: var(--spacing-triple);
+}
+#app-mount .typeThread-3ESTm- .mainContent-u_9PKf::before {
+  top: 0;
+  bottom: 0;
+}
+#app-mount .spine--Wla_O {
+  z-index: 1;
+  color: var(--text-muted);
+}
+#app-mount .container-3hZ-gs {
+  margin-top: var(--spacing-half);
+  border-radius: var(--border-radius);
+  border: 1px solid var(--base-border);
+  padding: var(--spacing);
+  background: var(--background);
+}
+#app-mount .container-3hZ-gs .name-1qtoQ5,
+#app-mount .container-3hZ-gs .cta-3MixHV,
+#app-mount .container-3hZ-gs .timestamp-1Kyoes {
+  font-size: var(--chat-font-size);
+}
+#app-mount .container-3hZ-gs .username-1A8OIy {
+  margin-right: var(--spacing-half);
+}
+#app-mount .bottomLine-2qB7L6 {
+  margin-top: var(--spacing-half);
+}
+#app-mount .threadSidebar-1o3BTy {
+  margin-left: 0;
+  border-radius: 0;
+  border-left: 1px solid var(--base-border);
+  background: transparent;
+}
+#app-mount .threadSidebar-1o3BTy .form-2fGMdU {
+  padding-left: var(--spacing);
+}
+#app-mount .threadSidebar-1o3BTy .scrollerSpacer-avRLaA {
+  display: none;
+}
+#app-mount .chat-1cCjJ5::before {
+  content: none;
+}
+#app-mount .iconWrapper-L3hQuc {
+  background: transparent;
+  width: 32px;
+  height: 32px;
+  border-radius: 0;
+}
+#app-mount .messagePreview-3WlsGw.cozy-3raOZG .avatar-1BDn8e {
+  top: 0;
+}
+#app-mount .submitButton-10dlpk {
+  margin-bottom: var(--spacing);
+}
+
+#app-mount .chat-3bRxxu .jumpToPresentBar-G1R9s6 {
+  opacity: 1;
+  left: calc(var(--spacing) - 2px);
+  bottom: 0;
+  border-radius: 0;
+  min-height: auto;
+  background: var(--background);
+  padding: 0;
+  cursor: var(--cursor);
+  position: absolute;
+  z-index: 10;
+  box-shadow: var(--elevation-1);
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+#app-mount .chat-3bRxxu .jumpToPresentBar-G1R9s6 .barButtonMain-3K-jeJ {
+  display: none;
+}
+#app-mount .chat-3bRxxu .jumpToPresentBar-G1R9s6 .barButtonAlt-mYL1lj {
+  font-size: var(--font-size-sm);
+  color: var(--text-normal);
+  font-weight: var(--font-weight);
+  padding: 0 var(--spacing);
+  border: 1px solid var(--base-border);
+  border-bottom: none;
+  cursor: var(--cursor);
+  border-radius: var(--border-radius) var(--border-radius) 0 0;
+}
+#app-mount .chat-3bRxxu .jumpToPresentBar-G1R9s6 .barButtonAlt-mYL1lj:hover {
+  background: var(--background-modifier-hover);
+}
+#app-mount .chat-3bRxxu .jumpToPresentBar-G1R9s6 .barButtonAlt-mYL1lj:active {
+  background: var(--background-modifier-active);
+}
+#app-mount .chat-3bRxxu .jumpToPresentBar-G1R9s6 .barButtonAlt-mYL1lj > svg {
+  display: none;
+}
+#app-mount .chat-3bRxxu .jumpToPresentBar-G1R9s6:active {
+  margin: 0;
+}
+#app-mount .chat-3bRxxu .newMessagesBar-265mhP {
+  left: 0;
+  right: 0;
+  border-radius: 0;
+  background: var(--background-light);
+  border-bottom: 1px solid var(--base-border);
+  box-shadow: none;
+  opacity: 1;
+  z-index: 100;
+  min-height: auto;
+  cursor: var(--cursor);
+}
+#app-mount .chat-3bRxxu .newMessagesBar-265mhP:active {
+  padding: 0;
+}
+#app-mount .chat-3bRxxu .newMessagesBar-265mhP button {
+  cursor: var(--cursor);
+}
+#app-mount .chat-3bRxxu .newMessagesBar-265mhP button.barButtonMain-3K-jeJ {
+  color: var(--text-normal);
+  font-size: var(--font-size);
+  font-weight: var(--font-weight-normal);
+  height: 29px;
+  padding: 0 var(--spacing);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#app-mount .chat-3bRxxu .newMessagesBar-265mhP button.barButtonMain-3K-jeJ:after {
+  content: "";
+  width: 16px;
+  height: 16px;
+  background: rgb(var(--status-yellow));
+  -webkit-mask: url('data:image/svg+xml; utf-8,<svg xmlns="http://www.w3.org/2000/svg" aria-labelledby="__Octicon_Title_3" class="octicon status status-modified" version="1.1" viewBox="0 0 16 16"><title id="__Octicon_Title_3">Modified</title><path fill-rule="evenodd" d="M2.75 2.5h10.5a.25.25 0 01.25.25v10.5a.25.25 0 01-.25.25H2.75a.25.25 0 01-.25-.25V2.75a.25.25 0 01.25-.25zM13.25 1H2.75A1.75 1.75 0 001 2.75v10.5c0 .966.784 1.75 1.75 1.75h10.5A1.75 1.75 0 0015 13.25V2.75A1.75 1.75 0 0013.25 1zM8 10a2 2 0 100-4 2 2 0 000 4z"/></svg>') center/contain no-repeat;
+          mask: url('data:image/svg+xml; utf-8,<svg xmlns="http://www.w3.org/2000/svg" aria-labelledby="__Octicon_Title_3" class="octicon status status-modified" version="1.1" viewBox="0 0 16 16"><title id="__Octicon_Title_3">Modified</title><path fill-rule="evenodd" d="M2.75 2.5h10.5a.25.25 0 01.25.25v10.5a.25.25 0 01-.25.25H2.75a.25.25 0 01-.25-.25V2.75a.25.25 0 01.25-.25zM13.25 1H2.75A1.75 1.75 0 001 2.75v10.5c0 .966.784 1.75 1.75 1.75h10.5A1.75 1.75 0 0015 13.25V2.75A1.75 1.75 0 0013.25 1zM8 10a2 2 0 100-4 2 2 0 000 4z"/></svg>') center/contain no-repeat;
+  position: relative;
+  display: inline-block;
+}
+#app-mount .chat-3bRxxu .newMessagesBar-265mhP button.barButtonAlt-mYL1lj {
+  display: none;
+}
+#app-mount .chat-3bRxxu .hasMore-3e72_v {
+  margin: 0;
+  box-shadow: none;
+  background: var(--background);
+  border-top: 1px solid var(--base-border);
+  border-bottom: 1px solid var(--base-border);
+  border-radius: 0;
+}
+#app-mount .chat-3bRxxu .messagesErrorBar-nyJGU7 {
+  opacity: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  flex-direction: column;
+  background: var(--background);
+  border-radius: var(--border-radius);
+  box-shadow: var(--elevation-1);
+  border: 1px solid var(--base-border);
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: 340px;
+  height: 290px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--spacing-double);
+  pointer-events: none;
+  margin-left: -170px;
+  margin-top: -145px;
+  -webkit-animation: modal 150ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+          animation: modal 150ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+#app-mount .chat-3bRxxu .messagesErrorBar-nyJGU7 .barButtonMain-3K-jeJ {
+  font-size: 0;
+  padding: 0;
+  overflow: visible;
+  margin: var(--spacing) 0;
+  height: auto;
+  line-height: normal;
+}
+#app-mount .chat-3bRxxu .messagesErrorBar-nyJGU7 .barButtonMain-3K-jeJ:after {
+  content: "Uh oh.";
+  font-size: var(--font-size-xxl);
+  font-weight: var(--font-weight-light);
+  color: var(--text-normal);
+}
+#app-mount .chat-3bRxxu .messagesErrorBar-nyJGU7:before {
+  content: "";
+  width: 100px;
+  height: 100px;
+  background: var(--text-muted);
+  -webkit-mask: url("https://discordstyles.github.io/Slate/assets/illustrations/1.svg") center/contain no-repeat;
+          mask: url("https://discordstyles.github.io/Slate/assets/illustrations/1.svg") center/contain no-repeat;
+  margin-bottom: var(--spacing);
+}
+#app-mount .chat-3bRxxu .messagesErrorBar-nyJGU7:after {
+  content: "There was a problem loading messages for this channel. Make sure you have a stable internet connection, then try agian.";
+  font-size: var(--font-size);
+  color: var(--text-muted);
+  text-transform: none;
+  text-align: center;
+  line-height: normal;
+  margin-bottom: var(--spacing);
+}
+#app-mount .chat-3bRxxu .messagesErrorBar-nyJGU7 .barButtonAlt-mYL1lj,
+#app-mount .chat-3bRxxu .messagesErrorBar-nyJGU7 .spinner-1AwyAQ {
+  order: 1;
+  pointer-events: all;
+  font-size: var(--font-size);
+  font-weight: var(--font-weight-normal);
+  cursor: var(--cursor);
+  min-height: var(--input-height);
+  height: var(--input-height);
+  line-height: normal;
+  transition: none;
+  padding: 0 var(--spacing);
+  border-radius: var(--button-border-radius);
+  color: var(--white);
+  background-color: rgb(var(--accent));
+}
+#app-mount .chat-3bRxxu .messagesErrorBar-nyJGU7 .barButtonAlt-mYL1lj:hover,
+#app-mount .chat-3bRxxu .messagesErrorBar-nyJGU7 .spinner-1AwyAQ:hover {
+  box-shadow: inset 0 0 0 100vmax rgba(255, 255, 255, 0.1);
+}
+#app-mount .chat-3bRxxu .messagesErrorBar-nyJGU7 .barButtonAlt-mYL1lj:focus,
+#app-mount .chat-3bRxxu .messagesErrorBar-nyJGU7 .spinner-1AwyAQ:focus {
+  box-shadow: 0 0 0 2px rgba(var(--accent), 0.25), inset 0 0 0 100vmax rgba(255, 255, 255, 0.1);
 }
 
 #app-mount .membersWrap-2h-GB4 {
@@ -11569,6 +11640,7 @@ body #app-mount #bd-settingspane-container .bd-controls {
   border-radius: var(--border-radius) 0 0 var(--border-radius);
   box-shadow: var(--elevation-1);
   border: 1px solid var(--base-border);
+  color: var(--text-focus) !important;
 }
 .bd-toast.icon {
   padding-left: calc(var(--spacing-double) * 2.5);

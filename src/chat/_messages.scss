@@ -277,6 +277,11 @@
 					}
 				}
 			}
+
+			// Remove threads bar thingy
+			&.hasThread-2k82W0::after {
+				display: none;
+			}
 		}
 	}
 
