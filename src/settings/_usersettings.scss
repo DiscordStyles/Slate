@@ -8,11 +8,22 @@
 	}
 
 	// My Account
-	.background-1QDuV2 {
-		border-radius: var(--border-radius);
-		background: var(--background-alt);
+	.accountProfileCard-1XCH88 {
 		border: 1px solid var(--base-border);
-		padding: 0;
+		border-radius: var(--border-radius);
+		.wrapper-3t9DeA {
+			left: var(--spacing);
+		}
+		.pointerEvents-2zdfdO {
+			x: 78;
+		}
+	}
+	.background-1QDuV2 {
+		border-radius: 0;
+		background: transparent;
+		border: none;
+		padding: var(--spacing);
+		margin: 0;
 		.profile-1eT9hT {
 			padding: var(--spacing-double);
 		}
@@ -30,9 +41,9 @@
 			height: 20px;
 		}
 		.fieldList-21DyL8 {
-			margin-top: 0;
-			padding: var(--spacing-double);
-			border-top: 1px solid var(--base-border);
+			margin: 0;
+			padding: 0;
+			border: none;
 			border-radius: 0;
 			background: transparent;
 		}
