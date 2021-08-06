@@ -203,7 +203,6 @@
 	.rolesList-1geHY1 {
 		margin: 0;
 		padding: 0 var(--spacing) var(--spacing);
-		position: unset;
 	}
 	.member-perm,
 	.role-2irmRk {
@@ -265,7 +264,7 @@
 	}
 	.actionButton-VzECiy {
 		position: absolute;
-		top: 1px;
+		top: calc(var(--spacing-triple) / -1 - var(--spacing-half) - 2px);
 		right: 0;
 		padding: 0 var(--spacing);
 		margin: 0;

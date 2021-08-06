@@ -6980,7 +6980,6 @@ html.theme-light #app-mount .wrapper-3Q5DdO .qrLogin-1AOZMt .startOverButton-3q0
 #app-mount .userPopout-xaxa6l .rolesList-1geHY1 {
   margin: 0;
   padding: 0 var(--spacing) var(--spacing);
-  position: unset;
 }
 #app-mount .userPopout-xaxa6l .member-perm,
 #app-mount .userPopout-xaxa6l .role-2irmRk {
@@ -7055,7 +7054,7 @@ html.theme-light #app-mount .wrapper-3Q5DdO .qrLogin-1AOZMt .startOverButton-3q0
 }
 #app-mount .userPopout-xaxa6l .actionButton-VzECiy {
   position: absolute;
-  top: 1px;
+  top: calc(var(--spacing-triple) / -1 - var(--spacing-half) - 2px);
   right: 0;
   padding: 0 var(--spacing);
   margin: 0;
