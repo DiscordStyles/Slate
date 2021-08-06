@@ -6856,9 +6856,13 @@ html.theme-light #app-mount .wrapper-3Q5DdO .qrLogin-1AOZMt .startOverButton-3q0
 }
 #app-mount .userPopout-xaxa6l .aboutMeSection-1Fw5Ia {
   padding: 0;
+  margin-bottom: 0;
 }
 #app-mount .userPopout-xaxa6l .aboutMeBody-3GuvKk {
   padding: 0 var(--spacing) var(--spacing);
+}
+#app-mount .userPopout-xaxa6l .clamped-IwJfxR {
+  display: block;
 }
 #app-mount .userPopout-xaxa6l .avatarPositionNormal-aZjAsn {
   top: 25px;
@@ -6890,7 +6894,7 @@ html.theme-light #app-mount .wrapper-3Q5DdO .qrLogin-1AOZMt .startOverButton-3q0
   width: var(--avatar-size-xl);
   height: var(--avatar-size-xl);
 }
-#app-mount .userPopout-xaxa6l .activity-3v9l4T {
+#app-mount .userPopout-xaxa6l .activity-2INFPu {
   padding: 0;
 }
 #app-mount .userPopout-xaxa6l .body-ZAhrcj {
@@ -6923,6 +6927,10 @@ html.theme-light #app-mount .wrapper-3Q5DdO .qrLogin-1AOZMt .startOverButton-3q0
 }
 #app-mount .userPopout-xaxa6l .buttonsWrapper-2spIeK:empty {
   padding: 0;
+}
+#app-mount .userPopout-xaxa6l .connections-pPr4as {
+  padding: 0 var(--spacing);
+  margin-bottom: 0;
 }
 #app-mount .userPopout-xaxa6l .spotifyIcon-2J9kSv {
   top: 6px;
@@ -7047,14 +7055,17 @@ html.theme-light #app-mount .wrapper-3Q5DdO .qrLogin-1AOZMt .startOverButton-3q0
 }
 #app-mount .userPopout-xaxa6l .actionButton-VzECiy {
   position: absolute;
-  top: 0;
+  top: 1px;
   right: 0;
-  padding: 0;
-  margin: 0 var(--spacing);
+  padding: 0 var(--spacing);
+  margin: 0;
+  border-radius: 0;
+  background: transparent;
   height: 28px;
   border-radius: var(--border-radius);
   color: var(--text-muted);
   cursor: var(--cursor);
+  height: 26px;
 }
 #app-mount .userPopout-xaxa6l .actionButton-VzECiy .addButtonIcon-1NMJ8u {
   height: var(--font-size);
@@ -8769,14 +8780,15 @@ html.theme-light #app-mount .container-ZRw2kD .guildSection-1EoFKd .showMoreEmoj
   border: 1px solid var(--secondary-border) !important;
 }
 
-#app-mount .container-VSDcQc {
+#app-mount .container-3XJ8ns {
   box-shadow: var(--elevation-1);
   border: 1px solid var(--base-border);
   border-radius: var(--border-radius);
   background: var(--background);
   width: 220px;
+  padding: 0;
 }
-#app-mount .container-VSDcQc::before {
+#app-mount .container-3XJ8ns::before {
   content: "";
   position: absolute;
   left: 50%;
@@ -8784,7 +8796,7 @@ html.theme-light #app-mount .container-ZRw2kD .guildSection-1EoFKd .showMoreEmoj
   margin-left: -5px;
   height: 10px;
   width: 10px;
-  background: var(--background-alt);
+  background: var(--background);
   transform: translateX(-50%);
   transform: rotate(-135deg);
   border-bottom: 1px solid var(--base-border);
@@ -8793,97 +8805,22 @@ html.theme-light #app-mount .container-ZRw2kD .guildSection-1EoFKd .showMoreEmoj
   clip-path: polygon(0 100%, 100% 100%, 100% 0);
   box-shadow: var(--elevation-1);
 }
-#app-mount .container-VSDcQc .content-3YMskv {
-  height: -webkit-fit-content !important;
-  height: -moz-fit-content !important;
-  height: fit-content !important;
-}
-#app-mount .container-VSDcQc .autocompleteShadow-iiGWFU,
-#app-mount .container-VSDcQc .autocompleteHeaderBackground-30T70q {
-  display: none;
-}
-#app-mount .container-VSDcQc .autocompleteArrowWrapper-3Z7OuM {
-  display: none;
-}
-#app-mount .container-VSDcQc .header-2bNvm4 {
-  background: var(--background-alt);
-  height: auto;
+#app-mount .container-3XJ8ns .container-cMG81i {
   padding: var(--spacing);
-  border-bottom: 1px solid var(--base-border);
-  box-sizing: border-box;
 }
-#app-mount .container-VSDcQc .header-2bNvm4 .headerText-3i6A8K {
-  color: var(--text-normal);
-  text-transform: none;
-  font-weight: var(--font-weight-normal);
-  font-size: var(--font-size);
-  margin-right: var(--spacing);
-}
-#app-mount .container-VSDcQc .sectionTag-pXyto9 {
-  color: var(--text-normal);
-  background: var(--background);
-}
-#app-mount .container-VSDcQc .sectionTag-pXyto9 .autocompleteScroller-iInVqR {
+#app-mount .container-3XJ8ns .list-1MFD7e {
+  margin: 0;
   padding: 0;
-  height: auto;
-  max-height: calc(var(--item-height) * 7);
+  border-top: 1px solid var(--base-border);
 }
-#app-mount .container-VSDcQc .sectionTag-pXyto9 .autocompleteScroller-iInVqR .row-rrHHJU {
-  color: var(--text-normal);
-  padding: 0;
+#app-mount .container-3XJ8ns .item-2J2GlB {
+  border-radius: 0;
+  padding: var(--spacing);
+  margin: 0;
   cursor: var(--cursor);
 }
-#app-mount .container-VSDcQc .sectionTag-pXyto9 .autocompleteScroller-iInVqR .row-rrHHJU .rowInner-1vvRiF {
-  padding: 0 var(--spacing);
-  height: var(--item-height);
-  border-radius: 0;
-  display: flex;
-  align-items: center;
+#app-mount .container-3XJ8ns .itemLabel-38pPIt {
   font-size: var(--font-size);
-}
-#app-mount .container-VSDcQc .sectionTag-pXyto9 .autocompleteScroller-iInVqR .row-rrHHJU .rowInner-1vvRiF span {
-  max-width: 100%;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  line-height: 18px;
-}
-#app-mount .container-VSDcQc .sectionTag-pXyto9 .autocompleteScroller-iInVqR .row-rrHHJU.selected-1pIgLL .rowInner-1vvRiF {
-  background: var(--background-modifier-hover);
-  color: var(--text-normal);
-}
-#app-mount .container-VSDcQc .sectionTag-pXyto9 .autocompleteScroller-iInVqR .row-rrHHJU:active .rowInner-1vvRiF {
-  background: var(--background-modifier-active);
-}
-#app-mount .container-VSDcQc .sectionTag-pXyto9 .autocompleteScroller-iInVqR .empty-3hoe1g {
-  border-radius: 0;
-  line-height: normal;
-  padding: var(--spacing-double);
-}
-#app-mount .container-VSDcQc .sectionTag-pXyto9 .autocompleteScroller-iInVqR .empty-3hoe1g .noResultsHeader-pqW4H- {
-  color: var(--text-normal);
-  margin: 0;
-  font-size: var(--font-size);
-  font-weight: var(--font-weight-normal);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-#app-mount .container-VSDcQc .sectionTag-pXyto9 .autocompleteScroller-iInVqR .empty-3hoe1g .noResultsHeader-pqW4H-::before {
-  content: "";
-  width: 72px;
-  height: 72px;
-  background: var(--text-muted);
-  display: block;
-  position: relative;
-  margin-bottom: var(--spacing);
-  -webkit-mask: url("https://discordstyles.github.io/Slate/assets/illustrations/8.svg") center/contain no-repeat;
-          mask: url("https://discordstyles.github.io/Slate/assets/illustrations/8.svg") center/contain no-repeat;
-}
-#app-mount .container-VSDcQc .sectionTag-pXyto9 .autocompleteScroller-iInVqR .empty-3hoe1g p {
-  margin: 0;
-  color: var(--text-muted);
-  font-size: var(--font-size);
-  font-weight: var(--font-weight-normal);
 }
 
 #app-mount .popouts-2bnG9Z .popout-2iWAc- {
