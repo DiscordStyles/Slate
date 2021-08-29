@@ -28,11 +28,11 @@
 		overflow: hidden;
 		box-shadow: var(--elevation-2);
 		width: 100%;
-		min-width: 960px;
-		max-width: 960px;
+		min-width: var(--settings-min-width);
+		max-width: var(--settings-max-width);
 		height: 65vh;
-		max-height: 650px;
-		min-height: 400px;
+		min-height: var(--settings-min-height);
+		max-height: var(--settings-max-height);
 		padding-top: 50px;
 		top: 0;
 		.settingsToolbar-wu4yfQ {

@@ -119,8 +119,8 @@
 	.sidebar-dLM-kh {
 		flex: 0 0 230px !important;
 		border-right: none;
-		max-height: 600px;
-		min-height: 350px;
+		min-height: var(--settings-min-height);
+		max-height: var(--settings-max-height);
 		.side-8zPYf6 {
 			max-height: inherit;
 			min-height: inherit;
@@ -155,8 +155,8 @@
 	}
 	.list-I3aHXn {
 		padding: 0;
-		max-height: 600px;
-		min-height: 350px;
+		min-height: var(--settings-min-height);
+		max-height: var(--settings-max-height);
 		&::-webkit-scrollbar {
 			display: none;
 		}
@@ -184,6 +184,16 @@
 		}
 		.titleText-1ZIyhl {
 			font-size: var(--font-size-md);
+		}
+		.warning-3C2pOH {
+			margin-bottom: var(--spacing);
+			.icon-1jlFSw {
+				width: 18px;
+				height: 18px;
+			}
+			.text-2J5crT {
+				font-size: var(--font-size);
+			}
 		}
 		.menu-32AM6u svg {
 			width: 16px;

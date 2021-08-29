@@ -79,6 +79,10 @@
   --rs-large-spacing: 0px;
   --rs-width: 2px;
   --rs-avatar-shape: var(--avatar-radius);
+  --settings-min-height: 850px;
+  --settings-max-height: 850px;
+  --settings-min-width: 960px;
+  --settings-max-width: 960px;
   --cursor: default;
 }
 
@@ -9446,11 +9450,11 @@ html.theme-light #app-mount .popout-2iWAc-.force-theme.content-1nP7fx .buttonCon
   overflow: hidden;
   box-shadow: var(--elevation-2);
   width: 100%;
-  min-width: 960px;
-  max-width: 960px;
+  min-width: var(--settings-min-width);
+  max-width: var(--settings-max-width);
   height: 65vh;
-  max-height: 650px;
-  min-height: 400px;
+  min-height: var(--settings-min-height);
+  max-height: var(--settings-max-height);
   padding-top: 50px;
   top: 0;
 }
@@ -10808,8 +10812,8 @@ html.theme-light .connectionIcon-2ElzVe {
 #app-mount .layer-3QrUeG[aria-label=GUILD_SETTINGS] .sidebar-dLM-kh {
   flex: 0 0 230px !important;
   border-right: none;
-  max-height: 600px;
-  min-height: 350px;
+  min-height: var(--settings-min-height);
+  max-height: var(--settings-max-height);
 }
 #app-mount .layer-3QrUeG[aria-label=GUILD_SETTINGS] .sidebar-dLM-kh .side-8zPYf6 {
   max-height: inherit;
@@ -10844,8 +10848,8 @@ html.theme-light .connectionIcon-2ElzVe {
 }
 #app-mount .layer-3QrUeG[aria-label=GUILD_SETTINGS] .list-I3aHXn {
   padding: 0;
-  max-height: 600px;
-  min-height: 350px;
+  min-height: var(--settings-min-height);
+  max-height: var(--settings-max-height);
 }
 #app-mount .layer-3QrUeG[aria-label=GUILD_SETTINGS] .list-I3aHXn::-webkit-scrollbar {
   display: none;
@@ -10874,6 +10878,16 @@ html.theme-light .connectionIcon-2ElzVe {
 }
 #app-mount .layer-3QrUeG[aria-label=GUILD_SETTINGS] .header-2mZ9Ov.stickyHeader-hH_ZLl .titleText-1ZIyhl {
   font-size: var(--font-size-md);
+}
+#app-mount .layer-3QrUeG[aria-label=GUILD_SETTINGS] .header-2mZ9Ov.stickyHeader-hH_ZLl .warning-3C2pOH {
+  margin-bottom: var(--spacing);
+}
+#app-mount .layer-3QrUeG[aria-label=GUILD_SETTINGS] .header-2mZ9Ov.stickyHeader-hH_ZLl .warning-3C2pOH .icon-1jlFSw {
+  width: 18px;
+  height: 18px;
+}
+#app-mount .layer-3QrUeG[aria-label=GUILD_SETTINGS] .header-2mZ9Ov.stickyHeader-hH_ZLl .warning-3C2pOH .text-2J5crT {
+  font-size: var(--font-size);
 }
 #app-mount .layer-3QrUeG[aria-label=GUILD_SETTINGS] .header-2mZ9Ov.stickyHeader-hH_ZLl .menu-32AM6u svg {
   width: 16px;
