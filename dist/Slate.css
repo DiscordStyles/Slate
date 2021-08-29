@@ -79,8 +79,8 @@
   --rs-large-spacing: 0px;
   --rs-width: 2px;
   --rs-avatar-shape: var(--avatar-radius);
-  --settings-min-height: 850px;
-  --settings-max-height: 850px;
+  --settings-min-height: 450px;
+  --settings-max-height: 650px;
   --settings-min-width: 960px;
   --settings-max-width: 960px;
   --cursor: default;
