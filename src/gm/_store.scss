@@ -1,0 +1,95 @@
+#app-mount {
+	#gm-settings-inject {
+		background: transparent !important;
+		padding: calc(var(--spacing-double) * 2) var(--spacing-double) var(--spacing-double) !important;
+		width: calc(100vw - (var(--sidebar-width) * 2.5) - var(--noasw-base));
+	}
+	.gm-store-category {
+		margin-top: var(--spacing-double);
+		.scrollerBase-289Jih {
+			display: flex;
+			&::-webkit-scrollbar {
+				display: block !important;
+			}
+			&:hover {
+				overflow: auto !important;
+			}
+		}
+		.gm-store-card {
+			margin-top: 0;
+			&:first-child {
+				margin-left: 0;
+			}
+			&:last-child {
+				margin-right: 0;
+			}
+		}
+		& + .gm-store-header {
+			margin-top: var(--spacing-double);
+		}
+	}
+	.gm-store-header {
+		margin: 0 0 var(--spacing);
+		.pageHeader-3nuK1W {
+			font-size: var(--font-size-md);
+			color: var(--text-normal);
+		}
+	}
+	.gm-store-card {
+		margin: var(--spacing);
+		background: var(--background);
+		border: 1px solid var(--base-border);
+		box-shadow: none;
+		min-width: 330px;
+		border-radius: var(--border-radius);
+		overflow: hidden;
+
+		& > img {
+			border-radius: 0;
+			min-height: 175px;
+			max-height: 175px;
+			background: var(--background-dark);
+			min-width: calc(100% + 24px);
+			max-width: calc(100% + 24px);
+			object-fit: cover;
+			border-bottom: 1px solid var(--base-border);
+		}
+		& > .title-31JmR4:nth-child(2) {
+			border-radius: var(--border-radius) 0 0 0;
+			right: 0;
+			top: 138px;
+			padding: var(--spacing-half) var(--spacing);
+			display: flex;
+			align-items: center;
+			background-color: rgb(0 0 0 / .7);
+			.description-3_Ncsb.formText-3fs7AJ {
+				display: none;
+			}
+			img {
+				width: 28px;
+				height: 28px;
+				&:not(:first-child) {
+					margin-left: var(--spacing);
+				}
+			}
+			.gm-store-author-name {
+				font-size: var(--font-size);
+				line-height: var(--line-height);
+			}
+		}
+
+		.description-3_Ncsb {
+			font-size: var(--font-size) !important;
+		}
+
+		button.colorGrey-2DXtkV .contents-18-Yxp svg {
+			width: 16px;
+			height: 16px;
+		}
+
+
+		&:last-child {
+			margin-right: 0;
+		}
+	}
+}

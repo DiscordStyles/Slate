@@ -9,10 +9,10 @@
 		display: none;
 	}
 
-	&.selected-3s45Ha:before {
+	&.selected-3s45Ha::before {
 		background: currentColor;
 	}
-	&:before {
+	&::before {
 		content: "";
 		width: 16px;
 		height: 16px;
@@ -26,21 +26,21 @@
 	}
 
 	// User settings
-	&[aria-controls="my-account-tab"]:before {
+	&[aria-controls="my-account-tab"]::before {
 		mask-image: url(assets.$icon_user);
 	}
-	&[aria-controls="privacy-&-safety-tab"]:before {
+	&[aria-controls="privacy-&-safety-tab"]::before {
 		mask-image: url(assets.$icon_shield);
 	}
-	&[aria-controls="authorized-apps-tab"]:before {
+	&[aria-controls="authorized-apps-tab"]::before {
 		mask-image: url(assets.$icon_check);
 	}
-	&[aria-controls="connections-tab"]:before {
+	&[aria-controls="connections-tab"]::before {
 		mask-image: url(assets.$icon_link);
 	}
 	&[aria-controls="discord-nitro-tab"] {
 		background: transparent !important;
-		&:before {
+		&::before {
 			background: currentColor;
 			mask-image: url(assets.$icon_discord);
 		}
@@ -50,7 +50,7 @@
 	}
 	&[aria-controls="nitro-server-boost-tab"] {
 		color: rgba(var(--discord-pink), 1) !important;
-		&:before {
+		&::before {
 			background: currentColor;
 			mask-image: url(assets.$icon_nitro-gem);
 		}
@@ -59,55 +59,55 @@
 			background: rgba(var(--discord-pink), 1) !important;
 		}
 	}
-	&[aria-controls="library-inventory-tab"]:before {
+	&[aria-controls="library-inventory-tab"]::before {
 		mask-image: url(assets.$icon_gift);
 	}
-	&[aria-controls="billing-tab"]:before {
+	&[aria-controls="billing-tab"]::before {
 		mask-image: url(assets.$icon_credit-card);
 	}
-	&[aria-controls="appearance-tab"]:before {
+	&[aria-controls="appearance-tab"]::before {
 		mask-image: url(assets.$icon_bucket);
 		mask-size: 12px;
 	}
-	&[aria-controls="accessibility-tab"]:before {
+	&[aria-controls="accessibility-tab"]::before {
 		mask-image: url(assets.$icon_eye);
 	}
-	&[aria-controls="voice-&-video-tab"]:before {
+	&[aria-controls="voice-&-video-tab"]::before {
 		mask-image: url(assets.$icon_mic);
 	}
-	&[aria-controls="text-&-images-tab"]:before {
+	&[aria-controls="text-&-images-tab"]::before {
 		mask-image: url(assets.$icon_comment);
 	}
-	&[aria-controls="notifications-tab"]:before {
+	&[aria-controls="notifications-tab"]::before {
 		mask-image: url(assets.$icon_bell);
 	}
-	&[aria-controls="keybinds-tab"]:before {
+	&[aria-controls="keybinds-tab"]::before {
 		mask-image: url(assets.$icon_keyboard);
 	}
-	&[aria-controls="language-tab"]:before {
+	&[aria-controls="language-tab"]::before {
 		mask-image: url(assets.$icon_world);
 	}
-	&[aria-controls="windows-tab"]:before {
+	&[aria-controls="windows-tab"]::before {
 		mask-image: url(assets.$icon_windows);
 	}
-	&[aria-controls="streamer-mode-tab"]:before {
+	&[aria-controls="streamer-mode-tab"]::before {
 		mask-image: url(assets.$icon_video);
 	}
-	&[aria-controls="advanced-tab"]:before {
+	&[aria-controls="advanced-tab"]::before {
 		mask-image: url(assets.$icon_cpu);
 	}
-	&[aria-controls="game-activity-tab"]:before {
+	&[aria-controls="game-activity-tab"]::before {
 		mask-image: url(assets.$icon_feed);
 	}
-	&[aria-controls="overlay-tab"]:before {
+	&[aria-controls="overlay-tab"]::before {
 		mask-image: url(assets.$icon_overlay);
 	}
-	&[aria-controls="changelog-tab"]:before {
+	&[aria-controls="changelog-tab"]::before {
 		mask-image: url(assets.$icon_history);
 	}
 	&[aria-controls="hypesquad-online-tab"] {
 		color: rgba(var(--status-yellow), 1);
-		&:before {
+		&::before {
 			background: currentColor;
 			mask: url(assets.$icon_hypesquad) center/cover no-repeat;
 		}
@@ -117,66 +117,66 @@
 		}
 	}
 	&[aria-controls="logout-tab"] {
-		&:before {
+		&::before {
 			mask-image: url(assets.$icon_sign-out);
 			background: rgba(var(--status-red), 1);
 		}
 		&[style*="background-color: rgba(240, 71, 71, 0.1)"] {
 			background: transparent !important;
 		}
-		&[style*="background-color: rgb(240, 71, 71)"]:before {
+		&[style*="background-color: rgb(240, 71, 71)"]::before {
 			background: #fff !important;
 		}
 	}
 
 	// Server settings
-	&[aria-controls="overview-tab"]:before {
+	&[aria-controls="overview-tab"]::before {
 		mask-image: url(assets.$icon_eye);
 	}
-	&[aria-controls="roles-tab"]:before {
+	&[aria-controls="roles-tab"]::before {
 		mask-image: url(assets.$icon_unordered-list);
 	}
-	&[aria-controls="emoji-tab"]:before {
+	&[aria-controls="emoji-tab"]::before {
 		mask-image: url(assets.$icon_emoji);
 	}
-	&[aria-controls="moderation-tab"]:before {
+	&[aria-controls="moderation-tab"]::before {
 		mask-image: url(assets.$icon_tools);
 	}
-	&[aria-controls="audit_log-tab"]:before {
+	&[aria-controls="audit_log-tab"]::before {
 		mask-image: url(assets.$icon_history);
 	}
-	&[aria-controls="integrations-tab"]:before {
+	&[aria-controls="integrations-tab"]::before {
 		mask-image: url(assets.$icon_link);
 	}
-	&[aria-controls="guild_templates-tab"]:before {
+	&[aria-controls="guild_templates-tab"]::before {
 		mask-image: url(assets.$icon_repo-template);
 	}
-	&[aria-controls="community-tab"]:before {
+	&[aria-controls="community-tab"]::before {
 		mask-image: url(assets.$icon_share-android);
 	}
 	&[aria-controls="guild_premium-tab"] {
 		svg {
 			display: none;
 		}
-		&:before {
+		&::before {
 			mask-image: url(assets.$icon_zap);
 			background: rgb(114, 137, 218);
 		}
-		&.selected-3s45Ha:before {
+		&.selected-3s45Ha::before {
 			background: #fff;
 		}
 	}
-	&[aria-controls="members-tab"]:before {
+	&[aria-controls="members-tab"]::before {
 		mask-image: url(assets.$icon_people);
 	}
-	&[aria-controls="instant_invites-tab"]:before {
+	&[aria-controls="instant_invites-tab"]::before {
 		mask-image: url(assets.$icon_person-add);
 	}
-	&[aria-controls="bans-tab"]:before {
+	&[aria-controls="bans-tab"]::before {
 		mask-image: url(assets.$icon_shield-x);
 	}
 	&[aria-controls="delete-tab"] {
-		&:before {
+		&::before {
 			mask-image: url(assets.$icon_trashcan);
 			mask-size: 12px;
 			background: rgba(var(--status-red), 1);
@@ -184,7 +184,7 @@
 		&[style*="background-color: rgba(240, 71, 71, 0.1)"] {
 			background: transparent !important;
 		}
-		&[style*="background-color: rgb(240, 71, 71)"]:before {
+		&[style*="background-color: rgb(240, 71, 71)"]::before {
 			background: #fff !important;
 		}
 	}
