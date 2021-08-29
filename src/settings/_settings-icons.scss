@@ -26,19 +26,19 @@
 	}
 
 	// User settings
-	&[aria-controls="My Account-tab"]:before {
+	&[aria-controls="my-account-tab"]:before {
 		mask-image: url(assets.$icon_user);
 	}
-	&[aria-controls="Privacy & Safety-tab"]:before {
+	&[aria-controls="privacy-&-safety-tab"]:before {
 		mask-image: url(assets.$icon_shield);
 	}
-	&[aria-controls="Authorized Apps-tab"]:before {
+	&[aria-controls="authorized-apps-tab"]:before {
 		mask-image: url(assets.$icon_check);
 	}
-	&[aria-controls="Connections-tab"]:before {
+	&[aria-controls="connections-tab"]:before {
 		mask-image: url(assets.$icon_link);
 	}
-	&[aria-controls="Discord Nitro-tab"] {
+	&[aria-controls="discord-nitro-tab"] {
 		background: transparent !important;
 		&:before {
 			background: currentColor;
@@ -48,7 +48,7 @@
 			background: rgb(114, 137, 218) !important;
 		}
 	}
-	&[aria-controls="Nitro Server Boost-tab"] {
+	&[aria-controls="nitro-server-boost-tab"] {
 		color: rgba(var(--discord-pink), 1) !important;
 		&:before {
 			background: currentColor;
@@ -59,53 +59,53 @@
 			background: rgba(var(--discord-pink), 1) !important;
 		}
 	}
-	&[aria-controls="Library Inventory-tab"]:before {
+	&[aria-controls="library-inventory-tab"]:before {
 		mask-image: url(assets.$icon_gift);
 	}
-	&[aria-controls="Billing-tab"]:before {
+	&[aria-controls="billing-tab"]:before {
 		mask-image: url(assets.$icon_credit-card);
 	}
-	&[aria-controls="Appearance-tab"]:before {
+	&[aria-controls="appearance-tab"]:before {
 		mask-image: url(assets.$icon_bucket);
 		mask-size: 12px;
 	}
-	&[aria-controls="Accessibility-tab"]:before {
+	&[aria-controls="accessibility-tab"]:before {
 		mask-image: url(assets.$icon_eye);
 	}
-	&[aria-controls="Voice & Video-tab"]:before {
+	&[aria-controls="voice-&-video-tab"]:before {
 		mask-image: url(assets.$icon_mic);
 	}
-	&[aria-controls="Text & Images-tab"]:before {
+	&[aria-controls="text-&-images-tab"]:before {
 		mask-image: url(assets.$icon_comment);
 	}
-	&[aria-controls="Notifications-tab"]:before {
+	&[aria-controls="notifications-tab"]:before {
 		mask-image: url(assets.$icon_bell);
 	}
-	&[aria-controls="Keybinds-tab"]:before {
+	&[aria-controls="keybinds-tab"]:before {
 		mask-image: url(assets.$icon_keyboard);
 	}
-	&[aria-controls="Language-tab"]:before {
+	&[aria-controls="language-tab"]:before {
 		mask-image: url(assets.$icon_world);
 	}
-	&[aria-controls="Windows-tab"]:before {
+	&[aria-controls="windows-tab"]:before {
 		mask-image: url(assets.$icon_windows);
 	}
-	&[aria-controls="Streamer Mode-tab"]:before {
+	&[aria-controls="streamer-mode-tab"]:before {
 		mask-image: url(assets.$icon_video);
 	}
-	&[aria-controls="Advanced-tab"]:before {
+	&[aria-controls="advanced-tab"]:before {
 		mask-image: url(assets.$icon_cpu);
 	}
-	&[aria-controls="Game Activity-tab"]:before {
+	&[aria-controls="game-activity-tab"]:before {
 		mask-image: url(assets.$icon_feed);
 	}
-	&[aria-controls="Overlay-tab"]:before {
+	&[aria-controls="overlay-tab"]:before {
 		mask-image: url(assets.$icon_overlay);
 	}
 	&[aria-controls="changelog-tab"]:before {
 		mask-image: url(assets.$icon_history);
 	}
-	&[aria-controls="Hypesquad Online-tab"] {
+	&[aria-controls="hypesquad-online-tab"] {
 		color: rgba(var(--status-yellow), 1);
 		&:before {
 			background: currentColor;
@@ -130,49 +130,52 @@
 	}
 
 	// Server settings
-	&[aria-controls="OVERVIEW-tab"]:before {
+	&[aria-controls="overview-tab"]:before {
 		mask-image: url(assets.$icon_eye);
 	}
-	&[aria-controls="ROLES-tab"]:before {
+	&[aria-controls="roles-tab"]:before {
 		mask-image: url(assets.$icon_unordered-list);
 	}
-	&[aria-controls="EMOJI-tab"]:before {
+	&[aria-controls="emoji-tab"]:before {
 		mask-image: url(assets.$icon_emoji);
 	}
-	&[aria-controls="MODERATION-tab"]:before {
+	&[aria-controls="moderation-tab"]:before {
 		mask-image: url(assets.$icon_tools);
 	}
-	&[aria-controls="AUDIT_LOG-tab"]:before {
+	&[aria-controls="audit_log-tab"]:before {
 		mask-image: url(assets.$icon_history);
 	}
-	&[aria-controls="INTEGRATIONS-tab"]:before {
+	&[aria-controls="integrations-tab"]:before {
 		mask-image: url(assets.$icon_link);
 	}
-	&[aria-controls="GUILD_TEMPLATES-tab"]:before {
+	&[aria-controls="guild_templates-tab"]:before {
 		mask-image: url(assets.$icon_repo-template);
 	}
-	&[aria-controls="COMMUNITY-tab"]:before {
+	&[aria-controls="community-tab"]:before {
 		mask-image: url(assets.$icon_share-android);
 	}
-	&[aria-controls="GUILD_PREMIUM-tab"] {
+	&[aria-controls="guild_premium-tab"] {
+		svg {
+			display: none;
+		}
 		&:before {
 			mask-image: url(assets.$icon_zap);
 			background: rgb(114, 137, 218);
 		}
-		&[style*="background-color: rgb(114, 137, 218)"]:before {
+		&.selected-3s45Ha:before {
 			background: #fff;
 		}
 	}
-	&[aria-controls="MEMBERS-tab"]:before {
+	&[aria-controls="members-tab"]:before {
 		mask-image: url(assets.$icon_people);
 	}
-	&[aria-controls="INSTANT_INVITES-tab"]:before {
+	&[aria-controls="instant_invites-tab"]:before {
 		mask-image: url(assets.$icon_person-add);
 	}
-	&[aria-controls="BANS-tab"]:before {
+	&[aria-controls="bans-tab"]:before {
 		mask-image: url(assets.$icon_shield-x);
 	}
-	&[aria-controls="DELETE-tab"] {
+	&[aria-controls="delete-tab"] {
 		&:before {
 			mask-image: url(assets.$icon_trashcan);
 			mask-size: 12px;

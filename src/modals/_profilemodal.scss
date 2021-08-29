@@ -109,7 +109,7 @@ $bannerHeight: 180px;
 		margin: var(--spacing-double) 0;
 		padding: 0;
 		flex-direction: column;
-		& > div {
+		& > div, & > .bd-profile-badge {
 			margin: 0;
 			display: flex;
 			align-items: center;
@@ -135,6 +135,11 @@ $bannerHeight: 180px;
 			margin-bottom: 0;
 		}
 	}
+	.bd-profile-badge svg {
+		width: 14px;
+		height: 14px;
+		margin: 0 2px;
+	}
 	.profileBadge-2niAfJ {
 		width: 18px;
 		height: 18px;
@@ -150,22 +155,22 @@ $bannerHeight: 180px;
 		mask-repeat: no-repeat;
 
 		// Current nitro user
-		&[src*="e04ce699dcd2fd50d352a384511687a9"] {
+		&[src*="24d05f3b46a110e538674edbac0db4cd"] {
 			mask-image: url(assets.$icon_heart);
 		}
 		// Server boosts
-		&[src*="ba38c1c57dfccb94127e53b7ac502a90"],
-		&[src*="c0c9db2de008e61a1a720581ca175fa1"],
-		&[src*="1d3c9e1123aee11a325af328609d1274"],
-		&[src*="dd50d32cf4fee241b2fa022d8c0435ae"],
-		&[src*="496aa1174817ec391612f745dc8e0725"],
-		&[src*="ce54a4f8c0e133a6f2d60336e7acac7d"],
-		&[src*="7294cc730410a1caeceeca736f800b42"],
-		&[src*="42ecb902decfc8e83a7446a0904b1e18"] {
+		&[src*="ca18353be0e57a2b3b3132fa1c08d6b4"],
+		&[src*="e07c08cdc72bcc78b69c76d2c7ceb344"],
+		&[src*="4a2618502278029ce88adeea179ed435"],
+		&[src*="22f99ed6e34eaca48950254c70f8fe8d"],
+		&[src*="c6d88d1d12afe03bdc4ebb747f8d196b"],
+		&[src*="fbafa6adb7c49a6a2c3822521ff2af2f"],
+		&[src*="d96ed283b74de75692487b7499fb8d09"],
+		&[src*="0599f90e32c15b532647163edd72f70a"] {
 			mask-image: url(assets.$icon_rocket);
 		}
 		// Early support
-		&[src*="d66ce47c4ab7817190af9544f97e98cc"],
+		&[src*="b802e9af134ff492276d94220e36ec5c"],
 		&.powercord-badge-early {
 			mask-image: url(assets.$icon_telescope);
 			background: var(--text-muted);
@@ -174,27 +179,27 @@ $bannerHeight: 180px;
 			}
 		}
 		// Verified Bot Developer
-		&[src*="877dc8bece1590e63fac6d5a0cd2a225"] {
+		&[src*="4441e07fe0f46b3cb41b79366236fca6"] {
 			mask-image: url(assets.$icon_code);
 		}
 		// Hypesquad
-		&[src*="f5354673c9cff61c1dcc70081ef774e5"] {
+		&[src*="e666a84a7a5ea2abbbfa73adf22e627b"] {
 			mask-image: url(assets.$icon_megaphone);
 		}
 		// Hypesquad Bravery
-		&[src*="995ecfdbdf94ad84dd4d802c104e4630"] {
+		&[src*="efcc751513ec434ea4275ecda4f61136"] {
 			mask-image: url(assets.$icon_flame);
 		}
 		// Hypesquad Brilliance
-		&[src*="473dadec13ab7e90e209cc60fccb31c5"] {
+		&[src*="ec8e92568a7c8f19a052ef42f862ff18"] {
 			mask-image: url(assets.$icon_zap);
 		}
 		// Hypesquad Balance
-		&[src*="58f11abcf3c13812bff969baaeb84d82"] {
+		&[src*="9f00b18e292e10fc0ae84ff5332e8b0b"] {
 			mask-image: url(assets.$icon_law);
 		}
 		// Paterned Server Owner
-		&[src*="53828e0c0fb6676440ad11b5d2586241"] {
+		&[src*="34306011e46e87f8ef25f3415d3b99ca"] {
 			mask-image: url(assets.$icon_text_link);
 		}
 		&.profileBadgeStaff-3BXdTO,
@@ -428,41 +433,41 @@ $bannerHeight: 180px;
 			mask-size: contain;
 			mask-repeat: no-repeat;
 			margin-right: var(--spacing);
-			&[src*="8c289d499232cd8e9582b4a5639d9d1d.png"] {
+			&[src*="7b964801001dd47cc05a91d6dacf6075.png"] {
 				mask-image: url(assets.$icon_battlenet);
 			}
-			&[src*="f09c1c70a67ceaaeb455d163f3f9cbb8"] {
+			&[src*="a9c26c8bebe406ca1adc1967bc532224"] {
 				mask-image: url(assets.$icon_steam);
 			}
-			&[src*="8d8f815f3d81a33b1e70ec7c22e1b6fe"] {
+			&[src*="8d8f815f3d81a33b1e70ec7c22e1b6fe"] { // Ain't nobody got their facebook connected.
 				mask-image: url(assets.$icon_facebook);
 			}
-			&[src*="edbbf6107b2cd4334d582b26e1ac786d"] {
+			&[src*="007e5cb8871cf0987283c6307ce7fed0"] {
 				mask-image: url(assets.$icon_twitch);
 			}
-			&[src*="5d69e29f0d71aaa04ed9725100199b4e"] {
+			&[src*="afb09840b496f2c49032075a33da7fab"] {
 				mask-image: url(assets.$icon_github);
 			}
-			&[src*="4662875160dc4c56954003ebda995414"] {
+			&[src*="6919f2a578d91a5d033b639f0fb52b3d"] {
 				mask-image: url(assets.$icon_twitter);
 				mask-size: 125%;
 			}
-			&[src*="3abe9ce5a00cc24bd8aae04bf5968f4c"] {
+			&[src*="b46c06eb71dc56a41432512168e6759a"] {
 				mask-image: url(assets.$icon_reddit);
 			}
-			&[src*="0d44ba28e39303de3832db580a252456"] {
+			&[src*="746aba83c88f087e3eef23a47dd57923"] {
 				mask-image: url(assets.$icon_xbox);
 			}
 			&[alt="Skype Logo" i] { // I checked like 100+ people for a skype connect and didn't find one.
 				mask-image: url(assets.$icon_skype);
 			}
-			&[src*="449cca50c1452b4ace3cbe9bc5ae0fd6"] {
+			&[src*="25ec573cf82ee36d12296628f6bec11b"] {
 				mask-image: url(assets.$icon_youtube);
 			}
-			&[src*="f0655521c19c08c4ea4e508044ec7d8c"] {
+			&[src*="7906941c1205ba04b6921f2af4c6a170"] {
 				mask-image: url(assets.$icon_spotify);
 			}
-			&[src*="806953fe1cc616477175cbcdf90d5cd3"] {
+			&[src*="a0e2182e843745c73f7f3c8325a05ea9"] {
 				mask-image: url("/assets/806953fe1cc616477175cbcdf90d5cd3.png");
 			}
 		}
