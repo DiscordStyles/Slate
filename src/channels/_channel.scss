@@ -156,7 +156,7 @@
 				border: 1px solid var(--base-border);
 				&.avatarSpeaking-2IGMRN {
 					border-color: rgb(var(--accent));
-					box-shadow: 0 0 0 2px rgba(var(--accent), 0.35);
+					box-shadow: inset 0 0 0 2px var(--background-alt), 0 0 0 2px rgba(var(--accent), 0.35);
 				}
 			}
 			.icons-3q-_6z {
@@ -178,7 +178,7 @@
 					color: #fff !important;
 				}
 				.avatarSpeaking-2IGMRN {
-					box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.5);
+					box-shadow: inset 0 0 0 2px rgb(var(--accent)), 0 0 0 2px rgba(255, 255, 255, 0.5);
 					border-color: #fff;
 				}
 			}

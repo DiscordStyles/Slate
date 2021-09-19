@@ -1,0 +1,30 @@
+@use '../assets';
+
+#app-mount {
+	.headerBarContainer-31FKNA {
+		box-shadow: none;
+	}
+	
+	.stageSection-3mAD8V {
+		background: var(--background-alt);
+		& > div {
+			width: 100%;
+			align-items: flex-start;
+		}
+	}
+	.headerContainer-1Wluzl {
+		width: 100%;
+		max-width: unset;
+		margin: 0;
+		padding: var(--spacing);
+		border-bottom: 1px solid var(--base-border);
+		position: sticky;
+		top: 0;
+		background: var(--background-alt);
+		z-index: 1;
+	}
+	.pageHeader-3nuK1W {
+		font-size: var(--font-size);
+		line-height: normal;
+	}
+}

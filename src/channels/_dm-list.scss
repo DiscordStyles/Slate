@@ -87,11 +87,8 @@
 			font-weight: var(--font-weight-bold);
 			color: var(--text-muted);
 		}
+		&[href="/store"],
 		&[href="/discovery"] {
-			display: none;
-		}
-		&[href="/library"],
-		&[href="/store"] {
 			border-left: 1px solid var(--base-border);
 			.children-gzQq2t {
 				display: none; // Hides Download Indicator
@@ -99,7 +96,8 @@
 		}
 		&[href="/channels/@me"],
 		&[href="/library"],
-		&[href="/store"] {
+		&[href="/store"],
+		&[href="/discovery"] {
 			width: 50%;
 			display: inline-block;
 			border-radius: 0;
@@ -119,12 +117,6 @@
 					background: var(--background-modifier-hover);
 				}
 			}
-			&[href="/store"] {
-				display: none;
-			}
-			&[href="/channels/@me"] + [href="/store"] {
-				display: inline-block;
-			}
 			&.selected-aXhQR6 .layout-2DM8Md {
 				background: transparent;
 				box-shadow: inset 0 -3px 0px var(--accent-solid);
@@ -132,6 +124,13 @@
 					color: var(--text-normal) !important;
 				}
 			}
+		}
+		&[href="/discovery"] + [href="/store"] {
+			width: 100%;
+			border-left: none;
+		}
+		&[href="/channels/@me"] + [href="/store"] {
+			display: inline-block;
 		}
 		&.selected-aXhQR6 {
 			color: var(--white);
