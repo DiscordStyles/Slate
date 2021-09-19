@@ -1,6 +1,6 @@
 #app-mount {
 	.content-98HsJk {
-		.sidebar-2K8pFh .scrollerBase-289Jih[style="overflow: hidden scroll; padding-right: 0px;"]:not([id="private-channels"]) {
+		.sidebar-2K8pFh .scrollerBase-289Jih[style="overflow: hidden scroll; padding-right: 0px;"]:not([id*="channels"]) {
 			border-right: 1px solid var(--base-border);
 			margin-top: calc(var(--toolbar-height) / -1);
 			&::-webkit-scrollbar {

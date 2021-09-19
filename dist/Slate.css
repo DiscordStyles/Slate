@@ -6389,11 +6389,11 @@ html.theme-light #app-mount .wrapper-3Q5DdO .qrLogin-1AOZMt .startOverButton-3q0
   border-radius: var(--border-radius);
 }
 
-#app-mount .content-98HsJk .sidebar-2K8pFh .scrollerBase-289Jih[style="overflow: hidden scroll; padding-right: 0px;"]:not([id=private-channels]) {
+#app-mount .content-98HsJk .sidebar-2K8pFh .scrollerBase-289Jih[style="overflow: hidden scroll; padding-right: 0px;"]:not([id*=channels]) {
   border-right: 1px solid var(--base-border);
   margin-top: calc(var(--toolbar-height) / -1);
 }
-#app-mount .content-98HsJk .sidebar-2K8pFh .scrollerBase-289Jih[style="overflow: hidden scroll; padding-right: 0px;"]:not([id=private-channels])::-webkit-scrollbar {
+#app-mount .content-98HsJk .sidebar-2K8pFh .scrollerBase-289Jih[style="overflow: hidden scroll; padding-right: 0px;"]:not([id*=channels])::-webkit-scrollbar {
   display: none;
 }
 #app-mount .content-98HsJk .categoryItem-1QIroW {
