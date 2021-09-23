@@ -10,8 +10,8 @@
 		font-size: var(--font-size-xsm);
 		padding: 0 var(--spacing) 0 0;
 	}
-	& + .groupStart-23k01U {
-		margin-top: 0;
+	& + li > .groupStart-23k01U {
+		border: none;
 	}
 	&.isUnread-3Ef-o9 {
 		border-bottom: 1px solid var(--base-border);

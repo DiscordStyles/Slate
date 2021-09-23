@@ -2905,8 +2905,8 @@ html.platform-win[lang=en-US]:not(.app-focused) body:not(.oldTitleBarEnabled-D8p
   font-size: var(--font-size-xsm);
   padding: 0 var(--spacing) 0 0;
 }
-#app-mount .chatContent-a9vAAp .divider-JfaTT5 + .groupStart-23k01U {
-  margin-top: 0;
+#app-mount .chatContent-a9vAAp .divider-JfaTT5 + li > .groupStart-23k01U {
+  border: none;
 }
 #app-mount .chatContent-a9vAAp .divider-JfaTT5.isUnread-3Ef-o9 {
   border-bottom: 1px solid var(--base-border);
@@ -2975,7 +2975,7 @@ html.platform-win[lang=en-US]:not(.app-focused) body:not(.oldTitleBarEnabled-D8p
 #app-mount .wrapper-2a6GCs.mentioned-xhSam7 .mention:hover {
   color: var(--text-normal);
 }
-#app-mount .wrapper-2a6GCs + .message-2qnXI6:not(.groupStart-23k01U) {
+#app-mount .wrapper-2a6GCs.cozy-3raOZG:not(.groupStart-23k01U) {
   margin-top: calc(var(--spacing) / -1);
   padding-top: 0;
 }
