@@ -10,8 +10,8 @@
 		font-size: var(--font-size-xsm);
 		padding: 0 var(--spacing) 0 0;
 	}
-	& + li > .groupStart-23k01U {
-		border: none;
+	& + li > .cozy-3raOZG.groupStart-23k01U {
+		margin-top: 0;
 	}
 	&.isUnread-3Ef-o9 {
 		border-bottom: 1px solid var(--base-border);
@@ -25,7 +25,7 @@
 				display: none;
 			}
 		}
-		& + .groupStart-23k01U {
+		& + li > .cozy-3raOZG {
 			margin-top: calc(var(--spacing) - 12px);
 		}
 	}
