@@ -49,6 +49,15 @@ body {
 		border-radius: var(--border-radius);
 		color: var(--accent-solid);
 		cursor: var(--cursor);
+		.channelIcon-1MN1lz {
+			width: var(--font-size);
+			height: var(--font-size);
+			top: 50%;
+			transform: translateY(-50%);
+		}
+		&.iconMentionText-8GCluA {
+			padding-left: 16px;
+		}
 		&:hover {
 			background: var(--accent-solid);
 			color: var(--white);

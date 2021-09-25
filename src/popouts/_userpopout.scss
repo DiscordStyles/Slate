@@ -17,11 +17,11 @@
 		background: var(--background-light);
 		border-bottom: 1px solid var(--base-border);
 		border-top: 1px solid var(--base-border);
-		margin-bottom: var(--spacing);
 		height: 28px;
 		box-sizing: border-box;
 		display: flex;
 		align-items: center;
+		width: 100%;
 	}
 
 	// Header

@@ -202,6 +202,15 @@ body {
   color: var(--accent-solid);
   cursor: var(--cursor);
 }
+#app-mount .mention .channelIcon-1MN1lz {
+  width: var(--font-size);
+  height: var(--font-size);
+  top: 50%;
+  transform: translateY(-50%);
+}
+#app-mount .mention.iconMentionText-8GCluA {
+  padding-left: 16px;
+}
 #app-mount .mention:hover {
   background: var(--accent-solid);
   color: var(--white);
@@ -6876,11 +6885,11 @@ html.theme-light #app-mount .wrapper-3Q5DdO .qrLogin-1AOZMt .startOverButton-3q0
   background: var(--background-light);
   border-bottom: 1px solid var(--base-border);
   border-top: 1px solid var(--base-border);
-  margin-bottom: var(--spacing);
   height: 28px;
   box-sizing: border-box;
   display: flex;
   align-items: center;
+  width: 100%;
 }
 #app-mount .userPopout-xaxa6l .headerNormal-3KXFBt {
   background: transparent;
