@@ -19,8 +19,8 @@ assignees: ''
 **Infomation (please complete the following information):**  
 Discord channel: *((Stable/PTB/Canary))*  
 OS: *((Windows/Linux/OSX))*  
-Mod: *((BetterDiscord/Powercord/Vizality))*  
+Mod: *((BetterDiscord/Powercord))*  
 Discord language: *((Your language))*  
 
 **Additional context**  
-*((Add any other context about the problem here.))*  
+*((Add any other context about the problem here. Remove if not applicable.))*  
