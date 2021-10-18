@@ -9,10 +9,12 @@
     "dev": "node ./scripts/dev",
     "build": "node ./scripts/build"
   },
+  "dependencies": {
+    "autoprefixer": "^10.3.7",
+    "postcss": "^8.3.9",
+    "sass": "^1.42.1"
+  },
   "devDependencies": {
-    "autoprefixer": "^10.3.1",
-    "chokidar": "^3.5.2",
-    "postcss": "^8.3.6",
-    "sass": "^1.35.2"
+    "chokidar": "^3.5.2"
   }
 }
