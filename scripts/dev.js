@@ -3,7 +3,7 @@
 const chokidar = require('chokidar');
 const path = require('path');
 const compile = require('./compile');
-const {name} = require('./config.json');
+const {name, dev} = require('./config.json');
 
 const dataFolder = process.env.APPDATA || (process.platform == 'darwin' ? process.env.HOME + '/Library/Application Support' : process.env.HOME + "/.local/share");
 const themesFolder = path.join(dataFolder, 'BetterDiscord', 'themes');
@@ -14,7 +14,7 @@ chokidar.watch('src', {persistent: true})
 		console.clear();
 
 		compile({
-			target: ['src', 'main.scss'],
+			target: dev.target,
 			output: [themesFolder, `${name}.theme.css`]
 		});
 	});

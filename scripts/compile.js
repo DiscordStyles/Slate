@@ -3,7 +3,7 @@ const fs = require('fs');
 const path = require('path');
 const postcss = require('postcss');
 const autoprefixer = require('autoprefixer');
-const {name} = require('./config.json');
+const {name, compiler} = require('./config.json');
 
 /**
  * Compile, autoprefix and save SCSS.
@@ -24,24 +24,26 @@ module.exports = (options) => {
 	sass.render({
 		file: path.join(...options.target),
 		outputStyle: 'expanded',
-	}, (error, result) => {
+	}, async(error, result) => {
 		if (error) {
 			console.error(error);
 			return false;
 		}
 
-		const css = Buffer.from(result.css).toString();
+		let output = Buffer.from(result.css).toString();
 
-		postcss([autoprefixer])
-			.process(css, {
+		if (compiler.postcss) {
+			await postcss([autoprefixer]).process(output, {
 				from: undefined,
 				to: undefined
-			})
-			.then(postcssRes => {
-				fs.writeFile(path.join(...options.output), postcssRes.css.replace('@charset "UTF-8";\n', ""), (err) => {
-					if (err) console.error(err);
-					else console.log(`[${name}] Successfully built ${options.target.join('/')} file. (${(result.stats.duration/60000 * 60).toFixed(2)}s)`);
-				})
-			})
+			}).then(res => {
+				output = res.css;
+			});
+		}
+
+		fs.writeFile(path.join(...options.output), output.replace('@charset "UTF-8";\n', ""), (err) => {
+			if (err) console.error(err);
+			else console.log(`[${name}] Successfully built ${options.target.join('/')} file. (${(result.stats.duration/60000 * 60).toFixed(2)}s)`);
+		})
 	})
 }

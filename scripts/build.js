@@ -1,9 +1,10 @@
 // GitHub action used to build scss files to the dist folder.
+// You are not meant to run this locally.
 
 const compile = require('./compile');
-const {name} = require('./config.json');
+const {name, build} = require('./config.json');
 
 compile({
-	target: ['src', '_base.scss'],
-	output: ['dist', 'dist', `${name}.css`]
+	target: build.target,
+	output: [...build.outputPath, `${name}.css`]
 });

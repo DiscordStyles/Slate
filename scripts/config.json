@@ -1,3 +1,13 @@
 {
-	"name": "Slate"
+	"name": "Slate",
+	"compiler": {
+		"postcss": true
+	},
+	"dev": {
+		"target": ["src", "main.scss"]
+	},
+	"build": {
+		"target": ["src", "_base.scss"],
+		"outputPath": ["dist", "dist"]
+	}
 }
