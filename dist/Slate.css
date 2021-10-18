@@ -2780,13 +2780,13 @@ html.platform-win[lang=en-US]:not(.app-focused) body:not(.oldTitleBarEnabled-D8p
   font-size: var(--font-size-xxl);
   font-weight: var(--font-weight-light);
   color: var(--text-normal);
-  max-width: calc( 				100% - var(--avatar-size-xl) - var(--spacing-double) - var(--spacing) 			);
+  max-width: calc(100% - var(--avatar-size-xl) - var(--spacing-double) - var(--spacing));
 }
 #app-mount .messagesWrapper-1sRNjr .container-3RCQyg .description-1sDbzZ {
   color: var(--text-muted);
   font-size: var(--font-size);
   font-weight: var(--font-weight-normal);
-  max-width: calc( 				100% - var(--avatar-size-xl) - var(--spacing-double) - var(--spacing) 			);
+  max-width: calc(100% - var(--avatar-size-xl) - var(--spacing-double) - var(--spacing));
   -webkit-user-select: text;
      -moz-user-select: text;
       -ms-user-select: text;
@@ -3638,7 +3638,7 @@ html.platform-win[lang=en-US]:not(.app-focused) body:not(.oldTitleBarEnabled-D8p
   width: -moz-fit-content;
   width: fit-content;
   margin-left: -5px;
-  max-width: calc(100vw - (var(--sidebar-width) * 3));
+  max-width: calc(100vw - var(--sidebar-width) * 3);
   padding: var(--spacing-third) var(--spacing-half);
   border-radius: 0 var(--border-radius) var(--border-radius) var(--border-radius);
 }
@@ -3677,7 +3677,7 @@ html.platform-win[lang=en-US]:not(.app-focused) body:not(.oldTitleBarEnabled-D8p
   margin-bottom: 32px;
 }
 #app-mount .repliedTextContent-1R3vnK {
-  max-width: calc(100vw - (var(--sidebar-width) * 3));
+  max-width: calc(100vw - var(--sidebar-width) * 3);
   overflow: hidden !important;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -5458,7 +5458,7 @@ html.theme-light #app-mount .reactions-12N0jA .reaction-1hd86g:not(.reactionMe-w
   position: absolute;
   top: var(--toolbar-height);
   left: 0;
-  width: calc(100vw - (var(--sidebar-width) * 2.5) - var(--noasw-base));
+  width: calc(100vw - var(--sidebar-width) * 2.5 - var(--noasw-base));
   background: var(--background);
   height: 30px;
   border-bottom: 1px solid var(--base-border);
@@ -6575,6 +6575,7 @@ html.theme-light #app-mount .wrapper-3Q5DdO .qrLogin-1AOZMt .startOverButton-3q0
   margin: 0;
   padding: var(--spacing);
   border-bottom: 1px solid var(--base-border);
+  position: -webkit-sticky;
   position: sticky;
   top: 0;
   background: var(--background-alt);
@@ -9416,7 +9417,7 @@ html.theme-light #app-mount .popout-2iWAc-.force-theme.content-1nP7fx .buttonCon
 }
 
 #app-mount .container-7uh5fX {
-  left: calc(100% - (var(--spacing-triple) * 2));
+  left: calc(100% - var(--spacing-triple) * 2);
   position: relative;
   background: var(--background);
   border: 1px solid var(--base-border);
@@ -10353,7 +10354,7 @@ html.theme-light #app-mount .layer-3QrUeG[aria-label*=SETTINGS] .contentRegion-3
   font-size: var(--font-size);
   font-weight: var(--font-weight-normal);
   line-height: normal;
-  margin-top: calc((var(--spacing) + 50px) - var(--spacing-double));
+  margin-top: calc(var(--spacing) + 50px - var(--spacing-double));
   margin-bottom: var(--spacing-double);
   display: block;
   cursor: default;
@@ -11884,7 +11885,7 @@ body #app-mount #bd-settingspane-container .bd-controls {
 #app-mount #gm-settings-inject {
   background: transparent !important;
   padding: calc(var(--spacing-double) * 2) var(--spacing-double) var(--spacing-double) !important;
-  width: calc(100vw - (var(--sidebar-width) * 2.5) - var(--noasw-base));
+  width: calc(100vw - var(--sidebar-width) * 2.5 - var(--noasw-base));
 }
 #app-mount .gm-store-category {
   margin-top: var(--spacing-double);
@@ -12092,7 +12093,7 @@ body #app-mount #bd-settingspane-container .bd-controls {
   position: absolute;
   top: 0;
   left: 0;
-  width: calc(100% - (var(--spacing) * 4) - 6px);
+  width: calc(100% - var(--spacing) * 4 - 6px);
   height: 100%;
   padding-left: var(--spacing-double);
   background: var(--background);
@@ -12200,7 +12201,7 @@ body #app-mount #bd-settingspane-container .bd-controls {
   align-items: center;
   top: calc(var(--spacing-double) * -1);
   left: calc(var(--spacing-double) * -1);
-  width: calc(100% + (var(--spacing-double) * 2));
+  width: calc(100% + var(--spacing-double) * 2);
 }
 #app-mount .modal-yWgWj- .inner-ZyuQk0,
 #app-mount .root-1gCeng:not(.popout-103y-5) .inner-ZyuQk0 {
@@ -13650,8 +13651,8 @@ html.theme-light #app-mount .theme-light .root-1gCeng .container-1CE3eW > div[st
   width: calc(100% - var(--spacing-double));
   padding: 0 var(--spacing-half);
   margin: var(--spacing);
-  margin-top: calc((var(--toolbar-height) / 2) - (var(--input-height) / 2));
-  margin-bottom: calc((var(--toolbar-height) / 2) - (var(--input-height) / 2));
+  margin-top: calc(var(--toolbar-height) / 2 - var(--input-height) / 2);
+  margin-bottom: calc(var(--toolbar-height) / 2 - var(--input-height) / 2);
   font-size: var(--font-size);
   box-shadow: none;
   position: relative;
@@ -14551,8 +14552,8 @@ html.theme-light #app-mount .main-3auUui .options-1VK2u9 .optionContainer-15srkc
   margin-left: var(--spacing);
 }
 #app-mount .regionSelectModal-12e-57 .regionSelectModalOptions-2TWQOB .regionSelectModalOption-2DSIZ3 .regionSelectFlag-3uwFtG {
-  width: calc(44px / 1.5);
-  height: calc(30px / 1.5);
+  width: 29.3333333333px;
+  height: 20px;
   background-size: cover;
   background-color: var(--background);
   border: 1px solid var(--base-border);
