@@ -54,7 +54,7 @@
 		background: var(--accent-solid);
 		color: var(--text-focus);
 	}
-	.circleIconButton-hZmpE8 {
+	.circleIconButton-1QV--U {
 		background: var(--background-light);
 		color: var(--text-normal);
 		cursor: var(--cursor);
@@ -63,7 +63,9 @@
 			d: path(assets.$path_add);
 			transform: scale(1.25) translateX(3px) translateY(2px);
 		}
-		&.selected-3mFF3I {
+		&.selected-ugP_am,
+		&.selected-1JjBPm,
+		&.selected-bZ3Lue {
 			background-color: var(--accent-solid) !important;
 			color: #fff;
 		}
@@ -93,6 +95,8 @@
 	.guildIconUnavailable-5PMHDN,
 	.guildsError-b7zR5HX,
 	.expandedFolderBackground-1cujaW,
+	.folderIconWrapper-1_bOZe,
+	.guildIcon-2Tpnad,
 	.guildIcon-d5nahd,
 	.guildIconUnavailable-3IYARS,
 	.guildsError-g6NwOI {
@@ -109,7 +113,7 @@
 	}
 
 	// Home button
-	.tutorialContainer-11ICd5 {
+	.tutorialContainer-2sGCg9 {
 		.childWrapper-anI2G9 {
 			background: transparent !important;
 		}
@@ -125,7 +129,7 @@
 				background: transparent !important;
 			}
 		}
-		.listItem-2Ig28I {
+		.listItem-GuPuDH {
 			margin-bottom: 0;
 		}
 		.svg-1X37T1 {
@@ -147,7 +151,7 @@
 			transform: none !important;
 		}
 	}
-	.homeIcon-AaowEC {
+	.homeIcon-FuNwkv {
 		mask: url(assets.$icon_home) center/65% no-repeat;
 		background: var(--text-normal);
 		width: 100%;
@@ -157,13 +161,13 @@
 			display: none;
 		}
 	}
-	.selected-1JjBPm .homeIcon-AaowEC,
-	.selected-bZ3Lue .homeIcon-AaowEC {
+	.selected-1JjBPm .homeIcon-FuNwkv,
+	.selected-bZ3Lue .homeIcon-FuNwkv {
 		background: var(--text-focus);
 	}
 
 	// Badges
-	.iconBadge-1Prgh2,
+	.iconBadge-2wi9r4,
 	.unavailableBadge-3k7iq_,
 	.iconBadge-3qSJIw,
 	.unavailableBadge-20E5O2 {
