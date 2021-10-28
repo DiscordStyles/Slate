@@ -7,15 +7,14 @@
 		contain: none;
 		padding-top: var(--noasw-padding);
 	}
-	.guildSeparator-33mFX6 {
+	.guildSeparator-nWMCrR {
 		background: var(--base-border);
 		height: 1px;
 	}
 
 	// Remove Active Animations
-	.listItemWrapper-3X98Pc:active,
-	.circleButtonMask-2VNJsN:active,
-	.blobContainer-239gwq:active {
+	.blobContainer-tHk012,
+	.listItemWrapper-2MsAsM {
 		transform: none;
 	}
 }
