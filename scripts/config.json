@@ -1,13 +1,17 @@
 {
-	"name": "Slate",
 	"compiler": {
-		"postcss": true
+		"prefix": true
 	},
-	"dev": {
-		"target": ["src", "main.scss"]
-	},
-	"build": {
-		"target": ["src", "_base.scss"],
-		"outputPath": ["dist", "dist"]
-	}
+	"dev": [
+		{
+			"target": ["src", "main.scss"],
+			"output": ["Slate.theme.css"]
+		}
+	],
+	"build": [
+		{
+			"target": ["src", "_base.scss"],
+			"output": ["dist", "dist", "SoftX.css"]
+		}
+	]
 }
