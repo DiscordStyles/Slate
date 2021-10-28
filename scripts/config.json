@@ -11,7 +11,7 @@
 	"build": [
 		{
 			"target": ["src", "_base.scss"],
-			"output": ["dist", "dist", "SoftX.css"]
+			"output": ["dist", "dist", "Slate.css"]
 		}
 	]
 }
