@@ -1,7 +1,7 @@
-@forward 'container';
-@forward 'sidebar';
-@forward 'content';
+@forward './container';
+@forward './sidebar';
+@forward './content';
 @forward "usersettings";
 @forward "guildsettings";
 @forward "channelsettings";
-@forward 'settings-icons';
+@forward './settings-icons';

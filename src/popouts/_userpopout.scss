@@ -114,6 +114,8 @@
 	}
 	.body-ZAhrcj {
 		padding: 0 var(--spacing) var(--spacing);
+		position: relative;
+		z-index: 1;
 	}
 	.content-3JfFJh {
 		margin-left: var(--spacing);
@@ -159,23 +161,21 @@
 	}
 	.timeBarUserPopout-AWPFf2 {
 		margin-top: 0;
-		position: absolute;
-		top: calc(18px + var(--spacing));
-		left: 0;
-		z-index: -1;
-		width: 100%;
-		height: 100%;
 		pointer-events: none;
 		.flex-1xMQg5 {
-			position: absolute;
-			top: 0;
-			width: 100%;
+			padding: 0 var(--spacing) var(--spacing);
+			position: relative;
+			z-index: 1;
 		}
 	}
 	.bar-3urHkF {
+		position: absolute;
+		inset: 0;
 		margin-bottom: 0;
 		height: 100%;
 		background: rgba(var(--discord-spotify), .1);
+		top: calc(var(--spacing) + 18px);
+		height: calc(100% - (var(--spacing) + 18px));
 	}
 	.barInner-3NDaY_ {
 		border-radius: 0;

@@ -212,4 +212,14 @@
 	rect[mask*="mobile"] {
 		rx: 2;
 	}
+	// Fix default avatars
+	&[style*="32"] img {
+		height: 32px;
+	}
+	&[style*="80"] img {
+		height: 80px;
+	}
+	&[style*="120"] img {
+		height: 120px;
+	}
 }

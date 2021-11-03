@@ -28,6 +28,11 @@
 		border: none;
 		border-bottom: 1px solid var(--base-border);
 		background: transparent;
+		margin-bottom: 0;
+		padding-top: var(--spacing);
+		& > .wrapper-2a6GCs {
+			margin-top: 0 !important;
+		}
 		&:hover .jumpButton-3DTcS_ {
 			opacity: 1;
 		}
