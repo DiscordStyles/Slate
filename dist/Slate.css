@@ -2304,6 +2304,9 @@ html.platform-win[lang=en-US]:not(.app-focused) body:not(.oldTitleBarEnabled-D8p
   width: var(--sidebar-width);
   background: var(--background);
 }
+#app-mount .privateChannels-1nO12o .content-3YMskv {
+  margin-top: var(--toolbar-height);
+}
 #app-mount .privateChannels-1nO12o .searchBar-6Kv8R2 {
   background: var(--toolbar-background);
   border-bottom: 1px solid var(--toolbar-border);
