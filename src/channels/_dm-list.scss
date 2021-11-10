@@ -5,6 +5,10 @@
 	width: var(--sidebar-width);
 	background: var(--background);
 
+	.content-3YMskv {
+		margin-top: var(--toolbar-height);
+	}
+
 	// Search Header
 	.searchBar-6Kv8R2 {
 		background: var(--toolbar-background);
@@ -181,11 +185,9 @@
 }
 
 // Light mode optimization
-.theme-light
-	#app-mount
-	.privateChannels-1nO12o
-	.channel-2QD9_O.selected-aXhQR6 {
+.theme-light #app-mount .privateChannels-1nO12o .channel-2QD9_O.selected-aXhQR6 {
 	color: #fff;
+
 	.activityText-OW8WYb,
 	.name-uJV0GL,
 	.subtext-1RtU34 {
