@@ -1,6 +1,6 @@
 :root {
   --slate-file-version: "1.1";
-  --slate-base-version: "1.6.7";
+  --slate-base-version: "1.6.8";
   --slate-palette: "Primer";
   --border-radius: 3px;
   --button-border-radius: 2px;
@@ -2106,6 +2106,7 @@ html.platform-win[lang=en-US]:not(.app-focused) body:not(.oldTitleBarEnabled-D8p
   margin-top: 0;
   z-index: 1;
   height: 27px;
+  width: 75px;
 }
 #app-mount .panels-j1Uci_ .actionButtons-14eAc_ button {
   margin: 1px 0 0;
@@ -2611,7 +2612,7 @@ html.platform-win[lang=en-US]:not(.app-focused) body:not(.oldTitleBarEnabled-D8p
 #app-mount .wrapper-sa6paO {
   height: 100%;
 }
-#app-mount [class*=pill] span {
+#app-mount .guilds-1SWlCJ [class*=pill] span {
   border-radius: 0;
   max-height: 75%;
   background: var(--text-muted);
@@ -14822,6 +14823,22 @@ html.theme-light #app-mount .wrapper-O5i5-0 .root-1gCeng .scroller-2hZ97C .invit
 #app-mount .modal-2VIBV8.root-1gCeng .close-hZ94c6.closeButton-20eBet {
   top: var(--spacing);
   right: var(--spacing);
+}
+
+#app-mount .contentWrapper-3WC1ID {
+  border: 1px solid var(--base-border);
+  box-shadow: var(--elevation-1);
+  border-radius: var(--border-radius);
+  background: var(--background-light);
+}
+#app-mount .inviteContent-3R63XV > div:last-child {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  gap: var(--spacing);
+}
+#app-mount .inviteContent-3R63XV > div:last-child > button, #app-mount .inviteContent-3R63XV > div:last-child > div {
+  margin: 0;
 }
 
 #app-mount .lookFilled-1Gx00P,
