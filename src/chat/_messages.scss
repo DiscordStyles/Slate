@@ -39,6 +39,9 @@
 				padding-top: 0;
 			}
 			&:not(:nth-last-child(2)) {
+				padding-bottom: 4px;
+			}
+			&.compact-T3H92H {
 				padding-bottom: calc(var(--spacing) + 5px);
 			}
 			&:before {
