@@ -17,6 +17,7 @@
   --spacing: 10px;
   --spacing-double: calc(var(--spacing) * 2);
   --spacing-triple: calc(var(--spacing) * 3);
+  --spacing-compact: 2px;
   --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
   --font-family-monospace: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --font-size-xsm: 9px;
@@ -2963,6 +2964,9 @@ html.platform-win[lang=en-US]:not(.app-focused) body:not(.oldTitleBarEnabled-D8p
 #app-mount .wrapper-2a6GCs.groupStart-23k01U.compact-T3H92H {
   margin-top: 0;
 }
+#app-mount .wrapper-2a6GCs.compact-T3H92H {
+  padding: var(--spacing-compact) 0 var(--spacing-compact) 70px;
+}
 #app-mount .wrapper-2a6GCs .username-1A8OIy {
   font-size: var(--chat-font-size);
   color: var(--text-normal);
@@ -2987,6 +2991,9 @@ html.platform-win[lang=en-US]:not(.app-focused) body:not(.oldTitleBarEnabled-D8p
 #app-mount .wrapper-2a6GCs.mentioned-xhSam7:not(:nth-last-child(2)) {
   padding-bottom: 4px;
 }
+#app-mount .wrapper-2a6GCs.mentioned-xhSam7.compact-T3H92H {
+  padding-bottom: var(--spacing-compact);
+}
 #app-mount .wrapper-2a6GCs.mentioned-xhSam7:before {
   background-color: var(--accent-solid);
 }
@@ -3000,7 +3007,7 @@ html.platform-win[lang=en-US]:not(.app-focused) body:not(.oldTitleBarEnabled-D8p
   margin-top: calc(var(--spacing) / -1);
   padding-top: 0;
 }
-#app-mount .wrapper-2a6GCs:last-child {
+#app-mount .wrapper-2a6GCs:last-child:not(.compact-T3H92H) {
   padding-bottom: calc(var(--spacing) + 5px);
 }
 #app-mount .wrapper-2a6GCs .botTag-2WPJ74 {
@@ -3223,7 +3230,7 @@ html.platform-win[lang=en-US]:not(.app-focused) body:not(.oldTitleBarEnabled-D8p
   display: none;
 }
 #app-mount .compact-T3H92H {
-  padding: var(--spacing) 0 var(--spacing) 70px;
+  padding: var(--spacing) 0 var(--spacing-third) 70px;
 }
 #app-mount .compact-T3H92H .contents-2mQqc9 {
   padding-left: 0;
