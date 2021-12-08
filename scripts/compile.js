@@ -16,7 +16,7 @@ module.exports = (options) => {
 	console.log(`Building ${options.target.join('/')} file...`);
 
 	// Check if path exists, if not make it.
-	const dirPath = options.output.filter(el => !el.includes('.')).join('/');
+	const dirPath = options.output.filter(el => !el.endsWith('.css')).join('/');
 	if (!fs.existsSync(!dirPath)) {
 		fs.mkdirSync(dirPath, {recursive: true});
 	}
