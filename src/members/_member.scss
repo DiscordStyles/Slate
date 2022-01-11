@@ -1,49 +1,49 @@
 @use '../assets';
 
-#app-mount .member-3-YXUe {
+#app-mount .member-2gU6Ar {
 	padding: 0;
 	margin: 0;
 	max-width: 100%;
-	&.offline-3nJYBR {
+	&.offline-22aM7E {
 		opacity: 0.5;
 	}
 
 	// Generic member entries
-	.layout-2DM8Md {
+	.layout-1qmrhw {
 		border-radius: 0;
 		height: var(--member-height);
 		padding: 0 calc(var(--spacing) + 5px);
 		cursor: var(--cursor);
 	}
-	.avatar-3uk_u9 {
+	.avatar-6qzftW {
 		margin-right: var(--spacing);
 		width: var(--avatar-size-sm) !important;
 		height: var(--avatar-size-sm) !important;
 	}
-	.name-uJV0GL {
+	.name-3Vmqxm {
 		font-size: var(--font-size);
 		font-weight: var(--font-weight-normal);
 		color: var(--text-normal);
 		line-height: normal;
 	}
-	.wrapper-3t9DeA {
+	.wrapper-1VLyxH {
 		width: var(--avatar-size-sm) !important;
 		height: var(--avatar-size-sm) !important;
 	}
-	.content-3QAtGj {
+	.content-1U25dZ {
 		overflow: visible;
 	}
-	.activity-2Gy-9S {
+	.activity-2EQDZv {
 		font-size: var(--font-size-sm);
 		font-weight: var(--font-weight-semibold);
 		color: var(--text-muted);
-		.icon-15YQ1T {
+		.icon-Lupfh- {
 			margin-left: calc(var(--spacing) / 4);
 		}
 	}
 
 	// Bot Tag
-	.botTag-3W9SuW:not(.tag-wWVHyf) {
+	.botTag-2mryIa:not(.tag-wWVHyf) {
 		font-size: 0;
 		padding: 0;
 		height: auto;
@@ -70,18 +70,18 @@
 			background: var(--text-normal);
 		}
 	}
-	&.selected-aXhQR6 {
-		.activity-2Gy-9S,
-		.roleColor-rz2vM0 {
+	&.selected-1-Z6gm {
+		.activity-2EQDZv,
+		.roleColor-nA7BqX {
 			color: #fff !important;
 		}
 	}
 
 	// Placeholders
-	&.placeholder-3X_lzF {
+	&.placeholder-1WgmVn {
 		padding: 0 var(--spacing);
 		animation: none;
-		.placeholderAvatar-damqh6 {
+		.placeholderAvatar-1qAcRZ {
 			border-radius: var(--border-radius);
 			border: 1px solid var(--base-border);
 			width: var(--avatar-size-sm);
@@ -89,13 +89,13 @@
 			background: var(--background-dark);
 		}
 	}
-	&.offline-3nJYBR .wrapper-3t9DeA foreignObject:after {
+	&.offline-22aM7E .wrapper-1VLyxH foreignObject:after {
 		content: none;
 	}
 }
-.mulitplePlaceholderUsername-pogq9I,
-.placeholderUsername-2B_OA9,
-.memberGroupsPlaceholder-3mwPub {
+.mulitplePlaceholderUsername-2T3DCI,
+.placeholderUsername-3iQi_D,
+.memberGroupsPlaceholder-9tqX9V {
 	background: var(--text-muted);
 	opacity: 0.2;
 	height: 4px;

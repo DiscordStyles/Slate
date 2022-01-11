@@ -4,7 +4,7 @@ $leftSide: 233px;
 $rightSide: 465px;
 $bannerHeight: 180px;
 
-#app-mount .root-3QyAh1 {
+#app-mount .root-8LYsGj {
 	width: 700px;
 	background: var(--background);
 	border-radius: var(--border-radius);
@@ -23,7 +23,7 @@ $bannerHeight: 180px;
 	}
 
 	// Left side
-	.topSection-y3p-_D {
+	.topSection-13QKHs {
 		width: $leftSide;
 		border-right: 1px solid var(--base-border);
 		height: 100%;
@@ -36,7 +36,7 @@ $bannerHeight: 180px;
 			flex-direction: column;
 		}
 		// Avatar
-		.wrapper-3t9DeA {
+		.wrapper-1VLyxH {
 			position: relative;
 			top: 0;
 			left: 0;
@@ -54,25 +54,25 @@ $bannerHeight: 180px;
 	}
 
 	// User banner
-	.banner-2QYc2d {
+	.banner-1YaD3N {
 		position: absolute;
 		top: calc(var(--spacing-double) / -1 + 1px);
 		left: calc(#{$leftSide} - var(--spacing-double));
 		height: $bannerHeight;
 		width: #{$rightSide};
 	}
-	.headerTop-547GTz {
+	.headerTop-1PNKck {
 		padding: 0;
 		flex-direction: column;
 		align-items: flex-start;
 		position: unset;
 	}
 	// Usrbg support
-	&[style*="--user-background"] .banner-2QYc2d:not(.bannerPremium-2hSAwz) {
+	&[style*="--user-background"] .banner-1YaD3N:not(.bannerPremium-kkSkPv) {
 		background: var(--user-background) center/cover no-repeat;
 	}
 	
-	.customStatusActivity-nmH3DF {
+	.customStatusActivity-WKWGD- {
 		position: relative;
 		z-index: 101;
 		padding: calc(var(--spacing) / 1.5);
@@ -82,13 +82,13 @@ $bannerHeight: 180px;
 		order: -1;
 		margin-bottom: var(--spacing-double);
 	}
-	.customStatusText-2opeSw {
+	.customStatusText-_4TbWr {
 		font-size: var(--font-size-sm);
 		color: var(--text-normal);
 		font-weight: var(--font-weight-normal);
 		line-height: normal;
 	}
-	.customStatus-1COQYu {
+	.customStatus-kFfkj5 {
 		display: flex;
 		align-items: center;
 		span {
@@ -97,7 +97,7 @@ $bannerHeight: 180px;
 			white-space: nowrap;
 			text-overflow: ellipsis;
 		}
-		.customStatusEmoji-1xY2Yn {
+		.customStatusEmoji-3Oq9Rm {
 			margin-right: var(--spacing-half);
 			width: 16px;
 			height: 16px;
@@ -105,7 +105,7 @@ $bannerHeight: 180px;
 	}
 
 	// Badges
-	.badgeList-1R1WgZ {
+	.badgeList-2aoHPw {
 		margin: var(--spacing-double) 0;
 		padding: 0;
 		flex-direction: column;
@@ -140,7 +140,7 @@ $bannerHeight: 180px;
 		height: 14px;
 		margin: 0 2px;
 	}
-	.profileBadge-2niAfJ {
+	.profileBadge-12r2Nm {
 		width: 18px;
 		height: 18px;
 		background: var(--text-muted);
@@ -236,7 +236,7 @@ $bannerHeight: 180px;
 	}
 
 	// Username
-	.nameTag-ECvD8P {
+	.nameTag-2Nlmsy {
 		position: absolute;
 		margin: 0;
 		top: calc(183px + var(--spacing-double));
@@ -246,17 +246,17 @@ $bannerHeight: 180px;
 		& > span {
 			line-height: var(--line-height);
 		}
-		&.nameTagWithCustomStatus-2kkfrQ {
+		&.nameTagWithCustomStatus-5c-v3- {
 			top: calc(233px + var(--spacing-double));
 		}
 	}
-	.discriminator-1swucG {
+	.discriminator-1bqsd3 {
 		font-size: var(--font-size);
 		color: var(--text-muted);
 	}
 
 	// Actions
-	.relationshipButtons-pUQVkf {
+	.relationshipButtons-3ByBpj {
 		width: 100%;
 		& > button {
 			margin-left: 0;
@@ -269,7 +269,7 @@ $bannerHeight: 180px;
 	
 
 	// Tabs
-	.tabBarContainer-37hZsr {
+	.tabBarContainer-sCZC4w {
 		position: absolute;
 		top: 0;
 		left: 0;
@@ -278,10 +278,10 @@ $bannerHeight: 180px;
 		border-bottom: 1px solid var(--base-border);
 		padding: 0;
 	}
-	.tabBar-3nvOPa {
+	.tabBar-2hXqzU {
 		height: auto;
 	}
-	.item-PXvHYJ {
+	.item-3XjbnG {
 		margin: 0;
 		padding: 0;
 		text-align: center;
@@ -324,7 +324,7 @@ $bannerHeight: 180px;
 				border-radius: var(--border-radius) var(--border-radius) 0 0;
 			}
 		}
-		&.selected-3s45Ha,
+		&.selected-g-kMVV,
 		&[style*="rgb(255, 255, 255)"] {
 			box-shadow: inset 0 -3px 0px var(--accent-solid);
 			background: transparent !important;
@@ -334,7 +334,7 @@ $bannerHeight: 180px;
 
 
 	// Body
-	.body-r6_QPy {
+	.body-1Ukv50 {
 		width: $rightSide;
 		border-top-color: var(--base-border);
 		position: absolute;
@@ -342,7 +342,7 @@ $bannerHeight: 180px;
 		left: $leftSide;
 		top: 41px;
 	}
-	.noTabBar-3ZjPNR:after {
+	.noTabBar-2Q-iE_:after {
 		content: "Your Profile";
 		position: absolute;
 		box-sizing: border-box;
@@ -360,15 +360,15 @@ $bannerHeight: 180px;
 		color: var(--text-normal) !important;
 		box-shadow: inset 0 -3px 0px var(--accent-solid);
 	}
-	.note-367eZJ {
+	.note-3M15gE {
 		margin: 0;
 	}
 
-	.userInfoSection-q_35fn {
+	.userInfoSection-2u2hir {
 		border: none;
 		padding: var(--spacing-double);
 		background: var(--background);
-		& + .userInfoSection-q_35fn {
+		& + .userInfoSection-2u2hir {
 			padding-top: 0;
 			&:before {
 				content: "Connections";
@@ -381,7 +381,7 @@ $bannerHeight: 180px;
 			}
 		}
 	}
-	.userInfoSectionHeader-3TYk6R {
+	.userInfoSectionHeader-2mYYun {
 		color: var(--text-normal);
 		font-size: var(--font-size-md);
 		font-weight: var(--font-weight-semibold);
@@ -389,17 +389,17 @@ $bannerHeight: 180px;
 		text-transform: none;
 		margin-bottom: var(--spacing-half);
 	}
-	.infoScroller-1Qu30O {
+	.infoScroller-1QMpon {
 		padding: var(--spacing-double);
 	}
 
-	.connectedAccounts-QlRa4m {
+	.connectedAccounts-1YaT2t {
 		margin: 0;
 		display: block;
 		column-count: 2;
 		column-gap: var(--spacing);
 	}
-	.connectedAccount-2Jb-Z0 {
+	.connectedAccount-1xKpli {
 		width: unset;
 		margin: 0;
 		background: var(--background-light);
@@ -413,7 +413,7 @@ $bannerHeight: 180px;
 		height: auto;
 		break-inside: avoid;
 		margin-bottom: var(--spacing);
-		.connectedAccountName-E1KzaT {
+		.connectedAccountName-j0meX4 {
 			font-size: var(--font-size);
 			font-weight: var(--font-weight-normal);
 			line-height: normal;
@@ -433,41 +433,41 @@ $bannerHeight: 180px;
 			mask-size: contain;
 			mask-repeat: no-repeat;
 			margin-right: var(--spacing);
-			&[src*="7b964801001dd47cc05a91d6dacf6075.png"] {
+			&[src*="37f15a06d062bdd0fc252d2b35d0b0bb"] {
 				mask-image: url(assets.$icon_battlenet);
 			}
-			&[src*="a9c26c8bebe406ca1adc1967bc532224"] {
+			&[src*="d897626dfa2016ea3ad0af935acb6070"] {
 				mask-image: url(assets.$icon_steam);
 			}
 			&[src*="8d8f815f3d81a33b1e70ec7c22e1b6fe"] { // Ain't nobody got their facebook connected.
 				mask-image: url(assets.$icon_facebook);
 			}
-			&[src*="007e5cb8871cf0987283c6307ce7fed0"] {
+			&[src*="ca71e0b8818221eea1deebbaf8dc6518"] {
 				mask-image: url(assets.$icon_twitch);
 			}
-			&[src*="afb09840b496f2c49032075a33da7fab"] {
+			&[src*="6a853b4c87fce386cbfef4a2efbacb09"] {
 				mask-image: url(assets.$icon_github);
 			}
-			&[src*="6919f2a578d91a5d033b639f0fb52b3d"] {
+			&[src*="85cf2b49d2a185c98ec8e383ad5a05d6"] {
 				mask-image: url(assets.$icon_twitter);
 				mask-size: 125%;
 			}
-			&[src*="b46c06eb71dc56a41432512168e6759a"] {
+			&[src*="f3224f560c8f5974355596a4f7e9ce19"] {
 				mask-image: url(assets.$icon_reddit);
 			}
-			&[src*="746aba83c88f087e3eef23a47dd57923"] {
+			&[src*="1fa6585cbb8c0fe21188e26d19fc6609"] {
 				mask-image: url(assets.$icon_xbox);
 			}
 			&[alt="Skype Logo" i] { // I checked like 100+ people for a skype connect and didn't find one.
 				mask-image: url(assets.$icon_skype);
 			}
-			&[src*="25ec573cf82ee36d12296628f6bec11b"] {
+			&[src*="57ee9535485efae7eb923ed4893abb57"] {
 				mask-image: url(assets.$icon_youtube);
 			}
-			&[src*="7906941c1205ba04b6921f2af4c6a170"] {
+			&[src*="eaeac24163b35f7526704a3d9b3c7722"] {
 				mask-image: url(assets.$icon_spotify);
 			}
-			&[src*="a0e2182e843745c73f7f3c8325a05ea9"] {
+			&[src*="94dc6f30a819026fa295d85f1f72b4ab"] {
 				mask-image: url("/assets/806953fe1cc616477175cbcdf90d5cd3.png");
 			}
 		}
@@ -495,7 +495,7 @@ $bannerHeight: 180px;
 	}
 
 	// Activity
-	.headerText-1HLrL7 {
+	.headerText-3g1XK9 {
 		color: var(--text-normal);
 		font-size: var(--font-size-md);
 		font-weight: var(--font-weight-semibold);
@@ -503,36 +503,36 @@ $bannerHeight: 180px;
 		text-transform: none;
 		margin-bottom: var(--spacing-half);
 	}
-	.userProfileActivity-Bnt1p_ {
+	.userProfileActivity-sal5no {
 		padding: var(--spacing-double);
-		& + .userProfileActivity-Bnt1p_ {
+		& + .userProfileActivity-sal5no {
 			padding-top: 0;
 		}
 	}
-	.bodyNormal-2D39hT {
+	.bodyNormal-250CQK {
 		display: grid;
 		grid-template-columns: 56px 1fr;
 		grid-gap: var(--spacing);
 	}
-	.assetsLargeImageActivityFeed-25vA7H,
-	.assetsLargeImageActivityFeedXbox-3Tr-tf,
-	.assetsLargeImageProfile-3YXDex {
+	.assetsLargeImageActivityFeed-3zBude,
+	.assetsLargeImageActivityFeedXbox-3gGXXV,
+	.assetsLargeImageProfile-1TX9jP {
 		width: 56px;
 		height: 56px;
 	}
-	.assetsSmallImageActivityFeed-2LNxrO,
-	.assetsSmallImageProfile-3JcsV1 {
+	.assetsSmallImageActivityFeed-2e1l_G,
+	.assetsSmallImageProfile-NPfu8b {
 		width: 24px;
 		height: 24px;
 	}
-	.content-3JfFJh {
+	.content-tXPNDw {
 		margin-left: 0;
 	}
-	.actionsProfile-jEtjVX {
+	.actionsProfile-31n1ca {
 		margin-left: 0;
 		grid-column: 1/3;
 	}
-	.textRow-19NEd_ {
+	.textRow-1sENuL {
 		font-size: var(--font-size);
 	}
 	.spotifyIcon-2J9kSv {
@@ -543,9 +543,9 @@ $bannerHeight: 180px;
 
 
 	
-	.listScroller-3GmIYj,
-	.infoScroller-1Qu30O {
-		padding: #{$bannerHeight} 0 0;
+	.listScroller-entkMk,
+	.infoScroller-1QMpon {
+		padding: #{$bannerHeight} 0 0 !important;
 		& > div {
 			position: relative;
 			z-index: 1;
@@ -568,7 +568,7 @@ $bannerHeight: 180px;
 			z-index: 0;
 		}
 	}
-	.listRow-1iDGel {
+	.listRow-2nO1T6 {
 		margin: 0;
 		border-radius: 0;
 		background: var(--background);
@@ -581,22 +581,22 @@ $bannerHeight: 180px;
 			background: var(--background-modifier-active);
 		}
 	}
-	.listAvatar-1BbvHX {
+	.listAvatar-2bU5Uh {
 		width: 24px;
 		height: 24px;
 		border-radius: var(--border-radius);
 		border: 1px solid var(--base-border);
 		margin-right: var(--spacing);
 	}
-	.listRowContent-i8Bizk {
+	.listRowContent-PEmSWj {
 		display: flex;
 		align-items: center;
 	}
-	.listName-U3shDM {
+	.listName-PwbeHL {
 		font-size: var(--font-size);
 		font-weight: var(--font-weight-normal);
 	}
-	.guildNick-kAvTju {
+	.guildNick-fe8oPN {
 		font-weight: var(--font-weight-normal);
 		margin-left: var(--spacing);
 	}

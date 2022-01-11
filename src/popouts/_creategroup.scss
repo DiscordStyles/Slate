@@ -1,6 +1,6 @@
 @use '../assets';
 
-#app-mount .root-1gCeng.popout-103y-5 {
+#app-mount .root-g14mjS.popout-3gby1q {
 	left: 246px;
 	top: calc(var(--spacing) - 8px);
 	position: relative;
@@ -27,7 +27,7 @@
 		clip-path: polygon(0 100%, 100% 100%, 100% 0);
 		box-shadow: var(--elevation-1);
 	}
-	.header-1TKi98 {
+	.header-1zd7se {
 		padding: var(--spacing);
 		transition: none;
 		box-shadow: none;
@@ -36,12 +36,12 @@
 		background: var(--background-alt);
 		border-radius: var(--border-radius) var(--border-radius) 0 0;
 		position: static;
-		.h4-AQvcAz,
-		.tag-2gHSR7 {
+		.h4-1_f8j1,
+		.tag-15zcD_ {
 			// fuck these
 			display: none;
 		}
-		.h4-AQvcAz:only-child {
+		.h4-1_f8j1:only-child {
 			display: flex;
 			align-items: center;
 			box-sizing: border-box;
@@ -59,7 +59,7 @@
 			opacity: 0.5;
 			cursor: not-allowed;
 		}
-		.subtitle-2P4u9v {
+		.subtitle-3v29zT {
 			color: var(--text-normal);
 			font-size: var(--font-size);
 			font-weight: var(--font-weight-normal);
@@ -67,23 +67,23 @@
 			margin: 0;
 			margin-bottom: var(--spacing-half);
 		}
-		.searchBar-1Vaz-O {
+		.searchBar-14YqL- {
 			margin: 0;
-			.inner-3ErfOT {
+			.inner-1NoIT5 {
 				overflow: visible !important;
-				.input-1Rv96N {
+				.input-2FSSDe {
 					padding: 0 var(--spacing-half);
 				}
 			}
 		}
 	}
-	.scroller-hUf6zQ {
-		.content-3YMskv {
+	.scroller-1Kbkqa {
+		.content-2a4AW9 {
 			height: fit-content !important;
-			.friendWrapper-2SrUFF {
+			.friendWrapper-2x5j0A {
 				margin: 0;
 				padding: 0;
-				.friend-3KALPe {
+				.friend-8ZraY7 {
 					font-size: var(--font-size);
 					font-weight: var(--font-weight);
 					color: var(--text-);
@@ -93,24 +93,24 @@
 					border-radius: 0;
 					display: flex;
 					align-items: center;
-					.avatar-vr5NCN {
+					.avatar-135A-D {
 						height: var(--avatar-size-xsm) !important;
 						width: var(--avatar-size-xsm) !important;
 					}
-					.nickname-O95uts {
+					.nickname-1PdAp3 {
 						display: none; // what is even the point of this
 					}
-					.discordTag-X7dpau {
+					.discordTag-2ke74W {
 						opacity: 1;
 						color: var(--text-muted);
 						font-size: var(--font-size);
 						line-height: normal;
-						.username-2b1r56 {
+						.username-3JLfHz {
 							font-weight: var(--font-weight-semibold);
 							color: var(--text-normal);
 						}
 					}
-					&.friendSelected-1sa4bG,
+					&.friendSelected-3cwmD7,
 					&:hover {
 						background: var(--background-modifier-hover);
 					}
@@ -121,7 +121,7 @@
 			}
 		}
 	}
-	.errorState-KkUH_2 {
+	.errorState-1R6bBt {
 		margin: 0;
 		padding: var(--spacing-double);
 		color: var(--text-normal);
@@ -131,7 +131,7 @@
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		.errorStateIcon-3fNXE5 {
+		.errorStateIcon-3y6XWh {
 			width: 72px;
 			height: 72px;
 			background: var(--text-muted);
@@ -144,22 +144,22 @@
 			max-width: 180px;
 		}
 	}
-	.footerSeparator-M9dQY1 {
+	.footerSeparator-b6VH1V {
 		display: none; // why would they even add this
 	}
-	.footer-1eyGBa {
+	.footer-C9oLp9 {
 		flex: 0 !important;
 		padding: var(--spacing);
 		border-top: 1px solid var(--base-border);
 		button {
 			margin: 0;
 		}
-		.h5-18_1nd + .input-cIJ7To {
+		.h5-18_1nd + .input-2g-os5 {
 			border: none;
 			padding: 0;
 			background: transparent;
 		}
-		.marginTop8-1DLZ1n {
+		.marginTop8-24uXGp {
 			margin-top: var(--spacing-half);
 			color: var(--text-muted);
 			font-size: var(--font-size-sm);

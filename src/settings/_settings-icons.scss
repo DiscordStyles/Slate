@@ -1,7 +1,7 @@
 @use '../assets';
 
 // Global icons
-#app-mount .sidebar-CFHs9e .item-PXvHYJ {
+#app-mount .sidebar-nqHbhN .item-3XjbnG {
 	display: flex;
 	align-items: center;
 
@@ -9,7 +9,7 @@
 		display: none;
 	}
 
-	&.selected-3s45Ha::before {
+	&.selected-g-kMVV::before {
 		background: currentColor;
 	}
 	&::before {
@@ -54,7 +54,7 @@
 			background: currentColor;
 			mask-image: url(assets.$icon_nitro-gem);
 		}
-		&.selected-3s45Ha {
+		&.selected-g-kMVV {
 			color: var(--white) !important;
 			background: rgba(var(--discord-pink), 1) !important;
 		}
@@ -111,7 +111,7 @@
 			background: currentColor;
 			mask: url(assets.$icon_hypesquad) center/cover no-repeat;
 		}
-		&.selected-3s45Ha {
+		&.selected-g-kMVV {
 			color: var(--white);
 			background: rgba(var(--status-yellow), 1);
 		}
@@ -162,7 +162,7 @@
 			mask-image: url(assets.$icon_zap);
 			background: rgb(114, 137, 218);
 		}
-		&.selected-3s45Ha::before {
+		&.selected-g-kMVV::before {
 			background: #fff;
 		}
 	}

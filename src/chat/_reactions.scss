@@ -1,10 +1,10 @@
 @use '../assets';
 
 #app-mount {
-	.reactions-12N0jA {
+	.reactions-1BUEKl {
 		margin: 0;
 		padding: 0;
-		.reactionBtn-3N03Zj {
+		.reactionBtn-3_qQdk {
 			color: var(--text-muted);
 			cursor: var(--cursor);
 			display: flex;
@@ -24,7 +24,7 @@
 				}
 			}
 		}
-		.reaction-1hd86g {
+		.reaction-2A2y9y {
 			background: var(--background-light);
 			border: 1px solid var(--base-border);
 			margin-bottom: var(--spacing-half);
@@ -41,9 +41,9 @@
 				box-shadow: 0 0 0 1px currentColor;
 				border: 1px solid currentColor;
 			}
-			.reactionInner-15NvIl {
+			.reactionInner-9eVHJa {
 				padding: 0;
-				.reactionCount-2mvXRV {
+				.reactionCount-1zkLcN {
 					margin: 0;
 					margin-left: var(--spacing-third);
 					font-size: var(--chat-font-size-sm);
@@ -56,10 +56,10 @@
 					height: var(--font-size-md);
 				}
 			}
-			&.reactionMe-wv5HKu {
+			&.reactionMe-3I9gFK {
 				background: rgba(var(--accent), 0.25);
 				border-color: var(--accent-solid);
-				.reactionCount-2mvXRV {
+				.reactionCount-1zkLcN {
 					color: var(--text-focus);
 				}
 				&:active {
@@ -74,8 +74,8 @@
 
 html.theme-light
 	#app-mount
-	.reactions-12N0jA
-	.reaction-1hd86g:not(.reactionMe-wv5HKu) {
+	.reactions-1BUEKl
+	.reaction-1hd86g:not(.reactionMe-3I9gFK) {
 	&:hover {
 		background: var(--background);
 		border: 1px solid var(--secondary-border);

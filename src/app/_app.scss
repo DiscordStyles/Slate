@@ -6,8 +6,8 @@ html {
 	line-height: var(--line-height);
 }
 
-.app-2rEoOp,
-.bg-h5JY_x {
+.app-2CXKsg,
+.bg-1QIAus {
 	background: var(--background);
 	transform: none !important;
 	top: 0 !important;
@@ -18,27 +18,27 @@ body {
 
 #app-mount {
 	background: var(--background);
-	.base-3dtUhz {
+	.base-2jDfDU {
 		border-radius: 0;
 		overflow: visible !important;
 	}
-	.layers-3iHuyZ {
+	.layers-OrUESM {
 		z-index: 11;
 		overflow: visible;
 	}
-	.layer-3QrUeG {
+	.layer-86YKbF {
 		opacity: 1 !important;
 		transform: none !important;
 		top: 0;
 		padding-top: 0;
-		&.animating-rRxada {
+		&.animating-1rIrGV {
 			pointer-events: all;
 			will-change: unset;
 			* {
 				pointer-events: all !important;
 			}
 		}
-		&.baseLayer-35bLyl {
+		&.baseLayer-W6S8cY {
 			z-index: 1;
 		}
 	}
@@ -49,13 +49,13 @@ body {
 		border-radius: var(--border-radius);
 		color: var(--accent-solid);
 		cursor: var(--cursor);
-		.channelIcon-1MN1lz {
+		.channelIcon-3I2O7O {
 			width: var(--font-size);
 			height: var(--font-size);
 			top: 50%;
 			transform: translateY(-50%);
 		}
-		&.iconMentionText-8GCluA {
+		&.iconMentionText-1_WCtN {
 			padding-left: 16px;
 		}
 		&:hover {
@@ -65,7 +65,7 @@ body {
 	}
 
 	// Remove box-shadow from chat
-	.content-yTz4x3:before {
+	.content-1jQy2l:before {
 		content: none;
 	}
 }

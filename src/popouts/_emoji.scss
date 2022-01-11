@@ -1,7 +1,7 @@
 @use '../assets';
 
 #app-mount {
-	.popoutContainer-1MXdqN {
+	.popoutContainer-2wbmiM {
 		width: 274px;
 		border-radius: var(--border-radius);
 		box-shadow: var(--elevation-1);
@@ -18,10 +18,10 @@
 				display: none;
 			}
 		}
-		.emojiSection-3Fb9ix {
+		.emojiSection-3QtaWO {
 			padding: var(--spacing);
 			background: transparent;
-			.primaryEmoji-3LinDq {
+			.primaryEmoji-2Og_xG {
 				width: var(--avatar-size-lg);
 				height: var(--avatar-size-lg);
 				min-width: unset;
@@ -29,12 +29,12 @@
 				margin: 0;
 				border-radius: var(--border-radius);
 			}
-			.colorStandard-2KCXvj {
+			.colorStandard-21JIj7 {
 				color: var(--text-muted);
 				font-size: var(--font-size);
 				font-weight: var(--font-weight);
 				line-height: normal;
-				&.emojiName-27Bjxw {
+				&.emojiName-3KEqts {
 					color: var(--text-normal);
 					font-weight: var(--font-weight-semibold);
 				}
@@ -44,11 +44,11 @@
 				width: auto;
 				margin-top: var(--spacing);
 			}
-			.truncatingText-18osv_ {
+			.truncatingText-3by0aD {
 				margin-left: var(--spacing);
 			}
 		}
-		.guildSection-1EoFKd {
+		.guildSection-2Zyzy8 {
 			padding: var(--spacing);
 			background: var(--background-light);
 			border-top: 1px solid var(--base-border);
@@ -58,27 +58,27 @@
 					height: var(--avatar-size-lg);
 					foreignObject {
 						mask: none;
-						.guildIcon-1zxZMV {
+						.guildIcon-EvT-p6 {
 							border-radius: var(--border-radius);
 						}
 					}
 				}
 			}
-			.guildName-nBoMcU {
+			.guildName-3JcJGj {
 				line-height: normal;
 			}
-			.guildTitle-2IliYu {
+			.guildTitle-1yMWvh {
 				margin-bottom: var(--spacing-half);
 				font-size: var(--font-size);
 			}
-			.overflow-WK9Ogt {
+			.overflow-1wOqNV {
 				color: var(--text-normal);
 				font-size: var(--font-size);
 			}
-			.dotSeparator-2SMscJ {
+			.dotSeparator-2N42Ni {
 				background-color: var(--text-muted);
 			}
-			.showMoreEmojis-1Xd5A3 {
+			.showMoreEmojis-1K08_X {
 				min-height: var(--input-height);
 				height: var(--input-height);
 				line-height: normal;
@@ -96,10 +96,10 @@
 				font-size: var(--font-size);
 				font-weight: var(--font-weight-normal);
 				color: var(--text-normal);
-				.flex-1xMQg5 {
+				.flex-2S1XBF {
 					flex-grow: 0 !important;
 				}
-				.showMoreEmojisArrow-PK64BO {
+				.showMoreEmojisArrow-2zv_xG {
 					display: none;
 				}
 				&:hover {
@@ -114,7 +114,7 @@
 	}
 }
 
-html.theme-light #app-mount .container-ZRw2kD .guildSection-1EoFKd .showMoreEmojis-1Xd5A3 {
+html.theme-light #app-mount .container-ZRw2kD .guildSection-2Zyzy8 .showMoreEmojis-1K08_X {
 	&:hover {
 		background: var(--background);
 		border: 1px solid var(--secondary-border);

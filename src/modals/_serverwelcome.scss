@@ -1,7 +1,7 @@
 @use '../assets';
 
 #app-mount {
-	.main-3auUui {
+	.main-jX9p1r {
 		padding: var(--spacing-double);
 		justify-content: center;
 		.close-hZ94c6 {
@@ -20,18 +20,18 @@
 				display: none;
 			}
 		}
-		.guildIcon-1F8t_p {
+		.guildIcon-1cwo09 {
 			margin: var(--spacing-double) 0;
 			foreignObject {
 				mask: none;
-				.iconActiveLarger-1L4Joi {
+				.iconActiveLarger-2EZc1b {
 					width: var(--avatar-size-xl);
 					height: var(--avatar-size-xl);
 					border-radius: var(--border-radius);
 				}
 			}
 		}
-		.header-QjU-Vz {
+		.header-14DAzy {
 			color: var(--text-normal);
 			font-size: var(--font-size-xl);
 			font-weight: var(--font-weight-light);
@@ -39,7 +39,7 @@
 			strong {
 				font-weight: inherit;
 			}
-			.headerGuildBadge-1qhaRY {
+			.headerGuildBadge-2JPeTX {
 				position: absolute;
 				margin: 0;
 				margin-top: -11px;
@@ -49,19 +49,19 @@
 				transform: scale(1.25);
 			}
 		}
-		.guildDescription-GPbJqa {
+		.guildDescription-3rVNje {
 			margin: 0;
 			padding: 0;
 		}
-		.choiceHeader-3g-iq5 {
+		.choiceHeader-i-BNuj {
 			margin-top: 0;
 			width: 100%;
 			text-align: center;
 			color: var(--text-muted);
 		}
-		.options-1VK2u9 {
+		.options-3Wncp7 {
 			margin: 0;
-			.optionContainer-15srkc {
+			.optionContainer-yOpaLq {
 				margin-top: var(--spacing);
 				font-size: var(--font-size);
 				font-weight: var(--font-weight-normal);
@@ -82,25 +82,25 @@
 					box-shadow: 0 0 0 1px currentColor !important;
 					border: 1px solid currentColor !important;
 				}
-				.channelDescription-1Vw6Lv {
+				.channelDescription-3n9Tua {
 					line-height: normal;
 				}
-				.optionTextContainer-1WT7xh {
+				.optionTextContainer-28Yb8N {
 					margin: 0 var(--spacing);
 				}
-				.optionArrow-2L2fza {
+				.optionArrow-1kVloh {
 					color: var(--text-normal);
 				}
 			}
 		}
-		.skip-1vOolA {
+		.skip-3yoN6g {
 			margin-top: var(--spacing-double);
 		}
 	}
 }
 
 // Light Mode
-html.theme-light #app-mount .main-3auUui .options-1VK2u9 .optionContainer-15srkc {
+html.theme-light #app-mount .main-jX9p1r .options-3Wncp7 .optionContainer-yOpaLq {
 	&:hover {
 		background: var(--background);
 		border: 1px solid var(--secondary-border);

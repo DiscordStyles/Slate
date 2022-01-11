@@ -1,28 +1,28 @@
 @use '../assets';
 
-#app-mount .sidebar-2K8pFh {
-	.wrapper-2jXpOf {
+#app-mount .sidebar-1tnWFu {
+	.wrapper-NhbLHG {
 		position: relative;
 		cursor: var(--cursor);
 		padding: 0;
 
 		// Unread channel
-		&.modeUnread-1qO3K1 {
-			.content-1x5b-n {
-				.name-23GUGE,
+		&.modeUnread-3Cxepe {
+			.content-1gYQeQ {
+				.name-28HaxV,
 				svg {
 					color: var(--text-focus);
 					opacity: 1;
 				}
 			}
-			&:hover .unread-2lAfLh {
+			&:hover .unread-36eUEm {
 				height: 18px;
 			}
 		}
 
 		// Muted channel
-		&.modeMuted-onO3r- .content-1x5b-n {
-			.name-23GUGE,
+		&.modeMuted-2T4MDZ .content-1gYQeQ {
+			.name-28HaxV,
 			svg {
 				opacity: 0.75;
 				color: var(--text-muted);
@@ -30,9 +30,9 @@
 		}
 
 		// Selected channel
-		&.modeSelected-346R90 .content-1x5b-n {
+		&.modeSelected-3DmyhH .content-1gYQeQ {
 			background: var(--accent-solid);
-			.name-23GUGE,
+			.name-28HaxV,
 			svg {
 				opacity: 1;
 				color: var(--white);
@@ -44,12 +44,12 @@
 	}
 
 	// User drag
-	.draggable-2E_4tJ {
+	.draggable-S2aEx4 {
 		height: var(--item-height);
 	}
 
 	// User drag region
-	.containerUserOver-2mv1jO:after {
+	.containerUserOver-SDa1HW:after {
 		left: 0;
 		border-radius: var(--border-radius);
 		border: 2px solid rgb(var(--status-green));
@@ -57,7 +57,7 @@
 	}
 
 	// Unread pill
-	.unread-2lAfLh {
+	.unread-36eUEm {
 		border-radius: 0;
 		width: 2px;
 		height: 12px;
@@ -69,14 +69,14 @@
 	}
 
 	// Channel
-	.mainContent-u_9PKf,
+	.mainContent-20q_Hp,
 	.voiceUser-14U_Ns {
 		cursor: var(--cursor);
 	}
-	.iconContainer-1BBaeJ {
+	.iconContainer-21RCa3 {
 		margin-right: 0;
 	}
-	.content-1x5b-n {
+	.content-1gYQeQ {
 		margin: 0;
 		padding: 0 var(--spacing);
 		border-radius: 0;
@@ -93,7 +93,7 @@
 				transform: scale(1.5) translateX(2px);
 			}
 		}
-		.iconBase-3LOlfs {
+		.iconBase-2G48Fc {
 			margin-left: var(--spacing-half);
 			path[d="M14 2H16V3H14V5H13V3H11V2H13V0H14V2Z"] {
 				d: path(assets.$path_person_add);
@@ -107,7 +107,7 @@
 				transform-origin: center;
 			}
 		}
-		.icon-1DeIlz {
+		.icon-2W8DHg {
 			margin-right: var(--spacing);
 			height: 14px;
 			width: auto;
@@ -116,7 +116,7 @@
 				transform: scale(1.25) translateX(2px) translateY(1px);
 			}
 		}
-		.name-23GUGE {
+		.name-28HaxV {
 			font-size: var(--font-size);
 			font-weight: var(--font-weight-normal);
 			color: var(--text-normal);
@@ -136,25 +136,25 @@
 	}
 
 	// Connected users in voice
-	.list-2luk8a {
+	.list-2x9Cl9 {
 		padding-left: 0;
-		.content-1Wq3SX {
+		.content-1Tgc42 {
 			border-radius: 0;
 			margin: 0;
 			height: 100%;
 			padding-left: calc(var(--spacing) * 2.5);
 			cursor: var(--cursor);
 		}
-		.voiceUser-1K6Xox {
+		.voiceUser-3nRK-K {
 			border-radius: 0;
 			height: var(--item-height);
-			.avatarContainer-28iYmV {
+			.avatarContainer-3FF_Km {
 				margin-left: var(--spacing);
 				border-radius: var(--border-radius);
 				height: var(--avatar-size-xsm);
 				width: var(--avatar-size-xsm);
 				border: 1px solid var(--base-border);
-				&.avatarSpeaking-2IGMRN {
+				&.avatarSpeaking-2pCGrZ {
 					border-color: rgb(var(--accent));
 					box-shadow: inset 0 0 0 2px var(--background-alt), 0 0 0 2px rgba(var(--accent), 0.35);
 				}
@@ -162,7 +162,7 @@
 			.icons-3q-_6z {
 				margin-right: var(--spacing);
 			}
-			.username-3KYl0N {
+			.username-vAneIW {
 				color: var(--text-normal);
 				font-size: var(--font-size);
 				font-weight: var(--font-weight-normal);
@@ -172,12 +172,12 @@
 				height: 14px;
 				width: 14px;
 			}
-			&.selected-3t3Csj {
-				.icon-2IuuZd,
-				.username-3KYl0N {
+			&.selected-1oxcpH {
+				.icon-N9JZb6,
+				.username-vAneIW {
 					color: #fff !important;
 				}
-				.avatarSpeaking-2IGMRN {
+				.avatarSpeaking-2pCGrZ {
 					box-shadow: inset 0 0 0 2px rgb(var(--accent)), 0 0 0 2px rgba(255, 255, 255, 0.5);
 					border-color: #fff;
 				}
@@ -192,8 +192,8 @@
 	}
 
 	// User Limit
-	.userLimit-3aerPX {
-		.wrapper-2tAnRe {
+	.userLimit-VbEkeM {
+		.wrapper-2fEmwW {
 			color: var(--text-normal);
 			border-radius: var(--border-radius);
 			border: 1px solid var(--base-border);
@@ -203,10 +203,10 @@
 				font-size: var(--font-size);
 				color: var(--text-normal);
 				font-weight: var(--font-weight-semibold);
-				&.users-3kndPl {
+				&.users-2JoyGL {
 					background: transparent;
 				}
-				&.total-i6us2n {
+				&.total-1c5KCN {
 					background: var(--background-alt);
 					&:after {
 						content: none;

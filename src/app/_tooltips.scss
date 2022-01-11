@@ -1,5 +1,5 @@
 #app-mount {
-	.tooltip-2QfLtc,
+	.tooltip-14MtrL,
 	.subscribeTooltipWrapper-32-Ce8 {
 		padding: var(--spacing-third) var(--spacing);
 		border-radius: var(--border-radius);
@@ -33,10 +33,10 @@
 				margin-top: var(--spacing);
 			}
 		}
-		.tooltipContent-bqVLWK {
+		.tooltipContent-Nejnvh {
 			padding: 0;
 		}
-		.tooltipPointer-3ZfirK,
+		.tooltipPointer-3L49xb,
 		&.subscribeTooltipWrapper-32-Ce8:after {
 			background: var(--background);
 			border: 1px solid var(--base-border);
@@ -44,24 +44,24 @@
 			height: 8px;
 			clip-path: polygon(100% 0, 0% 100%, 0 0);
 		}
-		&.tooltipRight-2JM5PQ .tooltipPointer-3ZfirK {
+		&.tooltipRight-2TSb42 .tooltipPointer-3L49xb {
 			transform: rotate(-45deg);
 			margin-right: -5px;
 		}
-		&.tooltipLeft-3EDOk1 .tooltipPointer-3ZfirK {
+		&.tooltipLeft-3H43DQ .tooltipPointer-3L49xb {
 			transform: rotate(135deg);
 			margin-left: -5px;
 		}
-		&.tooltipBottom-3ARrEK .tooltipPointer-3ZfirK,
+		&.tooltipBottom-2WzfVx .tooltipPointer-3L49xb,
 		&.subscribeTooltipWrapper-32-Ce8:after {
 			transform: rotate(45deg);
 			margin-bottom: -5px;
 		}
-		&.tooltipTop-XDDSxx .tooltipPointer-3ZfirK {
+		&.tooltipTop-1wv5UJ .tooltipPointer-3L49xb {
 			transform: rotate(-135deg);
 			margin-top: -5px;
 		}
-		.size14-e6ZScH {
+		.size14-3fJ-ot {
 			color: var(--text-normal);
 			font-size: var(--font-size);
 			line-height: normal;
@@ -70,13 +70,13 @@
 				font-size: var(--font-size-sm);
 			}
 		}
-		.userTooltip-7qZaHD {
+		.userTooltip-3rhC4_ {
 			font-size: var(--font-size);
 			color: var(--text-normal);
-			.avatar-i5C_qp {
+			.avatar-2OcaMf {
 				margin-right: var(--spacing-half);
 			}
-			.discriminator-17tNDS {
+			.discriminator-3-qTC0 {
 				opacity: 1;
 				color: var(--text-muted);
 			}

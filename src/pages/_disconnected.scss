@@ -1,13 +1,13 @@
-.app-2rEoOp:active + .container-16j22k {
+.app-2CXKsg:active + .container-2RRFHK {
 	display: none;
 }
-#app-mount .container-16j22k {
+#app-mount .container-2RRFHK {
 	background: var(--background-alt);
 	flex-direction: column;
 	justify-content: flex-start;
 	top: 0;
 	padding: 0;
-	.content-1-zrf2 {
+	.content-3AIQZv {
 		flex-grow: 1;
 		display: flex;
 		align-items: center;
@@ -23,7 +23,7 @@
 			color: var(--text-normal);
 			margin-bottom: var(--spacing-double);
 		}
-		.keybindShortcut-1BD6Z1 span {
+		.keybindShortcut-3zF1P9 span {
 			line-height: var(--line-height);
 			border-radius: var(--border-radius);
 			padding: var(--spacing-third) var(--spacing-half);
@@ -41,7 +41,7 @@
 			user-select: none;
 			height: 23px;
 		}
-		.text-3c9Zq1 {
+		.text-2bYgPB {
 			top: 0;
 			display: flex;
 			justify-content: center;
@@ -65,7 +65,7 @@
 				background-size: 25px 10px, 100% 100%, 100% 100%;
 				background-color: var(--background);
 			}
-			.tipTitle-GL9qAt {
+			.tipTitle-3FYEQp {
 				max-width: 100%;
 				width: fit-content;
 				margin: 0;
@@ -80,7 +80,7 @@
 					content: ":";
 				}
 			}
-			.tip-2cgoli {
+			.tip-1AwED_ {
 				color: var(--text-muted);
 				font-size: var(--font-size);
 				font-weight: var(--font-weight-normal);
@@ -91,7 +91,7 @@
 			}
 		}
 	}
-	.problems-3mgf6w {
+	.problems-CvGwpb {
 		width: fit-content;
 		border-radius: var(--border-radius);
 		padding: 0;
@@ -100,10 +100,10 @@
 		margin: 0 var(--spacing);
 		margin-bottom: var(--spacing-double);
 		transition: none;
-		&.slideIn-sCvzGz {
+		&.slideIn-VAD-dp {
 			transform: translateX(-50%);
 		}
-		.problemsText-1Yx-Kl {
+		.problemsText-1DBHh5 {
 			font-size: var(--font-size);
 			color: var(--text-normal);
 			font-weight: var(--font-weight-normal);
@@ -140,7 +140,7 @@
 						inset 0 0 0 100vmax rgba(255, 255, 255, 0.1);
 				}
 			}
-			&.statusLink-gFXhrL {
+			&.statusLink-TySQmC {
 				color: var(--text-normal);
 				background: var(--background-light);
 				border: 1px solid var(--base-border);
@@ -164,9 +164,9 @@
 
 html.theme-light
 	#app-mount
-	.container-16j22k
-	.problems-3mgf6w
-	a.statusLink-gFXhrL {
+	.container-2RRFHK
+	.problems-CvGwpb
+	a.statusLink-TySQmC {
 	&:hover {
 		background: var(--background);
 		border: 1px solid var(--secondary-border);

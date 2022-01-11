@@ -1,8 +1,8 @@
 #app-mount {
-	.popout-2iWAc-.force-theme.content-1nP7fx {
+	.popout-2iWAc-.force-theme.content-i-YmzK {
 		padding: var(--spacing);
 		border: 1px solid var(--base-border);
-		&.leftArrow-fNTiNn:before {
+		&.leftArrow-2gmK1H:before {
 			height: 10px;
 			width: 10px;
 			background: var(--background);
@@ -14,34 +14,34 @@
 			clip-path: polygon(0 100%, 100% 100%, 100% 0);
 			box-shadow: var(--elevation-1);
 		}
-		.container-2k0FnA {
+		.container-36u7Lw {
 			display: none;
 		}
-		.channelsTitle-1-1-6I {
+		.channelsTitle-26pflO {
 			margin: 0;
 		}
-		.body-2awMwV p,
-		div.body-2awMwV,
-		p.body-2awMwV {
+		.body-1V700N p,
+		div.body-1V700N,
+		p.body-1V700N {
 			color: var(--text-muted);
 			font-size: var(--font-size);
 			font-weight: var(--font-weight);
 			line-height: normal;
 			margin-bottom: var(--spacing);
 		}
-		.title-eQ0ZMf {
+		.title-25RSW7 {
 			color: var(--text-normal);
 			font-size: var(--font-size);
 			font-weight: var(--font-weight-semibold);
 			margin-bottom: var(--spacing-third);
 		}
-		.buttonContainer-lZQm0q {
+		.buttonContainer-2LQN58 {
 			margin-top: var(--spacing);
 			button {
 				margin: 0;
 			}
-			.buttonSkipCenterAlign-2kUfCH,
-			.buttonSkipLeftAlign-2Oe1kC {
+			.buttonSkipCenterAlign-3S-UYG,
+			.buttonSkipLeftAlign-2icbri {
 				font-size: var(--font-size);
 				font-weight: var(--font-weight-normal);
 				cursor: var(--cursor);
@@ -63,7 +63,7 @@
 					box-shadow: 0 0 0 1px currentColor !important;
 					border: 1px solid currentColor !important;
 				}
-				&.buttonSkipCenterAlign-2kUfCH {
+				&.buttonSkipCenterAlign-3S-UYG {
 					margin-left: var(--spacing);
 				}
 			}
@@ -74,8 +74,8 @@
 // Light Mode
 
 html.theme-light {
-	#app-mount .popout-2iWAc-.force-theme.content-1nP7fx .buttonContainer-lZQm0q .buttonSkipCenterAlign-2kUfCH,
-	#app-mount .popout-2iWAc-.force-theme.content-1nP7fx .buttonContainer-lZQm0q .buttonSkipLeftAlign-2Oe1kC {
+	#app-mount .popout-2iWAc-.force-theme.content-i-YmzK .buttonContainer-2LQN58 .buttonSkipCenterAlign-3S-UYG,
+	#app-mount .popout-2iWAc-.force-theme.content-i-YmzK .buttonContainer-2LQN58 .buttonSkipLeftAlign-2icbri {
 		&:hover {
 			background: var(--background);
 			border: 1px solid var(--secondary-border);

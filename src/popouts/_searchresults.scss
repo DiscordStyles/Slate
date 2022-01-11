@@ -1,10 +1,10 @@
 #app-mount {
-	.searchResultsWrap-3-pOjs {
+	.searchResultsWrap-5RVOkx {
 		background-color: var(--background);
 		border-left: 1px solid var(--base-border);
 		box-sizing: border-box;
 		width: calc(var(--sidebar-width) * 1.5);
-		.scroller-3GIiMh {
+		.scroller-3iiyhZ {
 			padding: 0 !important;
 			margin-top: -1px;
 			&::-webkit-scrollbar {
@@ -12,7 +12,7 @@
 			}
 		}
 	}
-	.searchHeader-2XoQg7 {
+	.searchHeader-1r_ZSh {
 		background: var(--background-alt);
 		border-bottom: 1px solid var(--base-border);
 		padding: var(--spacing-double);
@@ -56,28 +56,28 @@
 			}
 		}
 	}
-	.searchResultGroup-1DphGG {
+	.searchResultGroup-1lU_-i {
 		margin-bottom: 0;
 		&:last-child {
 			border-bottom: 1px solid var(--base-border);
 		}
 	}
-	.channelName-1JRO3C {
+	.channelName-3w2Y3c {
 		background: var(--background-light);
 		margin-bottom: 0;
 		padding: var(--spacing);
 		border-top: 1px solid var(--base-border);
 		font-size: var(--font-size-md);
 	}
-	.searchResult-9tQ1uo {
+	.searchResult-O9NDji {
 		background: transparent;
 		border-top: 1px solid var(--base-border);
 		border-radius: 0;
 		margin: 0;
 	}
-	.pageControlContainer-eP-SVd {
+	.pageControlContainer-6nt7kY {
 		margin: 0;
-		.pageControl-xGOf_S {
+		.pageControl-1XvHg0 {
 			padding: var(--spacing);
 			margin: 0;
 			width: 100%;
@@ -85,7 +85,7 @@
 			justify-content: space-around;
 		}
 		button,
-		.pageButton-2ruNwd {
+		.pageButton-1GMGeJ {
 			font-size: var(--font-size);
 			font-weight: var(--font-weight-normal);
 			min-height: var(--input-height);
@@ -108,7 +108,7 @@
 				border: 1px solid currentColor;
 			}
 
-			&.activeButton-rvKcqq {
+			&.activeButton-LRWFC_ {
 				background: rgba(var(--accent), 1);
 				color: var(--white);
 				border-color: rgba(var(--accent), 1);
@@ -124,7 +124,7 @@
 }
 
 html.theme-light #app-mount {
-	.pageControlContainer-eP-SVd button,
+	.pageControlContainer-6nt7kY button,
 	.tab-2j5AEF {
 		&:hover {
 			background: var(--background);

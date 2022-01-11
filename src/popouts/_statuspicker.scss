@@ -12,7 +12,7 @@
 	position: relative;
 	top: 3px;
 	z-index: 1;
-	.scroller-3BxosC {
+	.scroller-1bVxF5 {
 		padding: 0;
 		overflow: visible !important;
 		max-height: unset;
@@ -34,13 +34,13 @@
 			clip-path: polygon(0 100%, 100% 100%, 100% 0);
 			box-shadow: var(--elevation-1);
 		}
-		.description-2L932D,
-		.separator-2I32lJ {
+		.description-3Cwkxk,
+		.separator-1So4YB {
 			display: none;
 		}
 
 		// Status Items
-		.item-1tOPte {
+		.item-1OdjEX {
 			margin: 0;
 			padding: var(--spacing);
 			border-radius: 0;
@@ -53,20 +53,20 @@
 			width: 100%;
 			overflow: hidden;
 			position: relative;
-			.statusItem-33LqPf {
+			.statusItem-2hiCNB {
 				padding: 0;
 				max-height: unset;
 				display: flex;
-				.status-1AY8sU[style="background-color: rgb(67, 181, 129);"] {
+				.status-2DiCMd[style="background-color: rgb(67, 181, 129);"] {
 					background: rgb(var(--status-green)) !important;
 				}
-				.status-1AY8sU[style="background-color: rgb(250, 166, 26);"] {
+				.status-2DiCMd[style="background-color: rgb(250, 166, 26);"] {
 					background: rgb(var(--status-yellow)) !important;
 				}
-				.status-1AY8sU[style="background-color: rgb(240, 71, 71);"] {
+				.status-2DiCMd[style="background-color: rgb(240, 71, 71);"] {
 					background: rgb(var(--status-red)) !important;
 				}
-				.status-1AY8sU[style="background-color: rgb(116, 127, 141);"] {
+				.status-2DiCMd[style="background-color: rgb(116, 127, 141);"] {
 					background: rgb(var(--status-grey)) !important;
 				}
 			}
@@ -74,7 +74,7 @@
 				height: auto;
 				font-size: var(--font-size);
 			}
-			.status-1fhblQ {
+			.status-3TYC5W {
 				margin-left: var(--spacing);
 			}
 			&:first-child {
@@ -84,10 +84,10 @@
 				z-index: 10;
 				border-radius: 0 0 var(--border-radius) var(--border-radius) !important;
 			}
-			&.focused-3afm-j {
+			&.focused-3qFvc8 {
 				background: var(--accent-solid) !important;
 				color: #fff !important;
-				.customEmojiPlaceholder-37iZ_j {
+				.customEmojiPlaceholder-3mRJqA {
 					background: #fff !important;
 				}
 			}
@@ -99,27 +99,27 @@
 				> div {
 					max-width: 100%;
 				}
-				.customEmoji-2_2FwB {
+				.customEmoji-1nCP1t {
 					margin: 0;
 					margin-right: var(--spacing-half);
 				}
-				.customEmojiPlaceholder-37iZ_j,
+				.customEmojiPlaceholder-3mRJqA,
 				.status-3Kz6VS {
 					width: 10px;
 					height: 10px;
 				}
-				.customEmojiPlaceholder-37iZ_j {
+				.customEmojiPlaceholder-3mRJqA {
 					background: var(--text-normal);
 					mask: url(assets.$icon_add) center/cover no-repeat;
 					margin: 0;
 				}
-				.clearStatusButton-1Mxs1q {
+				.clearStatusButton-GXA1lF {
 					order: -1;
 					margin-right: var(--spacing);
 					color: currentColor;
 					cursor: var(--cursor);
 				}
-				.clearStatusIcon-3-MDNF {
+				.clearStatusIcon-9SeHGZ {
 					width: 10px;
 					height: 10px;
 					margin-left: 0;

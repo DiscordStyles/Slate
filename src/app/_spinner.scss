@@ -1,14 +1,14 @@
 @use '../assets';
 
 #app-mount {
-	.spinner-2enMB9 {
+	.spinner-2RT7ZC {
 		background: var(--text-normal);
 		mask: url(assets.$icon_spinner) center/12px no-repeat;
 		animation: rotate 1s linear infinite;
 
-		.wanderingCubesItem-WPXqao,
-		.chasingDotsItem-2DVNUn,
-		.pulsingEllipsis-3YiXRF {
+		.wanderingCubesItem-3Us-UG,
+		.chasingDotsItem-1Dc20e,
+		.pulsingEllipsis-10G8Z6 {
 			display: none;
 		}
 	}

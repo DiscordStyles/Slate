@@ -1,38 +1,38 @@
 @use '../assets';
 
 #app-mount {
-	.card-3Qj_Yx {
+	.card-16VQ8C {
 		border-radius: var(--border-radius);
 		padding: var(--spacing);
 
 		// Status Cards
-		&.cardWarning-2yPNAa {
+		&.cardWarning-WRe-Qa {
 			background-color: rgba(var(--status-yellow), 0.25);
 			border-color: rgba(var(--status-yellow), 0.5);
 		}
-		&.cardDanger-ZurOv3 {
+		&.cardDanger-39N1qE {
 			background-color: rgba(var(--status-red), 0.25);
 			border-color: rgba(var(--status-red), 0.5);
 		}
-		&.cardSuccess-3uEYjj {
+		&.cardSuccess-ahnYyu {
 			background-color: rgba(var(--status-green), 0.25);
 			border-color: rgba(var(--status-green), 0.5);
 		}
-		&.cardBrand-39zmMQ {
+		&.cardBrand-19kLUs {
 			background-color: rgba(var(--accent), 0.25);
 			border-color: rgba(var(--accent), 0.5);
 		}
 
 		// Primary Cards
-		&.cardPrimary-1Hv-to,
-		&.cardPrimaryOutline-29Ujqw,
-		&.cardPrimaryEditable-3KtE4g {
+		&.cardPrimary-3qRT__,
+		&.cardPrimaryOutline-1ofwVz,
+		&.cardPrimaryEditable-2mz_3i {
 			background-color: var(--background-alt);
 			border-color: var(--base-border);
 		}
 	}
 	// Close Button
-	.button-2CgfFz {
+	.button-1yVL_7 {
 		width: 16px;
 		height: 16px;
 		top: 0;

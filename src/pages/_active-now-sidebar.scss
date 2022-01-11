@@ -1,8 +1,7 @@
 @use '../assets';
 
 #app-mount {
-	.nowPlayingColumn-2sl4cE,
-	.nowPlayingSidebar-2OFn0o {
+	.nowPlayingColumn-1eCBCN {
 		border-left: 1px solid var(--base-border);
 		background: var(--background);
 		min-width: unset;
@@ -10,10 +9,10 @@
 		flex: 0 0 calc(var(--sidebar-width) * 1.5);
 		width: calc(var(--sidebar-width) * 1.5);
 	}
-	.container-lRFx4q {
+	.container-1oAagU {
 		background: transparent;
 	}
-	.scroller-2ZPeAD {
+	.scroller-hE2gWq {
 		height: calc(100vh - var(--titlebar-height) - var(--toolbar-height));
 		padding: 0 !important;
 		margin: 0;
@@ -22,7 +21,7 @@
 			display: none;
 		}
 	}
-	.header-2SF4Nh {
+	.header-Imy05m {
 		font-weight: var(--font-weight-normal);
 		font-size: var(--font-size);
 		margin: 0;
@@ -38,7 +37,7 @@
 		padding: var(--spacing-double);
 		border-bottom: 1px solid var(--base-border);
 		margin: 0;
-		.header-nbFv8R {
+		.header-XnnHhZ {
 			margin-bottom: var(--spacing-half);
 			font-weight: var(--font-weight-semibold);
 		}
@@ -46,7 +45,7 @@
 			margin-left: 0;
 		}
 	}
-	.activitySection-cEg8ae {
+	.activitySection-20iylG {
 		grid-template-columns: minmax(32px, 48px) minmax(20px, auto);
 		grid-gap: var(--spacing);
 		img {
@@ -54,15 +53,15 @@
 			height: 48px;
 		}
 	}
-	.emptyCard-1RJw8n {
+	.emptyCard-KDifrB {
 		border-radius: 0;
 		background: transparent;
 		padding: var(--spacing-double);
-		.emptyText-2zjpZr {
+		.emptyText-29ycwI {
 			font-size: var(--font-size);
 			color: var(--text-muted);
 		}
-		.base-1x0h_U:before {
+		.base-21yXnu:before {
 			content: "";
 			width: 100px;
 			height: 100px;
@@ -90,7 +89,7 @@
 		height: auto;
 		grid-gap: var(--spacing);
 	}
-	.wrapper-3D2qGf {
+	.wrapper-2RrXDg {
 		background: transparent;
 		border-radius: 0;
 		padding: var(--spacing);
@@ -103,10 +102,10 @@
 		&:hover {
 			background: var(--background-modifier-hover);
 		}
-		&.active-1xchHY {
+		&.active-1W_Gl9 {
 			background: rgb(var(--accent));
-			.colorHeaderSecondary-3Sp3Ft,
-			.size16-1P40sf {
+			.colorHeaderSecondary-g5teka,
+			.size16-rrJ6ag {
 				color: var(--white);
 			}
 		}
@@ -114,28 +113,28 @@
 			border-bottom: 1px solid var(--base-border);
 		}
 	}
-	.inset-3sAvek {
+	.inset-SbsSFp {
 		background: var(--background-dark);
 		border: 1px solid var(--base-border);
 		margin-top: var(--spacing);
 		border-radius: var(--border-radius);
 	}
-	.section-2gLsgF {
+	.section-3G9aLW {
 		background: transparent;
 	}
-	.separator-XqIyoz {
+	.separator-2OaeRP {
 		background: var(--base-border);
 	}
-	.section-2gLsgF {
+	.section-3G9aLW {
 		padding: var(--spacing-half);
 	}
-	.itemCard-v9viV7 {
-		.base-1x0h_U {
+	.itemCard-3Etziu {
+		.base-21yXnu {
 			font-size: var(--font-size);
 			line-height: var(--line-height);
 		}
-		.colorHeaderSecondary-3Sp3Ft,
-		.colorStandard-2KCXvj {
+		.colorHeaderSecondary-g5teka,
+		.colorStandard-21JIj7 {
 			font-size: var(--font-size-sm);
 			color: var(--text-muted);
 			line-height: var(--line-height);
@@ -143,39 +142,39 @@
 				color: var(--text-normal);
 			}
 		}
-		.sectionTitle-b-eawy {
+		.sectionTitle-2AR_TY {
 			color: var(--text-normal);
 		}
 	}
 	.tabBody-3YRQ8W::before {
 		content: none;
 	}
-	.voiceSection-1uiU7a {
+	.voiceSection-3CNgD8 {
 		grid-gap: var(--spacing);
 	}
-	.voiceSectionAssets-1gjfmz {
+	.voiceSectionAssets-1dg-E5 {
 		border-radius: 0;
 		width: var(--avatar-size);
 		height: var(--avatar-size);
 	}
-	.voiceSectionGuildImage-3HwnfL,
-	.voiceSectionNoGuildImageWrapper-TicZR3 {
+	.voiceSectionGuildImage-TctMOd,
+	.voiceSectionNoGuildImageWrapper-17kLyh {
 		width: var(--avatar-size);
 		height: var(--avatar-size);
 		mask: none;
 		mask: none;
 		border-radius: var(--border-radius);
 	}
-	.voiceSectionIconWrapper-FO7UEY {
+	.voiceSectionIconWrapper-4yoj76 {
 		bottom: -1px;
 		right: -1px;
 		background: var(--background-dark);
 		border-radius: var(--border-radius) 0 0;
 	}
-	.voiceSectionDetails-2DQTfs {
+	.voiceSectionDetails-3jGIB4 {
 		cursor: var(--cursor);
 	}
-	.partyMember-1CzxeX {
+	.partyMember-YLjOa7 {
 		height: var(--avatar-size-sm) !important;
 		width: var(--avatar-size-sm) !important;
 		mask: none;

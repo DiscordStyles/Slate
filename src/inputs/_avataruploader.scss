@@ -1,26 +1,26 @@
 @use '../assets';
 
-#app-mount .avatarUploader-3XDtmn {
-	.removeButton-1hcZyG {
+#app-mount .avatarUploader-AF-hm- {
+	.removeButton-3B_Vmg {
 		font-size: var(--font-size);
 		color: var(--text-normal);
 		font-weight: var(--font-weight-normal);
 		cursor: var(--cursor);
 	}
-	.avatarUploaderInner-3UNxY3 {
+	.avatarUploaderInner-yEhTv5 {
 		background-color: var(--accent-solid);
 	}
-	.sizeInfo-SKMPPw {
+	.sizeInfo-Wk0Ksj {
 		color: var(--text-muted);
 		font-size: var(--font-size-sm);
 		font-weight: var(--font-weight-normal);
 		line-height: normal;
 	}
-	.colorStatusRed-1YV2rj {
+	.colorStatusRed-3FRrPF {
 		font-size: var(--font-size);
 		font-weight: var(--font-weight-normal);
 	}
-	.avatarUploaderInner-3UNxY3 {
+	.avatarUploaderInner-yEhTv5 {
 		width: 64px;
 		height: 64px;
 		box-shadow: none;
@@ -42,16 +42,16 @@
 				mask: url(assets.$icon_person) center/32% no-repeat;
 			}
 		}
-		.avatarUploaderAcronym-3SioMc {
+		.avatarUploaderAcronym-RuQCQZ {
 			font-weight: var(--font-weight-light);
 			color: var(--text-normal);
 			font-size: var(--font-size-lg);
 		}
-		.fileInput-23-d-3 {
+		.fileInput-2wWHbw {
 			cursor: var(--cursor) !important;
 		}
 	}
-	.avatarUploaderHint-3SN212 {
+	.avatarUploaderHint-2ZdBlc {
 		background: rgba(0, 0, 0, 0.5);
 		font-size: 0;
 		border-radius: var(--border-radius);

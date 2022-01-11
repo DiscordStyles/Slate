@@ -1,16 +1,16 @@
 @use '../assets';
 
-#app-mount .privateChannels-1nO12o {
+#app-mount .privateChannels-oVe7HL {
 	overflow: visible;
 	width: var(--sidebar-width);
 	background: var(--background);
 
-	.content-3YMskv {
+	.content-2a4AW9 {
 		margin-top: var(--toolbar-height);
 	}
 
 	// Search Header
-	.searchBar-6Kv8R2 {
+	.searchBar-3TnChZ {
 		background: var(--toolbar-background);
 		border-bottom: 1px solid var(--toolbar-border);
 		border-right: 1px solid var(--toolbar-border);
@@ -46,17 +46,17 @@
 	}
 
 	// Direct messages header
-	.privateChannelsHeaderContainer-3NB1K1 {
+	.privateChannelsHeaderContainer-1UWASm {
 		padding: var(--spacing);
 		height: auto;
 		color: var(--text-normal);
 		font-size: 12px;
 		text-transform: none;
 	}
-	.privateChannelRecipientsInviteButtonIcon-3A3uTc {
+	.privateChannelRecipientsInviteButtonIcon-1ObKXK {
 		display: none;
 	}
-	.scroller-1JbKMe {
+	.scroller-WSmht3 {
 		background: var(--background);
 		div[style*="height: 8px"] {
 			display: none;
@@ -64,29 +64,29 @@
 	}
 
 	// Main channel entries
-	.channel-2QD9_O {
+	.channel-1Shao0 {
 		margin: 0;
 		max-width: 100%;
 		padding: 0;
-		.children-gzQq2t {
+		.children-283-lq {
 			margin-left: var(--spacing-half);
 		}
-		.layout-2DM8Md {
+		.layout-1qmrhw {
 			border-radius: 0;
 			padding: 0 var(--spacing);
 			cursor: var(--cursor);
 		}
-		.name-uJV0GL {
+		.name-3Vmqxm {
 			font-size: var(--font-size);
 			font-weight: var(--font-weight-normal);
 			color: var(--text-normal);
 			line-height: normal;
 		}
-		.avatar-3uk_u9 {
+		.avatar-6qzftW {
 			margin-right: var(--spacing);
 		}
-		.activityText-OW8WYb,
-		.subtext-1RtU34 {
+		.activityText-ev7Z1T,
+		.subtext-14b69p {
 			font-size: var(--font-size-sm);
 			font-weight: var(--font-weight-bold);
 			color: var(--text-muted);
@@ -94,7 +94,7 @@
 		&[href="/store"],
 		&[href="/discovery"] {
 			border-left: 1px solid var(--base-border);
-			.children-gzQq2t {
+			.children-283-lq {
 				display: none; // Hides Download Indicator
 			}
 		}
@@ -106,25 +106,25 @@
 			display: inline-block;
 			border-radius: 0;
 			cursor: var(--cursor);
-			.layout-2DM8Md {
+			.layout-1qmrhw {
 				justify-content: center;
 				height: 30px;
 				box-sizing: border-box;
 				border-bottom: 1px solid var(--base-border);
-				.avatar-3uk_u9 {
+				.avatar-6qzftW {
 					display: none;
 				}
-				.content-3QAtGj {
+				.content-1U25dZ {
 					flex-grow: 0;
 				}
 				&:active {
 					background: var(--background-modifier-hover);
 				}
 			}
-			&.selected-aXhQR6 .layout-2DM8Md {
+			&.selected-1-Z6gm .layout-1qmrhw {
 				background: transparent;
 				box-shadow: inset 0 -3px 0px var(--accent-solid);
-				.name-uJV0GL {
+				.name-3Vmqxm {
 					color: var(--text-normal) !important;
 				}
 			}
@@ -136,20 +136,20 @@
 		&[href="/channels/@me"] + [href="/store"] {
 			display: inline-block;
 		}
-		&.selected-aXhQR6 {
+		&.selected-1-Z6gm {
 			color: var(--white);
-			.closeButton-2GCmT5 {
+			.closeButton-mupH76 {
 				display: block;
 				background: var(--white);
 			}
-			.activityText-OW8WYb,
-			.name-uJV0GL,
-			.subtext-1RtU34 {
+			.activityText-ev7Z1T,
+			.name-3Vmqxm,
+			.subtext-14b69p {
 				color: var(--white) !important;
 			}
 		}
 	}
-	.closeButton-2GCmT5 {
+	.closeButton-mupH76 {
 		z-index: 10;
 		opacity: 1;
 		background: var(--text-muted);
@@ -161,7 +161,7 @@
 			background: var(--text-normal);
 		}
 	}
-	.wrapper-3t9DeA {
+	.wrapper-1VLyxH {
 		width: 26px !important;
 		height: 26px !important;
 		&:before {
@@ -171,26 +171,26 @@
 			right: -190px;
 		}
 	}
-	&:hover .wrapper-3t9DeA:before {
+	&:hover .wrapper-1VLyxH:before {
 		background: linear-gradient( 90deg, transparent, var(--background-modifier-hover) 50%);
 	}
-	&:active .wrapper-3t9DeA:before {
+	&:active .wrapper-1VLyxH:before {
 		background: linear-gradient(90deg, transparent, var(--background-modifier-active) 50%);
 	}
 
 	// Empty DMs List
-	.empty-388osJ {
+	.empty-yQo7LQ {
 		display: none;
 	}
 }
 
 // Light mode optimization
-.theme-light #app-mount .privateChannels-1nO12o .channel-2QD9_O.selected-aXhQR6 {
+.theme-light #app-mount .privateChannels-oVe7HL .channel-1Shao0.selected-1-Z6gm {
 	color: #fff;
 
-	.activityText-OW8WYb,
-	.name-uJV0GL,
-	.subtext-1RtU34 {
+	.activityText-ev7Z1T,
+	.name-3Vmqxm,
+	.subtext-14b69p {
 		color: #fff !important;
 	}
 }

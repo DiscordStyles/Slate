@@ -1,7 +1,7 @@
 @use '../assets';
 
 #app-mount {
-	.scale-3iLZhb {
+	.scale-3UGUBw {
 		transform: none !important;
 		transition: none !important;
 	}
@@ -17,16 +17,16 @@
 		width: calc(var(--sidebar-width) + var(--noasw-base));
 		background: var(--background);
 		border-right: 1px solid var(--base-border);
-		.scroller-3BxosC {
+		.scroller-1bVxF5 {
 			padding: var(--spacing-half) 0 0;
 			&::-webkit-scrollbar {
 				display: none;
 			}
 		}
-		.labelContainer-1BLJti {
+		.labelContainer-2vJzYL {
 			justify-content: flex-start;
 		}
-		.item-1tOPte {
+		.item-1OdjEX {
 			margin: 0;
 			padding: 0 var(--spacing);
 			color: var(--text-normal);
@@ -36,11 +36,11 @@
 			height: var(--item-height);
 			cursor: var(--cursor);
 			box-sizing: border-box;
-			.label-22pbtT {
+			.label-2gNW3x {
 				flex: unset;
 			}
-			.icon-LYJorE,
-			.iconContainer-2-XQPY {
+			.icon-E4cW1l,
+			.iconContainer-1-SsTR {
 				width: 14px;
 				height: 14px;
 				foreignObject {
@@ -54,7 +54,7 @@
 				background: rgb(var(--status-red));
 				right: -2px;
 			}
-			.iconContainer-2-XQPY {
+			.iconContainer-1-SsTR {
 				order: -1;
 				margin: 0 var(--spacing) 0 0;
 			}
@@ -63,7 +63,7 @@
 			}
 			&#guild-header-popout-premium-subscribe {
 				color: rgb(var(--discord-pink));
-				.icon-LYJorE {
+				.icon-E4cW1l {
 					color: rgb(var(--discord-pink));
 					path[d="M4 0L0 4V8L4 12L8 8V4L4 0ZM7 7.59L4 10.59L1 7.59V4.41L4 1.41L7 4.41V7.59Z"] {
 						d: path(assets.$path_flame);
@@ -124,7 +124,7 @@
 				transform: scale(1.4) translateX(2px) translateY(1px);
 				fill-rule: evenodd;
 			}
-			&.focused-3afm-j {
+			&.focused-3qFvc8 {
 				background: unset;
 			}
 			&:hover {
@@ -134,7 +134,7 @@
 				background-color: var(--background-modifier-active);
 			}
 		}
-		.separator-2I32lJ {
+		.separator-1So4YB {
 			display: none;
 		}
 		&:before {

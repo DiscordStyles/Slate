@@ -1,14 +1,14 @@
 @use '../assets';
 
-#app-mount .errorPage-u8SYh4 {
+#app-mount .errorPage-2pZ2Kq {
 	background: var(--background);
 	box-sizing: border-box;
 	order: 1;
-	.flex-1xMQg5 {
+	.flex-2S1XBF {
 		justify-content: flex-start;
 		align-items: flex-start;
 		padding: calc(var(--spacing) * 4);
-		.image-3zK3Wt {
+		.image-35kDIs {
 			position: absolute;
 			right: var(--spacing);
 			bottom: var(--spacing);
@@ -17,14 +17,14 @@
 			background: var(--text-muted);
 			mask: url(assets.$illustration_10) center/contain no-repeat;
 		}
-		.text-NLHgOm {
+		.text-3IbNaT {
 			width: 100%;
 			margin-bottom: var(--spacing-double);
-			.note-450gs3,
-			.title-3trS3_ {
+			.note-Ph806N,
+			.title-NjUt5y {
 				text-align: left;
 			}
-			.title-3trS3_ {
+			.title-NjUt5y {
 				font-weight: var(--font-weight-light);
 				font-size: var(--font-size-xxl);
 				margin-bottom: var(--spacing);
@@ -46,7 +46,7 @@
 					mask: url(assets.$icon_stop) center/contain no-repeat;
 				}
 			}
-			.note-450gs3 {
+			.note-Ph806N {
 				font-size: var(--font-size);
 				color: var(--text-normal);
 				font-weight: var(--font-weight-normal);

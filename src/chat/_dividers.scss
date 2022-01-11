@@ -1,21 +1,21 @@
-#app-mount .chatContent-a9vAAp .divider-JfaTT5 {
+#app-mount .chatContent-3KubbW .divider-2rZFJK {
 	height: auto;
 	margin: 0;
 	padding: var(--spacing-half) 0;
 	border-top: 1px solid var(--base-border);
 	background: var(--background);
 	top: 0;
-	.content-1o0f9g {
+	.content-3spvdd {
 		background: transparent;
 		font-size: var(--font-size-xsm);
 		padding: 0 var(--spacing) 0 0;
 	}
-	& + li > .cozy-3raOZG.groupStart-23k01U {
+	& + li > .cozy-VmLDNB.groupStart-3Mlgv1 {
 		margin-top: 0;
 	}
-	&.isUnread-3Ef-o9 {
+	&.isUnread-3Lojb- {
 		border-bottom: 1px solid var(--base-border);
-		.unreadPill-2HyYtt {
+		.unreadPill-3nEWYM {
 			position: unset;
 			background: transparent;
 			font-size: var(--font-size-xsm);
@@ -25,7 +25,7 @@
 				display: none;
 			}
 		}
-		& + li > .cozy-3raOZG {
+		& + li > .cozy-VmLDNB {
 			margin-top: calc(var(--spacing) - 12px);
 		}
 	}

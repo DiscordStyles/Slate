@@ -1,31 +1,31 @@
 @use '../assets';
 
-#app-mount .modalRoot-1Kx4Hb {
-	.formGroup-2hEDrJ {
+#app-mount .modalRoot-vB2FPC {
+	.formGroup-3b6DOC {
 		margin-bottom: var(--spacing-double);
 		&:nth-last-child(2) {
 			margin: 0;
 		}
 	}
-	.clearButton-13g8ju {
+	.clearButton-LWUk23 {
 		background: var(--text-muted);
 		opacity: 1;
 		mask: url(assets.$icon_close) center/10px no-repeat;
 		width: 16px;
 		height: 100%;
 		right: var(--spacing-half);
-		.clearIcon-xXwSFS {
+		.clearIcon-1dWNN0 {
 			display: none;
 		}
 		&:hover {
 			background: var(--text-normal);
 		}
 	}
-	.emojiButtonContainer-3d6DFV {
+	.emojiButtonContainer-1cdx-p {
 		margin-right: var(--spacing);
-		.emojiButton-3uL3Aw {
+		.emojiButton-3FRTuj {
 			cursor: var(--cursor);
-			.sprite-2iCowe {
+			.sprite-2lxwfc {
 				height: 20px;
 				width: 20px;
 				transform: none !important;
@@ -33,28 +33,28 @@
 				background: var(--text-muted);
 				mask: url(assets.$icon_smiley_alt) center/90% no-repeat;
 			}
-			&:hover .sprite-2iCowe,
-			.sprite-2iCowe[style*="grayscale(0%)"] {
+			&:hover .sprite-2lxwfc,
+			.sprite-2lxwfc[style*="grayscale(0%)"] {
 				background: var(--text-normal);
 			}
 		}
 	}
-	.art-347BZj {
+	.art-2p0nYa {
 		display: none;
 	}
-	.header-3C6qT5 {
+	.header-2zHCAk {
 		padding-top: 0;
 		align-items: flex-start;
 		width: auto;
 		position: relative;
-		.headerText-2uyvpY {
+		.headerText-3OXA-J {
 			font-size: var(--font-size-md);
 			font-weight: var(--font-weight-semibold);
 			color: var(--text-normal);
 			line-height: normal;
 		}
 	}
-	.modalCloseButton-3ztS-g {
+	.modalCloseButton-aVW6og {
 		top: unset;
 		right: calc(var(--spacing-double) - 6px) !important;
 	}

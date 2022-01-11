@@ -1,7 +1,7 @@
 @use '../assets';
 
-.userPopout-xaxa6l {
-	.wrapper-3t9DeA {
+.userPopout-2j1gM4 {
+	.wrapper-1VLyxH {
 		z-index: 1;
 		svg:not(:root) {
 			overflow: visible;
@@ -13,15 +13,15 @@
 				content: none;
 			}
 		}
-		.mask-1l8v16 > rect[x="22"] {
+		.mask-1FEkla > rect[x="22"] {
 			x: 0;
 			y: 0;
 		}
-		.cursorDefault-dsQJ1n rect {
+		.cursorDefault--wfhy5 rect {
 			x: 20;
 			y: 16;
 		}
-		.pointerEvents-2zdfdO[x="14.5"] {
+		.pointerEvents-9SZWKj[x="14.5"] {
 			fill: rgba(0, 0, 0, 0.5) !important;
 			width: 30px;
 			height: 30px;
@@ -42,11 +42,11 @@
 			y: calc(var(--avatar-size-xl) + 4px);
 		}
 	}
-	.avatarHint-2A3RNb {
+	.avatarHint-k7pYop {
 		foreignObject {
 			mask: none;
 		}
-		.avatarHintInner-1TvA8u {
+		.avatarHintInner-2HUAWj {
 			border-radius: var(--rs-avatar-shape) !important;
 			padding-top: 0;
 			font-size: 0;
@@ -69,17 +69,17 @@
 			}
 		}
 	}
-	.message-1PNnaP .mask-1l8v16 img {
+	.message-1PNnaP .mask-1FEkla img {
 		clip-path: circle(calc(19px - var(--rs-small-spacing)));
 	}
 	.memberOffline-2lN7gt img {
 		clip-path: none !important;
 	}
-	.header-QKLPzZ .wrapper-3t9DeA {
+	.header-QKLPzZ .wrapper-1VLyxH {
 		margin-right: 20px !important;
 	}
 	// Offline
-	.offline-3nJYBR img {
+	.offline-22aM7E img {
 		clip-path: none !important;
 	}
 
@@ -99,11 +99,11 @@
 }
 
 // Standard Dot Status
-.wrapper-3t9DeA {
+.wrapper-1VLyxH {
 	border-radius: calc(var(--avatar-radius) / 2);
 	box-shadow: 0 0 0 1px var(--base-border);
 	background: var(--background-dark);
-	.avatar-VxgULZ {
+	.avatar-b5OQ1N {
 		&[src*="/assets/"] {
 			content: url(assets.$blank);
 			border-radius: 0;
@@ -125,7 +125,7 @@
 	svg:not(:root) {
 		overflow: visible;
 	}
-	.mask-1l8v16,
+	.mask-1FEkla,
 	foreignObject {
 		mask: none;
 	}
@@ -187,7 +187,7 @@
 			mask: none;
 		}
 	}
-	.dots-3Bkt3k circle {
+	.dots-1BwzZQ circle {
 		&:nth-child(1) {
 			cy: -8 !important;
 			cx: -8.5 !important;
@@ -201,7 +201,7 @@
 			cx: 4 !important;
 		}
 	}
-	.cursorDefault-dsQJ1n rect {
+	.cursorDefault--wfhy5 rect {
 		y: 8.5px;
 		x: 10.5px;
 		stroke: var(--base-border);

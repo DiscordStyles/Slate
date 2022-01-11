@@ -1,7 +1,7 @@
 @use '../assets';
 
 #app-mount {
-	.container-1If-HZ {
+	.container-KM8BU6 {
 		background: var(--background);
 		flex-wrap: wrap;
 		&::before {
@@ -17,15 +17,15 @@
 			box-sizing: border-box;
 			border-bottom: 1px solid var(--base-border);
 		}
-		.reactors-Blmlhw {
+		.reactors-1VXca7 {
 			background: var(--background);
 			border-left: 1px solid var(--base-border);
 			height: calc(100% - 50px);
 			flex: 1;
-			.content-3YMskv {
+			.content-2a4AW9 {
 				height: auto !important;
 			}
-			.reactor-3UBcOI {
+			.reactor-1J25Qp {
 				box-shadow: none;
 				margin: 0;
 				padding: 0 var(--spacing);
@@ -36,7 +36,7 @@
 				&:active {
 					background: var(--background-modifier-active);
 				}
-				.remove-3V-yj8 {
+				.remove-19AQn_ {
 					cursor: var(--cursor);
 					padding: 0;
 					background: transparent;
@@ -52,26 +52,26 @@
 						transform: scale(2) translateY(-2px);
 					}
 				}
-				.nickname-miBZxb {
+				.nickname-1PaREw {
 					line-height: normal;
 					color: var(--text-normal);
 					font-weight: var(--font-weight-semibold);
 				}
-				.nameTag-m8r81H {
+				.nameTag-H6kSJ0 {
 					line-height: normal;
-					.username-Af3M5Y {
+					.username-tJjT82 {
 						font-weight: var(--font-weight-semibold);
 						color: var(--text-normal);
 					}
-					.discriminator-byOsvi {
+					.discriminator-1DCM-o {
 						font-size: var(--font-size);
 						color: var(--text-muted);
 						font-weight: var(--font-weight-normal);
 					}
-					&.tagFaded-WP86yt {
+					&.tagFaded-1S1bJ- {
 						opacity: 1;
 						padding-left: var(--spacing-half);
-						.username-Af3M5Y {
+						.username-tJjT82 {
 							color: var(--text-muted);
 							font-weight: var(--font-weight-normal);
 						}
@@ -79,30 +79,30 @@
 				}
 			}
 		}
-		.scroller-1-nKid {
+		.scroller-2GkvCq {
 			background: var(--background);
 			padding: 0;
 			width: auto;
 			height: calc(100% - 50px);
-			.reactionDefault-GBA58K,
-			.reactionSelected-1pqISm {
+			.reactionDefault-1Sjj1f,
+			.reactionSelected-1aMb2K {
 				border-radius: var(--border-radius);
 				padding: var(--spacing-half) var(--spacing);
 				cursor: var(--cursor);
 				margin: var(--spacing);
 				color: var(--text-normal);
 			}
-			.colorStandard-2KCXvj {
+			.colorStandard-21JIj7 {
 				color: inherit;
 			}
-			.reactionSelected-1pqISm {
+			.reactionSelected-1aMb2K {
 				background: var(--accent-solid);
 				color: var(--white);
 			}
-			.reactionDefault-GBA58K:hover {
+			.reactionDefault-1Sjj1f:hover {
 				background: transparent;
 			}
-			.emoji-236_Ij {
+			.emoji-1kNQp2 {
 				padding: 0;
 				margin-right: var(--spacing);
 			}

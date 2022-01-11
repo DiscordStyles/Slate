@@ -1,19 +1,19 @@
-#app-mount .sidebar-2K8pFh {
+#app-mount .sidebar-1tnWFu {
 	// Server dropdown selected
-	.container-1taM1r {
+	.container-1-ERn5 {
 		background: var(--toolbar-background);
-		&.selected-31Nl7x .header-2V-4Sw {
+		&.selected-1GtAC5 .header-3OsQeK {
 			background: var(--background);
 			border-bottom: 1px solid transparent;
 			.name-3YKhmS {
 				color: var(--toolbar-text-normal);
 			}
-			.button-1w5pas {
+			.button-2BMPJJ {
 				border-top: 5px solid var(--toolbar-text-normal);
 			}
 		}
 	}
-	.header-2V-4Sw {
+	.header-3OsQeK {
 		box-shadow: none;
 		border-bottom: 1px solid var(--toolbar-border);
 		border-right: 1px solid var(--toolbar-border);
@@ -63,7 +63,7 @@
 			}
 		}
 		// Chevron
-		.button-1w5pas {
+		.button-2BMPJJ {
 			transform-origin: center;
 			transition: none;
 			position: absolute;
@@ -78,7 +78,7 @@
 			g {
 				display: none;
 			}
-			&.open-1Te94t {
+			&.open-3fGK6o {
 				transform: rotate(180deg);
 			}
 		}
@@ -87,7 +87,7 @@
 			.name-3YKhmS {
 				color: var(--toolbar-text-focus);
 			}
-			.button-1w5pas {
+			.button-2BMPJJ {
 				border-top: 5px solid var(--toolbar-text-focus);
 			}
 		}
@@ -96,24 +96,24 @@
 
 // Verified Guild (Global Component)
 
-.verified-1eC5dy {
+.verified-1Jv_7P {
 	color: rgb(var(--status-green));
 }
-.partnered-3nJayh {
+.partnered-23cXFN {
 	color: var(--accent-solid);
 }
 
 // Light Mode
 .theme-light
 	#app-mount
-	.sidebar-2K8pFh
+	.sidebar-1tnWFu
 	.container-2Rl01u.selected-WP3kCM
-	.header-2V-4Sw {
+	.header-3OsQeK {
 	border-right: none;
 	h1 {
 		color: var(--text-focus);
 	}
-	.button-1w5pas {
+	.button-2BMPJJ {
 		border-top: 5px solid var(--text-focus);
 	}
 }
