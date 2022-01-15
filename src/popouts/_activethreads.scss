@@ -1,0 +1,27 @@
+// Hovering over channel, popout displaying active threads.
+
+#app-mount .popout-TdhJ6Z {
+	background: var(--background);
+	border-radius: var(--border-radius);
+	border: 1px solid var(--base-border);
+	box-shadow: var(--elevation-1);
+	padding: 0;
+
+	.title-1yq5kT {
+		padding: var(--spacing);
+	}
+
+	.row-1qtctT {
+		border-radius: 0;
+		margin: 0;
+		&:hover {
+			background: rgb(var(--accent));
+		}
+	}
+
+	.more-2c3Z-T {
+		border-top-color: var(--base-border);
+		padding: var(--spacing);
+		margin-top: 0;
+	}
+}

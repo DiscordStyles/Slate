@@ -29,9 +29,15 @@
 		border-bottom: 1px solid var(--base-border);
 		background: transparent;
 		margin-bottom: 0;
-		padding-top: var(--spacing);
+		padding-top: var(--spacing-double);
 		& > .wrapper-2a6GCs {
 			margin-top: 0 !important;
+		}
+		.avatar-2e8lTP {
+			top: 0 !important;
+		}
+		.container-2sjPya {
+			padding-top: var(--spacing);
 		}
 		&:hover .jumpButton-1ZwI_j {
 			opacity: 1;

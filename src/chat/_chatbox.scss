@@ -22,6 +22,10 @@
 		.buttonContainer-KMz3Ex {
 			margin: 0;
 		}
+
+		.divider-2rZFJK {
+			display: none;
+		}
 	}
 
 	// Notifications Form
@@ -259,5 +263,52 @@
 	// GIF & Gift buttons
 	.buttons-uaqb-5 > .button-f2h6uQ {
 		display: none;
+	}
+
+	.channelAttachmentArea-1wlgJV {
+		padding: var(--spacing) 0;
+		margin: 0;
+	}
+	.upload-3GTSF9 {
+		border-radius: var(--border-radius);
+		background: var(--background);
+		border: 1px solid var(--base-border);
+		padding: var(--spacing-half);
+		min-height: 120px;
+		max-height: 150px;
+		min-width: 140px;
+		max-width: 140px;
+		box-sizing: border-box;
+		padding: 0;
+	}
+	.imageContainer-1aUqU8 {
+		margin: 0;
+		padding: var(--spacing-half);
+	}
+	.filenameContainer-Djm-OO {
+		margin: 0;
+		padding: 0 var(--spacing-half) var(--spacing-half);
+	}
+	.filename-3PA55E {
+		margin: 0;
+		font-size: var(--font-size-sm);
+	}
+	.actionBarContainer-3l5PQn {
+		position: unset;
+	}
+	.actionBar-3pDeKY {
+		position: relative;
+		transform: none;
+	}
+	.wrapper-2vIMkT {
+		border-radius: 0;
+		border-top: 1px solid var(--base-border);
+		background: transparent;
+		box-shadow: none;
+		display: flex;
+		[role="button"] {
+			flex: 1;
+			cursor: var(--cursor);
+		}
 	}
 }

@@ -1,9 +1,16 @@
-#app-mount .membersWrap-3NUR2t {
-	min-width: unset;
-	.members-3WRCEx {
+#app-mount {
+	.container-2o3qEW {
+		background: var(--background);
+	}
+	.membersWrap-3NUR2t {
 		width: var(--sidebar-width);
 		border-left: 1px solid var(--base-border);
 		background: var(--background);
+		min-width: unset;
+	}
+	.members-3WRCEx {
+		background: transparent;
+		width: 100%;
 		& > div {
 			background: transparent;
 		}

@@ -85,11 +85,14 @@
 		border-bottom: 1px solid var(--base-border);
 		overflow: hidden;
 		border-radius: var(--border-radius) var(--border-radius) 0 0;
+		display: flex;
+	}
+	.customItem-2CxBSo {
+		flex: 1;
 	}
 	.button-1zW0-r {
 		padding: 0;
-		width: 45px;
-		flex-grow: 1;
+		width: 100%;
 		border-radius: 0;
 		background: transparent;
 		cursor: var(--cursor);

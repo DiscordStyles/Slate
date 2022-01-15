@@ -41,38 +41,35 @@
 		left: var(--spacing);
 	}
 	.navItem-3McpmW[aria-controls] {
-		width: auto;
-		& + div {
-			margin-left: var(--spacing);
+		padding: 0;
+		height: var(--input-height);
+		width: var(--input-height);
+		transition: none;
+		cursor: var(--cursor);
+		border-radius: var(--border-radius);
+		.contents-3ca1mk {
+			font-size: 0;
+			height: 16px;
+			width: 16px;
+			background: var(--text-muted);
 		}
-		button {
-			padding: 0;
-			height: var(--input-height);
-			width: var(--input-height);
-			transition: none;
-			cursor: var(--cursor);
-			border-radius: var(--border-radius);
+		&:hover {
+			background: var(--background-light);
+		}
+		&.navButtonActive-1EqC5l {
+			background: rgb(var(--accent));
 			.contents-3ca1mk {
-				font-size: 0;
-				height: 16px;
-				width: 16px;
-				background: var(--text-muted);
-			}
-			&.navButtonActive-1EqC5l {
-				background: rgb(var(--accent));
-				.contents-3ca1mk {
-					opacity: 1;
-					background: var(--white);
-				}
+				opacity: 1;
+				background: var(--white);
 			}
 		}
-		&:nth-child(1) button .contents-3ca1mk {
+		&[aria-controls="gif-picker-tab-panel"] .contents-3ca1mk {
 			mask: url(assets.$icon_image) center/cover no-repeat;
 		}
-		&:nth-child(2) button .contents-3ca1mk {
+		&[aria-controls="sticker-picker-tab-panel"] .contents-3ca1mk {
 			mask: url(assets.$icon_star) center/cover no-repeat;
 		}
-		&:nth-child(3) button .contents-3ca1mk {
+		&[aria-controls="emoji-picker-tab-panel"] .contents-3ca1mk {
 			mask: url(assets.$icon_face) center/cover no-repeat;
 		}
 	}
