@@ -5,7 +5,7 @@
 	"dev": [
 		{
 			"target": ["src", "main.scss"],
-			"output": ["Slate.theme.css"]
+			"output": "Slate.theme.css"
 		}
 	],
 	"build": [
