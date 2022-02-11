@@ -64,6 +64,12 @@
 	}
 
 	// Main channel entries
+	.container-32HW5s {
+		border-radius: 0;
+	}
+	.link-39sEB3 {
+		cursor: var(--cursor);
+	}
 	.channel-1Shao0 {
 		margin: 0;
 		max-width: 100%;
@@ -71,80 +77,36 @@
 		.children-283-lq {
 			margin-left: var(--spacing-half);
 		}
-		.layout-1qmrhw {
+		.layout-1LjVue {
 			border-radius: 0;
 			padding: 0 var(--spacing);
 			cursor: var(--cursor);
 		}
-		.name-3Vmqxm {
+		.name-2m3Cms {
 			font-size: var(--font-size);
 			font-weight: var(--font-weight-normal);
 			color: var(--text-normal);
 			line-height: normal;
 		}
-		.avatar-6qzftW {
+		.avatar-1HDIsL {
 			margin-right: var(--spacing);
 		}
 		.activityText-ev7Z1T,
-		.subtext-14b69p {
+		.subText-3Sk0zy {
 			font-size: var(--font-size-sm);
 			font-weight: var(--font-weight-bold);
 			color: var(--text-muted);
 		}
-		&[href="/store"],
-		&[href="/discovery"] {
-			border-left: 1px solid var(--base-border);
-			.children-283-lq {
-				display: none; // Hides Download Indicator
-			}
-		}
-		&[href="/channels/@me"],
-		&[href="/library"],
-		&[href="/store"],
-		&[href="/discovery"] {
-			width: 50%;
-			display: inline-block;
-			border-radius: 0;
-			cursor: var(--cursor);
-			.layout-1qmrhw {
-				justify-content: center;
-				height: 30px;
-				box-sizing: border-box;
-				border-bottom: 1px solid var(--base-border);
-				.avatar-6qzftW {
-					display: none;
-				}
-				.content-1U25dZ {
-					flex-grow: 0;
-				}
-				&:active {
-					background: var(--background-modifier-hover);
-				}
-			}
-			&.selected-1-Z6gm .layout-1qmrhw {
-				background: transparent;
-				box-shadow: inset 0 -3px 0px var(--accent-solid);
-				.name-3Vmqxm {
-					color: var(--text-normal) !important;
-				}
-			}
-		}
-		&[href="/discovery"] + [href="/store"] {
-			width: 100%;
-			border-left: none;
-		}
-		&[href="/channels/@me"] + [href="/store"] {
-			display: inline-block;
-		}
-		&.selected-1-Z6gm {
+		.selected-3veCBZ {
 			color: var(--white);
+			background: rgb(var(--accent));
 			.closeButton-mupH76 {
 				display: block;
 				background: var(--white);
 			}
 			.activityText-ev7Z1T,
-			.name-3Vmqxm,
-			.subtext-14b69p {
+			.name-2m3Cms,
+			.subText-3Sk0zy {
 				color: var(--white) !important;
 			}
 		}
@@ -154,6 +116,7 @@
 		opacity: 1;
 		background: var(--text-muted);
 		mask: url(assets.$icon_close) center/11px no-repeat;
+		cursor: var(--cursor);
 		path {
 			display: none;
 		}
@@ -189,8 +152,8 @@
 	color: #fff;
 
 	.activityText-ev7Z1T,
-	.name-3Vmqxm,
-	.subtext-14b69p {
+	.name-2m3Cms,
+	.subText-3Sk0zy {
 		color: #fff !important;
 	}
 }

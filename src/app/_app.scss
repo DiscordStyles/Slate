@@ -68,4 +68,9 @@ body {
 	.content-1jQy2l:before {
 		content: none;
 	}
+
+	// Remove cursor pointer
+	.interactive-1vLZ_I {
+		cursor: var(--cursor);
+	}
 }
