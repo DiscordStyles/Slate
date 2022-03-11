@@ -1,6 +1,6 @@
 @use '../assets';
 
-#app-mount .layer-86YKbF[aria-label="GUILD_SETTINGS"] {
+#app-mount .layer-86YKbF:not(.baseLayer-W6S8cY) {
 	.contentColumnMinimal-32PuDO {
 		max-width: unset;
 		min-width: 100%;
@@ -37,7 +37,8 @@
 	}
 
 	// Overview
-	.children-1xdcWE {marginBottom40-fvAlAV.flex-2S1XBF[style] + .divider-3wNib3 + .divider-3wNib3:nth-child(3) .select-1YfRS9 + .colorStandard-21JIj7 + .marginTop20-2T8ZJx + .marginTop20-2T8ZJx {
+	.children-1xdcWE {
+		.marginBottom40-fvAlAV.flex-2S1XBF[style] + .divider-3wNib3 + .divider-3wNib3:nth-child(3) .select-1YfRS9 + .colorStandard-21JIj7 + .marginTop20-2T8ZJx + .marginTop20-2T8ZJx {
 			margin: 0;
 		}
 		.flex-2S1XBF[style*="flex: 1 1 50%"],

@@ -1,8 +1,7 @@
 #app-mount .baseLayer-W6S8cY.animating-1rIrGV:not(.stop-animations) + .animating-1rIrGV {
 	display: none;
 }
-#app-mount .layer-86YKbF[aria-label*="SETTINGS"],
-#app-mount .layer-86YKbF[aria-label*="RTC"] {
+#app-mount .layer-86YKbF:not(.baseLayer-W6S8cY) {
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -42,7 +41,7 @@
 }
 
 @media only screen and (max-height: 650px) {
-	#app-mount .layer-86YKbF[aria-label*="SETTINGS"] .standardSidebarView-E9Pc3j {
+	#app-mount .layer-86YKbF:not(.baseLayer-W6S8cY) .standardSidebarView-E9Pc3j {
 		min-height: 500px;
 	}
 }
