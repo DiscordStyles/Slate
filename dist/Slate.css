@@ -5167,17 +5167,24 @@ html.theme-light #app-mount .reactions-1BUEKl .reaction-1hd86g:not(.reactionMe-3
 #app-mount .bottomLine-2RVwOq {
   margin-top: var(--spacing-half);
 }
-#app-mount .threadSidebar-1o3BTy {
+#app-mount .resizeHandle-PBRzPC {
+  border-left: 1px solid var(--base-border);
+  background: var(--background-dark);
+}
+#app-mount .container-3XgAHv {
   margin-left: 0;
   border-radius: 0;
   border-left: 1px solid var(--base-border);
   background: transparent;
 }
-#app-mount .threadSidebar-1o3BTy .form-3gdLxP {
+#app-mount .container-3XgAHv .form-3gdLxP {
   padding-left: var(--spacing);
 }
-#app-mount .threadSidebar-1o3BTy .scrollerSpacer-3AqkT9 {
+#app-mount .container-3XgAHv .scrollerSpacer-3AqkT9 {
   display: none;
+}
+#app-mount .container-3XgAHv .children-3xh0VB {
+  width: calc(100% - 80px);
 }
 #app-mount .chat-1rZYgu::before {
   content: none;
