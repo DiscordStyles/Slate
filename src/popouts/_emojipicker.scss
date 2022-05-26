@@ -77,7 +77,8 @@
 	// Header (Search)
 	.header-JHwfVI,
 	.header-11eigE,
-	.header-uVCAlo {
+	.header-uVCAlo,
+	.header-2TLOnc {
 		padding: var(--spacing);
 		box-shadow: none;
 		border-bottom: 1px solid var(--base-border);
@@ -475,6 +476,11 @@
 	}
 	.stickerInspected-mwnU6w {
 		background: var(--background-modifier-hover);
+	}
+
+	// Fixed gif scrollbar.
+	.container-3eG4QA {
+		height: 396px;
 	}
 }
 
