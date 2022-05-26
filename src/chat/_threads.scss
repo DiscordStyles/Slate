@@ -34,7 +34,12 @@
 	}
 
 	// Rightside chat
-	.threadSidebar-1o3BTy {
+	.resizeHandle-PBRzPC {
+		border-left: 1px solid var(--base-border);
+		background: var(--background-dark);
+	}
+
+	.container-3XgAHv {
 		margin-left: 0;
 		border-radius: 0;
 		border-left: 1px solid var(--base-border);
@@ -44,6 +49,9 @@
 		}
 		.scrollerSpacer-3AqkT9 {
 			display: none;
+		}
+		.children-3xh0VB {
+			width: calc(100% - 80px)
 		}
 	}
 	.chat-1rZYgu::before {
