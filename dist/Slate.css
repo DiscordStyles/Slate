@@ -240,7 +240,6 @@ body {
 h1, h2, h3, h4, h5, h6, p {
   -webkit-user-select: text;
      -moz-user-select: text;
-      -ms-user-select: text;
           user-select: text;
 }
 
@@ -477,7 +476,6 @@ html:not(.app-focused) body:not(.oldTitleBarEnabled-D8ppJQ) .winButton-3UMjdg {
   color: var(--toolbar-text-normal);
   -webkit-user-select: none;
      -moz-user-select: none;
-      -ms-user-select: none;
           user-select: none;
   line-height: normal;
   flex: 1;
@@ -1647,8 +1645,8 @@ html.platform-win[lang=en-US]:not(.app-focused) body:not(.oldTitleBarEnabled-D8p
   height: 80px;
   margin: var(--spacing);
   background: var(--text-normal);
-  -webkit-mask: url("https://discordstyles.github.io/Slate/assets/illustrations/1.svg") center/cover no-repeat;
-          mask: url("https://discordstyles.github.io/Slate/assets/illustrations/1.svg") center/cover no-repeat;
+  -webkit-mask: url("https://discordstyles.github.io/Slate/illustrations/1.svg") center/cover no-repeat;
+          mask: url("https://discordstyles.github.io/Slate/illustrations/1.svg") center/cover no-repeat;
 }
 #app-mount .sidebar-1tnWFu.hidden-38rxp9 {
   display: none;
@@ -1894,7 +1892,6 @@ html.platform-win[lang=en-US]:not(.app-focused) body:not(.oldTitleBarEnabled-D8p
   color: var(--toolbar-text-normal);
   -webkit-user-select: none;
      -moz-user-select: none;
-      -ms-user-select: none;
           user-select: none;
   line-height: normal;
 }
@@ -2775,7 +2772,6 @@ html.platform-win[lang=en-US]:not(.app-focused) body:not(.oldTitleBarEnabled-D8p
   max-width: calc(100% - var(--avatar-size-xl) - var(--spacing-double) - var(--spacing));
   -webkit-user-select: text;
      -moz-user-select: text;
-      -ms-user-select: text;
           user-select: text;
 }
 #app-mount .messagesWrapper-RpOMA3 .container-1yy5xN .wrapper-1VLyxH {
@@ -2785,7 +2781,7 @@ html.platform-win[lang=en-US]:not(.app-focused) body:not(.oldTitleBarEnabled-D8p
   right: var(--spacing-double);
 }
 #app-mount .messagesWrapper-RpOMA3 .container-1yy5xN .emptyChannelIcon-1YdEz2 {
-  background: url("https://discordstyles.github.io/Slate/assets/illustrations/8.svg") center/cover no-repeat;
+  background: url("https://discordstyles.github.io/Slate/illustrations/8.svg") center/cover no-repeat;
   border-radius: 0;
   position: absolute;
   margin: 0;
@@ -2833,8 +2829,8 @@ html.platform-win[lang=en-US]:not(.app-focused) body:not(.oldTitleBarEnabled-D8p
   width: 90%;
   height: 200px;
   background: var(--text-muted);
-  -webkit-mask: url("https://discordstyles.github.io/Slate/assets/illustrations/3.svg") center/contain no-repeat;
-          mask: url("https://discordstyles.github.io/Slate/assets/illustrations/3.svg") center/contain no-repeat;
+  -webkit-mask: url("https://discordstyles.github.io/Slate/illustrations/3.svg") center/contain no-repeat;
+          mask: url("https://discordstyles.github.io/Slate/illustrations/3.svg") center/contain no-repeat;
   margin-bottom: var(--spacing);
 }
 #app-mount .messagesWrapper-RpOMA3 .container-30bdan .inner--CkhGx .titleName-2vkJTW {
@@ -4714,9 +4710,10 @@ html.theme-light #app-mount .reactions-1BUEKl .reaction-1hd86g:not(.reactionMe-3
 }
 #app-mount .wrapper-1gVUIN .tile-2TcwiO .border-2Vy6FN {
   border-radius: var(--border-radius);
+  box-shadow: inset 0 0 0 1px var(--base-border);
 }
 #app-mount .wrapper-1gVUIN .tile-2TcwiO .border-2Vy6FN.speaking-7QZEkv {
-  box-shadow: inset 0 0 0 2px rgb(var(--status-green));
+  box-shadow: inset 0 0 0 2px rgb(var(--accent));
 }
 #app-mount .wrapper-1gVUIN .tile-2TcwiO .emptyPreview-1SMLD4 {
   background: transparent;
@@ -4746,13 +4743,13 @@ html.theme-light #app-mount .reactions-1BUEKl .reaction-1hd86g:not(.reactionMe-3
 #app-mount .wrapper-1gVUIN .voiceCallWrapper-3UtDiC .wrapper-3mYmFS.ringingIncoming-fibTw-:after,
 #app-mount .wrapper-1gVUIN .voiceCallWrapper-3UtDiC .wrapper-3mYmFS.ringingOutgoing-1NjfRn:after {
   border-radius: var(--border-radius);
-  border: 3px solid rgba(var(--status-green), 0.25);
+  border: 3px solid rgba(var(--accent), 0.25);
 }
 #app-mount .wrapper-1gVUIN .voiceCallWrapper-3UtDiC .border-2BJQjd {
   border-radius: var(--border-radius);
 }
 #app-mount .wrapper-1gVUIN .voiceCallWrapper-3UtDiC .border-2BJQjd.speaking-3RWJBr {
-  box-shadow: inset 0 0 0 2px rgb(var(--status-green)), 0 0 0 4px rgb(var(--status-green), 0.25);
+  box-shadow: inset 0 0 0 2px rgb(var(--accent)), 0 0 0 4px rgb(var(--accent), 0.25);
 }
 #app-mount .wrapper-1gVUIN .voiceCallWrapper-3UtDiC .participant-1l6khj {
   margin: 0 var(--spacing);
@@ -4769,6 +4766,12 @@ html.theme-light #app-mount .reactions-1BUEKl .reaction-1hd86g:not(.reactionMe-3
   padding: var(--spacing-third);
   bottom: -5px;
   right: -5px;
+}
+#app-mount .wrapper-1gVUIN .voiceCallWrapper-3UtDiC .participant-1l6khj .wrapper-3mYmFS {
+  box-shadow: inset 0 0 0 1px var(--base-border);
+  background: var(--background-dark);
+  border-radius: var(--border-radius);
+  overflow: hidden;
 }
 #app-mount .wrapper-1gVUIN .voiceCallWrapper-3UtDiC .participant-1l6khj .wrapper-3mYmFS,
 #app-mount .wrapper-1gVUIN .voiceCallWrapper-3UtDiC .participant-1l6khj .callAvatarMask-fiNMWy {
@@ -4787,6 +4790,10 @@ html.theme-light #app-mount .reactions-1BUEKl .reaction-1hd86g:not(.reactionMe-3
   border-radius: var(--border-radius);
   border: 1px solid var(--base-border);
   box-sizing: border-box;
+}
+#app-mount .wrapper-1gVUIN .voiceCallWrapper-3UtDiC .participant-1l6khj .wrapper-3mYmFS img,
+#app-mount .wrapper-1gVUIN .voiceCallWrapper-3UtDiC .participant-1l6khj .callAvatarMask-fiNMWy img {
+  border-radius: 0;
 }
 #app-mount .wrapper-1gVUIN .green-3wkLbx {
   margin: 0;
@@ -5088,7 +5095,6 @@ html.theme-light #app-mount .reactions-1BUEKl .reaction-1hd86g:not(.reactionMe-3
   margin: 0;
   -webkit-user-select: text;
      -moz-user-select: text;
-      -ms-user-select: text;
           user-select: text;
 }
 #app-mount .durationTimeWrapper-LdSEv8 .durationTimeDisplay-QwCeRr.durationTimeSeparator-1Cqi9N,
@@ -5337,8 +5343,8 @@ html.theme-light #app-mount .reactions-1BUEKl .reaction-1hd86g:not(.reactionMe-3
   width: 100px;
   height: 100px;
   background: var(--text-muted);
-  -webkit-mask: url("https://discordstyles.github.io/Slate/assets/illustrations/1.svg") center/contain no-repeat;
-          mask: url("https://discordstyles.github.io/Slate/assets/illustrations/1.svg") center/contain no-repeat;
+  -webkit-mask: url("https://discordstyles.github.io/Slate/illustrations/1.svg") center/contain no-repeat;
+          mask: url("https://discordstyles.github.io/Slate/illustrations/1.svg") center/contain no-repeat;
   margin-bottom: var(--spacing);
 }
 #app-mount .chat-2ZfjoI .messagesErrorBar-1IQ1rH:after {
@@ -5635,7 +5641,7 @@ html.theme-light #app-mount .reactions-1BUEKl .reaction-1hd86g:not(.reactionMe-3
   margin: 0;
   width: 175px !important;
   height: 175px !important;
-  background: url("https://discordstyles.github.io/Slate/assets/illustrations/8.svg") center/contain no-repeat !important;
+  background: url("https://discordstyles.github.io/Slate/illustrations/8.svg") center/contain no-repeat !important;
 }
 #app-mount .container-2cd8Mz .text-27cdrj {
   display: none;
@@ -5763,7 +5769,6 @@ html.theme-light #app-mount .reactions-1BUEKl .reaction-1hd86g:not(.reactionMe-3
   margin-right: var(--spacing-half);
   -webkit-user-select: none;
      -moz-user-select: none;
-      -ms-user-select: none;
           user-select: none;
   height: 23px;
 }
@@ -5966,7 +5971,7 @@ html.theme-light #app-mount .container-2RRFHK .problems-CvGwpb a.statusLink-TySQ
   display: none;
 }
 #app-mount .wrapper-3Q5DdO .rightSplit-24Bqk0 {
-  background: url("https://discordstyles.github.io/Slate/assets/illustrations/2.svg") center/50%;
+  background: url("https://discordstyles.github.io/Slate/illustrations/2.svg") center/50%;
   box-shadow: inset 0 0 0 100vmax rgba(0, 0, 0, 0.4);
 }
 #app-mount .wrapper-3Q5DdO .authBox-1HR6Ha {
@@ -6163,8 +6168,8 @@ html.theme-light #app-mount .wrapper-25sY58 .qrLogin-1ejtpI .startOverButton-1G3
   margin: 0;
   max-width: unset;
   background: var(--text-muted);
-  -webkit-mask: url("https://discordstyles.github.io/Slate/assets/illustrations/4.svg") center/50% no-repeat;
-          mask: url("https://discordstyles.github.io/Slate/assets/illustrations/4.svg") center/50% no-repeat;
+  -webkit-mask: url("https://discordstyles.github.io/Slate/illustrations/4.svg") center/50% no-repeat;
+          mask: url("https://discordstyles.github.io/Slate/illustrations/4.svg") center/50% no-repeat;
 }
 #app-mount .noChannel-Z1DQK7 .wrapper-5BaSTh .image-20MDYu,
 #app-mount .noChannel-Z1DQK7 .wrapper-5BaSTh .flexChild-3PzYmX {
@@ -6188,8 +6193,8 @@ html.theme-light #app-mount .wrapper-25sY58 .qrLogin-1ejtpI .startOverButton-1G3
   height: 490px;
   width: 290px;
   background: var(--text-muted);
-  -webkit-mask: url("https://discordstyles.github.io/Slate/assets/illustrations/11.svg") center/contain no-repeat;
-          mask: url("https://discordstyles.github.io/Slate/assets/illustrations/11.svg") center/contain no-repeat;
+  -webkit-mask: url("https://discordstyles.github.io/Slate/illustrations/11.svg") center/contain no-repeat;
+          mask: url("https://discordstyles.github.io/Slate/illustrations/11.svg") center/contain no-repeat;
 }
 #app-mount .errorPage-2pZ2Kq .flex-2S1XBF .text-3IbNaT {
   width: 100%;
@@ -6329,8 +6334,8 @@ html.theme-light #app-mount .wrapper-25sY58 .qrLogin-1ejtpI .startOverButton-1G3
   display: block;
   background: var(--text-muted);
   margin-bottom: var(--spacing-double);
-  -webkit-mask: url("https://discordstyles.github.io/Slate/assets/illustrations/8.svg") center/contain no-repeat;
-          mask: url("https://discordstyles.github.io/Slate/assets/illustrations/8.svg") center/contain no-repeat;
+  -webkit-mask: url("https://discordstyles.github.io/Slate/illustrations/8.svg") center/contain no-repeat;
+          mask: url("https://discordstyles.github.io/Slate/illustrations/8.svg") center/contain no-repeat;
 }
 #app-mount .header-13Cw0- {
   display: flex;
@@ -7056,6 +7061,10 @@ html.theme-light #app-mount .wrapper-25sY58 .qrLogin-1ejtpI .startOverButton-1G3
 #app-mount .userPopout-2j1gM4 .buttonsWrapper-2ARRp1 {
   margin-top: 0;
   padding: 0 var(--spacing) var(--spacing);
+  gap: 12px;
+}
+#app-mount .userPopout-2j1gM4 .buttonsWrapper-2ARRp1 > .button-TGAkj4 {
+  margin: 0;
 }
 #app-mount .userPopout-2j1gM4 .buttonsWrapper-2ARRp1 .buttonSize-dIiz43 {
   height: var(--input-height);
@@ -7063,6 +7072,12 @@ html.theme-light #app-mount .wrapper-25sY58 .qrLogin-1ejtpI .startOverButton-1G3
 }
 #app-mount .userPopout-2j1gM4 .buttonsWrapper-2ARRp1:empty {
   padding: 0;
+}
+#app-mount .userPopout-2j1gM4 .button-TGAkj4.iconButtonSize-1-pz2t {
+  max-width: unset;
+}
+#app-mount .userPopout-2j1gM4 .button-TGAkj4.iconButtonSize-1-pz2t .contents-3ca1mk {
+  display: flex;
 }
 #app-mount .userPopout-2j1gM4 .connections-pPr4as {
   padding: 0 var(--spacing);
@@ -7316,8 +7331,8 @@ html.theme-light #app-mount .wrapper-25sY58 .qrLogin-1ejtpI .startOverButton-1G3
   display: block;
   position: relative;
   background: var(--text-muted);
-  -webkit-mask: url("https://discordstyles.github.io/Slate/assets/illustrations/8.svg") center/contain no-repeat;
-          mask: url("https://discordstyles.github.io/Slate/assets/illustrations/8.svg") center/contain no-repeat;
+  -webkit-mask: url("https://discordstyles.github.io/Slate/illustrations/8.svg") center/contain no-repeat;
+          mask: url("https://discordstyles.github.io/Slate/illustrations/8.svg") center/contain no-repeat;
 }
 #app-mount .layer-2aCOJ3[style*=left][style*=top] .container-2McqkF.elevationBorderHigh-3drnJX::before {
   content: "";
@@ -7371,7 +7386,6 @@ html.theme-light #app-mount .wrapper-25sY58 .qrLogin-1ejtpI .startOverButton-1G3
   text-transform: capitalize;
   -webkit-user-select: none;
      -moz-user-select: none;
-      -ms-user-select: none;
           user-select: none;
   border: none;
 }
@@ -7483,7 +7497,6 @@ html.theme-light #app-mount .wrapper-25sY58 .qrLogin-1ejtpI .startOverButton-1G3
   font-weight: var(--font-weight-normal);
   -webkit-user-select: none;
      -moz-user-select: none;
-      -ms-user-select: none;
           user-select: none;
 }
 #app-mount .layer-2aCOJ3[style*=left][style*=top] .container-2McqkF.elevationBorderHigh-3drnJX .resultsGroup-cfY57t .option-ayUoaq .answer-14OVbQ {
@@ -7537,7 +7550,6 @@ html.theme-light #app-mount .wrapper-25sY58 .qrLogin-1ejtpI .startOverButton-1G3
   font-weight: var(--font-weight-normal);
   -webkit-user-select: none;
      -moz-user-select: none;
-      -ms-user-select: none;
           user-select: none;
 }
 
@@ -7739,7 +7751,6 @@ html.theme-light #app-mount .wrapper-25sY58 .qrLogin-1ejtpI .startOverButton-1G3
   display: inline-flex;
   -webkit-user-select: none;
      -moz-user-select: none;
-      -ms-user-select: none;
           user-select: none;
   margin-left: var(--spacing-half);
 }
@@ -7772,7 +7783,6 @@ html.theme-light #app-mount .wrapper-25sY58 .qrLogin-1ejtpI .startOverButton-1G3
   display: inline-flex;
   -webkit-user-select: none;
      -moz-user-select: none;
-      -ms-user-select: none;
           user-select: none;
   margin-left: var(--spacing);
 }
@@ -7861,7 +7871,6 @@ html.theme-light #app-mount .wrapper-25sY58 .qrLogin-1ejtpI .startOverButton-1G3
   display: inline-flex;
   -webkit-user-select: none;
      -moz-user-select: none;
-      -ms-user-select: none;
           user-select: none;
 }
 #app-mount .autocomplete-3NRXG8 .description-11DmNu .colorStandard-21JIj7 {
@@ -7882,7 +7891,6 @@ html.theme-light #app-mount .wrapper-25sY58 .qrLogin-1ejtpI .startOverButton-1G3
   display: inline-flex;
   -webkit-user-select: none;
      -moz-user-select: none;
-      -ms-user-select: none;
           user-select: none;
   margin-left: var(--spacing);
 }
@@ -8309,8 +8317,8 @@ html.theme-light #app-mount .wrapper-25sY58 .qrLogin-1ejtpI .startOverButton-1G3
   display: block;
   background: var(--text-muted);
   margin-bottom: var(--spacing-double);
-  -webkit-mask: url("https://discordstyles.github.io/Slate/assets/illustrations/6.svg") center/contain no-repeat;
-          mask: url("https://discordstyles.github.io/Slate/assets/illustrations/6.svg") center/contain no-repeat;
+  -webkit-mask: url("https://discordstyles.github.io/Slate/illustrations/6.svg") center/contain no-repeat;
+          mask: url("https://discordstyles.github.io/Slate/illustrations/6.svg") center/contain no-repeat;
 }
 #app-mount .premiumPromo-1eKAIB .premiumPromoDescription-1kf0Oa {
   font-size: var(--font-size);
@@ -8340,12 +8348,15 @@ html.theme-light #app-mount .wrapper-25sY58 .qrLogin-1ejtpI .startOverButton-1G3
   width: 120px;
   height: 120px;
   background: var(--text-muted);
-  -webkit-mask: url("https://discordstyles.github.io/Slate/assets/illustrations/8.svg") center/contain no-repeat;
-          mask: url("https://discordstyles.github.io/Slate/assets/illustrations/8.svg") center/contain no-repeat;
+  -webkit-mask: url("https://discordstyles.github.io/Slate/illustrations/8.svg") center/contain no-repeat;
+          mask: url("https://discordstyles.github.io/Slate/illustrations/8.svg") center/contain no-repeat;
   margin-bottom: var(--spacing-double);
 }
 #app-mount #gif-picker-tab-panel .content-1CboaJ:after, #app-mount #gif-picker-tab-panel.container-23gRWx:after {
   content: none;
+}
+#app-mount #gif-picker-tab-panel .content-A8TzKf {
+  height: 394px;
 }
 #app-mount .wrapper-1NB3WY {
   height: 442px;
@@ -9014,8 +9025,8 @@ html.theme-light #app-mount .container-ZRw2kD .guildSection-2Zyzy8 .showMoreEmoj
   position: relative;
   display: block;
   background: var(--text-muted);
-  -webkit-mask: url("https://discordstyles.github.io/Slate/assets/illustrations/1.svg") center/50px no-repeat;
-          mask: url("https://discordstyles.github.io/Slate/assets/illustrations/1.svg") center/50px no-repeat;
+  -webkit-mask: url("https://discordstyles.github.io/Slate/illustrations/1.svg") center/50px no-repeat;
+          mask: url("https://discordstyles.github.io/Slate/illustrations/1.svg") center/50px no-repeat;
 }
 #app-mount .container-2dXT_2 .content-3Y1V2C {
   margin-left: var(--spacing);
@@ -9364,8 +9375,8 @@ html.theme-light #app-mount .popout-2iWAc-.force-theme.content-i-YmzK .buttonCon
   display: block;
   position: relative;
   margin-bottom: var(--spacing);
-  -webkit-mask: url("https://discordstyles.github.io/Slate/assets/illustrations/8.svg") center/contain no-repeat;
-          mask: url("https://discordstyles.github.io/Slate/assets/illustrations/8.svg") center/contain no-repeat;
+  -webkit-mask: url("https://discordstyles.github.io/Slate/illustrations/8.svg") center/contain no-repeat;
+          mask: url("https://discordstyles.github.io/Slate/illustrations/8.svg") center/contain no-repeat;
 }
 #app-mount .root-g14mjS.popout-3gby1q .errorState-1R6bBt > div:last-child {
   max-width: 180px;
@@ -9463,8 +9474,8 @@ html.theme-light #app-mount .popout-2iWAc-.force-theme.content-i-YmzK .buttonCon
   padding: var(--spacing-double);
 }
 #app-mount .everyonePopout-nEbJY3 .animation-3GofIz {
-  -webkit-mask: url("https://discordstyles.github.io/Slate/assets/illustrations/1.svg") center/cover;
-          mask: url("https://discordstyles.github.io/Slate/assets/illustrations/1.svg") center/cover;
+  -webkit-mask: url("https://discordstyles.github.io/Slate/illustrations/1.svg") center/cover;
+          mask: url("https://discordstyles.github.io/Slate/illustrations/1.svg") center/cover;
   background: var(--text-normal);
   width: 120px;
   min-width: 120px;
@@ -9592,6 +9603,16 @@ html.theme-light #app-mount .popout-2iWAc-.force-theme.content-i-YmzK .buttonCon
   border-top-color: var(--base-border);
   padding: var(--spacing);
   margin-top: 0;
+}
+
+#app-mount .wrapper-3X0c60 {
+  z-index: 20;
+}
+#app-mount .root-1e2tfc {
+  background: var(--background-dark);
+  border: 1px solid var(--base-border);
+  box-shadow: var(--elevation-1);
+  border-radius: var(--border-radius);
 }
 
 #app-mount .baseLayer-W6S8cY.animating-1rIrGV:not(.stop-animations) + .animating-1rIrGV {
@@ -9750,8 +9771,8 @@ html.theme-light #app-mount .popout-2iWAc-.force-theme.content-i-YmzK .buttonCon
   height: 200px;
   margin-bottom: calc(var(--spacing) * 5);
   background: var(--text-muted);
-  -webkit-mask: url("https://discordstyles.github.io/Slate/assets/illustrations/3.svg") center/contain no-repeat;
-          mask: url("https://discordstyles.github.io/Slate/assets/illustrations/3.svg") center/contain no-repeat;
+  -webkit-mask: url("https://discordstyles.github.io/Slate/illustrations/3.svg") center/contain no-repeat;
+          mask: url("https://discordstyles.github.io/Slate/illustrations/3.svg") center/contain no-repeat;
 }
 #app-mount .layer-86YKbF:not(.baseLayer-W6S8cY) .contentRegion-3HkfJJ .streamerModeEnabled-2q0Gft .streamerModeEnabledBtn-2nlJTD {
   font-size: var(--font-size);
@@ -9909,7 +9930,6 @@ html.theme-light #app-mount .popout-2iWAc-.force-theme.content-i-YmzK .buttonCon
   display: inline-block;
   -webkit-user-select: none;
      -moz-user-select: none;
-      -ms-user-select: none;
           user-select: none;
 }
 #app-mount .layer-86YKbF:not(.baseLayer-W6S8cY) .contentRegion-3HkfJJ .children-1xdcWE > .marginBottom40-fvAlAV {
@@ -10245,7 +10265,6 @@ html.theme-light #app-mount .layer-86YKbF:not(.baseLayer-W6S8cY) .contentRegion-
   font-weight: var(--font-weight-normal);
   -webkit-user-select: none;
      -moz-user-select: none;
-      -ms-user-select: none;
           user-select: none;
 }
 #app-mount .layer-86YKbF[aria-label=USER_SETTINGS] .paymentHistory-2Zf4ZE .paymentPane-ut5qKZ .payment-2bOh4k .expandedInfo-1W31i3 .paymentDetail-3Hi99Q:first-child,
@@ -10321,8 +10340,8 @@ html.theme-light #app-mount .layer-86YKbF:not(.baseLayer-W6S8cY) .contentRegion-
   width: 144px;
   height: 144px;
   background: var(--text-muted);
-  -webkit-mask: url("https://discordstyles.github.io/Slate/assets/illustrations/8.svg") center/contain no-repeat;
-          mask: url("https://discordstyles.github.io/Slate/assets/illustrations/8.svg") center/contain no-repeat;
+  -webkit-mask: url("https://discordstyles.github.io/Slate/illustrations/8.svg") center/contain no-repeat;
+          mask: url("https://discordstyles.github.io/Slate/illustrations/8.svg") center/contain no-repeat;
 }
 #app-mount .layer-86YKbF[aria-label=USER_SETTINGS] .emptyStateHeader-2qdbzr {
   margin-top: var(--spacing-double);
@@ -10402,7 +10421,6 @@ html.theme-light #app-mount .layer-86YKbF:not(.baseLayer-W6S8cY) .contentRegion-
 #app-mount .layer-86YKbF[aria-label=USER_SETTINGS] .preview-rua1rr + .marginTop40-Q4o1tS + .marginTop40-Q4o1tS h5 {
   -webkit-user-select: none;
      -moz-user-select: none;
-      -ms-user-select: none;
           user-select: none;
 }
 #app-mount .layer-86YKbF[aria-label=USER_SETTINGS] .preview-rua1rr + .marginTop40-Q4o1tS + .marginTop40-Q4o1tS h5::before {
@@ -10485,7 +10503,7 @@ html.theme-light #app-mount .layer-86YKbF:not(.baseLayer-W6S8cY) .contentRegion-
   height: 72px;
   display: flex;
   background-color: var(--background-alt);
-  background-image: url("https://discordstyles.github.io/Slate/assets/illustrations/2.svg");
+  background-image: url("https://discordstyles.github.io/Slate/illustrations/2.svg");
   background-size: 125%;
   background-position: bottom;
   background-repeat: no-repeat;
@@ -10732,8 +10750,8 @@ html.theme-light #app-mount .layer-86YKbF:not(.baseLayer-W6S8cY) .contentRegion-
 }
 #app-mount .layer-86YKbF[aria-label=USER_SETTINGS] .wrapper-5BaSTh .image-20MDYu {
   background: var(--text-muted) !important;
-  -webkit-mask: url("https://discordstyles.github.io/Slate/assets/illustrations/8.svg") center/contain no-repeat;
-          mask: url("https://discordstyles.github.io/Slate/assets/illustrations/8.svg") center/contain no-repeat;
+  -webkit-mask: url("https://discordstyles.github.io/Slate/illustrations/8.svg") center/contain no-repeat;
+          mask: url("https://discordstyles.github.io/Slate/illustrations/8.svg") center/contain no-repeat;
   width: 144px !important;
   height: 144px !important;
   margin: 0;
@@ -11081,8 +11099,8 @@ html.theme-light .connectionIcon-2ElzVe {
   height: 156px !important;
   margin-bottom: var(--spacing-double);
   background: var(--text-muted) !important;
-  -webkit-mask: url("https://discordstyles.github.io/Slate/assets/illustrations/8.svg") center/contain no-repeat;
-          mask: url("https://discordstyles.github.io/Slate/assets/illustrations/8.svg") center/contain no-repeat;
+  -webkit-mask: url("https://discordstyles.github.io/Slate/illustrations/8.svg") center/contain no-repeat;
+          mask: url("https://discordstyles.github.io/Slate/illustrations/8.svg") center/contain no-repeat;
 }
 #app-mount .layer-86YKbF:not(.baseLayer-W6S8cY) .wrapper-5BaSTh .title-2CL_z0 {
   color: var(--text-normal);
@@ -11272,7 +11290,6 @@ html.theme-light .connectionIcon-2ElzVe {
   display: inline-block;
   -webkit-user-select: none;
      -moz-user-select: none;
-      -ms-user-select: none;
           user-select: none;
 }
 #app-mount .layer-86YKbF:not(.baseLayer-W6S8cY) .auditLog-3jNbM6 .headerClickable-2IVFo9 .timeWrap-2DasL6 .userHook-3AdCBF,
@@ -11376,8 +11393,8 @@ html.theme-light .connectionIcon-2ElzVe {
   height: 156px !important;
   margin-bottom: var(--spacing-double);
   background: var(--text-muted) !important;
-  -webkit-mask: url("https://discordstyles.github.io/Slate/assets/illustrations/8.svg") center/contain no-repeat;
-          mask: url("https://discordstyles.github.io/Slate/assets/illustrations/8.svg") center/contain no-repeat;
+  -webkit-mask: url("https://discordstyles.github.io/Slate/illustrations/8.svg") center/contain no-repeat;
+          mask: url("https://discordstyles.github.io/Slate/illustrations/8.svg") center/contain no-repeat;
 }
 
 #app-mount .sidebar-nqHbhN .item-3XjbnG {
@@ -11808,7 +11825,6 @@ body #app-mount #bd-settingspane-container .bd-pfbtn {
   text-decoration: none;
   -webkit-user-select: none;
      -moz-user-select: none;
-      -ms-user-select: none;
           user-select: none;
   width: -webkit-fit-content;
   width: -moz-fit-content;
@@ -12446,7 +12462,6 @@ body #app-mount #bd-settingspane-container .bd-controls {
   text-transform: none;
   -webkit-user-select: none;
      -moz-user-select: none;
-      -ms-user-select: none;
           user-select: none;
 }
 #app-mount .overrideList-1mnGiL .header-2BMCBr.headerName-3l1jaS {
@@ -12514,7 +12529,6 @@ html.theme-light #app-mount .footer-31IekZ .cancelButton-27U_rB:focus {
   letter-spacing: normal;
   -webkit-user-select: none;
      -moz-user-select: none;
-      -ms-user-select: none;
           user-select: none;
 }
 .bd-modal-wrapper .bd-modal .bd-modal-inner .bd-modal-body {
@@ -12548,8 +12562,8 @@ html.theme-light #app-mount .footer-31IekZ .cancelButton-27U_rB:focus {
   height: 112px;
   width: 112px;
   background: var(--text-muted);
-  -webkit-mask: url("https://discordstyles.github.io/Slate/assets/illustrations/8.svg") center/contain no-repeat;
-          mask: url("https://discordstyles.github.io/Slate/assets/illustrations/8.svg") center/contain no-repeat;
+  -webkit-mask: url("https://discordstyles.github.io/Slate/illustrations/8.svg") center/contain no-repeat;
+          mask: url("https://discordstyles.github.io/Slate/illustrations/8.svg") center/contain no-repeat;
 }
 .bd-modal-wrapper .bd-modal .bd-modal-inner .bd-modal-body .scroller .errors:empty:after {
   content: "Nothing to see here.";
@@ -12626,7 +12640,6 @@ html.theme-light #app-mount .footer-31IekZ .cancelButton-27U_rB:focus {
   border-bottom: 1px solid var(--base-border);
   -webkit-user-select: none;
      -moz-user-select: none;
-      -ms-user-select: none;
           user-select: none;
 }
 .bd-modal-wrapper .bd-modal .tab-bar-container .tab-bar-item:last-child {
@@ -13102,6 +13115,10 @@ html.theme-light #app-mount .footer-31IekZ .cancelButton-27U_rB:focus {
   -webkit-mask-image: url("/assets/806953fe1cc616477175cbcdf90d5cd3.png");
           mask-image: url("/assets/806953fe1cc616477175cbcdf90d5cd3.png");
 }
+#app-mount .root-8LYsGj .connectedAccount-1xKpli img[src*="7bab4490382024b0c8c29b5378eeaf8f"] {
+  -webkit-mask-image: url("/assets/7bab4490382024b0c8c29b5378eeaf8f.svg");
+          mask-image: url("/assets/7bab4490382024b0c8c29b5378eeaf8f.svg");
+}
 #app-mount .root-8LYsGj .connectedAccount-1xKpli a {
   font-size: var(--font-size);
   margin-top: var(--spacing-third);
@@ -13166,6 +13183,26 @@ html.theme-light #app-mount .footer-31IekZ .cancelButton-27U_rB:focus {
 #app-mount .root-8LYsGj .spotifyIcon-2J9kSv {
   top: 0;
   right: var(--spacing-double);
+}
+#app-mount .root-8LYsGj .buttonsWrapper-2ARRp1 {
+  margin-top: 0;
+  gap: 12px;
+}
+#app-mount .root-8LYsGj .buttonsWrapper-2ARRp1 > .button-TGAkj4 {
+  margin: 0;
+}
+#app-mount .root-8LYsGj .buttonsWrapper-2ARRp1 .buttonSize-dIiz43 {
+  height: var(--input-height);
+  min-height: var(--input-height);
+}
+#app-mount .root-8LYsGj .buttonsWrapper-2ARRp1:empty {
+  padding: 0;
+}
+#app-mount .root-8LYsGj .button-TGAkj4.iconButtonSize-1-pz2t {
+  max-width: unset;
+}
+#app-mount .root-8LYsGj .button-TGAkj4.iconButtonSize-1-pz2t .contents-3ca1mk {
+  display: flex;
 }
 #app-mount .root-8LYsGj .listScroller-entkMk,
 #app-mount .root-8LYsGj .infoScroller-1QMpon {
@@ -13290,7 +13327,6 @@ html.theme-light #app-mount .footer-31IekZ .cancelButton-27U_rB:focus {
   height: auto;
   -webkit-user-select: text;
      -moz-user-select: text;
-      -ms-user-select: text;
           user-select: text;
 }
 #app-mount .uploadModal-2ie9O_ .comment-1kpwc5 {
@@ -13344,21 +13380,27 @@ html.theme-light #app-mount .footer-31IekZ .cancelButton-27U_rB:focus {
   stroke: #fff;
 }
 
-#app-mount [aria-label="Delete Message"] .inner-ZyuQk0 {
+#app-mount .root-g14mjS .inner-ZyuQk0 {
   padding: var(--spacing);
 }
-#app-mount [aria-label="Delete Message"] .spacing-2kYqCu {
+#app-mount .root-g14mjS .spacing-2kYqCu {
   margin-bottom: var(--spacing);
 }
-#app-mount [aria-label="Delete Message"] .message-G6O-Wv {
+#app-mount .root-g14mjS .message-G6O-Wv {
   box-shadow: none;
-  background: transparent;
-  padding: 0;
+  background: var(--background-dark);
+  border: 1px solid var(--base-border);
+  padding: var(--spacing);
+  box-sizing: border-box;
 }
-#app-mount [aria-label="Delete Message"] .message-G6O-Wv .cozy-VmLDNB {
+#app-mount .root-g14mjS .message-G6O-Wv .cozy-VmLDNB {
   padding-bottom: 0;
+  margin-top: 0;
 }
-#app-mount [aria-label="Delete Message"] .spacingTop-12U95P.block-3Xiiq7 {
+#app-mount .root-g14mjS .message-G6O-Wv .avatar-2e8lTP {
+  top: 0;
+}
+#app-mount .root-g14mjS .spacingTop-12U95P.block-3Xiiq7 {
   display: none;
 }
 
@@ -13560,7 +13602,6 @@ html.theme-light #app-mount .footer-31IekZ .cancelButton-27U_rB:focus {
   margin-bottom: var(--spacing-half);
   -webkit-user-select: none;
      -moz-user-select: none;
-      -ms-user-select: none;
           user-select: none;
 }
 #app-mount .theme-light .root-g14mjS .container-1Lk8p7 .templatesList-uohY49 + .footer-31IekZ button {
@@ -13629,13 +13670,13 @@ html.theme-light #app-mount .theme-light .root-g14mjS .container-36u7Lw > div[st
   padding-bottom: 0;
 }
 
-#app-mount .modalRoot-vB2FPC .formGroup-3b6DOC {
+#app-mount .modalRoot-1uudbL .formGroup-146LDV {
   margin-bottom: var(--spacing-double);
 }
-#app-mount .modalRoot-vB2FPC .formGroup-3b6DOC:nth-last-child(2) {
+#app-mount .modalRoot-1uudbL .formGroup-146LDV:nth-last-child(2) {
   margin: 0;
 }
-#app-mount .modalRoot-vB2FPC .clearButton-LWUk23 {
+#app-mount .modalRoot-1uudbL .clearButton-2JoOHC {
   background: var(--text-muted);
   opacity: 1;
   -webkit-mask: url("data:image/svg+xml; utf-8,<svg xmlns='http://www.w3.org/2000/svg' aria-hidden='true' class='octicon' version='1.1' viewBox='0 0 12 16'><path d='M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z'></path></svg>") center/10px no-repeat;
@@ -13644,19 +13685,20 @@ html.theme-light #app-mount .theme-light .root-g14mjS .container-36u7Lw > div[st
   height: 100%;
   right: var(--spacing-half);
 }
-#app-mount .modalRoot-vB2FPC .clearButton-LWUk23 .clearIcon-1dWNN0 {
+#app-mount .modalRoot-1uudbL .clearButton-2JoOHC .clearIcon-1dWNN0 {
   display: none;
 }
-#app-mount .modalRoot-vB2FPC .clearButton-LWUk23:hover {
+#app-mount .modalRoot-1uudbL .clearButton-2JoOHC:hover {
   background: var(--text-normal);
 }
-#app-mount .modalRoot-vB2FPC .emojiButtonContainer-1cdx-p {
-  margin-right: var(--spacing);
+#app-mount .modalRoot-1uudbL .emojiButtonContainer-gCE6AT {
+  margin-left: var(--spacing);
 }
-#app-mount .modalRoot-vB2FPC .emojiButtonContainer-1cdx-p .emojiButton-3FRTuj {
+#app-mount .modalRoot-1uudbL .emojiButtonContainer-gCE6AT .emojiButton-3FRTuj {
   cursor: var(--cursor);
+  padding: 0;
 }
-#app-mount .modalRoot-vB2FPC .emojiButtonContainer-1cdx-p .emojiButton-3FRTuj .sprite-2lxwfc {
+#app-mount .modalRoot-1uudbL .emojiButtonContainer-gCE6AT .emojiButton-3FRTuj .sprite-2lxwfc {
   height: 20px;
   width: 20px;
   transform: none !important;
@@ -13665,26 +13707,29 @@ html.theme-light #app-mount .theme-light .root-g14mjS .container-36u7Lw > div[st
   -webkit-mask: url('data:image/svg+xml; utf-8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="currentColor" style="display: inline-block; vertical-align: text-bottom;"><path fill-rule="evenodd" d="M1.5 8a6.5 6.5 0 1113 0 6.5 6.5 0 01-13 0zM8 0a8 8 0 100 16A8 8 0 008 0zM5 8a1 1 0 100-2 1 1 0 000 2zm7-1a1 1 0 11-2 0 1 1 0 012 0zM5.32 9.636a.75.75 0 011.038.175l.007.009c.103.118.22.222.35.31.264.178.683.37 1.285.37.602 0 1.02-.192 1.285-.371.13-.088.247-.192.35-.31l.007-.008a.75.75 0 111.222.87l-.614-.431c.614.43.614.431.613.431v.001l-.001.002-.002.003-.005.007-.014.019a1.984 1.984 0 01-.184.213c-.16.166-.338.316-.53.445-.63.418-1.37.638-2.127.629-.946 0-1.652-.308-2.126-.63a3.32 3.32 0 01-.715-.657l-.014-.02-.005-.006-.002-.003v-.002h-.001l.613-.432-.614.43a.75.75 0 01.183-1.044h.001z"/></svg>') center/90% no-repeat;
           mask: url('data:image/svg+xml; utf-8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="currentColor" style="display: inline-block; vertical-align: text-bottom;"><path fill-rule="evenodd" d="M1.5 8a6.5 6.5 0 1113 0 6.5 6.5 0 01-13 0zM8 0a8 8 0 100 16A8 8 0 008 0zM5 8a1 1 0 100-2 1 1 0 000 2zm7-1a1 1 0 11-2 0 1 1 0 012 0zM5.32 9.636a.75.75 0 011.038.175l.007.009c.103.118.22.222.35.31.264.178.683.37 1.285.37.602 0 1.02-.192 1.285-.371.13-.088.247-.192.35-.31l.007-.008a.75.75 0 111.222.87l-.614-.431c.614.43.614.431.613.431v.001l-.001.002-.002.003-.005.007-.014.019a1.984 1.984 0 01-.184.213c-.16.166-.338.316-.53.445-.63.418-1.37.638-2.127.629-.946 0-1.652-.308-2.126-.63a3.32 3.32 0 01-.715-.657l-.014-.02-.005-.006-.002-.003v-.002h-.001l.613-.432-.614.43a.75.75 0 01.183-1.044h.001z"/></svg>') center/90% no-repeat;
 }
-#app-mount .modalRoot-vB2FPC .emojiButtonContainer-1cdx-p .emojiButton-3FRTuj:hover .sprite-2lxwfc,
-#app-mount .modalRoot-vB2FPC .emojiButtonContainer-1cdx-p .emojiButton-3FRTuj .sprite-2lxwfc[style*="grayscale(0%)"] {
+#app-mount .modalRoot-1uudbL .emojiButtonContainer-gCE6AT .emojiButton-3FRTuj:hover .sprite-2lxwfc,
+#app-mount .modalRoot-1uudbL .emojiButtonContainer-gCE6AT .emojiButton-3FRTuj .sprite-2lxwfc[style*="grayscale(0%)"] {
   background: var(--text-normal);
 }
-#app-mount .modalRoot-vB2FPC .art-2p0nYa {
+#app-mount .modalRoot-1uudbL .emojiButtonContainer-gCE6AT + .inputWrapper-1YNMmM .input-2g-os5 {
+  padding-left: calc(var(--spacing-triple) + var(--spacing));
+}
+#app-mount .modalRoot-1uudbL .art-2p0nYa {
   display: none;
 }
-#app-mount .modalRoot-vB2FPC .header-2zHCAk {
+#app-mount .modalRoot-1uudbL .header-2zHCAk {
   padding-top: 0;
   align-items: flex-start;
   width: auto;
   position: relative;
 }
-#app-mount .modalRoot-vB2FPC .header-2zHCAk .headerText-3OXA-J {
+#app-mount .modalRoot-1uudbL .header-2zHCAk .headerText-3OXA-J {
   font-size: var(--font-size-md);
   font-weight: var(--font-weight-semibold);
   color: var(--text-normal);
   line-height: normal;
 }
-#app-mount .modalRoot-vB2FPC .modalCloseButton-aVW6og {
+#app-mount .modalRoot-1uudbL .modalCloseButton-aVW6og {
   top: unset;
   right: calc(var(--spacing-double) - 6px) !important;
 }
@@ -13729,11 +13774,6 @@ html.theme-light #app-mount .theme-light .root-g14mjS .container-36u7Lw > div[st
   position: relative;
 }
 #app-mount .input-3r5zZY::-moz-placeholder {
-  font-size: var(--font-size);
-  color: var(--text-muted);
-  font-weight: var(--font-weight-normal);
-}
-#app-mount .input-3r5zZY:-ms-input-placeholder {
   font-size: var(--font-size);
   color: var(--text-muted);
   font-weight: var(--font-weight-normal);
@@ -13870,8 +13910,8 @@ html.theme-light #app-mount .theme-light .root-g14mjS .container-36u7Lw > div[st
   width: 280px;
   height: 140px;
   background: var(--text-muted);
-  -webkit-mask: url("https://discordstyles.github.io/Slate/assets/illustrations/5.svg") center/contain no-repeat;
-          mask: url("https://discordstyles.github.io/Slate/assets/illustrations/5.svg") center/contain no-repeat;
+  -webkit-mask: url("https://discordstyles.github.io/Slate/illustrations/5.svg") center/contain no-repeat;
+          mask: url("https://discordstyles.github.io/Slate/illustrations/5.svg") center/contain no-repeat;
   margin-bottom: var(--spacing-double);
 }
 
@@ -14352,7 +14392,6 @@ html.theme-light #app-mount .main-jX9p1r .options-3Wncp7 .optionContainer-yOpaLq
   margin-right: var(--spacing-half);
   -webkit-user-select: none;
      -moz-user-select: none;
-      -ms-user-select: none;
           user-select: none;
   height: 23px;
   transform: none;
@@ -14724,8 +14763,8 @@ html.theme-light #app-mount .regionSelectModal-12e-57 .regionSelectModalOptions-
   position: relative;
   display: block;
   margin-bottom: var(--spacing-half);
-  -webkit-mask: url("https://discordstyles.github.io/Slate/assets/illustrations/4.svg") center/contain no-repeat;
-          mask: url("https://discordstyles.github.io/Slate/assets/illustrations/4.svg") center/contain no-repeat;
+  -webkit-mask: url("https://discordstyles.github.io/Slate/illustrations/4.svg") center/contain no-repeat;
+          mask: url("https://discordstyles.github.io/Slate/illustrations/4.svg") center/contain no-repeat;
 }
 #app-mount .wrapper-3ByaVZ .root-g14mjS .scroller-3nFW5p {
   height: 300px;
@@ -14892,7 +14931,8 @@ html.theme-light #app-mount .wrapper-3ByaVZ .root-g14mjS .scroller-3nFW5p .invit
 #app-mount .lookOutlined-3sRXeN,
 #app-mount .lookGhost-2Fn_0-,
 #app-mount .colorPrimary-3b3xI6.lookLink-9FtZy-,
-#app-mount .bd-modal-wrapper .footer button {
+#app-mount .bd-modal-wrapper .footer button,
+#app-mount .button-f2h6uQ {
   font-size: var(--font-size);
   font-weight: var(--font-weight-normal);
   cursor: var(--cursor);
@@ -14910,7 +14950,8 @@ html.theme-light #app-mount .wrapper-3ByaVZ .root-g14mjS .scroller-3nFW5p .invit
 #app-mount .lookOutlined-3sRXeN .buttonIcon-1BKzBu,
 #app-mount .lookGhost-2Fn_0- .buttonIcon-1BKzBu,
 #app-mount .colorPrimary-3b3xI6.lookLink-9FtZy- .buttonIcon-1BKzBu,
-#app-mount .bd-modal-wrapper .footer button .buttonIcon-1BKzBu {
+#app-mount .bd-modal-wrapper .footer button .buttonIcon-1BKzBu,
+#app-mount .button-f2h6uQ .buttonIcon-1BKzBu {
   margin-right: var(--spacing-half);
 }
 #app-mount .lookFilled-yCfaCM:not(.colorGrey-2DXtkV),
@@ -15342,7 +15383,6 @@ html.theme-light #app-mount .container-30qY7E {
   display: inline-block;
   -webkit-user-select: none;
      -moz-user-select: none;
-      -ms-user-select: none;
           user-select: none;
   text-transform: none;
 }

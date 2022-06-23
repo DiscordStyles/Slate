@@ -1,19 +1,15 @@
 /**
  * @name Slate
- * @author Gibbu#1211 & Tropical#8908
- * @version 1.1
- * @invite TeRQEPb
+ * @author Gibbu & Tropical
  * @description An optimized, consistent, and functional theme for Discord based on GitHub's design language.
+ * @version 1.1
  * @source https://github.com/DiscordStyles/Slate/
- * @website https://discordstyles.github.io/slate-theme/
+ * @invite TeRQEPb
 */
 
-/*
-  Import Source Code 
-*/
+@import url('https://discordstyles.github.io/Slate/dist/Slate.css');
+
 @import url("https://discordstyles.github.io/AdjustableServerWidth/base.css");
-@import url("https://discordstyles.github.io/Slate/dist/Slate.css");
-
 /*
   Basic Variables
   See available vars here: https://github.com/DiscordStyles/Slate/wiki
@@ -22,13 +18,12 @@
   /* Primary Colors */
   --accent: 3, 102, 214;
   --link-colour: 48, 144, 255;
-
   /* Server List */
   --server-icon-size: 35px;
   --server-icon-spacing: 8px;
   --server-container-padding: 10px;
 }
 
-/*
-  Place any Theme-specific Custom CSS Below here
+/**
+  Custom CSS below here
 */
