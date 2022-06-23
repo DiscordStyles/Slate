@@ -1,13 +1,13 @@
 @use '../assets';
 
-#app-mount .modalRoot-vB2FPC {
-	.formGroup-3b6DOC {
+#app-mount .modalRoot-1uudbL {
+	.formGroup-146LDV {
 		margin-bottom: var(--spacing-double);
 		&:nth-last-child(2) {
 			margin: 0;
 		}
 	}
-	.clearButton-LWUk23 {
+	.clearButton-2JoOHC {
 		background: var(--text-muted);
 		opacity: 1;
 		mask: url(assets.$icon_close) center/10px no-repeat;
@@ -21,10 +21,11 @@
 			background: var(--text-normal);
 		}
 	}
-	.emojiButtonContainer-1cdx-p {
-		margin-right: var(--spacing);
+	.emojiButtonContainer-gCE6AT {
+		margin-left: var(--spacing);
 		.emojiButton-3FRTuj {
 			cursor: var(--cursor);
+			padding: 0;
 			.sprite-2lxwfc {
 				height: 20px;
 				width: 20px;
@@ -37,6 +38,9 @@
 			.sprite-2lxwfc[style*="grayscale(0%)"] {
 				background: var(--text-normal);
 			}
+		}
+		& + .inputWrapper-1YNMmM .input-2g-os5 {
+			padding-left: calc(var(--spacing-triple) + var(--spacing));
 		}
 	}
 	.art-2p0nYa {

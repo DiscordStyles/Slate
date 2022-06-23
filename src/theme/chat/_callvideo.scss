@@ -166,8 +166,9 @@
 		box-sizing: border-box;
 		.border-2Vy6FN {
 			border-radius: var(--border-radius);
+			box-shadow: inset 0 0 0 1px var(--base-border);
 			&.speaking-7QZEkv {
-				box-shadow: inset 0 0 0 2px rgb(var(--status-green));
+				box-shadow: inset 0 0 0 2px rgb(var(--accent));
 			}
 		}
 		.emptyPreview-1SMLD4 {
@@ -198,13 +199,13 @@
 		.wrapper-3mYmFS.ringingIncoming-fibTw-:after,
 		.wrapper-3mYmFS.ringingOutgoing-1NjfRn:after {
 			border-radius: var(--border-radius);
-			border: 3px solid rgba(var(--status-green), 0.25);
+			border: 3px solid rgba(var(--accent), 0.25);
 		}
 		.border-2BJQjd {
 			border-radius: var(--border-radius);
 			&.speaking-3RWJBr {
-				box-shadow: inset 0 0 0 2px rgb(var(--status-green)),
-					0 0 0 4px rgb(var(--status-green), 0.25);
+				box-shadow: inset 0 0 0 2px rgb(var(--accent)),
+					0 0 0 4px rgb(var(--accent), 0.25);
 			}
 		}
 		.participant-1l6khj {
@@ -222,6 +223,12 @@
 				bottom: -5px;
 				right: -5px;
 			}
+			.wrapper-3mYmFS {
+				box-shadow: inset 0 0 0 1px var(--base-border);
+				background: var(--background-dark);
+				border-radius: var(--border-radius);
+				overflow: hidden;
+			}
 			.wrapper-3mYmFS,
 			.callAvatarMask-fiNMWy {
 				width: var(--avatar-size-xl) !important;
@@ -235,6 +242,9 @@
 						border: 1px solid var(--base-border);
 						box-sizing: border-box;
 					}
+				}
+				img {
+					border-radius: 0;
 				}
 			}
 		}

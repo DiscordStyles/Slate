@@ -137,12 +137,22 @@
 	.buttonsWrapper-2ARRp1 {
 		margin-top: 0;
 		padding: 0 var(--spacing) var(--spacing);
+		gap: 12px;
+		& > .button-TGAkj4 {
+			margin: 0;
+		}
 		.buttonSize-dIiz43 {
 			height: var(--input-height);
 			min-height: var(--input-height);
 		}
 		&:empty {
 			padding: 0;
+		}
+	}
+	.button-TGAkj4.iconButtonSize-1-pz2t {
+		max-width: unset;
+		.contents-3ca1mk {
+			display: flex;
 		}
 	}
 

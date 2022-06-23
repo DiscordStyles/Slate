@@ -470,6 +470,9 @@ $bannerHeight: 180px;
 			&[src*="94dc6f30a819026fa295d85f1f72b4ab"] {
 				mask-image: url("/assets/806953fe1cc616477175cbcdf90d5cd3.png");
 			}
+			&[src*="7bab4490382024b0c8c29b5378eeaf8f"] {
+				mask-image: url("/assets/7bab4490382024b0c8c29b5378eeaf8f.svg");
+			}
 		}
 		a {
 			font-size: var(--font-size);
@@ -538,6 +541,27 @@ $bannerHeight: 180px;
 	.spotifyIcon-2J9kSv {
 		top: 0;
 		right: var(--spacing-double);
+	}
+
+	.buttonsWrapper-2ARRp1 {
+		margin-top: 0;
+		gap: 12px;
+		& > .button-TGAkj4 {
+			margin: 0;
+		}
+		.buttonSize-dIiz43 {
+			height: var(--input-height);
+			min-height: var(--input-height);
+		}
+		&:empty {
+			padding: 0;
+		}
+	}
+	.button-TGAkj4.iconButtonSize-1-pz2t {
+		max-width: unset;
+		.contents-3ca1mk {
+			display: flex;
+		}
 	}
 
 

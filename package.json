@@ -5,11 +5,12 @@
   "repository": "https://github.com/DiscordStyles/Slate.git",
   "license": "MIT",
   "private": false,
+  "type": "module",
   "scripts": {
     "dev": "bd-scss dev",
     "build": "bd-scss build"
   },
   "dependencies": {
-    "bd-scss": "^1.0.4"
+    "bd-scss": "^2.0.2"
   }
 }

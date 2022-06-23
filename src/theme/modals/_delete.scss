@@ -1,4 +1,4 @@
-#app-mount [aria-label="Delete Message"] {
+#app-mount .root-g14mjS {
 	.inner-ZyuQk0 {
 		padding: var(--spacing);
 	}
@@ -7,10 +7,16 @@
 	}
 	.message-G6O-Wv {
 		box-shadow: none;
-		background: transparent;
-		padding: 0;
+		background: var(--background-dark);
+		border: 1px solid var(--base-border);
+		padding: var(--spacing);
+		box-sizing: border-box;
 		.cozy-VmLDNB {
 			padding-bottom: 0;
+			margin-top: 0;
+		}
+		.avatar-2e8lTP {
+			top: 0;
 		}
 	}
 	.spacingTop-12U95P.block-3Xiiq7 {
