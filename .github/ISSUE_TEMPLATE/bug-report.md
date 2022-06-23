@@ -16,7 +16,7 @@ assignees: ''
 ### Screenshots
 *If applicable, add screenshots to help explain your problem*
 
-### Infomation (please complete the following information)
+### Information (please complete the following information)
 **Discord channel**: *Stable/PTB/Canary*  
 **OS**: *Windows/Linux/OSX*  
 **Mod**: *BetterDiscord/Powercord/GooseMod*  
