@@ -1,10 +1,10 @@
 @use '../assets';
 
-$leftSide: 233px;
-$rightSide: 465px;
-$bannerHeight: 180px;
-
 #app-mount .root-8LYsGj {
+	--left-side: 233px;
+	--right-side: 465px;
+	--banner-height: 180px;
+
 	width: 700px;
 	background: var(--background);
 	border-radius: var(--border-radius);
@@ -24,7 +24,7 @@ $bannerHeight: 180px;
 
 	// Left side
 	.topSection-13QKHs {
-		width: $leftSide;
+		width: var(--left-side);
 		border-right: 1px solid var(--base-border);
 		height: 100%;
 		padding: var(--spacing-double);
@@ -57,9 +57,9 @@ $bannerHeight: 180px;
 	.banner-1YaD3N {
 		position: absolute;
 		top: calc(var(--spacing-double) / -1 + 1px);
-		left: calc(#{$leftSide} - var(--spacing-double));
-		height: $bannerHeight;
-		width: #{$rightSide};
+		left: calc(var(--left-side) - var(--spacing-double));
+		height: var(--banner-height);
+		width: var(--right-side);
 	}
 	.headerTop-1PNKck {
 		padding: 0;
@@ -308,7 +308,7 @@ $bannerHeight: 180px;
 			border-top-right-radius: var(--border-radius);
 		}
 		&:only-child {
-			width: $leftSide;
+			width: var(--left-side);
 			flex-grow: 0;
 			border: 1px solid transparent !important;
 			border-right-color: var(--base-border) !important;
@@ -335,11 +335,11 @@ $bannerHeight: 180px;
 
 	// Body
 	.body-1Ukv50 {
-		width: $rightSide;
+		width: var(--right-side);
 		border-top-color: var(--base-border);
 		position: absolute;
 		height: calc(100% - 41px);
-		left: $leftSide;
+		left: var(--left-side);
 		top: 41px;
 	}
 	.noTabBar-2Q-iE_:after {
@@ -347,8 +347,8 @@ $bannerHeight: 180px;
 		position: absolute;
 		box-sizing: border-box;
 		top: -41px;
-		left: calc(#{$leftSide} / -1);
-		width: $leftSide;
+		left: calc(var(--left-side) / -1);
+		width: var(--left-side);
 		display: flex;
 		align-items: center;
 		justify-content: center;
@@ -370,15 +370,6 @@ $bannerHeight: 180px;
 		background: var(--background);
 		& + .userInfoSection-2u2hir {
 			padding-top: 0;
-			&:before {
-				content: "Connections";
-				color: var(--text-normal);
-				font-size: var(--font-size-md);
-				font-weight: var(--font-weight-semibold);
-				line-height: normal;
-				margin-bottom: var(--spacing-half);
-				display: block;
-			}
 		}
 	}
 	.userInfoSectionHeader-2mYYun {
@@ -393,13 +384,23 @@ $bannerHeight: 180px;
 		padding: var(--spacing-double);
 	}
 
-	.connectedAccounts-1YaT2t {
+	.connectedAccounts-fvr7-7 {
 		margin: 0;
-		display: block;
-		column-count: 2;
-		column-gap: var(--spacing);
+		gap: var(--spacing);
 	}
-	.connectedAccount-1xKpli {
+	.connectedAccountsColumn-2LgTkZ {
+		margin: 0;
+		width: 48.5%;
+	}
+	.connectedAccountContainer-SlCC-S {
+		margin: 0;
+		width: 100%;
+		padding: 0;
+		&:not(:last-child) {
+			margin-bottom: var(--spacing);
+		}
+	}
+	.connectedAccount-2PrNaX {
 		width: unset;
 		margin: 0;
 		background: var(--background-light);
@@ -412,7 +413,6 @@ $bannerHeight: 180px;
 		flex-wrap: wrap;
 		height: auto;
 		break-inside: avoid;
-		margin-bottom: var(--spacing);
 		.connectedAccountName-j0meX4 {
 			font-size: var(--font-size);
 			font-weight: var(--font-weight-normal);
@@ -484,7 +484,7 @@ $bannerHeight: 180px;
 			text-overflow: ellipsis;
 			border-top: 1px solid var(--base-border);
 			padding-top: var(--spacing-half);
-			margin-top: var(--spacing-half);
+			margin-top: var(--spacing);
 			line-height: normal;
 			svg {
 				display: none;
@@ -569,7 +569,7 @@ $bannerHeight: 180px;
 	
 	.listScroller-entkMk,
 	.infoScroller-1QMpon {
-		padding: #{$bannerHeight} 0 0 !important;
+		padding: var(--banner-height) 0 0 !important;
 		& > div {
 			position: relative;
 			z-index: 1;
@@ -583,9 +583,9 @@ $bannerHeight: 180px;
 		&:before {
 			content: "";
 			position: absolute;
-			top: calc(#{$bannerHeight} - 1px);
+			top: calc(var(--banner-height) - 1px);
 			left: 0;
-			height: $bannerHeight;
+			height: var(--banner-height);
 			width: 100%;
 			border-top: 1px solid var(--base-border);
 			background: var(--background);

@@ -213,6 +213,8 @@
 	.rolesList-3uZoaa {
 		margin: 0;
 		padding: 0 var(--spacing) var(--spacing);
+		display: flex;
+		gap: var(--spacing-half);
 	}
 	.member-perm,
 	.role-2TIOKu {
@@ -221,19 +223,25 @@
 		border-radius: 50px;
 		overflow: hidden;
 		padding: var(--spacing-half) calc(var(--spacing) / 1.5);
-		margin: 0 var(--spacing-half) var(--spacing-half) 0;
+		margin: 0;
 		height: auto;
 		height: 22px;
-		&:hover .roleCircle-1EgnFN,
-		&:active .roleCircle-1EgnFN {
+		background: transparent;
+		&:hover .roleCircle-3K9O3d,
+		&:active .roleCircle-3K9O3d {
 			opacity: 1;
 			box-sizing: border-box;
 			.roleRemoveIcon-387wKV {
 				opacity: 1;
 			}
 		}
+
+		.roleRemoveButton-17oXnT {
+			position: absolute;
+			inset: 0;
+		}
 		.perm-circle,
-		.roleCircle-1EgnFN {
+		.roleCircle-3K9O3d {
 			margin: 0;
 			border-radius: var(--border-radius);
 			position: absolute;
@@ -242,7 +250,7 @@
 			width: 100%;
 			height: 100%;
 			opacity: 0.75;
-			border-radius: 50px;
+			filter: none;
 			.roleRemoveIcon-387wKV {
 				position: relative;
 				z-index: 10;
