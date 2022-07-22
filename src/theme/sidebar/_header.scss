@@ -92,6 +92,20 @@
 			}
 		}
 	}
+	// Banner image
+	.animatedContainer-2laTjx {
+		box-shadow: none;
+		mask: linear-gradient(rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0) 90%) !important;
+		z-index: 10;
+		pointer-events: none;
+	}
+	.bannerImage-ubW8K- {
+		width: var(--sidebar-width);
+		top: 0;
+	}
+	.bannerImg-2PzH6z {
+		width: 100%;
+	}
 }
 
 // Verified Guild (Global Component)

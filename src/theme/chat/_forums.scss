@@ -1,0 +1,37 @@
+#app-mount {
+  .container-3wLKDe {
+    max-width: calc(100vw - (var(--sidebar-width, 0) * 2) - (var(--spacing-double) * 3) + 2px);
+  }
+
+  // Left side
+  .list-3FIpnh {
+    [role="list"].content-2a4AW9 {
+      padding: 0;
+      border-right: 1px solid var(--base-border);
+    }
+    .headerRow-1MKoR- {
+      border-bottom: 1px solid var(--base-border);
+    }
+    .header-1Uy0p6 {
+      margin: 0;
+      padding: var(--spacing);
+      background: transparent;
+      border-radius: 0;
+    }
+    .container-JhuCwn {
+      padding: 0;
+    }
+  }
+  .row-uezxzk:not(:last-child) {
+    border-bottom: 1px solid var(--base-border);
+  }
+  .mainCard-3KBsBI {
+    border-radius: 0;
+    background: transparent;
+    border: none;
+    &:hover {
+      transform: none;
+      box-shadow: none;
+    }
+  }
+}
