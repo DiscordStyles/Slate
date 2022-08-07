@@ -2196,6 +2196,10 @@ html.platform-win[lang=en-US]:not(.app-focused) body:not(.oldTitleBarEnabled-D8p
   border: 1px solid var(--base-border);
   overflow: hidden;
 }
+#app-mount .panels-3wFtMD .avatarWrapper-1B9FTW {
+  background: transparent;
+  min-width: unset;
+}
 #app-mount .panels-3wFtMD .avatarSpeaking-33RRJU {
   border-radius: var(--border-radius);
 }
