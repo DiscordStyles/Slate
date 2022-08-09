@@ -27,6 +27,7 @@
 		color: var(--white);
 		background-color: rgb(var(--accent));
 		margin-left: var(--spacing);
+		width: 93.5%;
 		&:hover {
 			box-shadow: inset 0 0 0 100vmax rgba(255, 255, 255, 0.1);
 		}
