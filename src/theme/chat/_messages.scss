@@ -730,9 +730,11 @@
 		width: fit-content;
 		margin-left: -5px;
 		max-width: calc(100vw - (var(--sidebar-width) * 3));
-		padding: var(--spacing-third) var(--spacing-half);
-		border-radius: 0 var(--border-radius) var(--border-radius)
-			var(--border-radius);
+		border-radius: 0 var(--border-radius) var(--border-radius) var(--border-radius);
+		padding: 1px;
+    		padding-left: 3.5px;
+    		padding-right: 4px;
+		
 		& > div {
 			position: relative;
 			z-index: 1;
@@ -767,7 +769,7 @@
 			border-right: none;
 		}
 		& + .contents-2MsGLg .header-2jRmjb {
-			margin-bottom: 32px;
+			margin-bottom: 34px;
 		}
 	}
 	.repliedTextContent-2hOYMB {
