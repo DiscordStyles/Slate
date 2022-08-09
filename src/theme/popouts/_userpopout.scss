@@ -227,6 +227,7 @@
 		height: auto;
 		height: 22px;
 		background: transparent;
+		padding-left: 17px;
 		&:hover .roleCircle-3K9O3d,
 		&:active .roleCircle-3K9O3d {
 			opacity: 1;
@@ -246,7 +247,7 @@
 			border-radius: var(--border-radius);
 			position: absolute;
 			top: 0;
-			left: 0;
+			left: 10px;
 			width: 100%;
 			height: 100%;
 			opacity: 0.75;
@@ -255,12 +256,19 @@
 				position: relative;
 				z-index: 10;
 				background: inherit;
-				width: 100%;
-				height: 100%;
 				padding: var(--spacing-third);
 				box-sizing: border-box;
 				opacity: 0;
 				border-radius: 50px;
+				width: 10px;
+    				height: 100%;
+    				top: 5px;
+    				left: -5px;
+    				margin: -5px 0 0 -5px;
+   				background-color: var(--background-dark);
+    				border: 1px solid var(--background-dark);
+    				border-left: 11px solid var(--background-dark);
+				
 				path {
 					fill: var(--white);
 					transform: scale(0.75);
@@ -281,10 +289,12 @@
 		}
 	}
 	.actionButton-1YKTU0 {
-		position: absolute;
+		position: absolute!important;
 		top: calc(var(--spacing-triple) / -1 - var(--spacing-half) - 2px);
+		top: -34px;
 		right: 0;
 		padding: 0 var(--spacing);
+		padding-left: 0px!important;
 		margin: 0;
 		border-radius: 0;
 		background: transparent;
