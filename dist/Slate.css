@@ -1125,6 +1125,8 @@ html.platform-win[lang=en-US]:not(.app-focused) body:not(.oldTitleBarEnabled-D8p
 }
 .wrapper-1VLyxH svg:not(:root) {
   overflow: visible;
+  width: 32px;
+  height: 32px;
 }
 .wrapper-1VLyxH .mask-1FEkla,
 .wrapper-1VLyxH foreignObject {
@@ -5470,6 +5472,7 @@ html.theme-light #app-mount .reactions-1BUEKl .reaction-1hd86g:not(.reactionMe-3
   padding: 0;
   margin: 0;
   max-width: 100%;
+  background: transparent;
 }
 #app-mount .member-2gU6Ar.offline-22aM7E {
   opacity: 0.5;
