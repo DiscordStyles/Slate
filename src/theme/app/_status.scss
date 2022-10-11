@@ -124,8 +124,10 @@
 	}
 	svg:not(:root) {
 		overflow: visible;
-		width: 32px;
-		height: 32px;
+		&[height="40"] {
+			width: 32px;
+			height: 32px;
+		}
 	}
 	.mask-1FEkla,
 	foreignObject {
