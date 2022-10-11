@@ -1125,6 +1125,8 @@ html.platform-win[lang=en-US]:not(.app-focused) body:not(.oldTitleBarEnabled-D8p
 }
 .wrapper-1VLyxH svg:not(:root) {
   overflow: visible;
+}
+.wrapper-1VLyxH svg:not(:root)[height="40"] {
   width: 32px;
   height: 32px;
 }
