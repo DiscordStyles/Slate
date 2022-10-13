@@ -9,7 +9,9 @@
   --accent-solid: rgb(var(--accent), 1);
   --bd-blue: var(--accent-solid);
   --bd-blue-hover: var(--accent-solid);
-  --noasw-padding: calc(var(--toolbar-height) + (var(--server-icon-size) - var(--server-icon-size)));
+  --noasw-padding: calc(
+  	var(--toolbar-height) + (var(--server-icon-size) - var(--server-icon-size))
+  );
   --noasw-base: var(--container, 72px);
   --noasw-channel-header: var(--container, 0px);
   --spacing-third: calc(var(--spacing) / 3);
@@ -18,7 +20,8 @@
   --spacing-double: calc(var(--spacing) * 2);
   --spacing-triple: calc(var(--spacing) * 3);
   --spacing-compact: 2px;
-  --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
+  --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+  	"Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
   --font-family-monospace: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --font-size-xsm: 9px;
   --font-size-sm: 11px;
@@ -232,11 +235,22 @@ body {
   color: #fff;
 }
 
-::-webkit-input-placeholder, body, button, input, select, textarea {
+::-webkit-input-placeholder,
+body,
+button,
+input,
+select,
+textarea {
   font-family: var(--font-family-sans-serif);
 }
 
-h1, h2, h3, h4, h5, h6, p {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
   -webkit-user-select: text;
      -moz-user-select: text;
           user-select: text;
@@ -6190,10 +6204,12 @@ html.theme-light #app-mount .wrapper-25sY58 .qrLogin-1ejtpI .startOverButton-1G3
   border: 1px solid var(--secondary-border) !important;
 }
 
-.applicationStore-2nk7Lo .scroller-2FKFPG, .container-1D34oG .scroller-2FKFPG {
+.applicationStore-2nk7Lo .scroller-2FKFPG,
+.container-1D34oG .scroller-2FKFPG {
   margin-bottom: calc(var(--avatar-size-sm) + var(--spacing-double) + 3px);
 }
-.applicationStore-2nk7Lo:before, .container-1D34oG:before {
+.applicationStore-2nk7Lo:before,
+.container-1D34oG:before {
   content: "";
   position: absolute;
   bottom: 0;
