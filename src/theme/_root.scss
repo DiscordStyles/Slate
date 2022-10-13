@@ -1,6 +1,6 @@
 :root {
 	--slate-file-version: "1.1";
-	--slate-base-version: "1.6.13";
+	--slate-base-version: "1.6.14";
 	--slate-palette: "Primer";
 
 	// Roundness
@@ -10,7 +10,7 @@
 	--server-radius: var(--border-radius);
 
 	// Primary Coloring
-	--accent-solid: rgba(var(--accent), 1);
+	--accent-solid: rgb(var(--accent), 1);
 	--bd-blue: var(--accent-solid);
 	--bd-blue-hover: var(--accent-solid);
 
@@ -94,8 +94,8 @@
 	--backdrop: rgb(0 0 0 / 0.4);
 
 	// Elevation
-	--elevation-1: 0 8px 24px rgba(0, 0, 0, 0.15);
-	--elevation-2: 0 2px 7px rgba(0, 0, 0, 0.5);
+	--elevation-1: 0 8px 24px rgb(0, 0, 0, 0.15);
+	--elevation-2: 0 2px 7px rgb(0, 0, 0, 0.5);
 
 	// Status Colors
 	--status-green: 40, 167, 69;
@@ -106,7 +106,8 @@
 	--discord-pink: 255, 115, 250;
 
 	// Discord colours
-	--discord-spotify: 29, 185, 84;
+	--discord-spotify: 141 73% 42%;
+	--discord-green: 139 47% 44%;
 	--font-display: var(--font-family-sans-serif) !important;
 
 	// Colours
@@ -114,12 +115,6 @@
 	--green: 34, 197, 94;
 	--blue: 14, 165, 233;
 	--amber: 245, 158, 11;
-
-	// RadialStatus
-	--rs-small-spacing: 0px;
-	--rs-large-spacing: 0px;
-	--rs-width: 2px;
-	--rs-avatar-shape: var(--avatar-radius);
 
 	// Settings modal sizes
 	--settings-min-height: 450px;
@@ -129,4 +124,6 @@
 
 	// Other vars
 	--cursor: default;
+	--panel-btn-width: 39.47px;
+	--panel-btn-height: 25px;
 }

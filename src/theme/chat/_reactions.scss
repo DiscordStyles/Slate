@@ -56,14 +56,14 @@
 					height: var(--font-size-md);
 				}
 			}
-			&.reactionMe-3I9gFK {
-				background: rgba(var(--accent), 0.25);
+			&.reactionMe-1PwQAc {
+				background: rgb(var(--accent), 0.25);
 				border-color: var(--accent-solid);
 				.reactionCount-26U4As {
 					color: var(--text-focus);
 				}
 				&:active {
-					box-shadow: 0 0 0 2px rgba(var(--accent), 0.25);
+					box-shadow: 0 0 0 2px rgb(var(--accent), 0.25);
 				}
 			}
 		}
@@ -75,13 +75,13 @@
 html.theme-light
 	#app-mount
 	.reactions-1BUEKl
-	.reaction-1hd86g:not(.reactionMe-3I9gFK) {
+	.reaction-1hd86g:not(.reactionMe-1PwQAc) {
 	&:hover {
 		background: var(--background);
 		border: 1px solid var(--secondary-border);
 	}
 	&:active {
-		box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.05) !important;
+		box-shadow: 0 0 0 2px rgb(0, 0, 0, 0.05) !important;
 		border: 1px solid var(--secondary-border) !important;
 	}
 }

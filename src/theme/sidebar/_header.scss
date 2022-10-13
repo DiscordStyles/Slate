@@ -5,7 +5,7 @@
 		&.selected-1GtAC5 .header-3OsQeK {
 			background: var(--background);
 			border-bottom: 1px solid transparent;
-			.name-3YKhmS {
+			.name-3Uvkvr {
 				color: var(--toolbar-text-normal);
 			}
 			.button-2BMPJJ {
@@ -28,7 +28,7 @@
 		z-index: 11;
 		filter: none;
 		cursor: var(--cursor);
-		.guildIconContainer-2FW_iA {
+		.guildIconContainer-3QvE6w {
 			margin-right: var(--spacing);
 			.disableColor-MwOAZf,
 			.iconBackgroundTierNone-3MPhMJ,
@@ -48,7 +48,7 @@
 				color: var(--toolbar-text-normal);
 			}
 		}
-		h1 {
+		.name-3Uvkvr {
 			font-size: var(--font-size);
 			font-weight: var(--font-weight-semibold);
 			color: var(--toolbar-text-normal);
@@ -95,7 +95,7 @@
 	// Banner image
 	.animatedContainer-2laTjx {
 		box-shadow: none;
-		mask: linear-gradient(rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0) 90%) !important;
+		mask: linear-gradient(rgb(0, 0, 0, 0.9) 0%, rgb(0, 0, 0, 0) 90%) !important;
 		z-index: 10;
 		pointer-events: none;
 	}

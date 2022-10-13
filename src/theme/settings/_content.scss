@@ -259,7 +259,7 @@ html.theme-light #app-mount .layer-86YKbF:not(.baseLayer-W6S8cY) .contentRegion-
 		border: 1px solid var(--secondary-border);
 	}
 	&:focus {
-		box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.05) !important;
+		box-shadow: 0 0 0 2px rgb(0, 0, 0, 0.05) !important;
 		border: 1px solid var(--secondary-border) !important;
 	}
 }

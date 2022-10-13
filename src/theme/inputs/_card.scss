@@ -7,20 +7,20 @@
 
 		// Status Cards
 		&.cardWarning-WRe-Qa {
-			background-color: rgba(var(--status-yellow), 0.25);
-			border-color: rgba(var(--status-yellow), 0.5);
+			background-color: rgb(var(--status-yellow), 0.25);
+			border-color: rgb(var(--status-yellow), 0.5);
 		}
 		&.cardDanger-39N1qE {
-			background-color: rgba(var(--status-red), 0.25);
-			border-color: rgba(var(--status-red), 0.5);
+			background-color: rgb(var(--status-red), 0.25);
+			border-color: rgb(var(--status-red), 0.5);
 		}
 		&.cardSuccess-ahnYyu {
-			background-color: rgba(var(--status-green), 0.25);
-			border-color: rgba(var(--status-green), 0.5);
+			background-color: rgb(var(--status-green), 0.25);
+			border-color: rgb(var(--status-green), 0.5);
 		}
 		&.cardBrand-19kLUs {
-			background-color: rgba(var(--accent), 0.25);
-			border-color: rgba(var(--accent), 0.5);
+			background-color: rgb(var(--accent), 0.25);
+			border-color: rgb(var(--accent), 0.5);
 		}
 
 		// Primary Cards

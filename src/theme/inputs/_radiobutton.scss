@@ -28,8 +28,8 @@
 			border-radius: 0 0 var(--border-radius) var(--border-radius);
 		}
 		&[aria-checked="true"] {
-			background: rgba(var(--accent), 1);
-			border-color: rgba(var(--accent), 1);
+			background: rgb(var(--accent), 1);
+			border-color: rgb(var(--accent), 1);
 			.colorStandard-21JIj7,
 			.colorHeaderSecondary-g5teka {
 				color: var(--white);

@@ -36,7 +36,7 @@
 			font-weight: var(--font-weight-normal);
 		}
 		&.mentioned-Tre-dv {
-			background: rgba(var(--accent), 0.1) !important;
+			background: rgb(var(--accent), 0.1) !important;
 			& + .message-2CShn3:not(.groupStart-3Mlgv1) {
 				margin-top: 0;
 				padding-top: 0;
@@ -149,11 +149,11 @@
 					background-color: rgb(var(--accent));
 					margin-left: var(--spacing);
 					&:hover {
-						box-shadow: inset 0 0 0 100vmax rgba(255, 255, 255, 0.1);
+						box-shadow: inset 0 0 0 100vmax rgb(255, 255, 255, 0.1);
 					}
 					&:focus {
-						box-shadow: 0 0 0 2px rgba(var(--accent), 0.25),
-							inset 0 0 0 100vmax rgba(255, 255, 255, 0.1);
+						box-shadow: 0 0 0 2px rgb(var(--accent), 0.25),
+							inset 0 0 0 100vmax rgb(255, 255, 255, 0.1);
 					}
 				}
 				&:first-child {
@@ -389,7 +389,7 @@
 
 	// System Messages
 	.expanded-3lghlw {
-		background: rgba(var(--status-red), 0.1);
+		background: rgb(var(--status-red), 0.1);
 		border-left: 2px solid rgb(var(--status-red));
 	}
 	.blockedSystemMessage-3FmE9n .blockedMessageText-3Zeg3y {
@@ -442,7 +442,7 @@
 		}
 	}
 	.localBot-GrCgVt {
-		background: rgba(var(--accent), 0.1) !important;
+		background: rgb(var(--accent), 0.1) !important;
 		&.cozyMessage-1DWF9U {
 			&:after {
 				content: "";
@@ -490,11 +490,11 @@
 					background-color: rgb(var(--accent));
 					margin-top: var(--spacing-half);
 					&:hover {
-						box-shadow: inset 0 0 0 100vmax rgba(255, 255, 255, 0.1);
+						box-shadow: inset 0 0 0 100vmax rgb(255, 255, 255, 0.1);
 					}
 					&:focus {
-						box-shadow: 0 0 0 2px rgba(var(--accent), 0.25),
-							inset 0 0 0 100vmax rgba(255, 255, 255, 0.1);
+						box-shadow: 0 0 0 2px rgb(var(--accent), 0.25),
+							inset 0 0 0 100vmax rgb(255, 255, 255, 0.1);
 					}
 				}
 			}
@@ -714,8 +714,8 @@
 	// Search Flash Indicator
 	.backgroundFlash-1X5jVs {
 		transition: 150ms ease;
-		background: rgba(var(--accent), 0.2) !important;
-		&[style*="rgba(88, 101, 242, 0)"] {
+		background: rgb(var(--accent), 0.2) !important;
+		&[style*="rgb(88, 101, 242, 0)"] {
 			background: transparent !important;
 		}
 	}
@@ -848,7 +848,7 @@
 		border: 1px solid var(--secondary-border);
 	}
 	&:focus {
-		box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.05) !important;
+		box-shadow: 0 0 0 2px rgb(0, 0, 0, 0.05) !important;
 		border: 1px solid var(--secondary-border) !important;
 	}
 }

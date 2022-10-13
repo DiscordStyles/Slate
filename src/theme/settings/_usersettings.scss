@@ -532,7 +532,7 @@
 				}
 				&[style*="rgb(114, 137, 218)"]::before {
 					border: 1px solid var(--accent-solid) !important;
-					box-shadow: 0 0 0 3px rgba(var(--accent), 0.25);
+					box-shadow: 0 0 0 3px rgb(var(--accent), 0.25);
 				}
 				label::after {
 					content: "";
@@ -629,8 +629,8 @@
 		font-weight: var(--font-weight-noraml);
 		line-height: normal;
 		margin: 0;
-		background-color: rgba(var(--status-yellow), 0.25);
-		border: 1px solid rgba(var(--status-yellow), 0.5);
+		background-color: rgb(var(--status-yellow), 0.25);
+		border: 1px solid rgb(var(--status-yellow), 0.5);
 		+ .flexChild-3PzYmX {
 			display: flex;
 			align-items: center;
@@ -735,12 +735,12 @@
 		flex-direction: column;
 		align-items: flex-start;
 		&.notDetected-2HEmAp {
-			background-color: rgba(var(--status-grey), 0.25);
-			border: 1px solid rgba(var(--status-grey), 0.5);
+			background-color: rgb(var(--status-grey), 0.25);
+			border: 1px solid rgb(var(--status-grey), 0.5);
 		}
 		&.nowPlaying-zBamm2 {
-			background-color: rgba(var(--status-green), 0.25);
-			border: 1px solid rgba(var(--status-green), 0.5);
+			background-color: rgb(var(--status-green), 0.25);
+			border: 1px solid rgb(var(--status-green), 0.5);
 			margin-bottom: calc(14px + var(--spacing-double));
 		}
 		.gameNameInput-3TuPuA {

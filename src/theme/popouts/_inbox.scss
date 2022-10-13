@@ -44,6 +44,9 @@
 		margin: 0;
 		padding: 0;
 		border-bottom: 1px solid var(--base-border);
+		.cozy-VmLDNB {
+			margin: 0 !important;
+		}
 		&:hover .jumpButton-1ITAeq {
 			opacity: 1;
 		}
@@ -78,7 +81,11 @@
 	.messageContainer-3VTXBC {
 		background: var(--background);
 		border-radius: 0;
-		padding: 0 var(--spacing) var(--spacing) 0;
+		padding: 0;
+		margin: 0;
+		.repliedMessage-3Z6XBG {
+			top: var(--spacing-double);
+		}
 	}
 	.messages-23can0 {
 		padding: 0;
@@ -123,11 +130,11 @@
 			color: var(--white);
 		}
 		&:hover {
-			box-shadow: inset 0 0 0 100vmax rgba(255, 255, 255, 0.1);
+			box-shadow: inset 0 0 0 100vmax rgb(255, 255, 255, 0.1);
 		}
 		&:focus {
-			box-shadow: 0 0 0 2px rgba(var(--accent), 0.25),
-				inset 0 0 0 100vmax rgba(255, 255, 255, 0.1);
+			box-shadow: 0 0 0 2px rgb(var(--accent), 0.25),
+				inset 0 0 0 100vmax rgb(255, 255, 255, 0.1);
 		}
 	}
 }

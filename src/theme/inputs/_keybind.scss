@@ -51,7 +51,7 @@
 		}
 		&.recording-3ny5_E {
 			border: 1px solid var(--accent-solid);
-			box-shadow: 0 0 0 2px rgba(var(--accent), 0.25);
+			box-shadow: 0 0 0 2px rgb(var(--accent), 0.25);
 			button {
 				mask: url(assets.$icon_close) center/12px no-repeat;
 				background: var(--text-muted);

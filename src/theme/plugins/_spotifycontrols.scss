@@ -4,7 +4,7 @@
 	margin-bottom: 0;
 	padding: var(--spacing) var(--spacing) var(--spacing-triple);
 	border-bottom-color: var(--base-border);
-	background: rgba(var(--status-green), 0.2);
+	background: rgb(var(--status-green), 0.2);
 	min-height: unset;
 	button {
 		color: var(--text-focus);
@@ -36,7 +36,7 @@
 		cursor: var(--cursor);
 	}
 	.barFill-Dhkah7 {
-		background: rgba(var(--status-green), 0.5);
+		background: rgb(var(--status-green), 0.5);
 		border-radius: 0;
 	}
 	.grabber-7sd5f5 {

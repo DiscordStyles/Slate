@@ -45,14 +45,14 @@
 			}
 
 			&.selected-g-kMVV {
-				background: rgba(var(--accent), 1) !important;
+				background: rgb(var(--accent), 1) !important;
 				color: var(--white);
-				border-color: rgba(var(--accent), 1) !important;
+				border-color: rgb(var(--accent), 1) !important;
 				&:hover {
-					box-shadow: inset 0 0 0 100vmax rgba(255, 255, 255, 0.1) !important;
+					box-shadow: inset 0 0 0 100vmax rgb(255, 255, 255, 0.1) !important;
 				}
 				&:focus {
-					box-shadow: 0 0 0 2px rgba(var(--accent), 0.25), inset 0 0 0 100vmax rgba(255, 255, 255, 0.1) !important;
+					box-shadow: 0 0 0 2px rgb(var(--accent), 0.25), inset 0 0 0 100vmax rgb(255, 255, 255, 0.1) !important;
 				}
 			}
 		}
@@ -113,14 +113,14 @@
 			}
 
 			&.activeButton-LRWFC_ {
-				background: rgba(var(--accent), 1);
+				background: rgb(var(--accent), 1);
 				color: var(--white);
-				border-color: rgba(var(--accent), 1);
+				border-color: rgb(var(--accent), 1);
 				&:hover {
-					box-shadow: inset 0 0 0 100vmax rgba(255, 255, 255, 0.1);
+					box-shadow: inset 0 0 0 100vmax rgb(255, 255, 255, 0.1);
 				}
 				&:focus {
-					box-shadow: 0 0 0 2px rgba(var(--accent), 0.25), inset 0 0 0 100vmax rgba(255, 255, 255, 0.1);
+					box-shadow: 0 0 0 2px rgb(var(--accent), 0.25), inset 0 0 0 100vmax rgb(255, 255, 255, 0.1);
 				}
 			}
 		}
@@ -141,7 +141,7 @@ html.theme-light #app-mount {
 			border: 1px solid var(--secondary-border);
 		}
 		&:focus {
-			box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.05) !important;
+			box-shadow: 0 0 0 2px rgb(0, 0, 0, 0.05) !important;
 			border: 1px solid var(--secondary-border) !important;
 		}
 	}

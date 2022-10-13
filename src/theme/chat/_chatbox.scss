@@ -118,8 +118,8 @@
 		box-sizing: border-box;
 		height: unset;
 		&:focus-within {
-			border-color: rgba(var(--accent), 1);
-			box-shadow: 0 0 0 2px rgba(var(--accent), 0.25);
+			border-color: rgb(var(--accent), 1);
+			box-shadow: 0 0 0 2px rgb(var(--accent), 0.25);
 		}
 	}
 	.hasReply-16cIUP .inner-NQg18Y {
@@ -150,7 +150,7 @@
 		margin: 0;
 		padding: 0 var(--spacing-half);
 		.buttonWrapper-3YFQGJ {
-			display: none;
+			// display: none;
 		}
 		button {
 			transform: scale(0.75);
@@ -261,7 +261,7 @@
 	}
 
 	// GIF & Gift buttons
-	.buttons-uaqb-5 > .button-f2h6uQ {
+	.buttons-uaqb-5 .button-f2h6uQ:not(.emojiButton-3FRTuj) {
 		display: none;
 	}
 

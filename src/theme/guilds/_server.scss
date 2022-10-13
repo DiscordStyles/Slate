@@ -174,7 +174,7 @@
 		left: calc(var(--icon) * -1);
 		width: var(--icon);
 		height: var(--icon);
-		background: rgba(0, 0, 0, 0.6) !important;
+		background: rgb(0, 0, 0, 0.6) !important;
 		border-radius: var(--server-radius);
 		svg {
 			width: 18px;

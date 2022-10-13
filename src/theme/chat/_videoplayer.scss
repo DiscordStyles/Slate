@@ -11,7 +11,7 @@
 			left: 0;
 			width: 100%;
 			height: 100%;
-			background: rgba(0, 0, 0, 0.25);
+			background: rgb(0, 0, 0, 0.25);
 			pointer-events: none;
 			opacity: 0;
 			transition: 250ms linear opacity;
@@ -71,7 +71,7 @@
 			height: 72px;
 			position: absolute;
 			z-index: -1;
-			background: linear-gradient(0deg, rgba(0, 0, 0, 0.75), transparent);
+			background: linear-gradient(0deg, rgb(0, 0, 0, 0.75), transparent);
 		}
 		.horizontal-2HFjqv {
 			top: calc(var(--spacing-half) * -1);
@@ -175,7 +175,7 @@
 		height: 72px;
 		transform: none !important;
 		transition: 150ms ease opacity;
-		background: linear-gradient(0deg, transparent, rgba(0, 0, 0, 0.75));
+		background: linear-gradient(0deg, transparent, rgb(0, 0, 0, 0.75));
 		.metadataName-1KMZtB {
 			color: var(--white);
 			font-weight: var(--font-weight-normal);

@@ -22,7 +22,7 @@
 			y: 16;
 		}
 		.pointerEvents-9SZWKj[x="14.5"] {
-			fill: rgba(0, 0, 0, 0.5) !important;
+			fill: rgb(0, 0, 0, 0.5) !important;
 			width: 30px;
 			height: 30px;
 			x: 1;
@@ -53,7 +53,7 @@
 			white-space: normal;
 			text-align: center;
 			box-shadow: none;
-			background: rgba(0, 0, 0, 0.5);
+			background: rgb(0, 0, 0, 0.5);
 			cursor: var(--cursor);
 			transition: none;
 			&::after {
@@ -159,17 +159,17 @@
 			y: 19.5px;
 		}
 		&[fill="#43b581"],
-		&[fill="rgba(67, 181, 129, 1)"],
+		&[fill="rgb(67, 181, 129, 1)"],
 		&[mask*="online"] {
 			fill: rgb(var(--status-green));
 		}
 		&[fill="#faa61a"],
-		&[fill="rgba(250, 166, 26, 1)"],
+		&[fill="rgb(250, 166, 26, 1)"],
 		&[mask*="idle"] {
 			fill: rgb(var(--status-yellow));
 		}
 		&[fill="#f04747"],
-		&[fill="rgba(240, 71, 71, 1)"],
+		&[fill="rgb(240, 71, 71, 1)"],
 		&[mask*="dnd"] {
 			fill: rgb(var(--status-red));
 		}
@@ -181,7 +181,7 @@
 		&[mask*="offline"],
 		&[fill="NaN"],
 		&[mask*="invisible"],
-		&[fill="rgba(116, 127, 141, 1)"] {
+		&[fill="rgb(116, 127, 141, 1)"] {
 			fill: rgb(var(--status-grey));
 		}
 		&:not([mask*="mobile"]) {

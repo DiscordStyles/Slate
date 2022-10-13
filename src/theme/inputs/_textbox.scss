@@ -16,7 +16,7 @@
 		&:focus,
 		.focused-1AtTHC {
 			border: 1px solid var(--accent-solid);
-			box-shadow: 0 0 0 2px rgba(var(--accent), 0.25);
+			box-shadow: 0 0 0 2px rgb(var(--accent), 0.25);
 		}
 		&::-webkit-input-placeholder {
 			color: var(--text-muted);
