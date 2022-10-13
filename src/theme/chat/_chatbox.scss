@@ -3,7 +3,8 @@
 #app-mount {
 	.form-3gdLxP {
 		box-sizing: border-box;
-		padding: var(--spacing) var(--spacing) var(--spacing) calc(var(--spacing-double) + var(--avatar-size-sm));
+		padding: var(--spacing) var(--spacing) var(--spacing)
+			calc(var(--spacing-double) + var(--avatar-size-sm));
 		border-top: 1px solid var(--base-border);
 		display: flex;
 		align-items: center;
@@ -168,7 +169,7 @@
 				mask: url(assets.$icon_smiley_alt) center/20px no-repeat;
 			}
 			&:hover .sprite-2lxwfc,
-			.sprite-2lxwfc[style*="grayscale(0%)"] {
+			.sprite-2lxwfc[style*='grayscale(0%)'] {
 				background: var(--text-normal);
 			}
 		}
@@ -212,7 +213,7 @@
 			font-size: var(--font-size-sm);
 			line-height: normal;
 			font-weight: var(--font-weight-semibold);
-			&[style*="240"] {
+			&[style*='240'] {
 				color: rgb(var(--status-red)) !important;
 			}
 		}
@@ -306,7 +307,7 @@
 		background: transparent;
 		box-shadow: none;
 		display: flex;
-		[role="button"] {
+		[role='button'] {
 			flex: 1;
 			cursor: var(--cursor);
 		}

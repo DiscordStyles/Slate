@@ -183,13 +183,13 @@
 		inset: 0;
 		margin-bottom: 0;
 		height: 100%;
-		background: rgb(var(--discord-spotify), .1);
+		background: rgb(var(--discord-spotify), 0.1);
 		top: calc(var(--spacing) + 18px);
 		height: calc(100% - (var(--spacing) + 18px));
 	}
 	.barInner-3dHef4 {
 		border-radius: 0;
-		background: rgb(var(--discord-spotify), .4);
+		background: rgb(var(--discord-spotify), 0.4);
 	}
 
 	// Body
@@ -299,12 +299,10 @@
 			cursor: var(--cursor);
 		}
 		&:hover,
-		&[aria-expanded="true"] {
+		&[aria-expanded='true'] {
 			color: var(--text-normal);
 		}
 	}
-
-
 
 	.footer-3naVBw {
 		background: transparent;
@@ -320,10 +318,8 @@
 		margin: var(--spacing);
 	}
 
-
-
 	// Usrbg support
-	&[style*="--user-background"] {
+	&[style*='--user-background'] {
 		.banner-1YaD3N {
 			height: 120px;
 			background: var(--user-background) center/cover no-repeat;

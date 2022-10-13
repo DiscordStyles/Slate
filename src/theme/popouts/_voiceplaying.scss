@@ -4,7 +4,7 @@
 	border-radius: var(--border-radius);
 	box-shadow: none;
 	padding: var(--spacing);
-	& > div[style*="height: 16px"] {
+	& > div[style*='height: 16px'] {
 		display: none;
 	}
 }

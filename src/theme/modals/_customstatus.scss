@@ -35,7 +35,7 @@
 				mask: url(assets.$icon_smiley_alt) center/90% no-repeat;
 			}
 			&:hover .sprite-2lxwfc,
-			.sprite-2lxwfc[style*="grayscale(0%)"] {
+			.sprite-2lxwfc[style*='grayscale(0%)'] {
 				background: var(--text-normal);
 			}
 		}

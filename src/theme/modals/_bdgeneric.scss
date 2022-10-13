@@ -60,7 +60,7 @@
 							align-items: center;
 							justify-content: center;
 							&:before {
-								content: "";
+								content: '';
 								position: relative;
 								display: flex;
 								flex-direction: column;
@@ -70,7 +70,7 @@
 								mask: url(assets.$illustration_7) center/contain no-repeat;
 							}
 							&:after {
-								content: "Nothing to see here.";
+								content: 'Nothing to see here.';
 								position: relative;
 								margin-top: var(--spacing);
 								color: var(--text-normal);

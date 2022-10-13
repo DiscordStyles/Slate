@@ -27,11 +27,11 @@
 		background-color: var(--background-alt);
 		border-radius: var(--border-radius);
 		border: 1px solid var(--base-border);
-		&[style*="/assets/"] {
+		&[style*='/assets/'] {
 			background-image: none !important;
 			background: var(--background-dark);
 			&::before {
-				content: "";
+				content: '';
 				position: absolute;
 				display: block;
 				top: 0;
@@ -56,7 +56,7 @@
 		font-size: 0;
 		border-radius: var(--border-radius);
 		&::after {
-			content: "";
+			content: '';
 			width: 25px;
 			height: 25px;
 			background: var(--white);

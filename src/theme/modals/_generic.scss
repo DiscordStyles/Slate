@@ -191,7 +191,7 @@
 			margin-bottom: var(--spacing-half) !important;
 			margin-top: var(--spacing);
 		}
-		h5[style*="margin-bottom: 4px;"] {
+		h5[style*='margin-bottom: 4px;'] {
 			margin-bottom: var(--spacing-third) !important;
 		}
 		.marginBottom20-315RVT {
@@ -240,7 +240,7 @@
 				background: var(--background) !important;
 				cursor: var(--cursor);
 				border: none;
-				&[style*="rgb(114, 137, 218)"] {
+				&[style*='rgb(114, 137, 218)'] {
 					background: var(--accent-solid) !important;
 					border: none !important;
 				}

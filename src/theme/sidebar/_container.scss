@@ -10,7 +10,7 @@
 	.container-PNkimc {
 		background: var(--background);
 	}
-	[class*="scroller-"] {
+	[class*='scroller-'] {
 		background: var(--background);
 		border-right: 1px solid var(--base-border);
 		&::-webkit-scrollbar {
@@ -32,7 +32,7 @@
 		&.premiumGuildSubscription-3oKecP {
 			padding-top: var(--spacing);
 			&:before {
-				content: "";
+				content: '';
 				position: relative;
 				display: block;
 				width: 48px;
@@ -45,7 +45,7 @@
 		&.publicUpsell-31ZSJ8 {
 			padding-top: var(--spacing);
 			&:before {
-				content: "";
+				content: '';
 				position: relative;
 				display: block;
 				width: 48px;
@@ -58,7 +58,7 @@
 		&.quickswitcher-35bYg4 {
 			padding-top: var(--spacing);
 			&:before {
-				content: "";
+				content: '';
 				position: relative;
 				display: block;
 				width: 48px;
@@ -98,7 +98,7 @@
 		&.invite-OjTXrW {
 			background-image: none;
 			&:before {
-				content: "";
+				content: '';
 				position: relative;
 				display: block;
 				width: 75px;

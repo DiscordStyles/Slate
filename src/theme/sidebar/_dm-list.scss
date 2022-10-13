@@ -39,7 +39,7 @@
 			padding: 0 var(--spacing-half);
 			line-height: normal;
 			&:before {
-				content: "Where would you like to go?";
+				content: 'Where would you like to go?';
 				font-size: var(--font-size);
 			}
 		}
@@ -58,7 +58,7 @@
 	}
 	.scroller-WSmht3 {
 		background: var(--background);
-		div[style*="height: 8px"] {
+		div[style*='height: 8px'] {
 			display: none;
 		}
 	}
@@ -135,7 +135,7 @@
 		}
 	}
 	&:hover .wrapper-1VLyxH:before {
-		background: linear-gradient( 90deg, transparent, var(--background-modifier-hover) 50%);
+		background: linear-gradient(90deg, transparent, var(--background-modifier-hover) 50%);
 	}
 	&:active .wrapper-1VLyxH:before {
 		background: linear-gradient(90deg, transparent, var(--background-modifier-active) 50%);

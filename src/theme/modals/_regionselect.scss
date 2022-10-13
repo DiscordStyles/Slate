@@ -33,7 +33,7 @@
 		align-items: center;
 		text-align: left;
 		&:before {
-			content: "";
+			content: '';
 			width: 14px;
 			height: 14px;
 			margin-right: var(--spacing);
@@ -102,7 +102,11 @@
 }
 
 // Light Mode
-html.theme-light #app-mount .regionSelectModal-12e-57 .regionSelectModalOptions-2TWQOB .regionSelectModalOption-2DSIZ3 {
+html.theme-light
+	#app-mount
+	.regionSelectModal-12e-57
+	.regionSelectModalOptions-2TWQOB
+	.regionSelectModalOption-2DSIZ3 {
 	&:hover {
 		background: var(--background);
 		border: 1px solid var(--secondary-border);

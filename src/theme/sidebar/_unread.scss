@@ -30,7 +30,7 @@
 		&.unread-2wipsx {
 			color: var(--text-normal);
 		}
-		&[aria-hidden="true"] {
+		&[aria-hidden='true'] {
 			display: none;
 		}
 		&:before {

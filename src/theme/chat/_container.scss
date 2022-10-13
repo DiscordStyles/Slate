@@ -44,17 +44,13 @@
 			font-size: var(--font-size-xxl);
 			font-weight: var(--font-weight-light);
 			color: var(--text-normal);
-			max-width: calc(
-				100% - var(--avatar-size-xl) - var(--spacing-double) - var(--spacing)
-			);
+			max-width: calc(100% - var(--avatar-size-xl) - var(--spacing-double) - var(--spacing));
 		}
 		.description-22d6ux {
 			color: var(--text-muted);
 			font-size: var(--font-size);
 			font-weight: var(--font-weight-normal);
-			max-width: calc(
-				100% - var(--avatar-size-xl) - var(--spacing-double) - var(--spacing)
-			);
+			max-width: calc(100% - var(--avatar-size-xl) - var(--spacing-double) - var(--spacing));
 			user-select: text;
 		}
 		.wrapper-1VLyxH {
@@ -108,7 +104,7 @@
 			max-width: 600px;
 			width: 100%;
 			&:before {
-				content: "";
+				content: '';
 				width: 90%;
 				height: 200px;
 				background: var(--text-muted);

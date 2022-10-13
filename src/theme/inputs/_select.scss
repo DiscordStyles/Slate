@@ -1,5 +1,5 @@
 #app-mount {
-	[class*="css"][class*="control"] {
+	[class*='css'][class*='control'] {
 		border: 1px solid var(--base-border);
 		border-radius: var(--border-radius);
 		background: var(--background-dark);
@@ -12,10 +12,10 @@
 		cursor: var(--cursor);
 
 		// Arrow
-		& > [class*="css"]:last-child {
+		& > [class*='css']:last-child {
 			height: var(--input-height);
 		}
-		[class*="indicatorContainer"] {
+		[class*='indicatorContainer'] {
 			padding: 0 var(--spacing-half);
 		}
 
@@ -25,13 +25,13 @@
 	}
 
 	// Select menu
-	[class*="css"][class*="menu"] {
+	[class*='css'][class*='menu'] {
 		background: var(--background-dark);
 		box-shadow: var(--elevation-1);
 		border-color: var(--base-border);
 		overflow: hidden;
 		border-radius: 0 0 var(--border-radius) var(--border-radius);
-		[class*="option"] {
+		[class*='option'] {
 			padding: var(--spacing);
 			min-height: auto;
 			&.css-rzbxvl-option {
@@ -126,6 +126,6 @@
 }
 
 // Light Mode
-.theme-light #app-mount [class*="css"][class*="control"] {
+.theme-light #app-mount [class*='css'][class*='control'] {
 	background: var(--background);
 }

@@ -12,4 +12,4 @@ export default {
 		output: 'dist/dist'
 	},
 	baseImport: 'https://discordstyles.github.io/Slate/dist/Slate.css'
-}
+};

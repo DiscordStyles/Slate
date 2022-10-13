@@ -1,6 +1,7 @@
 #app-mount {
 	.content-1SgpWY {
-		.sidebar-1tnWFu .scrollerBase-_bVAAt[style="overflow: hidden scroll; padding-right: 0px;"]:not([id*="channels"]) {
+		.sidebar-1tnWFu
+			.scrollerBase-_bVAAt[style='overflow: hidden scroll; padding-right: 0px;']:not([id*='channels']) {
 			border-right: 1px solid var(--base-border);
 			margin-top: calc(var(--toolbar-height) / -1);
 			&::-webkit-scrollbar {
@@ -45,7 +46,7 @@
 			display: none;
 		}
 		.body-2lagau:before {
-			content: "";
+			content: '';
 			height: var(--toolbar-height);
 			background: var(--toolbar-background);
 			width: 100%;
@@ -162,5 +163,5 @@
 		.colorHeaderPrimary-jN_yGr {
 			color: #fff;
 		}
-	}	
+	}
 }

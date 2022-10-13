@@ -69,7 +69,7 @@
 				align-items: center;
 				justify-content: space-between;
 				&:after {
-					content: "";
+					content: '';
 					width: 16px;
 					height: 16px;
 					background: rgb(var(--status-yellow));
@@ -125,14 +125,14 @@
 			height: auto;
 			line-height: normal;
 			&:after {
-				content: "Uh oh.";
+				content: 'Uh oh.';
 				font-size: var(--font-size-xxl);
 				font-weight: var(--font-weight-light);
 				color: var(--text-normal);
 			}
 		}
 		&:before {
-			content: "";
+			content: '';
 			width: 100px;
 			height: 100px;
 			background: var(--text-muted);
@@ -140,7 +140,7 @@
 			margin-bottom: var(--spacing);
 		}
 		&:after {
-			content: "There was a problem loading messages for this channel. Make sure you have a stable internet connection, then try agian.";
+			content: 'There was a problem loading messages for this channel. Make sure you have a stable internet connection, then try agian.';
 			font-size: var(--font-size);
 			color: var(--text-muted);
 			text-transform: none;
@@ -168,8 +168,7 @@
 			box-shadow: inset 0 0 0 100vmax rgb(255, 255, 255, 0.1);
 		}
 		&:focus {
-			box-shadow: 0 0 0 2px rgb(var(--accent), 0.25),
-				inset 0 0 0 100vmax rgb(255, 255, 255, 0.1);
+			box-shadow: 0 0 0 2px rgb(var(--accent), 0.25), inset 0 0 0 100vmax rgb(255, 255, 255, 0.1);
 		}
 	}
 }

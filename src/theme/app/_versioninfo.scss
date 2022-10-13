@@ -3,7 +3,7 @@
 	.layer-86YKbF:not(.baseLayer-W6S8cY) .sidebar-nqHbhN .info-1sUqUG {
 		padding: calc(var(--spacing) / 3) var(--spacing-double);
 		.colorMuted-20987_.line-33oL9j:first-of-type:before {
-			content: "Slate base " var(--slate-base-version) " (" var(--slate-palette) ")";
+			content: 'Slate base ' var(--slate-base-version) ' (' var(--slate-palette) ')';
 			display: block;
 			text-transform: none;
 		}
@@ -11,7 +11,7 @@
 
 	// BD card info
 	#Slate-card .bd-description-wrap:after {
-		content: "Latest file version: " var(--slate-file-version) "\A Latest base.css version: " var(--slate-base-version);
+		content: 'Latest file version: ' var(--slate-file-version) '\A Latest base.css version: 'var(--slate-base-version);
 		white-space: pre-wrap;
 		display: block;
 		line-height: var(--line-height);

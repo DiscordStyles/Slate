@@ -32,7 +32,7 @@
 				display: flex;
 				align-items: center;
 				&::before {
-					content: "";
+					content: '';
 					height: 50vh;
 					width: 50vh;
 					position: absolute;
@@ -53,7 +53,7 @@
 				width: 500px;
 				&:after {
 					line-height: 1.5;
-					content: "Discord encountered a unexpected error that caused it to crash. If this is your first time seeing this screen, reload the app. If you continue seeing this after reloading, uninstall and reinstall Discord. If the issue still persists, consider contacting support.";
+					content: 'Discord encountered a unexpected error that caused it to crash. If this is your first time seeing this screen, reload the app. If you continue seeing this after reloading, uninstall and reinstall Discord. If the issue still persists, consider contacting support.';
 				}
 				p {
 					display: none;

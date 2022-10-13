@@ -2,10 +2,21 @@
 	background: var(--accent-solid);
 	color: #fff;
 }
-::-webkit-input-placeholder, body, button, input, select, textarea {
+::-webkit-input-placeholder,
+body,
+button,
+input,
+select,
+textarea {
 	font-family: var(--font-family-sans-serif);
 }
-h1, h2, h3, h4, h5, h6, p {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
 	user-select: text;
 }
 .h5-18_1nd {

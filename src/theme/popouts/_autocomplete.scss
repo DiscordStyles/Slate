@@ -41,7 +41,7 @@
 	.scrollerBase-_bVAAt {
 		max-height: 272px !important;
 		padding-bottom: 0;
-		& > div[aria-hidden="true"] {
+		& > div[aria-hidden='true'] {
 			display: none;
 		}
 	}
@@ -137,7 +137,7 @@
 		}
 		.size14-3fJ-ot {
 			font-size: var(--font-size);
-			&[style*="color"] {
+			&[style*='color'] {
 				font-weight: var(--font-weight-semibold);
 				border: 1px solid currentColor;
 				width: fit-content;
@@ -222,7 +222,7 @@
 	bottom: unset;
 	top: calc(100% + var(--spacing-half) + 5px);
 	&::before {
-		content: "";
+		content: '';
 		top: -5.5px;
 		transform: translateX(-50%);
 		transform: rotate(-135deg);

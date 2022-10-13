@@ -1,9 +1,27 @@
 @use '../assets';
 
-#app-mount .layer-86YKbF[aria-label="USER_SETTINGS"] {
+#app-mount .layer-86YKbF[aria-label='USER_SETTINGS'] {
 	// Hide redundant information
-	#user-settings > div > div.contentRegion-3HkfJJ > div > div > main > div > div > div:nth-child(1) > h5,
-	#user-settings > div > div.contentRegion-3HkfJJ > div > div > main > div > div > div:nth-child(2) > h5 {
+	#user-settings
+		> div
+		> div.contentRegion-3HkfJJ
+		> div
+		> div
+		> main
+		> div
+		> div
+		> div:nth-child(1)
+		> h5,
+	#user-settings
+		> div
+		> div.contentRegion-3HkfJJ
+		> div
+		> div
+		> main
+		> div
+		> div
+		> div:nth-child(2)
+		> h5 {
 		display: none;
 	}
 
@@ -139,7 +157,7 @@
 		}
 		.flexChild-3PzYmX {
 			margin-left: 0 !important;
-			&[style*="background"] {
+			&[style*='background'] {
 				background: transparent !important;
 			}
 		}
@@ -408,7 +426,7 @@
 				border: 1px solid var(--base-border);
 				box-sizing: border-box;
 				background: var(--background-alt);
-				&[style*="background: linear"] {
+				&[style*='background: linear'] {
 					background: var(--accent-solid) !important;
 				}
 			}
@@ -472,7 +490,7 @@
 			h5 {
 				user-select: none;
 				&::before {
-					content: "Get more palettes at https://slate-theme.netlify.app/palettes";
+					content: 'Get more palettes at https://slate-theme.netlify.app/palettes';
 					color: var(--text-muted);
 					font-size: var(--font-size);
 					font-weight: var(--font-weight-normal);
@@ -484,7 +502,7 @@
 				}
 			}
 			&::after {
-				content: "";
+				content: '';
 				top: calc(var(--spacing) * -1 - 5px);
 				border: 1px solid var(--base-border);
 				border-radius: var(--border-radius);
@@ -492,11 +510,19 @@
 				position: absolute;
 				width: 300px;
 				height: 50px;
-				background: linear-gradient(90deg, var(--accent-solid) 25%, var(--text-normal) 25%, var(--text-normal) 50%, var(--background-dark) 50%, var(--background-dark) 75%, var(--background) 75%);
+				background: linear-gradient(
+					90deg,
+					var(--accent-solid) 25%,
+					var(--text-normal) 25%,
+					var(--text-normal) 50%,
+					var(--background-dark) 50%,
+					var(--background-dark) 75%,
+					var(--background) 75%
+				);
 			}
 		}
 		&::after {
-			content: "Palette - " var(--slate-palette);
+			content: 'Palette - ' var(--slate-palette);
 			color: var(--text-normal);
 			font-size: var(--font-size-md);
 			font-weight: var(--font-weight-semibold);
@@ -530,12 +556,12 @@
 						}
 					}
 				}
-				&[style*="rgb(114, 137, 218)"]::before {
+				&[style*='rgb(114, 137, 218)']::before {
 					border: 1px solid var(--accent-solid) !important;
 					box-shadow: 0 0 0 3px rgb(var(--accent), 0.25);
 				}
 				label::after {
-					content: "";
+					content: '';
 					position: absolute;
 					top: 0;
 					left: 0;
@@ -546,7 +572,7 @@
 					box-shadow: var(--elevation-2);
 				}
 				&::before {
-					content: "";
+					content: '';
 					width: 100px;
 					height: 72px;
 					display: flex;
@@ -609,9 +635,13 @@
 		font-size: var(--font-size);
 	}
 	.children-1xdcWE {
-		.marginBottom20-315RVT[style="flex: 1 1 auto;"] {
+		.marginBottom20-315RVT[style='flex: 1 1 auto;'] {
 			margin-bottom: var(--spacing);
-			& + .marginBottom20-315RVT[style="flex: 1 1 auto;"] + .marginBottom40-fvAlAV[style="flex: 1 1 auto;"] + div + div {
+			&
+				+ .marginBottom20-315RVT[style='flex: 1 1 auto;']
+				+ .marginBottom40-fvAlAV[style='flex: 1 1 auto;']
+				+ div
+				+ div {
 				margin: var(--spacing-double) 0;
 			}
 		}
@@ -681,7 +711,7 @@
 			width: 20px;
 			height: 20px;
 			&::after {
-				content: "";
+				content: '';
 				position: absolute;
 				top: 0;
 				left: 0;
@@ -819,7 +849,10 @@
 	}
 
 	// Text and Images
-	.marginBottom20-315RVT.marginTop8-24uXGp + .flex-2S1XBF.marginBottom40-fvAlAV + h5 + .marginTop8-24uXGp.marginBottom40-fvAlAV {
+	.marginBottom20-315RVT.marginTop8-24uXGp
+		+ .flex-2S1XBF.marginBottom40-fvAlAV
+		+ h5
+		+ .marginTop8-24uXGp.marginBottom40-fvAlAV {
 		margin-top: 0;
 		& + h5 + .marginBottom20-315RVT.marginTop8-24uXGp {
 			margin: 0;
@@ -905,7 +938,12 @@
 // Light Mode
 
 html.theme-light {
-	#app-mount .layer-86YKbF[aria-label="USER_SETTINGS"] .preview-rua1rr + .marginTop40-Q4o1tS .radioGroup-1GBvlr .item-2idW98::before {
+	#app-mount
+		.layer-86YKbF[aria-label='USER_SETTINGS']
+		.preview-rua1rr
+		+ .marginTop40-Q4o1tS
+		.radioGroup-1GBvlr
+		.item-2idW98::before {
 		background-color: var(--background-dark);
 	}
 	.connectionIcon-2ElzVe {

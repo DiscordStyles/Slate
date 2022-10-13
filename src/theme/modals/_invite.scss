@@ -62,7 +62,7 @@
 			align-items: center;
 			flex-direction: column;
 			&::before {
-				content: "";
+				content: '';
 				width: 272px;
 				height: 146px;
 				background: var(--text-muted);
@@ -169,7 +169,12 @@
 
 // Light Mode
 html.theme-light {
-	#app-mount .wrapper-3ByaVZ .root-g14mjS .scroller-3nFW5p .inviteRow-3vmB7i .inviteRowButton-3hcOhY,
+	#app-mount
+		.wrapper-3ByaVZ
+		.root-g14mjS
+		.scroller-3nFW5p
+		.inviteRow-3vmB7i
+		.inviteRowButton-3hcOhY,
 	#app-mount .wrapper-3ByaVZ .root-g14mjS .scroller-3nFW5p .inviteRow-3vmB7i .lookLink-9FtZy- {
 		&:hover {
 			background: var(--background);

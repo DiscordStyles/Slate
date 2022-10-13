@@ -1,13 +1,13 @@
 @use '../assets';
 
 #app-mount .sidebar-nqHbhN .item-3XjbnG {
-	&[aria-controls="gm-settings-tab"] {
+	&[aria-controls='gm-settings-tab'] {
 		font-size: 0 !important;
 		&::before {
 			mask-image: url(assets.$icon_tools);
 		}
 		&::after {
-			content: "GooseMod Settings";
+			content: 'GooseMod Settings';
 			font-size: var(--font-size) !important;
 		}
 	}

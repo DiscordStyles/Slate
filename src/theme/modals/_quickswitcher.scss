@@ -16,7 +16,7 @@
 		background: var(--background);
 		border-right: 1px solid var(--base-border);
 		box-shadow: none;
-		div[style="height: 15px;"] {
+		div[style='height: 15px;'] {
 			height: 1px !important;
 			background: var(--base-border);
 		}
@@ -72,10 +72,10 @@
 		&.resultFocused-3aIoYe {
 			background: var(--background-modifier-hover);
 		}
-		&:active[role="button"] {
+		&:active[role='button'] {
 			background: var(--background-modifier-active);
 		}
-		&[role="button"] {
+		&[role='button'] {
 			border-radius: 0;
 			display: flex;
 			align-items: center;
@@ -170,7 +170,7 @@
 			font-weight: var(--font-weight-normal);
 		}
 		&:before {
-			content: "";
+			content: '';
 			width: 280px;
 			height: 140px;
 			background: var(--text-muted);

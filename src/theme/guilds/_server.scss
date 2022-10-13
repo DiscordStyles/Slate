@@ -40,7 +40,7 @@
 		&.selected-1JjBPm,
 		&.selected-1Drb7Z {
 			background: var(--accent-solid);
-			.icon-3AqZ2e[src*="/assets/"] {
+			.icon-3AqZ2e[src*='/assets/'] {
 				background: var(--white);
 				transition: 150ms ease;
 			}
@@ -59,7 +59,7 @@
 		color: var(--text-normal);
 		cursor: var(--cursor);
 		border-radius: var(--server-radius);
-		path[d="M21 11.001H13V3.00098H11V11.001H3V13.001H11V21.001H13V13.001H21V11.001Z"] {
+		path[d='M21 11.001H13V3.00098H11V11.001H3V13.001H11V21.001H13V13.001H21V11.001Z'] {
 			d: path(assets.$path_add);
 			transform: scale(1.25) translateX(3px) translateY(2px);
 		}
@@ -75,16 +75,16 @@
 			top: 3px;
 			left: 3px;
 		}
-		.icon-3AqZ2e[src*="/assets/"] {
+		.icon-3AqZ2e[src*='/assets/'] {
 			content: url(assets.$blank);
 			background: var(--text-muted);
 			mask: url(assets.$icon_person) center/40% no-repeat;
-			&[src*="/assets/e1fb24a120bdd003a84e021b16ec3bef.png"],
-			&[src*="/assets/861ab526aa1fabb04c6b7da8074e3e21.png"],
-			&[src*="/assets/b8912961ea6ab32f0655d583bbc26b4f.png"],
-			&[src*="/assets/485a854d5171c8dc98088041626e6fea.png"],
-			&[src*="/assets/f810dc5fedb7175c43a3389aa890534f.png"],
-			&[src*="/assets/b3150d5cef84b9e82128a1131684f287.png"] {
+			&[src*='/assets/e1fb24a120bdd003a84e021b16ec3bef.png'],
+			&[src*='/assets/861ab526aa1fabb04c6b7da8074e3e21.png'],
+			&[src*='/assets/b8912961ea6ab32f0655d583bbc26b4f.png'],
+			&[src*='/assets/485a854d5171c8dc98088041626e6fea.png'],
+			&[src*='/assets/f810dc5fedb7175c43a3389aa890534f.png'],
+			&[src*='/assets/b3150d5cef84b9e82128a1131684f287.png'] {
 				mask: url(assets.$icon_organization) center/42% no-repeat;
 			}
 		}
@@ -103,7 +103,7 @@
 	.wrapper-z5ab_q {
 		height: 100%;
 	}
-	.guilds-2JjMmN [class*="pill"] span {
+	.guilds-2JjMmN [class*='pill'] span {
 		border-radius: 0;
 		max-height: 75%;
 		background: var(--text-muted);
@@ -115,7 +115,7 @@
 		.childWrapper-1j_1ub {
 			background: transparent !important;
 		}
-		[class*="pill"] {
+		[class*='pill'] {
 			display: none;
 		}
 		.wrapper-28eC3z {
@@ -180,7 +180,7 @@
 			width: 18px;
 			color: var(--white);
 			path {
-				&[d="M21.526 8.149C21.231 7.966 20.862 7.951 20.553 8.105L18 9.382V7C18 5.897 17.103 5 16 5H4C2.897 5 2 5.897 2 7V17C2 18.104 2.897 19 4 19H16C17.103 19 18 18.104 18 17V14.618L20.553 15.894C20.694 15.965 20.847 16 21 16C21.183 16 21.365 15.949 21.526 15.851C21.82 15.668 22 15.347 22 15V9C22 8.653 21.82 8.332 21.526 8.149Z"] {
+				&[d='M21.526 8.149C21.231 7.966 20.862 7.951 20.553 8.105L18 9.382V7C18 5.897 17.103 5 16 5H4C2.897 5 2 5.897 2 7V17C2 18.104 2.897 19 4 19H16C17.103 19 18 18.104 18 17V14.618L20.553 15.894C20.694 15.965 20.847 16 21 16C21.183 16 21.365 15.949 21.526 15.851C21.82 15.668 22 15.347 22 15V9C22 8.653 21.82 8.332 21.526 8.149Z'] {
 					d: path(assets.$path_video);
 					transform: scale(1.45) translateY(1px);
 				}
@@ -207,7 +207,7 @@
 			color: var(--white);
 			cursor: var(--cursor);
 			opacity: 0;
-			&[style*="translateY(0%)"] {
+			&[style*='translateY(0%)'] {
 				opacity: 0.9;
 				&:hover {
 					opacity: 1;

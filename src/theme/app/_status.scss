@@ -9,11 +9,11 @@
 		foreignObject {
 			mask: none;
 			overflow: visible;
-			&:not([mask*="mobile"]):after {
+			&:not([mask*='mobile']):after {
 				content: none;
 			}
 		}
-		.mask-1FEkla > rect[x="22"] {
+		.mask-1FEkla > rect[x='22'] {
 			x: 0;
 			y: 0;
 		}
@@ -21,7 +21,7 @@
 			x: 20;
 			y: 16;
 		}
-		.pointerEvents-9SZWKj[x="14.5"] {
+		.pointerEvents-9SZWKj[x='14.5'] {
 			fill: rgb(0, 0, 0, 0.5) !important;
 			width: 30px;
 			height: 30px;
@@ -31,7 +31,7 @@
 		img {
 			border-radius: var(--rs-avatar-shape);
 		}
-		svg[width="25"][height="15"] > rect {
+		svg[width='25'][height='15'] > rect {
 			rx: calc(var(--rs-avatar-shape) * 2) !important;
 			ry: calc(var(--rs-avatar-shape) * 2) !important;
 		}
@@ -57,7 +57,7 @@
 			cursor: var(--cursor);
 			transition: none;
 			&::after {
-				content: "";
+				content: '';
 				position: absolute;
 				top: 0;
 				left: 0;
@@ -84,14 +84,14 @@
 	}
 
 	// Mobile
-	foreignObject[mask*="mobile"] {
-		&[width="32"] img {
+	foreignObject[mask*='mobile'] {
+		&[width='32'] img {
 			width: 32px;
 		}
-		&[width="80"] img {
+		&[width='80'] img {
 			width: 80px;
 		}
-		& + rect[mask*="mobile"] {
+		& + rect[mask*='mobile'] {
 			height: 30px;
 			y: var(--avatar-size-xl);
 		}
@@ -104,7 +104,7 @@
 	box-shadow: 0 0 0 1px var(--base-border);
 	background: var(--background-dark);
 	.avatar-b5OQ1N {
-		&[src*="/assets/"] {
+		&[src*='/assets/'] {
 			content: url(assets.$blank);
 			border-radius: 0;
 			background: var(--text-muted);
@@ -113,18 +113,18 @@
 		&:before {
 			content: none;
 		}
-		&[src*="/assets/e1fb24a120bdd003a84e021b16ec3bef.png"],
-		&[src*="/assets/861ab526aa1fabb04c6b7da8074e3e21.png"],
-		&[src*="/assets/b8912961ea6ab32f0655d583bbc26b4f.png"],
-		&[src*="/assets/485a854d5171c8dc98088041626e6fea.png"],
-		&[src*="/assets/f810dc5fedb7175c43a3389aa890534f.png"],
-		&[src*="/assets/b3150d5cef84b9e82128a1131684f287.png"] {
+		&[src*='/assets/e1fb24a120bdd003a84e021b16ec3bef.png'],
+		&[src*='/assets/861ab526aa1fabb04c6b7da8074e3e21.png'],
+		&[src*='/assets/b8912961ea6ab32f0655d583bbc26b4f.png'],
+		&[src*='/assets/485a854d5171c8dc98088041626e6fea.png'],
+		&[src*='/assets/f810dc5fedb7175c43a3389aa890534f.png'],
+		&[src*='/assets/b3150d5cef84b9e82128a1131684f287.png'] {
 			mask: url(assets.$icon_organization) center/50% no-repeat;
 		}
 	}
 	svg:not(:root) {
 		overflow: visible;
-		&[height="40"] {
+		&[height='40'] {
 			width: 32px;
 			height: 32px;
 		}
@@ -141,53 +141,53 @@
 		y: 100%;
 		stroke: var(--base-border);
 		rx: 50;
-		&[height="15"],
-		&[height="10"] {
+		&[height='15'],
+		&[height='10'] {
 			width: 11px;
 			height: 11px;
 			x: 24.5px;
 			y: 24.5px;
-			&[mask*="mobile"] {
+			&[mask*='mobile'] {
 				height: 18px;
 				y: 17px;
 			}
 		}
-		&[width="8"] {
+		&[width='8'] {
 			width: 8px;
 			height: 8px;
 			x: 19.5px;
 			y: 19.5px;
 		}
-		&[fill="#43b581"],
-		&[fill="rgb(67, 181, 129, 1)"],
-		&[mask*="online"] {
+		&[fill='#43b581'],
+		&[fill='rgb(67, 181, 129, 1)'],
+		&[mask*='online'] {
 			fill: rgb(var(--status-green));
 		}
-		&[fill="#faa61a"],
-		&[fill="rgb(250, 166, 26, 1)"],
-		&[mask*="idle"] {
+		&[fill='#faa61a'],
+		&[fill='rgb(250, 166, 26, 1)'],
+		&[mask*='idle'] {
 			fill: rgb(var(--status-yellow));
 		}
-		&[fill="#f04747"],
-		&[fill="rgb(240, 71, 71, 1)"],
-		&[mask*="dnd"] {
+		&[fill='#f04747'],
+		&[fill='rgb(240, 71, 71, 1)'],
+		&[mask*='dnd'] {
 			fill: rgb(var(--status-red));
 		}
-		&[fill="#593695"],
-		&[mask*="streaming"] {
+		&[fill='#593695'],
+		&[mask*='streaming'] {
 			fill: rgb(var(--status-purple));
 		}
-		&[fill="#747f8d"],
-		&[mask*="offline"],
-		&[fill="NaN"],
-		&[mask*="invisible"],
-		&[fill="rgb(116, 127, 141, 1)"] {
+		&[fill='#747f8d'],
+		&[mask*='offline'],
+		&[fill='NaN'],
+		&[mask*='invisible'],
+		&[fill='rgb(116, 127, 141, 1)'] {
 			fill: rgb(var(--status-grey));
 		}
-		&:not([mask*="mobile"]) {
+		&:not([mask*='mobile']) {
 			mask: none;
 		}
-		&:not([mask*="mobile"]) {
+		&:not([mask*='mobile']) {
 			mask: none;
 		}
 	}
@@ -210,20 +210,20 @@
 		x: 10.5px;
 		stroke: var(--base-border);
 	}
-	rect[fill="transparent"] {
+	rect[fill='transparent'] {
 		stroke: none;
 	}
-	rect[mask*="mobile"] {
+	rect[mask*='mobile'] {
 		rx: 2;
 	}
 	// Fix default avatars
-	&[style*="32"] img {
+	&[style*='32'] img {
 		height: 32px;
 	}
-	&[style*="80"] img {
+	&[style*='80'] img {
 		height: 80px;
 	}
-	&[style*="120"] img {
+	&[style*='120'] img {
 		height: 120px;
 	}
 }

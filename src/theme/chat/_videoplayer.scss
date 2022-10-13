@@ -5,7 +5,7 @@
 		background: var(--background);
 		border-radius: var(--border-radius);
 		&:after {
-			content: "";
+			content: '';
 			position: absolute;
 			top: 0;
 			left: 0;
@@ -64,7 +64,7 @@
 		transition: 150ms linear opacity;
 		background: transparent;
 		&:after {
-			content: "";
+			content: '';
 			left: 0;
 			bottom: 0;
 			width: 100%;

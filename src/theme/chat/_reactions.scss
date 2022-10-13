@@ -11,7 +11,7 @@
 			align-items: center;
 			justify-content: center;
 			&:hover,
-			&[aria-expanded="true"] {
+			&[aria-expanded='true'] {
 				color: var(--accent-solid) !important;
 			}
 			svg {
@@ -72,10 +72,7 @@
 
 // Light Mode
 
-html.theme-light
-	#app-mount
-	.reactions-1BUEKl
-	.reaction-1hd86g:not(.reactionMe-1PwQAc) {
+html.theme-light #app-mount .reactions-1BUEKl .reaction-1hd86g:not(.reactionMe-1PwQAc) {
 	&:hover {
 		background: var(--background);
 		border: 1px solid var(--secondary-border);

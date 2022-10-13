@@ -65,7 +65,7 @@
 				color: rgb(var(--discord-pink));
 				.icon-E4cW1l {
 					color: rgb(var(--discord-pink));
-					path[d="M4 0L0 4V8L4 12L8 8V4L4 0ZM7 7.59L4 10.59L1 7.59V4.41L4 1.41L7 4.41V7.59Z"] {
+					path[d='M4 0L0 4V8L4 12L8 8V4L4 0ZM7 7.59L4 10.59L1 7.59V4.41L4 1.41L7 4.41V7.59Z'] {
 						d: path(assets.$path_flame);
 						transform: scale(0.7);
 						& ~ path {
@@ -138,7 +138,7 @@
 			display: none;
 		}
 		&:before {
-			content: "";
+			content: '';
 			position: fixed;
 			top: calc(var(--toolbar-height) + var(--titlebar-height) - 1);
 			left: calc(var(--sidebar-width) + var(--noasw-base));

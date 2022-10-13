@@ -22,7 +22,7 @@
 			display: none;
 		}
 		&:before {
-			content: "";
+			content: '';
 			width: var(--titlebar-height);
 			height: var(--titlebar-height);
 			position: relative;
@@ -32,7 +32,7 @@
 			-webkit-app-region: drag;
 		}
 		&:after {
-			content: "";
+			content: '';
 			position: fixed;
 			top: 0;
 			left: 0;
@@ -64,7 +64,7 @@
 			display: none;
 		}
 		&:after {
-			content: "";
+			content: '';
 			width: 10px;
 			height: 10px;
 			box-sizing: border-box;
@@ -79,7 +79,7 @@
 	.winButtonClose-3Q8ZH5 {
 		path {
 			d: path(
-				"M 0,0 0,0.7 4.3,5 0,9.3 0,10 0.7,10 5,5.7 9.3,10 10,10 10,9.3 5.7,5 10,0.7 10,0 9.3,0 5,4.3 0.7,0 Z"
+				'M 0,0 0,0.7 4.3,5 0,9.3 0,10 0.7,10 5,5.7 9.3,10 10,10 10,9.3 5.7,5 10,0.7 10,0 9.3,0 5,4.3 0.7,0 Z'
 			);
 		}
 		&:hover {
@@ -110,7 +110,7 @@
 		left: var(--spacing-half);
 	}
 	&:after {
-		content: "";
+		content: '';
 		width: var(--titlebar-height);
 		height: var(--titlebar-height);
 		position: relative;

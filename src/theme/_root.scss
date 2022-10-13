@@ -1,7 +1,7 @@
 :root {
-	--slate-file-version: "1.1";
-	--slate-base-version: "1.6.14";
-	--slate-palette: "Primer";
+	--slate-file-version: '1.1';
+	--slate-base-version: '1.6.14';
+	--slate-palette: 'Primer';
 
 	// Roundness
 	--border-radius: 3px;
@@ -15,7 +15,9 @@
 	--bd-blue-hover: var(--accent-solid);
 
 	// ASW Fallbacks
-	--noasw-padding: calc(var(--toolbar-height) + (var(--server-icon-size) - var(--server-icon-size)));
+	--noasw-padding: calc(
+		var(--toolbar-height) + (var(--server-icon-size) - var(--server-icon-size))
+	);
 	--noasw-base: var(--container, 72px);
 	--noasw-channel-header: var(--container, 0px);
 
@@ -28,8 +30,9 @@
 	--spacing-compact: 2px;
 
 	// Fonts
-	--font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
-	--font-family-monospace: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+	--font-family-sans-serif: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+		'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', Arial, sans-serif;
+	--font-family-monospace: Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
 
 	// Text Scaling
 	--font-size-xsm: 9px;

@@ -74,8 +74,14 @@
 // Light Mode
 
 html.theme-light {
-	#app-mount .popout-2iWAc-.force-theme.content-i-YmzK .buttonContainer-2LQN58 .buttonSkipCenterAlign-3S-UYG,
-	#app-mount .popout-2iWAc-.force-theme.content-i-YmzK .buttonContainer-2LQN58 .buttonSkipLeftAlign-2icbri {
+	#app-mount
+		.popout-2iWAc-.force-theme.content-i-YmzK
+		.buttonContainer-2LQN58
+		.buttonSkipCenterAlign-3S-UYG,
+	#app-mount
+		.popout-2iWAc-.force-theme.content-i-YmzK
+		.buttonContainer-2LQN58
+		.buttonSkipLeftAlign-2icbri {
 		&:hover {
 			background: var(--background);
 			border: 1px solid var(--secondary-border);

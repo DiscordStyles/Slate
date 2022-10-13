@@ -9,7 +9,7 @@
 	background: var(--backdrop);
 	z-index: 1;
 	top: calc(var(--titlebar-height) * -1);
-	[class*="scroller-" i]:not([class*="bd-"]) {
+	[class*='scroller-' i]:not([class*='bd-']) {
 		background: var(--background);
 		&::-webkit-scrollbar {
 			display: none;

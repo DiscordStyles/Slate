@@ -4,9 +4,9 @@
 	transform: none !important;
 	.container-1Lk8p7 {
 		width: 100%;
-		& > div[style*="width"] {
+		& > div[style*='width'] {
 			width: 100% !important;
-			& > div[style*="width"] {
+			& > div[style*='width'] {
 				width: 100% !important; // holy fuck why
 				transform: none !important;
 				top: 0 !important;
@@ -62,7 +62,7 @@
 			border-radius: var(--button-border-radius);
 			margin-bottom: var(--spacing);
 			&::before {
-				content: "";
+				content: '';
 				margin: var(--spacing-half) var(--spacing) var(--spacing-half) var(--spacing-half);
 				width: 24px;
 				height: 24px;
@@ -200,7 +200,7 @@
 			.footerTitle-3Bslxi {
 				display: none;
 			}
-			button[type="button"].button-f2h6uQ {
+			button[type='button'].button-f2h6uQ {
 				font-size: var(--font-size);
 				font-weight: var(--font-weight-normal);
 				cursor: var(--cursor);
@@ -230,8 +230,24 @@
 
 // Light Mode
 
-html.theme-light #app-mount .theme-light .root-g14mjS .container-36u7Lw > div[style*="width"] > div[style*="width"] .templatesList-uohY49 .itemContainer-1LSFks:not(:first-child),
-html.theme-light #app-mount .theme-light .root-g14mjS .container-36u7Lw > div[style*="width"] > div[style*="width"] .footer-31IekZ button.lookBlank-3eh9lL {
+html.theme-light
+	#app-mount
+	.theme-light
+	.root-g14mjS
+	.container-36u7Lw
+	> div[style*='width']
+	> div[style*='width']
+	.templatesList-uohY49
+	.itemContainer-1LSFks:not(:first-child),
+html.theme-light
+	#app-mount
+	.theme-light
+	.root-g14mjS
+	.container-36u7Lw
+	> div[style*='width']
+	> div[style*='width']
+	.footer-31IekZ
+	button.lookBlank-3eh9lL {
 	&:hover {
 		background: var(--background);
 		border: 1px solid var(--secondary-border);

@@ -1,6 +1,6 @@
 @use '../assets';
 
-#app-mount .layer-2aCOJ3[style*="left"][style*="top"] .container-2McqkF.elevationBorderHigh-3drnJX {
+#app-mount .layer-2aCOJ3[style*='left'][style*='top'] .container-2McqkF.elevationBorderHigh-3drnJX {
 	margin-top: 8px;
 	background: var(--background);
 	box-shadow: var(--elevation-1);
@@ -13,7 +13,7 @@
 		justify-content: center;
 		padding: var(--spacing);
 		&:after {
-			content: "";
+			content: '';
 			width: 72px;
 			height: 72px;
 			display: block;
@@ -23,7 +23,7 @@
 		}
 	}
 	&::before {
-		content: "";
+		content: '';
 		position: absolute;
 		right: 10px;
 		top: 4px;
@@ -189,7 +189,7 @@
 			.searchResultChannelIcon-1Il1Qo {
 				display: none;
 				& + strong::before {
-					content: "#";
+					content: '#';
 					color: var(--text-muted);
 				}
 			}

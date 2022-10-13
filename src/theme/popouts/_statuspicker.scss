@@ -20,7 +20,7 @@
 
 		// Decroative Arrow
 		&:after {
-			content: "";
+			content: '';
 			width: 10px;
 			height: 10px;
 			background: var(--background);
@@ -57,16 +57,16 @@
 				padding: 0;
 				max-height: unset;
 				display: flex;
-				.status-2DiCMd[style="background-color: rgb(67, 181, 129);"] {
+				.status-2DiCMd[style='background-color: rgb(67, 181, 129);'] {
 					background: rgb(var(--status-green)) !important;
 				}
-				.status-2DiCMd[style="background-color: rgb(250, 166, 26);"] {
+				.status-2DiCMd[style='background-color: rgb(250, 166, 26);'] {
 					background: rgb(var(--status-yellow)) !important;
 				}
-				.status-2DiCMd[style="background-color: rgb(240, 71, 71);"] {
+				.status-2DiCMd[style='background-color: rgb(240, 71, 71);'] {
 					background: rgb(var(--status-red)) !important;
 				}
-				.status-2DiCMd[style="background-color: rgb(116, 127, 141);"] {
+				.status-2DiCMd[style='background-color: rgb(116, 127, 141);'] {
 					background: rgb(var(--status-grey)) !important;
 				}
 			}
