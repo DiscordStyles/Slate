@@ -1,10 +1,16 @@
 @use '../assets';
 
-.userPopout-2j1gM4 {
+.userPopoutOuter-3AVBmJ {
 	.wrapper-1VLyxH {
 		z-index: 1;
 		svg:not(:root) {
 			overflow: visible;
+		}
+		circle[fill='black'] {
+			cy: 78;
+			cx: 78;
+			r: 12;
+			opacity: 0 !important;
 		}
 		foreignObject {
 			mask: none;
@@ -42,12 +48,11 @@
 			y: calc(var(--avatar-size-xl) + 4px);
 		}
 	}
-	.avatarHint-k7pYop {
+	.avatarHint-2g3Mcd {
 		foreignObject {
 			mask: none;
 		}
-		.avatarHintInner-2HUAWj {
-			border-radius: var(--rs-avatar-shape) !important;
+		.avatarHintInner-3gk_Yx {
 			padding-top: 0;
 			font-size: 0;
 			white-space: normal;

@@ -4,12 +4,13 @@ export default {
 		name: 'Slate',
 		author: 'Gibbu & Tropical',
 		description: `An optimized, consistent, and functional theme for Discord based on GitHub's design language.`,
-		version: '1.1',
+		version: '1.2',
 		source: 'https://github.com/DiscordStyles/Slate/',
 		invite: 'TeRQEPb'
 	},
 	base: {
 		output: 'dist/dist'
 	},
-	baseImport: 'https://discordstyles.github.io/Slate/dist/Slate.css'
+	baseImport: 'https://discordstyles.github.io/Slate/dist/Slate.css',
+	addons: [['./src/addons/_toolbar-actions.scss', 'dist/ToolbarActions.css']]
 };
