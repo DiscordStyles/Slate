@@ -1,6 +1,6 @@
 :root {
-  --slate-file-version: "1.1";
-  --slate-base-version: "1.6.14";
+  --slate-file-version: "1.2";
+  --slate-base-version: "1.6.15";
   --slate-palette: "Primer";
   --border-radius: 3px;
   --button-border-radius: 2px;
@@ -750,175 +750,6 @@ html:not(.app-focused) body:not(.oldTitleBarEnabled-D8ppJQ) .winButton-3UMjdg {
   opacity: 1;
 }
 
-html.platform-win[lang=en-US] body:not(.oldTitleBarEnabled-D8ppJQ) .container-2cd8Mz .container-ZMc96U.themed-Hp1KC_ .toolbar-3_r2xA {
-  border: none !important;
-}
-html.platform-win[lang=en-US] body:not(.oldTitleBarEnabled-D8ppJQ) .container-ZMc96U.themed-Hp1KC_ .toolbar-3_r2xA .iconWrapper-2awDjA[aria-label=Inbox],
-html.platform-win[lang=en-US] body:not(.oldTitleBarEnabled-D8ppJQ) .container-ZMc96U.themed-Hp1KC_ .toolbar-3_r2xA .iconWrapper-2awDjA[aria-label="Pinned Messages"],
-html.platform-win[lang=en-US] body:not(.oldTitleBarEnabled-D8ppJQ) .container-ZMc96U.themed-Hp1KC_ .toolbar-3_r2xA .iconWrapper-2awDjA[aria-label="Add Friends to DM"],
-html.platform-win[lang=en-US] body:not(.oldTitleBarEnabled-D8ppJQ) .container-ZMc96U.themed-Hp1KC_ .toolbar-3_r2xA .iconWrapper-2awDjA[aria-label="New Group DM"],
-html.platform-win[lang=en-US] body:not(.oldTitleBarEnabled-D8ppJQ) .container-ZMc96U.themed-Hp1KC_ .toolbar-3_r2xA .anchor-1MIwyf .iconWrapper-2awDjA {
-  position: fixed;
-  top: 0;
-  -webkit-app-region: no-drag;
-  height: calc(var(--titlebar-height) - 1px);
-  width: auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0 var(--spacing);
-  margin: 0 !important;
-  color: var(--toolbar-text-normal);
-  font-weight: var(--font-weight-normal);
-  font-size: var(--font-size);
-  cursor: default;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-html.platform-win[lang=en-US] body:not(.oldTitleBarEnabled-D8ppJQ) .container-ZMc96U.themed-Hp1KC_ .toolbar-3_r2xA .iconWrapper-2awDjA[aria-label=Inbox]::after,
-html.platform-win[lang=en-US] body:not(.oldTitleBarEnabled-D8ppJQ) .container-ZMc96U.themed-Hp1KC_ .toolbar-3_r2xA .iconWrapper-2awDjA[aria-label="Pinned Messages"]::after,
-html.platform-win[lang=en-US] body:not(.oldTitleBarEnabled-D8ppJQ) .container-ZMc96U.themed-Hp1KC_ .toolbar-3_r2xA .iconWrapper-2awDjA[aria-label="Add Friends to DM"]::after,
-html.platform-win[lang=en-US] body:not(.oldTitleBarEnabled-D8ppJQ) .container-ZMc96U.themed-Hp1KC_ .toolbar-3_r2xA .iconWrapper-2awDjA[aria-label="New Group DM"]::after,
-html.platform-win[lang=en-US] body:not(.oldTitleBarEnabled-D8ppJQ) .container-ZMc96U.themed-Hp1KC_ .toolbar-3_r2xA .anchor-1MIwyf .iconWrapper-2awDjA::after {
-  color: inherit;
-  font-weight: inherit;
-  font-size: inherit;
-  white-space: nowrap;
-  line-height: normal;
-}
-html.platform-win[lang=en-US] body:not(.oldTitleBarEnabled-D8ppJQ) .container-ZMc96U.themed-Hp1KC_ .toolbar-3_r2xA .iconWrapper-2awDjA[aria-label=Inbox][aria-label=Inbox],
-html.platform-win[lang=en-US] body:not(.oldTitleBarEnabled-D8ppJQ) .container-ZMc96U.themed-Hp1KC_ .toolbar-3_r2xA .iconWrapper-2awDjA[aria-label="Pinned Messages"][aria-label=Inbox],
-html.platform-win[lang=en-US] body:not(.oldTitleBarEnabled-D8ppJQ) .container-ZMc96U.themed-Hp1KC_ .toolbar-3_r2xA .iconWrapper-2awDjA[aria-label="Add Friends to DM"][aria-label=Inbox],
-html.platform-win[lang=en-US] body:not(.oldTitleBarEnabled-D8ppJQ) .container-ZMc96U.themed-Hp1KC_ .toolbar-3_r2xA .iconWrapper-2awDjA[aria-label="New Group DM"][aria-label=Inbox],
-html.platform-win[lang=en-US] body:not(.oldTitleBarEnabled-D8ppJQ) .container-ZMc96U.themed-Hp1KC_ .toolbar-3_r2xA .anchor-1MIwyf .iconWrapper-2awDjA[aria-label=Inbox] {
-  left: 38px;
-  width: 50px;
-}
-html.platform-win[lang=en-US] body:not(.oldTitleBarEnabled-D8ppJQ) .container-ZMc96U.themed-Hp1KC_ .toolbar-3_r2xA .iconWrapper-2awDjA[aria-label=Inbox][aria-label=Inbox]::after,
-html.platform-win[lang=en-US] body:not(.oldTitleBarEnabled-D8ppJQ) .container-ZMc96U.themed-Hp1KC_ .toolbar-3_r2xA .iconWrapper-2awDjA[aria-label="Pinned Messages"][aria-label=Inbox]::after,
-html.platform-win[lang=en-US] body:not(.oldTitleBarEnabled-D8ppJQ) .container-ZMc96U.themed-Hp1KC_ .toolbar-3_r2xA .iconWrapper-2awDjA[aria-label="Add Friends to DM"][aria-label=Inbox]::after,
-html.platform-win[lang=en-US] body:not(.oldTitleBarEnabled-D8ppJQ) .container-ZMc96U.themed-Hp1KC_ .toolbar-3_r2xA .iconWrapper-2awDjA[aria-label="New Group DM"][aria-label=Inbox]::after,
-html.platform-win[lang=en-US] body:not(.oldTitleBarEnabled-D8ppJQ) .container-ZMc96U.themed-Hp1KC_ .toolbar-3_r2xA .anchor-1MIwyf .iconWrapper-2awDjA[aria-label=Inbox]::after {
-  content: "Inbox";
-}
-html.platform-win[lang=en-US] body:not(.oldTitleBarEnabled-D8ppJQ) .container-ZMc96U.themed-Hp1KC_ .toolbar-3_r2xA .iconWrapper-2awDjA[aria-label=Inbox][aria-label="Pinned Messages"],
-html.platform-win[lang=en-US] body:not(.oldTitleBarEnabled-D8ppJQ) .container-ZMc96U.themed-Hp1KC_ .toolbar-3_r2xA .iconWrapper-2awDjA[aria-label="Pinned Messages"][aria-label="Pinned Messages"],
-html.platform-win[lang=en-US] body:not(.oldTitleBarEnabled-D8ppJQ) .container-ZMc96U.themed-Hp1KC_ .toolbar-3_r2xA .iconWrapper-2awDjA[aria-label="Add Friends to DM"][aria-label="Pinned Messages"],
-html.platform-win[lang=en-US] body:not(.oldTitleBarEnabled-D8ppJQ) .container-ZMc96U.themed-Hp1KC_ .toolbar-3_r2xA .iconWrapper-2awDjA[aria-label="New Group DM"][aria-label="Pinned Messages"],
-html.platform-win[lang=en-US] body:not(.oldTitleBarEnabled-D8ppJQ) .container-ZMc96U.themed-Hp1KC_ .toolbar-3_r2xA .anchor-1MIwyf .iconWrapper-2awDjA[aria-label="Pinned Messages"] {
-  left: 88px;
-  width: 42px;
-}
-html.platform-win[lang=en-US] body:not(.oldTitleBarEnabled-D8ppJQ) .container-ZMc96U.themed-Hp1KC_ .toolbar-3_r2xA .iconWrapper-2awDjA[aria-label=Inbox][aria-label="Pinned Messages"]::after,
-html.platform-win[lang=en-US] body:not(.oldTitleBarEnabled-D8ppJQ) .container-ZMc96U.themed-Hp1KC_ .toolbar-3_r2xA .iconWrapper-2awDjA[aria-label="Pinned Messages"][aria-label="Pinned Messages"]::after,
-html.platform-win[lang=en-US] body:not(.oldTitleBarEnabled-D8ppJQ) .container-ZMc96U.themed-Hp1KC_ .toolbar-3_r2xA .iconWrapper-2awDjA[aria-label="Add Friends to DM"][aria-label="Pinned Messages"]::after,
-html.platform-win[lang=en-US] body:not(.oldTitleBarEnabled-D8ppJQ) .container-ZMc96U.themed-Hp1KC_ .toolbar-3_r2xA .iconWrapper-2awDjA[aria-label="New Group DM"][aria-label="Pinned Messages"]::after,
-html.platform-win[lang=en-US] body:not(.oldTitleBarEnabled-D8ppJQ) .container-ZMc96U.themed-Hp1KC_ .toolbar-3_r2xA .anchor-1MIwyf .iconWrapper-2awDjA[aria-label="Pinned Messages"]::after {
-  content: "Pins";
-}
-html.platform-win[lang=en-US] body:not(.oldTitleBarEnabled-D8ppJQ) .container-ZMc96U.themed-Hp1KC_ .toolbar-3_r2xA .iconWrapper-2awDjA[aria-label=Inbox][aria-label="Pinned Messages"] .iconBadge-3Mmg92,
-html.platform-win[lang=en-US] body:not(.oldTitleBarEnabled-D8ppJQ) .container-ZMc96U.themed-Hp1KC_ .toolbar-3_r2xA .iconWrapper-2awDjA[aria-label="Pinned Messages"][aria-label="Pinned Messages"] .iconBadge-3Mmg92,
-html.platform-win[lang=en-US] body:not(.oldTitleBarEnabled-D8ppJQ) .container-ZMc96U.themed-Hp1KC_ .toolbar-3_r2xA .iconWrapper-2awDjA[aria-label="Add Friends to DM"][aria-label="Pinned Messages"] .iconBadge-3Mmg92,
-html.platform-win[lang=en-US] body:not(.oldTitleBarEnabled-D8ppJQ) .container-ZMc96U.themed-Hp1KC_ .toolbar-3_r2xA .iconWrapper-2awDjA[aria-label="New Group DM"][aria-label="Pinned Messages"] .iconBadge-3Mmg92,
-html.platform-win[lang=en-US] body:not(.oldTitleBarEnabled-D8ppJQ) .container-ZMc96U.themed-Hp1KC_ .toolbar-3_r2xA .anchor-1MIwyf .iconWrapper-2awDjA[aria-label="Pinned Messages"] .iconBadge-3Mmg92 {
-  top: 4px;
-  right: 4px;
-  z-index: -1;
-  width: 4px;
-  height: 4px;
-}
-html.platform-win[lang=en-US] body:not(.oldTitleBarEnabled-D8ppJQ) .container-ZMc96U.themed-Hp1KC_ .toolbar-3_r2xA .iconWrapper-2awDjA[aria-label=Inbox][aria-label="Add Friends to DM"], html.platform-win[lang=en-US] body:not(.oldTitleBarEnabled-D8ppJQ) .container-ZMc96U.themed-Hp1KC_ .toolbar-3_r2xA .iconWrapper-2awDjA[aria-label=Inbox][aria-label="New Group DM"],
-html.platform-win[lang=en-US] body:not(.oldTitleBarEnabled-D8ppJQ) .container-ZMc96U.themed-Hp1KC_ .toolbar-3_r2xA .iconWrapper-2awDjA[aria-label="Pinned Messages"][aria-label="Add Friends to DM"],
-html.platform-win[lang=en-US] body:not(.oldTitleBarEnabled-D8ppJQ) .container-ZMc96U.themed-Hp1KC_ .toolbar-3_r2xA .iconWrapper-2awDjA[aria-label="Pinned Messages"][aria-label="New Group DM"],
-html.platform-win[lang=en-US] body:not(.oldTitleBarEnabled-D8ppJQ) .container-ZMc96U.themed-Hp1KC_ .toolbar-3_r2xA .iconWrapper-2awDjA[aria-label="Add Friends to DM"][aria-label="Add Friends to DM"],
-html.platform-win[lang=en-US] body:not(.oldTitleBarEnabled-D8ppJQ) .container-ZMc96U.themed-Hp1KC_ .toolbar-3_r2xA .iconWrapper-2awDjA[aria-label="Add Friends to DM"][aria-label="New Group DM"],
-html.platform-win[lang=en-US] body:not(.oldTitleBarEnabled-D8ppJQ) .container-ZMc96U.themed-Hp1KC_ .toolbar-3_r2xA .iconWrapper-2awDjA[aria-label="New Group DM"][aria-label="Add Friends to DM"],
-html.platform-win[lang=en-US] body:not(.oldTitleBarEnabled-D8ppJQ) .container-ZMc96U.themed-Hp1KC_ .toolbar-3_r2xA .iconWrapper-2awDjA[aria-label="New Group DM"][aria-label="New Group DM"],
-html.platform-win[lang=en-US] body:not(.oldTitleBarEnabled-D8ppJQ) .container-ZMc96U.themed-Hp1KC_ .toolbar-3_r2xA .anchor-1MIwyf .iconWrapper-2awDjA[aria-label="Add Friends to DM"],
-html.platform-win[lang=en-US] body:not(.oldTitleBarEnabled-D8ppJQ) .container-ZMc96U.themed-Hp1KC_ .toolbar-3_r2xA .anchor-1MIwyf .iconWrapper-2awDjA[aria-label="New Group DM"] {
-  left: 130px;
-  width: 54px;
-}
-html.platform-win[lang=en-US] body:not(.oldTitleBarEnabled-D8ppJQ) .container-ZMc96U.themed-Hp1KC_ .toolbar-3_r2xA .iconWrapper-2awDjA[aria-label=Inbox][aria-label="Add Friends to DM"]::after, html.platform-win[lang=en-US] body:not(.oldTitleBarEnabled-D8ppJQ) .container-ZMc96U.themed-Hp1KC_ .toolbar-3_r2xA .iconWrapper-2awDjA[aria-label=Inbox][aria-label="New Group DM"]::after,
-html.platform-win[lang=en-US] body:not(.oldTitleBarEnabled-D8ppJQ) .container-ZMc96U.themed-Hp1KC_ .toolbar-3_r2xA .iconWrapper-2awDjA[aria-label="Pinned Messages"][aria-label="Add Friends to DM"]::after,
-html.platform-win[lang=en-US] body:not(.oldTitleBarEnabled-D8ppJQ) .container-ZMc96U.themed-Hp1KC_ .toolbar-3_r2xA .iconWrapper-2awDjA[aria-label="Pinned Messages"][aria-label="New Group DM"]::after,
-html.platform-win[lang=en-US] body:not(.oldTitleBarEnabled-D8ppJQ) .container-ZMc96U.themed-Hp1KC_ .toolbar-3_r2xA .iconWrapper-2awDjA[aria-label="Add Friends to DM"][aria-label="Add Friends to DM"]::after,
-html.platform-win[lang=en-US] body:not(.oldTitleBarEnabled-D8ppJQ) .container-ZMc96U.themed-Hp1KC_ .toolbar-3_r2xA .iconWrapper-2awDjA[aria-label="Add Friends to DM"][aria-label="New Group DM"]::after,
-html.platform-win[lang=en-US] body:not(.oldTitleBarEnabled-D8ppJQ) .container-ZMc96U.themed-Hp1KC_ .toolbar-3_r2xA .iconWrapper-2awDjA[aria-label="New Group DM"][aria-label="Add Friends to DM"]::after,
-html.platform-win[lang=en-US] body:not(.oldTitleBarEnabled-D8ppJQ) .container-ZMc96U.themed-Hp1KC_ .toolbar-3_r2xA .iconWrapper-2awDjA[aria-label="New Group DM"][aria-label="New Group DM"]::after,
-html.platform-win[lang=en-US] body:not(.oldTitleBarEnabled-D8ppJQ) .container-ZMc96U.themed-Hp1KC_ .toolbar-3_r2xA .anchor-1MIwyf .iconWrapper-2awDjA[aria-label="Add Friends to DM"]::after,
-html.platform-win[lang=en-US] body:not(.oldTitleBarEnabled-D8ppJQ) .container-ZMc96U.themed-Hp1KC_ .toolbar-3_r2xA .anchor-1MIwyf .iconWrapper-2awDjA[aria-label="New Group DM"]::after {
-  content: "Group";
-}
-html.platform-win[lang=en-US] body:not(.oldTitleBarEnabled-D8ppJQ) .container-ZMc96U.themed-Hp1KC_ .toolbar-3_r2xA .iconWrapper-2awDjA[aria-label=Inbox][aria-label="New Group DM"],
-html.platform-win[lang=en-US] body:not(.oldTitleBarEnabled-D8ppJQ) .container-ZMc96U.themed-Hp1KC_ .toolbar-3_r2xA .iconWrapper-2awDjA[aria-label="Pinned Messages"][aria-label="New Group DM"],
-html.platform-win[lang=en-US] body:not(.oldTitleBarEnabled-D8ppJQ) .container-ZMc96U.themed-Hp1KC_ .toolbar-3_r2xA .iconWrapper-2awDjA[aria-label="Add Friends to DM"][aria-label="New Group DM"],
-html.platform-win[lang=en-US] body:not(.oldTitleBarEnabled-D8ppJQ) .container-ZMc96U.themed-Hp1KC_ .toolbar-3_r2xA .iconWrapper-2awDjA[aria-label="New Group DM"][aria-label="New Group DM"],
-html.platform-win[lang=en-US] body:not(.oldTitleBarEnabled-D8ppJQ) .container-ZMc96U.themed-Hp1KC_ .toolbar-3_r2xA .anchor-1MIwyf .iconWrapper-2awDjA[aria-label="New Group DM"] {
-  left: 88px;
-}
-html.platform-win[lang=en-US] body:not(.oldTitleBarEnabled-D8ppJQ) .container-ZMc96U.themed-Hp1KC_ .toolbar-3_r2xA .iconWrapper-2awDjA[aria-label=Inbox]:hover,
-html.platform-win[lang=en-US] body:not(.oldTitleBarEnabled-D8ppJQ) .container-ZMc96U.themed-Hp1KC_ .toolbar-3_r2xA .iconWrapper-2awDjA[aria-label="Pinned Messages"]:hover,
-html.platform-win[lang=en-US] body:not(.oldTitleBarEnabled-D8ppJQ) .container-ZMc96U.themed-Hp1KC_ .toolbar-3_r2xA .iconWrapper-2awDjA[aria-label="Add Friends to DM"]:hover,
-html.platform-win[lang=en-US] body:not(.oldTitleBarEnabled-D8ppJQ) .container-ZMc96U.themed-Hp1KC_ .toolbar-3_r2xA .iconWrapper-2awDjA[aria-label="New Group DM"]:hover,
-html.platform-win[lang=en-US] body:not(.oldTitleBarEnabled-D8ppJQ) .container-ZMc96U.themed-Hp1KC_ .toolbar-3_r2xA .anchor-1MIwyf .iconWrapper-2awDjA:hover {
-  background: var(--toolbar-background-hover);
-}
-html.platform-win[lang=en-US] body:not(.oldTitleBarEnabled-D8ppJQ) .container-ZMc96U.themed-Hp1KC_ .toolbar-3_r2xA .iconWrapper-2awDjA[aria-label=Inbox]:active, html.platform-win[lang=en-US] body:not(.oldTitleBarEnabled-D8ppJQ) .container-ZMc96U.themed-Hp1KC_ .toolbar-3_r2xA .iconWrapper-2awDjA[aria-label=Inbox].selected-29KTGM,
-html.platform-win[lang=en-US] body:not(.oldTitleBarEnabled-D8ppJQ) .container-ZMc96U.themed-Hp1KC_ .toolbar-3_r2xA .iconWrapper-2awDjA[aria-label="Pinned Messages"]:active,
-html.platform-win[lang=en-US] body:not(.oldTitleBarEnabled-D8ppJQ) .container-ZMc96U.themed-Hp1KC_ .toolbar-3_r2xA .iconWrapper-2awDjA[aria-label="Pinned Messages"].selected-29KTGM,
-html.platform-win[lang=en-US] body:not(.oldTitleBarEnabled-D8ppJQ) .container-ZMc96U.themed-Hp1KC_ .toolbar-3_r2xA .iconWrapper-2awDjA[aria-label="Add Friends to DM"]:active,
-html.platform-win[lang=en-US] body:not(.oldTitleBarEnabled-D8ppJQ) .container-ZMc96U.themed-Hp1KC_ .toolbar-3_r2xA .iconWrapper-2awDjA[aria-label="Add Friends to DM"].selected-29KTGM,
-html.platform-win[lang=en-US] body:not(.oldTitleBarEnabled-D8ppJQ) .container-ZMc96U.themed-Hp1KC_ .toolbar-3_r2xA .iconWrapper-2awDjA[aria-label="New Group DM"]:active,
-html.platform-win[lang=en-US] body:not(.oldTitleBarEnabled-D8ppJQ) .container-ZMc96U.themed-Hp1KC_ .toolbar-3_r2xA .iconWrapper-2awDjA[aria-label="New Group DM"].selected-29KTGM,
-html.platform-win[lang=en-US] body:not(.oldTitleBarEnabled-D8ppJQ) .container-ZMc96U.themed-Hp1KC_ .toolbar-3_r2xA .anchor-1MIwyf .iconWrapper-2awDjA:active,
-html.platform-win[lang=en-US] body:not(.oldTitleBarEnabled-D8ppJQ) .container-ZMc96U.themed-Hp1KC_ .toolbar-3_r2xA .anchor-1MIwyf .iconWrapper-2awDjA.selected-29KTGM {
-  background: var(--toolbar-background-active);
-}
-html.platform-win[lang=en-US] body:not(.oldTitleBarEnabled-D8ppJQ) .container-ZMc96U.themed-Hp1KC_ .toolbar-3_r2xA .iconWrapper-2awDjA[aria-label=Inbox] svg,
-html.platform-win[lang=en-US] body:not(.oldTitleBarEnabled-D8ppJQ) .container-ZMc96U.themed-Hp1KC_ .toolbar-3_r2xA .iconWrapper-2awDjA[aria-label="Pinned Messages"] svg,
-html.platform-win[lang=en-US] body:not(.oldTitleBarEnabled-D8ppJQ) .container-ZMc96U.themed-Hp1KC_ .toolbar-3_r2xA .iconWrapper-2awDjA[aria-label="Add Friends to DM"] svg,
-html.platform-win[lang=en-US] body:not(.oldTitleBarEnabled-D8ppJQ) .container-ZMc96U.themed-Hp1KC_ .toolbar-3_r2xA .iconWrapper-2awDjA[aria-label="New Group DM"] svg,
-html.platform-win[lang=en-US] body:not(.oldTitleBarEnabled-D8ppJQ) .container-ZMc96U.themed-Hp1KC_ .toolbar-3_r2xA .anchor-1MIwyf .iconWrapper-2awDjA svg {
-  display: none;
-}
-html.platform-win[lang=en-US] body:not(.oldTitleBarEnabled-D8ppJQ) .container-ZMc96U.themed-Hp1KC_ .toolbar-3_r2xA .inviteToolbar-2k2nqz {
-  display: block !important;
-}
-html.platform-win[lang=en-US] body:not(.oldTitleBarEnabled-D8ppJQ) .container-ZMc96U.themed-Hp1KC_ .toolbar-3_r2xA .inviteToolbar-2k2nqz ~ .anchor-1MIwyf .iconWrapper-2awDjA {
-  left: 142px;
-}
-html.platform-win[lang=en-US] body:not(.oldTitleBarEnabled-D8ppJQ) .container-ZMc96U.themed-Hp1KC_ .toolbar-3_r2xA .libraryFilter-1nwg6T ~ .anchor-1MIwyf .iconWrapper-2awDjA {
-  left: 88px;
-}
-html.platform-win[lang=en-US] body:not(.oldTitleBarEnabled-D8ppJQ) .container-ZMc96U.themed-Hp1KC_ .toolbar-3_r2xA .iconWrapper-2awDjA[aria-label="Add Friends to DM"] ~ .anchor-1MIwyf .iconWrapper-2awDjA {
-  left: 184px;
-}
-html.platform-win[lang=en-US] body:not(.oldTitleBarEnabled-D8ppJQ) .container-ZMc96U.themed-Hp1KC_ .toolbar-3_r2xA .anchor-1MIwyf {
-  display: block !important;
-}
-html.platform-win[lang=en-US] body:not(.oldTitleBarEnabled-D8ppJQ) .container-ZMc96U.themed-Hp1KC_ .toolbar-3_r2xA .anchor-1MIwyf:nth-child(8) .iconWrapper-2awDjA {
-  left: 184px;
-}
-html.platform-win[lang=en-US] body:not(.oldTitleBarEnabled-D8ppJQ) .container-ZMc96U.themed-Hp1KC_ .toolbar-3_r2xA .anchor-1MIwyf:nth-child(6) .iconWrapper-2awDjA {
-  left: 130px;
-}
-html.platform-win[lang=en-US] body:not(.oldTitleBarEnabled-D8ppJQ) .container-ZMc96U.themed-Hp1KC_ .toolbar-3_r2xA .anchor-1MIwyf .iconWrapper-2awDjA {
-  width: auto;
-  left: 130px;
-}
-html.platform-win[lang=en-US] body:not(.oldTitleBarEnabled-D8ppJQ) .container-ZMc96U.themed-Hp1KC_ .toolbar-3_r2xA .anchor-1MIwyf .iconWrapper-2awDjA::after {
-  content: "Help";
-}
-
-html.platform-win[lang=en-US]:not(.app-focused) body:not(.oldTitleBarEnabled-D8ppJQ) .container-ZMc96U.themed-Hp1KC_ .toolbar-3_r2xA .iconWrapper-2awDjA[aria-label=Inbox],
-html.platform-win[lang=en-US]:not(.app-focused) body:not(.oldTitleBarEnabled-D8ppJQ) .container-ZMc96U.themed-Hp1KC_ .toolbar-3_r2xA .iconWrapper-2awDjA[aria-label="Pinned Messages"],
-html.platform-win[lang=en-US]:not(.app-focused) body:not(.oldTitleBarEnabled-D8ppJQ) .container-ZMc96U.themed-Hp1KC_ .toolbar-3_r2xA .iconWrapper-2awDjA[aria-label="Add Friends to DM"],
-html.platform-win[lang=en-US]:not(.app-focused) body:not(.oldTitleBarEnabled-D8ppJQ) .container-ZMc96U.themed-Hp1KC_ .toolbar-3_r2xA .iconWrapper-2awDjA[aria-label="New Group DM"],
-html.platform-win[lang=en-US]:not(.app-focused) body:not(.oldTitleBarEnabled-D8ppJQ) .container-ZMc96U.themed-Hp1KC_ .toolbar-3_r2xA .anchor-1MIwyf .iconWrapper-2awDjA {
-  opacity: 0.6;
-}
-
 #app-mount .tooltip-14MtrL,
 #app-mount .subscribeTooltipWrapper-32-Ce8 {
   padding: var(--spacing-third) var(--spacing);
@@ -1020,54 +851,59 @@ html.platform-win[lang=en-US]:not(.app-focused) body:not(.oldTitleBarEnabled-D8p
   color: var(--text-muted);
 }
 
-.userPopout-2j1gM4 .wrapper-1VLyxH {
+.userPopoutOuter-3AVBmJ .wrapper-1VLyxH {
   z-index: 1;
 }
-.userPopout-2j1gM4 .wrapper-1VLyxH svg:not(:root) {
+.userPopoutOuter-3AVBmJ .wrapper-1VLyxH svg:not(:root) {
   overflow: visible;
 }
-.userPopout-2j1gM4 .wrapper-1VLyxH foreignObject {
+.userPopoutOuter-3AVBmJ .wrapper-1VLyxH circle[fill=black] {
+  cy: 78;
+  cx: 78;
+  r: 12;
+  opacity: 0 !important;
+}
+.userPopoutOuter-3AVBmJ .wrapper-1VLyxH foreignObject {
   -webkit-mask: none;
           mask: none;
   overflow: visible;
 }
-.userPopout-2j1gM4 .wrapper-1VLyxH foreignObject:not([mask*=mobile]):after {
+.userPopoutOuter-3AVBmJ .wrapper-1VLyxH foreignObject:not([mask*=mobile]):after {
   content: none;
 }
-.userPopout-2j1gM4 .wrapper-1VLyxH .mask-1FEkla > rect[x="22"] {
+.userPopoutOuter-3AVBmJ .wrapper-1VLyxH .mask-1FEkla > rect[x="22"] {
   x: 0;
   y: 0;
 }
-.userPopout-2j1gM4 .wrapper-1VLyxH .cursorDefault--wfhy5 rect {
+.userPopoutOuter-3AVBmJ .wrapper-1VLyxH .cursorDefault--wfhy5 rect {
   x: 20;
   y: 16;
 }
-.userPopout-2j1gM4 .wrapper-1VLyxH .pointerEvents-9SZWKj[x="14.5"] {
+.userPopoutOuter-3AVBmJ .wrapper-1VLyxH .pointerEvents-9SZWKj[x="14.5"] {
   fill: rgba(0, 0, 0, 0.5) !important;
   width: 30px;
   height: 30px;
   x: 1;
   y: 1;
 }
-.userPopout-2j1gM4 .wrapper-1VLyxH img {
+.userPopoutOuter-3AVBmJ .wrapper-1VLyxH img {
   border-radius: var(--rs-avatar-shape);
 }
-.userPopout-2j1gM4 .wrapper-1VLyxH svg[width="25"][height="15"] > rect {
+.userPopoutOuter-3AVBmJ .wrapper-1VLyxH svg[width="25"][height="15"] > rect {
   rx: calc(var(--rs-avatar-shape) * 2) !important;
   ry: calc(var(--rs-avatar-shape) * 2) !important;
 }
-.userPopout-2j1gM4 .wrapper-1VLyxH rect {
+.userPopoutOuter-3AVBmJ .wrapper-1VLyxH rect {
   width: 20px;
   height: 20px;
   x: calc(var(--avatar-size-xl) + 4px);
   y: calc(var(--avatar-size-xl) + 4px);
 }
-.userPopout-2j1gM4 .avatarHint-k7pYop foreignObject {
+.userPopoutOuter-3AVBmJ .avatarHint-2g3Mcd foreignObject {
   -webkit-mask: none;
           mask: none;
 }
-.userPopout-2j1gM4 .avatarHint-k7pYop .avatarHintInner-2HUAWj {
-  border-radius: var(--rs-avatar-shape) !important;
+.userPopoutOuter-3AVBmJ .avatarHint-2g3Mcd .avatarHintInner-3gk_Yx {
   padding-top: 0;
   font-size: 0;
   white-space: normal;
@@ -1077,7 +913,7 @@ html.platform-win[lang=en-US]:not(.app-focused) body:not(.oldTitleBarEnabled-D8p
   cursor: var(--cursor);
   transition: none;
 }
-.userPopout-2j1gM4 .avatarHint-k7pYop .avatarHintInner-2HUAWj::after {
+.userPopoutOuter-3AVBmJ .avatarHint-2g3Mcd .avatarHintInner-3gk_Yx::after {
   content: "";
   position: absolute;
   top: 0;
@@ -1089,28 +925,28 @@ html.platform-win[lang=en-US]:not(.app-focused) body:not(.oldTitleBarEnabled-D8p
   -webkit-mask: url('data:image/svg+xml; utf-8,<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" class="octicon" height="64" role="img" viewBox="0 0 12 16" width="48" style="display:inline-block;fill:var(--text-muted);user-select:none;vertical-align:middle"><path fill-rule="evenodd" d="M12 14.002a.998.998 0 0 1-.998.998H1.001A1 1 0 0 1 0 13.999V13c0-2.633 4-4 4-4s.229-.409 0-1c-.841-.62-.944-1.59-1-4 .173-2.413 1.867-3 3-3s2.827.586 3 3c-.056 2.41-.159 3.38-1 4-.229.59 0 1 0 1s4 1.367 4 4v1.002z"/></svg>') center/18px no-repeat;
           mask: url('data:image/svg+xml; utf-8,<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" class="octicon" height="64" role="img" viewBox="0 0 12 16" width="48" style="display:inline-block;fill:var(--text-muted);user-select:none;vertical-align:middle"><path fill-rule="evenodd" d="M12 14.002a.998.998 0 0 1-.998.998H1.001A1 1 0 0 1 0 13.999V13c0-2.633 4-4 4-4s.229-.409 0-1c-.841-.62-.944-1.59-1-4 .173-2.413 1.867-3 3-3s2.827.586 3 3c-.056 2.41-.159 3.38-1 4-.229.59 0 1 0 1s4 1.367 4 4v1.002z"/></svg>') center/18px no-repeat;
 }
-.userPopout-2j1gM4 .message-1PNnaP .mask-1FEkla img {
+.userPopoutOuter-3AVBmJ .message-1PNnaP .mask-1FEkla img {
   -webkit-clip-path: circle(calc(19px - var(--rs-small-spacing)));
           clip-path: circle(calc(19px - var(--rs-small-spacing)));
 }
-.userPopout-2j1gM4 .memberOffline-2lN7gt img {
+.userPopoutOuter-3AVBmJ .memberOffline-2lN7gt img {
   -webkit-clip-path: none !important;
           clip-path: none !important;
 }
-.userPopout-2j1gM4 .header-QKLPzZ .wrapper-1VLyxH {
+.userPopoutOuter-3AVBmJ .header-QKLPzZ .wrapper-1VLyxH {
   margin-right: 20px !important;
 }
-.userPopout-2j1gM4 .offline-22aM7E img {
+.userPopoutOuter-3AVBmJ .offline-22aM7E img {
   -webkit-clip-path: none !important;
           clip-path: none !important;
 }
-.userPopout-2j1gM4 foreignObject[mask*=mobile][width="32"] img {
+.userPopoutOuter-3AVBmJ foreignObject[mask*=mobile][width="32"] img {
   width: 32px;
 }
-.userPopout-2j1gM4 foreignObject[mask*=mobile][width="80"] img {
+.userPopoutOuter-3AVBmJ foreignObject[mask*=mobile][width="80"] img {
   width: 80px;
 }
-.userPopout-2j1gM4 foreignObject[mask*=mobile] + rect[mask*=mobile] {
+.userPopoutOuter-3AVBmJ foreignObject[mask*=mobile] + rect[mask*=mobile] {
   height: 30px;
   y: var(--avatar-size-xl);
 }
@@ -1240,7 +1076,8 @@ html.platform-win[lang=en-US]:not(.app-focused) body:not(.oldTitleBarEnabled-D8p
 #app-mount .templatesList-uohY49::-webkit-scrollbar,
 #app-mount .autocompleteScroller-3L6kmy::-webkit-scrollbar,
 #app-mount .keybindGroup-39HP2U::-webkit-scrollbar,
-#app-mount .regionSelectModalOptions-2TWQOB::-webkit-scrollbar {
+#app-mount .regionSelectModalOptions-2TWQOB::-webkit-scrollbar,
+#app-mount .scroller-1jBQYo::-webkit-scrollbar {
   width: 4px;
   display: none;
   background: transparent !important;
@@ -1258,7 +1095,8 @@ html.platform-win[lang=en-US]:not(.app-focused) body:not(.oldTitleBarEnabled-D8p
 #app-mount .templatesList-uohY49::-webkit-scrollbar-track,
 #app-mount .autocompleteScroller-3L6kmy::-webkit-scrollbar-track,
 #app-mount .keybindGroup-39HP2U::-webkit-scrollbar-track,
-#app-mount .regionSelectModalOptions-2TWQOB::-webkit-scrollbar-track {
+#app-mount .regionSelectModalOptions-2TWQOB::-webkit-scrollbar-track,
+#app-mount .scroller-1jBQYo::-webkit-scrollbar-track {
   margin: 0;
 }
 #app-mount .messagesPopout-eVzQcI::-webkit-scrollbar-track-piece,
@@ -1274,7 +1112,8 @@ html.platform-win[lang=en-US]:not(.app-focused) body:not(.oldTitleBarEnabled-D8p
 #app-mount .templatesList-uohY49::-webkit-scrollbar-track-piece,
 #app-mount .autocompleteScroller-3L6kmy::-webkit-scrollbar-track-piece,
 #app-mount .keybindGroup-39HP2U::-webkit-scrollbar-track-piece,
-#app-mount .regionSelectModalOptions-2TWQOB::-webkit-scrollbar-track-piece {
+#app-mount .regionSelectModalOptions-2TWQOB::-webkit-scrollbar-track-piece,
+#app-mount .scroller-1jBQYo::-webkit-scrollbar-track-piece {
   background: transparent;
   border-color: transparent;
 }
@@ -1291,7 +1130,8 @@ html.platform-win[lang=en-US]:not(.app-focused) body:not(.oldTitleBarEnabled-D8p
 #app-mount .templatesList-uohY49::-webkit-scrollbar-thumb,
 #app-mount .autocompleteScroller-3L6kmy::-webkit-scrollbar-thumb,
 #app-mount .keybindGroup-39HP2U::-webkit-scrollbar-thumb,
-#app-mount .regionSelectModalOptions-2TWQOB::-webkit-scrollbar-thumb {
+#app-mount .regionSelectModalOptions-2TWQOB::-webkit-scrollbar-thumb,
+#app-mount .scroller-1jBQYo::-webkit-scrollbar-thumb {
   background-color: var(--scrollbar-background);
   border-radius: 0;
   border-radius: var(--border-radius);
@@ -1310,7 +1150,8 @@ html.platform-win[lang=en-US]:not(.app-focused) body:not(.oldTitleBarEnabled-D8p
 #app-mount .templatesList-uohY49::-webkit-scrollbar-thumb:hover,
 #app-mount .autocompleteScroller-3L6kmy::-webkit-scrollbar-thumb:hover,
 #app-mount .keybindGroup-39HP2U::-webkit-scrollbar-thumb:hover,
-#app-mount .regionSelectModalOptions-2TWQOB::-webkit-scrollbar-thumb:hover {
+#app-mount .regionSelectModalOptions-2TWQOB::-webkit-scrollbar-thumb:hover,
+#app-mount .scroller-1jBQYo::-webkit-scrollbar-thumb:hover {
   background-color: var(--scrollbar-background-hover);
 }
 #app-mount .messagesPopout-eVzQcI::-webkit-scrollbar-thumb:active,
@@ -1326,7 +1167,8 @@ html.platform-win[lang=en-US]:not(.app-focused) body:not(.oldTitleBarEnabled-D8p
 #app-mount .templatesList-uohY49::-webkit-scrollbar-thumb:active,
 #app-mount .autocompleteScroller-3L6kmy::-webkit-scrollbar-thumb:active,
 #app-mount .keybindGroup-39HP2U::-webkit-scrollbar-thumb:active,
-#app-mount .regionSelectModalOptions-2TWQOB::-webkit-scrollbar-thumb:active {
+#app-mount .regionSelectModalOptions-2TWQOB::-webkit-scrollbar-thumb:active,
+#app-mount .scroller-1jBQYo::-webkit-scrollbar-thumb:active {
   background-color: var(--scrollbar-background-active);
 }
 #app-mount .messagesPopout-eVzQcI::-webkit-scrollbar-button, #app-mount .messagesPopout-eVzQcI::-webkit-scrollbar-corner,
@@ -1355,7 +1197,9 @@ html.platform-win[lang=en-US]:not(.app-focused) body:not(.oldTitleBarEnabled-D8p
 #app-mount .keybindGroup-39HP2U::-webkit-scrollbar-button,
 #app-mount .keybindGroup-39HP2U::-webkit-scrollbar-corner,
 #app-mount .regionSelectModalOptions-2TWQOB::-webkit-scrollbar-button,
-#app-mount .regionSelectModalOptions-2TWQOB::-webkit-scrollbar-corner {
+#app-mount .regionSelectModalOptions-2TWQOB::-webkit-scrollbar-corner,
+#app-mount .scroller-1jBQYo::-webkit-scrollbar-button,
+#app-mount .scroller-1jBQYo::-webkit-scrollbar-corner {
   display: none !important;
 }
 #app-mount .messagesPopout-eVzQcI:hover,
@@ -1371,7 +1215,8 @@ html.platform-win[lang=en-US]:not(.app-focused) body:not(.oldTitleBarEnabled-D8p
 #app-mount .templatesList-uohY49:hover,
 #app-mount .autocompleteScroller-3L6kmy:hover,
 #app-mount .keybindGroup-39HP2U:hover,
-#app-mount .regionSelectModalOptions-2TWQOB:hover {
+#app-mount .regionSelectModalOptions-2TWQOB:hover,
+#app-mount .scroller-1jBQYo:hover {
   overflow: overlay !important;
 }
 #app-mount .messagesPopout-eVzQcI:hover::-webkit-scrollbar,
@@ -1387,7 +1232,8 @@ html.platform-win[lang=en-US]:not(.app-focused) body:not(.oldTitleBarEnabled-D8p
 #app-mount .templatesList-uohY49:hover::-webkit-scrollbar,
 #app-mount .autocompleteScroller-3L6kmy:hover::-webkit-scrollbar,
 #app-mount .keybindGroup-39HP2U:hover::-webkit-scrollbar,
-#app-mount .regionSelectModalOptions-2TWQOB:hover::-webkit-scrollbar {
+#app-mount .regionSelectModalOptions-2TWQOB:hover::-webkit-scrollbar,
+#app-mount .scroller-1jBQYo:hover::-webkit-scrollbar {
   display: block;
 }
 
@@ -7009,20 +6855,41 @@ html.theme-light #app-mount .wrapper-25sY58 .qrLogin-1ejtpI .startOverButton-1G3
   margin-left: 0;
 }
 
-#app-mount .userPopout-2j1gM4 {
+#app-mount .userPopoutOuter-3AVBmJ {
+  border: 1px solid var(--base-border);
   box-shadow: var(--elevation-1);
   border-radius: var(--border-radius);
-  border: 1px solid var(--base-border);
-  background: var(--background);
-  overflow: hidden;
-  transform: translateZ(0) !important;
+  padding: 0;
 }
-#app-mount .userPopout-2j1gM4 .bodyTitle-2Az3VQ,
-#app-mount .userPopout-2j1gM4 .headerText-3g1XK9,
-#app-mount .userPopout-2j1gM4 .aboutMeTitle-3pjiS7 {
+#app-mount .userPopoutOuter-3AVBmJ .avatarWrapper-3y0KZ1 {
+  border-radius: 0;
+}
+#app-mount .userPopoutOuter-3AVBmJ .bannerSVGWrapper-qc0szY foreignObject {
+  -webkit-mask: none;
+          mask: none;
+}
+#app-mount .userPopoutInner-1hXSeY {
+  background: var(--background);
+}
+#app-mount .userPopoutInner-1hXSeY::before {
+  content: none;
+}
+#app-mount .overlayBackground-1KgwVi {
+  background: transparent;
+  margin: 0;
+}
+#app-mount .avatarWrapper-3y0KZ1 {
+  left: var(--spacing);
+}
+#app-mount .section-3FmfOT {
+  padding: 0;
+  position: relative;
+}
+#app-mount .section-3FmfOT > .title-1r9MQ6 {
   color: var(--text-normal);
   font-weight: var(--font-weight-semibold);
   font-size: var(--font-size);
+  margin-bottom: 0;
   padding: 0 var(--spacing);
   text-transform: none;
   background: var(--background-light);
@@ -7034,188 +6901,20 @@ html.theme-light #app-mount .wrapper-25sY58 .qrLogin-1ejtpI .startOverButton-1G3
   align-items: center;
   width: 100%;
 }
-#app-mount .userPopout-2j1gM4 .headerNormal-3Zn_yu {
-  background: transparent;
+#app-mount .section-3FmfOT:not(.section--1D3ev) > :not(.title-1r9MQ6) {
+  padding: var(--spacing);
 }
-#app-mount .userPopout-2j1gM4 .headerTop-3GPUSF {
-  background: transparent;
-  border: none;
-  padding: calc(var(--spacing-triple) + var(--spacing)) var(--spacing) var(--spacing);
-}
-#app-mount .userPopout-2j1gM4 .banner-1YaD3N {
-  border-bottom: 1px solid var(--base-border);
-}
-#app-mount .userPopout-2j1gM4 .nickname-t08Mck {
-  font-size: var(--font-size-md);
-  color: var(--text-focus);
-}
-#app-mount .userPopout-2j1gM4 .headerTagNoNickname-3tGHj6 {
-  font-size: var(--font-size-md);
-  line-height: normal;
-}
-#app-mount .userPopout-2j1gM4 .headerTagWithNickname-1U8zZH {
-  font-size: var(--font-size);
-  color: var(--text-normal);
-}
-#app-mount .userPopout-2j1gM4 .discrimBase-1VOoau {
-  top: 0;
-}
-#app-mount .userPopout-2j1gM4 .profileBadges-2pItdR {
-  right: var(--spacing);
-  top: var(--spacing);
-}
-#app-mount .userPopout-2j1gM4 .profileBadges-2pItdR > div {
-  margin: 0 var(--spacing) 0 0;
-}
-#app-mount .userPopout-2j1gM4 .customStatus-3XAoF9 {
-  font-size: var(--font-size);
-  align-items: center;
-  padding: 0 var(--spacing);
-}
-#app-mount .userPopout-2j1gM4 .setIdentityLink-hOFsMl {
+#app-mount .divider-1tWBgZ {
   display: none;
 }
-#app-mount .userPopout-2j1gM4 .aboutMeSection-PUghFQ {
-  padding: 0;
-  margin-bottom: 0;
-}
-#app-mount .userPopout-2j1gM4 .aboutMeBody-1J8rhz {
-  padding: 0 var(--spacing) var(--spacing);
-}
-#app-mount .userPopout-2j1gM4 .clamped-2ZePhX {
-  display: block;
-}
-#app-mount .userPopout-2j1gM4 .avatarPositionNormal-2jWoC2 {
-  top: 25px;
-  left: var(--spacing);
-}
-#app-mount .userPopout-2j1gM4 .avatarPositionPremium-1zPBq9 {
-  top: 85px;
-  left: var(--spacing);
-}
-#app-mount .userPopout-2j1gM4 .avatar-2Vndt_ {
-  background: var(--background);
-  box-shadow: none;
-  border: 1px solid var(--base-border);
-  width: var(--avatar-size-xl) !important;
-  height: var(--avatar-size-xl) !important;
-  border-radius: calc(var(--avatar-radius) * 2);
-}
-#app-mount .userPopout-2j1gM4 .avatar-2Vndt_ img {
-  border-radius: calc(var(--avatar-radius) * 2);
-}
-#app-mount .userPopout-2j1gM4 .avatarHint-k7pYop {
-  top: 1px;
-  left: 1px;
-  z-index: 1;
-}
-#app-mount .userPopout-2j1gM4 .avatarHint-k7pYop foreignObject {
-  -webkit-mask: none;
-          mask: none;
-  width: var(--avatar-size-xl);
-  height: var(--avatar-size-xl);
-}
-#app-mount .userPopout-2j1gM4 .activity-1gTu-L {
-  padding: 0;
-}
-#app-mount .userPopout-2j1gM4 .body-u1Y8uL {
-  padding: 0 var(--spacing) var(--spacing);
-  position: relative;
-  z-index: 1;
-}
-#app-mount .userPopout-2j1gM4 .content-tXPNDw {
-  margin-left: var(--spacing);
-}
-#app-mount .userPopout-2j1gM4 .assetsLargeImageUserPopout-pY2WJv,
-#app-mount .userPopout-2j1gM4 .assetsLargeImage-8U5dlz {
-  width: 50px;
-  height: 50px;
-}
-#app-mount .userPopout-2j1gM4 .textRow-1sENuL {
-  font-size: var(--font-size);
-  line-height: normal;
-}
-#app-mount .userPopout-2j1gM4 .activityName-3YXl6e,
-#app-mount .userPopout-2j1gM4 .nameNormal-2fPMD2,
-#app-mount .userPopout-2j1gM4 .nameWrap-3TyM52 {
-  font-size: var(--font-size);
-}
-#app-mount .userPopout-2j1gM4 .buttonsWrapper-2ARRp1 {
-  margin-top: 0;
-  padding: 0 var(--spacing) var(--spacing);
-  gap: 12px;
-}
-#app-mount .userPopout-2j1gM4 .buttonsWrapper-2ARRp1 > .button-TGAkj4 {
-  margin: 0;
-}
-#app-mount .userPopout-2j1gM4 .buttonsWrapper-2ARRp1 .buttonSize-dIiz43 {
-  height: var(--input-height);
-  min-height: var(--input-height);
-}
-#app-mount .userPopout-2j1gM4 .buttonsWrapper-2ARRp1:empty {
-  padding: 0;
-}
-#app-mount .userPopout-2j1gM4 .button-TGAkj4.iconButtonSize-1-pz2t {
-  max-width: unset;
-}
-#app-mount .userPopout-2j1gM4 .button-TGAkj4.iconButtonSize-1-pz2t .contents-3ca1mk {
-  display: flex;
-}
-#app-mount .userPopout-2j1gM4 .connections-pPr4as {
-  padding: 0 var(--spacing);
-  margin-bottom: 0;
-}
-#app-mount .userPopout-2j1gM4 .spotifyIcon-2J9kSv {
-  top: 6px;
-  right: var(--spacing);
-  height: 15px;
-  width: 15px;
-}
-#app-mount .userPopout-2j1gM4 .timeBarUserPopout-qLXZaR {
-  margin-top: 0;
-  pointer-events: none;
-}
-#app-mount .userPopout-2j1gM4 .timeBarUserPopout-qLXZaR .flex-2S1XBF {
-  padding: 0 var(--spacing) var(--spacing);
-  position: relative;
-  z-index: 1;
-}
-#app-mount .userPopout-2j1gM4 .bar-1GpknY {
-  position: absolute;
-  inset: 0;
-  margin-bottom: 0;
-  height: 100%;
-  background: rgb(var(--discord-spotify), 0.1);
-  top: calc(var(--spacing) + 18px);
-  height: calc(100% - (var(--spacing) + 18px));
-}
-#app-mount .userPopout-2j1gM4 .barInner-3dHef4 {
-  border-radius: 0;
-  background: rgb(var(--discord-spotify), 0.4);
-}
-#app-mount .userPopout-2j1gM4 .body-2wLx-E {
-  background: transparent;
-  padding: 0;
-}
-#app-mount .userPopout-2j1gM4 .body-2wLx-E::-webkit-scrollbar {
-  display: none;
-}
-#app-mount .userPopout-2j1gM4 .bodyInnerWrapper-2bQs1k {
-  padding: 0;
-  background: transparent;
-  position: relative;
-}
-#app-mount .userPopout-2j1gM4 .divider-1wtgZ3 {
-  display: none;
-}
-#app-mount .userPopout-2j1gM4 .rolesList-3uZoaa {
+#app-mount .roles-3zC7MX {
   margin: 0;
   padding: 0 var(--spacing) var(--spacing);
   display: flex;
   gap: var(--spacing-half);
 }
-#app-mount .userPopout-2j1gM4 .member-perm,
-#app-mount .userPopout-2j1gM4 .role-2TIOKu {
+#app-mount .member-perm,
+#app-mount .role-2TIOKu {
   border: none;
   position: relative;
   border-radius: 50px;
@@ -7226,26 +6925,31 @@ html.theme-light #app-mount .wrapper-25sY58 .qrLogin-1ejtpI .startOverButton-1G3
   height: 22px;
   background: transparent;
 }
-#app-mount .userPopout-2j1gM4 .member-perm:hover .roleCircle-3K9O3d, #app-mount .userPopout-2j1gM4 .member-perm:active .roleCircle-3K9O3d,
-#app-mount .userPopout-2j1gM4 .role-2TIOKu:hover .roleCircle-3K9O3d,
-#app-mount .userPopout-2j1gM4 .role-2TIOKu:active .roleCircle-3K9O3d {
+#app-mount .member-perm:hover .roleCircle-3K9O3d, #app-mount .member-perm:active .roleCircle-3K9O3d,
+#app-mount .role-2TIOKu:hover .roleCircle-3K9O3d,
+#app-mount .role-2TIOKu:active .roleCircle-3K9O3d {
   opacity: 1;
   box-sizing: border-box;
 }
-#app-mount .userPopout-2j1gM4 .member-perm:hover .roleCircle-3K9O3d .roleRemoveIcon-387wKV, #app-mount .userPopout-2j1gM4 .member-perm:active .roleCircle-3K9O3d .roleRemoveIcon-387wKV,
-#app-mount .userPopout-2j1gM4 .role-2TIOKu:hover .roleCircle-3K9O3d .roleRemoveIcon-387wKV,
-#app-mount .userPopout-2j1gM4 .role-2TIOKu:active .roleCircle-3K9O3d .roleRemoveIcon-387wKV {
+#app-mount .member-perm:hover .roleCircle-3K9O3d .roleRemoveIcon-387wKV, #app-mount .member-perm:active .roleCircle-3K9O3d .roleRemoveIcon-387wKV,
+#app-mount .role-2TIOKu:hover .roleCircle-3K9O3d .roleRemoveIcon-387wKV,
+#app-mount .role-2TIOKu:active .roleCircle-3K9O3d .roleRemoveIcon-387wKV {
   opacity: 1;
 }
-#app-mount .userPopout-2j1gM4 .member-perm .roleRemoveButton-17oXnT,
-#app-mount .userPopout-2j1gM4 .role-2TIOKu .roleRemoveButton-17oXnT {
+#app-mount .member-perm .roleRemoveButton-17oXnT,
+#app-mount .role-2TIOKu .roleRemoveButton-17oXnT {
   position: absolute;
   inset: 0;
 }
-#app-mount .userPopout-2j1gM4 .member-perm .perm-circle,
-#app-mount .userPopout-2j1gM4 .member-perm .roleCircle-3K9O3d,
-#app-mount .userPopout-2j1gM4 .role-2TIOKu .perm-circle,
-#app-mount .userPopout-2j1gM4 .role-2TIOKu .roleCircle-3K9O3d {
+#app-mount .member-perm .roleRemoveButton-17oXnT[aria-hidden=false]:hover ~ .roleName-2ZJJYR,
+#app-mount .role-2TIOKu .roleRemoveButton-17oXnT[aria-hidden=false]:hover ~ .roleName-2ZJJYR {
+  opacity: 0;
+  pointer-events: none;
+}
+#app-mount .member-perm .perm-circle,
+#app-mount .member-perm .roleCircle-3K9O3d,
+#app-mount .role-2TIOKu .perm-circle,
+#app-mount .role-2TIOKu .roleCircle-3K9O3d {
   margin: 0;
   border-radius: var(--border-radius);
   position: absolute;
@@ -7256,10 +6960,10 @@ html.theme-light #app-mount .wrapper-25sY58 .qrLogin-1ejtpI .startOverButton-1G3
   opacity: 0.75;
   filter: none;
 }
-#app-mount .userPopout-2j1gM4 .member-perm .perm-circle .roleRemoveIcon-387wKV,
-#app-mount .userPopout-2j1gM4 .member-perm .roleCircle-3K9O3d .roleRemoveIcon-387wKV,
-#app-mount .userPopout-2j1gM4 .role-2TIOKu .perm-circle .roleRemoveIcon-387wKV,
-#app-mount .userPopout-2j1gM4 .role-2TIOKu .roleCircle-3K9O3d .roleRemoveIcon-387wKV {
+#app-mount .member-perm .perm-circle .roleRemoveIcon-387wKV,
+#app-mount .member-perm .roleCircle-3K9O3d .roleRemoveIcon-387wKV,
+#app-mount .role-2TIOKu .perm-circle .roleRemoveIcon-387wKV,
+#app-mount .role-2TIOKu .roleCircle-3K9O3d .roleRemoveIcon-387wKV {
   position: relative;
   z-index: 10;
   background: inherit;
@@ -7270,18 +6974,18 @@ html.theme-light #app-mount .wrapper-25sY58 .qrLogin-1ejtpI .startOverButton-1G3
   opacity: 0;
   border-radius: 50px;
 }
-#app-mount .userPopout-2j1gM4 .member-perm .perm-circle .roleRemoveIcon-387wKV path,
-#app-mount .userPopout-2j1gM4 .member-perm .roleCircle-3K9O3d .roleRemoveIcon-387wKV path,
-#app-mount .userPopout-2j1gM4 .role-2TIOKu .perm-circle .roleRemoveIcon-387wKV path,
-#app-mount .userPopout-2j1gM4 .role-2TIOKu .roleCircle-3K9O3d .roleRemoveIcon-387wKV path {
+#app-mount .member-perm .perm-circle .roleRemoveIcon-387wKV path,
+#app-mount .member-perm .roleCircle-3K9O3d .roleRemoveIcon-387wKV path,
+#app-mount .role-2TIOKu .perm-circle .roleRemoveIcon-387wKV path,
+#app-mount .role-2TIOKu .roleCircle-3K9O3d .roleRemoveIcon-387wKV path {
   fill: var(--white);
   transform: scale(0.75);
   transform-origin: center;
 }
-#app-mount .userPopout-2j1gM4 .member-perm .member-perm .name,
-#app-mount .userPopout-2j1gM4 .member-perm .roleName-2ZJJYR,
-#app-mount .userPopout-2j1gM4 .role-2TIOKu .member-perm .name,
-#app-mount .userPopout-2j1gM4 .role-2TIOKu .roleName-2ZJJYR {
+#app-mount .member-perm .member-perm .name,
+#app-mount .member-perm .roleName-2ZJJYR,
+#app-mount .role-2TIOKu .member-perm .name,
+#app-mount .role-2TIOKu .roleName-2ZJJYR {
   overflow: hidden;
   line-height: normal;
   position: relative;
@@ -7291,7 +6995,7 @@ html.theme-light #app-mount .wrapper-25sY58 .qrLogin-1ejtpI .startOverButton-1G3
   font-size: var(--font-size-sm);
   font-weight: var(--font-weight-normal);
 }
-#app-mount .userPopout-2j1gM4 .actionButton-1YKTU0 {
+#app-mount .actionButton-1YKTU0 {
   position: absolute;
   top: calc(var(--spacing-triple) / -1 - var(--spacing-half) - 2px);
   right: 0;
@@ -7305,33 +7009,34 @@ html.theme-light #app-mount .wrapper-25sY58 .qrLogin-1ejtpI .startOverButton-1G3
   cursor: var(--cursor);
   height: 26px;
 }
-#app-mount .userPopout-2j1gM4 .actionButton-1YKTU0 .addButtonIcon-3HZ_2f {
+#app-mount .actionButton-1YKTU0 .addButtonIcon-3HZ_2f {
   height: var(--font-size);
   width: var(--font-size);
   cursor: var(--cursor);
 }
-#app-mount .userPopout-2j1gM4 .actionButton-1YKTU0:hover, #app-mount .userPopout-2j1gM4 .actionButton-1YKTU0[aria-expanded=true] {
+#app-mount .actionButton-1YKTU0:hover, #app-mount .actionButton-1YKTU0[aria-expanded=true] {
   color: var(--text-normal);
 }
-#app-mount .userPopout-2j1gM4 .footer-3naVBw {
-  background: transparent;
-  padding: 0;
+#app-mount .section--1D3ev::before {
+  content: "Send Message";
+  color: var(--text-normal);
+  font-weight: var(--font-weight-semibold);
+  font-size: var(--font-size);
+  margin-bottom: 0;
+  padding: 0 var(--spacing);
+  text-transform: none;
+  background: var(--background-light);
+  border-bottom: 1px solid var(--base-border);
+  border-top: 1px solid var(--base-border);
+  height: 28px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  width: 100%;
 }
-#app-mount .userPopout-2j1gM4 .footer-3naVBw .protip-2urNh2 {
-  display: none;
-}
-#app-mount .userPopout-2j1gM4 .footer-3naVBw .inputWrapper-1YNMmM {
-  margin: 0 var(--spacing) var(--spacing);
-}
-#app-mount .userPopout-2j1gM4 .note-Go5ZP2 {
+#app-mount .section--1D3ev .messageInputContainer-2rGDH8 {
   margin: var(--spacing);
-}
-#app-mount .userPopout-2j1gM4[style*="--user-background"] .banner-1YaD3N {
-  height: 120px;
-  background: var(--user-background) center/cover no-repeat;
-}
-#app-mount .userPopout-2j1gM4[style*="--user-background"] .avatarPositionNormal-2jWoC2 {
-  top: 85px;
+  border: none;
 }
 
 #app-mount .messagesPopoutWrap-3zryHW {
@@ -11938,7 +11643,7 @@ body #app-mount #bd-settingspane-container .bd-controls {
 #app-mount .sizeMedium-2Q3COE,
 #app-mount .sizeSmall-syGkV0,
 #app-mount .sizeLarge-D4HafV,
-#app-mount .small-23Atuv:not(.popout-3gby1q):not(.root-8LYsGj) {
+#app-mount .small-23Atuv:not(.popout-3gby1q, .root-g14mjS) {
   min-width: 400px;
   max-width: 600px;
   max-height: 88vh;
@@ -11949,8 +11654,8 @@ body #app-mount #bd-settingspane-container .bd-controls {
 #app-mount .sizeSmall-syGkV0.sizeSmall-syGkV0,
 #app-mount .sizeLarge-D4HafV.small-23Atuv,
 #app-mount .sizeLarge-D4HafV.sizeSmall-syGkV0,
-#app-mount .small-23Atuv:not(.popout-3gby1q):not(.root-8LYsGj).small-23Atuv,
-#app-mount .small-23Atuv:not(.popout-3gby1q):not(.root-8LYsGj).sizeSmall-syGkV0 {
+#app-mount .small-23Atuv:not(.popout-3gby1q, .root-g14mjS).small-23Atuv,
+#app-mount .small-23Atuv:not(.popout-3gby1q, .root-g14mjS).sizeSmall-syGkV0 {
   max-width: 400px;
 }
 #app-mount .modal-2RrUKJ,
