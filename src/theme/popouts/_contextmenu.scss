@@ -1,7 +1,7 @@
 #app-mount {
 	// Native context menus
 	.menu-2TXYjN,
-	.submenu-1apzyU {
+	.submenu-3ycVEH {
 		background: var(--background);
 		box-shadow: var(--elevation-1);
 		border: 1px solid var(--base-border);
@@ -76,6 +76,16 @@
 				color: var(--text-muted);
 				margin-left: var(--spacing);
 			}
+
+			// Fix submenu spacing
+			& + .layer-2BGhQ8 {
+				&[style*='left'] {
+					margin-left: -4px;
+				}
+				&[style*='right'] {
+					margin-right: -4px;
+				}
+			}
 		}
 	}
 
@@ -101,18 +111,6 @@
 		}
 		&:active {
 			background: var(--background-modifier-active);
-		}
-	}
-
-	// Sub menus
-	.submenuContainer-3EVTeH {
-		.layer-2aCOJ3 {
-			&[style*='right'] {
-				margin-right: -4px;
-			}
-			&[style*='left'] {
-				margin-left: -4px;
-			}
 		}
 	}
 }
