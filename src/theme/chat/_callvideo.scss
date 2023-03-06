@@ -51,7 +51,7 @@
 		.quickSelectLabel-ArUyd9 {
 			line-height: normal;
 			text-transform: capitalize;
-			&:after {
+			&::after {
 				content: ':';
 			}
 		}
@@ -196,8 +196,8 @@
 	}
 	.voiceCallWrapper-3UtDiC {
 		padding: 0;
-		.wrapper-3mYmFS.ringingIncoming-fibTw-:after,
-		.wrapper-3mYmFS.ringingOutgoing-1NjfRn:after {
+		.wrapper-3mYmFS.ringingIncoming-fibTw-::after,
+		.wrapper-3mYmFS.ringingOutgoing-1NjfRn::after {
 			border-radius: var(--border-radius);
 			border: 3px solid rgb(var(--accent), 0.25);
 		}

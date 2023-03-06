@@ -68,7 +68,7 @@
 				display: flex;
 				align-items: center;
 				justify-content: space-between;
-				&:after {
+				&::after {
 					content: '';
 					width: 16px;
 					height: 16px;
@@ -124,14 +124,14 @@
 			margin: var(--spacing) 0;
 			height: auto;
 			line-height: normal;
-			&:after {
+			&::after {
 				content: 'Uh oh.';
 				font-size: var(--font-size-xxl);
 				font-weight: var(--font-weight-light);
 				color: var(--text-normal);
 			}
 		}
-		&:before {
+		&::before {
 			content: '';
 			width: 100px;
 			height: 100px;
@@ -139,7 +139,7 @@
 			mask: url(assets.$illustration_1) center/contain no-repeat;
 			margin-bottom: var(--spacing);
 		}
-		&:after {
+		&::after {
 			content: 'There was a problem loading messages for this channel. Make sure you have a stable internet connection, then try agian.';
 			font-size: var(--font-size);
 			color: var(--text-muted);

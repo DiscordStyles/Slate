@@ -37,7 +37,7 @@
 	.divider-3NY7PF {
 		display: none;
 	}
-	&:before {
+	&::before {
 		background: var(--background);
 		border: 1px solid var(--base-border);
 		width: 8px;

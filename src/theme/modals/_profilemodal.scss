@@ -312,7 +312,7 @@
 			flex-grow: 0;
 			border: 1px solid transparent !important;
 			border-right-color: var(--base-border) !important;
-			&:after {
+			&::after {
 				content: '';
 				position: fixed;
 				top: 0;
@@ -341,7 +341,7 @@
 		left: var(--left-side);
 		top: 41px;
 	}
-	.noTabBar-2Q-iE_:after {
+	.noTabBar-2Q-iE_::after {
 		content: 'Your Profile';
 		position: absolute;
 		box-sizing: border-box;
@@ -490,7 +490,7 @@
 			svg {
 				display: none;
 			}
-			&:after {
+			&::after {
 				content: attr(href);
 				width: 100%;
 				white-space: nowrap;
@@ -578,7 +578,7 @@
 		&::-webkit-scrollbar {
 			display: none;
 		}
-		&:before {
+		&::before {
 			content: '';
 			position: absolute;
 			top: calc(var(--banner-height) - 1px);

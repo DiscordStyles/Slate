@@ -12,5 +12,8 @@ export default {
 		output: 'dist/dist'
 	},
 	baseImport: 'https://discordstyles.github.io/Slate/dist/Slate.css',
-	addons: [['./src/addons/_toolbar-actions.scss', 'dist/ToolbarActions.css']]
+	addons: [
+		['./src/addons/_toolbar-actions.scss', 'dist/ToolbarActions.css'],
+		['./src/addons/_serverlist.scss', 'dist/Serverlist.css']
+	]
 };

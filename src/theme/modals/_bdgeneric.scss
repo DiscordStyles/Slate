@@ -59,7 +59,7 @@
 						&:empty {
 							align-items: center;
 							justify-content: center;
-							&:before {
+							&::before {
 								content: '';
 								position: relative;
 								display: flex;
@@ -69,7 +69,7 @@
 								background: var(--text-muted);
 								mask: url(assets.$illustration_7) center/contain no-repeat;
 							}
-							&:after {
+							&::after {
 								content: 'Nothing to see here.';
 								position: relative;
 								margin-top: var(--spacing);

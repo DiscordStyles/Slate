@@ -2,17 +2,17 @@
 
 #app-mount {
 	.sidebar-CFHs9e .item-PXvHYJ {
-		&[aria-controls='Emotes-tab']:before {
+		&[aria-controls='Emotes-tab']::before {
 			mask-image: url(assets.$icon_smiley);
 			mask-size: 14px;
 		}
-		&[aria-controls='plugins-tab']:before {
+		&[aria-controls='plugins-tab']::before {
 			mask-image: url(assets.$icon_plug);
 		}
-		&[aria-controls='themes-tab']:before {
+		&[aria-controls='themes-tab']::before {
 			mask-image: url(assets.$icon_paint-roller);
 		}
-		&[aria-controls='customcss-tab']:before {
+		&[aria-controls='customcss-tab']::before {
 			mask-image: url(assets.$icon_code);
 		}
 		&:hover {
@@ -21,7 +21,7 @@
 		&.selected {
 			color: #fff;
 			background: var(--accent-solid);
-			&:before {
+			&::before {
 				background-color: #fff;
 			}
 		}
@@ -39,7 +39,7 @@
 		height: auto;
 		display: flex;
 		align-items: center;
-		&:after {
+		&::after {
 			content: 'BD Change log';
 			margin-left: var(--spacing);
 		}

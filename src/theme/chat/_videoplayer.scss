@@ -4,7 +4,7 @@
 	.wrapper-1FP9YQ {
 		background: var(--background);
 		border-radius: var(--border-radius);
-		&:after {
+		&::after {
 			content: '';
 			position: absolute;
 			top: 0;
@@ -16,7 +16,7 @@
 			opacity: 0;
 			transition: 250ms linear opacity;
 		}
-		&.wrapperPaused-9B8znP:after {
+		&.wrapperPaused-9B8znP::after {
 			opacity: 1;
 		}
 		&.wrapperControlsHidden-2BK8R2 {
@@ -63,7 +63,7 @@
 		transform: none !important;
 		transition: 150ms linear opacity;
 		background: transparent;
-		&:after {
+		&::after {
 			content: '';
 			left: 0;
 			bottom: 0;
@@ -109,8 +109,8 @@
 						transform: translateY(-50%);
 					}
 					.buffer-3eVqKK,
-					.buffer-3eVqKK:after,
-					.buffer-3eVqKK:before {
+					.buffer-3eVqKK::after,
+					.buffer-3eVqKK::before {
 						background: var(--white);
 						opacity: 0.3;
 					}
@@ -120,8 +120,8 @@
 				background: var(--accent-solid);
 				transition: none;
 			}
-			.fakeEdges-18N907:after,
-			.fakeEdges-18N907:before {
+			.fakeEdges-18N907::after,
+			.fakeEdges-18N907::before {
 				content: none;
 			}
 		}

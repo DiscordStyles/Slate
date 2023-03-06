@@ -33,7 +33,7 @@
 		&[aria-hidden='true'] {
 			display: none;
 		}
-		&:before {
+		&::before {
 			content: none;
 		}
 	}

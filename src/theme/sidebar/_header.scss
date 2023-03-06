@@ -54,7 +54,7 @@
 			color: var(--toolbar-text-normal);
 			user-select: none;
 			line-height: normal;
-			&:before {
+			&::before {
 				display: block;
 				content: var(--i18n-current-server);
 				font-size: var(--font-size-sm);

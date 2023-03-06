@@ -190,8 +190,8 @@
 		border: none;
 		background: var(--text-muted);
 		mask: url(assets.$icon_close) center/contain no-repeat;
-		&:before,
-		&:after {
+		&::before,
+		&::after {
 			content: none;
 		}
 		&:hover,
@@ -648,7 +648,7 @@
 	}
 
 	// Keybinds
-	.card-2ART2V:before {
+	.card-2ART2V::before {
 		content: none;
 	}
 	.ghostPill-2uK4W1 {

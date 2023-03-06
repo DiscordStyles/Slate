@@ -31,7 +31,7 @@
 		background-image: none;
 		&.premiumGuildSubscription-3oKecP {
 			padding-top: var(--spacing);
-			&:before {
+			&::before {
 				content: '';
 				position: relative;
 				display: block;
@@ -44,7 +44,7 @@
 		}
 		&.publicUpsell-31ZSJ8 {
 			padding-top: var(--spacing);
-			&:before {
+			&::before {
 				content: '';
 				position: relative;
 				display: block;
@@ -57,7 +57,7 @@
 		}
 		&.quickswitcher-35bYg4 {
 			padding-top: var(--spacing);
-			&:before {
+			&::before {
 				content: '';
 				position: relative;
 				display: block;
@@ -97,7 +97,7 @@
 		}
 		&.invite-OjTXrW {
 			background-image: none;
-			&:before {
+			&::before {
 				content: '';
 				position: relative;
 				display: block;

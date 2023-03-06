@@ -47,7 +47,7 @@
 			&.compact-2Nkcau {
 				padding-bottom: var(--spacing-compact);
 			}
-			&:before {
+			&::before {
 				background-color: var(--accent-solid);
 			}
 			.mention {
@@ -229,7 +229,7 @@
 			.wrapper-1VLyxH {
 				width: var(--chat-avatar-size) !important;
 				height: var(--chat-avatar-size) !important;
-				foreignObject:after {
+				foreignObject::after {
 					content: none;
 				}
 				img {
@@ -444,7 +444,7 @@
 	.localBot-GrCgVt {
 		background: rgb(var(--accent), 0.1) !important;
 		&.cozyMessage-1DWF9U {
-			&:after {
+			&::after {
 				content: '';
 				border-radius: calc(var(--border-radius) / 1.5);
 				box-shadow: 0 0 0 0.875px var(--base-border);
@@ -463,7 +463,7 @@
 		.avatar-2e8lTP {
 			opacity: 0;
 		}
-		&:before {
+		&::before {
 			background: var(--accent-solid);
 		}
 		.container-2sjPya {
@@ -563,7 +563,7 @@
 		border: 1px solid var(--base-border);
 		padding: 0;
 	}
-	.audioMetadata-1Hrt8T:before {
+	.audioMetadata-1Hrt8T::before {
 		height: 56px;
 		background-position: center;
 		background-size: 24px;
@@ -747,10 +747,10 @@
 		.username-h_Y3Us {
 			margin-right: var(--spacing-half);
 		}
-		&:before {
+		&::before {
 			content: none;
 		}
-		&:after {
+		&::after {
 			content: '';
 			position: absolute;
 			top: -1px;
@@ -824,11 +824,11 @@
 		font-size: var(--chat-font-size-sm);
 		code {
 			font-size: var(--chat-font-size-sm);
-			&:before {
+			&::before {
 				font-size: var(--chat-font-size-sm);
 			}
 		}
-		&:before {
+		&::before {
 			font-size: var(--chat-font-size-sm);
 		}
 	}

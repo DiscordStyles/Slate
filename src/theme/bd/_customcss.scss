@@ -45,8 +45,8 @@
 			display: flex;
 			align-items: center;
 			cursor: var(--cursor);
-			&:after,
-			&:before {
+			&::after,
+			&::before {
 				content: none;
 			}
 			span {

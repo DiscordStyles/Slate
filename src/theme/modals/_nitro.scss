@@ -140,8 +140,8 @@
 					width: 24px;
 					height: 16.5px;
 					box-shadow: none;
-					&:before,
-					&:after {
+					&::before,
+					&::after {
 						border-radius: 0;
 					}
 				}

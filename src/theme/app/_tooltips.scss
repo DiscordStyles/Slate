@@ -1,5 +1,5 @@
 #app-mount {
-	.tooltip-14MtrL,
+	.tooltip-33Jwqe,
 	.subscribeTooltipWrapper-32-Ce8 {
 		padding: var(--spacing-third) var(--spacing);
 		border-radius: var(--border-radius);
@@ -13,7 +13,7 @@
 		transform: none !important;
 		&.subscribeTooltipWrapper-32-Ce8 {
 			padding: var(--spacing);
-			&:after {
+			&::after {
 				margin: 0;
 				margin-left: -5px;
 			}
@@ -33,31 +33,31 @@
 				margin-top: var(--spacing);
 			}
 		}
-		.tooltipContent-Nejnvh {
+		.tooltipContent-38tm3I {
 			padding: 0;
 		}
-		.tooltipPointer-3L49xb,
-		&.subscribeTooltipWrapper-32-Ce8:after {
+		.tooltipPointer-sMBQqe,
+		&.subscribeTooltipWrapper-32-Ce8::after {
 			background: var(--background);
 			border: 1px solid var(--base-border);
 			width: 8px;
 			height: 8px;
 			clip-path: polygon(100% 0, 0% 100%, 0 0);
 		}
-		&.tooltipRight-2TSb42 .tooltipPointer-3L49xb {
+		&.tooltipRight-1UPNyA .tooltipPointer-sMBQqe {
 			transform: rotate(-45deg);
 			margin-right: -5px;
 		}
-		&.tooltipLeft-3H43DQ .tooltipPointer-3L49xb {
+		&.tooltipLeft-3H43DQ .tooltipPointer-sMBQqe {
 			transform: rotate(135deg);
 			margin-left: -5px;
 		}
-		&.tooltipBottom-2WzfVx .tooltipPointer-3L49xb,
-		&.subscribeTooltipWrapper-32-Ce8:after {
+		&.tooltipBottom-1itlv3 .tooltipPointer-sMBQqe,
+		&.subscribeTooltipWrapper-32-Ce8::after {
 			transform: rotate(45deg);
 			margin-bottom: -5px;
 		}
-		&.tooltipTop-1wv5UJ .tooltipPointer-3L49xb {
+		&.tooltipTop-CgYHUZ .tooltipPointer-sMBQqe {
 			transform: rotate(-135deg);
 			margin-top: -5px;
 		}

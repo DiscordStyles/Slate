@@ -17,7 +17,7 @@
 		cursor: var(--cursor);
 	}
 	.avatar-6qzftW {
-		margin-right: var(--spacing);
+		margin-right: var(--spacing-double);
 		width: var(--avatar-size-sm) !important;
 		height: var(--avatar-size-sm) !important;
 	}
@@ -59,7 +59,7 @@
 		svg {
 			display: none;
 		}
-		&:before {
+		&::before {
 			content: '';
 			width: 16px;
 			height: 16px;
@@ -90,7 +90,7 @@
 			background: var(--background-dark);
 		}
 	}
-	&.offline-22aM7E .wrapper-1VLyxH foreignObject:after {
+	&.offline-22aM7E .wrapper-1VLyxH foreignObject::after {
 		content: none;
 	}
 }

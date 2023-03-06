@@ -5,7 +5,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	&:before {
+	&::before {
 		content: '';
 		width: 24px;
 		height: 24px;

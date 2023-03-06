@@ -49,7 +49,7 @@
 	}
 
 	// User drag region
-	.containerUserOver-SDa1HW:after {
+	.containerUserOver-SDa1HW::after {
 		left: 0;
 		border-radius: var(--border-radius);
 		border: 2px solid rgb(var(--status-green));
@@ -124,10 +124,10 @@
 	}
 
 	// Channel Dragging
-	.containerDragAfter-3TEhpe:before,
-	.containerDragBefore-3Dzc5x:before,
-	.containerDragAfter-1F4fgZ:after,
-	.containerDragBefore-31UGCO:before {
+	.containerDragAfter-3TEhpe::before,
+	.containerDragBefore-3Dzc5x::before,
+	.containerDragAfter-1F4fgZ::after,
+	.containerDragBefore-31UGCO::before {
 		left: 0;
 		border-radius: 0;
 		height: 2px;
@@ -208,7 +208,7 @@
 				}
 				&.total-1c5KCN {
 					background: var(--background-alt);
-					&:after {
+					&::after {
 						content: none;
 					}
 				}

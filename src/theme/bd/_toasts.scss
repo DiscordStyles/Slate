@@ -19,7 +19,7 @@
 	color: var(--text-focus) !important;
 	&.icon {
 		padding-left: calc(var(--spacing-double) * 2.5);
-		&:after {
+		&::after {
 			content: '';
 			position: absolute;
 			top: 50%;
@@ -30,26 +30,26 @@
 			mask-position: center;
 			mask-size: cover;
 		}
-		&.toast-info:after {
+		&.toast-info::after {
 			mask-image: url(assets.$icon_info);
 			background: rgb(var(--blue));
 		}
-		&.toast-success:after {
+		&.toast-success::after {
 			mask-image: url(assets.$icon_check-circle);
 			background: rgb(var(--green));
 		}
-		&.toast-warning:after,
-		&.toast-warn:after {
+		&.toast-warning::after,
+		&.toast-warn::after {
 			mask-image: url(assets.$icon_alert);
 			background: rgb(var(--amber));
 		}
-		&.toast-error:after,
-		&.toast-danger:after {
+		&.toast-error::after,
+		&.toast-danger::after {
 			mask-image: url(assets.$icon_cross-circle);
 			background: rgb(var(--red));
 		}
 	}
-	&[class*='toast-']:before {
+	&[class*='toast-']::before {
 		display: block;
 		font-size: var(--font-size-sm);
 		color: var(--text-muted);
@@ -57,27 +57,27 @@
 	}
 	&.toast-info {
 		border-left: 4px solid rgb(var(--blue));
-		&:before {
+		&::before {
 			content: 'Info';
 		}
 	}
 	&.toast-success {
 		border-left: 4px solid rgb(var(--green));
-		&:before {
+		&::before {
 			content: 'Success';
 		}
 	}
 	&.toast-warning,
 	&.toast-warn {
 		border-left: 4px solid rgb(Var(--amber));
-		&:before {
+		&::before {
 			content: 'Warning';
 		}
 	}
 	&.toast-error,
 	&.toast-danger {
 		border-left: 4px solid rgb(Var(--red));
-		&:before {
+		&::before {
 			content: 'Error';
 		}
 	}

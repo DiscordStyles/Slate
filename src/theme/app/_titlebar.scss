@@ -21,7 +21,7 @@
 		svg {
 			display: none;
 		}
-		&:before {
+		&::before {
 			content: '';
 			width: var(--titlebar-height);
 			height: var(--titlebar-height);
@@ -31,7 +31,7 @@
 			background: var(--toolbar-text-muted);
 			-webkit-app-region: drag;
 		}
-		&:after {
+		&::after {
 			content: '';
 			position: fixed;
 			top: 0;
@@ -63,7 +63,7 @@
 		svg {
 			display: none;
 		}
-		&:after {
+		&::after {
 			content: '';
 			width: 10px;
 			height: 10px;
@@ -71,8 +71,8 @@
 			box-shadow: inset 0 0 0 1px var(--toolbar-text-muted);
 			pointer-events: none;
 		}
-		&:active:after,
-		&:hover:after {
+		&:active::after,
+		&:hover::after {
 			box-shadow: inset 0 0 0 1px var(--toolbar-text-normal);
 		}
 	}
@@ -109,7 +109,7 @@
 		position: absolute;
 		left: var(--spacing-half);
 	}
-	&:after {
+	&::after {
 		content: '';
 		width: var(--titlebar-height);
 		height: var(--titlebar-height);
@@ -130,7 +130,7 @@
 
 html:not(.app-focused) body:not(.oldTitleBarEnabled-D8ppJQ) {
 	.wordmarkWindows-2dq6rw::before,
-	.typeMacOS-3V4xXE:after,
+	.typeMacOS-3V4xXE::after,
 	.winButton-3UMjdg {
 		opacity: 0.6;
 	}

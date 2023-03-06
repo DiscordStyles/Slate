@@ -38,7 +38,7 @@
 			color: var(--toolbar-text-muted);
 			padding: 0 var(--spacing-half);
 			line-height: normal;
-			&:before {
+			&::before {
 				content: 'Where would you like to go?';
 				font-size: var(--font-size);
 			}
@@ -97,7 +97,7 @@
 			font-weight: var(--font-weight-bold);
 			color: var(--text-muted);
 		}
-		.selected-3veCBZ {
+		.selected-26oxtA {
 			color: var(--white);
 			background: rgb(var(--accent));
 			.closeButton-mupH76 {
@@ -127,17 +127,17 @@
 	.wrapper-1VLyxH {
 		width: 26px !important;
 		height: 26px !important;
-		&:before {
+		&::before {
 			right: -190px;
 		}
-		&:after {
+		&::after {
 			right: -190px;
 		}
 	}
-	&:hover .wrapper-1VLyxH:before {
+	&:hover .wrapper-1VLyxH::before {
 		background: linear-gradient(90deg, transparent, var(--background-modifier-hover) 50%);
 	}
-	&:active .wrapper-1VLyxH:before {
+	&:active .wrapper-1VLyxH::before {
 		background: linear-gradient(90deg, transparent, var(--background-modifier-active) 50%);
 	}
 

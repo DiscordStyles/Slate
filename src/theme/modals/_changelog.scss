@@ -31,7 +31,7 @@
 			strong {
 				color: var(--text-normal);
 			}
-			&:before {
+			&::before {
 				content: none;
 			}
 		}
@@ -50,7 +50,7 @@
 		font-weight: var(--font-weight-bold);
 		margin-top: var(--spacing-double);
 		margin-bottom: var(--spacing-half);
-		&:after {
+		&::after {
 			content: none;
 		}
 		&.marginTop-2incQ6 {

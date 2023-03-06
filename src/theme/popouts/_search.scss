@@ -12,7 +12,7 @@
 		align-items: center;
 		justify-content: center;
 		padding: var(--spacing);
-		&:after {
+		&::after {
 			content: '';
 			width: 72px;
 			height: 72px;
@@ -120,18 +120,18 @@
 			font-size: var(--font-size);
 			border-radius: 0;
 			cursor: var(--cursor);
-			&:after {
+			&::after {
 				background: none;
 			}
 			&.selected-rZcOL- {
 				background: var(--background-modifier-hover);
-				&:after {
+				&::after {
 					background: linear-gradient(90deg, transparent, var(--background-modifier-hover));
 				}
 			}
 			&:active {
 				background: var(--background-modifier-active);
-				&:after {
+				&::after {
 					background: linear-gradient(90deg, transparent, var(--background-modifier-active));
 				}
 			}

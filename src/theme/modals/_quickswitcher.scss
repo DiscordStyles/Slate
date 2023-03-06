@@ -169,7 +169,7 @@
 			font-size: var(--font-size);
 			font-weight: var(--font-weight-normal);
 		}
-		&:before {
+		&::before {
 			content: '';
 			width: 280px;
 			height: 140px;

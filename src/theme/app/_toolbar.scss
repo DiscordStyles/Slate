@@ -65,7 +65,7 @@
 			user-select: none;
 			line-height: normal;
 			flex: 1;
-			&:before {
+			&::before {
 				display: block;
 				content: var(--i18n-current-channel);
 				font-size: var(--font-size-sm);
@@ -112,7 +112,7 @@
 			opacity: 0;
 			pointer-events: none;
 			transition: 100ms ease opacity;
-			&:after {
+			&::after {
 				content: '';
 				width: 10px;
 				height: 10px;
@@ -137,7 +137,7 @@
 			background: var(--toolbar-background);
 			pointer-events: none;
 		}
-		&:after {
+		&::after {
 			content: none;
 		}
 	}

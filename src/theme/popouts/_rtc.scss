@@ -3,12 +3,12 @@
 	position: fixed !important;
 	top: 0 !important;
 	left: 0 !important;
-	position: fixed;
-	top: 0;
-	left: 0;
+	position: fixed !important;
+	top: 0 !important;
+	left: 0 !important;
 	transform: none !important;
 	transition: none !important;
-	&:before {
+	&::before {
 		content: '';
 		position: fixed;
 		top: 0;

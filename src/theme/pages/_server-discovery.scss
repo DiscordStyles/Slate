@@ -45,7 +45,7 @@
 		.mainHeader-1i17pL {
 			display: none;
 		}
-		.body-2lagau:before {
+		.body-2lagau::before {
 			content: '';
 			height: var(--toolbar-height);
 			background: var(--toolbar-background);

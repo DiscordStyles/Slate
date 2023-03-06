@@ -325,7 +325,7 @@
 		&:last-child {
 			border-radius: 0 0 var(--border-radius) var(--border-radius);
 		}
-		&:before {
+		&::before {
 			content: none;
 		}
 		.emojiRemove-1k6MlJ {
@@ -528,7 +528,7 @@
 		margin-top: var(--spacing);
 		border: 1px solid var(--base-border);
 		border-radius: var(--border-radius);
-		&:before {
+		&::before {
 			content: none;
 		}
 	}

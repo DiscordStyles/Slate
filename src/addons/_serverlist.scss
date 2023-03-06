@@ -1,0 +1,80 @@
+:root {
+	--icon: var(--server-icon-size, var(--ASW_size, 35px));
+	--container: calc(var(--icon) + calc(var(--server-container-padding) * 2));
+}
+
+.guilds-2JjMmN {
+	width: var(--container);
+	.scrollerWrap-1IAIlv {
+		width: calc(100% + 30px);
+	}
+	[role='group'] {
+		height: auto !important;
+	}
+	.placeholderMask-3K9THS {
+		width: var(--icon);
+		height: var(--icon);
+	}
+	.listItem-3SmSlK {
+		width: var(--container);
+		margin-bottom: var(--server-icon-spacing);
+	}
+	.scrollerBase-1Pkza4 > div[style]:not(.listItem-3SmSlK):not([style*='absolute']) {
+		height: calc(var(--icon) + var(--server-icon-spacing)) !important;
+	}
+	[class*='pill'] {
+		height: calc(var(--icon) - 8px);
+		top: 50%;
+		transform: translateY(-50%);
+		span {
+			height: 100% !important;
+			transition: 0.1s ease !important;
+			transform: scale(1, 0) !important;
+			// Unread
+			@for $i from 0 through 8 {
+				&[style*='height: #{$i}'] {
+					transform: scale(1, 0.25) !important;
+				}
+			}
+			// Hovered
+			@for $i from 9 through 20 {
+				&[style*='height: #{$i}'] {
+					transform: scale(1, 0.5) !important;
+				}
+			}
+			// Selected
+			@for $i from 21 through 40 {
+				&[style*='height: #{$i}'] {
+					transform: scale(1, 1) !important;
+				}
+			}
+		}
+	}
+	[class*='unreadMentionsIndicator'] {
+		width: 100%;
+	}
+	.guildsError-b7zR5H,
+	.svg-2ifYOU,
+	.wrapper-2PSQCG {
+		width: var(--icon);
+		height: var(--icon);
+	}
+	.iconBadge-2NuvG9 {
+		border-radius: 50%;
+		height: calc(var(--icon) / 3);
+		width: calc(var(--icon) / 3);
+	}
+	// Folders
+	.wrapper-38slSD {
+		width: var(--container);
+		.folder-241Joy,
+		.folderIconWrapper-1oRIZr {
+			background: transparent;
+		}
+		.expandedFolderBackground-1kSAf6 {
+			left: 50%;
+			transform: translateX(-50%);
+			width: var(--server-icon-size);
+		}
+	}
+}

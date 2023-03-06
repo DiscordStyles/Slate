@@ -51,7 +51,7 @@
 				color: var(--text-normal);
 				font-weight: var(--font-weight-normal);
 				width: 500px;
-				&:after {
+				&::after {
 					line-height: 1.5;
 					content: 'Discord encountered a unexpected error that caused it to crash. If this is your first time seeing this screen, reload the app. If you continue seeing this after reloading, uninstall and reinstall Discord. If the issue still persists, consider contacting support.';
 				}

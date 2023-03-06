@@ -1,152 +1,23 @@
 @use '../assets';
+#app-mount .wrapper-3Un6-K {
+	border-radius: 0;
 
-.userPopoutOuter-3AVBmJ {
-	.wrapper-1VLyxH {
-		z-index: 1;
-		svg:not(:root) {
-			overflow: visible;
-		}
-		circle[fill='black'] {
-			cy: 78;
-			cx: 78;
-			r: 12;
-			opacity: 0 !important;
-		}
-		foreignObject {
-			mask: none;
-			overflow: visible;
-			&:not([mask*='mobile']):after {
-				content: none;
-			}
-		}
-		.mask-1FEkla > rect[x='22'] {
-			x: 0;
-			y: 0;
-		}
-		.cursorDefault--wfhy5 rect {
-			x: 20;
-			y: 16;
-		}
-		.pointerEvents-9SZWKj[x='14.5'] {
-			fill: rgb(0, 0, 0, 0.5) !important;
-			width: 30px;
-			height: 30px;
-			x: 1;
-			y: 1;
-		}
-		img {
-			border-radius: var(--rs-avatar-shape);
-		}
-		svg[width='25'][height='15'] > rect {
-			rx: calc(var(--rs-avatar-shape) * 2) !important;
-			ry: calc(var(--rs-avatar-shape) * 2) !important;
-		}
-		rect {
-			width: 20px;
-			height: 20px;
-			x: calc(var(--avatar-size-xl) + 4px);
-			y: calc(var(--avatar-size-xl) + 4px);
-		}
-	}
-	.avatarHint-2g3Mcd {
-		foreignObject {
-			mask: none;
-		}
-		.avatarHintInner-3gk_Yx {
-			padding-top: 0;
-			font-size: 0;
-			white-space: normal;
-			text-align: center;
-			box-shadow: none;
-			background: rgb(0, 0, 0, 0.5);
-			cursor: var(--cursor);
-			transition: none;
-			&::after {
-				content: '';
-				position: absolute;
-				top: 0;
-				left: 0;
-				width: 100%;
-				height: 100%;
-				position: relative;
-				background: var(--white);
-				mask: url(assets.$icon_person) center/18px no-repeat;
-			}
-		}
-	}
-	.message-1PNnaP .mask-1FEkla img {
-		clip-path: circle(calc(19px - var(--rs-small-spacing)));
-	}
-	.memberOffline-2lN7gt img {
-		clip-path: none !important;
-	}
-	.header-QKLPzZ .wrapper-1VLyxH {
-		margin-right: 20px !important;
-	}
-	// Offline
-	.offline-22aM7E img {
-		clip-path: none !important;
-	}
-
-	// Mobile
-	foreignObject[mask*='mobile'] {
-		&[width='32'] img {
-			width: 32px;
-		}
-		&[width='80'] img {
-			width: 80px;
-		}
-		& + rect[mask*='mobile'] {
-			height: 30px;
-			y: var(--avatar-size-xl);
-		}
-	}
-}
-
-// Standard Dot Status
-.wrapper-1VLyxH {
-	border-radius: calc(var(--avatar-radius) / 2);
-	box-shadow: 0 0 0 1px var(--base-border);
-	background: var(--background-dark);
-	.avatar-b5OQ1N {
-		&[src*='/assets/'] {
-			content: url(assets.$blank);
-			border-radius: 0;
-			background: var(--text-muted);
-			mask: url(assets.$icon_person) center/42% no-repeat;
-		}
-		&:before {
-			content: none;
-		}
-		&[src*='/assets/e1fb24a120bdd003a84e021b16ec3bef.png'],
-		&[src*='/assets/861ab526aa1fabb04c6b7da8074e3e21.png'],
-		&[src*='/assets/b8912961ea6ab32f0655d583bbc26b4f.png'],
-		&[src*='/assets/485a854d5171c8dc98088041626e6fea.png'],
-		&[src*='/assets/f810dc5fedb7175c43a3389aa890534f.png'],
-		&[src*='/assets/b3150d5cef84b9e82128a1131684f287.png'] {
-			mask: url(assets.$icon_organization) center/50% no-repeat;
-		}
-	}
 	svg:not(:root) {
 		overflow: visible;
-		&[height='40'] {
-			width: 32px;
-			height: 32px;
-		}
 	}
-	.mask-1FEkla,
+
 	foreignObject {
+		border: 1px solid var(--base-border);
 		mask: none;
-	}
-	img {
 		border-radius: var(--avatar-radius);
+		background: var(--background-dark);
 	}
+
 	rect {
 		x: 100%;
 		y: 100%;
 		stroke: var(--base-border);
 		rx: 50;
-		&[height='15'],
 		&[height='10'] {
 			width: 11px;
 			height: 11px;
@@ -156,6 +27,12 @@
 				height: 18px;
 				y: 17px;
 			}
+		}
+		&[height='15'] {
+			width: 11px;
+			height: 11px;
+			x: 10;
+			y: 7;
 		}
 		&[width='8'] {
 			width: 8px;
@@ -169,6 +46,7 @@
 			fill: rgb(var(--status-green));
 		}
 		&[fill='#faa61a'],
+		&[fill='#f0b232'],
 		&[fill='rgb(250, 166, 26, 1)'],
 		&[mask*='idle'] {
 			fill: rgb(var(--status-yellow));
@@ -196,7 +74,8 @@
 			mask: none;
 		}
 	}
-	.dots-1BwzZQ circle {
+
+	.dots-1k2MxY circle {
 		&:nth-child(1) {
 			cy: -8 !important;
 			cx: -8.5 !important;
@@ -210,25 +89,19 @@
 			cx: 4 !important;
 		}
 	}
-	.cursorDefault--wfhy5 rect {
-		y: 8.5px;
-		x: 10.5px;
-		stroke: var(--base-border);
+
+	.avatarStack-3Bjmsl {
+		overflow: hidden;
 	}
-	rect[fill='transparent'] {
-		stroke: none;
-	}
-	rect[mask*='mobile'] {
-		rx: 2;
-	}
-	// Fix default avatars
-	&[style*='32'] img {
-		height: 32px;
-	}
-	&[style*='80'] img {
-		height: 80px;
-	}
-	&[style*='120'] img {
-		height: 120px;
+
+	// User popout
+	&[style^='width: 80'] {
+		circle {
+			opacity: 0 !important;
+		}
+		rect {
+			x: 70;
+			y: 70;
+		}
 	}
 }

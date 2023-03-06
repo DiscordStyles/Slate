@@ -1,0 +1,15 @@
+#app-mount {
+	.userPanelOuter-xc-WYi {
+		background: var(--background);
+		border-left: 1px solid var(--base-border);
+	}
+	.userPanelInner-1UAR7g {
+		background: transparent;
+		&::before {
+			content: none;
+		}
+	}
+	.overlayBackground-1KgwVi {
+		padding: 0;
+	}
+}

@@ -372,7 +372,7 @@
 			display: flex;
 			flex-direction: column;
 			align-items: center;
-			&:before {
+			&::before {
 				content: '';
 				height: 124px;
 				width: 400px;
@@ -418,8 +418,8 @@
 
 	// Gif Picker
 	#gif-picker-tab-panel {
-		.content-1CboaJ:after,
-		&.container-23gRWx:after {
+		.content-1CboaJ::after,
+		&.container-23gRWx::after {
 			content: none;
 		}
 		.content-A8TzKf {

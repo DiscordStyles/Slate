@@ -30,12 +30,12 @@
 		overflow: hidden;
 		cursor: var(--cursor);
 	}
-	.wrapper-3kah-n,
-	.wrapper-28eC3z {
+	.wrapper-38slSD,
+	.wrapper-2PSQCG {
 		cursor: var(--cursor);
 		border-radius: var(--server-radius);
 		overflow: hidden;
-		background: var(--background-light);
+		// background: var(--background-light);
 		transition: 150ms ease;
 		&.selected-1JjBPm,
 		&.selected-1Drb7Z {
@@ -49,7 +49,7 @@
 			mask: none;
 		}
 	}
-	.wrapper-3kah-n.selected-1JjBPm .childWrapper-1j_1ub,
+	.wrapper-38slSD .selected-1JjBPm .childWrapper-1j_1ub,
 	.wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub {
 		background: var(--accent-solid);
 		color: var(--text-focus);
@@ -68,7 +68,7 @@
 			color: #fff;
 		}
 	}
-	.wrapper-28eC3z {
+	.wrapper-2PSQCG {
 		overflow: visible;
 		.numberBadge-37OJ3S {
 			position: relative;
@@ -118,19 +118,19 @@
 		[class*='pill'] {
 			display: none;
 		}
-		.wrapper-28eC3z {
+		.wrapper-2PSQCG {
 			display: flex;
 			align-items: center;
 			height: var(--toolbar-height);
 			background: transparent !important;
-			.wrapper-3kah-n {
+			.wrapper-38slSD {
 				background: transparent !important;
 			}
 		}
 		.listItem-3SmSlK {
 			margin-bottom: 0;
 		}
-		.svg-2zuE5p {
+		.svg-2ifYOU {
 			height: var(--toolbar-height);
 			width: var(--server-icon-size);
 			left: 50%;

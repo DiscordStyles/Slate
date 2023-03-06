@@ -121,7 +121,7 @@
 				}
 				&:nth-last-child(2) {
 					margin: 0;
-					&:before {
+					&::before {
 						mask-image: url(assets.$icon_location);
 					}
 				}

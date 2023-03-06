@@ -19,7 +19,7 @@
 		max-width: 100%;
 
 		// Decroative Arrow
-		&:after {
+		&::after {
 			content: '';
 			width: 10px;
 			height: 10px;

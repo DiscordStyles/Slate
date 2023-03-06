@@ -6,7 +6,7 @@
 	// Roundness
 	--border-radius: 3px;
 	--button-border-radius: 2px;
-	--avatar-radius: calc(var(--border-radius) / 2);
+	--avatar-radius: var(--border-radius);
 	--server-radius: var(--border-radius);
 
 	// Primary Coloring

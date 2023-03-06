@@ -3,7 +3,7 @@
 	.scroller-2FKFPG {
 		margin-bottom: calc(var(--avatar-size-sm) + var(--spacing-double) + 3px);
 	}
-	&:before {
+	&::before {
 		content: '';
 		position: absolute;
 		bottom: 0;
