@@ -1,6 +1,6 @@
 #app-mount {
-	.content-1SgpWY {
-		.sidebar-1tnWFu
+	.content__4bf10 {
+		.sidebar_ded4b5
 			.scrollerBase-_bVAAt[style='overflow: hidden scroll; padding-right: 0px;']:not([id*='channels']) {
 			border-right: 1px solid var(--base-border);
 			margin-top: calc(var(--toolbar-height) / -1);
@@ -11,26 +11,26 @@
 		.categoryItem-1QIroW {
 			margin: 0;
 			padding: 0;
-			.layout-1qmrhw {
+			.layout_bb8e67 {
 				border-radius: 0;
 				padding: var(--spacing);
 				cursor: var(--cursor);
 			}
-			.avatar-6qzftW {
+			.avatar__6337f {
 				width: 20px;
 				height: 20px;
 			}
-			.name-3Vmqxm {
+			.name__16feb {
 				font-size: var(--font-size);
 			}
 
-			&.selected-1-Z6gm .layout-1qmrhw {
+			&.selected__9800b .layout_bb8e67 {
 				background: rgb(var(--accent));
 			}
 		}
 	}
 
-	.pageWrapper-2PwDoS {
+	.pageWrapper_fef757 {
 		background: var(--background-alt);
 		.scroller-2FKFPG {
 			margin-top: var(--toolbar-height);
@@ -74,7 +74,7 @@
 			width: calc(100% - 196px);
 			border-right: 1px solid var(--toolbar-border);
 		}
-		.searchBox-pyIJJj {
+		.searchBox_a63854 {
 			background-color: transparent;
 			box-shadow: none;
 			border: none;
@@ -109,19 +109,19 @@
 			background: var(--background-dark);
 			border: 1px solid var(--base-border);
 		}
-		.card-2TuZPZ {
+		.card__86773 {
 			background-color: var(--background-dark);
 			border: 1px solid var(--base-border);
 			box-shadow: none;
 			height: auto;
 		}
-		.cardHeader-1kPMOm {
+		.cardHeader__889e1 {
 			margin-bottom: 0;
 		}
-		.description-19gINd {
+		.description__62490 {
 			display: none;
 		}
-		.guildInfo-PdhToW {
+		.guildInfo_ef4f03 {
 			position: absolute;
 			bottom: 0;
 			width: 100%;
@@ -133,12 +133,12 @@
 				opacity: 0.7;
 			}
 		}
-		.guildIcon-1nnIAv {
+		.guildIcon__597aa {
 			bottom: unset;
 			top: var(--spacing);
 			left: var(--spacing);
 		}
-		.iconMask-2fMR98 {
+		.iconMask__1aff7 {
 			background: rgb(0, 0, 0, 0.5);
 		}
 		.roundButton-2CW1Hh {

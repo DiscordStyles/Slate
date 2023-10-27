@@ -1,6 +1,6 @@
 @use '../assets';
 
-#app-mount .privateChannels-oVe7HL {
+#app-mount .privateChannels__93473 {
 	overflow: visible;
 	width: var(--sidebar-width);
 	background: var(--background);
@@ -10,7 +10,7 @@
 	}
 
 	// Search Header
-	.searchBar-3TnChZ {
+	.searchBar_e4ea2a {
 		background: var(--toolbar-background);
 		border-bottom: 1px solid var(--toolbar-border);
 		border-right: 1px solid var(--toolbar-border);
@@ -46,17 +46,17 @@
 	}
 
 	// Direct messages header
-	.privateChannelsHeaderContainer-1UWASm {
+	.privateChannelsHeaderContainer_ddcec6 {
 		padding: var(--spacing);
 		height: auto;
 		color: var(--text-normal);
 		font-size: 12px;
 		text-transform: none;
 	}
-	.privateChannelRecipientsInviteButtonIcon-1ObKXK {
+	.privateChannelRecipientsInviteButtonIcon__1e8fc {
 		display: none;
 	}
-	.scroller-WSmht3 {
+	.scroller__4b984 {
 		background: var(--background);
 		div[style*='height: 8px'] {
 			display: none;
@@ -67,51 +67,51 @@
 	.container-32HW5s {
 		border-radius: 0;
 	}
-	.link-39sEB3 {
+	.link__2e8e1 {
 		cursor: var(--cursor);
 	}
-	.channel-1Shao0 {
+	.channel_c21703 {
 		margin: 0;
 		max-width: 100%;
 		padding: 0;
-		.children-283-lq {
+		.children_c027c5 {
 			margin-left: var(--spacing-half);
 		}
-		.layout-1LjVue {
+		.layout__59abc {
 			border-radius: 0;
 			padding: 0 var(--spacing);
 			cursor: var(--cursor);
 		}
-		.name-2m3Cms {
+		.name__02dbd {
 			font-size: var(--font-size);
 			font-weight: var(--font-weight-normal);
 			color: var(--text-normal);
 			line-height: normal;
 		}
-		.avatar-1HDIsL {
+		.avatar__7bd22 {
 			margin-right: var(--spacing);
 		}
-		.activityText-ev7Z1T,
-		.subText-3Sk0zy {
+		.activityText__84949,
+		.subText_ed6eed {
 			font-size: var(--font-size-sm);
 			font-weight: var(--font-weight-bold);
 			color: var(--text-muted);
 		}
-		.selected-26oxtA {
+		.selected_d94cf9 {
 			color: var(--white);
 			background: rgb(var(--accent));
-			.closeButton-mupH76 {
+			.closeButton__8f1fd {
 				display: block;
 				background: var(--white);
 			}
-			.activityText-ev7Z1T,
-			.name-2m3Cms,
-			.subText-3Sk0zy {
+			.activityText__84949,
+			.name__02dbd,
+			.subText_ed6eed {
 				color: var(--white) !important;
 			}
 		}
 	}
-	.closeButton-mupH76 {
+	.closeButton__8f1fd {
 		z-index: 10;
 		opacity: 1;
 		background: var(--text-muted);
@@ -142,18 +142,18 @@
 	}
 
 	// Empty DMs List
-	.empty-yQo7LQ {
+	.empty__086ba {
 		display: none;
 	}
 }
 
 // Light mode optimization
-.theme-light #app-mount .privateChannels-oVe7HL .channel-1Shao0.selected-1-Z6gm {
+.theme-light #app-mount .privateChannels__93473 .channel_c21703.selected__9800b {
 	color: #fff;
 
-	.activityText-ev7Z1T,
-	.name-2m3Cms,
-	.subText-3Sk0zy {
+	.activityText__84949,
+	.name__02dbd,
+	.subText_ed6eed {
 		color: #fff !important;
 	}
 }

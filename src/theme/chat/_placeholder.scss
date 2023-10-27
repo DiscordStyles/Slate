@@ -1,18 +1,18 @@
 @use '../assets';
 
-#app-mount .chat-2ZfjoI {
-	.wrapper-3HVHpV {
+#app-mount .chat__52833 {
+	.wrapper_b8c724 {
 		background: var(--background-alt);
 		display: flex;
 		flex-direction: column;
 		justify-content: flex-end;
 	}
-	.wrapper-15CKyy {
+	.wrapper__5c5cd {
 		background: transparent;
 		padding-top: var(--spacing);
 		padding-bottom: var(--spacing);
 		padding-left: calc(var(--avatar-size) + var(--spacing) * 2);
-		& + :not([style*='margin-top']) {
+		& +:not([style*='margin-top']) {
 			margin-top: calc(var(--spacing) / -1);
 		}
 		&[style*='margin-top'] {
@@ -20,7 +20,7 @@
 			margin-top: 0 !important;
 		}
 	}
-	.avatar-l9Txm5 {
+	.avatar_eb6eba {
 		border-radius: var(--avatar-radius);
 		width: var(--avatar-size);
 		height: var(--avatar-size);
@@ -41,8 +41,8 @@
 			mask: url(assets.$icon_person) center/40% no-repeat;
 		}
 	}
-	.attachment-16cAbS,
-	.blob-1uHjdp {
+	.attachment__7a2d0,
+	.blob__8d5bd {
 		border-radius: var(--border-radius);
 		background: var(--text-muted);
 		height: 4px;

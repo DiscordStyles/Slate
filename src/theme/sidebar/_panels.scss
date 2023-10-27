@@ -1,6 +1,6 @@
 @use '../assets';
 
-#app-mount .panels-3wFtMD {
+#app-mount .panels__58331 {
 	background: var(--background-light);
 	border-right: 1px solid var(--base-border);
 	position: relative;
@@ -46,7 +46,7 @@
 					display: none;
 				}
 			}
-			.strikethrough-2Kl6HF {
+			.strikethrough__29b20 {
 				color: currentColor;
 			}
 		}
@@ -60,29 +60,29 @@
 	}
 
 	// Activity
-	.activityPanel-9icbyU {
+	.activityPanel__22355 {
 		border: none;
 	}
 
 	// Connected
-	.container-1zzFcN {
+	.container_d667ff {
 		position: relative;
 		border: none;
 	}
-	.subtext-2HDqJ7 {
+	.subtext__8f869 {
 		color: var(--text-focus);
 	}
-	.channel-3prF2u {
+	.channel_d7d412 {
 		font-size: var(--font-size-sm);
 	}
 
 	// Connection status
-	.connection-3k9QeF {
+	.connection__5bb32 {
 		padding: 0;
 	}
-	.container-1zzFcN {
+	.container_d667ff {
 		padding: var(--spacing);
-		.inner-llGtyq {
+		.inner_ab95dc {
 			flex: 0;
 			min-width: 18px;
 			position: absolute;
@@ -90,11 +90,11 @@
 			left: 0;
 			width: 100%;
 			height: 1px;
-			.rtcConnectionStatus-c5A6Av {
+			.rtcConnectionStatus__40882 {
 				height: 1px;
 				width: 100%;
 				padding: 0;
-				&.rtcConnectionQualityFine-3zZrSa {
+				&.rtcConnectionQualityFine__471b6 {
 					background: hsl(var(--discord-green));
 				}
 			}
@@ -135,7 +135,7 @@
 				transition-delay: 0s;
 			}
 		}
-		.horizontal-112GEH > .flex-2S1XBF:last-child {
+		.horizontal__992f6 > .flex_f5fbb7:last-child {
 			position: relative;
 			z-index: 1;
 			display: flex;
@@ -164,7 +164,7 @@
 			}
 		}
 	}
-	.rtcConnectionStatus-c5A6Av .statusWithPopout-1MDqs1 {
+	.rtcConnectionStatus__40882 .statusWithPopout__456ad {
 		position: absolute;
 		font-size: 0;
 		top: calc(var(--spacing) + 1px);
@@ -190,7 +190,7 @@
 	}
 
 	// Share buttons
-	.actionButtons-2vEOUh {
+	.actionButtons_b58cbb {
 		position: absolute;
 		top: calc(var(--spacing) - 4px);
 		left: calc(var(--spacing) + var(--panel-btn-width));
@@ -210,13 +210,13 @@
 			background: transparent;
 			box-shadow: none !important;
 		}
-		.buttonIcon-2Zsrs2 {
+		.buttonIcon__80d32 {
 			margin-right: 0;
 		}
 	}
 
 	// User
-	& > .container-YkUktl {
+	& > .container_ca50b9 {
 		background: transparent;
 		padding: var(--spacing);
 		height: auto;
@@ -224,7 +224,7 @@
 		margin-bottom: 0;
 		overflow: visible;
 		border-top: 1px solid var(--base-border);
-		.avatarWrapper-1B9FTW {
+		.avatarWrapper_ba5175 {
 			position: absolute;
 			left: var(--sidebar-width);
 			margin: 0 var(--spacing);
@@ -259,10 +259,10 @@
 				}
 			}
 		}
-		.nameTag-sc-gpq {
+		.nameTag__0e320 {
 			display: none;
 		}
-		.directionRow-2Iu2A9 {
+		.directionRow__2bb0b {
 			display: flex;
 			width: 100%;
 			background: var(--background);
@@ -271,14 +271,14 @@
 			overflow: hidden;
 		}
 	}
-	.avatarWrapper-1B9FTW {
+	.avatarWrapper_ba5175 {
 		background: transparent;
 		min-width: unset;
 	}
 	.avatarSpeaking-33RRJU {
 		border-radius: var(--border-radius);
 	}
-	.title-338goq {
+	.title__10613 {
 		font-size: var(--font-size);
 	}
 	.powercord-spotify.hover .spotify-extra-controls {

@@ -16,7 +16,7 @@
 		width: calc(var(--sidebar-width) + var(--noasw-base));
 		background: var(--background);
 		border-right: 1px solid var(--base-border);
-		.scroller-nxCRu_ {
+		.scroller__750f5 {
 			padding: 0;
 			&::-webkit-scrollbar {
 				display: none;
@@ -25,7 +25,7 @@
 		.labelContainer-2vJzYL {
 			justify-content: flex-start;
 		}
-		.item-5ApiZt {
+		.item__183e8 {
 			margin: 0;
 			padding: 0 var(--spacing);
 			color: var(--text-normal);
@@ -35,8 +35,8 @@
 			height: var(--item-height);
 			cursor: var(--cursor);
 			box-sizing: border-box;
-			.icon-3XHs8t,
-			.iconContainer-Ksy8Oj {
+			.icon_f09dde,
+			.iconContainer__829e7 {
 				width: 14px;
 				height: 14px;
 				foreignObject {
@@ -50,7 +50,7 @@
 				background: rgb(var(--status-red));
 				right: -2px;
 			}
-			.iconContainer-Ksy8Oj {
+			.iconContainer__829e7 {
 				order: -1;
 				margin: 0 var(--spacing) 0 0;
 			}
@@ -59,7 +59,7 @@
 			}
 			&#guild-header-popout-premium-subscribe {
 				color: rgb(var(--discord-pink));
-				.icon-3XHs8t {
+				.icon_f09dde {
 					color: rgb(var(--discord-pink));
 					path[d='M4 0L0 4V8L4 12L8 8V4L4 0ZM7 7.59L4 10.59L1 7.59V4.41L4 1.41L7 4.41V7.59Z'] {
 						d: path(assets.$path_flame);

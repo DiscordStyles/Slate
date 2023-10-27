@@ -1,7 +1,7 @@
 @use '../assets';
 
 #app-mount {
-	.container-KM8BU6 {
+	.container_dc03c3 {
 		background: var(--background);
 		flex-wrap: wrap;
 		&::before {
@@ -17,7 +17,7 @@
 			box-sizing: border-box;
 			border-bottom: 1px solid var(--base-border);
 		}
-		.reactors-1VXca7 {
+		.reactors__20ab0 {
 			background: var(--background);
 			border-left: 1px solid var(--base-border);
 			height: calc(100% - 50px);
@@ -25,7 +25,7 @@
 			.content-2a4AW9 {
 				height: auto !important;
 			}
-			.reactor-1J25Qp {
+			.reactor_c2818b {
 				box-shadow: none;
 				margin: 0;
 				padding: 0 var(--spacing);
@@ -36,7 +36,7 @@
 				&:active {
 					background: var(--background-modifier-active);
 				}
-				.remove-19AQn_ {
+				.remove__6bd0e {
 					cursor: var(--cursor);
 					padding: 0;
 					background: transparent;
@@ -52,26 +52,26 @@
 						transform: scale(2) translateY(-2px);
 					}
 				}
-				.nickname-1PaREw {
+				.nickname__71187 {
 					line-height: normal;
 					color: var(--text-normal);
 					font-weight: var(--font-weight-semibold);
 				}
-				.nameTag-H6kSJ0 {
+				.nameTag__693ff {
 					line-height: normal;
-					.username-tJjT82 {
+					.username__29f71 {
 						font-weight: var(--font-weight-semibold);
 						color: var(--text-normal);
 					}
-					.discriminator-1DCM-o {
+					.discriminator__18879 {
 						font-size: var(--font-size);
 						color: var(--text-muted);
 						font-weight: var(--font-weight-normal);
 					}
-					&.tagFaded-1S1bJ- {
+					&.tagFaded_b91881 {
 						opacity: 1;
 						padding-left: var(--spacing-half);
-						.username-tJjT82 {
+						.username__29f71 {
 							color: var(--text-muted);
 							font-weight: var(--font-weight-normal);
 						}
@@ -79,13 +79,13 @@
 				}
 			}
 		}
-		.scroller-2GkvCq {
+		.scroller__5fda0 {
 			background: var(--background);
 			padding: 0;
 			width: auto;
 			height: calc(100% - 50px);
-			.reactionDefault-1Sjj1f,
-			.reactionSelected-1aMb2K {
+			.reactionDefault__792ef,
+			.reactionSelected__249a7 {
 				border-radius: var(--border-radius);
 				padding: var(--spacing-half) var(--spacing);
 				cursor: var(--cursor);
@@ -95,14 +95,14 @@
 			.colorStandard-21JIj7 {
 				color: inherit;
 			}
-			.reactionSelected-1aMb2K {
+			.reactionSelected__249a7 {
 				background: var(--accent-solid);
 				color: var(--white);
 			}
-			.reactionDefault-1Sjj1f:hover {
+			.reactionDefault__792ef:hover {
 				background: transparent;
 			}
-			.emoji-1kNQp2 {
+			.emoji__32c91 {
 				padding: 0;
 				margin-right: var(--spacing);
 			}

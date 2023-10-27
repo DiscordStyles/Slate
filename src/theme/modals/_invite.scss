@@ -1,13 +1,13 @@
 @use '../assets';
 
-#app-mount .wrapper-3ByaVZ .root-g14mjS {
+#app-mount .wrapper-3ByaVZ .root_a28985 {
 	max-width: 600px;
 	min-width: 400px;
 	width: 500px;
 	.header-1zd7se {
 		position: relative;
 		overflow: visible;
-		.marginBottom8-emkd0_ {
+		.marginBottom8_f4aae3 {
 			margin: 0;
 			flex-grow: 0;
 			width: fit-content;
@@ -17,7 +17,7 @@
 			top: unset;
 		}
 	}
-	.container-1SX9VC {
+	.container_e4c233 {
 		margin: 0;
 		padding: var(--spacing-double);
 		background: var(--background);
@@ -26,17 +26,17 @@
 		top: 50px;
 		left: 0;
 		width: 100%;
-		.inner-1NoIT5 {
+		.inner__178b2 {
 			overflow: visible !important;
 		}
-		.iconLayout-SqV3nb {
+		.iconLayout__9fbb1 {
 			position: absolute;
 			height: 100%;
 			width: 24px;
-			.iconContainer-1RqWJj {
+			.iconContainer__8fa9c {
 				width: 14px;
 				height: 14px;
-				.icon-18rqoe {
+				.icon_f50f05 {
 					color: var(--text-muted);
 					cursor: var(--cursor);
 					&:hover {
@@ -53,7 +53,7 @@
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		.title-2CL_z0 {
+		.title__627cf {
 			color: var(--text-normal);
 			font-size: var(--font-size);
 			font-weight: var(--font-weight-normal);
@@ -142,7 +142,7 @@
 		margin: 0;
 		align-items: flex-start;
 		height: auto;
-		.marginTop20-2T8ZJx:first-child {
+		.marginTop20_d88ee7:first-child {
 			margin: 0;
 		}
 		.switch-3wwwcV {
@@ -171,11 +171,11 @@
 html.theme-light {
 	#app-mount
 		.wrapper-3ByaVZ
-		.root-g14mjS
+		.root_a28985
 		.scroller-3nFW5p
 		.inviteRow-3vmB7i
 		.inviteRowButton-3hcOhY,
-	#app-mount .wrapper-3ByaVZ .root-g14mjS .scroller-3nFW5p .inviteRow-3vmB7i .lookLink-9FtZy- {
+	#app-mount .wrapper-3ByaVZ .root_a28985 .scroller-3nFW5p .inviteRow-3vmB7i .lookLink-9FtZy- {
 		&:hover {
 			background: var(--background);
 			border: 1px solid var(--secondary-border);

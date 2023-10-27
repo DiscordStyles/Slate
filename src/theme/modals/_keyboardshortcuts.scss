@@ -1,6 +1,6 @@
 @use '../assets';
 
-#app-mount .keyboardShortcutsModal-2CRmCm {
+#app-mount .keyboardShortcutsModal__74c71 {
 	background: var(--background);
 	box-shadow: var(--elevation-2);
 	border: 1px solid var(--base-border);
@@ -11,7 +11,7 @@
 	width: 550px;
 	max-height: 575px;
 	animation: modal 150ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
-	.modalTitle-2skSKy {
+	.modalTitle_cf2de1 {
 		padding: var(--spacing-double);
 		max-height: 50px;
 		margin: 0;
@@ -20,7 +20,7 @@
 		color: var(--text-normal);
 		font-weight: var(--font-weight-semibold);
 		border-bottom: 1px solid var(--base-border);
-		.content-1i_k8f {
+		.content__50473 {
 			margin-right: var(--spacing);
 		}
 		.keybindShortcut-3zF1P9 {
@@ -49,7 +49,7 @@
 			transform: none;
 		}
 	}
-	.ddrArrows-24s05s {
+	.ddrArrows__352f9 {
 		top: 0;
 		right: 0;
 		height: 50px;
@@ -57,7 +57,7 @@
 		box-sizing: border-box;
 		display: flex;
 		align-items: center;
-		.arrow-hkea5Y {
+		.arrow__42cbf {
 			margin: 0;
 			height: 26px;
 			width: 26px;
@@ -65,25 +65,25 @@
 			background: var(--text-muted);
 			opacity: 0.75;
 			mask: url(assets.$icon_arrow_down) center/cover no-repeat;
-			&.left-n0qLrU {
+			&.left_c8e98a {
 				transform: rotate(90deg);
 			}
-			&.up-C6wQCy {
+			&.up__2d324 {
 				transform: rotate(180deg);
 			}
-			&.right-2w8sx7 {
+			&.right__676d8 {
 				transform: rotate(-90deg);
 			}
-			&.active-2gIs0U {
+			&.active__6598a {
 				background: var(--text-normal);
 				opacity: 1;
 			}
 		}
 	}
-	.modalSubtitle-2lx7qk {
+	.modalSubtitle__40325 {
 		display: none;
 	}
-	.keyboardShortcutList-3VFAYS {
+	.keyboardShortcutList__1f357 {
 		padding: var(--spacing-double);
 		grid-gap: var(--spacing);
 		height: auto;
@@ -91,7 +91,7 @@
 		column-gap: var(--spacing);
 		display: block;
 		overflow: visible;
-		.keybindGroup-39HP2U {
+		.keybindGroup_bd18f5 {
 			padding: var(--spacing);
 			border-radius: var(--border-radius);
 			border: 1px solid var(--base-border);
@@ -105,7 +105,7 @@
 			margin-bottom: var(--spacing);
 			break-inside: avoid;
 			break-after: always;
-			.keybindDescription-oXh6w_ {
+			.keybindDescription__74fa6 {
 				margin-bottom: var(--spacing-third);
 				color: var(--text-normal);
 				font-size: var(--font-size);

@@ -1,17 +1,17 @@
 html.platform-win[lang='en-US'],
 html.platform-win[lang='en-GB'] {
 	body:not(.oldTitleBarEnabled-D8ppJQ)
-		.container-2cd8Mz
-		.container-ZMc96U.themed-Hp1KC_
-		.toolbar-3_r2xA {
+		.container__5c7e7
+		.container__11d72.themed_b152d4
+		.toolbar__88c63 {
 		border: none !important;
 	}
-	body:not(.oldTitleBarEnabled-D8ppJQ) .container-ZMc96U.themed-Hp1KC_ .toolbar-3_r2xA {
-		.iconWrapper-2awDjA[aria-label='Inbox'],
-		.iconWrapper-2awDjA[aria-label='Pinned Messages'],
-		.iconWrapper-2awDjA[aria-label='Add Friends to DM'],
-		.iconWrapper-2awDjA[aria-label='New Group DM'],
-		.anchor-1MIwyf .iconWrapper-2awDjA {
+	body:not(.oldTitleBarEnabled-D8ppJQ) .container__11d72.themed_b152d4 .toolbar__88c63 {
+		.iconWrapper_af9215[aria-label='Inbox'],
+		.iconWrapper_af9215[aria-label='Pinned Messages'],
+		.iconWrapper_af9215[aria-label='Add Friends to DM'],
+		.iconWrapper_af9215[aria-label='New Group DM'],
+		.anchor-1MIwyf .iconWrapper_af9215 {
 			position: fixed;
 			top: 0;
 			-webkit-app-region: no-drag;
@@ -48,7 +48,7 @@ html.platform-win[lang='en-GB'] {
 				&::after {
 					content: 'Pins';
 				}
-				.iconBadge-3Mmg92 {
+				.iconBadge_cc5031 {
 					top: 4px;
 					right: 4px;
 					z-index: -1;
@@ -71,34 +71,34 @@ html.platform-win[lang='en-GB'] {
 				background: var(--toolbar-background-hover);
 			}
 			&:active,
-			&.selected-29KTGM {
+			&.selected_be2668 {
 				background: var(--toolbar-background-active);
 			}
 			svg {
 				display: none;
 			}
 		}
-		.inviteToolbar-2k2nqz {
+		.inviteToolbar_e74dc0 {
 			display: block !important;
 		}
-		.inviteToolbar-2k2nqz ~ .anchor-1MIwyf .iconWrapper-2awDjA {
+		.inviteToolbar_e74dc0 ~ .anchor-1MIwyf .iconWrapper_af9215 {
 			left: 142px;
 		}
-		.libraryFilter-1nwg6T ~ .anchor-1MIwyf .iconWrapper-2awDjA {
+		.libraryFilter_c21584 ~ .anchor-1MIwyf .iconWrapper_af9215 {
 			left: 88px;
 		}
-		.iconWrapper-2awDjA[aria-label='Add Friends to DM'] ~ .anchor-1MIwyf .iconWrapper-2awDjA {
+		.iconWrapper_af9215[aria-label='Add Friends to DM'] ~ .anchor-1MIwyf .iconWrapper_af9215 {
 			left: 184px;
 		}
 		.anchor-1MIwyf {
 			display: block !important;
-			&:nth-child(8) .iconWrapper-2awDjA {
+			&:nth-child(8) .iconWrapper_af9215 {
 				left: 184px;
 			}
-			&:nth-child(6) .iconWrapper-2awDjA {
+			&:nth-child(6) .iconWrapper_af9215 {
 				left: 130px;
 			}
-			.iconWrapper-2awDjA {
+			.iconWrapper_af9215 {
 				width: auto;
 				left: 130px;
 				&::after {
@@ -114,13 +114,13 @@ html.platform-win[lang='en-US'],
 html.platform-win[lang='en-GB'] {
 	&:not(.app-focused)
 		body:not(.oldTitleBarEnabled-D8ppJQ)
-		.container-ZMc96U.themed-Hp1KC_
-		.toolbar-3_r2xA {
-		.iconWrapper-2awDjA[aria-label='Inbox'],
-		.iconWrapper-2awDjA[aria-label='Pinned Messages'],
-		.iconWrapper-2awDjA[aria-label='Add Friends to DM'],
-		.iconWrapper-2awDjA[aria-label='New Group DM'],
-		.anchor-1MIwyf .iconWrapper-2awDjA {
+		.container__11d72.themed_b152d4
+		.toolbar__88c63 {
+		.iconWrapper_af9215[aria-label='Inbox'],
+		.iconWrapper_af9215[aria-label='Pinned Messages'],
+		.iconWrapper_af9215[aria-label='Add Friends to DM'],
+		.iconWrapper_af9215[aria-label='New Group DM'],
+		.anchor-1MIwyf .iconWrapper_af9215 {
 			opacity: 0.6;
 		}
 	}

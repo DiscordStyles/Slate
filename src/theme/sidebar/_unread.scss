@@ -1,17 +1,17 @@
-#app-mount .sidebar-1tnWFu {
+#app-mount .sidebar_ded4b5 {
 	// Unread messages above
-	.unreadTop-1DJtGv .bar-2eAyLE {
+	.unreadTop__6e8c4 .bar_edc096 {
 		border-bottom: 1px solid var(--base-border);
 	}
 	// Unread messages below
-	.unreadBottom-3Ojk6R .bar-2eAyLE {
+	.unreadBottom__6be9f .bar_edc096 {
 		border-top: 1px solid var(--base-border);
 	}
-	.unread-XRkyaQ {
+	.unread__11823 {
 		padding: 0;
 		height: auto;
 	}
-	.bar-2eAyLE {
+	.bar_edc096 {
 		border-radius: 0;
 		background: var(--background-light);
 		opacity: 1;
@@ -27,7 +27,7 @@
 		width: 100%;
 		border-right: 1px solid var(--base-border);
 		box-sizing: border-box;
-		&.unread-2wipsx {
+		&.unread__75c9f {
 			color: var(--text-normal);
 		}
 		&[aria-hidden='true'] {

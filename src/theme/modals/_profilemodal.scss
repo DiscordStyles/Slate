@@ -54,7 +54,7 @@
 	}
 
 	// User banner
-	.banner-1YaD3N {
+	.banner__6d414 {
 		position: absolute;
 		top: calc(var(--spacing-double) / -1 + 1px);
 		left: calc(var(--left-side) - var(--spacing-double));
@@ -68,7 +68,7 @@
 		position: unset;
 	}
 	// Usrbg support
-	&[style*='--user-background'] .banner-1YaD3N:not(.bannerPremium-kkSkPv) {
+	&[style*='--user-background'] .banner__6d414:not(.bannerPremium__42693) {
 		background: var(--user-background) center/cover no-repeat;
 	}
 
@@ -141,7 +141,7 @@
 		height: 14px;
 		margin: 0 2px;
 	}
-	.profileBadge-12r2Nm {
+	.profileBadge__1d2d3 {
 		width: 18px;
 		height: 18px;
 		background: var(--text-muted);
@@ -499,7 +499,7 @@
 	}
 
 	// Activity
-	.headerText-3g1XK9 {
+	.headerText__7d203 {
 		color: var(--text-normal);
 		font-size: var(--font-size-md);
 		font-weight: var(--font-weight-semibold);
@@ -513,30 +513,30 @@
 			padding-top: 0;
 		}
 	}
-	.bodyNormal-250CQK {
+	.bodyNormal_c70dfd {
 		display: grid;
 		grid-template-columns: 56px 1fr;
 		grid-gap: var(--spacing);
 	}
-	.assetsLargeImageActivityFeed-3zBude,
-	.assetsLargeImageActivityFeedXbox-3gGXXV,
-	.assetsLargeImageProfile-1TX9jP {
+	.assetsLargeImageActivityFeed_e92ab7,
+	.assetsLargeImageActivityFeedXbox__16c86,
+	.assetsLargeImageProfile_fd5fcd {
 		width: 56px;
 		height: 56px;
 	}
-	.assetsSmallImageActivityFeed-2e1l_G,
-	.assetsSmallImageProfile-NPfu8b {
+	.assetsSmallImageActivityFeed__70fe6,
+	.assetsSmallImageProfile__72523 {
 		width: 24px;
 		height: 24px;
 	}
-	.content-tXPNDw {
+	.content_d7cb7f {
 		margin-left: 0;
 	}
-	.actionsProfile-31n1ca {
+	.actionsProfile_e94765 {
 		margin-left: 0;
 		grid-column: 1/3;
 	}
-	.textRow-1sENuL {
+	.textRow__4750e {
 		font-size: var(--font-size);
 	}
 	.spotifyIcon-2J9kSv {
@@ -544,13 +544,13 @@
 		right: var(--spacing-double);
 	}
 
-	.buttonsWrapper-2ARRp1 {
+	.buttonsWrapper_aa7b69 {
 		margin-top: 0;
 		gap: 12px;
-		& > .button-TGAkj4 {
+		& > .button__9491f {
 			margin: 0;
 		}
-		.buttonSize-dIiz43 {
+		.buttonSize_ee7672 {
 			height: var(--input-height);
 			min-height: var(--input-height);
 		}
@@ -558,14 +558,14 @@
 			padding: 0;
 		}
 	}
-	.button-TGAkj4.iconButtonSize-1-pz2t {
+	.button__9491f.iconButtonSize_ff6499 {
 		max-width: unset;
 		.contents-3ca1mk {
 			display: flex;
 		}
 	}
 
-	.listScroller-entkMk,
+	.listScroller__92e1a,
 	.infoScroller-1QMpon {
 		padding: var(--banner-height) 0 0 !important;
 		& > div {
@@ -590,7 +590,7 @@
 			z-index: 0;
 		}
 	}
-	.listRow-2nO1T6 {
+	.listRow__60937 {
 		margin: 0;
 		border-radius: 0;
 		background: var(--background);
@@ -603,22 +603,22 @@
 			background: var(--background-modifier-active);
 		}
 	}
-	.listAvatar-2bU5Uh {
+	.listAvatar__907d4 {
 		width: 24px;
 		height: 24px;
 		border-radius: var(--border-radius);
 		border: 1px solid var(--base-border);
 		margin-right: var(--spacing);
 	}
-	.listRowContent-PEmSWj {
+	.listRowContent_ba135a {
 		display: flex;
 		align-items: center;
 	}
-	.listName-PwbeHL {
+	.listName_dbd44a {
 		font-size: var(--font-size);
 		font-weight: var(--font-weight-normal);
 	}
-	.guildNick-fe8oPN {
+	.guildNick__01069 {
 		font-weight: var(--font-weight-normal);
 		margin-left: var(--spacing);
 	}
