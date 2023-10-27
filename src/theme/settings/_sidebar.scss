@@ -1,12 +1,12 @@
-#app-mount .layer-86YKbF:not(.baseLayer-W6S8cY) .sidebarRegion-1VBisG,
-#app-mount .layer-86YKbF[aria-label*='RTC'] .sidebarRegion-1VBisG {
+#app-mount .layer__2efaa:not(.baseLayer__8fda3) .sidebarRegion__60457,
+#app-mount .layer__2efaa [aria-label*='RTC'] .sidebarRegion__60457 {
 	flex: unset;
 	z-index: 10;
 	border-right: 1px solid var(--base-border);
-	.sidebarRegionScroller-FXiQOh {
+	.sidebarRegionScroller__1fa7e {
 		flex: auto;
 	}
-	.sidebar-nqHbhN {
+	.sidebar__9e3e2 {
 		padding: var(--spacing) 0;
 		width: 220px;
 	}

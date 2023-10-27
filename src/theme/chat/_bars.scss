@@ -1,8 +1,8 @@
 @use '../assets';
 
-#app-mount .chat-2ZfjoI {
+#app-mount .chat__52833 {
 	// Old messages
-	.jumpToPresentBar-1cEnH0 {
+	.jumpToPresentBar__0ff7f {
 		opacity: 1;
 		left: calc(var(--spacing) - 2px);
 		bottom: 0;
@@ -15,10 +15,10 @@
 		z-index: 10;
 		box-shadow: var(--elevation-1);
 		width: fit-content;
-		.barButtonMain-2GIx4o {
+		.barButtonMain__0f5c6 {
 			display: none;
 		}
-		.barButtonAlt-TQoCdZ {
+		.barButtonAlt__4b48f {
 			font-size: var(--font-size-sm);
 			color: var(--text-normal);
 			font-weight: var(--font-weight);
@@ -43,7 +43,7 @@
 	}
 
 	// New messages
-	.newMessagesBar-1hF-9G {
+	.newMessagesBar__8b6d7 {
 		left: 0;
 		right: 0;
 		border-radius: 0;
@@ -59,7 +59,7 @@
 		}
 		button {
 			cursor: var(--cursor);
-			&.barButtonMain-2GIx4o {
+			&.barButtonMain__0f5c6 {
 				color: var(--text-normal);
 				font-size: var(--font-size);
 				font-weight: var(--font-weight-normal);
@@ -78,7 +78,7 @@
 					display: inline-block;
 				}
 			}
-			&.barButtonAlt-TQoCdZ {
+			&.barButtonAlt__4b48f {
 				display: none;
 			}
 		}
@@ -95,7 +95,7 @@
 	}
 
 	// Message Error Load
-	.messagesErrorBar-1IQ1rH {
+	.messagesErrorBar__06c0a {
 		opacity: 1;
 		position: absolute;
 		top: 50%;
@@ -117,7 +117,7 @@
 		margin-left: -170px;
 		margin-top: -145px;
 		animation: modal 150ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
-		.barButtonMain-2GIx4o {
+		.barButtonMain__0f5c6 {
 			font-size: 0;
 			padding: 0;
 			overflow: visible;
@@ -149,8 +149,8 @@
 			margin-bottom: var(--spacing);
 		}
 	}
-	.messagesErrorBar-nyJGU7 .barButtonAlt-TQoCdZ,
-	.messagesErrorBar-nyJGU7 .spinner-3xAPm0 {
+	.messagesErrorBar-nyJGU7 .barButtonAlt__4b48f,
+	.messagesErrorBar-nyJGU7 .spinner__20584 {
 		order: 1;
 		pointer-events: all;
 		font-size: var(--font-size);

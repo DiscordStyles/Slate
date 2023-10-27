@@ -1,7 +1,7 @@
-#app-mount .baseLayer-W6S8cY.animating-1rIrGV:not(.stop-animations) + .animating-1rIrGV {
+#app-mount .baseLayer__8fda3.animating__27211:not(.stop-animations) + .animating__27211 {
 	display: none;
 }
-#app-mount .layer-86YKbF:not(.baseLayer-W6S8cY) {
+#app-mount .layer__2efaa:not(.baseLayer__8fda3) {
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -15,11 +15,11 @@
 			display: none;
 		}
 	}
-	.customScroller-m1-jZn {
+	.customScroller_f72801 {
 		height: 65vh;
 		max-height: 650px;
 	}
-	.standardSidebarView-E9Pc3j {
+	.standardSidebarView__1129a {
 		animation: modal 150ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
 		border-radius: var(--border-radius);
 		background: var(--background);
@@ -41,7 +41,7 @@
 }
 
 @media only screen and (max-height: 650px) {
-	#app-mount .layer-86YKbF:not(.baseLayer-W6S8cY) .standardSidebarView-E9Pc3j {
+	#app-mount .layer__2efaa:not(.baseLayer__8fda3) .standardSidebarView__1129a {
 		min-height: 500px;
 	}
 }

@@ -1,23 +1,23 @@
 #app-mount {
-	.recentMentionsPopout-2bI1ZN {
+	.recentMentionsPopout__826a9 {
 		margin-left: -50px;
 		position: absolute;
 		background: var(--background);
 		box-shadow: none;
 		border: 1px solid var(--base-border);
 		border-radius: var(--border-radius);
-		.header-145e10 {
+		.header__28ebb {
 			padding: 0 var(--spacing);
 			height: unset;
 			min-height: unset;
 			display: flex;
 			align-items: center;
 		}
-		.tabBar-1qdMr5 {
+		.tabBar__2aa8e {
 			display: flex;
 			align-items: center;
 		}
-		.tab-TRrPC8 {
+		.tab_a8a066 {
 			margin: 0 var(--spacing) 0 0;
 			padding: var(--spacing) 0;
 			height: unset;
@@ -25,12 +25,12 @@
 			background: transparent;
 			font-size: var(--font-size);
 			color: var(--text-normal);
-			&.active-1grPyy {
+			&.active__7e7af {
 				color: var(--text-focus);
 				box-shadow: inset 0 -2px 0 var(--text-focus);
 			}
 		}
-		.secondary-2bzKEX {
+		.secondary_c96c46 {
 			padding: var(--spacing) 0;
 			height: auto;
 			min-height: unset;
@@ -40,37 +40,37 @@
 			border-radius: 0;
 		}
 	}
-	.container-iA3Qrz {
+	.container__56e52 {
 		margin: 0;
 		padding: 0;
 		border-bottom: 1px solid var(--base-border);
-		.cozy-VmLDNB {
+		.cozy_f5c119 {
 			margin: 0 !important;
 		}
-		&:hover .jumpButton-1ITAeq {
+		&:hover .jumpButton__24ca6 {
 			opacity: 1;
 		}
 	}
-	.channelHeader-DFRX8q {
+	.channelHeader__5d30c {
 		background: var(--background);
 		padding: var(--spacing);
 		height: auto;
 	}
-	.channelNameHeader-51gJbl {
+	.channelNameHeader_bfaee3 {
 		font-size: var(--font-size-md);
 	}
 	.colorHeaderSecondary-g5teka {
 		font-size: var(--font-size);
 		color: var(--text-muted);
 	}
-	.guildIcon-IklRcj {
+	.guildIcon_cccd03 {
 		border-radius: var(--border-radius);
 		margin-right: var(--spacing);
 		width: var(--avatar-size);
 		height: var(--avatar-size);
 		background-color: var(--background-light);
 	}
-	.acronym-vuwTO7 {
+	.acronym__439d3 {
 		font-size: var(--font-size);
 		width: var(--avatar-size);
 		height: var(--avatar-size);
@@ -78,26 +78,26 @@
 		justify-content: center;
 		align-items: center;
 	}
-	.messageContainer-3VTXBC {
+	.messageContainer_aa7d14 {
 		background: var(--background);
 		border-radius: 0;
 		padding: 0;
 		margin: 0;
-		.repliedMessage-3Z6XBG {
+		.repliedMessage_e2bf4a {
 			top: var(--spacing-double);
 		}
 	}
-	.messages-23can0 {
+	.messages_f7999e {
 		padding: 0;
 		border-radius: 0;
 		background: transparent;
-		.message-372Ods {
+		.message__41c2a {
 			padding-top: 0;
 			padding-bottom: 0;
 		}
 	}
-	.closeButton-3CiW2j,
-	.tertiary-1e-lAP {
+	.closeButton_ba6c7d,
+	.tertiary_bc0225 {
 		background: var(--background-light);
 		display: flex;
 		align-items: center;
@@ -112,7 +112,7 @@
 			height: 14px;
 		}
 	}
-	.jumpButton-1ITAeq {
+	.jumpButton__24ca6 {
 		font-size: var(--font-size);
 		font-weight: var(--font-weight-normal);
 		cursor: var(--cursor);
@@ -126,7 +126,7 @@
 		border-radius: var(--button-border-radius);
 		color: var(--white);
 		background-color: var(--accent-solid);
-		.text-2ifC_x {
+		.text__6b9e7 {
 			color: var(--white);
 		}
 		&:hover {

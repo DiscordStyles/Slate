@@ -6,7 +6,7 @@
 	.lookGhost-2Fn_0-,
 	.colorPrimary-3b3xI6.lookLink-9FtZy-,
 	.bd-modal-wrapper .footer button,
-	.button-f2h6uQ {
+	.button_afdfd9 {
 		font-size: var(--font-size);
 		font-weight: var(--font-weight-normal);
 		cursor: var(--cursor);
@@ -23,7 +23,7 @@
 	}
 	.lookFilled-yCfaCM:not(.colorGrey-2DXtkV),
 	.bd-modal-wrapper .footer button,
-	.primaryButton-361sHl {
+	.primaryButton__78ebb {
 		color: var(--white);
 		background-color: rgb(var(--accent));
 		margin-left: var(--spacing);
@@ -49,19 +49,19 @@
 			margin: 0 !important;
 		}
 	}
-	.secondaryButton-rBY2Kw {
+	.secondaryButton__68e05 {
 		margin: 0;
 	}
-	.primaryButton-361sHl,
-	.secondaryButton-rBY2Kw {
+	.primaryButton__78ebb,
+	.secondaryButton__68e05 {
 		flex: 0;
 	}
 	.colorPrimary-3b3xI6.lookLink-9FtZy-,
 	.colorPrimary-3b3xI6.lookFilled-yCfaCM,
 	.lookInverted-2D7oAl,
 	.lookOutlined-3sRXeN,
-	.secondaryButton-rBY2Kw,
-	.actionButton-3-B2x-,
+	.secondaryButton__68e05,
+	.actionButton__23182,
 	.lookGhost-2Fn_0-,
 	.cancelButton-1vsI8S,
 	.colorGrey-2DXtkV {
@@ -81,12 +81,12 @@
 			border: 1px solid currentColor !important;
 		}
 
-		&.removeButton-v6eolJ,
+		&.removeButton__731bd,
 		&.colorRed-1TFJan {
 			color: rgb(var(--red));
 		}
 	}
-	.premiumIcon-G_KEYC {
+	.premiumIcon__747a1 {
 		margin-right: var(--spacing-third);
 		height: 16px;
 		width: 16px;
@@ -100,8 +100,8 @@ html.theme-light #app-mount {
 	.lookInverted-2D7oAl,
 	.lookOutlined-3sRXeN,
 	.lookGhost-2Fn_0-,
-	.secondaryButton-rBY2Kw,
-	.actionButton-3-B2x-,
+	.secondaryButton__68e05,
+	.actionButton__23182,
 	.cancelButton-1vsI8S {
 		&:hover {
 			background: var(--background);

@@ -1,11 +1,11 @@
-#app-mount .toolbar-37BrJ5 {
+#app-mount .toolbar_c7b525 {
 	background: var(--background);
 	border: 1px solid var(--base-border);
 	box-shadow: var(--elevation-1);
 	border-radius: var(--border-radius);
 	height: auto;
 	margin-left: 12px;
-	.button-lA2rvH {
+	.button__07531 {
 		all: unset;
 		width: 30px;
 		height: var(--input-height);
@@ -19,12 +19,12 @@
 		&:last-child {
 			border-radius: 0 var(--border-radius) var(--border-radius) 0;
 		}
-		.icon-3g7qdA {
+		.icon__5a617 {
 			color: inherit;
 			height: 14px;
 			width: 14px;
 		}
-		.buttonInner-1RE0NV {
+		.buttonInner__1dbe5 {
 			height: auto;
 		}
 		&:hover {
@@ -34,7 +34,7 @@
 			background: var(--background-modifier-active);
 		}
 	}
-	.divider-3NY7PF {
+	.divider__441cb {
 		display: none;
 	}
 	&::before {

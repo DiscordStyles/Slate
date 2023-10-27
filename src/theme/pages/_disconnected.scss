@@ -1,13 +1,13 @@
-.app-2CXKsg:active + .container-2RRFHK {
+.app_de4237:active + .container__4bde3 {
 	display: none;
 }
-#app-mount .container-2RRFHK {
+#app-mount .container__4bde3 {
 	background: var(--background-alt);
 	flex-direction: column;
 	justify-content: flex-start;
 	top: 0;
 	padding: 0;
-	.content-3AIQZv {
+	.content__0e954 {
 		flex-grow: 1;
 		display: flex;
 		align-items: center;
@@ -41,7 +41,7 @@
 			user-select: none;
 			height: 23px;
 		}
-		.text-2bYgPB {
+		.text__32559 {
 			top: 0;
 			display: flex;
 			justify-content: center;
@@ -65,7 +65,7 @@
 				background-size: 25px 10px, 100% 100%, 100% 100%;
 				background-color: var(--background);
 			}
-			.tipTitle-3FYEQp {
+			.tipTitle_a7615c {
 				max-width: 100%;
 				width: fit-content;
 				margin: 0;
@@ -80,7 +80,7 @@
 					content: ':';
 				}
 			}
-			.tip-1AwED_ {
+			.tip__6e299 {
 				color: var(--text-muted);
 				font-size: var(--font-size);
 				font-weight: var(--font-weight-normal);
@@ -91,7 +91,7 @@
 			}
 		}
 	}
-	.problems-CvGwpb {
+	.problems__755eb {
 		width: fit-content;
 		border-radius: var(--border-radius);
 		padding: 0;
@@ -100,10 +100,10 @@
 		margin: 0 var(--spacing);
 		margin-bottom: var(--spacing-double);
 		transition: none;
-		&.slideIn-VAD-dp {
+		&.slideIn__2c073 {
 			transform: translateX(-50%);
 		}
-		.problemsText-1DBHh5 {
+		.problemsText__046e8 {
 			font-size: var(--font-size);
 			color: var(--text-normal);
 			font-weight: var(--font-weight-normal);
@@ -140,7 +140,7 @@
 						inset 0 0 0 100vmax rgb(255, 255, 255, 0.1);
 				}
 			}
-			&.statusLink-TySQmC {
+			&.statusLink__7b889 {
 				color: var(--text-normal);
 				background: var(--background-light);
 				border: 1px solid var(--base-border);
@@ -162,7 +162,7 @@
 
 // Light Mode
 
-html.theme-light #app-mount .container-2RRFHK .problems-CvGwpb a.statusLink-TySQmC {
+html.theme-light #app-mount .container__4bde3 .problems__755eb a.statusLink__7b889 {
 	&:hover {
 		background: var(--background);
 		border: 1px solid var(--secondary-border);

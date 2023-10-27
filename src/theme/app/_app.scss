@@ -6,8 +6,8 @@ html {
 	line-height: var(--line-height);
 }
 
-.app-2CXKsg,
-.bg-1QIAus {
+.app_de4237,
+.bg__12180 {
 	background: var(--background);
 	transform: none !important;
 	top: 0 !important;
@@ -18,27 +18,27 @@ body {
 
 #app-mount {
 	background: var(--background);
-	.base-2jDfDU {
+	.base__3e6af {
 		border-radius: 0;
 		overflow: visible !important;
 	}
-	.layers-OrUESM {
+	.layers__1c917 {
 		z-index: 11;
 		overflow: visible;
 	}
-	.layer-86YKbF {
+	.layer__2efaa  {
 		opacity: 1 !important;
 		transform: none !important;
 		top: 0;
 		padding-top: 0;
-		&.animating-1rIrGV {
+		&.animating__27211 {
 			pointer-events: all;
 			will-change: unset;
 			* {
 				pointer-events: all !important;
 			}
 		}
-		&.baseLayer-W6S8cY {
+		&.baseLayer__8fda3 {
 			z-index: 1;
 		}
 	}
@@ -65,7 +65,7 @@ body {
 	}
 
 	// Remove box-shadow from chat
-	.content-1jQy2l::before {
+	.content__1a4fe::before {
 		content: none;
 	}
 

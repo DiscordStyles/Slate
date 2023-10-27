@@ -34,7 +34,7 @@
 			clip-path: polygon(0 100%, 100% 100%, 100% 0);
 			box-shadow: var(--elevation-1);
 		}
-		.description-3Cwkxk,
+		.description__76091,
 		.separator-1So4YB {
 			display: none;
 		}
@@ -53,7 +53,7 @@
 			width: 100%;
 			overflow: hidden;
 			position: relative;
-			.statusItem-2hiCNB {
+			.statusItem__3440f {
 				padding: 0;
 				max-height: unset;
 				display: flex;
@@ -74,7 +74,7 @@
 				height: auto;
 				font-size: var(--font-size);
 			}
-			.status-3TYC5W {
+			.status__0fce8 {
 				margin-left: var(--spacing);
 			}
 			&:first-child {
@@ -87,7 +87,7 @@
 			&.focused-3qFvc8 {
 				background: var(--accent-solid) !important;
 				color: #fff !important;
-				.customEmojiPlaceholder-3mRJqA {
+				.customEmojiPlaceholder_fe98c9 {
 					background: #fff !important;
 				}
 			}
@@ -99,27 +99,27 @@
 				> div {
 					max-width: 100%;
 				}
-				.customEmoji-1nCP1t {
+				.customEmoji__3a68d {
 					margin: 0;
 					margin-right: var(--spacing-half);
 				}
-				.customEmojiPlaceholder-3mRJqA,
+				.customEmojiPlaceholder_fe98c9,
 				.status-3Kz6VS {
 					width: 10px;
 					height: 10px;
 				}
-				.customEmojiPlaceholder-3mRJqA {
+				.customEmojiPlaceholder_fe98c9 {
 					background: var(--text-normal);
 					mask: url(assets.$icon_add) center/cover no-repeat;
 					margin: 0;
 				}
-				.clearStatusButton-GXA1lF {
+				.clearStatusButton__9346b {
 					order: -1;
 					margin-right: var(--spacing);
 					color: currentColor;
 					cursor: var(--cursor);
 				}
-				.clearStatusIcon-9SeHGZ {
+				.clearStatusIcon__7397a {
 					width: 10px;
 					height: 10px;
 					margin-left: 0;

@@ -1,27 +1,27 @@
 @use '../assets';
 
-#app-mount .member-2gU6Ar {
+#app-mount .member_aa4760 {
 	padding: 0;
 	margin: 0;
 	max-width: 100%;
 	background: transparent;
-	&.offline-22aM7E {
+	&.offline_c1fd80 {
 		opacity: 0.5;
 	}
 
 	// Generic member entries
-	.layout-1qmrhw {
+	.layout_bb8e67 {
 		border-radius: 0;
 		height: var(--member-height);
 		padding: 0 calc(var(--spacing) + 5px);
 		cursor: var(--cursor);
 	}
-	.avatar-6qzftW {
+	.avatar__6337f {
 		margin-right: var(--spacing-double);
 		width: var(--avatar-size-sm) !important;
 		height: var(--avatar-size-sm) !important;
 	}
-	.name-3Vmqxm {
+	.name__16feb {
 		font-size: var(--font-size);
 		font-weight: var(--font-weight-normal);
 		color: var(--text-normal);
@@ -31,20 +31,20 @@
 		width: var(--avatar-size-sm) !important;
 		height: var(--avatar-size-sm) !important;
 	}
-	.content-1U25dZ {
+	.content_a6999d {
 		overflow: visible;
 	}
-	.activity-2EQDZv {
+	.activity__3cbac {
 		font-size: var(--font-size-sm);
 		font-weight: var(--font-weight-semibold);
 		color: var(--text-muted);
-		.icon-Lupfh- {
+		.icon_d942d4 {
 			margin-left: calc(var(--spacing) / 4);
 		}
 	}
 
 	// Bot Tag
-	.botTag-2mryIa:not(.tag-wWVHyf) {
+	.botTag_a52f38:not(.tag-wWVHyf) {
 		font-size: 0;
 		padding: 0;
 		height: auto;
@@ -71,18 +71,18 @@
 			background: var(--text-normal);
 		}
 	}
-	&.selected-1-Z6gm {
-		.activity-2EQDZv,
+	&.selected__9800b {
+		.activity__3cbac,
 		.roleColor-nA7BqX {
 			color: #fff !important;
 		}
 	}
 
 	// Placeholders
-	&.placeholder-1WgmVn {
+	&.placeholder__65cd3 {
 		padding: 0 var(--spacing);
 		animation: none;
-		.placeholderAvatar-1qAcRZ {
+		.placeholderAvatar__21e48 {
 			border-radius: var(--border-radius);
 			border: 1px solid var(--base-border);
 			width: var(--avatar-size-sm);
@@ -90,13 +90,13 @@
 			background: var(--background-dark);
 		}
 	}
-	&.offline-22aM7E .wrapper-1VLyxH foreignObject::after {
+	&.offline_c1fd80 .wrapper-1VLyxH foreignObject::after {
 		content: none;
 	}
 }
-.mulitplePlaceholderUsername-2T3DCI,
-.placeholderUsername-3iQi_D,
-.memberGroupsPlaceholder-9tqX9V {
+.mulitplePlaceholderUsername__5bd27,
+.placeholderUsername__7fd2c,
+.memberGroupsPlaceholder_d0ae46 {
 	background: var(--text-muted);
 	opacity: 0.2;
 	height: 4px;

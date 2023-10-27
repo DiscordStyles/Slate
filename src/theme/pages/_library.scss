@@ -1,15 +1,15 @@
 #app-mount .container-36u7Lw {
 	background: var(--background-alt);
-	.container-3u6dG-::before {
+	.container__0eeef::before {
 		content: none;
 	}
-	.children-3xh0VB {
+	.children__32014 {
 		padding-right: 0;
 		&:hover {
 			background: transparent;
 		}
 	}
-	.scroller-2XLwLg {
+	.scroller__311cd {
 		background: var(--background-alt);
 		overflow: hidden;
 		&::-webkit-scrollbar {
@@ -37,29 +37,29 @@
 			}
 		}
 	}
-	.searchBar-1UNSCg {
+	.searchBar__1cca4 {
 		background: var(--background);
 		border: 1px solid var(--base-border);
 	}
-	.header-2EadGG {
+	.header_b5ab54 {
 		padding: var(--spacing);
 		background: var(--background-alt);
 		border-bottom-color: var(--base-border);
 		width: 100%;
 	}
-	.rowWrapper-N-4fji {
+	.rowWrapper__2d725 {
 		margin: 0;
 		border-bottom: 1px solid var(--base-border);
 		border-radius: 0;
 		padding-bottom: 0;
-		.bodyCell-10p1iS {
+		.bodyCell__4af8c {
 			padding: var(--spacing);
 		}
 		&:hover {
 			background: var(--background-light);
 		}
 	}
-	.scroller-1TOeMq {
+	.scroller__9c698 {
 		background-color: var(--background-alt);
 	}
 }

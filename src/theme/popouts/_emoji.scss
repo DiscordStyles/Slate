@@ -1,7 +1,7 @@
 @use '../assets';
 
 #app-mount {
-	.popoutContainer-2wbmiM {
+	.popoutContainer__7b9a3 {
 		width: 274px;
 		border-radius: var(--border-radius);
 		box-shadow: var(--elevation-1);
@@ -18,10 +18,10 @@
 				display: none;
 			}
 		}
-		.emojiSection-3QtaWO {
+		.emojiSection_a65b54 {
 			padding: var(--spacing);
 			background: transparent;
-			.primaryEmoji-2Og_xG {
+			.primaryEmoji__1194c {
 				width: var(--avatar-size-lg);
 				height: var(--avatar-size-lg);
 				min-width: unset;
@@ -44,11 +44,11 @@
 				width: auto;
 				margin-top: var(--spacing);
 			}
-			.truncatingText-3by0aD {
+			.truncatingText_b75c4c {
 				margin-left: var(--spacing);
 			}
 		}
-		.guildSection-2Zyzy8 {
+		.guildSection_ebda04 {
 			padding: var(--spacing);
 			background: var(--background-light);
 			border-top: 1px solid var(--base-border);
@@ -58,27 +58,27 @@
 					height: var(--avatar-size-lg);
 					foreignObject {
 						mask: none;
-						.guildIcon-EvT-p6 {
+						.guildIcon__119bb {
 							border-radius: var(--border-radius);
 						}
 					}
 				}
 			}
-			.guildName-3JcJGj {
+			.guildName__6b418 {
 				line-height: normal;
 			}
-			.guildTitle-1yMWvh {
+			.guildTitle_a1388f {
 				margin-bottom: var(--spacing-half);
 				font-size: var(--font-size);
 			}
-			.overflow-1wOqNV {
+			.overflow__87fe8 {
 				color: var(--text-normal);
 				font-size: var(--font-size);
 			}
-			.dotSeparator-2N42Ni {
+			.dotSeparator_d9bc79 {
 				background-color: var(--text-muted);
 			}
-			.showMoreEmojis-1K08_X {
+			.showMoreEmojis_f6c485 {
 				min-height: var(--input-height);
 				height: var(--input-height);
 				line-height: normal;
@@ -96,10 +96,10 @@
 				font-size: var(--font-size);
 				font-weight: var(--font-weight-normal);
 				color: var(--text-normal);
-				.flex-2S1XBF {
+				.flex_f5fbb7 {
 					flex-grow: 0 !important;
 				}
-				.showMoreEmojisArrow-2zv_xG {
+				.showMoreEmojisArrow__1e8bb {
 					display: none;
 				}
 				&:hover {
@@ -114,7 +114,7 @@
 	}
 }
 
-html.theme-light #app-mount .container-ZRw2kD .guildSection-2Zyzy8 .showMoreEmojis-1K08_X {
+html.theme-light #app-mount .container-ZRw2kD .guildSection_ebda04 .showMoreEmojis_f6c485 {
 	&:hover {
 		background: var(--background);
 		border: 1px solid var(--secondary-border);

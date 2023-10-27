@@ -1,33 +1,33 @@
-#app-mount .guilds-2JjMmN {
+#app-mount .guilds__2b93a {
 	border-right: 1px solid var(--base-border);
 	box-sizing: border-box;
 	background: transparent;
-	.scrollerBase-1Pkza4 {
+	.scrollerBase_dc3aa9 {
 		background: var(--guilds-background);
 		contain: none;
 		padding-top: var(--noasw-padding);
 	}
-	.guildSeparator-a4uisj {
+	.guildSeparator_dcb3cc {
 		background: var(--base-border);
 		height: 1px;
 	}
 
 	// Remove Active Animations
 	.blobContainer-3X98Pc,
-	.listItemWrapper-3d87LP {
+	.listItemWrapper__1f93b {
 		transform: none;
 	}
 }
 
 .theme-light {
-	#app-mount .guilds-2JjMmN {
-		.childWrapper-1j_1ub,
+	#app-mount .guilds__2b93a {
+		.childWrapper__01b9c,
 		.circleIconButton-1QV--U,
-		.wrapper-3kah-n,
+		.wrapper_d281dd,
 		.wrapper-28eC3z {
 			background: var(--background-dark);
 		}
-		.wrapper-3kah-n.selected-1JjBPm .childWrapper-1j_1ub {
+		.wrapper_d281dd.selected-1JjBPm .childWrapper__01b9c {
 			color: var(--white);
 		}
 	}

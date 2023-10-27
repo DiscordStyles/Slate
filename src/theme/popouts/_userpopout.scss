@@ -57,7 +57,7 @@
 			align-items: center;
 			width: 100%;
 		}
-		&:not(.section--1D3ev) > :not(.title-1r9MQ6) {
+		&:not(.section--1D3ev) >:not(.title-1r9MQ6) {
 			padding: var(--spacing);
 		}
 	}
@@ -75,7 +75,7 @@
 		gap: var(--spacing-half);
 	}
 	.member-perm,
-	.role-2TIOKu {
+	.role__631a3 {
 		border: none;
 		position: relative;
 		border-radius: 50px;
@@ -85,25 +85,25 @@
 		height: auto;
 		height: 22px;
 		background: transparent;
-		&:hover .roleCircle-3TFUOr,
-		&:active .roleCircle-3TFUOr {
+		&:hover .roleCircle_bae511,
+		&:active .roleCircle_bae511 {
 			opacity: 1;
 			box-sizing: border-box;
-			.roleRemoveIcon-387wKV {
+			.roleRemoveIcon__7f63d {
 				opacity: 1;
 			}
 		}
 
-		.roleRemoveButton-17oXnT {
+		.roleRemoveButton__737f2 {
 			position: absolute;
 			inset: 0;
-			&[aria-hidden='false']:hover ~ .roleName-2ZJJYR {
+			&[aria-hidden='false']:hover ~ .roleName_d19d33 {
 				opacity: 0;
 				pointer-events: none;
 			}
 		}
 		.perm-circle,
-		.roleCircle-3TFUOr {
+		.roleCircle_bae511 {
 			margin: 0;
 			border-radius: var(--border-radius);
 			position: absolute;
@@ -113,7 +113,7 @@
 			height: 100%;
 			opacity: 0.75;
 			filter: none;
-			.roleRemoveIcon-387wKV {
+			.roleRemoveIcon__7f63d {
 				position: relative;
 				z-index: 10;
 				background: inherit;
@@ -131,7 +131,7 @@
 			}
 		}
 		.member-perm .name,
-		.roleName-2ZJJYR {
+		.roleName_d19d33 {
 			overflow: hidden;
 			line-height: normal;
 			position: relative;
@@ -142,7 +142,7 @@
 			font-weight: var(--font-weight-normal);
 		}
 	}
-	.actionButton-1YKTU0 {
+	.actionButton__81eaa {
 		position: absolute;
 		top: calc(var(--spacing-triple) / -1 - var(--spacing-half) - 2px);
 		right: 0;
@@ -155,7 +155,7 @@
 		color: var(--text-muted);
 		cursor: var(--cursor);
 		height: 26px;
-		.addButtonIcon-3HZ_2f {
+		.addButtonIcon__6a05a {
 			height: var(--font-size);
 			width: var(--font-size);
 			cursor: var(--cursor);

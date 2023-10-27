@@ -1,24 +1,24 @@
-#app-mount .chatContent-3KubbW .divider-2rZFJK {
+#app-mount .chatContent__5dca8 .divider_b9338f {
 	height: auto;
 	margin: 0;
 	padding: var(--spacing-half) 0;
 	border-top: 1px solid var(--base-border);
 	background: var(--background);
 	top: 0;
-	.content-3spvdd {
+	.content_d67847 {
 		background: transparent;
 		font-size: var(--font-size-xsm);
 		padding: 0 var(--spacing) 0 0;
 	}
-	& + li > .cozy-VmLDNB.groupStart-3Mlgv1 {
+	& + li > .cozy_f5c119.groupStart__56db5 {
 		margin-top: 0;
 	}
-	& + .wrapper-30-Nkg.cozy-VmLDNB {
+	& + .wrapper__09ecc.cozy_f5c119 {
 		margin-top: 0;
 	}
-	&.isUnread-3Lojb- {
+	&.isUnread__6f880 {
 		border-bottom: 1px solid var(--base-border);
-		.unreadPill-3nEWYM {
+		.unreadPill__715fc {
 			position: unset;
 			background: transparent;
 			font-size: var(--font-size-xsm);
@@ -28,7 +28,7 @@
 				display: none;
 			}
 		}
-		& + li > .cozy-VmLDNB {
+		& + li > .cozy_f5c119 {
 			margin-top: calc(var(--spacing) - 12px);
 		}
 	}

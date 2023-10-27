@@ -1,4 +1,4 @@
-#app-mount .uploadModal-2ie9O_ {
+#app-mount .uploadModal_eae2a0 {
 	box-shadow: var(--elevation-high);
 	background-color: var(--background);
 	border-radius: var(--border-radius);
@@ -7,20 +7,20 @@
 	position: relative;
 	padding-top: 32px;
 	min-height: unset;
-	.inner-rBP-MS {
+	.inner__7afe9 {
 		margin: 0;
 		padding: var(--spacing-double);
 		box-sizing: border-box;
 	}
-	.file-163EuR {
+	.file_f309f6 {
 		position: unset;
 		height: auto;
 	}
-	.icon-HW4tZ- {
-		&:not(.image-2ssF8k) {
+	.icon__25b13 {
+		&:not(.image__00ac0) {
 			display: none;
 		}
-		&.image-2ssF8k {
+		&.image__00ac0 {
 			margin: 0 !important;
 			width: 100% !important;
 			height: auto !important;
@@ -36,7 +36,7 @@
 			}
 		}
 	}
-	.description-2AJi-V {
+	.description__4ba40 {
 		height: auto;
 		padding-top: 0;
 		position: absolute;
@@ -51,7 +51,7 @@
 		background: var(--background);
 		width: 100%;
 		border-radius: var(--border-radius) var(--border-radius) 0 0;
-		.filename-1r50Xu {
+		.filename__06077 {
 			font-size: var(--font-size);
 			font-weight: var(--font-weight-semibold);
 			color: var(--text-normal);
@@ -60,16 +60,16 @@
 			user-select: text;
 		}
 	}
-	.comment-1kpwc5 {
+	.comment__3f7b9 {
 		margin: 0;
 		margin-top: var(--spacing);
-		.label-21vOgf {
+		.label__7d3d6 {
 			font-size: var(--font-size);
 			color: var(--text-normal);
 			font-weight: var(--font-weight-normal);
 			text-transform: none;
 			margin-bottom: var(--spacing-third);
-			.optional-2lmRBw {
+			.optional_ec76ce {
 				margin: 0;
 				color: var(--text-muted);
 				&::before {
@@ -77,11 +77,11 @@
 				}
 			}
 		}
-		.channelTextArea-1VQBuV {
+		.channelTextArea__56a36 {
 			margin: 0;
-			.inner-NQg18Y {
+			.inner__9fd0b {
 				background: var(--background-alt);
-				.scrollableContainer-15eg7h {
+				.scrollableContainer__33e06 {
 					border-radius: var(--border-radius);
 				}
 			}
@@ -91,7 +91,7 @@
 		font-size: var(--font-size);
 		opacity: 0.5;
 	}
-	.footer-VCsJQY {
+	.footer_ceda43 {
 		background: var(--background);
 		box-shadow: none;
 		border-top: 1px solid var(--base-border);

@@ -1,8 +1,8 @@
 @use '../assets';
 
-#app-mount .container-2cd8Mz {
+#app-mount .container__5c7e7 {
 	background: var(--background-alt);
-	.peopleColumn-1wMU14 .wrapper-1VLyxH {
+	.peopleColumn__51df3 .wrapper-1VLyxH {
 		width: var(--avatar-size) !important;
 		height: var(--avatar-size) !important;
 	}
@@ -15,7 +15,7 @@
 		height: 30px;
 		border-bottom: 1px solid var(--base-border);
 		box-sizing: border-box;
-		.item-3mHhwr {
+		.item_e4ca95 {
 			margin: 0;
 			font-size: var(--font-size);
 			font-weight: var(--font-weight-normal);
@@ -26,7 +26,7 @@
 			color: var(--text-normal) !important;
 			border-right: 1px solid var(--base-border);
 			flex-grow: 1;
-			.badge-3wMLmL {
+			.badge_d35eba {
 				margin-left: var(--spacing-half);
 			}
 			&:hover {
@@ -45,18 +45,18 @@
 		}
 	}
 	// List
-	.peopleColumn-1wMU14 {
+	.peopleColumn__51df3 {
 		padding-top: 30px;
 	}
-	.peopleColumn-1wMU14 .scrollerBase-_bVAAt {
+	.peopleColumn__51df3 .scrollerBase-_bVAAt {
 		margin-bottom: calc(var(--avatar-size-sm) + var(--spacing-double) - 6px);
 		margin-top: 0;
 		padding-bottom: 0;
 	}
-	.title-338goq {
+	.title__10613 {
 		display: none;
 	}
-	.peopleListItem-u6dGxF {
+	.peopleListItem_d14722 {
 		border-top: none;
 		margin: 0;
 		padding: var(--spacing-double);
@@ -66,44 +66,44 @@
 		&:not(:first-child) {
 			border-bottom: 1px solid var(--base-border);
 		}
-		&.peopleListItem-u6dGxF.active-2UF8Zh,
-		&.peopleListItem-u6dGxF:hover {
+		&.peopleListItem_d14722.active__6b8ff,
+		&.peopleListItem_d14722:hover {
 			background: var(--background-modifier-hover);
 		}
 		&:active {
 			background: var(--background-modifier-active) !important;
 		}
 	}
-	.userInfo-2WpsYG {
+	.userInfo__18240 {
 		overflow: visible;
 		width: 100%;
 		flex: 1;
 	}
-	.nameTag-H6kSJ0 {
+	.nameTag__693ff {
 		line-height: var(--line-height);
 	}
-	.username-Qpc78p {
+	.username__81ee6 {
 		font-weight: var(--font-weight-normal);
 		line-height: normal;
 		font-size: var(--font-size);
 		color: var(--text-focus);
 		align-items: center;
 	}
-	.discriminator-WV5K5s {
+	.discriminator_aef524 {
 		font-size: var(--font-size-sm);
 	}
-	.text-MPIeXO {
+	.text__1dddb {
 		font-size: var(--font-size-sm);
 		color: var(--text-muted);
 		line-height: normal;
 	}
-	.subtext-xfubwR {
+	.subtext__1a662 {
 		color: var(--text-muted);
 	}
-	.actions-OJh0Kn {
+	.actions__93d0e {
 		margin-left: var(--spacing);
 	}
-	.actionButton-3-B2x- {
+	.actionButton__23182 {
 		color: var(--text-normal);
 		background: var(--background-light);
 		min-height: var(--input-height);
@@ -133,13 +133,13 @@
 
 	// Empty State Messages
 
-	.image-20MDYu {
+	.image__98a59 {
 		margin: 0;
 		width: 175px !important;
 		height: 175px !important;
 		background: url(assets.$illustration_7) center/contain no-repeat !important;
 	}
-	.text-27cdrj {
+	.text__1c14c {
 		display: none;
 	}
 }
