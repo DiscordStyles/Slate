@@ -1,3 +1,8 @@
+# Slate is discontinued.
+> This theme was too large to keep up to date with all of Discord massive changes.
+> 
+> If anyone is willing to take this theme over, by all means go for it.
+
 <h1 align="center">Slate</h1>
 <p align="center">An optimized, consistent, and functional theme for Discord based on GitHub's design language.</p>
 
