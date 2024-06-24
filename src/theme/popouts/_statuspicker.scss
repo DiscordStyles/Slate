@@ -69,6 +69,14 @@
 				.status-2DiCMd[style='background-color: rgb(116, 127, 141);'] {
 					background: rgb(var(--status-grey)) !important;
 				}
+				//Gets rid of the text bellow do not disturb status
+				.description-1Dd2kv {
+    					font-size: 0px;
+				}
+				//Centers the status options 
+				.statusItem-38ArJn {
+    					padding: 1px 8px;
+				}
 			}
 			.statusIconText-3b4TkH {
 				height: auto;
